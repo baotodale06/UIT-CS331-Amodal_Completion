@@ -1,0 +1,27 @@
+* text=auto
+*.py text eol=lf
+*.sh text eol=lf
+*.sbatch text eol=lf
+*.ps1 text eol=lf
+*.md text eol=lf whitespace=-blank-at-eol,-blank-at-eof
+*.json text eol=lf
+*.toml text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.lock text eol=lf
+*.in text eol=lf
+# Tests verify the exact upstream bytes, including line endings.
+/tests/fixtures/official/** -text
+/tests/fixtures/pdmc_main.py -text -whitespace
+# Retain imported bytes used by existing research freezes.
+/scripts/build_surface_report.py -text whitespace=cr-at-eol
+/scripts/package_expanded_appearance_report.py -text whitespace=cr-at-eol
+/scripts/prepare_human_review.py -text whitespace=cr-at-eol
+/scripts/summarize_human_review.py -text whitespace=cr-at-eol
+/configs/research/surface-consistency-replication-v1.json -text whitespace=cr-at-eol
+.gitattributes text eol=lf
+.gitignore text eol=lf
+.python-version text eol=lf
+*.png binary
+*.jpg binary
+*.pdf binary

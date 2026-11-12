@@ -1,0 +1,15 @@
+include README.md SETUP_NEW_COMPETITION.md OPEN_WORLD_REPRODUCTION.md AMODAL_SLURM.md
+include requirements.txt run_amodal_slurm.sh run_pdmc_open_world.sh
+include requirements-analysis.txt
+include BENCHMARK_WORKFLOW.md CONTRIBUTING.md .python-version
+recursive-include requirements *.in *.lock *.md
+recursive-include configs *.json
+recursive-include scripts *.py *.ps1 *.sh
+recursive-include tests *.py *.sh *.json *.md
+recursive-include cookbooks *.md
+recursive-include docs *.md
+global-exclude __pycache__ *.py[cod]
+prune datasets
+prune output
+prune input
+prune logs

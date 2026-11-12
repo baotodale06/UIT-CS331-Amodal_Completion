@@ -1,0 +1,12 @@
+{
+  "extends": "baseline.json",
+  "inference": {
+    "pipeline_profile": "benchmark",
+    "target_selection": "reference-best",
+    "boundary_check": "paper"
+  },
+  "experiment": {
+    "hypothesis": "Evaluate PD-MC with independent LISA visible references and the repaired paper boundary rule.",
+    "changed_factor": null
+  }
+}

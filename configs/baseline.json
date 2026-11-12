@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "project": {"slug": "open-world-amodal", "task": "amodal-appearance-completion"},
+  "evaluation_scope": "full",
+  "dataset": {
+    "root": "datasets/open_world_amodal",
+    "sources": ["VG", "COCOA", "free_images", "laion"],
+    "limit": null,
+    "allow_incomplete": false
+  },
+  "inference": {
+    "pipeline_profile": "released-sam",
+    "target_selection": "label-semantic",
+    "boundary_check": "released",
+    "background_sizing": "auto",
+    "detector_vocabulary": "released",
+    "seed": 0,
+    "mc_timestep": 35,
+    "max_iter": 5,
+    "sd_model": "sd2-community/stable-diffusion-2-inpainting"
+  },
+  "metrics": {"alignment": "released"},
+  "execution": {"workers": 4},
+  "experiment": {
+    "hypothesis": "Establish the released-vocabulary PD-MC baseline using semantic matcher v2 and SAM visible references.",
+    "changed_factor": null
+  }
+}

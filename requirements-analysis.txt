@@ -1,0 +1,9 @@
+# Optional CPU-only reporting environment; never install over the GPU environment.
+# Versions used for the 2026-11-07 appearance-failure deliverable (Python 3.14).
+numpy==2.5.4
+Pillow==12.3.0
+matplotlib==3.11.2
+scipy==1.18.1
+reportlab==4.5.1
+pypdf==6.21.4
+pycocotools==2.0.11

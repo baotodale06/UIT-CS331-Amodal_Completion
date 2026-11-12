@@ -1,0 +1,8 @@
+{
+  "extends": "baseline.json",
+  "inference": {"detector_vocabulary": "annotated"},
+  "experiment": {
+    "hypothesis": "Per-image annotation queries reduce missing-category target selection failures.",
+    "changed_factor": "inference.detector_vocabulary"
+  }
+}

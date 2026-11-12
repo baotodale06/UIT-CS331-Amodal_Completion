@@ -1,0 +1,9 @@
+{
+  "extends": "baseline.json",
+  "evaluation_scope": "smoke",
+  "dataset": {"limit": 8},
+  "experiment": {
+    "hypothesis": "Validate four GPU workers, completion generation and learned metrics before the full baseline. The first two targets historically fail selection; the first eight include a saved completion.",
+    "changed_factor": null
+  }
+}

@@ -1,0 +1,7 @@
+# Python 3.12 CPU development and offline regression suite.
+# Keep compatible with pyproject.toml; never install into the GPU environment.
+numpy==1.26.4
+Pillow==11.3.0
+requests==2.32.5
+scipy==1.13.1
+scikit-learn==1.5.2

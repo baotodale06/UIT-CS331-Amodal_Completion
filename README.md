@@ -1,3 +1,52 @@
+# UIT CS331: reproducible amodal completion
+
+This repository retains the original PD-MC implementation and adds the team's
+Open-World benchmark, explicit experiment configs, regression tests, provenance
+verification and Surface-PMC research tooling.
+
+**Start here: [collaborator setup guide](docs/GETTING_STARTED.md).**
+The supported development environment is Python 3.12 on Linux/WSL; CPU
+installation and checks do not require CUDA, datasets or model downloads.
+
+```bash
+git clone --branch setup/reproducible-development \
+  https://github.com/baotodale06/UIT-CS331-Amodal_Completion.git
+cd UIT-CS331-Amodal_Completion
+python3.12 scripts/setup_cpu.py
+source .venv-cpu/bin/activate
+bash scripts/check.sh
+```
+
+The installer verifies exact dependency hashes and uses a dedicated `.venv-cpu`.
+GitHub Actions runs the same offline suite and package build. Two optional tests
+need historical artifacts and skip in a fresh clone. For a personal branch:
+
+```bash
+git switch -c feature/my-change
+```
+
+| Next step | Guide |
+| --- | --- |
+| Contribute and open a PR | [CONTRIBUTING.md](CONTRIBUTING.md) |
+| Dataset, GPU provisioning and first experiment | [GETTING_STARTED.md](docs/GETTING_STARTED.md) |
+| Experiment configuration and verification | [BENCHMARK_WORKFLOW.md](BENCHMARK_WORKFLOW.md) |
+| GPU runtime details | [AMODAL_SLURM.md](AMODAL_SLURM.md) |
+| Evaluation protocol and limits | [OPEN_WORLD_REPRODUCTION.md](OPEN_WORLD_REPRODUCTION.md) |
+| Dependency locks | [requirements/README.md](requirements/README.md) |
+| Research notes, code map and original proposals | [docs/README.md](docs/README.md) |
+
+Datasets, checkpoints, caches and generated research artifacts are external to
+Git. The CPU environment is separate from the pinned Python 3.10 / PyTorch 1.13.1 /
+CUDA 11.7 GPU environment provisioned by `run_amodal_slurm.sh`. Keep the two
+separate. Root `requirements.txt` and `install.sh` below belong to the original
+release; use the collaborator guide for the maintained benchmark workflow.
+The runner uses a pinned model checkout under its cache, so editing root
+`main.py` alone does not change benchmark inference.
+
+## Original upstream README
+
+The original authors' setup, usage and citation follow for reference.
+
 ## Amodal Completion via Progressive Mixed Context Diffusion (CVPR 2024)
 ### [Project Page](https://k8xu.github.io/amodal/) | [Paper](https://arxiv.org/pdf/2312.15540.pdf) | [arXiv](https://arxiv.org/abs/2312.15540) | [Bibtex](#bibtex)
 

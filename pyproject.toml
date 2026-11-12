@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=69,<82", "wheel>=0.40,<1"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "amodal-benchmark"
+version = "0.2.0"
+description = "Reproducible PD-MC evaluation on the Open-World Amodal Appearance Completion benchmark"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.23.5,<3", "Pillow>=9.5,<13", "requests>=2.28,<3"]
+
+[project.optional-dependencies]
+research = ["scipy>=1.9,<2"]
+
+[project.scripts]
+amodal = "amodal_benchmark.cli:main"
+
+[tool.setuptools]
+packages = ["amodal_benchmark"]
+py-modules = ["evaluate_open_world", "evaluate_pdmc_open_world", "prepare_open_world", "prepare_visible_references", "compare_open_world", "run_open_world_controls"]

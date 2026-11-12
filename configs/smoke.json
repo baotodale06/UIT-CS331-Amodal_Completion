@@ -1,0 +1,10 @@
+{
+  "extends": "baseline.json",
+  "evaluation_scope": "smoke",
+  "dataset": {"limit": 2},
+  "execution": {"workers": 1},
+  "experiment": {
+    "hypothesis": "Exercise two real targets before allocating a full evaluation.",
+    "changed_factor": null
+  }
+}

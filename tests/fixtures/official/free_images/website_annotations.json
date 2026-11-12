@@ -1,0 +1,1508 @@
+{
+    "annotations": [
+        {
+            "filename": "website/dairy-cattle-9018750_640_cow.jpg",
+            "labels": [
+                "cow"
+            ]
+        },
+        {
+            "filename": "website/western-diamondback-rattlesnake-9014179_640_snake.jpg",
+            "labels": [
+                "snake"
+            ]
+        },
+        {
+            "filename": "website/living-room-9061302_640_sofa.jpg",
+            "labels": [
+                "sofa"
+            ]
+        },
+        {
+            "filename": "website/squirrel-9044925_640_squirrel.jpg",
+            "labels": [
+                "squirrel"
+            ]
+        },
+        {
+            "filename": "website/pet-9040516_640_cat.jpg",
+            "labels": [
+                "cat"
+            ]
+        },
+        {
+            "filename": "website/crimson-rosella-9007843_640_bird.jpg",
+            "labels": [
+                "bird"
+            ]
+        },
+        {
+            "filename": "website/flowers-8991384_640_vase.jpg",
+            "labels": [
+                "vase"
+            ]
+        },
+        {
+            "filename": "website/pexels-erika-andrade-1358382831-28347061_spoon.jpg",
+            "labels": [
+                "spoon"
+            ]
+        },
+        {
+            "filename": "website/pexels-erika-andrade-1358382831-28347061_plate.jpg",
+            "labels": [
+                "plate"
+            ]
+        },
+        {
+            "filename": "website/pexels-erika-andrade-1358382831-28347061_magazine.jpg",
+            "labels": [
+                "magazine"
+            ]
+        },
+        {
+            "filename": "website/pexels-thefullonmonet-27981151_cello.jpg",
+            "labels": [
+                "cello"
+            ]
+        },
+        {
+            "filename": "website/pexels-betul-1793145775-28318918_book.jpg",
+            "labels": [
+                "book"
+            ]
+        },
+        {
+            "filename": "website/pexels-micklejandro-12944502_chair.jpg",
+            "labels": [
+                "chair"
+            ]
+        },
+        {
+            "filename": "website/pexels-necip-duman-3299706-26694146_laptop.jpg",
+            "labels": [
+                "laptop"
+            ]
+        },
+        {
+            "filename": "website/pexels-erika-andrade-1358382831-28347063_magazine.jpg",
+            "labels": [
+                "magazine"
+            ]
+        },
+        {
+            "filename": "website/pexels-erika-andrade-1358382831-28347063_laptop.jpg",
+            "labels": [
+                "laptop"
+            ]
+        },
+        {
+            "filename": "website/pexels-erika-andrade-1358382831-28347063_plate.jpg",
+            "labels": [
+                "plate"
+            ]
+        },
+        {
+            "filename": "website/pexels-pincalo-15030608_monkey.jpg",
+            "labels": [
+                "monkey"
+            ]
+        },
+        {
+            "filename": "website/pexels-julias-torten-und-tortchen-434418-19021563_icecreamcone.jpg",
+            "labels": [
+                "ice cream cone"
+            ]
+        },
+        {
+            "filename": "website/pexels-ilia-bronskiy-1137858493-25347405_goblet.jpg",
+            "labels": [
+                "goblet"
+            ]
+        },
+        {
+            "filename": "website/pexels-jassi-27077995_monkey.jpg",
+            "labels": [
+                "monkey"
+            ]
+        },
+        {
+            "filename": "website/pexels-caleb-falkenhagen-216813613-27067814_leopard.jpg",
+            "labels": [
+                "leopard"
+            ]
+        },
+        {
+            "filename": "website/pexels-maria-fernanda-fotografia-333886702-13925674_stool.jpg",
+            "labels": [
+                "stool"
+            ]
+        },
+        {
+            "filename": "website/pexels-polina-1620494681-27540341_horse.jpg",
+            "labels": [
+                "horse"
+            ]
+        },
+        {
+            "filename": "website/pexels-olga-helmel-1619670895-27548513_magazine.jpg",
+            "labels": [
+                "magazine"
+            ]
+        },
+        {
+            "filename": "website/pexels-olga-helmel-1619670895-27548513_greenchair.jpg",
+            "labels": [
+                "green chair"
+            ]
+        },
+        {
+            "filename": "website/pexels-olga-helmel-1619670895-27548513_bag.jpg",
+            "labels": [
+                "bag"
+            ]
+        },
+        {
+            "filename": "website/mathias-reding-w-U7ktLC4ic-unsplash_flowerpot.jpg",
+            "labels": [
+                "flowerpot"
+            ]
+        },
+        {
+            "filename": "website/samsung-memory-zoiIncvoQtE-unsplash_phone.jpg",
+            "labels": [
+                "phone"
+            ]
+        },
+        {
+            "filename": "website/wolf-8966849_640_wolf.jpg",
+            "labels": [
+                "wolf"
+            ]
+        },
+        {
+            "filename": "website/pexels-efe-ersoy-393937500-20157647_tram.jpg",
+            "labels": [
+                "tram"
+            ]
+        },
+        {
+            "filename": "website/pexels-sean-hwang-751535597-27260680_vase.jpg",
+            "labels": [
+                "vase"
+            ]
+        },
+        {
+            "filename": "website/pexels-alinaskazka-27401681_advertisingboard.jpg",
+            "labels": [
+                "advertising board"
+            ]
+        },
+        {
+            "filename": "website/pexels-merve-205352359-13760155_beerbottle.jpg",
+            "labels": [
+                "beer bottle"
+            ]
+        },
+        {
+            "filename": "website/pexels-merve-205352359-13760155_bluebox.jpg",
+            "labels": [
+                "blue box"
+            ]
+        },
+        {
+            "filename": "website/bird-8951872_640_bird.jpg",
+            "labels": [
+                "bird"
+            ]
+        },
+        {
+            "filename": "website/sparrow-8937767_640_eagle.jpg",
+            "labels": [
+                "eagle"
+            ]
+        },
+        {
+            "filename": "website/animal-8937149_640_sheep.jpg",
+            "labels": [
+                "sheep"
+            ]
+        },
+        {
+            "filename": "website/australia-8934578_640_building.jpg",
+            "labels": [
+                "building"
+            ]
+        },
+        {
+            "filename": "website/crested-macaque-8930549_640_gorilla.jpg",
+            "labels": [
+                "gorilla"
+            ]
+        },
+        {
+            "filename": "website/man-8926813_640_guitar.jpg",
+            "labels": [
+                "guitar"
+            ]
+        },
+        {
+            "filename": "website/woman-8920944_640_ship.jpg",
+            "labels": [
+                "ship"
+            ]
+        },
+        {
+            "filename": "website/camera-8031914_640_camera.jpg",
+            "labels": [
+                "camera"
+            ]
+        },
+        {
+            "filename": "website/desktop-computer-with-open-sketchbooks_desktop.jpg",
+            "labels": [
+                "desktop"
+            ]
+        },
+        {
+            "filename": "website/pexels-rahimegul-28483335_teapot.jpg",
+            "labels": [
+                "teapot"
+            ]
+        },
+        {
+            "filename": "website/pexels-rahimegul-26926769_leaf.jpg",
+            "labels": [
+                "leaf"
+            ]
+        },
+        {
+            "filename": "website/pexels-rahimegul-26926769_choppingboard.jpg",
+            "labels": [
+                "chopping board"
+            ]
+        },
+        {
+            "filename": "website/pexels-rahimegul-26926769_basket.jpg",
+            "labels": [
+                "basket"
+            ]
+        },
+        {
+            "filename": "website/pexels-rahimegul-18361797_motorcycle.jpg",
+            "labels": [
+                "motorcycle"
+            ]
+        },
+        {
+            "filename": "website/pexels-indraprojectsofficial-28545167_radio.jpg",
+            "labels": [
+                "radio"
+            ]
+        },
+        {
+            "filename": "website/hands-1851218_640_phone.jpg",
+            "labels": [
+                "phone"
+            ]
+        },
+        {
+            "filename": "website/gift-4669449_640_giftbox.jpg",
+            "labels": [
+                "gift box"
+            ]
+        },
+        {
+            "filename": "website/pumpkin-1768857_640_basket.jpg",
+            "labels": [
+                "basket"
+            ]
+        },
+        {
+            "filename": "website/pumpkin-1768857_640_pumpkin.jpg",
+            "labels": [
+                "pumpkin"
+            ]
+        },
+        {
+            "filename": "website/wallet-3548021_640_wallet.jpg",
+            "labels": [
+                "wallet"
+            ]
+        },
+        {
+            "filename": "website/cottage-2955582_640_house.jpg",
+            "labels": [
+                "house"
+            ]
+        },
+        {
+            "filename": "website/office-925806_640_laptop.jpg",
+            "labels": [
+                "laptop"
+            ]
+        },
+        {
+            "filename": "website/office-925806_640_cup.jpg",
+            "labels": [
+                "cup"
+            ]
+        },
+        {
+            "filename": "website/zoo-8378189_640_parrot.jpg",
+            "labels": [
+                "parrot"
+            ]
+        },
+        {
+            "filename": "website/write-4491416_640_pen.jpg",
+            "labels": [
+                "pen"
+            ]
+        },
+        {
+            "filename": "website/plant-4243898_640_table.jpg",
+            "labels": [
+                "table"
+            ]
+        },
+        {
+            "filename": "website/cat-1647775_640_cat.jpg",
+            "labels": [
+                "cat"
+            ]
+        },
+        {
+            "filename": "website/violin-1617972_640_violin.jpg",
+            "labels": [
+                "violin"
+            ]
+        },
+        {
+            "filename": "website/violin-1617972_640_chair.jpg",
+            "labels": [
+                "chair"
+            ]
+        },
+        {
+            "filename": "website/computer-5837248_640_laptop.jpg",
+            "labels": [
+                "laptop"
+            ]
+        },
+        {
+            "filename": "website/computer-5837248_640_cup.jpg",
+            "labels": [
+                "cup"
+            ]
+        },
+        {
+            "filename": "website/tv-set-4308537_640_TVremotecontrol.jpg",
+            "labels": [
+                "TV remote control"
+            ]
+        },
+        {
+            "filename": "website/tv-set-4308537_640_TV.jpg",
+            "labels": [
+                "TV"
+            ]
+        },
+        {
+            "filename": "website/credit-card-machine-4577769_640_creditcard.jpg",
+            "labels": [
+                "credit card"
+            ]
+        },
+        {
+            "filename": "website/credit-card-machine-4577769_640_POSmachine.jpg",
+            "labels": [
+                "POS machine"
+            ]
+        },
+        {
+            "filename": "website/woman-2564660_640_backpack.jpg",
+            "labels": [
+                "backpack"
+            ]
+        },
+        {
+            "filename": "website/pizza-4952534_640_pizza.jpg",
+            "labels": [
+                "pizza"
+            ]
+        },
+        {
+            "filename": "website/wheelchair-1595794_640_wheelchair.jpg",
+            "labels": [
+                "wheelchair"
+            ]
+        },
+        {
+            "filename": "website/grey-wolf-7589920_640_wolf.jpg",
+            "labels": [
+                "wolf"
+            ]
+        },
+        {
+            "filename": "website/woman-7381889_640_scooter.jpg",
+            "labels": [
+                "scooter"
+            ]
+        },
+        {
+            "filename": "website/woman-7381889_640_blackcar.jpg",
+            "labels": [
+                "black car"
+            ]
+        },
+        {
+            "filename": "website/coins-1015125_640_potato.jpg",
+            "labels": [
+                "potato"
+            ]
+        },
+        {
+            "filename": "website/coins-1015125_640_calculator.jpg",
+            "labels": [
+                "calculator"
+            ]
+        },
+        {
+            "filename": "website/guitar-2141120_640_guitar.jpg",
+            "labels": [
+                "guitar"
+            ]
+        },
+        {
+            "filename": "website/passport-3127934_640_passport.jpg",
+            "labels": [
+                "passport"
+            ]
+        },
+        {
+            "filename": "website/summer-1346286_640_sunglasses.jpg",
+            "labels": [
+                "sunglasses"
+            ]
+        },
+        {
+            "filename": "website/time-5193038_640_cup.jpg",
+            "labels": [
+                "cup"
+            ]
+        },
+        {
+            "filename": "website/time-5193038_640_glasses.jpg",
+            "labels": [
+                "glasses"
+            ]
+        },
+        {
+            "filename": "website/breakfast-1242529_640_bread.jpg",
+            "labels": [
+                "bread"
+            ]
+        },
+        {
+            "filename": "website/giraffe-6378717_640_giraffe.jpg",
+            "labels": [
+                "giraffe"
+            ]
+        },
+        {
+            "filename": "website/horse-1006570_640_horse.jpg",
+            "labels": [
+                "horse"
+            ]
+        },
+        {
+            "filename": "website/compass-5261062_640_compass.jpg",
+            "labels": [
+                "compass"
+            ]
+        },
+        {
+            "filename": "website/dog-64463_640_dog.jpg",
+            "labels": [
+                "dog"
+            ]
+        },
+        {
+            "filename": "website/architect-1080592_640_house.jpg",
+            "labels": [
+                "house"
+            ]
+        },
+        {
+            "filename": "website/economic-1050731_640_calculator.jpg",
+            "labels": [
+                "calculator"
+            ]
+        },
+        {
+            "filename": "website/squirrel-8592682_640_squirrel.jpg",
+            "labels": [
+                "squirrel"
+            ]
+        },
+        {
+            "filename": "website/pexels-miguel-cuenca-67882473-27241058_bird.jpg",
+            "labels": [
+                "bird"
+            ]
+        },
+        {
+            "filename": "website/pexels-ekrulila-20123614_coffeecup.jpg",
+            "labels": [
+                "coffee cup"
+            ]
+        },
+        {
+            "filename": "website/pexels-ekrulila-20123614_fork.jpg",
+            "labels": [
+                "fork"
+            ]
+        },
+        {
+            "filename": "website/pexels-koolshooters-6076013_basketball.jpg",
+            "labels": [
+                "basketball"
+            ]
+        },
+        {
+            "filename": "website/pexels-miami302-26793646_dog.jpg",
+            "labels": [
+                "dog"
+            ]
+        },
+        {
+            "filename": "website/pexels-dejiprince-28231061_ladder.jpg",
+            "labels": [
+                "ladder"
+            ]
+        },
+        {
+            "filename": "website/pexels-valeriya-18920421_sofa.jpg",
+            "labels": [
+                "sofa"
+            ]
+        },
+        {
+            "filename": "website/pexels-njeromin-20177407_phone.jpg",
+            "labels": [
+                "phone"
+            ]
+        },
+        {
+            "filename": "website/pexels-kelly-1179532-28287998_electricguitar.jpg",
+            "labels": [
+                "electric guitar"
+            ]
+        },
+        {
+            "filename": "website/pexels-dropshado-12895164_squirrel.jpg",
+            "labels": [
+                "squirrel"
+            ]
+        },
+        {
+            "filename": "website/pexels-c-t-phat-546614745-24014245_dog.jpg",
+            "labels": [
+                "dog"
+            ]
+        },
+        {
+            "filename": "website/pexels-passengerslover-27660632_camera.jpg",
+            "labels": [
+                "camera"
+            ]
+        },
+        {
+            "filename": "website/pexels-polina-1620494681-27954883_hat.jpg",
+            "labels": [
+                "hat"
+            ]
+        },
+        {
+            "filename": "website/pexels-umutart-18241047_car.jpg",
+            "labels": [
+                "car"
+            ]
+        },
+        {
+            "filename": "website/pexels-oliver-dohrn-706160180-26698092_kangaroo.jpg",
+            "labels": [
+                "kangaroo"
+            ]
+        },
+        {
+            "filename": "website/pexels-jonathanborba-28407210_cup.jpg",
+            "labels": [
+                "cup"
+            ]
+        },
+        {
+            "filename": "website/pexels-esrakorkmaz-14516753_rollingpin.jpg",
+            "labels": [
+                "rolling pin"
+            ]
+        },
+        {
+            "filename": "website/pexels-tobiandchris-28005837_bicycle.jpg",
+            "labels": [
+                "bicycle"
+            ]
+        },
+        {
+            "filename": "website/pexels-centre-for-ageing-better-55954677-17153156_cup.jpg",
+            "labels": [
+                "cup"
+            ]
+        },
+        {
+            "filename": "website/pexels-centre-for-ageing-better-55954677-17153156_chair.jpg",
+            "labels": [
+                "chair"
+            ]
+        },
+        {
+            "filename": "website/pexels-sergio-montoya-gianello-1793150310-28455224_bluehat.jpg",
+            "labels": [
+                "blue hat"
+            ]
+        },
+        {
+            "filename": "website/pexels-alecdoua-28374828_house.jpg",
+            "labels": [
+                "house"
+            ]
+        },
+        {
+            "filename": "website/pexels-nathanjhilton-9462841_penguin.jpg",
+            "labels": [
+                "penguin"
+            ]
+        },
+        {
+            "filename": "website/samsung-memory-fxKvHGDICcQ-unsplash_screwdriver.jpg",
+            "labels": [
+                "screwdriver"
+            ]
+        },
+        {
+            "filename": "website/samsung-memory-pz67hBsfbJ4-unsplash_laptop.jpg",
+            "labels": [
+                "laptop"
+            ]
+        },
+        {
+            "filename": "website/sixteen-miles-out-P6bk4mOt9F0-unsplash_bottle.jpg",
+            "labels": [
+                "bottle"
+            ]
+        },
+        {
+            "filename": "website/samsung-memory-l_p4pay8CTM-unsplash_laptop.jpg",
+            "labels": [
+                "laptop"
+            ]
+        },
+        {
+            "filename": "website/samsung-memory-l_p4pay8CTM-unsplash_glassofcoffee.jpg",
+            "labels": [
+                "glass of coffee"
+            ]
+        },
+        {
+            "filename": "website/priscilla-du-preez-PuZgWp_a0Cs-unsplash_cup.jpg",
+            "labels": [
+                "cup"
+            ]
+        },
+        {
+            "filename": "website/leopold-maitre-ZFdIqF4xUFg-unsplash_drink.jpg",
+            "labels": [
+                "drink"
+            ]
+        },
+        {
+            "filename": "website/toa-heftiba-fqSEh-iPRok-unsplash_cup.jpg",
+            "labels": [
+                "cup"
+            ]
+        },
+        {
+            "filename": "website/pexels-ricardo-oliveira-317251078-21833100_foodtruck.jpg",
+            "labels": [
+                "food truck"
+            ]
+        },
+        {
+            "filename": "website/pexels-witheline-27442491_cow.jpg",
+            "labels": [
+                "cow"
+            ]
+        },
+        {
+            "filename": "website/pexels-homnaychupgi-28220699_book.jpg",
+            "labels": [
+                "book"
+            ]
+        },
+        {
+            "filename": "website/pexels-chermitove-17345410_flower.jpg",
+            "labels": [
+                "flower"
+            ]
+        },
+        {
+            "filename": "website/pexels-holodna-25149741_camera.jpg",
+            "labels": [
+                "camera"
+            ]
+        },
+        {
+            "filename": "website/pexels-21zere-1690606874-28074114_chair.jpg",
+            "labels": [
+                "chair"
+            ]
+        },
+        {
+            "filename": "website/pexels-rlldied-11859805_chair.jpg",
+            "labels": [
+                "chair"
+            ]
+        },
+        {
+            "filename": "website/pexels-manishjangid-27584195_pot.jpg",
+            "labels": [
+                "pot"
+            ]
+        },
+        {
+            "filename": "website/mahdi-chaghari-I_BMWfKygmY-unsplash_chair.jpg",
+            "labels": [
+                "chair"
+            ]
+        },
+        {
+            "filename": "website/clay-banks-QB5IPPxIOyY-unsplash_bed.jpg",
+            "labels": [
+                "bed"
+            ]
+        },
+        {
+            "filename": "website/sixteen-miles-out-IaPlDU14Oig-unsplash_book.jpg",
+            "labels": [
+                "book"
+            ]
+        },
+        {
+            "filename": "website/pexels-leefinvrede-27015904_cow.jpg",
+            "labels": [
+                "cow"
+            ]
+        },
+        {
+            "filename": "website/pexels-jean-paul-montanaro-49563862-26050822_parrot.jpg",
+            "labels": [
+                "parrot"
+            ]
+        },
+        {
+            "filename": "website/pexels-line-knipst-574109081-26501344_koala.jpg",
+            "labels": [
+                "koala"
+            ]
+        },
+        {
+            "filename": "website/pexels-toby-26893039_monkey.jpg",
+            "labels": [
+                "monkey"
+            ]
+        },
+        {
+            "filename": "website/pexels-patagonia-savage-107018019-26707538_fox.jpg",
+            "labels": [
+                "fox"
+            ]
+        },
+        {
+            "filename": "website/pexels-yusragonul-1653669305-27773323_bird.jpg",
+            "labels": [
+                "bird"
+            ]
+        },
+        {
+            "filename": "website/pexels-alimuart-27788841_bench.jpg",
+            "labels": [
+                "bench"
+            ]
+        },
+        {
+            "filename": "website/pexels-valeriya-27546062_winebottle.jpg",
+            "labels": [
+                "wine bottle"
+            ]
+        },
+        {
+            "filename": "website/pexels-raymond-petrik-1448389535-27025478_book.jpg",
+            "labels": [
+                "book"
+            ]
+        },
+        {
+            "filename": "website/pexels-jvdm-2078478_penguin.jpg",
+            "labels": [
+                "penguin"
+            ]
+        },
+        {
+            "filename": "website/pexels-houssam-benamara-542776584-18313465_umbrella.jpg",
+            "labels": [
+                "umbrella"
+            ]
+        },
+        {
+            "filename": "website/pexels-furkanelveren-18091669_newspaper.jpg",
+            "labels": [
+                "newspaper"
+            ]
+        },
+        {
+            "filename": "website/pexels-passengerslover-27412350_sofa.jpg",
+            "labels": [
+                "sofa"
+            ]
+        },
+        {
+            "filename": "website/pexels-lara-stratiychuk-1606923648-27469964_cake.jpg",
+            "labels": [
+                "cake"
+            ]
+        },
+        {
+            "filename": "website/rafael-hoyos-weht-mRgrF98emKY-unsplash_car.jpg",
+            "labels": [
+                "car"
+            ]
+        },
+        {
+            "filename": "website/aj-elgammal-VwFiIznMVeA-unsplash_tennisball.jpg",
+            "labels": [
+                "tennis ball"
+            ]
+        },
+        {
+            "filename": "website/sheng-hu-DvBDP1K_Jfo-unsplash_bench.jpg",
+            "labels": [
+                "bench"
+            ]
+        },
+        {
+            "filename": "website/pavel-moiseev-QrwFxzmvsYc-unsplash_motorcycle.jpg",
+            "labels": [
+                "motorcycle"
+            ]
+        },
+        {
+            "filename": "website/kateryna-hliznitsova-3302w_-8lcM-unsplash_book.jpg",
+            "labels": [
+                "book"
+            ]
+        },
+        {
+            "filename": "website/carlos-lugo-PfIzX6BwnZs-unsplash_icecreamcone.jpg",
+            "labels": [
+                "ice cream cone"
+            ]
+        },
+        {
+            "filename": "website/toa-heftiba-b9ZgCcTTZ2c-unsplash_disposablecup.jpg",
+            "labels": [
+                "disposable cup"
+            ]
+        },
+        {
+            "filename": "website/khanh-do-gua8iB-f0FM-unsplash_bicycle.jpg",
+            "labels": [
+                "bicycle"
+            ]
+        },
+        {
+            "filename": "website/oskar-kadaksoo-7Tx21sgRa1c-unsplash_house.jpg",
+            "labels": [
+                "house"
+            ]
+        },
+        {
+            "filename": "website/hoai-thanh-c9rcpauXrPs-unsplash_sofa.jpg",
+            "labels": [
+                "sofa"
+            ]
+        },
+        {
+            "filename": "website/lukas-zischke-SrQbJoKgB6o-unsplash_football.jpg",
+            "labels": [
+                "football"
+            ]
+        },
+        {
+            "filename": "website/ekaterina-bogdan-vKN3F8zHQkY-unsplash_car.jpg",
+            "labels": [
+                "car"
+            ]
+        },
+        {
+            "filename": "website/raymond-petrik-zimD1uT_XB0-unsplash_violin.jpg",
+            "labels": [
+                "violin"
+            ]
+        },
+        {
+            "filename": "website/jose-figueroa-kwV8FbXF7Bo-unsplash_bus.jpg",
+            "labels": [
+                "bus"
+            ]
+        },
+        {
+            "filename": "website/zhao-yangyang-yDejQyuR63Q-unsplash_sofa.jpg",
+            "labels": [
+                "sofa"
+            ]
+        },
+        {
+            "filename": "website/cosmetics-9086984_640_eyeshadow.jpg",
+            "labels": [
+                "eye shadow"
+            ]
+        },
+        {
+            "filename": "website/lizard-9052821_640_lizard.jpg",
+            "labels": [
+                "lizard"
+            ]
+        },
+        {
+            "filename": "website/kingfisher-9016787_640_bird.jpg",
+            "labels": [
+                "bird"
+            ]
+        },
+        {
+            "filename": "website/music-7974197_640_microphone.jpg",
+            "labels": [
+                "microphone"
+            ]
+        },
+        {
+            "filename": "website/stray-8933778_640_dog.jpg",
+            "labels": [
+                "dog"
+            ]
+        },
+        {
+            "filename": "website/tiger-3198598_640_tiger.jpg",
+            "labels": [
+                "tiger"
+            ]
+        },
+        {
+            "filename": "website/bird-8785666_640_bird.jpg",
+            "labels": [
+                "bird"
+            ]
+        },
+        {
+            "filename": "website/koala-8874351_640_koala.jpg",
+            "labels": [
+                "koala"
+            ]
+        },
+        {
+            "filename": "website/sparrow-8848051_640_bird.jpg",
+            "labels": [
+                "bird"
+            ]
+        },
+        {
+            "filename": "website/bear-8845470_640_bear.jpg",
+            "labels": [
+                "bear"
+            ]
+        },
+        {
+            "filename": "website/malaysian-tiger-8363779_640_tiger.jpg",
+            "labels": [
+                "tiger"
+            ]
+        },
+        {
+            "filename": "website/highland-cow-8678950_640_cow.jpg",
+            "labels": [
+                "cow"
+            ]
+        },
+        {
+            "filename": "website/turtle-4277398_640_turtle.jpg",
+            "labels": [
+                "turtle"
+            ]
+        },
+        {
+            "filename": "website/horse-6577968_640_horse.jpg",
+            "labels": [
+                "horse"
+            ]
+        },
+        {
+            "filename": "website/car-7569896_640_wall.jpg",
+            "labels": [
+                "wall"
+            ]
+        },
+        {
+            "filename": "website/goose-8740266_640_goose.jpg",
+            "labels": [
+                "goose"
+            ]
+        },
+        {
+            "filename": "website/orange-juice-569064_640_orangejuice.jpg",
+            "labels": [
+                "orange juice"
+            ]
+        },
+        {
+            "filename": "website/simba-8618301_640_cat.jpg",
+            "labels": [
+                "cat"
+            ]
+        },
+        {
+            "filename": "website/cat-8031938_640_cat.jpg",
+            "labels": [
+                "cat"
+            ]
+        },
+        {
+            "filename": "website/activity-8122959_640_spraypaintcan.jpg",
+            "labels": [
+                "spray paint can"
+            ]
+        },
+        {
+            "filename": "website/butterfly-8457979_640_butterfly.jpg",
+            "labels": [
+                "butterfly"
+            ]
+        },
+        {
+            "filename": "website/gibbon-8573117_640_gibbon.jpg",
+            "labels": [
+                "gibbon"
+            ]
+        },
+        {
+            "filename": "website/sunset-8544672_640_phone.jpg",
+            "labels": [
+                "phone"
+            ]
+        },
+        {
+            "filename": "website/animal-8518802_640_deer.jpg",
+            "labels": [
+                "deer"
+            ]
+        },
+        {
+            "filename": "website/deer-9018759_640_deer.jpg",
+            "labels": [
+                "deer"
+            ]
+        },
+        {
+            "filename": "website/dog-8510901_640_dog.jpg",
+            "labels": [
+                "dog"
+            ]
+        },
+        {
+            "filename": "website/cat-8446390_640_cat.jpg",
+            "labels": [
+                "cat"
+            ]
+        },
+        {
+            "filename": "website/man-8493244_640_car.jpg",
+            "labels": [
+                "car"
+            ]
+        },
+        {
+            "filename": "website/cat-8361048_640_cat.jpg",
+            "labels": [
+                "cat"
+            ]
+        },
+        {
+            "filename": "website/bird-8296358_640_pigeon.jpg",
+            "labels": [
+                "pigeon"
+            ]
+        },
+        {
+            "filename": "website/duck-8469484_640_duck.jpg",
+            "labels": [
+                "duck"
+            ]
+        },
+        {
+            "filename": "website/cotton-top-tamarin-8463471_640_tamarin.jpg",
+            "labels": [
+                "tamarin"
+            ]
+        },
+        {
+            "filename": "website/butterfly-8422900_640_flower.jpg",
+            "labels": [
+                "flower"
+            ]
+        },
+        {
+            "filename": "website/soap-8429699_640_pot.jpg",
+            "labels": [
+                "pot"
+            ]
+        },
+        {
+            "filename": "website/cockatoo-8409655_640_branch.jpg",
+            "labels": [
+                "branch"
+            ]
+        },
+        {
+            "filename": "website/violin-8405558_640_violin.jpg",
+            "labels": [
+                "violin"
+            ]
+        },
+        {
+            "filename": "website/school-8391795_640_pencil.jpg",
+            "labels": [
+                "pencil"
+            ]
+        },
+        {
+            "filename": "website/snail-8195174_640_leaf.jpg",
+            "labels": [
+                "leaf"
+            ]
+        },
+        {
+            "filename": "website/camera-8191564_640_camera.jpg",
+            "labels": [
+                "camera"
+            ]
+        },
+        {
+            "filename": "website/owl-8364426_640_owl.jpg",
+            "labels": [
+                "owl"
+            ]
+        },
+        {
+            "filename": "website/sea-urchin-8263832_640_seaurchin.jpg",
+            "labels": [
+                "sea urchin"
+            ]
+        },
+        {
+            "filename": "website/child-8347081_640_pencil.jpg",
+            "labels": [
+                "pencil"
+            ]
+        },
+        {
+            "filename": "website/halloween-7553022_640_bone.jpg",
+            "labels": [
+                "bone"
+            ]
+        },
+        {
+            "filename": "website/woman-8261342_640_conchshell.jpg",
+            "labels": [
+                "conch shell"
+            ]
+        },
+        {
+            "filename": "website/corn-8299009_640_corn.jpg",
+            "labels": [
+                "corn"
+            ]
+        },
+        {
+            "filename": "website/butterfly-8260618_640_butterfly.jpg",
+            "labels": [
+                "butterfly"
+            ]
+        },
+        {
+            "filename": "website/cat-8243079_640_cat.jpg",
+            "labels": [
+                "cat"
+            ]
+        },
+        {
+            "filename": "website/frog-8240705_640_frog.jpg",
+            "labels": [
+                "frog"
+            ]
+        },
+        {
+            "filename": "website/reader-8211917_640_book.jpg",
+            "labels": [
+                "book"
+            ]
+        },
+        {
+            "filename": "website/horse-8193368_640_horse.jpg",
+            "labels": [
+                "horse"
+            ]
+        },
+        {
+            "filename": "website/spider-8158656_640_spider.jpg",
+            "labels": [
+                "spider"
+            ]
+        },
+        {
+            "filename": "website/marbled-white-8143238_640_butterfly.jpg",
+            "labels": [
+                "butterfly"
+            ]
+        },
+        {
+            "filename": "website/goat-8183257_640_goat.jpg",
+            "labels": [
+                "goat"
+            ]
+        },
+        {
+            "filename": "website/fox-squirrel-8028963_640_squirrel.jpg",
+            "labels": [
+                "squirrel"
+            ]
+        },
+        {
+            "filename": "website/animal-8165466_640_cat.jpg",
+            "labels": [
+                "cat"
+            ]
+        },
+        {
+            "filename": "website/snow-leopard-8096293_640_leopard.jpg",
+            "labels": [
+                "leopard"
+            ]
+        },
+        {
+            "filename": "website/bird-8001140_640_cormorant.jpg",
+            "labels": [
+                "cormorant"
+            ]
+        },
+        {
+            "filename": "website/european-shorthair-8136129_640_cat.jpg",
+            "labels": [
+                "cat"
+            ]
+        },
+        {
+            "filename": "website/chameleon-8094345_640_chameleon.jpg",
+            "labels": [
+                "chameleon"
+            ]
+        },
+        {
+            "filename": "website/ibex-8003063_640_ibex.jpg",
+            "labels": [
+                "ibex"
+            ]
+        },
+        {
+            "filename": "website/woman-8076569_640_fan.jpg",
+            "labels": [
+                "fan"
+            ]
+        },
+        {
+            "filename": "website/horses-8026521_640_whitehorse.jpg",
+            "labels": [
+                "white horse"
+            ]
+        },
+        {
+            "filename": "website/squirrel-8044947_640_squirrel.jpg",
+            "labels": [
+                "squirrel"
+            ]
+        },
+        {
+            "filename": "website/grey-heron-8030000_640_greyheron.jpg",
+            "labels": [
+                "grey heron"
+            ]
+        },
+        {
+            "filename": "website/nature-7997402_640_squirrel.jpg",
+            "labels": [
+                "squirrel"
+            ]
+        },
+        {
+            "filename": "website/lotus-8010129_640_pinkflower.jpg",
+            "labels": [
+                "pink flower"
+            ]
+        },
+        {
+            "filename": "website/white-cockatoo-7985434_640_cockatoo.jpg",
+            "labels": [
+                "cockatoo"
+            ]
+        },
+        {
+            "filename": "website/camera-7889301_640_camera.jpg",
+            "labels": [
+                "camera"
+            ]
+        },
+        {
+            "filename": "website/blue-tongue-skink-7913420_640_skink.jpg",
+            "labels": [
+                "skink"
+            ]
+        },
+        {
+            "filename": "website/laptop-7978588_640_laptop.jpg",
+            "labels": [
+                "laptop"
+            ]
+        },
+        {
+            "filename": "website/blackbird-7985552_640_blackbird.jpg",
+            "labels": [
+                "blackbird"
+            ]
+        },
+        {
+            "filename": "website/bird-7884472_640_kookaburra.jpg",
+            "labels": [
+                "kookaburra"
+            ]
+        },
+        {
+            "filename": "website/eurasian-pygmy-owl-7957302_640_owl.jpg",
+            "labels": [
+                "owl"
+            ]
+        },
+        {
+            "filename": "website/bee-7957348_640_bee.jpg",
+            "labels": [
+                "bee"
+            ]
+        },
+        {
+            "filename": "website/bunny-7847028_640_rabbit.jpg",
+            "labels": [
+                "rabbit"
+            ]
+        },
+        {
+            "filename": "website/cat-7875506_640_cat.jpg",
+            "labels": [
+                "cat"
+            ]
+        },
+        {
+            "filename": "website/wedding-7608565_640_bouquet.jpg",
+            "labels": [
+                "bouquet"
+            ]
+        },
+        {
+            "filename": "website/lioness-7560708_640_line.jpg",
+            "labels": [
+                "line"
+            ]
+        },
+        {
+            "filename": "website/moth-7734668_640_moth.jpg",
+            "labels": [
+                "moth"
+            ]
+        },
+        {
+            "filename": "website/french-bulldog-7514203_640_frenchbulldog.jpg",
+            "labels": [
+                "french bulldog"
+            ]
+        },
+        {
+            "filename": "website/hedgehog-7710053_640_hedgehog.jpg",
+            "labels": [
+                "hedgehog"
+            ]
+        },
+        {
+            "filename": "website/middle-spotted-woodpecker-7631440_640_woodpecker.jpg",
+            "labels": [
+                "woodpecker"
+            ]
+        },
+        {
+            "filename": "website/african-american-7481724_640_horse.jpg",
+            "labels": [
+                "horse"
+            ]
+        },
+        {
+            "filename": "website/chameleon-7527416_640_lizard.jpg",
+            "labels": [
+                "lizard"
+            ]
+        },
+        {
+            "filename": "website/muslim-7520627_640_pen.jpg",
+            "labels": [
+                "pen"
+            ]
+        },
+        {
+            "filename": "website/winter-7506621_640_cup.jpg",
+            "labels": [
+                "cup"
+            ]
+        },
+        {
+            "filename": "website/mushroom-7490921_640_mushroom.jpg",
+            "labels": [
+                "mushroom"
+            ]
+        }
+    ],
+    "statistics": {
+        "total_filenames": 228,
+        "total_labels": 249,
+        "average_labels_per_filename": 1.0921052631578947,
+        "label_count_distribution": {
+            "1": 211,
+            "3": 4,
+            "2": 13
+        }
+    }
+}
