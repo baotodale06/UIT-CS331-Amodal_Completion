@@ -25,3 +25,9 @@
 *.png binary
 *.jpg binary
 *.pdf binary
+# Preserve vendored upstream blobs, including their historical line endings.
+# Applying new LF rules to their existing CRLF Git blobs dirties a fresh clone.
+/diffusers/** -text
+/Grounded-Segment-Anything/** -text
+/InstaOrder/** -text
+/lama/** -text
