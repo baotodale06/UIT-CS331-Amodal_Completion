@@ -1,11 +1,5 @@
-#!/bin/bash
-
-# For LaMa inpainter
-export TORCH_HOME=$(pwd)/lama && export PYTHONPATH=$(pwd)/lama
-
-# Generate amodal completion
-python main.py \
---input_dir dataset/val2014 \
---img_filenames_txt ./img_filenames.txt \
---mc_timestep 35 \
---output_dir ./output
+#!/usr/bin/env bash
+# Chạy trong environment pmc; truyền thêm --c2f_python nếu worker dùng env riêng.
+set -euo pipefail
+cd "$(dirname "${BASH_SOURCE[0]}")"
+python main.py "$@"
