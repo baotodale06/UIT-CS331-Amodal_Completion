@@ -1,0 +1,14 @@
+{
+  "matched_published_slide": 16,
+  "paired_targets": 2565,
+  "verified_mask_joins": 321,
+  "counts": [
+    203,
+    54,
+    39,
+    21,
+    4
+  ],
+  "published_means_replayed": 10,
+  "max_absolute_difference": 0.0
+}

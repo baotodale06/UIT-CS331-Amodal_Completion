@@ -1,0 +1,81 @@
+{
+  "at": "2026-11-23T16:59:15.982288+00:00",
+  "files": 22,
+  "source": "/home/hungvudao/.cache/shape-local-gpu-20261123/probability-source-workers4",
+  "manifest_sha256": "6a132452bae4f45b0f668e35e3d81bbf57e5de7a91b892f0a95a56f64b2a9f39",
+  "preserved_predecessor_files": 20,
+  "commands": [
+    {
+      "command": [
+        "/home/hungvudao/.cache/shape-local-gpu-20261123/env/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_shape_probability_loss.py",
+        "-v"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "/home/hungvudao/.cache/shape-local-gpu-20261123/env/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_shape_local_data.py",
+        "-v"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "/home/hungvudao/.cache/shape-local-gpu-20261123/env/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_shape_constrained_data.py",
+        "-v"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "/home/hungvudao/.cache/shape-local-gpu-20261123/env/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_shape_kaggle_contract.py",
+        "-v"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "/home/hungvudao/.cache/shape-local-gpu-20261123/env/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_shape_probability_workers4.py",
+        "-v"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "gpu_validation_performed": false,
+  "benchmark_success": false
+}

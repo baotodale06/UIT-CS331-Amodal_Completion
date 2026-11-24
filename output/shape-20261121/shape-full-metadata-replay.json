@@ -1,0 +1,14 @@
+{
+  "execution": "20261122T160834.709561Z-efdfe837",
+  "targets": 2565,
+  "saved": 1393,
+  "decisions": 2961,
+  "fallbacks": 4,
+  "archive_sha256": "59d16364d3b740d50c93fb5021e746daf3d926b4fd277bb2650c8e4801e97c7e",
+  "execution_sha256": "8443fd2592601dd9ad5d9f27dd68ebedf2897ce21db8c640720e3a8bccf2b35c",
+  "manifest_sha256": "e43bc7c946c975e487a253c4f5b9d808cfa439a2a4400aab3c0ccc1f0855ef5c",
+  "files": 7074,
+  "method": "shape",
+  "export_job": "45303",
+  "pairs_sha256": "f536ada9766caa7520ff0cce32f9560059bcce43bbe84c19881db331a133b943"
+}

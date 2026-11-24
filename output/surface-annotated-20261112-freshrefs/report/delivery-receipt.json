@@ -1,0 +1,11 @@
+{
+  "verified": true,
+  "at": "2026-11-12T10:57:58.166989+00:00",
+  "archive": "C:\\Users\\daovu\\Documents\\Project\\cv_nangcao\\output\\surface-annotated-20261112-freshrefs\\annotated-surface-results.zip",
+  "bytes": 21084028,
+  "sha256": "b91169a945c773111c2614f848816368a2b3269836b1d8f2614698dedae84228",
+  "members": 796,
+  "decision_records": 144,
+  "pool_metric_records": 204,
+  "source_sha256": "d8be5bf347b8e2266c3b14e9628c8f16c8ca64907b24f7316603f42fce149c8e"
+}

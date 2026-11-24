@@ -1,0 +1,16 @@
+{
+  "job_id": "45645",
+  "command": [
+    "sbatch",
+    "--parsable",
+    "--partition=debug-gpu",
+    "--gres=gpu:quadro_rtx_6000:1",
+    "--cpus-per-task=4",
+    "--mem=24G",
+    "--time=00:15:00",
+    "--job-name=shape-mask-validation",
+    "--output=/home/daoqm/Vu_Hung/cv_nangcao/output/shape-validation-sam-20261123/validation-%j.log",
+    "scripts/run_shape_sam_validation.sh"
+  ],
+  "source_manifest_sha256": "cec9beb78b453ede06f0d5fc49208c205389dc8ef084d121170a280af9e24060"
+}

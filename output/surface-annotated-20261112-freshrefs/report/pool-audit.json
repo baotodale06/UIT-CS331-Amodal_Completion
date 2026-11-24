@@ -1,0 +1,1067 @@
+{
+  "passed": true,
+  "audited_at": "2026-11-12T10:26:18.779837+00:00",
+  "targets": 204,
+  "candidate_derivations": 696,
+  "choices_replayed": 87,
+  "cache_replay_drift": {
+    "CLIP": 0.0,
+    "LPIPS": 1.1920928955078125e-07,
+    "Feature Similarity": 1.7881393432617188e-07,
+    "SSIM": 0.0
+  },
+  "contrasts": {
+    "frozen_raw_vs_baseline": {
+      "CLIP": {
+        "n": 87,
+        "images": 84,
+        "baseline": 28.072684233216034,
+        "method": 28.56823528772113,
+        "absolute_gain": 0.49555105450509607,
+        "relative_gain_percent": 1.7652428616667601,
+        "absolute_ci": [
+          0.21406595227516054,
+          0.7752421686130737
+        ],
+        "relative_ci_percent": [
+          0.7578802822145163,
+          2.7896398713981045
+        ],
+        "undefined_relative_bootstrap_samples": 0
+      },
+      "LPIPS": {
+        "n": 204,
+        "images": 192,
+        "baseline": 0.6852755627284447,
+        "method": 0.685659465142617,
+        "absolute_gain": -0.0003839024141723034,
+        "relative_gain_percent": -0.05602161160450326,
+        "absolute_ci": [
+          -0.003765051345734702,
+          0.0031778786718726
+        ],
+        "relative_ci_percent": [
+          -0.5487497323851124,
+          0.46905489155219454
+        ],
+        "undefined_relative_bootstrap_samples": 0
+      },
+      "Feature Similarity": {
+        "n": 204,
+        "images": 192,
+        "baseline": 0.2816903290941435,
+        "method": 0.28243261882487464,
+        "absolute_gain": 0.0007422897307311787,
+        "relative_gain_percent": 0.26351267830820657,
+        "absolute_ci": [
+          -0.0028325294339999274,
+          0.004337118449634941
+        ],
+        "relative_ci_percent": [
+          -1.001217163266833,
+          1.5617881196407757
+        ],
+        "undefined_relative_bootstrap_samples": 0
+      },
+      "SSIM": {
+        "n": 204,
+        "images": 192,
+        "baseline": 0.3549824166898807,
+        "method": 0.35437820134186454,
+        "absolute_gain": -0.0006042153480161153,
+        "relative_gain_percent": -0.17020993705836682,
+        "absolute_ci": [
+          -0.003121457725907564,
+          0.001856354247770085
+        ],
+        "relative_ci_percent": [
+          -0.8788123535908006,
+          0.5271712682648745
+        ],
+        "undefined_relative_bootstrap_samples": 0
+      }
+    },
+    "uniform_raw_vs_baseline": {
+      "CLIP": {
+        "n": 87,
+        "images": 84,
+        "baseline": 28.072684233216034,
+        "method": 28.439853838120385,
+        "absolute_gain": 0.3671696049043502,
+        "relative_gain_percent": 1.3079248206336802,
+        "absolute_ci": [
+          0.08362917866599694,
+          0.6578068370562653
+        ],
+        "relative_ci_percent": [
+          0.2969601703886032,
+          2.359426183810328
+        ],
+        "undefined_relative_bootstrap_samples": 0
+      },
+      "LPIPS": {
+        "n": 204,
+        "images": 192,
+        "baseline": 0.6852755627284447,
+        "method": 0.6856119449880412,
+        "absolute_gain": -0.00033638225959650443,
+        "relative_gain_percent": -0.04908715236498273,
+        "absolute_ci": [
+          -0.003704935822746921,
+          0.003172777278095014
+        ],
+        "relative_ci_percent": [
+          -0.5371589844498226,
+          0.4702528818641453
+        ],
+        "undefined_relative_bootstrap_samples": 0
+      },
+      "Feature Similarity": {
+        "n": 204,
+        "images": 192,
+        "baseline": 0.2816903290941435,
+        "method": 0.2821766731384046,
+        "absolute_gain": 0.00048634404426111896,
+        "relative_gain_percent": 0.17265202033207833,
+        "absolute_ci": [
+          -0.003061236057729539,
+          0.004043209834481794
+        ],
+        "relative_ci_percent": [
+          -1.0825206077294172,
+          1.4449188836535205
+        ],
+        "undefined_relative_bootstrap_samples": 0
+      },
+      "SSIM": {
+        "n": 204,
+        "images": 192,
+        "baseline": 0.3549824166898807,
+        "method": 0.3543914013029939,
+        "absolute_gain": -0.0005910153868867765,
+        "relative_gain_percent": -0.1664914539705494,
+        "absolute_ci": [
+          -0.002995522672476551,
+          0.0017944526759879783
+        ],
+        "relative_ci_percent": [
+          -0.8508238452648097,
+          0.5139486999667711
+        ],
+        "undefined_relative_bootstrap_samples": 0
+      }
+    },
+    "uniform_valid_vs_baseline": {
+      "CLIP": {
+        "n": 87,
+        "images": 84,
+        "baseline": 28.072684233216034,
+        "method": 28.445046759199823,
+        "absolute_gain": 0.3723625259837885,
+        "relative_gain_percent": 1.326422948694031,
+        "absolute_ci": [
+          0.09008842634864561,
+          0.6639062407716392
+        ],
+        "relative_ci_percent": [
+          0.3199343856252132,
+          2.3793618403106356
+        ],
+        "undefined_relative_bootstrap_samples": 0
+      },
+      "LPIPS": {
+        "n": 204,
+        "images": 192,
+        "baseline": 0.6852755627284447,
+        "method": 0.6856183303882264,
+        "absolute_gain": -0.0003427676597817077,
+        "relative_gain_percent": -0.05001895272858822,
+        "absolute_ci": [
+          -0.0037124454312911243,
+          0.0031678589622907588
+        ],
+        "relative_ci_percent": [
+          -0.5371738892429876,
+          0.4691927216365524
+        ],
+        "undefined_relative_bootstrap_samples": 0
+      },
+      "Feature Similarity": {
+        "n": 204,
+        "images": 192,
+        "baseline": 0.2816903290941435,
+        "method": 0.2821653230797524,
+        "absolute_gain": 0.00047499398560890205,
+        "relative_gain_percent": 0.1686227522032376,
+        "absolute_ci": [
+          -0.0030738959105536395,
+          0.004024531269097735
+        ],
+        "relative_ci_percent": [
+          -1.0877077779956872,
+          1.4407143514978413
+        ],
+        "undefined_relative_bootstrap_samples": 0
+      },
+      "SSIM": {
+        "n": 204,
+        "images": 192,
+        "baseline": 0.3549824166898807,
+        "method": 0.35438640036193547,
+        "absolute_gain": -0.0005960163279451929,
+        "relative_gain_percent": -0.16790023953943725,
+        "absolute_ci": [
+          -0.00299849998406332,
+          0.0017892260295133036
+        ],
+        "relative_ci_percent": [
+          -0.8537558641553065,
+          0.5125586534699844
+        ],
+        "undefined_relative_bootstrap_samples": 0
+      }
+    },
+    "first_raw_vs_baseline": {
+      "CLIP": {
+        "n": 87,
+        "images": 84,
+        "baseline": 28.072684233216034,
+        "method": 28.504813731401818,
+        "absolute_gain": 0.4321294981857826,
+        "relative_gain_percent": 1.5393237589816235,
+        "absolute_ci": [
+          0.11148162776026234,
+          0.7574709241530472
+        ],
+        "relative_ci_percent": [
+          0.392425877807609,
+          2.715221545048359
+        ],
+        "undefined_relative_bootstrap_samples": 0
+      },
+      "LPIPS": {
+        "n": 204,
+        "images": 192,
+        "baseline": 0.6852755627284447,
+        "method": 0.6856588538297835,
+        "absolute_gain": -0.00038329110133881664,
+        "relative_gain_percent": -0.055932404741346954,
+        "absolute_ci": [
+          -0.003729758007635906,
+          0.0031338495680634415
+        ],
+        "relative_ci_percent": [
+          -0.5428786234603196,
+          0.4671543150107209
+        ],
+        "undefined_relative_bootstrap_samples": 0
+      },
+      "Feature Similarity": {
+        "n": 204,
+        "images": 192,
+        "baseline": 0.2816903290941435,
+        "method": 0.28190283294694096,
+        "absolute_gain": 0.00021250385279748953,
+        "relative_gain_percent": 0.07543881732853838,
+        "absolute_ci": [
+          -0.0033750099431646267,
+          0.003769090489544824
+        ],
+        "relative_ci_percent": [
+          -1.185525530809448,
+          1.3590930007044293
+        ],
+        "undefined_relative_bootstrap_samples": 0
+      },
+      "SSIM": {
+        "n": 204,
+        "images": 192,
+        "baseline": 0.3549824166898807,
+        "method": 0.35428840750289825,
+        "absolute_gain": -0.0006940091869824244,
+        "relative_gain_percent": -0.19550522909102958,
+        "absolute_ci": [
+          -0.0031614118614504273,
+          0.0017661527805830862
+        ],
+        "relative_ci_percent": [
+          -0.9001155340675581,
+          0.4965115214678082
+        ],
+        "undefined_relative_bootstrap_samples": 0
+      }
+    },
+    "semantic_only_vs_baseline": {
+      "CLIP": {
+        "n": 87,
+        "images": 84,
+        "baseline": 28.072684233216034,
+        "method": 28.60506312052409,
+        "absolute_gain": 0.5323788873080549,
+        "relative_gain_percent": 1.8964302910447588,
+        "absolute_ci": [
+          0.25692477009513165,
+          0.8067262861113719
+        ],
+        "relative_ci_percent": [
+          0.9139565700386048,
+          2.8945917928208873
+        ],
+        "undefined_relative_bootstrap_samples": 0
+      },
+      "LPIPS": {
+        "n": 204,
+        "images": 192,
+        "baseline": 0.6852755627284447,
+        "method": 0.6856448868033933,
+        "absolute_gain": -0.00036932407494853526,
+        "relative_gain_percent": -0.0538942427011494,
+        "absolute_ci": [
+          -0.003700198229640869,
+          0.003167931572983123
+        ],
+        "relative_ci_percent": [
+          -0.549928491371732,
+          0.4702542878020061
+        ],
+        "undefined_relative_bootstrap_samples": 0
+      },
+      "Feature Similarity": {
+        "n": 204,
+        "images": 192,
+        "baseline": 0.2816903290941435,
+        "method": 0.2822318496365173,
+        "absolute_gain": 0.0005415205423738443,
+        "relative_gain_percent": 0.1922396640719828,
+        "absolute_ci": [
+          -0.0030557628316643026,
+          0.00418730217567401
+        ],
+        "relative_ci_percent": [
+          -1.077575727331442,
+          1.5254842312111394
+        ],
+        "undefined_relative_bootstrap_samples": 0
+      },
+      "SSIM": {
+        "n": 204,
+        "images": 192,
+        "baseline": 0.3549824166898807,
+        "method": 0.3543300769280528,
+        "absolute_gain": -0.0006523397618278711,
+        "relative_gain_percent": -0.18376678143970368,
+        "absolute_ci": [
+          -0.0031583622037001675,
+          0.001828706030398758
+        ],
+        "relative_ci_percent": [
+          -0.8929334546214891,
+          0.5152203342283288
+        ],
+        "undefined_relative_bootstrap_samples": 0
+      }
+    },
+    "corrected_vs_baseline": {
+      "CLIP": {
+        "n": 87,
+        "images": 84,
+        "baseline": 28.072684233216034,
+        "method": 28.44676752200072,
+        "absolute_gain": 0.37408328878468483,
+        "relative_gain_percent": 1.332552618328046,
+        "absolute_ci": [
+          0.07278608696500875,
+          0.6959501651956463
+        ],
+        "relative_ci_percent": [
+          0.25790283416535953,
+          2.4959905313429256
+        ],
+        "undefined_relative_bootstrap_samples": 0
+      },
+      "LPIPS": {
+        "n": 204,
+        "images": 192,
+        "baseline": 0.6852755627284447,
+        "method": 0.6835636366706561,
+        "absolute_gain": 0.0017119260577886713,
+        "relative_gain_percent": 0.24981571661078758,
+        "absolute_ci": [
+          -0.0018671571921976746,
+          0.005505857629250886
+        ],
+        "relative_ci_percent": [
+          -0.2685703012515406,
+          0.810176621626862
+        ],
+        "undefined_relative_bootstrap_samples": 0
+      },
+      "Feature Similarity": {
+        "n": 204,
+        "images": 192,
+        "baseline": 0.2816903290941435,
+        "method": 0.2842731782618691,
+        "absolute_gain": 0.0025828491677256193,
+        "relative_gain_percent": 0.9169108417855579,
+        "absolute_ci": [
+          -0.0009615112592654274,
+          0.006183081005019274
+        ],
+        "relative_ci_percent": [
+          -0.3502695436042168,
+          2.2050052794355155
+        ],
+        "undefined_relative_bootstrap_samples": 0
+      },
+      "SSIM": {
+        "n": 204,
+        "images": 192,
+        "baseline": 0.3549824166898807,
+        "method": 0.3564304685256632,
+        "absolute_gain": 0.001448051835782566,
+        "relative_gain_percent": 0.407922130139649,
+        "absolute_ci": [
+          -0.0014906367646238168,
+          0.004406596023038239
+        ],
+        "relative_ci_percent": [
+          -0.42590663374490534,
+          1.246549175614024
+        ],
+        "undefined_relative_bootstrap_samples": 0
+      }
+    },
+    "oracle_CLIP_vs_baseline": {
+      "CLIP": {
+        "n": 87,
+        "images": 84,
+        "baseline": 28.072684233216034,
+        "method": 29.029543865686176,
+        "absolute_gain": 0.9568596324701418,
+        "relative_gain_percent": 3.4085078025348596,
+        "absolute_ci": [
+          0.6338377684868474,
+          1.305945927115047
+        ],
+        "relative_ci_percent": [
+          2.2437768315612696,
+          4.712766704227236
+        ],
+        "undefined_relative_bootstrap_samples": 0
+      },
+      "LPIPS": {
+        "n": 204,
+        "images": 192,
+        "baseline": 0.6852755627284447,
+        "method": 0.6855819620119006,
+        "absolute_gain": -0.0003063992834558674,
+        "relative_gain_percent": -0.04471183566446317,
+        "absolute_ci": [
+          -0.003683448813851263,
+          0.0032248197975355943
+        ],
+        "relative_ci_percent": [
+          -0.537714547472629,
+          0.481496977349236
+        ],
+        "undefined_relative_bootstrap_samples": 0
+      },
+      "Feature Similarity": {
+        "n": 204,
+        "images": 192,
+        "baseline": 0.2816903290941435,
+        "method": 0.2818495025675671,
+        "absolute_gain": 0.00015917347342360254,
+        "relative_gain_percent": 0.056506545302946944,
+        "absolute_ci": [
+          -0.003271344783821423,
+          0.0035243529914257142
+        ],
+        "relative_ci_percent": [
+          -1.158295970071705,
+          1.295586893435287
+        ],
+        "undefined_relative_bootstrap_samples": 0
+      },
+      "SSIM": {
+        "n": 204,
+        "images": 192,
+        "baseline": 0.3549824166898807,
+        "method": 0.3543469649546902,
+        "absolute_gain": -0.0006354517351905404,
+        "relative_gain_percent": -0.1790093552001712,
+        "absolute_ci": [
+          -0.003001880908426709,
+          0.0017250970458612123
+        ],
+        "relative_ci_percent": [
+          -0.8419862655010747,
+          0.4854947660574631
+        ],
+        "undefined_relative_bootstrap_samples": 0
+      }
+    },
+    "oracle_LPIPS_vs_baseline": {
+      "CLIP": {
+        "n": 87,
+        "images": 84,
+        "baseline": 28.072684233216034,
+        "method": 28.388236933741076,
+        "absolute_gain": 0.31555270052504264,
+        "relative_gain_percent": 1.1240560322039879,
+        "absolute_ci": [
+          0.006402587718125772,
+          0.6376539744940045
+        ],
+        "relative_ci_percent": [
+          0.022271371466443132,
+          2.2972532483362462
+        ],
+        "undefined_relative_bootstrap_samples": 0
+      },
+      "LPIPS": {
+        "n": 204,
+        "images": 192,
+        "baseline": 0.6852755627284447,
+        "method": 0.6844917012415096,
+        "absolute_gain": 0.0007838614869351481,
+        "relative_gain_percent": 0.11438631837595092,
+        "absolute_ci": [
+          -0.002548878310019818,
+          0.004346080629824141
+        ],
+        "relative_ci_percent": [
+          -0.37093637196550455,
+          0.6440183308176385
+        ],
+        "undefined_relative_bootstrap_samples": 0
+      },
+      "Feature Similarity": {
+        "n": 204,
+        "images": 192,
+        "baseline": 0.2816903290941435,
+        "method": 0.28303837725052644,
+        "absolute_gain": 0.0013480481563829909,
+        "relative_gain_percent": 0.47855677570402533,
+        "absolute_ci": [
+          -0.0021090759965302418,
+          0.004842811428185591
+        ],
+        "relative_ci_percent": [
+          -0.7441840096586322,
+          1.7477125719690934
+        ],
+        "undefined_relative_bootstrap_samples": 0
+      },
+      "SSIM": {
+        "n": 204,
+        "images": 192,
+        "baseline": 0.3549824166898807,
+        "method": 0.35486198029261656,
+        "absolute_gain": -0.00012043639726412754,
+        "relative_gain_percent": -0.03392742614892474,
+        "absolute_ci": [
+          -0.002509868921220572,
+          0.0022739887726420317
+        ],
+        "relative_ci_percent": [
+          -0.7149470550713389,
+          0.646801569714128
+        ],
+        "undefined_relative_bootstrap_samples": 0
+      }
+    },
+    "oracle_Feature Similarity_vs_baseline": {
+      "CLIP": {
+        "n": 87,
+        "images": 84,
+        "baseline": 28.072684233216034,
+        "method": 28.464848134709502,
+        "absolute_gain": 0.39216390149346714,
+        "relative_gain_percent": 1.3969590447266627,
+        "absolute_ci": [
+          0.10211427487417844,
+          0.6783529479591693
+        ],
+        "relative_ci_percent": [
+          0.36171011546929316,
+          2.4393927608606374
+        ],
+        "undefined_relative_bootstrap_samples": 0
+      },
+      "LPIPS": {
+        "n": 204,
+        "images": 192,
+        "baseline": 0.6852755627284447,
+        "method": 0.6852849066330522,
+        "absolute_gain": -9.343904607436235e-06,
+        "relative_gain_percent": -0.001363525144575885,
+        "absolute_ci": [
+          -0.0033464263115046905,
+          0.0034880639670167254
+        ],
+        "relative_ci_percent": [
+          -0.4901131693757697,
+          0.5179980146417964
+        ],
+        "undefined_relative_bootstrap_samples": 0
+      },
+      "Feature Similarity": {
+        "n": 204,
+        "images": 192,
+        "baseline": 0.2816903290941435,
+        "method": 0.28571409783234786,
+        "absolute_gain": 0.0040237687382043575,
+        "relative_gain_percent": 1.4284369474606908,
+        "absolute_ci": [
+          0.0004351109219299694,
+          0.007611181568984243
+        ],
+        "relative_ci_percent": [
+          0.15303293682888316,
+          2.739862525339954
+        ],
+        "undefined_relative_bootstrap_samples": 0
+      },
+      "SSIM": {
+        "n": 204,
+        "images": 192,
+        "baseline": 0.3549824166898807,
+        "method": 0.35486906438068927,
+        "absolute_gain": -0.00011335230919139374,
+        "relative_gain_percent": -0.031931809538166635,
+        "absolute_ci": [
+          -0.0024354743139347996,
+          0.0022010485748724246
+        ],
+        "relative_ci_percent": [
+          -0.6888249627602364,
+          0.6289508561836883
+        ],
+        "undefined_relative_bootstrap_samples": 0
+      }
+    },
+    "oracle_SSIM_vs_baseline": {
+      "CLIP": {
+        "n": 87,
+        "images": 84,
+        "baseline": 28.072684233216034,
+        "method": 28.375260583285627,
+        "absolute_gain": 0.3025763500695941,
+        "relative_gain_percent": 1.0778319150242894,
+        "absolute_ci": [
+          0.027008761601014574,
+          0.5845488848311177
+        ],
+        "relative_ci_percent": [
+          0.09410196275608672,
+          2.094380177083873
+        ],
+        "undefined_relative_bootstrap_samples": 0
+      },
+      "LPIPS": {
+        "n": 204,
+        "images": 192,
+        "baseline": 0.6852755627284447,
+        "method": 0.6851465921191608,
+        "absolute_gain": 0.00012897060928391475,
+        "relative_gain_percent": 0.01882025513508967,
+        "absolute_ci": [
+          -0.0032149885072450548,
+          0.0036624595432563642
+        ],
+        "relative_ci_percent": [
+          -0.46883201340375785,
+          0.5431961176842297
+        ],
+        "undefined_relative_bootstrap_samples": 0
+      },
+      "Feature Similarity": {
+        "n": 204,
+        "images": 192,
+        "baseline": 0.2816903290941435,
+        "method": 0.28294778534886883,
+        "absolute_gain": 0.0012574562547253627,
+        "relative_gain_percent": 0.44639667210765666,
+        "absolute_ci": [
+          -0.0022274644559492234,
+          0.004805076017409848
+        ],
+        "relative_ci_percent": [
+          -0.7998642554862483,
+          1.7445041387127413
+        ],
+        "undefined_relative_bootstrap_samples": 0
+      },
+      "SSIM": {
+        "n": 204,
+        "images": 192,
+        "baseline": 0.3549824166898807,
+        "method": 0.3554602777743218,
+        "absolute_gain": 0.00047786108444116147,
+        "relative_gain_percent": 0.13461542374326385,
+        "absolute_ci": [
+          -0.0018816025376405606,
+          0.0028211770492433843
+        ],
+        "relative_ci_percent": [
+          -0.5340807401943768,
+          0.8053354933254874
+        ],
+        "undefined_relative_bootstrap_samples": 0
+      }
+    },
+    "frozen_raw_vs_uniform_raw": {
+      "CLIP": {
+        "n": 87,
+        "images": 84,
+        "baseline": 28.439853838120385,
+        "method": 28.56823528772113,
+        "absolute_gain": 0.12838144960074588,
+        "relative_gain_percent": 0.4514138867643025,
+        "absolute_ci": [
+          0.029785884674205336,
+          0.22568216524192625
+        ],
+        "relative_ci_percent": [
+          0.10482275138898484,
+          0.7980271859326139
+        ],
+        "undefined_relative_bootstrap_samples": 0
+      },
+      "LPIPS": {
+        "n": 204,
+        "images": 192,
+        "baseline": 0.6856119449880412,
+        "method": 0.685659465142617,
+        "absolute_gain": -4.7520154575799025e-05,
+        "relative_gain_percent": -0.006931056981019766,
+        "absolute_ci": [
+          -0.00022408951564965624,
+          0.00013398116563098693
+        ],
+        "relative_ci_percent": [
+          -0.03314710602621707,
+          0.019587371666034546
+        ],
+        "undefined_relative_bootstrap_samples": 0
+      },
+      "Feature Similarity": {
+        "n": 204,
+        "images": 192,
+        "baseline": 0.2821766731384046,
+        "method": 0.28243261882487464,
+        "absolute_gain": 0.00025594568647005977,
+        "relative_gain_percent": 0.09070405559162617,
+        "absolute_ci": [
+          -0.0003015551337596084,
+          0.0008362808646419395
+        ],
+        "relative_ci_percent": [
+          -0.10986860038616891,
+          0.29440843437187975
+        ],
+        "undefined_relative_bootstrap_samples": 0
+      },
+      "SSIM": {
+        "n": 204,
+        "images": 192,
+        "baseline": 0.3543914013029939,
+        "method": 0.35437820134186454,
+        "absolute_gain": -1.319996112933893e-05,
+        "relative_gain_percent": -0.0037246843689791908,
+        "absolute_ci": [
+          -0.00022458941648175658,
+          0.0001778204632754538
+        ],
+        "relative_ci_percent": [
+          -0.06424906851190815,
+          0.04965859865812075
+        ],
+        "undefined_relative_bootstrap_samples": 0
+      }
+    },
+    "frozen_raw_vs_uniform_valid": {
+      "CLIP": {
+        "n": 87,
+        "images": 84,
+        "baseline": 28.445046759199823,
+        "method": 28.56823528772113,
+        "absolute_gain": 0.12318852852130759,
+        "relative_gain_percent": 0.43307550015352114,
+        "absolute_ci": [
+          0.02479795834982874,
+          0.22140808837680978
+        ],
+        "relative_ci_percent": [
+          0.08754713812218595,
+          0.7803969066483797
+        ],
+        "undefined_relative_bootstrap_samples": 0
+      },
+      "LPIPS": {
+        "n": 204,
+        "images": 192,
+        "baseline": 0.6856183303882264,
+        "method": 0.685659465142617,
+        "absolute_gain": -4.113475439059574e-05,
+        "relative_gain_percent": -0.005999657909861232,
+        "absolute_ci": [
+          -0.00021991068023872695,
+          0.0001418643092267298
+        ],
+        "relative_ci_percent": [
+          -0.03234670118893617,
+          0.020763153530281547
+        ],
+        "undefined_relative_bootstrap_samples": 0
+      },
+      "Feature Similarity": {
+        "n": 204,
+        "images": 192,
+        "baseline": 0.2821653230797524,
+        "method": 0.28243261882487464,
+        "absolute_gain": 0.00026729574512227667,
+        "relative_gain_percent": 0.09473018945234708,
+        "absolute_ci": [
+          -0.0002920350077759309,
+          0.0008498036335498315
+        ],
+        "relative_ci_percent": [
+          -0.10593236077812526,
+          0.29824604806971977
+        ],
+        "undefined_relative_bootstrap_samples": 0
+      },
+      "SSIM": {
+        "n": 204,
+        "images": 192,
+        "baseline": 0.35438640036193547,
+        "method": 0.35437820134186454,
+        "absolute_gain": -8.199020070922448e-06,
+        "relative_gain_percent": -0.002313582028697708,
+        "absolute_ci": [
+          -0.00021929393343038422,
+          0.00018386698127562
+        ],
+        "relative_ci_percent": [
+          -0.06336924424117496,
+          0.05139673799111068
+        ],
+        "undefined_relative_bootstrap_samples": 0
+      }
+    },
+    "frozen_raw_vs_first_raw": {
+      "CLIP": {
+        "n": 87,
+        "images": 84,
+        "baseline": 28.504813731401818,
+        "method": 28.56823528772113,
+        "absolute_gain": 0.06342155631931348,
+        "relative_gain_percent": 0.22249419665369102,
+        "absolute_ci": [
+          -0.055438184092197515,
+          0.1784201890572734
+        ],
+        "relative_ci_percent": [
+          -0.1926847052974092,
+          0.6277954224819241
+        ],
+        "undefined_relative_bootstrap_samples": 0
+      },
+      "LPIPS": {
+        "n": 204,
+        "images": 192,
+        "baseline": 0.6856588538297835,
+        "method": 0.685659465142617,
+        "absolute_gain": -6.113128334868188e-07,
+        "relative_gain_percent": -8.915699550473225e-05,
+        "absolute_ci": [
+          -0.00020161186624350475,
+          0.00020021594578946997
+        ],
+        "relative_ci_percent": [
+          -0.029410542223390505,
+          0.029178166452405823
+        ],
+        "undefined_relative_bootstrap_samples": 0
+      },
+      "Feature Similarity": {
+        "n": 204,
+        "images": 192,
+        "baseline": 0.28190283294694096,
+        "method": 0.28243261882487464,
+        "absolute_gain": 0.0005297858779336892,
+        "relative_gain_percent": 0.18793208723567678,
+        "absolute_ci": [
+          -1.792786366278581e-05,
+          0.001111718854515345
+        ],
+        "relative_ci_percent": [
+          -0.006750143379279467,
+          0.3819287369082005
+        ],
+        "undefined_relative_bootstrap_samples": 0
+      },
+      "SSIM": {
+        "n": 204,
+        "images": 192,
+        "baseline": 0.35428840750289825,
+        "method": 0.35437820134186454,
+        "absolute_gain": 8.979383896630905e-05,
+        "relative_gain_percent": 0.02534484252510421,
+        "absolute_ci": [
+          -8.29162613551095e-05,
+          0.00029008431071905793
+        ],
+        "relative_ci_percent": [
+          -0.024238103330916964,
+          0.08065578720877689
+        ],
+        "undefined_relative_bootstrap_samples": 0
+      }
+    },
+    "frozen_raw_vs_semantic_only": {
+      "CLIP": {
+        "n": 87,
+        "images": 84,
+        "baseline": 28.60506312052409,
+        "method": 28.56823528772113,
+        "absolute_gain": -0.03682783280295887,
+        "relative_gain_percent": -0.12874585400419886,
+        "absolute_ci": [
+          -0.13650769598028634,
+          0.06392670518248075
+        ],
+        "relative_ci_percent": [
+          -0.4760500909354236,
+          0.22388066747267166
+        ],
+        "undefined_relative_bootstrap_samples": 0
+      },
+      "LPIPS": {
+        "n": 204,
+        "images": 192,
+        "baseline": 0.6856448868033933,
+        "method": 0.685659465142617,
+        "absolute_gain": -1.4578339223768197e-05,
+        "relative_gain_percent": -0.0021262229915744264,
+        "absolute_ci": [
+          -0.0001804821590857951,
+          0.00014315460020358227
+        ],
+        "relative_ci_percent": [
+          -0.026723552603979087,
+          0.021267595220677313
+        ],
+        "undefined_relative_bootstrap_samples": 0
+      },
+      "Feature Similarity": {
+        "n": 204,
+        "images": 192,
+        "baseline": 0.2822318496365173,
+        "method": 0.28243261882487464,
+        "absolute_gain": 0.0002007691883573345,
+        "relative_gain_percent": 0.07113626212488154,
+        "absolute_ci": [
+          -0.0003115889083866666,
+          0.0007726211170308436
+        ],
+        "relative_ci_percent": [
+          -0.11469080132902945,
+          0.26718867643679794
+        ],
+        "undefined_relative_bootstrap_samples": 0
+      },
+      "SSIM": {
+        "n": 204,
+        "images": 192,
+        "baseline": 0.3543300769280528,
+        "method": 0.35437820134186454,
+        "absolute_gain": 4.812441381175571e-05,
+        "relative_gain_percent": 0.013581803223982997,
+        "absolute_ci": [
+          -9.566339196369666e-05,
+          0.00021973935529133638
+        ],
+        "relative_ci_percent": [
+          -0.027381615175293333,
+          0.06103666784817653
+        ],
+        "undefined_relative_bootstrap_samples": 0
+      }
+    },
+    "corrected_vs_frozen_raw": {
+      "CLIP": {
+        "n": 87,
+        "images": 84,
+        "baseline": 28.56823528772113,
+        "method": 28.44676752200072,
+        "absolute_gain": -0.12146776572041128,
+        "relative_gain_percent": -0.4251847007596551,
+        "absolute_ci": [
+          -0.23425045059854072,
+          -0.004998629841675333
+        ],
+        "relative_ci_percent": [
+          -0.8184584760650084,
+          -0.017631132395844816
+        ],
+        "undefined_relative_bootstrap_samples": 0
+      },
+      "LPIPS": {
+        "n": 204,
+        "images": 192,
+        "baseline": 0.685659465142617,
+        "method": 0.6835636366706561,
+        "absolute_gain": 0.0020958284719609747,
+        "relative_gain_percent": 0.30566608914602283,
+        "absolute_ci": [
+          0.001253176381847655,
+          0.0031078837547115806
+        ],
+        "relative_ci_percent": [
+          0.1760629848648829,
+          0.47066612128702057
+        ],
+        "undefined_relative_bootstrap_samples": 0
+      },
+      "Feature Similarity": {
+        "n": 204,
+        "images": 192,
+        "baseline": 0.28243261882487464,
+        "method": 0.2842731782618691,
+        "absolute_gain": 0.0018405594369944405,
+        "relative_gain_percent": 0.6516809016793131,
+        "absolute_ci": [
+          0.0009938047116711025,
+          0.0027616572430032866
+        ],
+        "relative_ci_percent": [
+          0.3760067646841406,
+          0.9508199679999154
+        ],
+        "undefined_relative_bootstrap_samples": 0
+      },
+      "SSIM": {
+        "n": 204,
+        "images": 192,
+        "baseline": 0.35437820134186454,
+        "method": 0.3564304685256632,
+        "absolute_gain": 0.0020522671837986815,
+        "relative_gain_percent": 0.5791177832123154,
+        "absolute_ci": [
+          0.0006605952818223338,
+          0.0035889420925019383
+        ],
+        "relative_ci_percent": [
+          0.1858538398656016,
+          0.9892390057372086
+        ],
+        "undefined_relative_bootstrap_samples": 0
+      }
+    }
+  },
+  "local_neural_metrics_rerun": false,
+  "source_sha256": "fa5a7aabde777f38a0591356b6e87beee14361f4c632052879fcb97fafb95b4d"
+}

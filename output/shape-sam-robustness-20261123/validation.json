@@ -1,0 +1,24 @@
+{
+  "at": "2026-11-23T12:36:12.652412+00:00",
+  "python_tests": 389,
+  "optional_dependency_skips": 5,
+  "bash_regressions": 6,
+  "cpu_smoke": true,
+  "command": "PYTHON_BIN=$HOME/.cache/surface-replay-py310/bin/python bash scripts/check.sh",
+  "exit_code": 0,
+  "log_sha256": "6e02f78120d7e7b369035fd62b7038f0b965fe3a781e748910683682ad8768a6",
+  "gpu_preflight_job": "45662",
+  "gpu_preflight_state": "COMPLETED",
+  "gpu_preflight_exit": "0:0",
+  "source_hashes": {
+    "scripts/prepare_shape_sam_training.py": "72c3d436936e79230533c1d944533b775c50a2c43df05e00d3d4dc0fbb470888",
+    "scripts/train_shape_robust_slurm.py": "33fb00be2099ac3875a5d35c44070eaf445b641889a11d44f99ca12de208cd27",
+    "scripts/shape_robust_data.py": "930160a70e8b479484fb7c3cbb7055da24b12505373ce2335df4e6c951645af1",
+    "scripts/evaluate_shape_robust_native.py": "fa98a9478b40d581edc15a62e3fb215f230e0200212fd32ea1823063b92f934c",
+    "scripts/recover_shape_sam_validation.py": "86b931ba0d92b3aa6aa57b33982753c894c8cd82304a50ab9407b560a43e77d1",
+    "scripts/collect_shape_robustness.py": "d55d98f18a0bf881d7f748d14f4e210e0f829c77c75bf19e631a35b540163586",
+    "scripts/build_shape_robust_report.py": "30faa56d92cbe09b5e4e6887558459146cfd099efa83620b63a58429db730fc6"
+  },
+  "frozen_v2_changed": false,
+  "benchmark_success": false
+}

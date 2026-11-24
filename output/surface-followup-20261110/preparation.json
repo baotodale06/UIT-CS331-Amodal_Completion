@@ -1,0 +1,19 @@
+{
+  "counts": {
+    "VG": 64,
+    "COCOA": 64,
+    "free_images": 38
+  },
+  "excluded": {
+    "small_mask": 293,
+    "duplicate_image": 66,
+    "small_resized_support": 1,
+    "small_bbox": 11
+  },
+  "config_sha256": "514e26642df66cf08501767a1b27166c6a92049e6df62e7c9dc92ee9dd255f34",
+  "cases_sha256": "c14551a066f25dcf8840d5c9bafb6295e312567745413d93c878b5c6f5040923",
+  "preparation_source_sha256": "a9e4d98059d14b452637fec9701f9a9253bd221ee002127f565c677ccf44a1eb",
+  "excluded_cases_sha256": "2921ff6c434503be59a103bdf12651779f8f0e458aa64d3b41517d48838ec187",
+  "reference_run": "output\\baseline-31548\\output\\pdmc-baseline-provenance-20261105",
+  "total": 166
+}

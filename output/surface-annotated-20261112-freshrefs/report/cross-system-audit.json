@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "at": "2026-11-12T10:31:59.381561+00:00",
+  "comparison_excludes": [
+    "audited_at"
+  ],
+  "artifacts": [
+    {
+      "local": "audit.json",
+      "remote": "cohort/audit.json",
+      "equal": true,
+      "local_sha256": "683031b383a5b9cdd623429bc3ec065c5fd7bc8863a989c9a07ab1a3ca2b0f96",
+      "remote_sha256": "d74c85eec74ab711be908555db18d3f99ee6b99b5c96a68290c4e7fbd13d45e4"
+    },
+    {
+      "local": "pool-audit.json",
+      "remote": "pool/pool-audit.json",
+      "equal": true,
+      "local_sha256": "c5c15064912cd48a709aa290f0aebf653ef2fbcab9198e2174c788d1751cc20d",
+      "remote_sha256": "a8e2d39f3ea8ac46eed5d7a5fd0c2c7b0ae5f4cdb0696611b29b87f84521ebeb"
+    },
+    {
+      "local": "paired_records.json",
+      "remote": "cohort/paired_records.json",
+      "equal": true,
+      "local_sha256": "3657ef7d097083a1831f116fde3337711a7d058bf8f5dcaf3a10cb4c0676aed5",
+      "remote_sha256": "3657ef7d097083a1831f116fde3337711a7d058bf8f5dcaf3a10cb4c0676aed5"
+    },
+    {
+      "local": "decision_replay.json",
+      "remote": "cohort/decision_replay.json",
+      "equal": true,
+      "local_sha256": "0bbd9fce252b2c2dfc36c7a242c9c3dc7d03d212dc6832dbe2df4f0bc1f7b1f6",
+      "remote_sha256": "0bbd9fce252b2c2dfc36c7a242c9c3dc7d03d212dc6832dbe2df4f0bc1f7b1f6"
+    }
+  ]
+}

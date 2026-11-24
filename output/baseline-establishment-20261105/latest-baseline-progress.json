@@ -1,0 +1,230 @@
+{
+  "utc": "2026-11-06T09:27:19.954545+00:00",
+  "queue": "",
+  "accounting": "JobID|State|ExitCode|Elapsed|MaxRSS\n31548|COMPLETED|0:0|04:02:38|\n31548.batch|COMPLETED|0:0|04:02:38|49171332K",
+  "workflow_id": "20261106T052433Z-c6cfb8b1",
+  "workflow_status": "complete",
+  "stages": [
+    {
+      "name": "gpu-inventory",
+      "status": "complete"
+    },
+    {
+      "name": "cuda-extension",
+      "status": "complete"
+    },
+    {
+      "name": "pipeline-imports",
+      "status": "complete"
+    },
+    {
+      "name": "data-preflight",
+      "status": "complete"
+    },
+    {
+      "name": "smoke",
+      "status": "complete"
+    },
+    {
+      "name": "verify-smoke",
+      "status": "complete"
+    },
+    {
+      "name": "full",
+      "status": "complete"
+    },
+    {
+      "name": "verify-full",
+      "status": "complete"
+    },
+    {
+      "name": "register",
+      "status": "complete"
+    }
+  ],
+  "stage_log_tail": [
+    "/home/daoqm/Vu_Hung/cv_nangcao/.amodal-cache/conda-env/bin/python -m amodal_benchmark register --run-dir output/pdmc-baseline-provenance-20261105 --dataset-root datasets/open_world_amodal",
+    "Registered complete execution in experiments.csv"
+  ],
+  "smoke": {
+    "saved_targets": 8,
+    "statuses": {
+      "ambiguous_target": 4,
+      "not_detected": 3,
+      "success": 1
+    },
+    "sources": {
+      "VG": 8
+    },
+    "failure_reasons": {
+      "multiple_distinct_instances": 4,
+      "label_not_matched": 3
+    },
+    "execution_id": "20261106T052750.430901Z-990503fc",
+    "execution_status": "complete",
+    "started_utc": "2026-11-06T05:27:51.012395+00:00",
+    "metric_caches": 1,
+    "worker_tails": {
+      "workers/20261106T052806.617882Z-1404175/worker-00.log": [
+        "=> loading checkpoint '/home/daoqm/Vu_Hung/cv_nangcao/.amodal-cache/amodal/InstaOrder/InstaOrder_ckpt/InstaOrder_InstaOrderNet_od.pth.tar'",
+        "[1/2] VG/4_blackfloorlamp: not_detected (label_not_matched)",
+        "[2/2] VG/24_redcar: ambiguous_target (multiple_distinct_instances)"
+      ],
+      "workers/20261106T052806.617882Z-1404175/worker-01.log": [
+        "=> loading checkpoint '/home/daoqm/Vu_Hung/cv_nangcao/.amodal-cache/amodal/InstaOrder/InstaOrder_ckpt/InstaOrder_InstaOrderNet_od.pth.tar'",
+        "[1/2] VG/16_whitecar: ambiguous_target (multiple_distinct_instances)",
+        "[2/2] VG/33_browntable: not_detected (label_not_matched)"
+      ],
+      "workers/20261106T052806.617882Z-1404175/worker-02.log": [
+        "=> loading checkpoint '/home/daoqm/Vu_Hung/cv_nangcao/.amodal-cache/amodal/InstaOrder/InstaOrder_ckpt/InstaOrder_InstaOrderNet_od.pth.tar'",
+        "[1/2] VG/22_tram: not_detected (label_not_matched)",
+        "[2/2] VG/41_whitemicrowave: ambiguous_target (multiple_distinct_instances)"
+      ],
+      "workers/20261106T052806.617882Z-1404175/worker-03.log": [
+        " 98%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u258a| 49/50 [00:05<00:00, 11.12it/s]",
+        "100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 50/50 [00:05<00:00,  9.76it/s]",
+        "[2/2] VG/43_television: success"
+      ]
+    },
+    "worker_progress": {
+      "worker-00.log": "[2/2] VG/24_redcar: ambiguous_target (multiple_distinct_instances)",
+      "worker-01.log": "[2/2] VG/33_browntable: not_detected (label_not_matched)",
+      "worker-02.log": "[2/2] VG/41_whitemicrowave: ambiguous_target (multiple_distinct_instances)",
+      "worker-03.log": "[2/2] VG/43_television: success"
+    },
+    "overall": {
+      "targets": 8,
+      "successes": 1,
+      "failures": 7,
+      "reference_failures": 0,
+      "missing_images": 0,
+      "failure_rate": 0.875,
+      "status_counts": {
+        "not_detected": 3,
+        "ambiguous_target": 4,
+        "success": 1
+      },
+      "failure_reasons": {
+        "label_not_matched": 3,
+        "multiple_distinct_instances": 4
+      },
+      "completed_outputs": 1,
+      "iteration_limited_outputs": 0,
+      "completion_state_unknown": 0,
+      "failure_stage_counts": {
+        "target_selection": 7
+      },
+      "target_selection_failures": 7,
+      "initial_segmentation_failures": 0,
+      "pdmc_failures": 0,
+      "CLIP": 27.513896942138672,
+      "CLIP_n": 1,
+      "LPIPS": 0.8904890576377511,
+      "LPIPS_n": 8,
+      "Feature Similarity": 0.11319790035486221,
+      "Feature Similarity_n": 8,
+      "SSIM": 0.1144011184206497,
+      "SSIM_n": 8
+    }
+  },
+  "full": {
+    "saved_targets": 2565,
+    "statuses": {
+      "success": 951,
+      "not_detected": 934,
+      "no_completion": 429,
+      "ambiguous_target": 251
+    },
+    "sources": {
+      "free_images": 249,
+      "laion": 177,
+      "COCOA": 845,
+      "VG": 1294
+    },
+    "failure_reasons": {
+      "label_not_matched": 877,
+      "no_occlusion_detected": 344,
+      "no_detections": 57,
+      "multiple_distinct_instances": 251,
+      "query_mask_too_small": 69,
+      "completion_not_detected": 15,
+      "unknown_detected_class": 1
+    },
+    "execution_id": "20261106T053037.969259Z-fdce84ff",
+    "execution_status": "complete",
+    "started_utc": "2026-11-06T05:30:38.530839+00:00",
+    "metric_caches": 951,
+    "worker_tails": {
+      "workers/20261106T053051.625766Z-1405218/worker-00.log": [
+        "[649/651] laion/000018578_bird: ambiguous_target (multiple_distinct_instances)",
+        "[650/651] laion/000019510_bathtub: not_detected (no_detections)",
+        "[651/651] laion/000019728_bouquet: not_detected (label_not_matched)"
+      ],
+      "workers/20261106T053051.625766Z-1405218/worker-01.log": [
+        "[633/635] laion/000019713_book: success",
+        "[634/635] laion/000019713_dogtoy: not_detected (label_not_matched)",
+        "[635/635] laion/000019743_soundbox: not_detected (label_not_matched)"
+      ],
+      "workers/20261106T053051.625766Z-1405218/worker-02.log": [
+        "100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 50/50 [00:04<00:00, 11.70it/s]",
+        "[643/644] laion/000019718_dog: success",
+        "[644/644] laion/000019781_car: no_completion (no_occlusion_detected)"
+      ],
+      "workers/20261106T053051.625766Z-1405218/worker-03.log": [
+        "[633/635] laion/000019346_trousers: not_detected (no_detections)",
+        "[634/635] laion/000019724_house: not_detected (label_not_matched)",
+        "[635/635] laion/000019819_redcarpet: not_detected (label_not_matched)"
+      ]
+    },
+    "worker_progress": {
+      "worker-00.log": "[651/651] laion/000019728_bouquet: not_detected (label_not_matched)",
+      "worker-01.log": "[635/635] laion/000019743_soundbox: not_detected (label_not_matched)",
+      "worker-02.log": "[644/644] laion/000019781_car: no_completion (no_occlusion_detected)",
+      "worker-03.log": "[635/635] laion/000019819_redcarpet: not_detected (label_not_matched)"
+    },
+    "overall": {
+      "targets": 2565,
+      "successes": 951,
+      "failures": 1614,
+      "reference_failures": 0,
+      "missing_images": 0,
+      "failure_rate": 0.6292397660818714,
+      "status_counts": {
+        "not_detected": 934,
+        "ambiguous_target": 251,
+        "success": 951,
+        "no_completion": 429
+      },
+      "failure_reasons": {
+        "label_not_matched": 877,
+        "multiple_distinct_instances": 251,
+        "no_occlusion_detected": 344,
+        "no_detections": 57,
+        "query_mask_too_small": 69,
+        "completion_not_detected": 15,
+        "unknown_detected_class": 1
+      },
+      "completed_outputs": 796,
+      "iteration_limited_outputs": 155,
+      "completion_state_unknown": 0,
+      "failure_stage_counts": {
+        "target_selection": 1128,
+        "occlusion_check": 344,
+        "initial_segmentation": 57,
+        "query_filter": 70,
+        "completion_segmentation": 15
+      },
+      "target_selection_failures": 1128,
+      "initial_segmentation_failures": 57,
+      "pdmc_failures": 429,
+      "CLIP": 28.39309849423189,
+      "CLIP_n": 951,
+      "LPIPS": 0.7350089978114439,
+      "LPIPS_n": 2565,
+      "Feature Similarity": 0.24263584814225023,
+      "Feature Similarity_n": 2565,
+      "SSIM": 0.3033970860713269,
+      "SSIM_n": 2565
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "source": "output/shape-20261121/progressive-l40s/combined",
+  "cohort_sha256": "1e36d28bf6e52c0298f8e2b768822fdff8f0bfd421aae15ff1b2603f726ec141",
+  "source_execution_sha256": "5d5b48014c35efd36a4e68c11f0cc3f6a999e104c4cfe258dd165f5d77a79f4e",
+  "verified": true,
+  "targets": 204
+}

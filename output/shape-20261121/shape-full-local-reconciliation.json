@@ -1,0 +1,166 @@
+{
+  "observed_at": "2026-11-22T17:58:48.425723+00:00",
+  "scope": "Closed Shape audit reconciled locally; combined still running.",
+  "targets": 2565,
+  "metadata_files": 7074,
+  "candidate_pools": 2961,
+  "fallbacks": 4,
+  "reference_groups": {
+    "same-reference": 2048,
+    "same-scoring-crop": 2167
+  },
+  "reference_estimates": {
+    "baseline-same-reference": {
+      "n": 2048,
+      "images": 1918,
+      "baseline": 0.6462208071952773,
+      "method": 0.6510852725714358,
+      "absolute_gain": -0.004864465376158478,
+      "relative_gain_percent": -0.7527559190288523,
+      "absolute_ci": [
+        -0.008014448076198078,
+        -0.0015492060124811674
+      ],
+      "relative_ci_percent": [
+        -1.2491372356438921,
+        -0.2398070570412048
+      ],
+      "undefined_relative_bootstrap_samples": 0
+    },
+    "surface-same-reference": {
+      "n": 2048,
+      "images": 1918,
+      "baseline": 0.6409017099504126,
+      "method": 0.6510852725714358,
+      "absolute_gain": -0.010183562621023157,
+      "relative_gain_percent": -1.588942963159058,
+      "absolute_ci": [
+        -0.012950254205052747,
+        -0.007463360534611902
+      ],
+      "relative_ci_percent": [
+        -2.032262282471466,
+        -1.1622154682756856
+      ],
+      "undefined_relative_bootstrap_samples": 0
+    },
+    "baseline-same-scoring-crop": {
+      "n": 2167,
+      "images": 2020,
+      "baseline": 0.6374143083946436,
+      "method": 0.6425071694678874,
+      "absolute_gain": -0.005092861073243767,
+      "relative_gain_percent": -0.7989875668260984,
+      "absolute_ci": [
+        -0.00840987180595361,
+        -0.0018289530803780216
+      ],
+      "relative_ci_percent": [
+        -1.320575791854403,
+        -0.2828946787364355
+      ],
+      "undefined_relative_bootstrap_samples": 0
+    },
+    "surface-same-scoring-crop": {
+      "n": 2167,
+      "images": 2020,
+      "baseline": 0.6314818582308006,
+      "method": 0.6425071694678874,
+      "absolute_gain": -0.011025311237086775,
+      "relative_gain_percent": -1.7459426733138435,
+      "absolute_ci": [
+        -0.013825839578389228,
+        -0.008253261908081804
+      ],
+      "relative_ci_percent": [
+        -2.208336669167541,
+        -1.302761196998099
+      ],
+      "undefined_relative_bootstrap_samples": 0
+    }
+  },
+  "early_reference_records": 1136,
+  "cocoa_rows": 321,
+  "hidden_rows": 230,
+  "retained_hidden_rows": 15,
+  "unseen_targets": 2017,
+  "unseen_images": 1900,
+  "unseen_polygon_targets": 211,
+  "unseen_polygon_images": 202,
+  "vg_cpu_max_absolute_difference": {
+    "LPIPS": 1.7881393432617188e-07,
+    "SSIM": 0.0
+  },
+  "severity_sizes": [
+    203,
+    54,
+    39,
+    21,
+    4
+  ],
+  "shape_values": {
+    "LPIPS": 0.6186409545615751,
+    "SSIM": 0.44287148722558894,
+    "saved": 1393,
+    "bins": [
+      {
+        "lpips": 0.6564260994272278,
+        "saved": 108,
+        "amodal_iou": 0.45130114283978584
+      },
+      {
+        "lpips": 0.5665177758093234,
+        "saved": 32,
+        "amodal_iou": 0.49039930341925136
+      },
+      {
+        "lpips": 0.6319735516340305,
+        "saved": 22,
+        "amodal_iou": 0.40804376329857595
+      },
+      {
+        "lpips": 0.4190934786484355,
+        "saved": 17,
+        "amodal_iou": 0.5158309553784153
+      },
+      {
+        "lpips": 0.6369713433086872,
+        "saved": 2,
+        "amodal_iou": 0.24949274071736943
+      }
+    ],
+    "gpu_hours": 109.57111111111111
+  },
+  "jobs": [
+    "44914",
+    "44946",
+    "45361"
+  ],
+  "accounting": {
+    "44914": [
+      "COMPLETED",
+      6593,
+      "billing=16,cpu=16,gres/gpu:nvidia_l40s=4,gres/gpu=4,mem=96G,node=1"
+    ],
+    "44946": [
+      "TIMEOUT",
+      86418,
+      "billing=16,cpu=16,gres/gpu:nvidia_l40s=4,gres/gpu=4,mem=96G,node=1"
+    ],
+    "45361": [
+      "COMPLETED",
+      5603,
+      "billing=16,cpu=16,gres/gpu:nvidia_l40s=4,gres/gpu=4,mem=96G,node=1"
+    ]
+  },
+  "local_report_links": 61,
+  "hashes": {
+    "shape-full-summary.json": "9edf91ca27f3e7b2c94a7d4bd3b93b2b2314398cd2db72283193f9a00e18bb74",
+    "shape-full-pairs.json": "f536ada9766caa7520ff0cce32f9560059bcce43bbe84c19881db331a133b943",
+    "shape-full-metadata-replay.json": "a5d8230a3e38bc8096908da8120ca786ab58d00bcdb982f07dd109bade51ad7c",
+    "shape-full-cocoa-native-replay.json": "9b0c67f0176d6168f43ab4497d679d3c7526da14b2f7848ecabe8db6d3a6529b",
+    "shape-cocoa-preverification.json": "9da6abc07c70b2c8648b15d8f3969ddd9048c507e9e7514481a2c90759490ffe",
+    "shape-full-score-replay.json": "67c1e713ed2c2ed2b5c193554ea791d995a5f22d9f5a3aa1f594eaf24e00f955",
+    "REPORT.md": "986828aa23c21e345b7399a78daf7662bc29f37378f62f8d26da7ae5236d76b1"
+  }
+}

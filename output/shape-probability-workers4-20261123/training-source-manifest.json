@@ -1,0 +1,29 @@
+{
+  "at": "2026-11-23T16:58:02.896710+00:00",
+  "files": {
+    "amodal_benchmark/__init__.py": "834ad15d00bb81069fab4cfaa2b5da8dc1e987eb119b64a3c57d2dfb3b3a9aaf",
+    "amodal_benchmark/dataset.py": "f4ff471c26f6d51f6234f5ffeed2d580320ca0777a38801acd0036e96a38ddf9",
+    "amodal_benchmark/shape_v2.py": "5f87899b18aaa13901c41dd88f928ea341288d828c1e6d7509cd5b0ee0d833d3",
+    "amodal_benchmark/shape_v2_runtime.py": "ce1276390135e61bf68375c82e9170107fa9741538e33317092ab27f2819f9ed",
+    "configs/research/shape-probability-workers4-20261123.json": "a05167e3e0681eab00b8f36bc3a7d95a333b1ed3da0baaae6215394cccc34523",
+    "configs/research/shape-sam-constrained-20261123.json": "d953cd60f3251462d016b7329978e648825cb4af35b1ac0c69d10132c5c8f154",
+    "configs/research/shape-sam-kaggle-20261123.json": "38477aa92e638731e2fbb2359ca0ddf8aeef7e155585a8554a66253e513d0ebe",
+    "configs/research/shape-v2-20261123.json": "1e9cdabc7f2737ce3c7cdc602d06120ea0eec80ad12252a2c77b2b133889ef51",
+    "configs/research/shape-v2-slurm-20261123.json": "3233fbfa7a91ed4ba29e97dba491b5dd348a0ca265623610ee8d70afba50d245",
+    "scripts/evaluate_shape_kaggle_native.py": "ccfcb1274719e937a2a1270e2b612cc5045fd5ecc99dd85708d59275a672f8d7",
+    "scripts/shape_constrained_data.py": "7cd07bc189b344797e20e067b91ec52bd2ad3ce8b2ea5ba2999ecfa80d66cdc3",
+    "scripts/shape_local_data.py": "05e2e1db417139807a8005f2e95faf398b80e4f8c660a8b6094e97553408259e",
+    "scripts/shape_probability_loss.py": "3f6b8430b08a035db43293c6ca9b957a4ae893e3008001b1c192f1a5a1f2bfec",
+    "scripts/shape_robust_data.py": "930160a70e8b479484fb7c3cbb7055da24b12505373ce2335df4e6c951645af1",
+    "scripts/train_shape_kaggle.py": "028f27c52610a5dd436382c55d2ce408dc55bb49e6f6f13553b9c6bd586e2343",
+    "scripts/train_shape_probability_workers4.py": "b6ca83998d75faa4792926d03e991700d015f7621ca1223f12f3e81bcc09228f",
+    "scripts/train_shape_v2.py": "dc41b22d68c86868c3b3aa46cb0a5ad4eb5b646368fe1bd8992f000df4e8aa04",
+    "scripts/train_shape_v2_slurm.py": "e4fe2199670428180ca313bcf40106d452375c0a882c204f9d4e1c206e88a7a7",
+    "tests/test_shape_constrained_data.py": "e029a99f753e5936422dd298accf3663dff43c8343bc06421f878979af13f0b5",
+    "tests/test_shape_kaggle_contract.py": "1a30c3ebb03d6a6059973a911055a8fe957c1d1867fa4de963729fe061490f9d",
+    "tests/test_shape_local_data.py": "57ee83bb9960e3b770458c725832045277526dae2cfe1c79c1f57892962a2209",
+    "tests/test_shape_probability_loss.py": "6c65db45aa7d3a365f683e50cda55f3b7c659433e8627d021f065b9eff4cdfc0"
+  },
+  "zip_sha256": "fe6b8235e4dd4e5908e3452558f4f281d0f18c0fbc392aeb1543f8840a2268f3",
+  "benchmark_success": false
+}

@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "date": "2026-11-08",
+  "filters": {"all": 159, "gain": 84, "loss": 75, "fallback": 1, "pilot": 72, "replication": 87},
+  "search_count": 1,
+  "images_decoded": 318,
+  "image_failures": [],
+  "horizontal_overflow": false,
+  "evidence": "Chrome DevTools opened the offline file in an isolated context, exercised every filter and a case-ID search, reset to all cases, and decoded every RGB/mask panel. Counts agree with the frozen summary."
+}

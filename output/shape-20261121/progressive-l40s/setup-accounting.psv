@@ -1,0 +1,8 @@
+JobIDRaw|JobName|State|ElapsedRaw|AllocTRES
+44902|shape-prior|COMPLETED|228|billing=16,cpu=16,gres/gpu:nvidia_l40s=4,gres/gpu=4,mem=64G,node=1
+44903|shape-128|COMPLETED|35|billing=16,cpu=16,gres/gpu:nvidia_l40s=4,gres/gpu=4,mem=64G,node=1
+44905|sh-shape-cohort|FAILED|108|billing=16,cpu=16,gres/gpu:nvidia_l40s=4,gres/gpu=4,mem=96G,node=1
+44913|baseline-cohort|COMPLETED|1264|billing=16,cpu=16,gres/gpu:nvidia_l40s=4,gres/gpu=4,mem=96G,node=1
+44915|surface-cohort|CANCELLED by 263710875|0|
+44919|baseline-full|CANCELLED by 263710875|0|
+44921|surface-full|CANCELLED by 263710875|0|

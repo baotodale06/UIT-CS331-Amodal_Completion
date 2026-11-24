@@ -1,0 +1,45 @@
+{
+  "experiment": "shape-v2-20261123",
+  "scope": "Shape-only; no Surface ranker, appearance loss, RGB correction, or combined run",
+  "status": "development; no benchmark success claimed",
+  "seed": 20261123,
+  "training_platform": "Google Colab only",
+  "gpu_policy": "Request the highest GPU exposed to the authenticated account; prefer H100 over A100; record actual allocation and availability before training",
+  "data": "COCOA train2014 amodal annotations; exclude every benchmark COCO image ID, byte/decoded duplicate, and aligned-thumbnail near duplicate across all benchmark sources",
+  "split": "SHA256(shape-v2-20261123:<image_id>), first 8 hex digits modulo 10: 0 validation, 1 untouched geometry holdout, 2-9 training; same-image objects stay together",
+  "planned_inference_policy": {
+    "candidates_per_pass": 8,
+    "seed_slots": [11, 22, 33, 44, 55, 66, 77, 88],
+    "selection": "maximum expected mask intersection/union against the predicted probability mask; exclude empty masks; seed-order ties and slot 0 fallback",
+    "rgb_correction": false,
+    "surface_ranker": false,
+    "status": "scoring function implemented; progressive runtime integration pending trained checkpoint",
+    "freeze": "Any validation-driven revision must be recorded before opening the reserved holdout or running the benchmark"
+  },
+  "training": {
+    "architecture": "resnet34_unet_5channel",
+    "encoder_weights": "torchvision ResNet34_Weights.IMAGENET1K_V1",
+    "size": 256,
+    "epochs": 60,
+    "batch_size": 64,
+    "learning_rate": 0.0002,
+    "weight_decay": 0.0001,
+    "workers": 4,
+    "selection": "maximum validation image-mean hidden IoU; full IoU breaks exact ties; no benchmark or holdout checkpoint selection",
+    "loss": "BCE + full Dice + hidden Dice + 0.5 hidden positive BCE",
+    "augmentation": "horizontal flips; 50% extra half-plane/rectangle/ellipse occlusion; visible-based crop padding 1.5-3.0; original amodal target",
+    "inputs": "RGB only inside visible support, visible mask, unknown mask; neutralize unobserved pixels before bilinear resizing"
+  },
+  "success": {
+    "targets": 2565,
+    "control": "registered original annotated-vocabulary PMC control",
+    "control_scores_sha256": "ceb0da09942d105e034efe1948054161120959f3be76046111083fbe5a460a1b",
+    "required_relative_gain_percent": 3.0,
+    "metrics": {"CLIP": "higher", "LPIPS": "lower", "Feature Similarity": "higher", "SSIM": "higher"},
+    "denominators": "Preserve established failure penalties for LPIPS/VGG/SSIM; CLIP follows the established successful-output protocol with explicit coverage and shared-success diagnostic",
+    "uncertainty": "paired source-stratified image bootstrap, 5000 draws, seed 20261110; report nominal intervals separately from the point threshold",
+    "additional": ["2017-target historical unseen subset", "321-target amodal IoU", "hidden IoU and occlusion strata", "output/failure counts", "GPU allocation cost"],
+    "reference_control": "identical frozen scoring references for the candidate and control; never select a checkpoint or selector on benchmark scores",
+    "generalization": "Existing benchmark outcomes are known; this is an iterated benchmark result, not a new untouched confirmatory test"
+  }
+}

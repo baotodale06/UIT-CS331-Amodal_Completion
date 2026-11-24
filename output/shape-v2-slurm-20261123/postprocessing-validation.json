@@ -1,0 +1,17 @@
+{
+  "at": "2026-11-23T10:16:06.533361+00:00",
+  "local_focused_replay_tests": 3,
+  "cluster_metadata_and_export_tests": 10,
+  "cluster_optional_skips": 0,
+  "isolated_source": "output/shape-v2-slurm-20261123/postprocessing-source",
+  "training_or_frozen_inference_changed": false,
+  "full_benchmark_metadata_replay_completed": false,
+  "files": {
+    "scripts/verify_shape_v2_metadata.py": "0ad5c0a8a13ad3a6b73bc9d55d4ad00affced4f81585ddf3f4f987c3610f632f",
+    "tests/test_shape_v2_metadata.py": "7fbc997596b4cd8cef2bf69ae2bd3712d9135d37dfbc5aa8f60658bebca94a1d",
+    "output\\shape-v2-slurm-20261123\\postprocessing-source.zip": "cd5f47c1061efff0e3830b85e86205071117b0f542c1bb3db9d938f056fedcd3",
+    "output\\shape-v2-slurm-20261123\\postprocessing-source-manifest.json": "12ac0913f505d7a76e5b109ace1c316eb4b5aabc5ac379315b874c94fcce9096",
+    "output\\shape-v2-slurm-20261123\\postprocessing-tests.log": "0c234e8f384f99dda88fd5bc4a055d577e6e38fc01abfb0200a50707cd1a7607",
+    "output\\shape-v2-slurm-20261123\\metadata-replay-tests.log": "8bb04663b03ce7a0242ac879f7ec09fe6f0dc55880b9b89d4d6ce8cb9f208e05"
+  }
+}

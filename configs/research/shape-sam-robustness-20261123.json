@@ -1,0 +1,40 @@
+{
+  "experiment": "shape-sam-robustness-20261123",
+  "scope": "Isolated shape-only development. Preserve frozen v2 and its benchmark. No Surface ranker, appearance loss, RGB repair or combined method.",
+  "seed": 20261124,
+  "training_platform": "Slurm",
+  "initial_checkpoint_sha256": "f3caa75ac40f901a7595fffa2c199221b83e7fe5a57192f34e2b2317ffe937b7",
+  "validation_diagnostic_result_sha256": "72024ef3c9f171209a74ced8e649fff7806c64c72e7315f37431772b8863b21a",
+  "training": {
+    "architecture": "resnet34_unet_5channel",
+    "initialization": "Completed v2 epoch 47; all parameters fine-tuned",
+    "world_size": 4,
+    "batch_size": 64,
+    "workers_per_rank": 4,
+    "size": 256,
+    "epochs": 20,
+    "learning_rate": 0.00005,
+    "weight_decay": 0.0001,
+    "precision": "float16 with GradScaler; native validation FP32",
+    "selection": "Maximum validation image-mean native hidden IoU; full IoU breaks ties. No holdout or benchmark checkpoint selection.",
+    "input_mix": "75% SAM support, 25% annotated support. Empty training SAM uses annotated branch, counted explicitly.",
+    "augmentation": "50% horizontal flip, 25% extra half-plane occlusion, visible-derived crop padding 1.5-3.0",
+    "loss": "BCE + full Dice + hidden Dice + 0.5 hidden positive BCE. True annotated visibility defines hidden supervision; input SAM does not define labels.",
+    "distributed_sampling": "DistributedSampler padding recorded; rank-zero BatchNorm buffers broadcast before native validation and checkpointing"
+  },
+  "inference_geometry": {
+    "crop": "Square SAM-support box, padding 2.0",
+    "input": "RGB restricted to SAM support, SAM mask and its complement",
+    "native_probability": "Resize logits to native crop before sigmoid; zero outside crop; no hard support restoration",
+    "empty_mask": "Zero prediction",
+    "threshold": 0.5
+  },
+  "evaluation": {
+    "validation": "The existing 1264 objects / 217 images and recovered single-mask SAM diagnostic inputs",
+    "hidden_truth": "True amodal mask minus annotated visible mask, fixed across conditions",
+    "holdout_used": false,
+    "benchmark_used_for_training": false,
+    "status": "Exploratory validation-driven development; no untouched confirmation claim",
+    "success": "The active all-four full-benchmark >=3% goal remains unchanged and unachieved; validation gains alone cannot satisfy it"
+  }
+}

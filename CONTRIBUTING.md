@@ -26,9 +26,14 @@ Use four-space Python indentation, `snake_case`, `pathlib`, `argparse`, and
 regressions for changed behavior. GitHub Actions runs the offline suite, synthetic
 smoke, configuration checks and distribution build without models or datasets.
 
-Commit source, experiment configs and small pinned fixtures. Keep datasets,
-model checkpoints, caches, virtual environments, logs, generated results,
-credentials and `AGENTS.md` local. Preserve third-party licenses and citations;
+Commit source, experiment configs and small pinned fixtures. Selected published
+research evidence is indexed in [results/published-files.json](results/published-files.json).
+Preserve its exact bytes and verify it with `python scripts/verify_published_results.py`.
+The blanket `output/` ignore remains in place; add reviewed result files explicitly
+with `git add -f -- <path>` and update the checksum manifest and results index.
+Keep datasets, model checkpoints, caches, virtual environments, bulk generated
+artifacts, live logs, credentials and `AGENTS.md` local.
+Preserve third-party licenses and citations;
 the vendored trees retain their existing upstream terms.
 
 Experiments must record the Git commit, resolved configuration, seed, dataset

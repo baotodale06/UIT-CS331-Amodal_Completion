@@ -1,0 +1,219 @@
+{
+  "schema": 1,
+  "verified": true,
+  "run_dir": "/home/daoqm/Vu_Hung/cv_nangcao/output/shape-20261121/progressive-l40s/combined-cohort",
+  "selected_targets": 204,
+  "full_evaluation": false,
+  "evaluation_performed": true,
+  "reference_backend": "grounded-sam",
+  "data_identity": {
+    "targets_sha256": "c3439c2ac2120474baff76f5ec0b3c5341c5fcabcd1b00e886c4f1395f18923e",
+    "inputs_sha256": "5e9d69c08f3ca1217f9faa943ef8f3cb53ac29c01162d690b2268cf52b412f48",
+    "references_sha256": "be7ed1c81df48cb4827d06b01c5b4d71e832c74f4079c3503a8d0767068e3664"
+  },
+  "statistics": {
+    "VG": {
+      "targets": 109,
+      "successes": 49,
+      "failures": 60,
+      "reference_failures": 0,
+      "missing_images": 0,
+      "failure_rate": 0.5504587155963303,
+      "status_counts": {
+        "no_completion": 20,
+        "ambiguous_target": 25,
+        "not_detected": 15,
+        "success": 49
+      },
+      "failure_reasons": {
+        "query_mask_too_small": 4,
+        "multiple_distinct_instances": 25,
+        "label_not_matched": 15,
+        "no_occlusion_detected": 16
+      },
+      "completed_outputs": 45,
+      "iteration_limited_outputs": 4,
+      "completion_state_unknown": 0,
+      "failure_stage_counts": {
+        "query_filter": 4,
+        "target_selection": 40,
+        "occlusion_check": 16
+      },
+      "target_selection_failures": 40,
+      "initial_segmentation_failures": 0,
+      "pdmc_failures": 20,
+      "CLIP": 28.892427950489278,
+      "CLIP_n": 49,
+      "LPIPS": 0.6534598984097669,
+      "LPIPS_n": 109,
+      "Feature Similarity": 0.320332406584276,
+      "Feature Similarity_n": 109,
+      "SSIM": 0.38059483290698265,
+      "SSIM_n": 109
+    },
+    "COCOA": {
+      "targets": 67,
+      "successes": 28,
+      "failures": 39,
+      "reference_failures": 0,
+      "missing_images": 0,
+      "failure_rate": 0.582089552238806,
+      "status_counts": {
+        "not_detected": 9,
+        "success": 28,
+        "no_completion": 14,
+        "ambiguous_target": 16
+      },
+      "failure_reasons": {
+        "label_not_matched": 9,
+        "query_mask_too_small": 2,
+        "multiple_distinct_instances": 16,
+        "no_occlusion_detected": 12
+      },
+      "completed_outputs": 27,
+      "iteration_limited_outputs": 1,
+      "completion_state_unknown": 0,
+      "failure_stage_counts": {
+        "target_selection": 25,
+        "query_filter": 2,
+        "occlusion_check": 12
+      },
+      "target_selection_failures": 25,
+      "initial_segmentation_failures": 0,
+      "pdmc_failures": 14,
+      "CLIP": 27.048396383013046,
+      "CLIP_n": 28,
+      "LPIPS": 0.7088586210982123,
+      "LPIPS_n": 67,
+      "Feature Similarity": 0.25351811478387065,
+      "Feature Similarity_n": 67,
+      "SSIM": 0.3405516069222839,
+      "SSIM_n": 67
+    },
+    "free_images": {
+      "targets": 14,
+      "successes": 6,
+      "failures": 8,
+      "reference_failures": 0,
+      "missing_images": 0,
+      "failure_rate": 0.5714285714285714,
+      "status_counts": {
+        "ambiguous_target": 3,
+        "no_completion": 4,
+        "success": 6,
+        "not_detected": 1
+      },
+      "failure_reasons": {
+        "multiple_distinct_instances": 3,
+        "no_occlusion_detected": 2,
+        "query_mask_too_small": 2,
+        "label_not_matched": 1
+      },
+      "completed_outputs": 4,
+      "iteration_limited_outputs": 2,
+      "completion_state_unknown": 0,
+      "failure_stage_counts": {
+        "target_selection": 4,
+        "occlusion_check": 2,
+        "query_filter": 2
+      },
+      "target_selection_failures": 4,
+      "initial_segmentation_failures": 0,
+      "pdmc_failures": 4,
+      "CLIP": 29.210012753804524,
+      "CLIP_n": 6,
+      "LPIPS": 0.6803619366671357,
+      "LPIPS_n": 14,
+      "Feature Similarity": 0.26656761126858847,
+      "Feature Similarity_n": 14,
+      "SSIM": 0.3594933863060484,
+      "SSIM_n": 14
+    },
+    "laion": {
+      "targets": 14,
+      "successes": 4,
+      "failures": 10,
+      "reference_failures": 0,
+      "missing_images": 0,
+      "failure_rate": 0.7142857142857143,
+      "status_counts": {
+        "no_completion": 5,
+        "ambiguous_target": 3,
+        "not_detected": 2,
+        "success": 4
+      },
+      "failure_reasons": {
+        "query_mask_too_small": 1,
+        "multiple_distinct_instances": 3,
+        "label_not_matched": 2,
+        "no_occlusion_detected": 4
+      },
+      "completed_outputs": 4,
+      "iteration_limited_outputs": 0,
+      "completion_state_unknown": 0,
+      "failure_stage_counts": {
+        "query_filter": 1,
+        "target_selection": 5,
+        "occlusion_check": 4
+      },
+      "target_selection_failures": 5,
+      "initial_segmentation_failures": 0,
+      "pdmc_failures": 5,
+      "CLIP": 28.78664207458496,
+      "CLIP_n": 4,
+      "LPIPS": 0.8041377429451261,
+      "LPIPS_n": 14,
+      "Feature Similarity": 0.18193784994738443,
+      "Feature Similarity_n": 14,
+      "SSIM": 0.23467004768026908,
+      "SSIM_n": 14
+    },
+    "Overall": {
+      "targets": 204,
+      "successes": 87,
+      "failures": 117,
+      "reference_failures": 0,
+      "missing_images": 0,
+      "failure_rate": 0.5735294117647058,
+      "status_counts": {
+        "no_completion": 43,
+        "ambiguous_target": 47,
+        "not_detected": 27,
+        "success": 87
+      },
+      "failure_reasons": {
+        "query_mask_too_small": 9,
+        "multiple_distinct_instances": 47,
+        "label_not_matched": 27,
+        "no_occlusion_detected": 34
+      },
+      "completed_outputs": 80,
+      "iteration_limited_outputs": 7,
+      "completion_state_unknown": 0,
+      "failure_stage_counts": {
+        "query_filter": 9,
+        "target_selection": 74,
+        "occlusion_check": 34
+      },
+      "target_selection_failures": 74,
+      "initial_segmentation_failures": 0,
+      "pdmc_failures": 43,
+      "CLIP": 28.315985208270195,
+      "CLIP_n": 87,
+      "LPIPS": 0.6838414316412573,
+      "LPIPS_n": 204,
+      "Feature Similarity": 0.2852010905158286,
+      "Feature Similarity_n": 204,
+      "SSIM": 0.3559807966983459,
+      "SSIM_n": 204
+    }
+  },
+  "provenance_verified": true,
+  "clip_only_targets": 0,
+  "uncached_clip_only_targets": 0,
+  "limitations": [
+    "Learned metrics are checked against saved caches, not recomputed on CPU.",
+    "Historical uncached CLIP-only values can only be checked for finite values and aggregation.",
+    "Checksums establish consistency, not independent segmentation or hidden-pixel ground truth."
+  ]
+}

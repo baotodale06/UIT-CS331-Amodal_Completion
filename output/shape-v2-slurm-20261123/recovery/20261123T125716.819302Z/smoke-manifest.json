@@ -1,0 +1,9 @@
+{
+  "target_ids": [
+    "VG/43_television",
+    "COCOA/COCO_train2014_000000004719_greentablecloth",
+    "free_images/dairy-cattle-9018750_640_cow",
+    "laion/000000115_violin"
+  ],
+  "selection": "First historical successful target in official order per source; engineering check, no model selection"
+}

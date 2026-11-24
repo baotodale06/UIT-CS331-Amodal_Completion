@@ -1,0 +1,10 @@
+{
+  "at": "2026-11-23T12:19:48.805410+00:00",
+  "scope": "Train-only SAM masks for an isolated shape robustness study; no checkpoint training, holdout access or v2 policy change in this job",
+  "files": {
+    "scripts/prepare_shape_sam_training.py": "72c3d436936e79230533c1d944533b775c50a2c43df05e00d3d4dc0fbb470888",
+    "scripts/run_shape_sam_training_masks.sh": "edc496974421546f6d5fff04d866983645630edf27f428eed5ea91af3de11741",
+    "tests/test_shape_sam_training_masks.py": "377f50085bb2da550780e697fb6247dcbfd48cf79f67c3bdf1c32bc9f8f1cd5f"
+  },
+  "zip_sha256": "afc45359996bb51653340b0c414062f5768352a1d58d387d295b1ee8edd27a25"
+}

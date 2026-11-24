@@ -1,0 +1,19 @@
+{
+  "at": "2026-11-23T13:01:44.695511+00:00",
+  "frozen_source_files": 299,
+  "preserved": {
+    "45636": {
+      "files": 166,
+      "sha256": "d5b98e50cab01a85f2662cf107e0e0687acdbe1644a6742410ecf4b7e9ae2c9b"
+    },
+    "45658": {
+      "files": 222,
+      "sha256": "cab21ae9385a0a91a035c814b3c6e2c06a0848d1280072f1006836592f75e97c"
+    }
+  },
+  "freeze_sha256": "6078e500c236095a537000d2d3f90838253ab7542d39c69d0fafe67db150523b",
+  "accounting": "JobIDRaw|State|ExitCode|ElapsedRaw|AllocTRES|Start|End\n45658|TIMEOUT|0:0|2905|billing=16,cpu=16,gres/gpu=4,mem=96G,node=1|2026-11-23T12:08:05|2026-11-23T12:56:30\n45659|COMPLETED|0:0|2|billing=2,cpu=2,mem=8G,node=1|2026-11-23T12:56:32|2026-11-23T12:56:34\n45660|COMPLETED|0:0|0|billing=2,cpu=2,mem=8G,node=1|2026-11-23T12:56:36|2026-11-23T12:56:36\n45671|FAILED|1:0|64|billing=24,cpu=24,gres/gpu=4,mem=80G,node=1|2026-11-23T12:56:26|2026-11-23T12:57:30\n45672|CANCELLED|0:0|0||None|2026-11-23T12:57:30\n45673|PENDING|0:0|0||Unknown|Unknown\n45674|PENDING|0:0|0||Unknown|Unknown\n45675|PENDING|0:0|0||Unknown|Unknown\n45676|COMPLETED|0:0|11|billing=2,cpu=2,gres/gpu=1,mem=16G,node=1|2026-11-23T12:58:47|2026-11-23T12:58:58\n45677|PENDING|0:0|0||Unknown|Unknown\n45678|PENDING|0:0|0||Unknown|Unknown\n45679|PENDING|0:0|0||Unknown|Unknown\n",
+  "queue": "JOBID|STATE|TIME_LIMIT|NODELIST(REASON)\n45675|PENDING|30:00|(Dependency)\n45674|PENDING|10:00|(Dependency)\n45679|PENDING|5:00|(Dependency)\n45678|PENDING|30:00|(Dependency)\n45677|PENDING|3:00|(ReqNodeNotAvail, Reserved for maintenance)\n45673|PENDING|1-00:00:00|(ReqNodeNotAvail, Reserved for maintenance)\n",
+  "reservation": "ReservationName=root_1 StartTime=2026-11-23T13:00:00 EndTime=2026-11-25T13:00:00 Duration=2-00:00:00\n   Nodes=floyd,gauss,gebru,gus,hopper,noether NodeCnt=6 CoreCnt=644 Features=(null) PartitionName=(null) Flags=MAINT,IGNORE_JOBS,SPEC_NODES,ALL_NODES\n   TRES=cpu=1288\n   Users=root Groups=(null) Accounts=(null) Licenses=(null) State=ACTIVE BurstBuffer=(null)\n   MaxStartDelay=(null)\n\n",
+  "benchmark_success": false
+}

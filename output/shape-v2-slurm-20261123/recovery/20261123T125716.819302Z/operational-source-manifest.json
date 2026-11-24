@@ -1,0 +1,9 @@
+{
+  "files": {
+    "scripts/finalize_shape_v2.py": "84b56493164e7cf0c0821a663ce30c3210b7ff287c661089d496a7d9a115a8bc",
+    "scripts/run_shape_v2_finalization.sh": "66a5dd8bc41afabea41e6ffb62d2b9bda8f65b4c72e3d13e47fc47b097369be5",
+    "tests/test_shape_v2_finalization.py": "3ac8ffbbb2bbf23edf50a52a268128c8b4656fbc50bafd8f701bb895dd2de1cb"
+  },
+  "zip_sha256": "0100297b87c831586378e42d247743f198628b7e45dbd99d85e40f0e048305b6",
+  "scope": "CPU export follower only; frozen training and inference sources preserved"
+}

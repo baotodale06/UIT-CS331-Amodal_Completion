@@ -1,0 +1,17 @@
+{
+  "at": "2026-11-23T10:06:51.485856+00:00",
+  "python_tests": 356,
+  "optional_dependency_skips": 11,
+  "bash_regression_scripts": 6,
+  "cpu_smoke": true,
+  "native_windows_focused_tests": 10,
+  "frozen_training_or_evaluation_source_changed": false,
+  "benchmark_success": false,
+  "files": {
+    "scripts/recover_shape_v2.py": "ed06fd526be4ce8aaa756a813278dcd86431e9e84b9b91a0c7c7a81cca715df8",
+    "scripts/export_shape_metadata.py": "de2f430293440bb85c1aad9e44bc986324e6c3faf19a17a6698f732bcf86167f",
+    "tests/test_shape_v2_recovery.py": "b2c31e88c572451f33a3a055bded9973a8d235c15d046060f99437df5b165523",
+    "tests/test_shape_v2_export.py": "aaed5bf04a859070cebec8a3cb21fb0ee879c233d7036e4b69ffe9d4698746f4",
+    "output\\shape-v2-slurm-20261123\\check-recovery-export.log": "cfabc00f5b337c24049e0b8a445b8530cdb26e76656d17f6888a4a1b42c0da5f"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "baseline-cohort": {
+    "job_id": "39486",
+    "state": "COMPLETED",
+    "elapsed": "00:24:00",
+    "reserved_gpu_hours": 1.6
+  },
+  "surface-cohort": {
+    "job_id": "39487",
+    "state": "COMPLETED",
+    "elapsed": "01:49:34",
+    "reserved_gpu_hours": 7.304444444444444
+  }
+}

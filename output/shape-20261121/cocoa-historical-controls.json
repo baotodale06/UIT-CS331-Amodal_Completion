@@ -1,0 +1,4576 @@
+{
+  "method": "Paste completion alpha at its saved offset into the original COCOA frame. Amodal IoU is zero on failed completions.",
+  "manifest_sha256": "f0e0bc47f7f4fdf9fb0cb8f6388826e16c06b6a670fd40a95402e6d091e57a9c",
+  "sources": {
+    "baseline": {
+      "path": "output/surface-annotated-20261112-freshrefs/baseline",
+      "execution_sha256": "f275d7535e3c202fe4373ed1c9d00282dbf417e8cd2d04a1538d6d4d1e05fe43",
+      "verification_sha256": "6e87abdeba39bae1f55e0085797fa7029ba970da6cbddfda7ef297bef063926f",
+      "overall": {
+        "LPIPS": 0.6144084983053263,
+        "SSIM": 0.44562376843817725,
+        "successes": 1394
+      }
+    },
+    "surface": {
+      "path": "output/surface-annotated-20261112-freshrefs/surface",
+      "execution_sha256": "a317b0b84414ac234dd605fd95df20a3d516e32977dd46709c95705f03fd95a0",
+      "verification_sha256": "de3b7c859385187d2e32da89405096e19fc03da1c8d96746b7ccc37aefde4461",
+      "overall": {
+        "LPIPS": 0.6070883523912458,
+        "SSIM": 0.451792615832608,
+        "successes": 1399
+      }
+    }
+  },
+  "all": {
+    "n": 321,
+    "images": 305,
+    "baseline": 0.46268153051292427,
+    "method": 0.4644220699983524,
+    "absolute_gain": 0.001740539485428226,
+    "relative_gain_percent": 0.3761852096189534,
+    "absolute_ci": [
+      -0.013895818222705561,
+      0.016928633937845827
+    ],
+    "relative_ci_percent": [
+      -2.9899076778110407,
+      3.715814119979363
+    ],
+    "undefined_relative_bootstrap_samples": 0
+  },
+  "bins": [
+    {
+      "targets": 203,
+      "lower": 0.0,
+      "upper": 0.2,
+      "baseline": 0.4553548043308396,
+      "surface": 0.46397875613908496
+    },
+    {
+      "targets": 54,
+      "lower": 0.2,
+      "upper": 0.4,
+      "baseline": 0.5035764878164816,
+      "surface": 0.49546825188003174
+    },
+    {
+      "targets": 39,
+      "lower": 0.4,
+      "upper": 0.6,
+      "baseline": 0.4311299330657056,
+      "surface": 0.44081943590944395
+    },
+    {
+      "targets": 21,
+      "lower": 0.6,
+      "upper": 0.8,
+      "baseline": 0.49022480253600775,
+      "surface": 0.4758376274781037
+    },
+    {
+      "targets": 4,
+      "lower": 0.8,
+      "upper": 1.0,
+      "baseline": 0.4454568576448834,
+      "surface": 0.23799079855167307
+    }
+  ],
+  "targets": [
+    {
+      "id": "COCOA/COCO_train2014_000000002178_sheep",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000002178",
+      "ratio": 0.0,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000007890_table",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000007890",
+      "ratio": 0.603489983149223,
+      "baseline": {
+        "amodal_iou": 0.46257350965700467,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.47341294783155247,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000009016_sofa",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000009016",
+      "ratio": 0.4954783929311059,
+      "baseline": {
+        "amodal_iou": 0.42539933902506194,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.4222689800282846,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000009199_bed",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000009199",
+      "ratio": 0.18926029093160013,
+      "baseline": {
+        "amodal_iou": 0.6278828234912824,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.7022828762177059,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000012372_table",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000012372",
+      "ratio": 0.4727983494407645,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000013468_plate",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000013468",
+      "ratio": 0.5962398822979355,
+      "baseline": {
+        "amodal_iou": 0.8292311623831776,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.8492752458758952,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000013720_table",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000013720",
+      "ratio": 0.8265847287962558,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000014484_house",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000014484",
+      "ratio": 0.6059768239435556,
+      "baseline": {
+        "amodal_iou": 0.4603654410106023,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000018072_cat",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000018072",
+      "ratio": 0.04055564178177867,
+      "baseline": {
+        "amodal_iou": 0.9496554807084612,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.9410849848323863,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000018072_mousepad",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000018072",
+      "ratio": 0.24892792052317478,
+      "baseline": {
+        "amodal_iou": 0.9850909673514437,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.9854953743689285,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000018155_dog",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000018155",
+      "ratio": 0.16700529859368152,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000018155_sofa",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000018155",
+      "ratio": 0.4652478935377717,
+      "baseline": {
+        "amodal_iou": 0.9674152911818646,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.96763649036786,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000018211_bed",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000018211",
+      "ratio": 0.28281519861830745,
+      "baseline": {
+        "amodal_iou": 0.9709051240381766,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000018292_bowl",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000018292",
+      "ratio": 0.6273261230147009,
+      "baseline": {
+        "amodal_iou": 0.9688250487108614,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.9921308124680633,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000018385_bear",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000018385",
+      "ratio": 0.14819550586299524,
+      "baseline": {
+        "amodal_iou": 0.7735622535431226,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.7730438945280825,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000018473_dog",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000018473",
+      "ratio": 0.33368969664573034,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000018555_bench",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000018555",
+      "ratio": 0.1515837104072398,
+      "baseline": {
+        "amodal_iou": 0.8175255571338751,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.8166887972604654,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000018647_zebra",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000018647",
+      "ratio": 0.13870434620814956,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000019863_train",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000019863",
+      "ratio": 0.042235677689799724,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000020013_bench",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000020013",
+      "ratio": 0.4017094017094017,
+      "baseline": {
+        "amodal_iou": 0.9420696877380046,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.9511094217703235,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000020039_house",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000020039",
+      "ratio": 0.46582676289405256,
+      "baseline": {
+        "amodal_iou": 0.9369797941079838,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.7948267481424901,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000020583_toilet",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000020583",
+      "ratio": 0.45824847250509165,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000020601_bowl",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000020601",
+      "ratio": 0.0,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000020652_toilet",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000020652",
+      "ratio": 0.008986083499005964,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000020677_bowl",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000020677",
+      "ratio": 0.08485727423861908,
+      "baseline": {
+        "amodal_iou": 0.8625571399331378,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.8509329647546648,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000020692_plate",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000020692",
+      "ratio": 0.6952465752914309,
+      "baseline": {
+        "amodal_iou": 0.9202100921093485,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.9214770358763618,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000020702_plate",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000020702",
+      "ratio": 0.5068838471979833,
+      "baseline": {
+        "amodal_iou": 0.5556379821958457,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.5117358782563838,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000020857_egg",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000020857",
+      "ratio": 0.0,
+      "baseline": {
+        "amodal_iou": 0.9819812540400775,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.9847383720930233,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000021313_keyboard",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000021313",
+      "ratio": 0.05073669760138407,
+      "baseline": {
+        "amodal_iou": 0.9662162797476329,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.9653230280292987,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000021320_chair",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000021320",
+      "ratio": 0.0,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000021345_cat",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000021345",
+      "ratio": 0.17968213229156613,
+      "baseline": {
+        "amodal_iou": 0.6990477596515834,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.683177087177973,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000024086_plate",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000024086",
+      "ratio": 0.823579304495335,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000024091_car",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000024091",
+      "ratio": 0.0169058939958777,
+      "baseline": {
+        "amodal_iou": 0.9415525114155251,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.9601057509505704,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000024266_cat",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000024266",
+      "ratio": 0.0,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000024428_banana",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000024428",
+      "ratio": 0.0,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000024861_dog",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000024861",
+      "ratio": 0.0,
+      "baseline": {
+        "amodal_iou": 0.9560641681648459,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.9684799328765208,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000024882_banana",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000024882",
+      "ratio": 0.17428501041410047,
+      "baseline": {
+        "amodal_iou": 0.7135514018691589,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000027270_plate",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000027270",
+      "ratio": 0.7108004958391277,
+      "baseline": {
+        "amodal_iou": 0.7453164577449402,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.9024299713954886,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000027626_bed",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000027626",
+      "ratio": 0.0760335066319399,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000028588_clock",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000028588",
+      "ratio": 0.0,
+      "baseline": {
+        "amodal_iou": 0.9877870823314816,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.9857658929535357,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000031671_dog",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000031671",
+      "ratio": 0.06177640300486081,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000033332_toilet",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000033332",
+      "ratio": 0.021372954075957414,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000033332_mirror",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000033332",
+      "ratio": 0.42706587882529323,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000034387_bed",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000034387",
+      "ratio": 0.0007268784880927447,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000037566_dog",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000037566",
+      "ratio": 0.0,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000039716_cat",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000039716",
+      "ratio": 0.010887812830540218,
+      "baseline": {
+        "amodal_iou": 0.9179337496606028,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.9521710915025716,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000041649_elephant",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000041649",
+      "ratio": 0.049357235523056965,
+      "baseline": {
+        "amodal_iou": 0.8530394637717553,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.8871818746120422,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000044814_dog",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000044814",
+      "ratio": 0.5069238963190911,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000047387_dog",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000047387",
+      "ratio": 0.0,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000048825_dog",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000048825",
+      "ratio": 0.18776588349784512,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000050592_door",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000050592",
+      "ratio": 0.0,
+      "baseline": {
+        "amodal_iou": 0.9842221303568968,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.9836657838739801,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000051281_cat",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000051281",
+      "ratio": 0.0,
+      "baseline": {
+        "amodal_iou": 0.9603086419753086,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.9674599419955983,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000052433_plate",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000052433",
+      "ratio": 0.6342349616471538,
+      "baseline": {
+        "amodal_iou": 0.5953092321481924,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.4680734856007944,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000052433_fish",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000052433",
+      "ratio": 0.002251313266071875,
+      "baseline": {
+        "amodal_iou": 0.5460446247464503,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.5487063022142915,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000056971_sheep",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000056971",
+      "ratio": 0.0,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000058385_elephant",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000058385",
+      "ratio": 0.1862045910407845,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000058731_clock",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000058731",
+      "ratio": 0.12399740743741391,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.9051518941380562,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000059082_bed",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000059082",
+      "ratio": 0.4703228825456247,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000060172_plate",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000060172",
+      "ratio": 0.8266680012159227,
+      "baseline": {
+        "amodal_iou": 0.9809083978742915,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.1640613711054876,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000061626_elephant",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000061626",
+      "ratio": 0.0,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000064111_toilet",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000064111",
+      "ratio": 0.18107081654393034,
+      "baseline": {
+        "amodal_iou": 0.800586679601335,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.8565862879800821,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000068717_cat",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000068717",
+      "ratio": 0.0,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000084214_keyboard",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000084214",
+      "ratio": 0.011252045826513912,
+      "baseline": {
+        "amodal_iou": 0.9591544493692465,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.9639161220043573,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000085666_gun",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000085666",
+      "ratio": 0.3457985041794985,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000096378_sheep",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000096378",
+      "ratio": 0.0,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000101531_pizza",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000101531",
+      "ratio": 0.36435058382586133,
+      "baseline": {
+        "amodal_iou": 0.6014821210159004,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.8276579644343549,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000108113_dog",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000108113",
+      "ratio": 0.4102320247269269,
+      "baseline": {
+        "amodal_iou": 0.5717540807026266,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.5684586717098676,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000108314_plate",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000108314",
+      "ratio": 0.5180773219635861,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000108819_train",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000108819",
+      "ratio": 0.17920269755805732,
+      "baseline": {
+        "amodal_iou": 0.6938240224974311,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.7249642442723372,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000109106_cat",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000109106",
+      "ratio": 0.0,
+      "baseline": {
+        "amodal_iou": 0.9527434410000148,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.9577043626844691,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000110979_cat",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000110979",
+      "ratio": 0.1261215334420881,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000116675_jeep",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000116675",
+      "ratio": 0.1302401074606817,
+      "baseline": {
+        "amodal_iou": 0.9164846104919665,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.9210853871048046,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000116677_cat",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000116677",
+      "ratio": 0.005254944424981687,
+      "baseline": {
+        "amodal_iou": 0.9534754744885383,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.9575518569121848,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000117418_cat",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000117418",
+      "ratio": 0.0,
+      "baseline": {
+        "amodal_iou": 0.46858898515323844,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.47380697460997245,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000119294_train",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000119294",
+      "ratio": 0.0,
+      "baseline": {
+        "amodal_iou": 0.9628404391843719,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.9756405925782946,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000119805_dog",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000119805",
+      "ratio": 0.0,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000132656_bird",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000132656",
+      "ratio": 0.07058107696988135,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000134085_dog",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000134085",
+      "ratio": 0.7415491597450261,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000137514_cat",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000137514",
+      "ratio": 0.0,
+      "baseline": {
+        "amodal_iou": 0.9770943027398556,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.9746019233801041,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000142428_horse",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000142428",
+      "ratio": 0.13294953674552487,
+      "baseline": {
+        "amodal_iou": 0.8364895668946168,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.8270271843529892,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000142649_cat",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000142649",
+      "ratio": 0.004009718921359056,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.9682092022509103,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000143339_firehydrant",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000143339",
+      "ratio": 0.23761015917878664,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000145292_bench",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000145292",
+      "ratio": 0.4912648816311636,
+      "baseline": {
+        "amodal_iou": 0.8432649516986866,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.8574187962078995,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000147392_bed",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000147392",
+      "ratio": 0.29552362531085935,
+      "baseline": {
+        "amodal_iou": 0.620928557754542,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.49105797154725583,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000152299_dog",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000152299",
+      "ratio": 0.0,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000153202_laptop",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000153202",
+      "ratio": 0.013368021920234702,
+      "baseline": {
+        "amodal_iou": 0.9803166923246096,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.9768287642926022,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000157181_bench",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000157181",
+      "ratio": 0.0,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000160463_laptop",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000160463",
+      "ratio": 0.5621939145930962,
+      "baseline": {
+        "amodal_iou": 0.23613694205168365,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.18175916512536594,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000163068_car",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000163068",
+      "ratio": 0.2504642082429501,
+      "baseline": {
+        "amodal_iou": 0.7654244091491055,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.8051910077572714,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000168116_flower",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000168116",
+      "ratio": 0.058697608041448204,
+      "baseline": {
+        "amodal_iou": 0.9021912143165286,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.8962341623650868,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000168963_cat",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000168963",
+      "ratio": 0.0,
+      "baseline": {
+        "amodal_iou": 0.7960455155107515,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.9079053780832996,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000169245_elephant",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000169245",
+      "ratio": 0.13454050184218339,
+      "baseline": {
+        "amodal_iou": 0.783188849226585,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.7870287715443247,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000170902_truck",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000170902",
+      "ratio": 0.21854973121434776,
+      "baseline": {
+        "amodal_iou": 0.8156592273498007,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.8272761072640238,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000173150_plate",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000173150",
+      "ratio": 0.5105448816052908,
+      "baseline": {
+        "amodal_iou": 0.667656232008851,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.9931418387881579,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000176904_bird",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000176904",
+      "ratio": 0.11267950641477081,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000182020_cat",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000182020",
+      "ratio": 0.0,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000182604_dog",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000182604",
+      "ratio": 0.0,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000190360_car",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000190360",
+      "ratio": 0.13454197108991864,
+      "baseline": {
+        "amodal_iou": 0.9222060349834795,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.8395402037539607,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000192759_sofa",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000192759",
+      "ratio": 0.6360204090718858,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000193166_car",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000193166",
+      "ratio": 0.2844965628790942,
+      "baseline": {
+        "amodal_iou": 0.8601787392668823,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.6930549045594867,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000193222_sofa",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000193222",
+      "ratio": 0.13018000803519808,
+      "baseline": {
+        "amodal_iou": 0.9421798427230939,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.9652017486169677,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000193254_cat",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000193254",
+      "ratio": 0.01545286506469501,
+      "baseline": {
+        "amodal_iou": 0.924840581786917,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.9485191956124315,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000193254_plate",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000193254",
+      "ratio": 0.35964864864864865,
+      "baseline": {
+        "amodal_iou": 0.9599656541805303,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.9695400139552359,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000193340_toycar",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000193340",
+      "ratio": 0.16465737073408931,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000193690_giraffe",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000193690",
+      "ratio": 0.0,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000193707_cow",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000193707",
+      "ratio": 0.006438220163061464,
+      "baseline": {
+        "amodal_iou": 0.9589372463565302,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.9619625412854107,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000193819_dog",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000193819",
+      "ratio": 0.08848939143692033,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000195058_table",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000195058",
+      "ratio": 0.13517012582433144,
+      "baseline": {
+        "amodal_iou": 0.7480077144208725,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.7569749014115652,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000197888_plate",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000197888",
+      "ratio": 0.5699277741300066,
+      "baseline": {
+        "amodal_iou": 0.9557607763983742,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.5540665672102475,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000203778_cat",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000203778",
+      "ratio": 0.0,
+      "baseline": {
+        "amodal_iou": 0.9503730092724768,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.9520040815818619,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000203778_keyboard",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000203778",
+      "ratio": 0.09175868706311417,
+      "baseline": {
+        "amodal_iou": 0.8433993514824923,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.8695251043993396,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000206371_toilet",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000206371",
+      "ratio": 0.0,
+      "baseline": {
+        "amodal_iou": 0.9617458733787146,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.967389383881471,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000206656_cat",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000206656",
+      "ratio": 0.006850412627193334,
+      "baseline": {
+        "amodal_iou": 0.9298956378404679,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.9350756260848004,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000228244_giraffe",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000228244",
+      "ratio": 0.1303863583992626,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000233434_bed",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000233434",
+      "ratio": 0.49489603895754763,
+      "baseline": {
+        "amodal_iou": 0.2791626730054058,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.30595124191511347,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000236028_cat",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000236028",
+      "ratio": 0.0,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000236028_dog",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000236028",
+      "ratio": 0.011964340311861351,
+      "baseline": {
+        "amodal_iou": 0.969168408789876,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.9627208102517771,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000236596_keyboard",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000236596",
+      "ratio": 0.10442921611231823,
+      "baseline": {
+        "amodal_iou": 0.8549952955264734,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.913878152426915,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000237419_sofa",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000237419",
+      "ratio": 0.48507926180054417,
+      "baseline": {
+        "amodal_iou": 0.3987255548231158,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.4214640144030211,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000238453_cat",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000238453",
+      "ratio": 0.6892887170001681,
+      "baseline": {
+        "amodal_iou": 0.3353670937563555,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.4820281454480265,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000239323_cat",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000239323",
+      "ratio": 0.22671234972008933,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000248755_cat",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000248755",
+      "ratio": 0.0,
+      "baseline": {
+        "amodal_iou": 0.9355192395195465,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.9531511681605991,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000253265_laptop",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000253265",
+      "ratio": 0.01381729449443343,
+      "baseline": {
+        "amodal_iou": 0.9643496465305379,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.9789377845220031,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000256028_elephant",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000256028",
+      "ratio": 0.11978265283431146,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000259760_bed",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000259760",
+      "ratio": 0.39083950411847906,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000267560_sofa",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000267560",
+      "ratio": 0.3333168614154192,
+      "baseline": {
+        "amodal_iou": 0.5439460863440261,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.9744746156710663,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000267560_dog",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000267560",
+      "ratio": 0.0,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000268546_dog",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000268546",
+      "ratio": 0.7495126705653021,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000277718_plate",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000277718",
+      "ratio": 0.0,
+      "baseline": {
+        "amodal_iou": 0.924592778220754,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.9260824860047984,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000286692_bed",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000286692",
+      "ratio": 0.05061310628388458,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000290719_refrigerator",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000290719",
+      "ratio": 0.06904850055534988,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000293265_giraffe",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000293265",
+      "ratio": 0.0,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000309599_airplane",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000309599",
+      "ratio": 0.3094985608241176,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000324000_laptop",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000324000",
+      "ratio": 0.3138469592531193,
+      "baseline": {
+        "amodal_iou": 0.7620896982250223,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.8620144088148044,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000327563_monkey",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000327563",
+      "ratio": 0.0,
+      "baseline": {
+        "amodal_iou": 0.9196850025704538,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.9194439909508594,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000329054_table",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000329054",
+      "ratio": 0.5792450331125828,
+      "baseline": {
+        "amodal_iou": 0.8339640491958372,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.8777214161194343,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000357010_keyboard",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000357010",
+      "ratio": 0.0,
+      "baseline": {
+        "amodal_iou": 0.789472430629987,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.9592828855320259,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000359726_can",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000359726",
+      "ratio": 0.39870596125774255,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000362365_bear",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000362365",
+      "ratio": 0.0,
+      "baseline": {
+        "amodal_iou": 0.984899303452453,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.9842716833395928,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000372460_dog",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000372460",
+      "ratio": 0.0,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000385803_horse",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000385803",
+      "ratio": 0.08144802591840096,
+      "baseline": {
+        "amodal_iou": 0.8988908950219242,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.9177186773716459,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000386778_dog",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000386778",
+      "ratio": 0.0,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000391525_sofa",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000391525",
+      "ratio": 0.0,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.00014990818123899113,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000400199_zebra",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000400199",
+      "ratio": 0.0879056431643425,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000403687_dog",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000403687",
+      "ratio": 0.0,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000409367_laptop",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000409367",
+      "ratio": 0.02540024630541872,
+      "baseline": {
+        "amodal_iou": 0.6399251792580276,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.8538932633420823,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000411083_plate",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000411083",
+      "ratio": 0.26545437502929187,
+      "baseline": {
+        "amodal_iou": 0.9235793827925075,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.9246383751554826,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000411334_cat",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000411334",
+      "ratio": 0.20323659705270772,
+      "baseline": {
+        "amodal_iou": 0.7815417534771102,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.7815433446638003,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000411717_plate",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000411717",
+      "ratio": 0.25190682960585853,
+      "baseline": {
+        "amodal_iou": 0.9225056702243057,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.9059337486704149,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000411750_plate",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000411750",
+      "ratio": 0.2333499341156452,
+      "baseline": {
+        "amodal_iou": 0.7502339940325058,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.7757964418700869,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000417036_train",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000417036",
+      "ratio": 0.0,
+      "baseline": {
+        "amodal_iou": 0.9755199857983964,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.966502239745188,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000417701_bus",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000417701",
+      "ratio": 0.002511860289230628,
+      "baseline": {
+        "amodal_iou": 0.9251732885522367,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.9020470903766683,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000418282_suitcase",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000418282",
+      "ratio": 0.5814891193942565,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000426656_bench",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000426656",
+      "ratio": 0.6598055340557275,
+      "baseline": {
+        "amodal_iou": 0.8818031885651457,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.9525922410724879,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000428834_horse",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000428834",
+      "ratio": 0.0,
+      "baseline": {
+        "amodal_iou": 0.9522537462387538,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.9551337424603205,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000430753_knife",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000430753",
+      "ratio": 0.013105108317732013,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000433101_sofa",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000433101",
+      "ratio": 0.049256808072040796,
+      "baseline": {
+        "amodal_iou": 0.9444775472617951,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.9492306025140875,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000435042_cat",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000435042",
+      "ratio": 0.09335618509930436,
+      "baseline": {
+        "amodal_iou": 0.8280955685535838,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.828015062927361,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000437537_chair",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000437537",
+      "ratio": 0.16967755820283323,
+      "baseline": {
+        "amodal_iou": 0.8002671337306737,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.801570720165127,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000437537_cat",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000437537",
+      "ratio": 0.0,
+      "baseline": {
+        "amodal_iou": 0.6958304853041695,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.6846347129379415,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000439809_horse",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000439809",
+      "ratio": 0.0,
+      "baseline": {
+        "amodal_iou": 0.7406084515051355,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.7406589098943392,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000439946_bench",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000439946",
+      "ratio": 0.0,
+      "baseline": {
+        "amodal_iou": 0.8302264197632697,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.765839046977837,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000440161_giraffe",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000440161",
+      "ratio": 0.10449544686637274,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000447932_bear",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000447932",
+      "ratio": 0.09396006204909758,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000450160_bench",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000450160",
+      "ratio": 0.0893018018018018,
+      "baseline": {
+        "amodal_iou": 0.836381503521319,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.8182430536065114,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000452682_dog",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000452682",
+      "ratio": 0.05609422232361832,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000458748_cup",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000458748",
+      "ratio": 0.0,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000459515_pizza",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000459515",
+      "ratio": 0.0,
+      "baseline": {
+        "amodal_iou": 0.9855287752090507,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.9875652871650725,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000468357_laptop",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000468357",
+      "ratio": 0.29163846514291664,
+      "baseline": {
+        "amodal_iou": 0.7479243122250853,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.7717037615514772,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000470385_bed",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000470385",
+      "ratio": 0.0820951501687776,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000470862_cat",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000470862",
+      "ratio": 0.3392077256877721,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000473531_horse",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000473531",
+      "ratio": 0.030682529743268627,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000474446_dog",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000474446",
+      "ratio": 0.0,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000474699_plate",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000474699",
+      "ratio": 0.7977425661184678,
+      "baseline": {
+        "amodal_iou": 0.25006558856555183,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.31973882576652957,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000475578_pizza",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000475578",
+      "ratio": 0.07089925163932428,
+      "baseline": {
+        "amodal_iou": 0.9655554338433077,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.966867103245125,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000479467_toilet",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000479467",
+      "ratio": 0.6060046189376443,
+      "baseline": {
+        "amodal_iou": 0.6454259913623871,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.5010604841658743,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000485560_dog",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000485560",
+      "ratio": 0.00815650289938189,
+      "baseline": {
+        "amodal_iou": 0.8387117215594949,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.8193181458128703,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000493365_sofa",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000493365",
+      "ratio": 0.6657304497853388,
+      "baseline": {
+        "amodal_iou": 0.23006444084966454,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.2137452291979733,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000494504_door",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000494504",
+      "ratio": 0.0007589374875174755,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000495039_cat",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000495039",
+      "ratio": 0.0,
+      "baseline": {
+        "amodal_iou": 0.9626055985231647,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.9680870738607175,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000497097_cat",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000497097",
+      "ratio": 0.0,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000503928_cat",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000503928",
+      "ratio": 0.6719088266221315,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000504057_bowl",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000504057",
+      "ratio": 0.37824071991001124,
+      "baseline": {
+        "amodal_iou": 0.6009367723607203,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.5977220219527324,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000506296_cat",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000506296",
+      "ratio": 0.10119246628775215,
+      "baseline": {
+        "amodal_iou": 0.7735131020985104,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.8135356143748655,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000506296_dog",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000506296",
+      "ratio": 0.352514256091239,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000520342_car",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000520342",
+      "ratio": 0.0,
+      "baseline": {
+        "amodal_iou": 0.9704309469903973,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.968087909514097,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000523536_chair",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000523536",
+      "ratio": 0.1969593913744458,
+      "baseline": {
+        "amodal_iou": 0.699860111355067,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.14169109777095257,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000524059_elephant",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000524059",
+      "ratio": 0.1482872282722076,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000526166_bench",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000526166",
+      "ratio": 0.2908523752254961,
+      "baseline": {
+        "amodal_iou": 0.5203403118557449,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.5330253764472974,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000531096_dog",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000531096",
+      "ratio": 0.4103671706263499,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000536934_cat",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000536934",
+      "ratio": 0.0,
+      "baseline": {
+        "amodal_iou": 0.9509366359804906,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.953710006807352,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000536934_laptop",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000536934",
+      "ratio": 0.25533098712601665,
+      "baseline": {
+        "amodal_iou": 0.7530935355463895,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.9014539017887819,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000537022_cat",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000537022",
+      "ratio": 0.0,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000541429_toy",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000541429",
+      "ratio": 0.1959413336453884,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000542359_refrigerator",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000542359",
+      "ratio": 0.0,
+      "baseline": {
+        "amodal_iou": 0.9310555514822689,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.9785009283690023,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000550359_toilet",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000550359",
+      "ratio": 0.11402452375738997,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000559403_bathtub",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000559403",
+      "ratio": 0.0,
+      "baseline": {
+        "amodal_iou": 0.9709105067022638,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.9751612485908074,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000561565_zebra",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000561565",
+      "ratio": 0.0426189005558987,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000562999_cat",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000562999",
+      "ratio": 0.3920771965464703,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000567495_bear",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000567495",
+      "ratio": 0.0,
+      "baseline": {
+        "amodal_iou": 0.7853027478069505,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.6573583460949464,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000570503_motorcycle",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000570503",
+      "ratio": 0.09893741275674443,
+      "baseline": {
+        "amodal_iou": 0.8553118698972003,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.8529559097665328,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000580932_cat",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_train2014_000000580932",
+      "ratio": 0.0,
+      "baseline": {
+        "amodal_iou": 0.4889788030678181,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.4948317114458914,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_test2014_000000004996_elephant",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_test2014_000000004996",
+      "ratio": 0.0,
+      "baseline": {
+        "amodal_iou": 0.9539986589001366,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.9406486285838787,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_test2014_000000005285_horse",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_test2014_000000005285",
+      "ratio": 0.18813027450263534,
+      "baseline": {
+        "amodal_iou": 0.91870039978519,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.9215437961706618,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_test2014_000000014909_TV",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_test2014_000000014909",
+      "ratio": 0.04230019493177388,
+      "baseline": {
+        "amodal_iou": 0.9144292061039212,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.9327747466874513,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_test2014_000000015537_table",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_test2014_000000015537",
+      "ratio": 0.23722720891649296,
+      "baseline": {
+        "amodal_iou": 0.7761985014924161,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.8177773135575517,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_test2014_000000015537_door",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_test2014_000000015537",
+      "ratio": 0.2994279702807548,
+      "baseline": {
+        "amodal_iou": 0.7991090438599364,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.7877901242685252,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_test2014_000000024836_truck",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_test2014_000000024836",
+      "ratio": 0.17069719481262371,
+      "baseline": {
+        "amodal_iou": 0.7990764997731497,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.7457515063182727,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_test2014_000000034057_laptop",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_test2014_000000034057",
+      "ratio": 0.20897552130553038,
+      "baseline": {
+        "amodal_iou": 0.7674208144796381,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.7591504744690465,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_test2014_000000060759_toilet",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_test2014_000000060759",
+      "ratio": 0.3404132350816356,
+      "baseline": {
+        "amodal_iou": 0.911800902502393,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.73123385238461,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_test2014_000000064887_cat",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_test2014_000000064887",
+      "ratio": 0.0,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_test2014_000000068197_plate",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_test2014_000000068197",
+      "ratio": 0.7369485553972793,
+      "baseline": {
+        "amodal_iou": 0.9248549890291325,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.9258219423095685,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_test2014_000000073268_elephant",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_test2014_000000073268",
+      "ratio": 0.9873635539676077,
+      "baseline": {
+        "amodal_iou": 0.8009190327052421,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.7879018231012047,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_test2014_000000102399_keyboard",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_test2014_000000102399",
+      "ratio": 0.24764519005684985,
+      "baseline": {
+        "amodal_iou": 0.9565417305280758,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.9655311738070359,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_test2014_000000109499_cat",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_test2014_000000109499",
+      "ratio": 0.0,
+      "baseline": {
+        "amodal_iou": 0.9706584417326003,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.9770750563728122,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_test2014_000000112645_dog",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_test2014_000000112645",
+      "ratio": 0.0,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_test2014_000000116469_cat",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_test2014_000000116469",
+      "ratio": 0.1485260689157496,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_test2014_000000139050_pizza",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_test2014_000000139050",
+      "ratio": 0.026072000753934597,
+      "baseline": {
+        "amodal_iou": 0.9849532158813117,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.9836343274452046,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_test2014_000000146037_house",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_test2014_000000146037",
+      "ratio": 0.6215096625437209,
+      "baseline": {
+        "amodal_iou": 0.612511870385085,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.6071767830486788,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_test2014_000000146735_bed",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_test2014_000000146735",
+      "ratio": 0.2914394765539804,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_test2014_000000154092_umbrella",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_test2014_000000154092",
+      "ratio": 0.029213565002003426,
+      "baseline": {
+        "amodal_iou": 0.9043223284100782,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.9047756978891343,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_test2014_000000169618_bus",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_test2014_000000169618",
+      "ratio": 0.0,
+      "baseline": {
+        "amodal_iou": 0.9817663110890598,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.9799843270423823,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_test2014_000000172707_bed",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_test2014_000000172707",
+      "ratio": 0.0,
+      "baseline": {
+        "amodal_iou": 0.40443542163811425,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.9136174759586846,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_test2014_000000173234_laptop",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_test2014_000000173234",
+      "ratio": 0.0,
+      "baseline": {
+        "amodal_iou": 0.9885862467112112,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.9897977532343394,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_test2014_000000173635_clock",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_test2014_000000173635",
+      "ratio": 0.0,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_test2014_000000179246_bus",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_test2014_000000179246",
+      "ratio": 0.0,
+      "baseline": {
+        "amodal_iou": 0.9647805304151603,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.9592134367176296,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_test2014_000000191998_bed",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_test2014_000000191998",
+      "ratio": 0.1270739649558071,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_test2014_000000197935_bus",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_test2014_000000197935",
+      "ratio": 0.334223699154503,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_test2014_000000220612_elephant",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_test2014_000000220612",
+      "ratio": 0.4509095162242545,
+      "baseline": {
+        "amodal_iou": 0.5398470612479045,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.596356385793135,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_test2014_000000231201_laptop",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_test2014_000000231201",
+      "ratio": 0.00813712879592864,
+      "baseline": {
+        "amodal_iou": 0.9637614294102844,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.9653851530826226,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_test2014_000000231336_banana",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_test2014_000000231336",
+      "ratio": 0.0,
+      "baseline": {
+        "amodal_iou": 0.8971460958858438,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.8961864406779662,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_test2014_000000232157_umbrella",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_test2014_000000232157",
+      "ratio": 0.0,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_test2014_000000237436_cat",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_test2014_000000237436",
+      "ratio": 0.05975331862408218,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_test2014_000000260571_cat",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_test2014_000000260571",
+      "ratio": 0.0,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_test2014_000000269573_guitar",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_test2014_000000269573",
+      "ratio": 0.16719368639226212,
+      "baseline": {
+        "amodal_iou": 0.7483252811497706,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.5536676213512992,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_test2014_000000296835_book",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_test2014_000000296835",
+      "ratio": 0.22115112690430228,
+      "baseline": {
+        "amodal_iou": 0.8644510691546133,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.8988407819519421,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_test2014_000000345332_cat",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_test2014_000000345332",
+      "ratio": 0.0,
+      "baseline": {
+        "amodal_iou": 0.8973088059955715,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.8981239204419134,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_test2014_000000347937_bus",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_test2014_000000347937",
+      "ratio": 0.10789600168223737,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000000042_dog",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_val2014_000000000042",
+      "ratio": 0.032505960855618646,
+      "baseline": {
+        "amodal_iou": 0.8765415252358129,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.8717515281904177,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000013843_bear",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_val2014_000000013843",
+      "ratio": 0.4569344615291299,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000013980_plate",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_val2014_000000013980",
+      "ratio": 0.6262671863035304,
+      "baseline": {
+        "amodal_iou": 0.37469598876442983,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.4189975392380202,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000014007_cat",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_val2014_000000014007",
+      "ratio": 0.10281808035714286,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000045959_firehydrant",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_val2014_000000045959",
+      "ratio": 0.23059600660561477,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000051738_bed",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_val2014_000000051738",
+      "ratio": 0.0616184455416609,
+      "baseline": {
+        "amodal_iou": 0.035709911405669495,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.4559836043614542,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000052290_cat",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_val2014_000000052290",
+      "ratio": 0.0,
+      "baseline": {
+        "amodal_iou": 0.9621677561339849,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.9569740324397977,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000053503_plate",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_val2014_000000053503",
+      "ratio": 0.31866558785087445,
+      "baseline": {
+        "amodal_iou": 0.6106090251250039,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.6101236716176744,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000054513_plate",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_val2014_000000054513",
+      "ratio": 0.290624285789631,
+      "baseline": {
+        "amodal_iou": 0.9780986259329009,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.9788573216955871,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000056373_cat",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_val2014_000000056373",
+      "ratio": 0.0,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000058797_toilet",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_val2014_000000058797",
+      "ratio": 0.071524739145069,
+      "baseline": {
+        "amodal_iou": 0.9834516161582187,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.9796412827674396,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000065433_dog",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_val2014_000000065433",
+      "ratio": 0.0,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000069884_table",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_val2014_000000069884",
+      "ratio": 0.289172857850421,
+      "baseline": {
+        "amodal_iou": 0.8114400520002364,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.7985489864532747,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000069884_doll",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_val2014_000000069884",
+      "ratio": 0.4694114910444289,
+      "baseline": {
+        "amodal_iou": 0.7398349474318876,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.7821731067051603,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000074035_dog",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_val2014_000000074035",
+      "ratio": 0.19935478168640622,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000074132_bathtub",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_val2014_000000074132",
+      "ratio": 0.2579719516630966,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000080357_plate",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_val2014_000000080357",
+      "ratio": 0.38441059148421564,
+      "baseline": {
+        "amodal_iou": 0.8301366157175707,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.8142068119054925,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000092514_microwave",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_val2014_000000092514",
+      "ratio": 0.32242897821336336,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000092801_cat",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_val2014_000000092801",
+      "ratio": 0.0,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000098674_bird",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_val2014_000000098674",
+      "ratio": 0.20046214231451,
+      "baseline": {
+        "amodal_iou": 0.7616823904332187,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.7586348295114027,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000100329_bear",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_val2014_000000100329",
+      "ratio": 0.1134506297471397,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000108303_plate",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_val2014_000000108303",
+      "ratio": 0.541600339594609,
+      "baseline": {
+        "amodal_iou": 0.9137742827771125,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.8008672236122302,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000126914_plate",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_val2014_000000126914",
+      "ratio": 0.45195133205430216,
+      "baseline": {
+        "amodal_iou": 0.7385448008876356,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.9810454152627133,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000133680_bench",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_val2014_000000133680",
+      "ratio": 0.5993660418963617,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000137413_cat",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_val2014_000000137413",
+      "ratio": 0.0,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000143450_plate",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_val2014_000000143450",
+      "ratio": 0.5499003440115386,
+      "baseline": {
+        "amodal_iou": 0.7645471003532351,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.9834458612331324,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000143450_cake",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_val2014_000000143450",
+      "ratio": 0.04609615980002064,
+      "baseline": {
+        "amodal_iou": 0.8933876842622089,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.8980745129315256,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000143450_spoon",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_val2014_000000143450",
+      "ratio": 0.05987488829311886,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000155591_keyboard",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_val2014_000000155591",
+      "ratio": 0.0,
+      "baseline": {
+        "amodal_iou": 0.6744801853579273,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.6768890102223436,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000155591_laptop",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_val2014_000000155591",
+      "ratio": 0.0,
+      "baseline": {
+        "amodal_iou": 0.9422707226054506,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.9737605060473834,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000166805_plate",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_val2014_000000166805",
+      "ratio": 0.5820919313042805,
+      "baseline": {
+        "amodal_iou": 0.9926727779847186,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.9539081883042368,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000168781_horse",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_val2014_000000168781",
+      "ratio": 0.06447286752970385,
+      "baseline": {
+        "amodal_iou": 0.7778376476280543,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.7782494885726227,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000170893_dog",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_val2014_000000170893",
+      "ratio": 0.0974734022985123,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000174113_microwave",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_val2014_000000174113",
+      "ratio": 0.48729146375946464,
+      "baseline": {
+        "amodal_iou": 0.8713778921922581,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.9608027300334993,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000184700_toilet",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_val2014_000000184700",
+      "ratio": 0.42411622276029054,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000189103_bench",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_val2014_000000189103",
+      "ratio": 0.38452557843345364,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000207060_toothbrush",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_val2014_000000207060",
+      "ratio": 0.0,
+      "baseline": {
+        "amodal_iou": 0.9109820611749732,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.9376053962900506,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000212342_bench",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_val2014_000000212342",
+      "ratio": 0.00751503006012024,
+      "baseline": {
+        "amodal_iou": 0.9502991026919242,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.9624950059928087,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000221911_plate",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_val2014_000000221911",
+      "ratio": 0.6315968675519237,
+      "baseline": {
+        "amodal_iou": 0.9342707758256746,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.9056728025337891,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000222317_dog",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_val2014_000000222317",
+      "ratio": 0.3286357692866483,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000222343_toilet",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_val2014_000000222343",
+      "ratio": 0.0,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000229255_wateringcan",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_val2014_000000229255",
+      "ratio": 0.38609410123246257,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000237399_laptop",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_val2014_000000237399",
+      "ratio": 0.19025725232621785,
+      "baseline": {
+        "amodal_iou": 0.9680987351365006,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.9689447726410493,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000238292_bird",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_val2014_000000238292",
+      "ratio": 0.6395595004564258,
+      "baseline": {
+        "amodal_iou": 0.5748840098615884,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.5748840098615884,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000242907_toilet",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_val2014_000000242907",
+      "ratio": 0.0,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000244581_bed",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_val2014_000000244581",
+      "ratio": 0.0,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000264976_toilet",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_val2014_000000264976",
+      "ratio": 0.21393117140966247,
+      "baseline": {
+        "amodal_iou": 0.974263839811543,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.9782442163321587,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000277831_laptop",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_val2014_000000277831",
+      "ratio": 0.0,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000285894_giraffe",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_val2014_000000285894",
+      "ratio": 0.27469576644003885,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000289388_toilet",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_val2014_000000289388",
+      "ratio": 0.0031032584213424095,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000290165_elephant",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_val2014_000000290165",
+      "ratio": 0.18085392051557464,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000296056_dog",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_val2014_000000296056",
+      "ratio": 0.054238766904173334,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000297425_cake",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_val2014_000000297425",
+      "ratio": 0.04693187897133463,
+      "baseline": {
+        "amodal_iou": 0.8781836374031914,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.8637540532876324,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000297604_elephant",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_val2014_000000297604",
+      "ratio": 0.030916030534351144,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000307573_refrigerator",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_val2014_000000307573",
+      "ratio": 0.010518418486007952,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000317480_chair",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_val2014_000000317480",
+      "ratio": 0.28322228045219733,
+      "baseline": {
+        "amodal_iou": 0.7669359576968272,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.7302186730353012,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000320951_toilet",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_val2014_000000320951",
+      "ratio": 0.5637085635359116,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000322577_laptop",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_val2014_000000322577",
+      "ratio": 0.0,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000328802_zebra",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_val2014_000000328802",
+      "ratio": 0.19305206899344077,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000328805_toilet",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_val2014_000000328805",
+      "ratio": 0.34337928823340813,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000331807_cuttingboard",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_val2014_000000331807",
+      "ratio": 0.2483365688119619,
+      "baseline": {
+        "amodal_iou": 0.9850939727802981,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.9847074076256703,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000369386_toilet",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_val2014_000000369386",
+      "ratio": 0.0,
+      "baseline": {
+        "amodal_iou": 0.9917232400260393,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.9920344656583189,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000371782_teddybear",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_val2014_000000371782",
+      "ratio": 0.40313011964454154,
+      "baseline": {
+        "amodal_iou": 0.9485393693170826,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.9238326526106634,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000388298_toilet",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_val2014_000000388298",
+      "ratio": 0.07143926352817903,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000395997_dog",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_val2014_000000395997",
+      "ratio": 0.0,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000426075_zebra",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_val2014_000000426075",
+      "ratio": 0.33904966059306896,
+      "baseline": {
+        "amodal_iou": 0.8957473628342069,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.8982343889203855,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000428847_bicycle",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_val2014_000000428847",
+      "ratio": 0.1846218399244729,
+      "baseline": {
+        "amodal_iou": 0.8484723155663547,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.8420970102446164,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000453369_cat",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_val2014_000000453369",
+      "ratio": 0.48892632000266834,
+      "baseline": {
+        "amodal_iou": 0.861770640854163,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.9526919609931984,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000473370_laptop",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_val2014_000000473370",
+      "ratio": 0.0036750468872201003,
+      "baseline": {
+        "amodal_iou": 0.6692989316547582,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.9795442638136964,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000488943_car",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_val2014_000000488943",
+      "ratio": 0.42010030757294464,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000489793_keyboard",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_val2014_000000489793",
+      "ratio": 0.0,
+      "baseline": {
+        "amodal_iou": 0.8188348604619615,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.822164302541226,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000508639_horse",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_val2014_000000508639",
+      "ratio": 0.5024845067277093,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000529256_bed",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_val2014_000000529256",
+      "ratio": 0.16880833442881557,
+      "baseline": {
+        "amodal_iou": 0.7839758175142311,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.19013558236361694,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000543525_refrigerator",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_val2014_000000543525",
+      "ratio": 0.36473167441163246,
+      "baseline": {
+        "amodal_iou": 0.6177741205513269,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.6156062335135539,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000550643_pot",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_val2014_000000550643",
+      "ratio": 0.6424240428882634,
+      "baseline": {
+        "amodal_iou": 0.3781771349101988,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.3333479212253829,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000559277_dog",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_val2014_000000559277",
+      "ratio": 0.0,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000579034_phone",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_val2014_000000579034",
+      "ratio": 0.0,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000579593_giraffe",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_val2014_000000579593",
+      "ratio": 0.42029337692749524,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000580698_bear",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_val2014_000000580698",
+      "ratio": 0.0,
+      "baseline": {
+        "amodal_iou": 0.9571648162336828,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.9521927356988242,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000580951_elephant",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_val2014_000000580951",
+      "ratio": 0.4261925107912093,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000581033_cat",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_val2014_000000581033",
+      "ratio": 0.05337932976626302,
+      "baseline": {
+        "amodal_iou": 0.9293198677774113,
+        "success": true
+      },
+      "surface": {
+        "amodal_iou": 0.9228952086335993,
+        "success": true
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000581422_cow",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_val2014_000000581422",
+      "ratio": 0.0,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000581717_cat",
+      "source": "COCOA",
+      "image_identity": "COCOA/COCO_val2014_000000581717",
+      "ratio": 0.027835440649179092,
+      "baseline": {
+        "amodal_iou": 0.0,
+        "success": false
+      },
+      "surface": {
+        "amodal_iou": 0.0,
+        "success": false
+      }
+    }
+  ]
+}

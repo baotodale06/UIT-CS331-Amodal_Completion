@@ -1,0 +1,34 @@
+{
+  "job_id": "45668",
+  "accounting": [
+    "45668",
+    "COMPLETED",
+    "0:0",
+    "132",
+    "billing=4,cpu=4,gres/gpu=1,mem=20G,node=1",
+    "2026-11-23T12:49:39",
+    "2026-11-23T12:51:51"
+  ],
+  "files": {
+    "snapshot-quality-45665/result.json": {
+      "sha256": "8e707a59b04954d7827446ea35bf9ca522330853bd8bc9297af04a10cb7c0a1d",
+      "bytes": 218023
+    },
+    "snapshot-quality-45665/contract.json": {
+      "sha256": "40f79c2d97c6612721c519b3b0c616f3673632575db4d7467c2f0b7655a47a84",
+      "bytes": 5934
+    },
+    "score_shape_v2_snapshot.py": {
+      "sha256": "b3718dd1f68678de5d3496296f4a50f967516a447d1d8d61e3ed1d536ff44907",
+      "bytes": 7798
+    },
+    "run_snapshot_quality.sh": {
+      "sha256": "02e276764a85e00ae9e07b1983a0381865f4594e52aaa8743e391d80f3f642ce",
+      "bytes": 612
+    },
+    "snapshot-quality-45668.log": {
+      "sha256": "f9b11c2474ad86ee153e780deb7a12d8feeaddb6a1480c188451e3fa48d002e2",
+      "bytes": 10515
+    }
+  }
+}

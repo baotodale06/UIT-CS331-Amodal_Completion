@@ -4,6 +4,13 @@ This repository retains the original PD-MC implementation and adds the team's
 Open-World benchmark, explicit experiment configs, regression tests, provenance
 verification and Surface-PMC research tooling.
 
+**Research update, 24 November 2026: [results and evidence](results/README.md).**
+This update includes Shape-guided inference and training, completed full-benchmark
+Surface and Shape results, per-target scores, figures, and checksum-verified
+recovery/audit records. The frozen v2 benchmark is incomplete (222/2,565 terminal
+records); the goal of at least 3% improvement on all four full-benchmark metrics
+has not been achieved. Validation-only diagnostics are labeled separately.
+
 **Start here: [collaborator setup guide](docs/GETTING_STARTED.md).**
 The supported development environment is Python 3.12 on Linux/WSL; CPU
 installation and checks do not require CUDA, datasets or model downloads.
@@ -18,8 +25,8 @@ bash scripts/check.sh
 ```
 
 The installer verifies exact dependency hashes and uses a dedicated `.venv-cpu`.
-GitHub Actions runs the same offline suite and package build. Two optional tests
-need historical artifacts and skip in a fresh clone. For a personal branch:
+GitHub Actions runs the same offline suite and package build. Optional tests
+requiring external artifacts or GPU packages skip in a CPU clone. For a personal branch:
 
 ```bash
 git switch -c feature/my-change
@@ -34,9 +41,13 @@ git switch -c feature/my-change
 | Evaluation protocol and limits | [OPEN_WORLD_REPRODUCTION.md](OPEN_WORLD_REPRODUCTION.md) |
 | Dependency locks | [requirements/README.md](requirements/README.md) |
 | Research notes, code map and original proposals | [docs/README.md](docs/README.md) |
+| Published results, limitations and evidence checksums | [results/README.md](results/README.md) |
 
-Datasets, checkpoints, caches and generated research artifacts are external to
-Git. The CPU environment is separate from the pinned Python 3.10 / PyTorch 1.13.1 /
+Datasets, checkpoints, caches and bulk native artifacts are external to Git.
+Selected research reports and numerical evidence are tracked under `output/`,
+indexed by `results/published-files.json`; verify them with
+`python scripts/verify_published_results.py`. The CPU environment is separate
+from the pinned Python 3.10 / PyTorch 1.13.1 /
 CUDA 11.7 GPU environment provisioned by `run_amodal_slurm.sh`. Keep the two
 separate. Root `requirements.txt` and `install.sh` below belong to the original
 release; use the collaborator guide for the maintained benchmark workflow.

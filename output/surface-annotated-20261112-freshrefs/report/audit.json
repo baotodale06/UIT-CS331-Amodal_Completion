@@ -1,0 +1,867 @@
+{
+  "passed": true,
+  "audited_at": "2026-11-12T10:21:56.425699+00:00",
+  "targets": 204,
+  "images": 192,
+  "metrics": {
+    "CLIP": {
+      "n": 87,
+      "images": 84,
+      "baseline": 28.072684233216034,
+      "method": 28.44676752200072,
+      "absolute_gain": 0.37408328878468483,
+      "relative_gain_percent": 1.332552618328046,
+      "absolute_ci": [
+        0.07278608696500875,
+        0.6959501651956463
+      ],
+      "relative_ci_percent": [
+        0.25790283416535953,
+        2.4959905313429256
+      ],
+      "undefined_relative_bootstrap_samples": 0
+    },
+    "LPIPS": {
+      "n": 204,
+      "images": 192,
+      "baseline": 0.6852755600805668,
+      "method": 0.6835636322149167,
+      "absolute_gain": 0.0017119278656501397,
+      "relative_gain_percent": 0.24981598139132102,
+      "absolute_ci": [
+        -0.0018671552568793961,
+        0.005505859511376752
+      ],
+      "relative_ci_percent": [
+        -0.26856986018654283,
+        0.8101770545452006
+      ],
+      "undefined_relative_bootstrap_samples": 0
+    },
+    "Feature Similarity": {
+      "n": 204,
+      "images": 192,
+      "baseline": 0.2816903349377361,
+      "method": 0.2842731873924826,
+      "absolute_gain": 0.0025828524547464706,
+      "relative_gain_percent": 0.9169119896560795,
+      "absolute_ci": [
+        -0.0009615110237830378,
+        0.006183084598456487
+      ],
+      "relative_ci_percent": [
+        -0.35026855565820186,
+        2.2050074282573155
+      ],
+      "undefined_relative_bootstrap_samples": 0
+    },
+    "SSIM": {
+      "n": 204,
+      "images": 192,
+      "baseline": 0.3549824166898807,
+      "method": 0.3564304685256632,
+      "absolute_gain": 0.001448051835782566,
+      "relative_gain_percent": 0.407922130139649,
+      "absolute_ci": [
+        -0.0014906367646238168,
+        0.004406596023038239
+      ],
+      "relative_ci_percent": [
+        -0.42590663374490534,
+        1.246549175614024
+      ],
+      "undefined_relative_bootstrap_samples": 0
+    }
+  },
+  "per_source": {
+    "COCOA": {
+      "CLIP": {
+        "n": 28,
+        "images": 25,
+        "baseline": 26.852410997663224,
+        "method": 27.53071457999093,
+        "absolute_gain": 0.6783035823277065,
+        "relative_gain_percent": 2.5260434989868674,
+        "absolute_ci": [
+          -0.01889350073678151,
+          1.4539365618569504
+        ],
+        "relative_ci_percent": [
+          -0.07106080764761447,
+          5.603199709619619
+        ],
+        "undefined_relative_bootstrap_samples": 0
+      },
+      "LPIPS": {
+        "n": 67,
+        "images": 58,
+        "baseline": 0.7065219873590256,
+        "method": 0.7095168981311927,
+        "absolute_gain": -0.002994910772167035,
+        "relative_gain_percent": -0.4238949142067031,
+        "absolute_ci": [
+          -0.008481203956889505,
+          0.0021086471329908795
+        ],
+        "relative_ci_percent": [
+          -1.2267355115063596,
+          0.2961021265544747
+        ],
+        "undefined_relative_bootstrap_samples": 0
+      },
+      "Feature Similarity": {
+        "n": 67,
+        "images": 58,
+        "baseline": 0.25126450364269426,
+        "method": 0.2504138190354874,
+        "absolute_gain": -0.0008506846072068855,
+        "relative_gain_percent": -0.338561394416692,
+        "absolute_ci": [
+          -0.0057288094434701405,
+          0.004361665139863775
+        ],
+        "relative_ci_percent": [
+          -2.321380682118471,
+          1.8029072091273388
+        ],
+        "undefined_relative_bootstrap_samples": 0
+      },
+      "SSIM": {
+        "n": 67,
+        "images": 58,
+        "baseline": 0.3436879797405026,
+        "method": 0.3411740286612934,
+        "absolute_gain": -0.0025139510792091297,
+        "relative_gain_percent": -0.7314631955145064,
+        "absolute_ci": [
+          -0.008016256725158358,
+          0.002956378966796289
+        ],
+        "relative_ci_percent": [
+          -2.39586779621353,
+          0.9169156660008355
+        ],
+        "undefined_relative_bootstrap_samples": 0
+      }
+    },
+    "VG": {
+      "CLIP": {
+        "n": 49,
+        "images": 49,
+        "baseline": 28.532769222648778,
+        "method": 28.84094051438935,
+        "absolute_gain": 0.30817129174057317,
+        "relative_gain_percent": 1.080060926914702,
+        "absolute_ci": [
+          -0.021491731916155127,
+          0.6685821309381601
+        ],
+        "relative_ci_percent": [
+          -0.0745562155678221,
+          2.361955809390505
+        ],
+        "undefined_relative_bootstrap_samples": 0
+      },
+      "LPIPS": {
+        "n": 109,
+        "images": 107,
+        "baseline": 0.656742480164821,
+        "method": 0.6534616889414984,
+        "absolute_gain": 0.0032807912233225795,
+        "relative_gain_percent": 0.49955520198711795,
+        "absolute_ci": [
+          -0.002147976613374528,
+          0.008725550819228746
+        ],
+        "relative_ci_percent": [
+          -0.3268671560803912,
+          1.3654952438060282
+        ],
+        "undefined_relative_bootstrap_samples": 0
+      },
+      "Feature Similarity": {
+        "n": 109,
+        "images": 107,
+        "baseline": 0.31575478462997925,
+        "method": 0.319482205657784,
+        "absolute_gain": 0.003727421027804733,
+        "relative_gain_percent": 1.1804796662615114,
+        "absolute_ci": [
+          -0.0019288449290908198,
+          0.009428975390966484
+        ],
+        "relative_ci_percent": [
+          -0.6212411112196116,
+          2.967533685377178
+        ],
+        "undefined_relative_bootstrap_samples": 0
+      },
+      "SSIM": {
+        "n": 109,
+        "images": 107,
+        "baseline": 0.3772924769349331,
+        "method": 0.3805033997366056,
+        "absolute_gain": 0.0032109228016724894,
+        "relative_gain_percent": 0.8510434206792405,
+        "absolute_ci": [
+          -0.0009584204281005671,
+          0.007516153394548288
+        ],
+        "relative_ci_percent": [
+          -0.2492697876689438,
+          1.9299319837211515
+        ],
+        "undefined_relative_bootstrap_samples": 0
+      }
+    },
+    "free_images": {
+      "CLIP": {
+        "n": 6,
+        "images": 6,
+        "baseline": 29.476298650105793,
+        "method": 29.22546164194743,
+        "absolute_gain": -0.2508370081583659,
+        "relative_gain_percent": -0.850978649442696,
+        "absolute_ci": [
+          -0.8988939921061198,
+          0.3731670379638672
+        ],
+        "relative_ci_percent": [
+          -3.0142617367739195,
+          1.2086886222166033
+        ],
+        "undefined_relative_bootstrap_samples": 0
+      },
+      "LPIPS": {
+        "n": 14,
+        "images": 14,
+        "baseline": 0.6847890745848417,
+        "method": 0.6808170548507145,
+        "absolute_gain": 0.003972019734127181,
+        "relative_gain_percent": 0.5800355002064317,
+        "absolute_ci": [
+          -7.025152444839478e-05,
+          0.009921924423958551
+        ],
+        "relative_ci_percent": [
+          -0.009086703802841918,
+          1.6097208583611218
+        ],
+        "undefined_relative_bootstrap_samples": 0
+      },
+      "Feature Similarity": {
+        "n": 14,
+        "images": 14,
+        "baseline": 0.2627494622554098,
+        "method": 0.2662275529333523,
+        "absolute_gain": 0.0034780906779425485,
+        "relative_gain_percent": 1.3237289424256233,
+        "absolute_ci": [
+          -0.0015979536942073277,
+          0.009839020350149693
+        ],
+        "relative_ci_percent": [
+          null,
+          null
+        ],
+        "undefined_relative_bootstrap_samples": 1
+      },
+      "SSIM": {
+        "n": 14,
+        "images": 14,
+        "baseline": 0.35493726541555226,
+        "method": 0.35922524994283594,
+        "absolute_gain": 0.004287984527283656,
+        "relative_gain_percent": 1.208096456781844,
+        "absolute_ci": [
+          0.0005610605318073626,
+          0.00904946921644927
+        ],
+        "relative_ci_percent": [
+          null,
+          null
+        ],
+        "undefined_relative_bootstrap_samples": 1
+      }
+    },
+    "laion": {
+      "CLIP": {
+        "n": 4,
+        "images": 4,
+        "baseline": 28.87313413619995,
+        "method": 28.862477779388428,
+        "absolute_gain": -0.010656356811523438,
+        "relative_gain_percent": -0.03690751672906522,
+        "absolute_ci": [
+          -0.5779032707214355,
+          0.5536594390869141
+        ],
+        "relative_ci_percent": [
+          -1.88181474086014,
+          2.1484707197895383
+        ],
+        "undefined_relative_bootstrap_samples": 0
+      },
+      "LPIPS": {
+        "n": 14,
+        "images": 13,
+        "baseline": 0.8062331229448318,
+        "method": 0.7964704238942691,
+        "absolute_gain": 0.009762699050562722,
+        "relative_gain_percent": 1.2109027491829747,
+        "absolute_ci": [
+          -0.0017916571635466355,
+          0.026613197156361172
+        ],
+        "relative_ci_percent": [
+          -0.21833269949338882,
+          3.719777945411951
+        ],
+        "undefined_relative_bootstrap_samples": 0
+      },
+      "Feature Similarity": {
+        "n": 14,
+        "images": 13,
+        "baseline": 0.18102447049958365,
+        "method": 0.19023272820881434,
+        "absolute_gain": 0.009208257709230696,
+        "relative_gain_percent": 5.086747489893569,
+        "absolute_ci": [
+          -0.0030912252572866585,
+          0.026575342814127604
+        ],
+        "relative_ci_percent": [
+          null,
+          null
+        ],
+        "undefined_relative_bootstrap_samples": 40
+      },
+      "SSIM": {
+        "n": 14,
+        "images": 13,
+        "baseline": 0.23537976145689646,
+        "method": 0.2392236848884952,
+        "absolute_gain": 0.0038439234315987597,
+        "relative_gain_percent": 1.6330730423918252,
+        "absolute_ci": [
+          -0.0014020333675350144,
+          0.010872629919418588
+        ],
+        "relative_ci_percent": [
+          null,
+          null
+        ],
+        "undefined_relative_bootstrap_samples": 40
+      }
+    }
+  },
+  "shared_success_metrics": {
+    "CLIP": {
+      "n": 87,
+      "images": 84,
+      "baseline": 28.072684233216034,
+      "method": 28.44676752200072,
+      "absolute_gain": 0.37408328878468483,
+      "relative_gain_percent": 1.332552618328046,
+      "absolute_ci": [
+        0.07278608696500875,
+        0.6959501651956463
+      ],
+      "relative_ci_percent": [
+        0.25790283416535953,
+        2.4959905313429256
+      ],
+      "undefined_relative_bootstrap_samples": 0
+    },
+    "LPIPS": {
+      "n": 87,
+      "images": 84,
+      "baseline": 0.2620254512233981,
+      "method": 0.25801127553842534,
+      "absolute_gain": 0.004014175684972741,
+      "relative_gain_percent": 1.531979304388385,
+      "absolute_ci": [
+        -0.0042922870973696094,
+        0.012372445435922398
+      ],
+      "relative_ci_percent": [
+        -1.5991812291307934,
+        4.870475970009988
+      ],
+      "undefined_relative_bootstrap_samples": 0
+    },
+    "Feature Similarity": {
+      "n": 87,
+      "images": 84,
+      "baseline": 0.6605152681298639,
+      "method": 0.6665716118168556,
+      "absolute_gain": 0.006056343686991724,
+      "relative_gain_percent": 0.9169119896560796,
+      "absolute_ci": [
+        -0.0023621815568999893,
+        0.014334791360552449
+      ],
+      "relative_ci_percent": [
+        -0.3561594358634248,
+        2.173188546302351
+      ],
+      "undefined_relative_bootstrap_samples": 0
+    },
+    "SSIM": {
+      "n": 87,
+      "images": 84,
+      "baseline": 0.8323725632728235,
+      "method": 0.8357679951636241,
+      "absolute_gain": 0.0033954318908004997,
+      "relative_gain_percent": 0.40792213013964906,
+      "absolute_ci": [
+        -0.0034945349638203934,
+        0.010417647210947454
+      ],
+      "relative_ci_percent": [
+        -0.4202140420640931,
+        1.250307748835935
+      ],
+      "undefined_relative_bootstrap_samples": 0
+    }
+  },
+  "baseline_statistics": {
+    "VG": {
+      "targets": 109,
+      "successes": 49,
+      "failures": 60,
+      "reference_failures": 0,
+      "missing_images": 0,
+      "failure_rate": 0.5504587155963303,
+      "status_counts": {
+        "no_completion": 20,
+        "ambiguous_target": 25,
+        "not_detected": 15,
+        "success": 49
+      },
+      "failure_reasons": {
+        "query_mask_too_small": 4,
+        "multiple_distinct_instances": 25,
+        "label_not_matched": 15,
+        "no_occlusion_detected": 16
+      },
+      "completed_outputs": 46,
+      "iteration_limited_outputs": 3,
+      "completion_state_unknown": 0,
+      "failure_stage_counts": {
+        "query_filter": 4,
+        "target_selection": 40,
+        "occlusion_check": 16
+      },
+      "target_selection_failures": 40,
+      "initial_segmentation_failures": 0,
+      "pdmc_failures": 20,
+      "CLIP": 28.532769222648778,
+      "CLIP_n": 49,
+      "LPIPS": 0.656742480164821,
+      "LPIPS_n": 109,
+      "Feature Similarity": 0.31575478462997925,
+      "Feature Similarity_n": 109,
+      "SSIM": 0.3772924769349331,
+      "SSIM_n": 109
+    },
+    "COCOA": {
+      "targets": 67,
+      "successes": 28,
+      "failures": 39,
+      "reference_failures": 0,
+      "missing_images": 0,
+      "failure_rate": 0.582089552238806,
+      "status_counts": {
+        "not_detected": 9,
+        "success": 28,
+        "no_completion": 14,
+        "ambiguous_target": 16
+      },
+      "failure_reasons": {
+        "label_not_matched": 9,
+        "query_mask_too_small": 2,
+        "multiple_distinct_instances": 16,
+        "no_occlusion_detected": 12
+      },
+      "completed_outputs": 28,
+      "iteration_limited_outputs": 0,
+      "completion_state_unknown": 0,
+      "failure_stage_counts": {
+        "target_selection": 25,
+        "query_filter": 2,
+        "occlusion_check": 12
+      },
+      "target_selection_failures": 25,
+      "initial_segmentation_failures": 0,
+      "pdmc_failures": 14,
+      "CLIP": 26.852410997663224,
+      "CLIP_n": 28,
+      "LPIPS": 0.7065219873590256,
+      "LPIPS_n": 67,
+      "Feature Similarity": 0.25126450364269426,
+      "Feature Similarity_n": 67,
+      "SSIM": 0.34368797974050264,
+      "SSIM_n": 67
+    },
+    "free_images": {
+      "targets": 14,
+      "successes": 6,
+      "failures": 8,
+      "reference_failures": 0,
+      "missing_images": 0,
+      "failure_rate": 0.5714285714285714,
+      "status_counts": {
+        "ambiguous_target": 3,
+        "no_completion": 4,
+        "success": 6,
+        "not_detected": 1
+      },
+      "failure_reasons": {
+        "multiple_distinct_instances": 3,
+        "no_occlusion_detected": 2,
+        "query_mask_too_small": 2,
+        "label_not_matched": 1
+      },
+      "completed_outputs": 4,
+      "iteration_limited_outputs": 2,
+      "completion_state_unknown": 0,
+      "failure_stage_counts": {
+        "target_selection": 4,
+        "occlusion_check": 2,
+        "query_filter": 2
+      },
+      "target_selection_failures": 4,
+      "initial_segmentation_failures": 0,
+      "pdmc_failures": 4,
+      "CLIP": 29.476298650105793,
+      "CLIP_n": 6,
+      "LPIPS": 0.6847890745848417,
+      "LPIPS_n": 14,
+      "Feature Similarity": 0.2627494622554098,
+      "Feature Similarity_n": 14,
+      "SSIM": 0.35493726541555226,
+      "SSIM_n": 14
+    },
+    "laion": {
+      "targets": 14,
+      "successes": 4,
+      "failures": 10,
+      "reference_failures": 0,
+      "missing_images": 0,
+      "failure_rate": 0.7142857142857143,
+      "status_counts": {
+        "no_completion": 5,
+        "ambiguous_target": 3,
+        "not_detected": 2,
+        "success": 4
+      },
+      "failure_reasons": {
+        "query_mask_too_small": 1,
+        "multiple_distinct_instances": 3,
+        "label_not_matched": 2,
+        "no_occlusion_detected": 4
+      },
+      "completed_outputs": 4,
+      "iteration_limited_outputs": 0,
+      "completion_state_unknown": 0,
+      "failure_stage_counts": {
+        "query_filter": 1,
+        "target_selection": 5,
+        "occlusion_check": 4
+      },
+      "target_selection_failures": 5,
+      "initial_segmentation_failures": 0,
+      "pdmc_failures": 5,
+      "CLIP": 28.87313413619995,
+      "CLIP_n": 4,
+      "LPIPS": 0.8062331229448318,
+      "LPIPS_n": 14,
+      "Feature Similarity": 0.18102447049958365,
+      "Feature Similarity_n": 14,
+      "SSIM": 0.23537976145689646,
+      "SSIM_n": 14
+    },
+    "Overall": {
+      "targets": 204,
+      "successes": 87,
+      "failures": 117,
+      "reference_failures": 0,
+      "missing_images": 0,
+      "failure_rate": 0.5735294117647058,
+      "status_counts": {
+        "no_completion": 43,
+        "ambiguous_target": 47,
+        "not_detected": 27,
+        "success": 87
+      },
+      "failure_reasons": {
+        "query_mask_too_small": 9,
+        "multiple_distinct_instances": 47,
+        "label_not_matched": 27,
+        "no_occlusion_detected": 34
+      },
+      "completed_outputs": 82,
+      "iteration_limited_outputs": 5,
+      "completion_state_unknown": 0,
+      "failure_stage_counts": {
+        "query_filter": 9,
+        "target_selection": 74,
+        "occlusion_check": 34
+      },
+      "target_selection_failures": 74,
+      "initial_segmentation_failures": 0,
+      "pdmc_failures": 43,
+      "CLIP": 28.072684233216034,
+      "CLIP_n": 87,
+      "LPIPS": 0.6852755600805668,
+      "LPIPS_n": 204,
+      "Feature Similarity": 0.2816903349377361,
+      "Feature Similarity_n": 204,
+      "SSIM": 0.3549824166898807,
+      "SSIM_n": 204
+    }
+  },
+  "surface_statistics": {
+    "VG": {
+      "targets": 109,
+      "successes": 49,
+      "failures": 60,
+      "reference_failures": 0,
+      "missing_images": 0,
+      "failure_rate": 0.5504587155963303,
+      "status_counts": {
+        "no_completion": 20,
+        "ambiguous_target": 25,
+        "not_detected": 15,
+        "success": 49
+      },
+      "failure_reasons": {
+        "query_mask_too_small": 4,
+        "multiple_distinct_instances": 25,
+        "label_not_matched": 15,
+        "no_occlusion_detected": 16
+      },
+      "completed_outputs": 45,
+      "iteration_limited_outputs": 4,
+      "completion_state_unknown": 0,
+      "failure_stage_counts": {
+        "query_filter": 4,
+        "target_selection": 40,
+        "occlusion_check": 16
+      },
+      "target_selection_failures": 40,
+      "initial_segmentation_failures": 0,
+      "pdmc_failures": 20,
+      "CLIP": 28.84094051438935,
+      "CLIP_n": 49,
+      "LPIPS": 0.6534616889414984,
+      "LPIPS_n": 109,
+      "Feature Similarity": 0.319482205657784,
+      "Feature Similarity_n": 109,
+      "SSIM": 0.38050339973660546,
+      "SSIM_n": 109
+    },
+    "COCOA": {
+      "targets": 67,
+      "successes": 28,
+      "failures": 39,
+      "reference_failures": 0,
+      "missing_images": 0,
+      "failure_rate": 0.582089552238806,
+      "status_counts": {
+        "not_detected": 9,
+        "success": 28,
+        "no_completion": 14,
+        "ambiguous_target": 16
+      },
+      "failure_reasons": {
+        "label_not_matched": 9,
+        "query_mask_too_small": 2,
+        "multiple_distinct_instances": 16,
+        "no_occlusion_detected": 12
+      },
+      "completed_outputs": 27,
+      "iteration_limited_outputs": 1,
+      "completion_state_unknown": 0,
+      "failure_stage_counts": {
+        "target_selection": 25,
+        "query_filter": 2,
+        "occlusion_check": 12
+      },
+      "target_selection_failures": 25,
+      "initial_segmentation_failures": 0,
+      "pdmc_failures": 14,
+      "CLIP": 27.53071457999093,
+      "CLIP_n": 28,
+      "LPIPS": 0.7095168981311927,
+      "LPIPS_n": 67,
+      "Feature Similarity": 0.2504138190354874,
+      "Feature Similarity_n": 67,
+      "SSIM": 0.34117402866129337,
+      "SSIM_n": 67
+    },
+    "free_images": {
+      "targets": 14,
+      "successes": 6,
+      "failures": 8,
+      "reference_failures": 0,
+      "missing_images": 0,
+      "failure_rate": 0.5714285714285714,
+      "status_counts": {
+        "ambiguous_target": 3,
+        "no_completion": 4,
+        "success": 6,
+        "not_detected": 1
+      },
+      "failure_reasons": {
+        "multiple_distinct_instances": 3,
+        "no_occlusion_detected": 2,
+        "query_mask_too_small": 2,
+        "label_not_matched": 1
+      },
+      "completed_outputs": 4,
+      "iteration_limited_outputs": 2,
+      "completion_state_unknown": 0,
+      "failure_stage_counts": {
+        "target_selection": 4,
+        "occlusion_check": 2,
+        "query_filter": 2
+      },
+      "target_selection_failures": 4,
+      "initial_segmentation_failures": 0,
+      "pdmc_failures": 4,
+      "CLIP": 29.22546164194743,
+      "CLIP_n": 6,
+      "LPIPS": 0.6808170548507145,
+      "LPIPS_n": 14,
+      "Feature Similarity": 0.2662275529333523,
+      "Feature Similarity_n": 14,
+      "SSIM": 0.35922524994283594,
+      "SSIM_n": 14
+    },
+    "laion": {
+      "targets": 14,
+      "successes": 4,
+      "failures": 10,
+      "reference_failures": 0,
+      "missing_images": 0,
+      "failure_rate": 0.7142857142857143,
+      "status_counts": {
+        "no_completion": 5,
+        "ambiguous_target": 3,
+        "not_detected": 2,
+        "success": 4
+      },
+      "failure_reasons": {
+        "query_mask_too_small": 1,
+        "multiple_distinct_instances": 3,
+        "label_not_matched": 2,
+        "no_occlusion_detected": 4
+      },
+      "completed_outputs": 4,
+      "iteration_limited_outputs": 0,
+      "completion_state_unknown": 0,
+      "failure_stage_counts": {
+        "query_filter": 1,
+        "target_selection": 5,
+        "occlusion_check": 4
+      },
+      "target_selection_failures": 5,
+      "initial_segmentation_failures": 0,
+      "pdmc_failures": 5,
+      "CLIP": 28.862477779388428,
+      "CLIP_n": 4,
+      "LPIPS": 0.7964704238942691,
+      "LPIPS_n": 14,
+      "Feature Similarity": 0.19023272820881434,
+      "Feature Similarity_n": 14,
+      "SSIM": 0.2392236848884952,
+      "SSIM_n": 14
+    },
+    "Overall": {
+      "targets": 204,
+      "successes": 87,
+      "failures": 117,
+      "reference_failures": 0,
+      "missing_images": 0,
+      "failure_rate": 0.5735294117647058,
+      "status_counts": {
+        "no_completion": 43,
+        "ambiguous_target": 47,
+        "not_detected": 27,
+        "success": 87
+      },
+      "failure_reasons": {
+        "query_mask_too_small": 9,
+        "multiple_distinct_instances": 47,
+        "label_not_matched": 27,
+        "no_occlusion_detected": 34
+      },
+      "completed_outputs": 80,
+      "iteration_limited_outputs": 7,
+      "completion_state_unknown": 0,
+      "failure_stage_counts": {
+        "query_filter": 9,
+        "target_selection": 74,
+        "occlusion_check": 34
+      },
+      "target_selection_failures": 74,
+      "initial_segmentation_failures": 0,
+      "pdmc_failures": 43,
+      "CLIP": 28.44676752200072,
+      "CLIP_n": 87,
+      "LPIPS": 0.6835636322149167,
+      "LPIPS_n": 204,
+      "Feature Similarity": 0.2842731873924826,
+      "Feature Similarity_n": 204,
+      "SSIM": 0.3564304685256632,
+      "SSIM_n": 204
+    }
+  },
+  "transitions": {
+    "no_completion -> no_completion": 43,
+    "ambiguous_target -> ambiguous_target": 47,
+    "not_detected -> not_detected": 27,
+    "success -> success": 87
+  },
+  "lpips_gain_decomposition": {
+    "both_failed": 0.0,
+    "shared_success": 0.0017119278656501401
+  },
+  "capped_successes": {
+    "baseline": 5,
+    "surface": 7
+  },
+  "surface_pass_histogram": {
+    "0": 117,
+    "1": 64,
+    "2": 12,
+    "3": 3,
+    "6": 7,
+    "5": 1
+  },
+  "no_surface_sampling_reasons": {
+    "query_mask_too_small": 9,
+    "multiple_distinct_instances": 47,
+    "label_not_matched": 27,
+    "no_occlusion_detected": 34
+  },
+  "decisions_replayed": 144,
+  "generated_candidates": 1152,
+  "pool_image_hashes_checked": 2736,
+  "fallback_decisions": 0,
+  "method_parameters_unchanged": true,
+  "selected_rgb_exact_replay": true,
+  "local_neural_metrics_rerun": false,
+  "repeated_smoke": {
+    "targets": 8,
+    "exact_native_artifact_matches": 4,
+    "differences": []
+  },
+  "limitation": "Selection replay uses logged observable features; pretrained feature extraction is not rerun locally. RGB correction replay is exact at the saved candidate resolution, before native JPEG serialization.",
+  "sources": {
+    "scripts/audit_annotated_surface.py": "478065b1873872d0f9248ca4fc97af4547efb689daae818988a145c39a44e570",
+    "scripts/audit_surface_progressive_result.py": "94a9d68dfb8756e6d2b0a6e60c49e105268a21e0a5b8a67fe7de1bcd37e1dfc8"
+  }
+}

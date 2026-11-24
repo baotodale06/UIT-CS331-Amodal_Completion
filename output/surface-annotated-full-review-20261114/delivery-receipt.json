@@ -1,0 +1,11 @@
+{
+  "verified": true,
+  "at": "2026-11-14T05:12:32.866039+00:00",
+  "archive": "annotated-full-results.zip",
+  "bytes": 30219728,
+  "sha256": "6c446bf1078c729ed1c981ff1360d545fd8674bae0c003554a41d292fa06bd96",
+  "payload_files": 96,
+  "manifest_sha256": "1014381318859897ffe3a28de8983e98dde9e1543f4774856b76b737ebec0345",
+  "source_sha256": "fa4a7fe1d583e5003a361e5d32d9bc6341e83df247d2f708f41428a9063af2a0",
+  "scope": "Report, figure, all-target CSV, audits, registry/accounting, frozen design, analysis source and original full metadata archive. Full native PNGs remain on cluster."
+}

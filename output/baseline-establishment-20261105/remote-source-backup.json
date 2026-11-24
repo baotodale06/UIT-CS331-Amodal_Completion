@@ -1,0 +1,6 @@
+{
+  "created_utc": "2026-11-05T09:45:40.821940+00:00",
+  "returncode": 0,
+  "stdout": "{\"backup\": \"/home/daoqm/Vu_Hung/cv_nangcao/.deployment-backups/baseline-20261105T094541Z.tar.gz\", \"bytes\": 63266, \"sha256\": \"a08d49fd021958c27310054736cf5f24c9554f62bf76ffe3308e3d5cbef52030\"}\n",
+  "stderr": ""
+}

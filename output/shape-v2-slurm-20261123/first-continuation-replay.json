@@ -1,0 +1,9 @@
+{
+  "verified": true,
+  "previous_job": "45636",
+  "continuation_job": "45658",
+  "retained_records": 166,
+  "frozen_source_files": 299,
+  "inventory_sha256": "d5b98e50cab01a85f2662cf107e0e0687acdbe1644a6742410ecf4b7e9ae2c9b",
+  "freeze_sha256": "6078e500c236095a537000d2d3f90838253ab7542d39c69d0fafe67db150523b"
+}

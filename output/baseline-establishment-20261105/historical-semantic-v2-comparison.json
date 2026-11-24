@@ -1,0 +1,80 @@
+{
+  "created_utc": "2026-11-06T09:51:49.964979+00:00",
+  "historical_run": "C:\\Users\\daovu\\Documents\\Project\\cv_nangcao\\output\\artifact-recovery-2026-11-05\\downloads\\pdmc-open-world-sam-semantic-v2",
+  "current_run": "C:\\Users\\daovu\\Documents\\Project\\cv_nangcao\\output\\baseline-31548\\output\\pdmc-baseline-provenance-20261105",
+  "same_scientific_config": true,
+  "same_metric_config": true,
+  "targets": 2565,
+  "historical_successes": 946,
+  "current_successes": 951,
+  "shared_successes": 945,
+  "gained": [
+    "COCOA/COCO_train2014_000000018155_sofa",
+    "COCOA/COCO_train2014_000000037566_sofa",
+    "COCOA/COCO_train2014_000000108113_dog",
+    "COCOA/COCO_train2014_000000154068_airplane",
+    "COCOA/COCO_train2014_000000238453_cat",
+    "VG/2315519_cat"
+  ],
+  "lost": [
+    "COCOA/COCO_val2014_000000207060_toothbrush"
+  ],
+  "status_transitions": {
+    "not_detected -> not_detected": 934,
+    "ambiguous_target -> ambiguous_target": 251,
+    "success -> success": 945,
+    "no_completion -> no_completion": 428,
+    "no_completion -> success": 6,
+    "success -> no_completion": 1
+  },
+  "same_seed_rows": 2565,
+  "identical_shared_metric_tuples": 0,
+  "shared_metric_means": {
+    "CLIP": {
+      "historical": 28.38872171432253,
+      "current": 28.403386151349103
+    },
+    "LPIPS": {
+      "historical": 0.2848660625044316,
+      "current": 0.28504892762691253
+    },
+    "Feature Similarity": {
+      "historical": 0.6540184152031702,
+      "current": 0.6547784383492495
+    },
+    "SSIM": {
+      "historical": 0.8184526902475016,
+      "current": 0.8184448312518534
+    }
+  },
+  "interpretation": "Descriptive comparison only. The historical run lacks execution/environment provenance; these differences do not isolate a causal change or establish an improvement.",
+  "identities": {
+    "historical": {
+      "targets_sha256": "4039000cb0b90322b087d57534daeeea7b604dc6a1a06a695009751e61a05f16",
+      "inputs_sha256": "2b2646b675f699f4789b391bb7ea544e3a72a30deea57db4356db9f6e5566b4d",
+      "references_sha256": "6d2c9b5893b1fe4f249fce8647809a79af859ff5239ee7ea17da9eb62a5940f0"
+    },
+    "current": {
+      "targets_sha256": "4039000cb0b90322b087d57534daeeea7b604dc6a1a06a695009751e61a05f16",
+      "inputs_sha256": "2b2646b675f699f4789b391bb7ea544e3a72a30deea57db4356db9f6e5566b4d",
+      "references_sha256": "8ede6a2036dc39a1ed7e1034e709ce892d776f809c5e246866de640697addaeb"
+    }
+  },
+  "artifact_hash_comparison": {
+    "completion_png": {
+      "shared_files": 945,
+      "identical_sha256": 0,
+      "changed_sha256": 945
+    },
+    "initial_reference_png": {
+      "shared_files": 2565,
+      "identical_sha256": 2546,
+      "changed_sha256": 19
+    },
+    "initial_reference_masks": {
+      "shared_files": 2565,
+      "identical_sha256": 2533,
+      "changed_sha256": 32
+    }
+  }
+}

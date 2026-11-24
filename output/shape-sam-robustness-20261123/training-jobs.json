@@ -1,0 +1,36 @@
+{
+  "preflight_job_id": "45662",
+  "preflight_command": [
+    "sbatch",
+    "--parsable",
+    "--partition=debug-gpu",
+    "--gres=gpu:quadro_rtx_6000:4",
+    "--cpus-per-task=24",
+    "--mem=80G",
+    "--kill-on-invalid-dep=yes",
+    "--time=00:05:00",
+    "--job-name=shape-robust-preflight",
+    "--dependency=afterok:45661",
+    "--output=/home/daoqm/Vu_Hung/cv_nangcao/output/shape-sam-robustness-20261123/preflight-%j.log",
+    "scripts/run_shape_robust_training.sh",
+    "preflight"
+  ],
+  "source_manifest_sha256": "73888b66890d4b7dc94f29ffdb36067c68f7f0b8b6850871cefb1e1ba19d9a01",
+  "training_command": [
+    "sbatch",
+    "--parsable",
+    "--partition=debug-gpu",
+    "--gres=gpu:quadro_rtx_6000:4",
+    "--cpus-per-task=24",
+    "--mem=80G",
+    "--kill-on-invalid-dep=yes",
+    "--time=00:30:00",
+    "--time-min=00:20:00",
+    "--job-name=shape-robust-training",
+    "--dependency=afterok:45662",
+    "--output=/home/daoqm/Vu_Hung/cv_nangcao/output/shape-sam-robustness-20261123/training-%j.log",
+    "scripts/run_shape_robust_training.sh",
+    "train"
+  ],
+  "training_job_id": "45663"
+}

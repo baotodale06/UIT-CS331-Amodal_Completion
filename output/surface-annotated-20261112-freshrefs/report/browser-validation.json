@@ -1,0 +1,243 @@
+{
+  "at": "2026-11-12T10:53:50.321Z",
+  "url": "file:///C:/Users/daovu/Documents/Project/cv_nangcao/output/surface-annotated-20261112-freshrefs/report/gallery.html",
+  "title": "Annotated Surface-PMC: all 204 cases",
+  "checks": [
+    {
+      "search": "",
+      "direction": "",
+      "transition": "",
+      "expected": 204,
+      "actual": 204,
+      "counter": "204 / 204 cases",
+      "passed": true
+    },
+    {
+      "search": "",
+      "direction": "",
+      "transition": "shared",
+      "expected": 87,
+      "actual": 87,
+      "counter": "87 / 204 cases",
+      "passed": true
+    },
+    {
+      "search": "",
+      "direction": "",
+      "transition": "gained",
+      "expected": 0,
+      "actual": 0,
+      "counter": "0 / 204 cases",
+      "passed": true
+    },
+    {
+      "search": "",
+      "direction": "",
+      "transition": "lost",
+      "expected": 0,
+      "actual": 0,
+      "counter": "0 / 204 cases",
+      "passed": true
+    },
+    {
+      "search": "",
+      "direction": "",
+      "transition": "both_failed",
+      "expected": 117,
+      "actual": 117,
+      "counter": "117 / 204 cases",
+      "passed": true
+    },
+    {
+      "search": "",
+      "direction": "gain",
+      "transition": "",
+      "expected": 48,
+      "actual": 48,
+      "counter": "48 / 204 cases",
+      "passed": true
+    },
+    {
+      "search": "",
+      "direction": "gain",
+      "transition": "shared",
+      "expected": 48,
+      "actual": 48,
+      "counter": "48 / 204 cases",
+      "passed": true
+    },
+    {
+      "search": "",
+      "direction": "gain",
+      "transition": "gained",
+      "expected": 0,
+      "actual": 0,
+      "counter": "0 / 204 cases",
+      "passed": true
+    },
+    {
+      "search": "",
+      "direction": "gain",
+      "transition": "lost",
+      "expected": 0,
+      "actual": 0,
+      "counter": "0 / 204 cases",
+      "passed": true
+    },
+    {
+      "search": "",
+      "direction": "gain",
+      "transition": "both_failed",
+      "expected": 0,
+      "actual": 0,
+      "counter": "0 / 204 cases",
+      "passed": true
+    },
+    {
+      "search": "",
+      "direction": "loss",
+      "transition": "",
+      "expected": 39,
+      "actual": 39,
+      "counter": "39 / 204 cases",
+      "passed": true
+    },
+    {
+      "search": "",
+      "direction": "loss",
+      "transition": "shared",
+      "expected": 39,
+      "actual": 39,
+      "counter": "39 / 204 cases",
+      "passed": true
+    },
+    {
+      "search": "",
+      "direction": "loss",
+      "transition": "gained",
+      "expected": 0,
+      "actual": 0,
+      "counter": "0 / 204 cases",
+      "passed": true
+    },
+    {
+      "search": "",
+      "direction": "loss",
+      "transition": "lost",
+      "expected": 0,
+      "actual": 0,
+      "counter": "0 / 204 cases",
+      "passed": true
+    },
+    {
+      "search": "",
+      "direction": "loss",
+      "transition": "both_failed",
+      "expected": 0,
+      "actual": 0,
+      "counter": "0 / 204 cases",
+      "passed": true
+    },
+    {
+      "search": "",
+      "direction": "tie",
+      "transition": "",
+      "expected": 117,
+      "actual": 117,
+      "counter": "117 / 204 cases",
+      "passed": true
+    },
+    {
+      "search": "",
+      "direction": "tie",
+      "transition": "shared",
+      "expected": 0,
+      "actual": 0,
+      "counter": "0 / 204 cases",
+      "passed": true
+    },
+    {
+      "search": "",
+      "direction": "tie",
+      "transition": "gained",
+      "expected": 0,
+      "actual": 0,
+      "counter": "0 / 204 cases",
+      "passed": true
+    },
+    {
+      "search": "",
+      "direction": "tie",
+      "transition": "lost",
+      "expected": 0,
+      "actual": 0,
+      "counter": "0 / 204 cases",
+      "passed": true
+    },
+    {
+      "search": "",
+      "direction": "tie",
+      "transition": "both_failed",
+      "expected": 117,
+      "actual": 117,
+      "counter": "117 / 204 cases",
+      "passed": true
+    },
+    {
+      "search": "pinkteddybear",
+      "direction": "",
+      "transition": "",
+      "expected": 1,
+      "actual": 1,
+      "counter": "1 / 204 cases",
+      "passed": true
+    },
+    {
+      "search": "PINKTEDDYBEAR",
+      "direction": "",
+      "transition": "",
+      "expected": 1,
+      "actual": 1,
+      "counter": "1 / 204 cases",
+      "passed": true
+    },
+    {
+      "search": "COCOA/",
+      "direction": "",
+      "transition": "",
+      "expected": 67,
+      "actual": 67,
+      "counter": "67 / 204 cases",
+      "passed": true
+    },
+    {
+      "search": "zz_no_match_zz",
+      "direction": "",
+      "transition": "",
+      "expected": 0,
+      "actual": 0,
+      "counter": "0 / 204 cases",
+      "passed": true
+    },
+    {
+      "search": "",
+      "direction": "",
+      "transition": "",
+      "expected": 204,
+      "actual": 204,
+      "counter": "204 / 204 cases",
+      "passed": true
+    }
+  ],
+  "images": {
+    "total": 582,
+    "loaded": 582,
+    "failed": []
+  },
+  "overflow": false,
+  "viewport": {
+    "width": 1536,
+    "height": 674
+  },
+  "passed": true
+}

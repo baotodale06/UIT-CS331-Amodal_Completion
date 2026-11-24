@@ -1,0 +1,139 @@
+﻿{
+    "authorized_request":  "Yes remove the failed transfer for me",
+    "scope":  "Only group B of docs/OUTPUT_CLEANUP_REVIEW_20261116.md; explicitly authorized by the user",
+    "started_utc":  "2026-11-16T07:03:20.5687898Z",
+    "status":  "complete",
+    "planned_files":  [
+                          {
+                              "relative_path":  "baseline-establishment-20261105/accepted-baseline-20261106T092725Z.tar.gz",
+                              "absolute_path":  "C:\\Users\\daovu\\Documents\\Project\\cv_nangcao\\output\\baseline-establishment-20261105\\accepted-baseline-20261106T092725Z.tar.gz",
+                              "bytes":  255358976,
+                              "modified_utc":  "2026-11-06T09:45:39.6508017Z",
+                              "sha256":  "2b7b811e1ba3f9c08b869e540bfe0b6278eef461c132830083f19d9f53380da8"
+                          },
+                          {
+                              "relative_path":  "artifact-recovery-2026-11-05/transfers/pdmc-open-world-sam-annotated.tar.gz.partial",
+                              "absolute_path":  "C:\\Users\\daovu\\Documents\\Project\\cv_nangcao\\output\\artifact-recovery-2026-11-05\\transfers\\pdmc-open-world-sam-annotated.tar.gz.partial",
+                              "bytes":  24117248,
+                              "modified_utc":  "2026-11-05T05:52:53.2464211Z",
+                              "sha256":  "fd5a86a2c8071536d2c7132cd39dd9b78fd7092150204df04887b66310c3a3b3"
+                          },
+                          {
+                              "relative_path":  "artifact-recovery-2026-11-05/transfers/pdmc-open-world-sam-semantic-v2.tar.gz.partial",
+                              "absolute_path":  "C:\\Users\\daovu\\Documents\\Project\\cv_nangcao\\output\\artifact-recovery-2026-11-05\\transfers\\pdmc-open-world-sam-semantic-v2.tar.gz.partial",
+                              "bytes":  22020096,
+                              "modified_utc":  "2026-11-05T05:52:52.6425866Z",
+                              "sha256":  "61a866d68a6e3c2fc4c2aa897dec24b2864c15c045f977228d5c301a857b0d85"
+                          },
+                          {
+                              "relative_path":  "surface-followup-20261110-design/fresh-controlled-evidence-legacy.tar.gz.partial",
+                              "absolute_path":  "C:\\Users\\daovu\\Documents\\Project\\cv_nangcao\\output\\surface-followup-20261110-design\\fresh-controlled-evidence-legacy.tar.gz.partial",
+                              "bytes":  12058624,
+                              "modified_utc":  "2026-11-10T03:17:08.8061146Z",
+                              "sha256":  "5d6242887e3f24fc28be1c2cc5765eea4ec2816e8508eb22d69e90243769c778"
+                          },
+                          {
+                              "relative_path":  "surface-followup-20261110-design/fresh-controlled-evidence.tar.gz.partial",
+                              "absolute_path":  "C:\\Users\\daovu\\Documents\\Project\\cv_nangcao\\output\\surface-followup-20261110-design\\fresh-controlled-evidence.tar.gz.partial",
+                              "bytes":  17727488,
+                              "modified_utc":  "2026-11-10T03:17:08.5315062Z",
+                              "sha256":  "8786eca638bf74b8cb96ca21928cf7b7a590a09d3eac9dca0bcfe0cdf008de24"
+                          },
+                          {
+                              "relative_path":  "surface-followup-20261110-design/evidence-chunks/fresh-controlled-evidence.part-aa",
+                              "absolute_path":  "C:\\Users\\daovu\\Documents\\Project\\cv_nangcao\\output\\surface-followup-20261110-design\\evidence-chunks\\fresh-controlled-evidence.part-aa",
+                              "bytes":  16777216,
+                              "modified_utc":  "2026-11-10T03:19:11.1805959Z",
+                              "sha256":  "7a3247fb649bd608f6ab53889479bf6da44d3928c1bc8d2198930426c4722a80"
+                          },
+                          {
+                              "relative_path":  "surface-followup-20261110-design/evidence-chunks/fresh-controlled-evidence.part-ab",
+                              "absolute_path":  "C:\\Users\\daovu\\Documents\\Project\\cv_nangcao\\output\\surface-followup-20261110-design\\evidence-chunks\\fresh-controlled-evidence.part-ab",
+                              "bytes":  16777216,
+                              "modified_utc":  "2026-11-10T03:18:21.4496461Z",
+                              "sha256":  "c0ce9ebc9ddcc9116136a836ede62d01fe716955c10e55236887520d9a2c1573"
+                          },
+                          {
+                              "relative_path":  "surface-followup-20261110-design/evidence-chunks/fresh-controlled-evidence.part-ac",
+                              "absolute_path":  "C:\\Users\\daovu\\Documents\\Project\\cv_nangcao\\output\\surface-followup-20261110-design\\evidence-chunks\\fresh-controlled-evidence.part-ac",
+                              "bytes":  16777216,
+                              "modified_utc":  "2026-11-10T03:20:13.6749330Z",
+                              "sha256":  "c55762a2250195768f7497d7191f1f6aa094058f231785580cd88627a9ce8069"
+                          },
+                          {
+                              "relative_path":  "surface-followup-20261110-design/evidence-chunks/fresh-controlled-evidence.part-ad",
+                              "absolute_path":  "C:\\Users\\daovu\\Documents\\Project\\cv_nangcao\\output\\surface-followup-20261110-design\\evidence-chunks\\fresh-controlled-evidence.part-ad",
+                              "bytes":  15034617,
+                              "modified_utc":  "2026-11-10T03:19:05.5074336Z",
+                              "sha256":  "4a7da6ca6625e78714169bd79e58dacf01aa83b71ab31becb05696c6ca015b56"
+                          },
+                          {
+                              "relative_path":  "surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/VG/tmpxhvjs4ir.partial",
+                              "absolute_path":  "C:\\Users\\daovu\\Documents\\Project\\cv_nangcao\\output\\surface-annotated-20261112-freshrefs\\baseline-cohort\\visible_references\\VG\\tmpxhvjs4ir.partial",
+                              "bytes":  0,
+                              "modified_utc":  "2026-11-12T10:12:56.7197564Z",
+                              "sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+                          }
+                      ],
+    "deleted_files":  [
+                          {
+                              "relative_path":  "baseline-establishment-20261105/accepted-baseline-20261106T092725Z.tar.gz",
+                              "bytes":  255358976,
+                              "sha256":  "2b7b811e1ba3f9c08b869e540bfe0b6278eef461c132830083f19d9f53380da8"
+                          },
+                          {
+                              "relative_path":  "artifact-recovery-2026-11-05/transfers/pdmc-open-world-sam-annotated.tar.gz.partial",
+                              "bytes":  24117248,
+                              "sha256":  "fd5a86a2c8071536d2c7132cd39dd9b78fd7092150204df04887b66310c3a3b3"
+                          },
+                          {
+                              "relative_path":  "artifact-recovery-2026-11-05/transfers/pdmc-open-world-sam-semantic-v2.tar.gz.partial",
+                              "bytes":  22020096,
+                              "sha256":  "61a866d68a6e3c2fc4c2aa897dec24b2864c15c045f977228d5c301a857b0d85"
+                          },
+                          {
+                              "relative_path":  "surface-followup-20261110-design/fresh-controlled-evidence-legacy.tar.gz.partial",
+                              "bytes":  12058624,
+                              "sha256":  "5d6242887e3f24fc28be1c2cc5765eea4ec2816e8508eb22d69e90243769c778"
+                          },
+                          {
+                              "relative_path":  "surface-followup-20261110-design/fresh-controlled-evidence.tar.gz.partial",
+                              "bytes":  17727488,
+                              "sha256":  "8786eca638bf74b8cb96ca21928cf7b7a590a09d3eac9dca0bcfe0cdf008de24"
+                          },
+                          {
+                              "relative_path":  "surface-followup-20261110-design/evidence-chunks/fresh-controlled-evidence.part-aa",
+                              "bytes":  16777216,
+                              "sha256":  "7a3247fb649bd608f6ab53889479bf6da44d3928c1bc8d2198930426c4722a80"
+                          },
+                          {
+                              "relative_path":  "surface-followup-20261110-design/evidence-chunks/fresh-controlled-evidence.part-ab",
+                              "bytes":  16777216,
+                              "sha256":  "c0ce9ebc9ddcc9116136a836ede62d01fe716955c10e55236887520d9a2c1573"
+                          },
+                          {
+                              "relative_path":  "surface-followup-20261110-design/evidence-chunks/fresh-controlled-evidence.part-ac",
+                              "bytes":  16777216,
+                              "sha256":  "c55762a2250195768f7497d7191f1f6aa094058f231785580cd88627a9ce8069"
+                          },
+                          {
+                              "relative_path":  "surface-followup-20261110-design/evidence-chunks/fresh-controlled-evidence.part-ad",
+                              "bytes":  15034617,
+                              "sha256":  "4a7da6ca6625e78714169bd79e58dacf01aa83b71ab31becb05696c6ca015b56"
+                          },
+                          {
+                              "relative_path":  "surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/VG/tmpxhvjs4ir.partial",
+                              "bytes":  0,
+                              "sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+                          }
+                      ],
+    "deleted_bytes":  396648697,
+    "retained_paths_verified":  [
+                                    "baseline-31548",
+                                    "baseline-establishment-20261105/accepted-recovery-receipt.json",
+                                    "artifact-recovery-2026-11-05/downloads",
+                                    "surface-followup-20261110-design/fresh-controlled-evidence.tar.gz",
+                                    "surface-followup-20261110-design/fresh-controlled-download-receipt.json"
+                                ],
+    "finished_utc":  "2026-11-16T07:03:20.9266415Z"
+}

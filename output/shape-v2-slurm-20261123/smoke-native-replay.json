@@ -1,0 +1,20 @@
+{
+  "verified": true,
+  "targets": 4,
+  "saved": 4,
+  "decisions": {
+    "pools": 9,
+    "candidates": 72,
+    "fallbacks": 0
+  },
+  "export": {
+    "sha256": "9dac04cae538c91111370abeef0f9d006389883493878ca1f86d6818a5dde4b1",
+    "bytes": 41134956,
+    "files": 292,
+    "execution_sha256": "b5661daddd87b29f4c019c0979d33d87c793e2b9c81e6556d993c4e181b3c2a1",
+    "validation_sha256": "b3aaee80b7016350bec56efa959fa1309c317e56c149acf3e8e8638813e19881"
+  },
+  "freeze_sha256": "6078e500c236095a537000d2d3f90838253ab7542d39c69d0fafe67db150523b",
+  "benchmark_success": false,
+  "scope": "Local native candidate/mask/prior score and selected-RGB replay, trace/seed/reference bindings. No neural metrics or benchmark gain inferred."
+}

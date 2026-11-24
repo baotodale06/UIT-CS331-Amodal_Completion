@@ -1,0 +1,22 @@
+{
+  "schema": 1,
+  "experiment": "shape-probability-diagnostic-20261123",
+  "purpose": "Fixed-checkpoint exploratory diagnosis of excess pixels outside SAM support; no training or benchmark promotion",
+  "split": "validation",
+  "objects": 1264,
+  "images": 217,
+  "data_manifest_sha256": "ab2f4d1112c52bcd1b675e0f213ed8ee387fbc2601a3596f8f2b5e933ea7d13e",
+  "initial_checkpoint_sha256": "f3caa75ac40f901a7595fffa2c199221b83e7fe5a57192f34e2b2317ffe937b7",
+  "adapted_checkpoint_sha256": "3bb1a47ddd952824a960fb82867159c366c1c3e4a53a53bab1e06585adbd64a9",
+  "adapted_epoch": 7,
+  "logit_biases": [0.0, -0.5, -1.0, -1.5, -2.0],
+  "geometry": "Existing support-derived square crop with padding 2; interpolate logits before sigmoid; zero outside crop; preserve SAM support at one; threshold 0.5",
+  "probability_scores": "Brier and clipped binary NLL over native pixels outside SAM support; mean per object then per image; NLL epsilon 1e-7",
+  "runtime": "Pinned cluster environment on local RTX3060, FP32 Torch sigmoid, TF32 off, two CPU threads, one object per GPU pass, 20% GPU-memory cap; initial deterministic=False, adapted deterministic=True matching their reference arithmetic",
+  "selection": "Report every fixed bias; no checkpoint, offset or inference policy is promoted",
+  "reference": "Compare zero-bias native masks against original Quadro masks, reporting exact differences rather than assuming cross-GPU equivalence",
+  "holdout_access": false,
+  "benchmark_access": false,
+  "benchmark_success": false,
+  "interpretation": "Reused exploratory validation, including earlier epoch selection; no untouched confirmation claim"
+}

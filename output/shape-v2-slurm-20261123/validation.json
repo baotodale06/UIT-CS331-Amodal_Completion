@@ -1,0 +1,39 @@
+{
+  "at": "2026-11-23T09:55:58.011936+00:00",
+  "repository_tests": {
+    "passed": true,
+    "tests": 352,
+    "optional_torch_skips": 5
+  },
+  "focused_cluster_tests": {
+    "passed": true,
+    "tests": 29,
+    "skips": 0
+  },
+  "shell_regressions": 6,
+  "cpu_smoke": true,
+  "training_preflight": {
+    "job_id": "45631",
+    "state": "COMPLETED",
+    "exit_code": "0:0",
+    "gpus": 4
+  },
+  "runtime_checks": {
+    "job_id": "45633",
+    "job_state": "FAILED",
+    "cuda_extension_forward_backward": true,
+    "fft_roundtrip": true,
+    "pipeline_imports": true,
+    "test_failures": "PyTorch 1.13 metadata loader and missing packaged fixtures; fixed and all 29 focused cluster tests passed"
+  },
+  "benchmark_complete": false,
+  "three_percent_goal_achieved": false,
+  "evidence_sha256": {
+    "check-linux-final.log": "eb7b342b11e369fef0ab737ef1c7033ebd8046a2a814b92e2c0750ae34839b04",
+    "evaluation-focused-tests.log": "71d084e96e7ea522df90576fa2e9a5e6b07eb374dff404a726b437d1f0654dbf",
+    "evaluation-shell-test.log": "42d3db6aea4259fb91e39103d640918108f796a6208f43213ad1e280e8bfbdbc",
+    "preflight.json": "21a8a72a9d8f8f926b21e80550172b8ed2f918490980b983e51c2e5b4434d143",
+    "evaluation-source-manifest.json": "1bf93d20faea9a240219ba06084c8c5dcb3e97d19052957adbab7c40b784e909",
+    "training-source-manifest.json": "b2fee412f2ebe046f1f06ac060be68441b9d534984dc7956e30ffc40d9a341cf"
+  }
+}

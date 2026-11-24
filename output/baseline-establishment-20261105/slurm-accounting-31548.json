@@ -1,0 +1,7 @@
+{
+  "observed_utc": "2026-11-06T09:57:33.001138+00:00",
+  "command": "sacct -j 31548 --parsable2 --format=JobID,JobName,State,ExitCode,Elapsed,Start,End,MaxRSS,NodeList,AllocTRES",
+  "stdout": "JobID|JobName|State|ExitCode|Elapsed|Start|End|MaxRSS|NodeList|AllocTRES\n31548|pdmc-baseline|COMPLETED|0:0|04:02:38|2026-11-06T00:24:32|2026-11-06T04:27:10||gebru|billing=16,cpu=16,gres/gpu=4,mem=64G,node=1\n31548.batch|batch|COMPLETED|0:0|04:02:38|2026-11-06T00:24:32|2026-11-06T04:27:10|49171332K|gebru|cpu=16,gres/gpu=4,mem=64G,node=1\n",
+  "stderr": "",
+  "returncode": 0
+}

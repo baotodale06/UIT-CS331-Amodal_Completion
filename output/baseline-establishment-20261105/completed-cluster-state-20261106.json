@@ -1,0 +1,502 @@
+{
+  "summary": {
+    "selected_targets": 2565,
+    "paper_targets": 2565,
+    "full_image_coverage": true,
+    "evaluation_performed": true,
+    "exact_table_reproduction": false,
+    "boundary_check": "released",
+    "target_selection": "label-semantic",
+    "metric_alignment": "released",
+    "protocol_notes": [
+      "Released PD-MC Grounding DINO + SAM segmentation, InstaOrder, LaMa and Mixed Context diffusion.",
+      "Released boundary behavior is retained; undersized backdrops are enlarged when required.",
+      "Target identity uses versioned class aliases and exact-mask deduplication; distinct instances remain ambiguous.",
+      "Appearance references use the selected initial SAM mask with 5x5 erosion and first-crop preprocessing.",
+      "SAM references differ from the OpenWorld paper's LISA references; appearance scores are a separate protocol.",
+      "Failed completions receive LPIPS=1, VGG=0, SSIM=0, including failed target detections.",
+      "Successful completions with empty eroded references receive CLIP only; inspect all metric denominators.",
+      "CLIP is raw ViT-B/32 logits on successful completions only; visible masks are not hidden-pixel ground truth.",
+      "Success denotes a saved output; completed_outputs and iteration_limited_outputs report its stop state separately."
+    ],
+    "source_counts_in_paper": {
+      "VG": {
+        "images": 1234,
+        "instances": 1294,
+        "classes": 269
+      },
+      "COCOA": {
+        "images": 751,
+        "instances": 845,
+        "classes": 256
+      },
+      "free_images": {
+        "images": 228,
+        "instances": 249,
+        "classes": 147
+      },
+      "laion": {
+        "images": 166,
+        "instances": 177,
+        "classes": 97
+      }
+    },
+    "statistics": {
+      "VG": {
+        "targets": 1294,
+        "successes": 588,
+        "failures": 706,
+        "reference_failures": 0,
+        "missing_images": 0,
+        "failure_rate": 0.5455950540958269,
+        "status_counts": {
+          "not_detected": 328,
+          "ambiguous_target": 136,
+          "success": 588,
+          "no_completion": 242
+        },
+        "failure_reasons": {
+          "label_not_matched": 324,
+          "multiple_distinct_instances": 136,
+          "no_occlusion_detected": 197,
+          "no_detections": 4,
+          "query_mask_too_small": 40,
+          "completion_not_detected": 4,
+          "unknown_detected_class": 1
+        },
+        "completed_outputs": 502,
+        "iteration_limited_outputs": 86,
+        "completion_state_unknown": 0,
+        "failure_stage_counts": {
+          "target_selection": 460,
+          "occlusion_check": 197,
+          "initial_segmentation": 4,
+          "query_filter": 41,
+          "completion_segmentation": 4
+        },
+        "target_selection_failures": 460,
+        "initial_segmentation_failures": 4,
+        "pdmc_failures": 242,
+        "CLIP": 28.66650946610639,
+        "CLIP_n": 588,
+        "LPIPS": 0.6689102531625232,
+        "LPIPS_n": 1294,
+        "Feature Similarity": 0.3049719695353066,
+        "Feature Similarity_n": 1294,
+        "SSIM": 0.3742737837677588,
+        "SSIM_n": 1294
+      },
+      "COCOA": {
+        "targets": 845,
+        "successes": 249,
+        "failures": 596,
+        "reference_failures": 0,
+        "missing_images": 0,
+        "failure_rate": 0.7053254437869823,
+        "status_counts": {
+          "not_detected": 353,
+          "no_completion": 140,
+          "success": 249,
+          "ambiguous_target": 103
+        },
+        "failure_reasons": {
+          "label_not_matched": 348,
+          "completion_not_detected": 10,
+          "multiple_distinct_instances": 103,
+          "query_mask_too_small": 21,
+          "no_occlusion_detected": 109,
+          "no_detections": 5
+        },
+        "completed_outputs": 205,
+        "iteration_limited_outputs": 44,
+        "completion_state_unknown": 0,
+        "failure_stage_counts": {
+          "target_selection": 451,
+          "completion_segmentation": 10,
+          "query_filter": 21,
+          "occlusion_check": 109,
+          "initial_segmentation": 5
+        },
+        "target_selection_failures": 451,
+        "initial_segmentation_failures": 5,
+        "pdmc_failures": 140,
+        "CLIP": 28.00024005782652,
+        "CLIP_n": 249,
+        "LPIPS": 0.8015418890224406,
+        "LPIPS_n": 845,
+        "Feature Similarity": 0.17777057438207097,
+        "Feature Similarity_n": 845,
+        "SSIM": 0.23526721998595646,
+        "SSIM_n": 845
+      },
+      "free_images": {
+        "targets": 249,
+        "successes": 62,
+        "failures": 187,
+        "reference_failures": 0,
+        "missing_images": 0,
+        "failure_rate": 0.751004016064257,
+        "status_counts": {
+          "success": 62,
+          "not_detected": 153,
+          "no_completion": 28,
+          "ambiguous_target": 6
+        },
+        "failure_reasons": {
+          "no_detections": 21,
+          "label_not_matched": 132,
+          "no_occlusion_detected": 25,
+          "query_mask_too_small": 3,
+          "multiple_distinct_instances": 6
+        },
+        "completed_outputs": 45,
+        "iteration_limited_outputs": 17,
+        "completion_state_unknown": 0,
+        "failure_stage_counts": {
+          "initial_segmentation": 21,
+          "target_selection": 138,
+          "occlusion_check": 25,
+          "query_filter": 3
+        },
+        "target_selection_failures": 138,
+        "initial_segmentation_failures": 21,
+        "pdmc_failures": 28,
+        "CLIP": 27.90451046728319,
+        "CLIP_n": 62,
+        "LPIPS": 0.824482657898023,
+        "LPIPS_n": 249,
+        "Feature Similarity": 0.16747582868399868,
+        "Feature Similarity_n": 249,
+        "SSIM": 0.20043601156231325,
+        "SSIM_n": 249
+      },
+      "laion": {
+        "targets": 177,
+        "successes": 52,
+        "failures": 125,
+        "reference_failures": 0,
+        "missing_images": 0,
+        "failure_rate": 0.7062146892655368,
+        "status_counts": {
+          "not_detected": 100,
+          "success": 52,
+          "no_completion": 19,
+          "ambiguous_target": 6
+        },
+        "failure_reasons": {
+          "no_detections": 27,
+          "label_not_matched": 73,
+          "no_occlusion_detected": 13,
+          "multiple_distinct_instances": 6,
+          "completion_not_detected": 1,
+          "query_mask_too_small": 5
+        },
+        "completed_outputs": 44,
+        "iteration_limited_outputs": 8,
+        "completion_state_unknown": 0,
+        "failure_stage_counts": {
+          "initial_segmentation": 27,
+          "target_selection": 79,
+          "occlusion_check": 13,
+          "completion_segmentation": 1,
+          "query_filter": 5
+        },
+        "target_selection_failures": 79,
+        "initial_segmentation_failures": 27,
+        "pdmc_failures": 19,
+        "CLIP": 27.765186126415546,
+        "CLIP_n": 52,
+        "LPIPS": 0.7747408686637205,
+        "LPIPS_n": 177,
+        "Feature Similarity": 0.20231415373457354,
+        "Feature Similarity_n": 177,
+        "SSIM": 0.25533266559505086,
+        "SSIM_n": 177
+      },
+      "Overall": {
+        "targets": 2565,
+        "successes": 951,
+        "failures": 1614,
+        "reference_failures": 0,
+        "missing_images": 0,
+        "failure_rate": 0.6292397660818714,
+        "status_counts": {
+          "not_detected": 934,
+          "ambiguous_target": 251,
+          "success": 951,
+          "no_completion": 429
+        },
+        "failure_reasons": {
+          "label_not_matched": 877,
+          "multiple_distinct_instances": 251,
+          "no_occlusion_detected": 344,
+          "no_detections": 57,
+          "query_mask_too_small": 69,
+          "completion_not_detected": 15,
+          "unknown_detected_class": 1
+        },
+        "completed_outputs": 796,
+        "iteration_limited_outputs": 155,
+        "completion_state_unknown": 0,
+        "failure_stage_counts": {
+          "target_selection": 1128,
+          "occlusion_check": 344,
+          "initial_segmentation": 57,
+          "query_filter": 70,
+          "completion_segmentation": 15
+        },
+        "target_selection_failures": 1128,
+        "initial_segmentation_failures": 57,
+        "pdmc_failures": 429,
+        "CLIP": 28.39309849423189,
+        "CLIP_n": 951,
+        "LPIPS": 0.7350089978114439,
+        "LPIPS_n": 2565,
+        "Feature Similarity": 0.24263584814225023,
+        "Feature Similarity_n": 2565,
+        "SSIM": 0.3033970860713269,
+        "SSIM_n": 2565
+      }
+    },
+    "data_identity": {
+      "targets_sha256": "4039000cb0b90322b087d57534daeeea7b604dc6a1a06a695009751e61a05f16",
+      "inputs_sha256": "2b2646b675f699f4789b391bb7ea544e3a72a30deea57db4356db9f6e5566b4d",
+      "references_sha256": "8ede6a2036dc39a1ed7e1034e709ce892d776f809c5e246866de640697addaeb"
+    },
+    "pipeline_profile": "released-sam",
+    "reference_backend": "grounded-sam",
+    "resize_background": true,
+    "label_matching": {
+      "version": 2,
+      "aliases_sha256": "312fbdd25431183cbfc3c06ec98515301ff653380ce6f2d1f69dd066e775781e",
+      "annotation_rule": "longest-object-suffix-before-spatial-description-v1",
+      "deduplication": "exact-binary-mask",
+      "duplicate_representative": "highest-detector-score/stable-first-index",
+      "implementation_sha256": "0e60f36d26f9a962ce4f8a933a7a8cafd56452b3e59d461ab5c4c9ec54845c07"
+    }
+  },
+  "workflow": {
+    "id": "20261106T052433Z-c6cfb8b1",
+    "status": "complete",
+    "started_utc": "2026-11-06T05:24:33.233220+00:00",
+    "slurm_job_id": "31548",
+    "source_sha256": {
+      "scripts/run_baseline_slurm.sh": "b4fe6fc9d5f15109b92b5a222b200b5ed0b786226cdc8d70128d15365282a7ad",
+      "scripts/run_baseline_workflow.py": "4e6d16fb159ed4ccb4ed956fd1cf24e8ef57f434593af1f34116b06ec0ff9767",
+      "tests/validate_cuda_extension.sh": "e3c2a4a0e7c05c93250faedc84e954098567808a2022f456b72f97a1b797e476",
+      "tests/validate_pipeline_imports.sh": "ffca8a3860a2ae358ae8395b0f40d7e5ce8d461cd408f51ebc9bf9be11bd9a2d",
+      "configs/baseline.json": "af77625021de2bbfc4534ed523b307f1418a0b772025ba12140b85f82f1476d4",
+      "configs/baseline-gpu-smoke.json": "2274016ec70a0dc5b1a8e491774c4b00d8d808a723f3bd78676676e75906c7ce"
+    },
+    "stages": [
+      {
+        "name": "gpu-inventory",
+        "command": [
+          "/home/daoqm/Vu_Hung/cv_nangcao/.amodal-cache/conda-env/bin/python",
+          "-c",
+          "\nimport json, torch\nassert torch.cuda.device_count() >= 4, 'The baseline requires four allocated CUDA-visible GPUs'\ndevices = []\nfor index in range(4):\n    with torch.cuda.device(index):\n        value = torch.ones((32, 32), device=f'cuda:{index}')\n        assert torch.allclose(value @ value, torch.full_like(value, 32))\n        signal = torch.arange(16 * 64 * 64, dtype=torch.float32, device=f'cuda:{index}').reshape(1, 16, 64, 64)\n        signal = signal / signal.numel()\n        spectrum = torch.fft.rfftn(signal, dim=(-2, -1))\n        reconstructed = torch.fft.irfftn(spectrum, s=signal.shape[-2:], dim=(-2, -1))\n        assert torch.allclose(signal, reconstructed, atol=1e-5, rtol=1e-5)\n        torch.cuda.synchronize()\n        props = torch.cuda.get_device_properties(index)\n        devices.append(dict(index=index, name=props.name, total_memory=props.total_memory,\n                            capability=list(torch.cuda.get_device_capability(index))))\nprint(json.dumps(dict(torch=torch.__version__, cuda=torch.version.cuda, devices=devices), indent=2))\n"
+        ],
+        "status": "complete",
+        "started_utc": "2026-11-06T05:24:33.238461+00:00",
+        "finished_utc": "2026-11-06T05:24:50.496035+00:00",
+        "log_sha256": "97320632af22c5bb9c1b22d2a2b03e9dd030dcbb38167bd382df0572da63f05e"
+      },
+      {
+        "name": "cuda-extension",
+        "command": [
+          "bash",
+          "tests/validate_cuda_extension.sh",
+          "/home/daoqm/Vu_Hung/cv_nangcao/.amodal-cache/conda-env",
+          "/home/daoqm/Vu_Hung/cv_nangcao/.amodal-cache/amodal"
+        ],
+        "status": "complete",
+        "started_utc": "2026-11-06T05:24:50.504364+00:00",
+        "finished_utc": "2026-11-06T05:26:43.066933+00:00",
+        "log_sha256": "e3f671bb7d95c18c7aab08fd1215f32790594dcb47923d60f8095f5a0e7a6976"
+      },
+      {
+        "name": "pipeline-imports",
+        "command": [
+          "bash",
+          "tests/validate_pipeline_imports.sh",
+          "/home/daoqm/Vu_Hung/cv_nangcao/.amodal-cache/conda-env",
+          "/home/daoqm/Vu_Hung/cv_nangcao/.amodal-cache/amodal"
+        ],
+        "status": "complete",
+        "started_utc": "2026-11-06T05:26:43.075461+00:00",
+        "finished_utc": "2026-11-06T05:26:59.193675+00:00",
+        "log_sha256": "5425442f065c96e9f4d1602a862a64125f2d9c2c11157b4b49d9126bcfcee002"
+      },
+      {
+        "name": "data-preflight",
+        "command": [
+          "/home/daoqm/Vu_Hung/cv_nangcao/.amodal-cache/conda-env/bin/python",
+          "evaluate_open_world.py",
+          "--config",
+          "configs/baseline.json",
+          "--output-dir",
+          "output/pdmc-baseline-provenance-20261105",
+          "--check-only"
+        ],
+        "status": "complete",
+        "started_utc": "2026-11-06T05:26:59.203122+00:00",
+        "finished_utc": "2026-11-06T05:27:22.388073+00:00",
+        "log_sha256": "029cb0ae93680d31af0f7973801fa0a470d31cd733d94433e978294fcb7b40f8"
+      },
+      {
+        "name": "smoke",
+        "command": [
+          "bash",
+          "run_amodal_slurm.sh",
+          "--local",
+          "--benchmark-config",
+          "configs/baseline-gpu-smoke.json",
+          "--output-dir",
+          "output/pdmc-baseline-provenance-20261105-smoke",
+          "--cache-dir",
+          "/home/daoqm/Vu_Hung/cv_nangcao/.amodal-cache",
+          "--cpus",
+          "16",
+          "--run-only",
+          "--benchmark-root",
+          "datasets/open_world_amodal",
+          "--benchmark-sources",
+          "VG,COCOA,free_images,laion",
+          "--benchmark-workers",
+          "4",
+          "--benchmark-metric-alignment",
+          "released",
+          "--benchmark-pipeline-profile",
+          "released-sam",
+          "--benchmark-target-selection",
+          "label-semantic",
+          "--benchmark-boundary-check",
+          "released",
+          "--benchmark-background-sizing",
+          "auto",
+          "--benchmark-detector-vocabulary",
+          "released",
+          "--benchmark-seed",
+          "0",
+          "--mc-timestep",
+          "35",
+          "--max-iter",
+          "5",
+          "--sd-model",
+          "sd2-community/stable-diffusion-2-inpainting",
+          "--benchmark-limit",
+          "8"
+        ],
+        "status": "complete",
+        "started_utc": "2026-11-06T05:27:22.395794+00:00",
+        "finished_utc": "2026-11-06T05:29:34.979579+00:00",
+        "log_sha256": "1e461b9eee6b2db260ee6bc239e3ec838b8a11494bdb6b477a12757b5ef4cc82"
+      },
+      {
+        "name": "verify-smoke",
+        "command": [
+          "/home/daoqm/Vu_Hung/cv_nangcao/.amodal-cache/conda-env/bin/python",
+          "-m",
+          "amodal_benchmark",
+          "verify",
+          "--dataset-root",
+          "datasets/open_world_amodal",
+          "--require-provenance",
+          "--run-dir",
+          "output/pdmc-baseline-provenance-20261105-smoke"
+        ],
+        "status": "complete",
+        "started_utc": "2026-11-06T05:29:35.028343+00:00",
+        "finished_utc": "2026-11-06T05:29:36.397271+00:00",
+        "log_sha256": "3eb8c0195727882e3c8ad6bc4e1112cd25aaa21082fb6f32d7966ae88eab2cf1"
+      },
+      {
+        "name": "full",
+        "command": [
+          "bash",
+          "run_amodal_slurm.sh",
+          "--local",
+          "--benchmark-config",
+          "configs/baseline.json",
+          "--output-dir",
+          "output/pdmc-baseline-provenance-20261105",
+          "--cache-dir",
+          "/home/daoqm/Vu_Hung/cv_nangcao/.amodal-cache",
+          "--cpus",
+          "16",
+          "--run-only",
+          "--benchmark-root",
+          "datasets/open_world_amodal",
+          "--benchmark-sources",
+          "VG,COCOA,free_images,laion",
+          "--benchmark-workers",
+          "4",
+          "--benchmark-metric-alignment",
+          "released",
+          "--benchmark-pipeline-profile",
+          "released-sam",
+          "--benchmark-target-selection",
+          "label-semantic",
+          "--benchmark-boundary-check",
+          "released",
+          "--benchmark-background-sizing",
+          "auto",
+          "--benchmark-detector-vocabulary",
+          "released",
+          "--benchmark-seed",
+          "0",
+          "--mc-timestep",
+          "35",
+          "--max-iter",
+          "5",
+          "--sd-model",
+          "sd2-community/stable-diffusion-2-inpainting"
+        ],
+        "status": "complete",
+        "started_utc": "2026-11-06T05:29:36.404008+00:00",
+        "finished_utc": "2026-11-06T09:23:29.677452+00:00",
+        "log_sha256": "89aa8c27624fbf7b19444168e07d62ad293faff4524f6a764a572fb44e499bf0"
+      },
+      {
+        "name": "verify-full",
+        "command": [
+          "/home/daoqm/Vu_Hung/cv_nangcao/.amodal-cache/conda-env/bin/python",
+          "-m",
+          "amodal_benchmark",
+          "verify",
+          "--dataset-root",
+          "datasets/open_world_amodal",
+          "--require-provenance",
+          "--run-dir",
+          "output/pdmc-baseline-provenance-20261105",
+          "--require-full"
+        ],
+        "status": "complete",
+        "started_utc": "2026-11-06T09:23:29.690836+00:00",
+        "finished_utc": "2026-11-06T09:25:21.666515+00:00",
+        "log_sha256": "30ebed796b8cb9db7ffd01fe364d9df1058b075f62d448937d62aa1829126aa8"
+      },
+      {
+        "name": "register",
+        "command": [
+          "/home/daoqm/Vu_Hung/cv_nangcao/.amodal-cache/conda-env/bin/python",
+          "-m",
+          "amodal_benchmark",
+          "register",
+          "--run-dir",
+          "output/pdmc-baseline-provenance-20261105",
+          "--dataset-root",
+          "datasets/open_world_amodal"
+        ],
+        "status": "complete",
+        "started_utc": "2026-11-06T09:25:21.675659+00:00",
+        "finished_utc": "2026-11-06T09:27:10.585579+00:00",
+        "log_sha256": "94501f0c11c6621b8727f0dd6f2fbdbb22150bc27529af3ba21322a758d44ca0"
+      }
+    ],
+    "finished_utc": "2026-11-06T09:27:10.595050+00:00"
+  },
+  "ledger": "entry_id,recorded_utc,run_dir,status,hypothesis,reason,baseline_dir,changed_factor,comparison,protocol_sha256,inputs_sha256,references_sha256,summary_sha256,targets,successes,failures,failure_rate,CLIP,CLIP_n,LPIPS,LPIPS_n,Feature Similarity,Feature Similarity_n,SSIM,SSIM_n\nec823094e31f226957ef0442f0480cf14ae2db91c79550a9701a9e0aef99b07c,2026-11-06T09:25:22.463693+00:00,/home/daoqm/Vu_Hung/cv_nangcao/output/pdmc-baseline-provenance-20261105,complete,Establish the released-vocabulary PD-MC baseline using semantic matcher v2 and SAM visible references.,,,,,076f9cececb112f870306adc722ee1af71ad48864ea3aa65662fa643696fb4bb,2b2646b675f699f4789b391bb7ea544e3a72a30deea57db4356db9f6e5566b4d,8ede6a2036dc39a1ed7e1034e709ce892d776f809c5e246866de640697addaeb,d0bd2a1f205c2c1af0c2768116f942ce56e4bfc3370213c20888cc6d4235ac09,2565,951,1614,0.6292397660818714,28.39309849423189,951,0.7350089978114439,2565,0.24263584814225023,2565,0.3033970860713269,2565\n",
+  "processes": "    PID    PPID     ELAPSED     TIME %CPU COMMAND\n1158554       1       29:37 00:00:00  0.0 systemd\n1158555 1158554       29:37 00:00:00  0.0 (sd-pam)\n1159548 1159542       11:46 00:00:00  0.0 sshd\n1159549 1159548       11:46 00:00:11  1.5 python3\n1160221 1160215       00:00 00:00:00  0.0 sshd\n1160222 1160221       00:00 00:00:00  7.4 python3\n1160223 1160222       00:00 00:00:00  0.0 ps\n",
+  "observed_utc": "2026-11-06T09:39:14.663584+00:00"
+}

@@ -1,0 +1,16 @@
+{
+  "job_id": "45661",
+  "command": [
+    "sbatch",
+    "--parsable",
+    "--partition=debug-gpu",
+    "--gres=gpu:quadro_rtx_6000:4",
+    "--cpus-per-task=16",
+    "--mem=64G",
+    "--time=00:20:00",
+    "--job-name=shape-sam-train-masks",
+    "--output=/home/daoqm/Vu_Hung/cv_nangcao/output/shape-sam-robustness-20261123/masks-%j.log",
+    "scripts/run_shape_sam_training_masks.sh"
+  ],
+  "source_manifest_sha256": "dfef351950f7919ebeaad73ffd30a3b607a7d0eec043860a27ebf6101a862bd4"
+}

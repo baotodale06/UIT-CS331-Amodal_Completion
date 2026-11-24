@@ -1,0 +1,8 @@
+{
+  "submitted_utc": "2026-11-05T10:09:14.413570+00:00",
+  "command": "cd ~/Vu_Hung/cv_nangcao && sbatch --parsable --partition=debug-gpu --job-name=pdmc-fft-check --gres=shard:1 --cpus-per-task=4 --mem=12G --time=00:15:00 --output=logs/%x-%j.out",
+  "returncode": 0,
+  "stdout": "30435\n",
+  "stderr": "",
+  "job_id": "30435"
+}

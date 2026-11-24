@@ -25,6 +25,8 @@ jobs:
         run: |
           source .venv-cpu/bin/activate
           bash scripts/check.sh
+      - name: Verify published research evidence
+        run: .venv-cpu/bin/python scripts/verify_published_results.py
       - name: Build source and wheel distributions
         run: .venv-cpu/bin/python -m build --no-isolation
       - name: Check experiment contracts and submission plan

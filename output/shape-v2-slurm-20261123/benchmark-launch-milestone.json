@@ -1,0 +1,111 @@
+{
+  "at": "2026-11-23T10:44:36.984596+00:00",
+  "snapshot": "recovery/20261123T104335.498623Z",
+  "smoke": {
+    "role": "smoke",
+    "state": "COMPLETED",
+    "exit_code": "0:0",
+    "seconds": 1109,
+    "gpus": 4,
+    "reserved_gpu_hours": 1.2322222222222223,
+    "nodes": "gebru",
+    "start": "2026-11-23T10:19:03",
+    "end": "2026-11-23T10:37:32"
+  },
+  "native_smoke_replay_sha256": "bd45e825db9a54f2b725081eec17b8e935d16b1fd0242e0a319f67501aabad25",
+  "benchmark": {
+    "role": "full",
+    "state": "RUNNING",
+    "exit_code": "0:0",
+    "seconds": 360,
+    "gpus": 4,
+    "reserved_gpu_hours": 0.4,
+    "nodes": "gebru",
+    "start": "2026-11-23T10:37:34",
+    "end": "Unknown"
+  },
+  "progress": {
+    "smoke": {
+      "records": 4,
+      "statuses": {
+        "success": 4
+      }
+    },
+    "benchmark": {
+      "records": 12,
+      "statuses": {
+        "ambiguous_target": 6,
+        "no_completion": 3,
+        "success": 1,
+        "not_detected": 2
+      }
+    }
+  },
+  "effective_initial_limit_minutes": 90,
+  "initial_end_utc": "2026-11-23T12:07:34Z",
+  "finalization": {
+    "initial_job_id": "45642",
+    "benchmark_job_id": "45636",
+    "controller_id": "45637",
+    "command": [
+      "sbatch",
+      "--parsable",
+      "--partition=debug-cpu",
+      "--cpus-per-task=2",
+      "--mem=8G",
+      "--time=00:30:00",
+      "--job-name=shape-v2-export",
+      "--dependency=afterany:45637",
+      "--output=/home/daoqm/Vu_Hung/cv_nangcao/output/shape-v2-slurm-20261123/finalization-%j.log",
+      "scripts/run_shape_v2_finalization.sh",
+      "--study",
+      "/home/daoqm/Vu_Hung/cv_nangcao/output/shape-v2-slurm-20261123",
+      "--job-id",
+      "45636",
+      "--controller-id",
+      "45637"
+    ],
+    "operational_manifest_sha256": "243967558561d365041db01dadecf788710212ccd85fc3bb1c11b0cb5f4e8c6b"
+  },
+  "backfill": {
+    "job_id": "45643",
+    "command": [
+      "sbatch",
+      "--parsable",
+      "--partition=debug-cpu",
+      "--cpus-per-task=2",
+      "--mem=2G",
+      "--time=00:05:00",
+      "--job-name=shape-v2-backfill",
+      "--dependency=afterok:45637",
+      "--kill-on-invalid-dep=yes",
+      "--output=/home/daoqm/Vu_Hung/cv_nangcao/output/shape-v2-slurm-20261123/backfill-%j.log",
+      "/home/daoqm/Vu_Hung/cv_nangcao/output/shape-v2-slurm-20261123/amend_backfill.sh"
+    ],
+    "files": {
+      "amend_backfill.py": "f059139223e31467c016419fdbf3d70464de6c14849c7957568c9e6ccb205969",
+      "amend_backfill.sh": "10a1a573c83ab99ae43aa192a3b5655f6fd97f41fd59346d6f41f94806897c46"
+    },
+    "initial_extension": {
+      "job_id": "45636",
+      "command": [
+        "scontrol",
+        "update",
+        "JobId=45636",
+        "TimeLimit=02:20:00"
+      ],
+      "returncode": 1,
+      "stderr": "Access/permission denied for job 45636",
+      "effective_limit_minutes": 90
+    }
+  },
+  "collector": {
+    "exec_session": 69625,
+    "process_id": 14576,
+    "command": "python -u scripts/collect_shape_v2.py --watch",
+    "log": "collection-watch.log",
+    "source_sha256": "031ea40cf482b9f98defde43e13808b76dae6b7c53d8bce323f49c067df4359c"
+  },
+  "goal_achieved": false,
+  "full_metrics_available": false
+}

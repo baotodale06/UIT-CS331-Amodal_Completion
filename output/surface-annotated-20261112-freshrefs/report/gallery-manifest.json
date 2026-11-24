@@ -1,0 +1,2924 @@
+{
+  "cases": 204,
+  "panels": {
+    "images/case-001-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/4.jpg",
+      "source_sha256": "a132c94b4c06fd2a812d7f927247957026099fba7a77e5b1e3b4b2cd1d8e56bb",
+      "thumbnail_sha256": "13e043f6ef6cd438b0ae950be4789beb811570796befa2ade7c5fe34f09a1c11"
+    },
+    "images/case-001-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/4_blackfloorlamp.png",
+      "source_sha256": "8abaa579f5960585d5eda18af957538dd0a698e8fb7b383f0699e4b7bbbd5d9f",
+      "thumbnail_sha256": "46eb478b9989fc0bff433c50a3d1d1bfa77b4bf278a3e451e20055b3650ece7b"
+    },
+    "images/case-002-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/16.jpg",
+      "source_sha256": "8a344ccd0973fa738b64f45b1303a0bc125ea3764ca58a517898b6676d2e47ff",
+      "thumbnail_sha256": "ecf7d2823bc2407a051ca7778ef787c5b3ea75c9935d68593e29f1ebef37f721"
+    },
+    "images/case-002-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/16_whitecar.png",
+      "source_sha256": "53a5da320a81ecc73be230aba410d31686a982b49bf651967cbd6016fea9231c",
+      "thumbnail_sha256": "9a779a13b92b6e14bfb7143332ec8aa6a8f17e5994522ebe800b34843538daca"
+    },
+    "images/case-003-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/33.jpg",
+      "source_sha256": "68166ffda7b82b58da1a2565ef37c5434f5bdb8a0ba68ac8b048fc791680ad65",
+      "thumbnail_sha256": "02ed4ef62707f4f27649ae0338c56796f560e2c78a11fd13d702b6d75b51c268"
+    },
+    "images/case-003-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/33_browntable.png",
+      "source_sha256": "e48b1d785c97d8b378867abeaa86ffadac1356e544e2835b7a9871506906f83c",
+      "thumbnail_sha256": "9a779a13b92b6e14bfb7143332ec8aa6a8f17e5994522ebe800b34843538daca"
+    },
+    "images/case-004-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/61549.jpg",
+      "source_sha256": "5c894ef9c4718a7a3fe1e61b6bdf7302d31d37de681fe2068e012036c6e7632c",
+      "thumbnail_sha256": "8badf7d85d6191d1708c2eaafa6b95442f39f4482c7a4779b41c14be32bfc1f2"
+    },
+    "images/case-004-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/61549_elephant.png",
+      "source_sha256": "9d82256b24e0fbb1ca9d53243c5cec6a51b8756e7f1e843964f87089b1413793",
+      "thumbnail_sha256": "119080296b584d76f795bca9efc9e5302848a4676136f2bbcb17a8c98cbd979a"
+    },
+    "images/case-004-2.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/targets/VG/61549_elephant/completion.png",
+      "source_sha256": "9f1d96a2cd3edeb818bbd4e83335eea2cb4195c2b08c8715110d48497f98fc6f",
+      "thumbnail_sha256": "939dafdf3811aabc01112104e4251071627fb3d980616d7391ea6d71b268e95b"
+    },
+    "images/case-004-3.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/surface-cohort/targets/VG/61549_elephant/completion.png",
+      "source_sha256": "b64d29a14f2cb40c60f283a2a63368315383a73b6105876efbaa2401e71d20e1",
+      "thumbnail_sha256": "de5ca5a9c9903afd1970410ad08d5c7b442a7015b5619264e4566339b05b54c6"
+    },
+    "images/case-005-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/61567.jpg",
+      "source_sha256": "d50758856342fd73fde446af2483594bc0b2a3bc9b8a2d9bda8c444421585ebe",
+      "thumbnail_sha256": "fa1d8ea6acd434a5b89afe24f8fa0bd3ce41be2c1bd0b7076031d6dbb8964dd0"
+    },
+    "images/case-005-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/61567_stopsign.png",
+      "source_sha256": "3d0c63ac6f67046bd36400038004ed1e4f0a0e0e6e9c64e602cb638340ad4e50",
+      "thumbnail_sha256": "f3239357772fb991c440120b3d797df16737ca70265594b58a21cc0b4342639d"
+    },
+    "images/case-006-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/61606.jpg",
+      "source_sha256": "353711be7f3e607a828a2d3bacb0f52f10160f66242fb750366386f1ddf4293d",
+      "thumbnail_sha256": "bd2b119be2f5e7e495209825912e75918e0cd4f513c2720e9142838261c8cbea"
+    },
+    "images/case-006-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/61606_whitesofa.png",
+      "source_sha256": "01a168f1384c818104314ef05baa304abc10876cb8c6ee9b0d4f257fbd0bd25f",
+      "thumbnail_sha256": "9a779a13b92b6e14bfb7143332ec8aa6a8f17e5994522ebe800b34843538daca"
+    },
+    "images/case-007-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/107932.jpg",
+      "source_sha256": "3387896241eebec35d0c5e970c55bbc93e73d344e25b30c36876ebc75d2d604b",
+      "thumbnail_sha256": "1d8bf63c64f309ee6b7cb694c069b545d552e0582fa507d6623a1142007f376e"
+    },
+    "images/case-007-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/107932_sofa.png",
+      "source_sha256": "52d82b0c5e2b69eba0a633c23cf61f86abb5fa3eb33de5d2ed1f2cac6ea74b17",
+      "thumbnail_sha256": "c3e40623388429c389fc591d15222cc7bbaebf6e6195686a1808c110625cede0"
+    },
+    "images/case-008-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/107970.jpg",
+      "source_sha256": "14bed78228b010ad6bc5d7bb74e8d723e42f5489291fd0b5488bfd5617af6c2b",
+      "thumbnail_sha256": "6dd3cb89bdc7c9d545fb68a380e82a105417058ce055116a260eb0e26835064d"
+    },
+    "images/case-008-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/107970_bicycle.png",
+      "source_sha256": "05d4e2521aeddbc40afb51ba84eba6a4b20f27d843a9ab11e6563ad616223e69",
+      "thumbnail_sha256": "b5de97c7303464df40337c17187d13edbbdb5c5168ba66a21012ad1db9fa011a"
+    },
+    "images/case-008-2.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/targets/VG/107970_bicycle/completion.png",
+      "source_sha256": "b6a6173e608a266a1af2005bfe36d18b32562dcd555afe217947f3ce9b99032b",
+      "thumbnail_sha256": "6d5bcd981aff753056e90a345f971455267dea823b0e6db3c295e6bb2932bcc2"
+    },
+    "images/case-008-3.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/surface-cohort/targets/VG/107970_bicycle/completion.png",
+      "source_sha256": "cb57442e6120b307baceae40ebab2f56e17f008c244999949d3211028d4dfcc8",
+      "thumbnail_sha256": "053c71cf60661e3ad291a0e7dc47d3623aa7878595c39d7526b4e700837dc45e"
+    },
+    "images/case-009-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/150407.jpg",
+      "source_sha256": "b2f96889f36bb9f3b7cec873a77b0984e2a5e67c9fdf201e75dedae74c212eae",
+      "thumbnail_sha256": "5b92dad21f1614e78e75c0fce8e3a9905555f5cdb59dc94256bc6187aab015ab"
+    },
+    "images/case-009-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/150407_whiteplate.png",
+      "source_sha256": "6c7a08a4412fc6124a77784bee425e32b0ca2236dafb174fc2119d5d84ff7056",
+      "thumbnail_sha256": "89219a50608be81005f01f142e2aad430486838dacb8437816de83a00b5e11c5"
+    },
+    "images/case-009-2.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/targets/VG/150407_whiteplate/completion.png",
+      "source_sha256": "f1ecab0410e34abbbb270f42ac60a979c152a8b9476941de3c50661aad43b03f",
+      "thumbnail_sha256": "06d4151f24746724ffebad6bb026d7bf36f20a38f89e86f947005483b756a158"
+    },
+    "images/case-009-3.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/surface-cohort/targets/VG/150407_whiteplate/completion.png",
+      "source_sha256": "b4326426fe1978afc78316bf18060e750fc49428e3965a8a2daa425a8c690523",
+      "thumbnail_sha256": "8a54751ea44d5b1d5e2a6c9c333dec52e8a58e86c9b1f2c3e58a8803c40dc1dc"
+    },
+    "images/case-010-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/150469.jpg",
+      "source_sha256": "e0e6fa04236835a8ec203189d253d1b5e98606cacb0edbaff7ff45a096a70b04",
+      "thumbnail_sha256": "33ee2e167b66c6ed850c546d9bbeba260a984a65ad0144518fb716e20cfec3a6"
+    },
+    "images/case-010-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/150469_redsofa.png",
+      "source_sha256": "51f28eb141bbd594c93b7d165ab69286a81b224743cb021b276f1502136c40e2",
+      "thumbnail_sha256": "9a779a13b92b6e14bfb7143332ec8aa6a8f17e5994522ebe800b34843538daca"
+    },
+    "images/case-011-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/285758.jpg",
+      "source_sha256": "d31b24a4ad256dc1839e58693f33f4b81a952954653eeffc03fbd320ad610002",
+      "thumbnail_sha256": "4757f3326437f079aa0cd0021dfbb2a5c725ca3a34eb1cb1a6558579af30c57e"
+    },
+    "images/case-011-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/285758_cat.png",
+      "source_sha256": "d230c7179528e1fb7b14862f13d33025504fe2b10f2e636a744b338fb2d52b01",
+      "thumbnail_sha256": "0b238613fe928d8ef3a5c4ee8ab58ba689bd165fc0e7ad729e0f5b639f3acbb2"
+    },
+    "images/case-011-2.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/targets/VG/285758_cat/completion.png",
+      "source_sha256": "6ab10ca1071f273784b1e554744ebc1e4096bfc63b11ef4cdc675754cd45a4f2",
+      "thumbnail_sha256": "4302c6841deaf19b52eb95aa2a54a76d46a40698e0da29af95b3718e7ffb1c55"
+    },
+    "images/case-011-3.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/surface-cohort/targets/VG/285758_cat/completion.png",
+      "source_sha256": "3ce79f8937d2a576210c55e97865df65a1072464c754ca1e76bf4e9142c64db9",
+      "thumbnail_sha256": "d27c39158381c72ca42fcfa431aa1499176056a02bfd76d5add97bbd376b9fbc"
+    },
+    "images/case-012-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/498179.jpg",
+      "source_sha256": "ae51ba1b1c0cb852decd431881a34d181341a4853941b0257d21e1f72fa8fe74",
+      "thumbnail_sha256": "3ed22c3c925be28ac642513f8697b4e5f692e5b86ada63562656fae022f8bae8"
+    },
+    "images/case-012-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/498179_redcar.png",
+      "source_sha256": "ac451fb042ac0d5235b94d52b85219ed119f6c30aa47155a189fac99d3164935",
+      "thumbnail_sha256": "9a779a13b92b6e14bfb7143332ec8aa6a8f17e5994522ebe800b34843538daca"
+    },
+    "images/case-013-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/498191.jpg",
+      "source_sha256": "6657ade4dc9dc85d6ff739c33b864886206b993a0da1fcb458959f4e2ee8501b",
+      "thumbnail_sha256": "bbe38954a4715478ced7e87ae723a505da77ec6f496378341703b8b2c3daef87"
+    },
+    "images/case-013-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/498191_keyboard.png",
+      "source_sha256": "8864174ef8534734ac51a609726d90fd5a320a472a3c31816f0684f87cc3ec8b",
+      "thumbnail_sha256": "783e472547883fff58fe70c9815a38a737fdfeddb7056d1180cbd668ebd46d75"
+    },
+    "images/case-013-2.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/targets/VG/498191_keyboard/completion.png",
+      "source_sha256": "fa3acf38062834d1a2b4e7a6d22cbd1cc45b4b020f67ff402a50dcf0dfb684c4",
+      "thumbnail_sha256": "97b2fdec1d5283550cf6f1243c985b4f668a8734c9b1a61be3b27b7a41b5a160"
+    },
+    "images/case-013-3.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/surface-cohort/targets/VG/498191_keyboard/completion.png",
+      "source_sha256": "1675c4e28a7259ba90d06cab36ad55941681f7bc3366ed77f198b11ad4f3235d",
+      "thumbnail_sha256": "cd17c5f5986ffd5d6d60461acf2f7f95811fb35f1cafb37194e8feb1f80feba6"
+    },
+    "images/case-014-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/713373.jpg",
+      "source_sha256": "5ea48f9454f1ef324a629d403172579b12998b93463d77f4cb962cbf26d61161",
+      "thumbnail_sha256": "e536b9f59c1b11bc8e3384c2ac3e7a2d19e226cf5d9d9f95da4c30443754f7d2"
+    },
+    "images/case-014-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/713373_table.png",
+      "source_sha256": "cf7d8b6478baa85fc6356720b72c806549632db36b3bcd902725ee9cf39e9e0d",
+      "thumbnail_sha256": "9a779a13b92b6e14bfb7143332ec8aa6a8f17e5994522ebe800b34843538daca"
+    },
+    "images/case-015-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/713392.jpg",
+      "source_sha256": "ecaedbd1d9d871c80b5445bd57c6421d3275bcaefad66bfa6c38bd5527fce987",
+      "thumbnail_sha256": "db460486b6b6855457b67cea2de865e65a0236f80ed32df8a6e8b981e3a82af5"
+    },
+    "images/case-015-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/713392_redbus.png",
+      "source_sha256": "52f4f597d5f60a8aa563d6bd9939bb712fb832ae0655aaec7ad657813fde9998",
+      "thumbnail_sha256": "b87c125a8bda01fbb5326c9b9b06da76e1e6fd415908fdea6f13ffc1eb4e21fc"
+    },
+    "images/case-015-2.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/targets/VG/713392_redbus/completion.png",
+      "source_sha256": "05ae47692fa86bead78af59998f72ac422ecf0c7d54ac84aa53384d53c8ce496",
+      "thumbnail_sha256": "55e6d5016d119a8041a2fd8c698b9508f3560ce3dce74fda17b088acce833aad"
+    },
+    "images/case-015-3.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/surface-cohort/targets/VG/713392_redbus/completion.png",
+      "source_sha256": "79238e39859ba01ccaac6ce842774937c044652463654a42e419d9a30aa42502",
+      "thumbnail_sha256": "da06806e1df12326d1bee94bdc80cc54d4ac49b1dd5c3459161715d98a5f1613"
+    },
+    "images/case-016-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/713407.jpg",
+      "source_sha256": "a68176786652fc9f9a5e5c4cac3e675ce20c7d5d430321c58703df99dad245ee",
+      "thumbnail_sha256": "b131cf297c1330fe2e2028b4a26cb0fe86a8d3d54914af920c2f204df931ac38"
+    },
+    "images/case-016-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/713407_policecar.png",
+      "source_sha256": "f43de07e728151f6c007119db85d9e33f1d230780e5d960787bdbf3a4f7f59de",
+      "thumbnail_sha256": "9a779a13b92b6e14bfb7143332ec8aa6a8f17e5994522ebe800b34843538daca"
+    },
+    "images/case-017-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/713467.jpg",
+      "source_sha256": "b5ef8658e3af66a8a9111f99074e63ad0e788d7ffbddc529d31c2d0268450ff2",
+      "thumbnail_sha256": "f999b5e4c18f6b2d10ead0f1c766726e9ffcec1aa1b2f438aaccd5d816573aa8"
+    },
+    "images/case-017-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/713467_cow.png",
+      "source_sha256": "5718f0dd14893cb9f60a91e06b5fd75bdcf3ef975925c6dcfdbd42102f488e67",
+      "thumbnail_sha256": "9a779a13b92b6e14bfb7143332ec8aa6a8f17e5994522ebe800b34843538daca"
+    },
+    "images/case-018-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/713796.jpg",
+      "source_sha256": "557d2378216f2c8e50c7f291239928b8c8b345fea10247a7843f143a1d80f97e",
+      "thumbnail_sha256": "a96f0c2719c867772ba0522e575e76b5abfc368716cd4bdf66bcbedb385d0f03"
+    },
+    "images/case-018-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/713796_desk.png",
+      "source_sha256": "65cc0846209e0657be4a86fce877d2a716fd2663e51fb08978f1695b819555da",
+      "thumbnail_sha256": "524d6fc20e0163e7663554b80cedc2c81e38c4bfcbef85c280d0af6be2c9144e"
+    },
+    "images/case-018-2.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/targets/VG/713796_desk/completion.png",
+      "source_sha256": "60278d5e34f1f009bfc234b7c68862f9b86d118063e80cfbb63bc66aa815bf25",
+      "thumbnail_sha256": "50dd23c9a84ca4cd8dc94531cee8ad5e2c02a9fdfdf0d330baf45a4117cf1791"
+    },
+    "images/case-018-3.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/surface-cohort/targets/VG/713796_desk/completion.png",
+      "source_sha256": "17402c54994e6d1284d30eadf80a8af0d9250c16dbc8ceb56a1f430f9d5a797d",
+      "thumbnail_sha256": "3f7b739aba77373a3ca7b350260777e2cabe62440a61a28888cb98bb0f4d1516"
+    },
+    "images/case-019-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/713812.jpg",
+      "source_sha256": "6ae87f7959b43b07a9c66b8c29cb18814403e72ccc433187f5c03363ee30352c",
+      "thumbnail_sha256": "17dd0fbeffe78cee4b4df606c41e42efef8717fc944bea9527600dc7acf462be"
+    },
+    "images/case-019-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/713812_bus.png",
+      "source_sha256": "a61c9a359953a1158005e5fe28f27725da5968a6bb4cbb923763d6641559a193",
+      "thumbnail_sha256": "9a779a13b92b6e14bfb7143332ec8aa6a8f17e5994522ebe800b34843538daca"
+    },
+    "images/case-020-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/1159278.jpg",
+      "source_sha256": "f05a22a19e23411b25644b8360c118e069fb24f7614fa4453ddca3a8e9a5b220",
+      "thumbnail_sha256": "302f1985178140faba39523d7b82c67d56251816b84e422c11b9d66bd52c4d39"
+    },
+    "images/case-020-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/1159278_whitehouse.png",
+      "source_sha256": "9bcfba329b0c769cf93aadadbfef1da9cb742e941ac61428fe9ffb83fb470e49",
+      "thumbnail_sha256": "d36e1eb868d69ec988ba6251a20520fd13f05f01f5d871bf8dbd77b348e64ffe"
+    },
+    "images/case-020-2.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/targets/VG/1159278_whitehouse/completion.png",
+      "source_sha256": "7820d8e97f3e308ad695b3c9955567d47d5b1cf591ea01bd6ee07a594d429203",
+      "thumbnail_sha256": "0a51ecc02d8e261134741f74055c134e541f21a4bc2add850fb02ac65cfe10ca"
+    },
+    "images/case-020-3.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/surface-cohort/targets/VG/1159278_whitehouse/completion.png",
+      "source_sha256": "7eee04cf3ce8735b319eb40c5db56bb4be61542c4bfdfab7df47eda6dcc8962a",
+      "thumbnail_sha256": "9a4950b67bdb60a1e4f7bd8f46d4e5ba0ba6d7e58aef248e814bd5559d4ba00a"
+    },
+    "images/case-021-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/1159289.jpg",
+      "source_sha256": "9231a541a5bf3c47c477758ef07a8c49b32e76c364ced2b0365272cce1ee8efe",
+      "thumbnail_sha256": "5d6fcedbb2c7cdbd5c1e1927aa3ea23f13f3c21b89d7302aa5453528ad22f756"
+    },
+    "images/case-021-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/1159289_bookshelf.png",
+      "source_sha256": "54573918445edbf960986ad2079b8bb1ab43fb78c03ecd354369e2440e80535d",
+      "thumbnail_sha256": "9a779a13b92b6e14bfb7143332ec8aa6a8f17e5994522ebe800b34843538daca"
+    },
+    "images/case-022-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/1159293.jpg",
+      "source_sha256": "4b8af07821d96c109a5055f80221d4e6436e0fd7b8dc43aeceaeb277b439986d",
+      "thumbnail_sha256": "431eed77d7ab023964c32723d5119a36a1ff387def4f8341fc086331b42c1e46"
+    },
+    "images/case-022-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/1159293_table.png",
+      "source_sha256": "58671fa9bb81b5418b9dbaa432611c8aa35d9951b5a55b327e68da41e88eb3be",
+      "thumbnail_sha256": "db0e9a285b10a35d305fa1b86c37436a2a9cd6ff25b508d21a8d975a3038537f"
+    },
+    "images/case-022-2.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/targets/VG/1159293_table/completion.png",
+      "source_sha256": "d9fca9f1e1d888e5f409b1bb255a6a37ec654a7f2c70a16eb88f4149e675ac1e",
+      "thumbnail_sha256": "fdb9e06622c5d4555768b3c403ef6997b93e78f6a3a62a9796bd6a494c42086f"
+    },
+    "images/case-022-3.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/surface-cohort/targets/VG/1159293_table/completion.png",
+      "source_sha256": "a203c36164207a9cd39287d58394e44ec021bd4b6f9fdfae9d789ae720bc621a",
+      "thumbnail_sha256": "4143328a5b1f1eb14ff1fd45d574192165c2c01c371d08419ad9612b1be69ba8"
+    },
+    "images/case-023-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/1159293.jpg",
+      "source_sha256": "4b8af07821d96c109a5055f80221d4e6436e0fd7b8dc43aeceaeb277b439986d",
+      "thumbnail_sha256": "431eed77d7ab023964c32723d5119a36a1ff387def4f8341fc086331b42c1e46"
+    },
+    "images/case-023-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/1159293_curtain.png",
+      "source_sha256": "767579334c45e50e3eb9c17573c0483e0e3a5a50601be9ccf610bf859879a8db",
+      "thumbnail_sha256": "9a779a13b92b6e14bfb7143332ec8aa6a8f17e5994522ebe800b34843538daca"
+    },
+    "images/case-024-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/1159606.jpg",
+      "source_sha256": "9044615aa10163d31812e61370c27d62f82af296a9abc72826b918b048c42302",
+      "thumbnail_sha256": "b062d53cf9a3304fe94542fb69f7f1b6806f40a611e671a5cb3c8052171a1622"
+    },
+    "images/case-024-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/1159606_bicycle.png",
+      "source_sha256": "996bf9818c77bcbcb2118c739503d86c72e44ccf23fdf446ea2fd62b1445bd73",
+      "thumbnail_sha256": "26154624c2e691f703d12b80b43700149fa43d57e4946c231397349f1c6e0230"
+    },
+    "images/case-024-2.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/targets/VG/1159606_bicycle/completion.png",
+      "source_sha256": "6e4dcc2f8b6737256e812c88ff7f537be176f9591ef4b7837b7b1da606a290da",
+      "thumbnail_sha256": "a5919a2bca0a65d8d195d60dd8f2d03ef72eb1d4f631482d7bc711108f601a27"
+    },
+    "images/case-024-3.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/surface-cohort/targets/VG/1159606_bicycle/completion.png",
+      "source_sha256": "0ceae2f841e508c3aedcad07750546ef4606e0f2012131404738c76fdb223e13",
+      "thumbnail_sha256": "17407fc401265f008e6630f15abb388b2b31300daee4a61178b92e45f80da72d"
+    },
+    "images/case-025-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/1159619.jpg",
+      "source_sha256": "b6d35e4f5ea135a122555f07afbcf7e8ba1973b07f8da5d9c97a0d164721c28a",
+      "thumbnail_sha256": "0ce3cb1c93ba2759a672b120b8bbdf08b69bf573303a584b718d2534213ff267"
+    },
+    "images/case-025-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/1159619_whitebus.png",
+      "source_sha256": "9d7802b01b3aece43b43c3ec9e3cbf52f8475339fe28fd62890b6371dca3b54f",
+      "thumbnail_sha256": "9a779a13b92b6e14bfb7143332ec8aa6a8f17e5994522ebe800b34843538daca"
+    },
+    "images/case-026-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/1159720.jpg",
+      "source_sha256": "5a024265fe201c80dd8359508929501683c370e48f7e9fd298e56a36c78897af",
+      "thumbnail_sha256": "c403cfdf76efa6c81e2671212a630bd3d2d4332a54355ef2c763dc96ba47517f"
+    },
+    "images/case-026-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/1159720_cow.png",
+      "source_sha256": "8e9b49de8678027b9150f3e14b801da39ad364f8a45fb1181094ca4a00373e1a",
+      "thumbnail_sha256": "9a779a13b92b6e14bfb7143332ec8aa6a8f17e5994522ebe800b34843538daca"
+    },
+    "images/case-027-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/1159855.jpg",
+      "source_sha256": "e6e3004b4f4b9be4a93d32899ff5a458b8dfd2bc053d8d8adf1efc9a7cf42dd9",
+      "thumbnail_sha256": "b0bdaa8c311394ed79b6b7b6efd68dbbe835f6642f92a6d66419dee0bab0da24"
+    },
+    "images/case-027-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/1159855_redcurtain.png",
+      "source_sha256": "e57a4daa654a3b056906f449aa06d7adae77ef2180197f4736ec4f13e51b39cb",
+      "thumbnail_sha256": "d0a2ca7d364e936ebe3683aea61d4f05beaf05153734060e508e399feace2115"
+    },
+    "images/case-027-2.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/targets/VG/1159855_redcurtain/completion.png",
+      "source_sha256": "5657cdbbe487b11a77f7ba4bba85724831b5e27b9d00ad83925daaed9f118466",
+      "thumbnail_sha256": "51c23676be896f045c2c2cd0eb4c5ae37933c1ddfb05d4cd27ca6d20137dfb52"
+    },
+    "images/case-027-3.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/surface-cohort/targets/VG/1159855_redcurtain/completion.png",
+      "source_sha256": "981044faaab0aa4cd2794c231de1459e0453d232a7eac91f331bcdaf29e6c82d",
+      "thumbnail_sha256": "284e0abbf32810e1498f80ad8ad170c44481c4a1ca595677ed76f4e0b5bbd7a0"
+    },
+    "images/case-028-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/1159856.jpg",
+      "source_sha256": "a6494f0a22d21f3448c09eaf1cfe9922760a869f77e8e4b20194e16fb8902362",
+      "thumbnail_sha256": "3333dc59067a0040bd79fa7d5cb8c5c4b737b2c662639821b37c6cef6e64e071"
+    },
+    "images/case-028-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/1159856_bed.png",
+      "source_sha256": "00dd0108532adef163a537e25ca926167655221e1de7261ada44366a86987c05",
+      "thumbnail_sha256": "9a779a13b92b6e14bfb7143332ec8aa6a8f17e5994522ebe800b34843538daca"
+    },
+    "images/case-029-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/1159934.jpg",
+      "source_sha256": "74deee4e151d58736ebc3a9786e0a6652c826cab35f0ad4f0df435d0be2778bd",
+      "thumbnail_sha256": "c1a2f8dc21db1369746f4d4f1247791d6b46dfaa582849d83daad201c9f5e178"
+    },
+    "images/case-029-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/1159934_sofa.png",
+      "source_sha256": "d0d15d1d1e4a4d0acb30f9732ae752b1d4b38183a222bdee0d966a81be93f3ab",
+      "thumbnail_sha256": "7769ed341fbaf60bca6c0b035f38ff3a41ba24d980ceda4c3dcc6c195c3ef781"
+    },
+    "images/case-029-2.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/targets/VG/1159934_sofa/completion.png",
+      "source_sha256": "20c744a18a0296a1e9b57c58b67b1e89ea4fdf48a7ff86bd47bdb90c441a63b3",
+      "thumbnail_sha256": "2ad89c31c7e245fa4fd3f65b4c7d3267c28cecd24cc6582ed0c0feba8ac2261f"
+    },
+    "images/case-029-3.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/surface-cohort/targets/VG/1159934_sofa/completion.png",
+      "source_sha256": "af0b499bfb9bc6020d788b881433a8aefe2d5386c727a3621b244938752514f2",
+      "thumbnail_sha256": "28c219cd6c00c5d85209db4f64e9b54980753b90c6784f6545a1e385541108c6"
+    },
+    "images/case-030-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/1160167.jpg",
+      "source_sha256": "64cc1eec883534d7e28cdb9ed6bbed2f17c5fc360e319262366814e60b1df76b",
+      "thumbnail_sha256": "0cd94f9282a96939eb3b7dbcb13d4bef09b85eba7a3a069d3525d8841b9c55c8"
+    },
+    "images/case-030-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/1160167_greenvan.png",
+      "source_sha256": "f44be7fa5855f0321fa0af286888dda1e8044641b9551eb66e6993612cffda8c",
+      "thumbnail_sha256": "9b3f57796328303bc4c521ea9aed85d9b5b87bbb95590b69d0798dc6a56eaef8"
+    },
+    "images/case-030-2.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/targets/VG/1160167_greenvan/completion.png",
+      "source_sha256": "d6037f7d78d70f2fec03d563be08b779ae01b7278a8d75f0c1265ab5bcfc540f",
+      "thumbnail_sha256": "c570866a7c2d7ba6fdce39fceb32da386aaa60014e1405e1c9f3fc38e48f14c5"
+    },
+    "images/case-030-3.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/surface-cohort/targets/VG/1160167_greenvan/completion.png",
+      "source_sha256": "406ca49479b412ddb997e348d3e0e343a9b7a8090f18a4c3c2a7d0457af5c0e5",
+      "thumbnail_sha256": "0fc5b206740e0b0a8e50f431277afe771574ac21bcb0cc710e8d6495aedc6d8b"
+    },
+    "images/case-031-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/1591864.jpg",
+      "source_sha256": "21b94c27c8c8dd396d415adb582af4cb783e42bd90f82c13b928dc03c3690adb",
+      "thumbnail_sha256": "e767b4892517efa0502e74b6e43374785b653faffdcbfce2a5b2e3c7640a9347"
+    },
+    "images/case-031-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/1591864_browntable.png",
+      "source_sha256": "725d74d83237bbad4c127b36065a8237e7c7bc6a3be6e39ed43c3694e0c27b4e",
+      "thumbnail_sha256": "b6940979ed1fe42b129a4a78db3d7cee38dc6df7fe41c9ae5d3e11066a4644a6"
+    },
+    "images/case-031-2.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/targets/VG/1591864_browntable/completion.png",
+      "source_sha256": "ad5342d4d80deba66b453be6a1badca492b2138cadd3b2ad187f28ee6905641a",
+      "thumbnail_sha256": "fe8cd67ff45ac4658bfa0d3aa2ac82b015042578b47a2ae3d45fd6f36b3616c9"
+    },
+    "images/case-031-3.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/surface-cohort/targets/VG/1591864_browntable/completion.png",
+      "source_sha256": "53273efae666676eb65f13eca3ea98631d23398300a03a734a17d71c7d4a2921",
+      "thumbnail_sha256": "d18147fdcee580a2ae34451ef3e6294ec98c63c94a3f37c06ced5734f0ad4ab9"
+    },
+    "images/case-032-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/1591880.jpg",
+      "source_sha256": "8380a217d90e625b0107c1da277caa583880f5e1cb21bacc829d088808c4c260",
+      "thumbnail_sha256": "a200b8d5ba4edb2f6c55722961dfff808aa5625aaa43cf391239192bc8c3e1bc"
+    },
+    "images/case-032-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/1591880_blacksofa.png",
+      "source_sha256": "ae5e20e70b9d7a95c670db54a07a3f7597e3a50b6e04578b13ea0c74af12d98b",
+      "thumbnail_sha256": "ff83989b529bed2b258ffde56dfb295bd9dac52fd509f930a034fb67563a68b8"
+    },
+    "images/case-032-2.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/targets/VG/1591880_blacksofa/completion.png",
+      "source_sha256": "397e656a4e4cb80efc634177fc8775f4bbba745b6894c68f54b9ae38a3edaafa",
+      "thumbnail_sha256": "6e2a6326f51afa2fa6e09ab5f4cb87415f6e3d007b4d7a8b5f1dfe10cff79528"
+    },
+    "images/case-032-3.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/surface-cohort/targets/VG/1591880_blacksofa/completion.png",
+      "source_sha256": "cc57189599d4cb7c1f4dd70ec6c1259797406ce83b142856a19ab9b518447c7d",
+      "thumbnail_sha256": "447f345d0d8d59513e359b19008c95e4762323787062bebce4f06b03bdae9d46"
+    },
+    "images/case-033-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/1592010.jpg",
+      "source_sha256": "7cdaac90c5ae4791b3b626c711b8b8d826df95255e41ab4ec35fcb8922e3dbfd",
+      "thumbnail_sha256": "ebd6bb1b1c25eda67453134f1f9855d33ac664fcf3a5845cbb8a5ea7bdb9a347"
+    },
+    "images/case-033-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/1592010_redsofa.png",
+      "source_sha256": "1dd2ddebc5c62121e0e26ba6c295023c81fe77f12659379ab2c53b3ecb93dea9",
+      "thumbnail_sha256": "9a779a13b92b6e14bfb7143332ec8aa6a8f17e5994522ebe800b34843538daca"
+    },
+    "images/case-034-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/1592064.jpg",
+      "source_sha256": "13ed61aa0df30e63f0db0f9faae6c4796f43e39960b6d7812cb68d119139db27",
+      "thumbnail_sha256": "8c200e2dfb43fcfe9c74b25ea14b9c8f453bf26c2a908fee31b978ad79286c18"
+    },
+    "images/case-034-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/1592064_bench.png",
+      "source_sha256": "8ffe59d9a42d22473ce1bbdd7074823b167619d7979102f321d64a69cadc5e05",
+      "thumbnail_sha256": "9a779a13b92b6e14bfb7143332ec8aa6a8f17e5994522ebe800b34843538daca"
+    },
+    "images/case-035-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/1592549.jpg",
+      "source_sha256": "d8ff871259c2e29b4ff12a4601ee81a70ff2f02d0c1e0c0256bb556f30da994a",
+      "thumbnail_sha256": "6e713a6525301c2a63d1f3ed15f5760c70c246a96ad3c1f3a787e3f2cfb9e412"
+    },
+    "images/case-035-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/1592549_boat.png",
+      "source_sha256": "c096ef140c161ee09c72695daad4f2a6fc87772614c3c74db92897f01a9db5ba",
+      "thumbnail_sha256": "9a779a13b92b6e14bfb7143332ec8aa6a8f17e5994522ebe800b34843538daca"
+    },
+    "images/case-036-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/1592770.jpg",
+      "source_sha256": "3cd211fdac5583806d8225fcbc4568a4ed364fbb217df7940fe001bfff46b81d",
+      "thumbnail_sha256": "ba2d08e6a814cc4b8eb9fb0fc14bb1447270e8d756455bf5007301da702c511f"
+    },
+    "images/case-036-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/1592770_laptop.png",
+      "source_sha256": "ad78cf02c1df9280bd07d2e1ae5693f998ccc08cf6956b909754c2e70a3adcb4",
+      "thumbnail_sha256": "9a779a13b92b6e14bfb7143332ec8aa6a8f17e5994522ebe800b34843538daca"
+    },
+    "images/case-037-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/1592866.jpg",
+      "source_sha256": "ae3a0b3c376e7222e2ba0c9a451ddec95b76da888136c832574745df145c7747",
+      "thumbnail_sha256": "5fc68e2a176af846e0b40c07483610a72b2a39b58504c17ba4716974e9a3c092"
+    },
+    "images/case-037-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/1592866_motorbike.png",
+      "source_sha256": "369887a34a05a454db91242b57ac1825890934b6b48f008200a62509407b9e9e",
+      "thumbnail_sha256": "b1cf5777d51a9ffa90cdbb29d3dbcf543be06e8c9b9b3495d87866c8b86845ea"
+    },
+    "images/case-037-2.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/targets/VG/1592866_motorbike/completion.png",
+      "source_sha256": "21d631bce7a52e6e39d25134c3e34112e54f53df76496ce8fc9a261dd9ca59dd",
+      "thumbnail_sha256": "2f26ec9413914aaccaf82a2a0b91bf46b184dcba9da1f2a36c350b95f69d1d66"
+    },
+    "images/case-037-3.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/surface-cohort/targets/VG/1592866_motorbike/completion.png",
+      "source_sha256": "55590c1a9e8ef1c41b65988db2a448dbd4954bbddd5fe4b48d3c38db82f2385b",
+      "thumbnail_sha256": "1cfbcff7535db8e46349dc0f0b4e2e4ef125dca3003f573aeb274f4d2a94c152"
+    },
+    "images/case-038-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/1593220.jpg",
+      "source_sha256": "194745fd1b00c6fc16cd4d363aa80d7e1714c4752bcc67e5989cb3a03b3e2e3b",
+      "thumbnail_sha256": "8f356a2f8a884cface45b8aa4fccbac4c640577eb1a5b651f1267c5fdde12403"
+    },
+    "images/case-038-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/1593220_dog.png",
+      "source_sha256": "df747bbd5b1cca8f0b53cbbe43130f83702f081270ff3b75ee75f4089b47cdce",
+      "thumbnail_sha256": "88e99935d61201efd54e03e45547c707ddd93d22b1fb738fb3c780ef09b20aa3"
+    },
+    "images/case-039-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/1593257.jpg",
+      "source_sha256": "ce1b97aac92dbd588ff07b1bdcd6a1724b3fd5e2ff5fda549a2696a1497c17cc",
+      "thumbnail_sha256": "205ce18a83d2e2a9da621de522dd154b131323fb11c9f964f2ed38aabdf7e171"
+    },
+    "images/case-039-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/1593257_banana.png",
+      "source_sha256": "a0f365448acc2e6501b2c7a79530618085c17aee9938d26a0a413fc5ef9069c5",
+      "thumbnail_sha256": "9a779a13b92b6e14bfb7143332ec8aa6a8f17e5994522ebe800b34843538daca"
+    },
+    "images/case-040-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/2315395.jpg",
+      "source_sha256": "c7ad1b1bc9aaa26335d080983259ab3aa0e2b71191cfe29220e208b193a53abc",
+      "thumbnail_sha256": "16fcc20713165d71b593b8ae850e123d94212109b653ab013ec6fa1d9bd9af29"
+    },
+    "images/case-040-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/2315395_TVstand.png",
+      "source_sha256": "ce70d50e80d018d06049fa152068a6f4ab3920e68bdde6319659cf8110309228",
+      "thumbnail_sha256": "c796d05d85f13751fbc2d5786be14bc1448d406b62929e3d4b68f756b51d1402"
+    },
+    "images/case-041-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/2315469.jpg",
+      "source_sha256": "6bfabf021b03e26ee5f90882d2db2c1f151b5baeaaab097b5276229ca82c3e16",
+      "thumbnail_sha256": "10241c36ec4b85d40e6e4c7d042d067bddff873117064d99868a95915e26ef23"
+    },
+    "images/case-041-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/2315469_bus.png",
+      "source_sha256": "dcaa6a8045ea1a0e78f9b1f0b3ee779d92e1801acc31e7a19257ed6625ebba39",
+      "thumbnail_sha256": "cd47fae2eeae8a1f00a7ba8741b0357269f5ce3352f8a9e5396e84f4393920a2"
+    },
+    "images/case-042-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/2315561.jpg",
+      "source_sha256": "14acf181a31572d55e474eb224800eb148b8fe43c6059ded6deafd4afbc82eb9",
+      "thumbnail_sha256": "77a9d2450a97619e24fa2f5f111664ce92dd9e07aa3fdb22ae552a66ff98f48f"
+    },
+    "images/case-042-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/2315561_horse.png",
+      "source_sha256": "ebbd45e6d167bf1aefe993b0d3e36b853de059ba6e5806f8c9d966ecbd739a82",
+      "thumbnail_sha256": "9a779a13b92b6e14bfb7143332ec8aa6a8f17e5994522ebe800b34843538daca"
+    },
+    "images/case-043-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/2315747.jpg",
+      "source_sha256": "56f881e65230ed5316eac4aa538f3405e2a14904f41c98ab78bd1672c69f3867",
+      "thumbnail_sha256": "209bedc59ef7556eb7575db3e78b5410fe3a1208bb90220c401e1db200045121"
+    },
+    "images/case-043-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/2315747_fork.png",
+      "source_sha256": "ee4fcaed4a33a8333b815ddf35b86524c4bbe65f9565b2a92ab7b8b98286e0ae",
+      "thumbnail_sha256": "ed11b20ad335a3b6684d0c09d6a84d5c8521ed61119a6e83b2827d0ff63dec99"
+    },
+    "images/case-043-2.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/targets/VG/2315747_fork/completion.png",
+      "source_sha256": "817ff8228a00c4bb8f7e58f0fe50dd35a5af09fb16c9394f2c11e976f9756249",
+      "thumbnail_sha256": "a5478afce1a44dd384feb6738fa04df922f4dbb8c4a155055c7ceca13fc5efec"
+    },
+    "images/case-043-3.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/surface-cohort/targets/VG/2315747_fork/completion.png",
+      "source_sha256": "65fd548d6b01f59b09ef6306048dcb58314fc323ffe192fdb8b94159c8cc3fcb",
+      "thumbnail_sha256": "42a058ad7f0b35a9aa8513f2246d7f823124fbdf874d7d32a1fe1fe6ee622a0a"
+    },
+    "images/case-044-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/2315757.jpg",
+      "source_sha256": "542bcb49bbfb76cafca49278136ed2bf48823f9366580389c38d846383c15009",
+      "thumbnail_sha256": "f249a2340b62e8dd0bdaa297073ea4ab5af7c1d6e3a6b79ef9321bc63718f56a"
+    },
+    "images/case-044-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/2315757_motorbike.png",
+      "source_sha256": "13fa89adb077216071f97ed93a9713655b2dcd82e042c52cc278190fd64691a6",
+      "thumbnail_sha256": "51b667f497f928b40df60522f9854bb70ffafd9361624b756b36c4a5c7ed4e94"
+    },
+    "images/case-044-2.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/targets/VG/2315757_motorbike/completion.png",
+      "source_sha256": "2d32900c8b315926ace60ffa6156bbf7e7ed875a4e991175dca477d2ce6f38a8",
+      "thumbnail_sha256": "dda12d89b34be86d0d758b3c2afe68c82acd998bface87eb2449d469751b175c"
+    },
+    "images/case-044-3.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/surface-cohort/targets/VG/2315757_motorbike/completion.png",
+      "source_sha256": "15257a4808a678d5d5d42cf8931e116801ede00a14be275ee7abe3c807489e0d",
+      "thumbnail_sha256": "9d7d73a20140477f7717d4a395cbe6335d2d140bee38dab849f207ad0dde1648"
+    },
+    "images/case-045-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/2315812.jpg",
+      "source_sha256": "8f0d21fca5096a9af1cf8a18228743250739b27496a12783d6abccc660e6e709",
+      "thumbnail_sha256": "d7982c8ca65e4ca0cd8cd410d91d2e3d1526d1f2b239f9ef31a23839a400603c"
+    },
+    "images/case-045-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/2315812_whiteplate.png",
+      "source_sha256": "e85f65042d33cf3ba7d025a5640d529b9bf23770c181afc0ac0153697c5d0657",
+      "thumbnail_sha256": "6a7b064e8abbc33c8937b928cd55b1436e7ebacfdb13614a840a21de3c1b6fa3"
+    },
+    "images/case-046-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/2315974.jpg",
+      "source_sha256": "68fa0e45a71e83696c9e3891792f91dd0630529863ca27ab8c109d3dd2d349c4",
+      "thumbnail_sha256": "34715951d6f28ec008a2329e3c2550a52e7c5013010b44ee86e0053dea630f14"
+    },
+    "images/case-046-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/2315974_pinkteddybear.png",
+      "source_sha256": "54387d4f220454a3603ec0f7c3731731a03ab88f0673e6d49e98d3f5797225f6",
+      "thumbnail_sha256": "e688a5a7f3b7fc4635d5cfd76babc3ad8c65ec33171504197a82033ead6c8bc1"
+    },
+    "images/case-046-2.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/targets/VG/2315974_pinkteddybear/completion.png",
+      "source_sha256": "fe6a46377e34c6c906be6753ad42b76f439cdb52df9778205553360c7ddc25f6",
+      "thumbnail_sha256": "110f43d4ffa98bc3708673627ecd4ef66fd922cc90390516c42e0c201ae9f9f6"
+    },
+    "images/case-046-3.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/surface-cohort/targets/VG/2315974_pinkteddybear/completion.png",
+      "source_sha256": "96485a1364373f498aea7562088ac23b8299925a23dc1b87d6252bd325386d56",
+      "thumbnail_sha256": "1d48bedc5c9bd48168d7adccfbcc07375d4cdd66e5ee2567e9a76d43a86f4eff"
+    },
+    "images/case-047-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/2316036.jpg",
+      "source_sha256": "1e317b8cd23410a017d7e53bb5651059afafb4aab6afad0aeab605e9492e219e",
+      "thumbnail_sha256": "fb7537589b5abbb38a28e4f4b407f372d2c388a6644d53635da2c6c3ff5157c6"
+    },
+    "images/case-047-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/2316036_bench.png",
+      "source_sha256": "603b3e02381ef58070f837dd563d38c6d5dd2461d6d9525550e97a42bb01dd5b",
+      "thumbnail_sha256": "1d1b473f93314f6ad0e9fbb88bdf23716c83e9e7d235c85f22d098d5349a787f"
+    },
+    "images/case-047-2.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/targets/VG/2316036_bench/completion.png",
+      "source_sha256": "eea06028741c99ab950d2b38eafa10c5fb052bd24815b9bd18125be9140c3f3b",
+      "thumbnail_sha256": "6557688e1fcf4ef388122a6656d95dc5f63b572330597e6e729743f3c9787edf"
+    },
+    "images/case-047-3.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/surface-cohort/targets/VG/2316036_bench/completion.png",
+      "source_sha256": "ccd0f51689e9536efc6a121c5e4937708c2e93102df62ca85ca50f51665a912a",
+      "thumbnail_sha256": "c882333d6399661f1f5c0ab5512f4c9fbcc4d86ac0ee9d653b2982c0b0a53c72"
+    },
+    "images/case-048-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/2316204.jpg",
+      "source_sha256": "a32e3e2ae24a84652f18a845e6fd7106d918d78be331aa7aea0ea82bd990949f",
+      "thumbnail_sha256": "ab70375a7c6e1fb3ebcd867c7187d4d4ccf1803aee8a2e09f8b664971e3a963e"
+    },
+    "images/case-048-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/2316204_horse.png",
+      "source_sha256": "716917ad36de96c4b04b7a67b4829f913e70b406f4bb91988b763f64149984d8",
+      "thumbnail_sha256": "a63132b9f3e01383a6ae540a432481b31782f067c2652f2099016109eda5fd55"
+    },
+    "images/case-048-2.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/targets/VG/2316204_horse/completion.png",
+      "source_sha256": "22c090ee2d0963e1ac7fcf696dbd900bbd684f31ce450ba22463e978a2eb6ddf",
+      "thumbnail_sha256": "f5b9040f40c4c1d09829d9d7fdf943f1babc8a9974a75ba44d55348d852311cd"
+    },
+    "images/case-048-3.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/surface-cohort/targets/VG/2316204_horse/completion.png",
+      "source_sha256": "77bd1a6f486dd61f12d39800f075f153ba2fb71225deee3958c67e954128cc5b",
+      "thumbnail_sha256": "65074204fc7c2b163eef2ef49264665add0e8542c689dbcceed25a3721a890a2"
+    },
+    "images/case-049-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/2316349.jpg",
+      "source_sha256": "32f0661b70f7c1c0f75d2677696e03aea76a3778776408b91d7b4db37a83a4cb",
+      "thumbnail_sha256": "b06a599bcfcd600653dabf64a4b064056915c79ee65091d05ca6588151949d5b"
+    },
+    "images/case-049-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/2316349_dog.png",
+      "source_sha256": "a55d04cf014782114661d95952c4fbb80f8f552fffca22eb09f749de61fc0c5c",
+      "thumbnail_sha256": "4e0ea43334e35d65da4d82f1c08209b413a8bb395ac00b1bad7a120f50ef3fe0"
+    },
+    "images/case-049-2.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/targets/VG/2316349_dog/completion.png",
+      "source_sha256": "c7358c0c3549c4ecaf900f237ce4661d97223c836c8d67830c605561ed78bc4a",
+      "thumbnail_sha256": "9087faa0a0cb2cd17b83781f19e890605c7c3ecd038c082462f75550fefdea21"
+    },
+    "images/case-049-3.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/surface-cohort/targets/VG/2316349_dog/completion.png",
+      "source_sha256": "d52b89c7f972cc959fa086a7ee95806ed340f4589f5f34d9fda32fef33061404",
+      "thumbnail_sha256": "7b465d35de221e24211776b408c892204c201644d98beca2311b1b230c59bb22"
+    },
+    "images/case-050-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/2316391.jpg",
+      "source_sha256": "43026320ba6ee2d7b9d1915ac9a4ee5aee1d45eb92a4dfef1cb14960f9495246",
+      "thumbnail_sha256": "d8e7f3e754458e67bf8ce1559d20695444b8943a198d5144c772491caf2b48cd"
+    },
+    "images/case-050-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/2316391_tennisracket.png",
+      "source_sha256": "5f999a56da5d05475de5df8cdd181cbd06e5189901dfc758b002cad698050b0f",
+      "thumbnail_sha256": "9a779a13b92b6e14bfb7143332ec8aa6a8f17e5994522ebe800b34843538daca"
+    },
+    "images/case-051-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/2316448.jpg",
+      "source_sha256": "bda0f92b93a7c21f927bf8da83b5ca73085a15b96e0965ebdaf03086ca442ea5",
+      "thumbnail_sha256": "f7e09930022c6eef9ad03fd8432bb65fe6d71170c6f0696163e2ac57d11190a7"
+    },
+    "images/case-051-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/2316448_plate.png",
+      "source_sha256": "8c45a51e7e29c2068276898d5440542a727a18e80cebd7a686e35e94e77d9ddb",
+      "thumbnail_sha256": "d3bc9197e46e60b68724bbedb249758a937c23faed997d8f7332a07d1d5be640"
+    },
+    "images/case-051-2.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/targets/VG/2316448_plate/completion.png",
+      "source_sha256": "544c9e4410143fd1686dee796baffaf39896f3f578e6b5ecbaf956c84edb2ac5",
+      "thumbnail_sha256": "599bb4c8257cf9cfed793015ce8e9842fc7befef7a879d7a5d38e60de6fd9534"
+    },
+    "images/case-051-3.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/surface-cohort/targets/VG/2316448_plate/completion.png",
+      "source_sha256": "05dcea151a5cdab54ae46143379894a42dcce3a1adbf83aaf8f423011fcf2657",
+      "thumbnail_sha256": "36ca7f7d97b6796f374f76756667ef19d5afc8f7149873bc214f160420e33f92"
+    },
+    "images/case-052-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/2316448.jpg",
+      "source_sha256": "bda0f92b93a7c21f927bf8da83b5ca73085a15b96e0965ebdaf03086ca442ea5",
+      "thumbnail_sha256": "f7e09930022c6eef9ad03fd8432bb65fe6d71170c6f0696163e2ac57d11190a7"
+    },
+    "images/case-052-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/2316448_fork.png",
+      "source_sha256": "3fb8e222e4269ce7c347ed21b7efc4c2f6df60cd588bbfdd1322e3317ee2cab3",
+      "thumbnail_sha256": "9a779a13b92b6e14bfb7143332ec8aa6a8f17e5994522ebe800b34843538daca"
+    },
+    "images/case-053-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/2316454.jpg",
+      "source_sha256": "9d161c06cb4450064e6c63b5eb8ca5dfc4b519e66b3b7da165f32363dcf6e692",
+      "thumbnail_sha256": "4f6a4b9d27ad59ac97242de4fb9c44b4513e57fc6c27459004b42044ee31799b"
+    },
+    "images/case-053-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/2316454_giraffe.png",
+      "source_sha256": "e91f18a0e7872318862ba6f44e972a10c22b0d47024f40b57db1c03a9daeeef8",
+      "thumbnail_sha256": "9a779a13b92b6e14bfb7143332ec8aa6a8f17e5994522ebe800b34843538daca"
+    },
+    "images/case-054-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/2316470.jpg",
+      "source_sha256": "3745573292bf26be433c3ea89d0338d6118cf15aedb9c26a577c7c031a6908f5",
+      "thumbnail_sha256": "8016a7050598efab3c625593d86418da0b92c22d7fd8a146b78595f046e3a4e4"
+    },
+    "images/case-054-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/2316470_bus.png",
+      "source_sha256": "81ff097d7a4c255fb7ddcb12fb2aa4dc0226231629bfa33f49b0ef48c788dffe",
+      "thumbnail_sha256": "8dda89ab353daae02d77ebca30a8d0aa997f569fdf8aaf1e5a34de1308e335a5"
+    },
+    "images/case-054-2.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/targets/VG/2316470_bus/completion.png",
+      "source_sha256": "9787486198d805dd0d6318dcddd20ebbb7898965d0b354d8f2feb1fb09d7964f",
+      "thumbnail_sha256": "5eeb049ce1ed60763a72358d498fa5be2f658c45544e4b025f7fab8e9c6d0816"
+    },
+    "images/case-054-3.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/surface-cohort/targets/VG/2316470_bus/completion.png",
+      "source_sha256": "40b2b12a7e446d02c4d9d19cf0740407e6c92dc9beb9dffdd1e953b4dd1803d9",
+      "thumbnail_sha256": "69b48ce77ef146272d369aa9ded467432ffd1e7886ebaffc25d1cc6a0ba74878"
+    },
+    "images/case-055-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/2316957.jpg",
+      "source_sha256": "466d704981e9567ef167d562579018ba8db9e089f8f320226e938954298c251e",
+      "thumbnail_sha256": "ae4d1934e6bf4c6a287865b8af6f9105e6d54751975d47292f8d02dc8a87de2e"
+    },
+    "images/case-055-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/2316957_umbrella.png",
+      "source_sha256": "d8cec8f5d451cfa4712db1f3ac5bf6d1ea0fc1f5257140e766daae1f152803b7",
+      "thumbnail_sha256": "66fd8641e6bdbb17996e210c19506921bce4687bc333a0833fd9783b6637ef23"
+    },
+    "images/case-055-2.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/targets/VG/2316957_umbrella/completion.png",
+      "source_sha256": "26dd8bd1860362b4cf36fa015816535aa7a26df0759163e5721fb6d09ad58e7a",
+      "thumbnail_sha256": "76acb8b7f2cd6748b3e39dde687b4b8ba89952c24510a031faed6f75532a7201"
+    },
+    "images/case-055-3.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/surface-cohort/targets/VG/2316957_umbrella/completion.png",
+      "source_sha256": "c253fe698879493cd5a36908ba5d78bacd8252620a66116e33a2eeb36d93dcc9",
+      "thumbnail_sha256": "519b956de7228e3bf48308ab6451e7300bc32f7fe602ce9eb5afa620eafa8484"
+    },
+    "images/case-056-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/2317003.jpg",
+      "source_sha256": "58e839228b3d02ada8f0beceb68999009bd68e9d74f60f48473447389d99ffe3",
+      "thumbnail_sha256": "68b28765a83cae05cbf4a09dcb2b6b4b3ba98712376ae72004361545d2dcaaf5"
+    },
+    "images/case-056-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/2317003_dog.png",
+      "source_sha256": "045b88df5b1a796256f6a357e86fe3ee03ab092d371a76585b53499a3059a244",
+      "thumbnail_sha256": "9a779a13b92b6e14bfb7143332ec8aa6a8f17e5994522ebe800b34843538daca"
+    },
+    "images/case-057-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/2317090.jpg",
+      "source_sha256": "b7f54642a61d86e74b9a17edf26845d92f87f0d74c6cbb9ca7e979a8bc2f90f7",
+      "thumbnail_sha256": "a8dd61190c0a1e3e785084a8c1a41f6ea4814dc66fc04a42908293f9158ef763"
+    },
+    "images/case-057-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/2317090_car.png",
+      "source_sha256": "3f4c51251427bf337c7f453f9e9a945096ca8a725075534b14024b01288155cb",
+      "thumbnail_sha256": "d34a72172d93249f71dea3f926f558f020fc120a81c23134b05efc8a5915695e"
+    },
+    "images/case-057-2.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/targets/VG/2317090_car/completion.png",
+      "source_sha256": "d264e78649db6689c439b592440d3b263cd1c708f28c59bc1a9c70a3cbf07dfc",
+      "thumbnail_sha256": "5dad2e0445ea426ce5c3e4451d7d1f461e12cd734b51b01570c57a60785fd9cc"
+    },
+    "images/case-057-3.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/surface-cohort/targets/VG/2317090_car/completion.png",
+      "source_sha256": "cff2f085b37a3d09635bf3cbef9a86443fdd86ba6fe12e4aad50e78ae005cbd0",
+      "thumbnail_sha256": "ccafd52517ff7a7f17c5c3f1301e748ba93aedc40b626482f4ce8b02a3f28880"
+    },
+    "images/case-058-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/2317127.jpg",
+      "source_sha256": "3a33b4b061aa715c11799ab3173d9698674d431deeebbf4c85925bb4a0649f0b",
+      "thumbnail_sha256": "a2f04b5d27cb9a3c47af9cfddf9a9dd2bbfa10ff345754767df7f9222d182d63"
+    },
+    "images/case-058-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/2317127_chair.png",
+      "source_sha256": "9d79128a3e5c4416e2018958dfc0fe6312fd0681e0cd092d44c415a4b9803c32",
+      "thumbnail_sha256": "9a779a13b92b6e14bfb7143332ec8aa6a8f17e5994522ebe800b34843538daca"
+    },
+    "images/case-059-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/2317264.jpg",
+      "source_sha256": "84c9816b92ae7b2d21bae22592cfd2d80a817b564586f2b32a0d53d2fde1363d",
+      "thumbnail_sha256": "774c706980290b55a7a0231d4d9e0d1270f6963bec95425524af0808c9883f5e"
+    },
+    "images/case-059-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/2317264_stopsign.png",
+      "source_sha256": "49ffc5ef6c5aa5384f78a8d2a9ee63f25b57548da88bbd24b18c0e391f9cc0d5",
+      "thumbnail_sha256": "e63ab042a072094bc50d930124799bd9be4f6331ae7d3378af371a41d66fb290"
+    },
+    "images/case-059-2.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/targets/VG/2317264_stopsign/completion.png",
+      "source_sha256": "62efb19106df6fe6f3633d56a8a417d6f7de3b97464e1b48559ccb8ba0ea96cf",
+      "thumbnail_sha256": "bd7f0fb421a4879a2c797f7ebddd22da1bd9a81a25f607fbe0a7caab699ddde3"
+    },
+    "images/case-059-3.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/surface-cohort/targets/VG/2317264_stopsign/completion.png",
+      "source_sha256": "ca8a6b5a65202424b65f5d0e0ce97e0c08847fbbb4a0089c8e6eeef51f201ecf",
+      "thumbnail_sha256": "1671b0f9e2e44bc4284329bc9d8d39bb96554d95b58568a29816167b128980c9"
+    },
+    "images/case-060-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/2317450.jpg",
+      "source_sha256": "1bcfa292b0c5df5c7a66b5c222df7623be4510d1de6f4b90049634ec1818e2b2",
+      "thumbnail_sha256": "3954b384634efc0efcebf2372eb799918de9dd7ae920fe8b264adeffce6b0c10"
+    },
+    "images/case-060-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/2317450_surfingboard.png",
+      "source_sha256": "3221d3a0a81cdfdfaea776532f0895aae55af9c5411823448a47b6a8ec4093d8",
+      "thumbnail_sha256": "6007c1d55b973b9f270e13ebd45d171c0569cc4b1d5657093be7100d1fba973b"
+    },
+    "images/case-060-2.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/targets/VG/2317450_surfingboard/completion.png",
+      "source_sha256": "d97972a2eeb0989b819227f4a95a9ca36b29514e4dbe2317b39946ff5e131a62",
+      "thumbnail_sha256": "3b5bc059f9270a6caec8ac1c9e56bca457224d1f97d7a754d9cb2d249060f4c1"
+    },
+    "images/case-060-3.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/surface-cohort/targets/VG/2317450_surfingboard/completion.png",
+      "source_sha256": "3c331d313b9a1c894b5b17d9f6de23ab10d2001de0ffc6bb1d7fced71ddbf29f",
+      "thumbnail_sha256": "6b28146e871dc6abc181990f5705bb3c86d7c75025077281508a9b28eb245543"
+    },
+    "images/case-061-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/2317553.jpg",
+      "source_sha256": "ad1ddf63409a1de151f06f0f073e328a8d90cd38d24f7886a02e6c54f4b4941b",
+      "thumbnail_sha256": "57701ab5ba6e42e63f6068e99258611dc2b6843df5ea61615408070e57612c28"
+    },
+    "images/case-061-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/2317553_redbus.png",
+      "source_sha256": "ce854bfd30b5e27aa8f37236a9427220cf4141e955dd608388804b7a94570bd3",
+      "thumbnail_sha256": "9a779a13b92b6e14bfb7143332ec8aa6a8f17e5994522ebe800b34843538daca"
+    },
+    "images/case-062-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/2317861.jpg",
+      "source_sha256": "98afe45471931c07000f804f9761becd5e87eacde88493b428846f32071fb500",
+      "thumbnail_sha256": "d7b9c23490a56b2bdc13f028e3bf8852d20370f683333717def053432acb2800"
+    },
+    "images/case-062-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/2317861_newspaper.png",
+      "source_sha256": "c30681fde8c2ce7d3df1d49271de3990a7dd9dd9acc829b70bd2d1ca3dd99fe2",
+      "thumbnail_sha256": "28b181f5f2a8260d0d0d62f13312ce6a28e6e19e0e4d0ed4c6707b3f577ca5ff"
+    },
+    "images/case-062-2.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/targets/VG/2317861_newspaper/completion.png",
+      "source_sha256": "2f4a01f5841482af785486aa10e5d9247e961b83498b0abe476f1df86f651d88",
+      "thumbnail_sha256": "d3bbda8951a6d98975f316d6e6619131c39f738660e5566165f57c881aac1574"
+    },
+    "images/case-062-3.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/surface-cohort/targets/VG/2317861_newspaper/completion.png",
+      "source_sha256": "ea1531b6cce51af8a5ed880b103246f98ce0e700909cf15333260fc56d8be3f9",
+      "thumbnail_sha256": "ab8fef3d72f3d13b0a6674b71a54a11ccfc0708e4e83fead8c1096add59ae6a2"
+    },
+    "images/case-063-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/2317871.jpg",
+      "source_sha256": "660e93a66a6e03ca873c8dda797bfa14ffec09054e51072f98305a29614d6562",
+      "thumbnail_sha256": "16d24f06aa2bb732db8f82b5bc1444a55a343fee1c9e62d9e87a8691b92a2fed"
+    },
+    "images/case-063-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/2317871_umbrella.png",
+      "source_sha256": "b2ab114002cc40aa3973ba6add064282cc109126b9a79b2b7b68f5eebf59415c",
+      "thumbnail_sha256": "9a779a13b92b6e14bfb7143332ec8aa6a8f17e5994522ebe800b34843538daca"
+    },
+    "images/case-064-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/2318217.jpg",
+      "source_sha256": "2d5492e96c58d5b662a40d38dd2bd9f40323135d4d0fd5c316f76f48ed1d3106",
+      "thumbnail_sha256": "8ca83fd271a35f8908274ded77c50213d89be2459590ab516549943a9f711683"
+    },
+    "images/case-064-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/2318217_surfingboard.png",
+      "source_sha256": "ae35fe905e23b4f8bf8135aa8959184e931b0704fcea45d69468a588bda1bbf8",
+      "thumbnail_sha256": "3c7c1ba4c4e53cd2b736a3e0c6f535affd5b7721f20936e1c46ea9c860c4148a"
+    },
+    "images/case-064-2.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/targets/VG/2318217_surfingboard/completion.png",
+      "source_sha256": "91424ad1b51eb317558f88ffb2d8195d8e80355ff332d4217fccb6266a7f0a28",
+      "thumbnail_sha256": "cba0836d2db932280d71cfce84c5195e33c1c9a237b1f2c09763dce18113cc0a"
+    },
+    "images/case-064-3.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/surface-cohort/targets/VG/2318217_surfingboard/completion.png",
+      "source_sha256": "8212301efdf6004e42a1d2db869ad1a72f24ff5c3f6b8119f52460e20080e646",
+      "thumbnail_sha256": "8f4c61e4b4a4d1bfeccdea451e00840be5ebc1214d994a7f8d72bd0ace32ce6d"
+    },
+    "images/case-065-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/2318432.jpg",
+      "source_sha256": "6624f83c6255faa4f0ec143f661ecab83a8c2cf5a25e90cf21deb5aa7531923b",
+      "thumbnail_sha256": "2e50f1edadb5ebc3f34a50dcb9229b06dbee1548170586d7f198683a4293ab26"
+    },
+    "images/case-065-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/2318432_cabinet.png",
+      "source_sha256": "bc7f0e6a55b12d9d6ae526950cdf68a0695966f18e6f93d5c0e866a6578144e1",
+      "thumbnail_sha256": "a2bb863434a2a4ca7e66811e82ee954df146342da64dfd3d36ca83f070cfb56f"
+    },
+    "images/case-065-2.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/targets/VG/2318432_cabinet/completion.png",
+      "source_sha256": "ca3c7e8f3dad10dc0dd926560339b9e6062178ec36eed7f53b961e78ca064f5d",
+      "thumbnail_sha256": "de7f574b31422b3df376e5e0125a0d1722aa7709d1ede2c9018cedf791184cbe"
+    },
+    "images/case-065-3.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/surface-cohort/targets/VG/2318432_cabinet/completion.png",
+      "source_sha256": "3a5ef7536461da5952afe4f5a7438d0350311371836ca698ff0b2d8a6a8c1739",
+      "thumbnail_sha256": "f1b2d88814c7bdbbca5d17a8cb1f6d0f25d043ea25b190a9441ad9c60d5cbdb8"
+    },
+    "images/case-066-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/2318575.jpg",
+      "source_sha256": "82a9341cbc57b7cb2edf3ecc2b6b70aa358a58907b71b3a6cf53e263b25887b4",
+      "thumbnail_sha256": "933b42a5e563261ac72daa75fbbd0a176d411365be40fe20854918408ff681f7"
+    },
+    "images/case-066-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/2318575_ship.png",
+      "source_sha256": "151127c130b621f72108195510d07f7e21f4ebe0e2c69ec2d7138f1c8f1d9fbe",
+      "thumbnail_sha256": "17fd2c62a51636d716f5b6f24f6384b752737498bb77e510e2215f57b364ea3f"
+    },
+    "images/case-067-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/2319055.jpg",
+      "source_sha256": "934829b52b64a7ad5140b8cb4e173bcb9672bde8612d87866218fad1eb561ea1",
+      "thumbnail_sha256": "76c27155242d4e9d130ee7ec26415710f0fda046e27f69f80ea7aaff0ca5e9d8"
+    },
+    "images/case-067-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/2319055_dog.png",
+      "source_sha256": "254a73ec7762d8f18b7f6212c6aba52b0c9633d0b6a57d401c6b10f204976d7c",
+      "thumbnail_sha256": "9a779a13b92b6e14bfb7143332ec8aa6a8f17e5994522ebe800b34843538daca"
+    },
+    "images/case-068-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/2319494.jpg",
+      "source_sha256": "6d753dacf09f4286348d13f5cdc1bea719f19f1bdaecee9cf270ea6bdee65a0d",
+      "thumbnail_sha256": "67a81da51063f992bef43a7990ff2c571fc2e6d8e0b06f92bf892e996762191a"
+    },
+    "images/case-068-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/2319494_refrigerator.png",
+      "source_sha256": "4b4358973c122eacc9f976b45f1e4f3ae4afb2e924c9079fbe7939a12847be2c",
+      "thumbnail_sha256": "db6fec9daa76bb14f6d7aba1c74a6b568b01e9854c99c33b7e0878de89f3e7d1"
+    },
+    "images/case-069-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/2319875.jpg",
+      "source_sha256": "cd9fcb68eb5c1b3ef759a2d529ce78231b8040dc18b6696fdbf89525bfe343ea",
+      "thumbnail_sha256": "035e79036ce2037bc3d8a55ffe52a012176e95181b60f9253796cbed730064f5"
+    },
+    "images/case-069-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/2319875_blacktruck.png",
+      "source_sha256": "22fbc18948714e3c691a8892ee80a46eec28fcf2eecc18451d954043a4da2240",
+      "thumbnail_sha256": "9a779a13b92b6e14bfb7143332ec8aa6a8f17e5994522ebe800b34843538daca"
+    },
+    "images/case-070-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/2320294.jpg",
+      "source_sha256": "41e0003fc7d3135382c49baa14abb459d9228f9a160d1e4f4141ab1f9273276e",
+      "thumbnail_sha256": "a0ff81bbab994bdcd7d4f7777bfaef9067b077f3947324bec2dff23659e7313b"
+    },
+    "images/case-070-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/2320294_table.png",
+      "source_sha256": "5c96b89187843db0715bc9899df8e7b8f7bafaaec770f88cf49690cfe02662cf",
+      "thumbnail_sha256": "9a779a13b92b6e14bfb7143332ec8aa6a8f17e5994522ebe800b34843538daca"
+    },
+    "images/case-071-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/2320362.jpg",
+      "source_sha256": "c69c1933e03bff68eb9ed6d174b921c1b1c19e688892703b9004509c1eda3351",
+      "thumbnail_sha256": "ef61ed17892bcf110fe990c067c5cce6aac9f8dd2e00b255fdf4a402f62fa287"
+    },
+    "images/case-071-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/2320362_snowboard.png",
+      "source_sha256": "76ef3bc853bd5f6ee0e11b4d6e31f50f51e654943d8ceff5cdbf8a2ffdd4f672",
+      "thumbnail_sha256": "f8934b2c27aec02d632dc3a8fec71095fc414b9347e5e4b2d4d289284103a924"
+    },
+    "images/case-071-2.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/targets/VG/2320362_snowboard/completion.png",
+      "source_sha256": "c6f28a54e5bb51294165fe4c94844e158b25d139fb3698fa614bee8849b6037a",
+      "thumbnail_sha256": "4997a17f01058b7028b0a2dd3e6f3b198c909a7cef4ee5156cf8434e3b203277"
+    },
+    "images/case-071-3.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/surface-cohort/targets/VG/2320362_snowboard/completion.png",
+      "source_sha256": "705d5d01c0b438ddd58e1609f6bd60a8aedce86e3d73731430c2444f5e9fe42f",
+      "thumbnail_sha256": "3133d38447aa3dfd6d280a9723cec4531e489bdca19a87e1af720c4d6469ce15"
+    },
+    "images/case-072-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/2320380.jpg",
+      "source_sha256": "b0c4aab6a25f97db6c326d65b6eb85c0e058e16ac6c09a18b900525296bcc524",
+      "thumbnail_sha256": "d88e2565b05f0789e25b163e1ff182ab732c5f73c6f3b7aaa53bf204d0ce9274"
+    },
+    "images/case-072-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/2320380_bed.png",
+      "source_sha256": "123513ca319af3dd931297433137b3097a24e1a4e29e3c92c6a2a610edc03383",
+      "thumbnail_sha256": "330e803c0fe240e66befe1db9b3d9bcd85b7c7790800f39eeca75ac21d1ce929"
+    },
+    "images/case-073-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/2320543.jpg",
+      "source_sha256": "75661a665e0e5063bb5d32659dc0063037cf1f6dd6eade02897e1e220caf23da",
+      "thumbnail_sha256": "55221c92ebda7c94876310a3af129c20e21c36ff28fd87010e5d218535f1e1cc"
+    },
+    "images/case-073-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/2320543_chair.png",
+      "source_sha256": "3861e7fce766868f417b0f6048ff4372dd9bad50aa094e751d11fcc4f09cfeec",
+      "thumbnail_sha256": "9a779a13b92b6e14bfb7143332ec8aa6a8f17e5994522ebe800b34843538daca"
+    },
+    "images/case-074-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/2320691.jpg",
+      "source_sha256": "2a26f9b31c002a43b4862cef4f03ed9a87b42a09206b2d5bb7b37a0fc44b2c27",
+      "thumbnail_sha256": "bcb3e7cf4d2418b05f74578c6c28be00bc2ac28e0d3d45d435b7d7307bd54951"
+    },
+    "images/case-074-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/2320691_firehydrant.png",
+      "source_sha256": "ec8ac2cecd0bfb15835248eb9e3c3b52616a2f09b7f2cfe15491d947a5e1adf4",
+      "thumbnail_sha256": "f9439b821abd0ccb86fab2cb2ba12df6735fcd159885f4f00c35f1e904bc134a"
+    },
+    "images/case-075-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/2320716.jpg",
+      "source_sha256": "e14654156d2657102dfd31be9ebc65e02f56e21e95a6f7eb13e74050973275b2",
+      "thumbnail_sha256": "4fe8c64ad4182351ec3ee69e34147024ec115c8ca692f56001983b6185cc45f8"
+    },
+    "images/case-075-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/2320716_zebra.png",
+      "source_sha256": "6365c3c98160ff57c42fa23f0d48917ec9c9feb2c5c7a2364e3894a2171cdb94",
+      "thumbnail_sha256": "84ded35c5046b6c02e22dcd40507ae68fd226ef2c864584f794fc974f52f1094"
+    },
+    "images/case-075-2.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/targets/VG/2320716_zebra/completion.png",
+      "source_sha256": "3b41f4b7665e3786e5d406bd135f072740801c7b381917f53ff5c578a097bf20",
+      "thumbnail_sha256": "fdfc17b409d9137120f3994036fcc8c33b5a893019c32949b85146428846503e"
+    },
+    "images/case-075-3.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/surface-cohort/targets/VG/2320716_zebra/completion.png",
+      "source_sha256": "2b64a69014decb4eb6639cc366cdf632e3f7f316249c9751f6683083381ea73e",
+      "thumbnail_sha256": "e80e39714c60fa749f49e1ad06ec346d479039b8b903f023b88802f44b226833"
+    },
+    "images/case-076-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/2320733.jpg",
+      "source_sha256": "9d574ea49a192f6b961e7207d5bb0a9a23d8d3e1c3f6ddaacbf5a0e96478f705",
+      "thumbnail_sha256": "942345348db3c49b5f912713c16a185cfb90efb2d9a01ca820eb3ecd96a637b8"
+    },
+    "images/case-076-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/2320733_tennisracket.png",
+      "source_sha256": "7824c109d72eb6b1c75c8e212ca209fd79b152d13dcd4aa56d6d23edf78c6045",
+      "thumbnail_sha256": "9a779a13b92b6e14bfb7143332ec8aa6a8f17e5994522ebe800b34843538daca"
+    },
+    "images/case-077-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/2320799.jpg",
+      "source_sha256": "3432b215bb6223ec186c8dbc5d8b5cd3e349007c4ca552a6a54721655ae6deae",
+      "thumbnail_sha256": "f9835974b425da822e404bc99dbbcf7eb57d904707dd379b4f9175a1eb3aa481"
+    },
+    "images/case-077-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/2320799_toilet.png",
+      "source_sha256": "6b6926bbd79a006714697f6fda0ab5924898a6bff64ed63ddc7c8ca44b800bab",
+      "thumbnail_sha256": "ff00be362535ea2b6f3b9d12c13064e2df23aaa9d60bfee19c1651b38d8ceb97"
+    },
+    "images/case-078-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/2320860.jpg",
+      "source_sha256": "d2b29efe452e885e69ac46cee9be9febc59dcf65d5aa552848e522e16d1b6eab",
+      "thumbnail_sha256": "355e397bfe25fe4e87b3f2ccec96d14177d734ac0126a32823cc7c8c73b1da98"
+    },
+    "images/case-078-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/2320860_browndoor.png",
+      "source_sha256": "7c72ad3fbe6831289c98973dee8af7f8b4e7693401528e414342d25ded6e53ff",
+      "thumbnail_sha256": "25d968cb30801b6d13673b047c9009e53dde5d69f0e657bb202fb5bd6800653d"
+    },
+    "images/case-079-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/2320946.jpg",
+      "source_sha256": "8dd1257eb1c2691f79e404a231eb2c5235652fab7e8de58a807cf04cce276328",
+      "thumbnail_sha256": "73745fcee4723f3b7699799c367313a168a53e1aece28ac35a529d4fc2f80ab4"
+    },
+    "images/case-079-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/2320946_sofa.png",
+      "source_sha256": "de468510709dd46e706b9ba348b1391393688e77a5d10347ee3db7038dd1ac2b",
+      "thumbnail_sha256": "9a779a13b92b6e14bfb7143332ec8aa6a8f17e5994522ebe800b34843538daca"
+    },
+    "images/case-080-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/2321128.jpg",
+      "source_sha256": "5bdb17b2a063c644c789dfd6cb84fa46ab32eead5798dc17e4d18be2c7c0a510",
+      "thumbnail_sha256": "246ff37673deb29063d1c7bbeceae1eb3267a0e6f2f013765fb6721497b1df78"
+    },
+    "images/case-080-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/2321128_bus.png",
+      "source_sha256": "597874200a98a29eac3c09ad13e734ec8256654b89e15127136891f71fcda60d",
+      "thumbnail_sha256": "8d0ce9a8ceb47e0ced51c8b0dd4b967f540030d040ed4ff989e5df49d67e88ef"
+    },
+    "images/case-080-2.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/targets/VG/2321128_bus/completion.png",
+      "source_sha256": "732bd4e9245f28ca20ca983cb8b321cfcf9d64531d76f97525be6a6b8d4bcc0e",
+      "thumbnail_sha256": "08c9e5961a01f45abf5f877c8e5d52a12ad11c5701fd3d0f14876dfe4b271db7"
+    },
+    "images/case-080-3.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/surface-cohort/targets/VG/2321128_bus/completion.png",
+      "source_sha256": "2e6a006c22999c37e319ba479cda6eda93618d70d1159f36ba3cdaa3b0ad0dd0",
+      "thumbnail_sha256": "112765aae0809d651c024ec5c06d2cbe0f3a083ef4e79659b2d1869047bcae82"
+    },
+    "images/case-081-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/2321211.jpg",
+      "source_sha256": "5e7a108808eaee06dd901b74c838100a86a42d9e0820e46c7b26783fba7b36f0",
+      "thumbnail_sha256": "4f200ccac5396d46255e739ce29306023471a892a6cd685ce962f69120320df4"
+    },
+    "images/case-081-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/2321211_beerbottle.png",
+      "source_sha256": "badf869f90be1287c9ea190b5699f526b6b6815714ed055b70c958b078756c51",
+      "thumbnail_sha256": "9a779a13b92b6e14bfb7143332ec8aa6a8f17e5994522ebe800b34843538daca"
+    },
+    "images/case-082-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/2321446.jpg",
+      "source_sha256": "1867c0a975a31fb75112182461bd9c5c15d87fafb9b5677da6aa63e4b8ec5fd9",
+      "thumbnail_sha256": "03a4c39344f11e0ee2e8bd1cb65d359476cc69721ddc376880c668ca98ae5780"
+    },
+    "images/case-082-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/2321446_banana.png",
+      "source_sha256": "58e968ea29a3d40adf4d9074f2c30481986a60db03f9ec17190dffa04ea6a3e9",
+      "thumbnail_sha256": "9dbb2d394a6eb45f6154adff46db97add642eead115884f1a00ad1158c25a53f"
+    },
+    "images/case-082-2.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/targets/VG/2321446_banana/completion.png",
+      "source_sha256": "a032f1a73fc35fb51c425043ddfe2505987cc15873feb0b9634fb3e3c46f270b",
+      "thumbnail_sha256": "400233960490764d0b651fb89df0e1b2bc6700384467dd8aad68e075cbc5ad55"
+    },
+    "images/case-082-3.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/surface-cohort/targets/VG/2321446_banana/completion.png",
+      "source_sha256": "04b7bbe697c2fe48b3ae252730000174a99d77c991179898552b6259569b8311",
+      "thumbnail_sha256": "97b83a627588ce71fb16fa1e06c6400923042e8eed744ed43604a593bb668185"
+    },
+    "images/case-083-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/2321453.jpg",
+      "source_sha256": "2d9ae9121b9ff524982f2bf33de85d47a356c508f9f65d0ba88216ca76e349d4",
+      "thumbnail_sha256": "26c5883f09618af0170ae5dd45d7aeadeb10b8a7d54f5887272cea013be12780"
+    },
+    "images/case-083-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/2321453_elephant.png",
+      "source_sha256": "5b16a9df93062486db643cd560da11ebbd0f26f8b25dacbd7b60a19a741a7a7a",
+      "thumbnail_sha256": "86fd407419d7e26cbc7301d2d91518dfbb06cefc12098a9235ecc21670d49745"
+    },
+    "images/case-084-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/2322049.jpg",
+      "source_sha256": "9ff3513c9e3e1f0ee29994b3e84044b31a2c66d945f67a98dbd964cff0f10727",
+      "thumbnail_sha256": "d712d9cca0349b465074b004aeca58f3ee334ecbf93c1c10d05119f0315f73f9"
+    },
+    "images/case-084-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/2322049_fryingpan.png",
+      "source_sha256": "f94721565e9cadec2b2ff3051a666331993c9ff277cf9a81ea8d51a42946013f",
+      "thumbnail_sha256": "9c3b60d65a507213f8d703b265bc9d2b58b636b28c857675dd9ae2f5517238c5"
+    },
+    "images/case-084-2.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/targets/VG/2322049_fryingpan/completion.png",
+      "source_sha256": "3cde53aa27ec2669e22cfc31d9a78c1166efdd2f7228367e71788cbbb2477957",
+      "thumbnail_sha256": "07917bdcbf0065b0b2a77338ced01bd12f5741404c9b14bd5d09dd063e14637d"
+    },
+    "images/case-084-3.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/surface-cohort/targets/VG/2322049_fryingpan/completion.png",
+      "source_sha256": "6abfc86d8580959beb3e7155c6de6e935866c3c7651b7c2a11e4e3573172ad87",
+      "thumbnail_sha256": "36b4cf21090fd50927bc305e660e4d0e9e4f0961dbb301e50b5147572cbb41d5"
+    },
+    "images/case-085-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/2322146.jpg",
+      "source_sha256": "c523e2af22b814821db2c0091f749935049ab1c262cfdd8273a8c0554bef7f19",
+      "thumbnail_sha256": "7d8211a582679ddd49b64a3ee512981237d2400a6d516f4b31eb0539adec181a"
+    },
+    "images/case-085-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/2322146_television.png",
+      "source_sha256": "ffff5f575c5a8165df517b63a881bb2fda633bc86594968c35073e70b18be83e",
+      "thumbnail_sha256": "9d5057e61c38d792d1f0da1c7ee2e41878fc1321f4f43afba41f873599329e87"
+    },
+    "images/case-085-2.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/targets/VG/2322146_television/completion.png",
+      "source_sha256": "db9dbe68553cfc4c3bab171d83fae8cb053872d1d53825307702389f6848d06b",
+      "thumbnail_sha256": "a0bcfbd676e69a9febd62b876bd21b6671eb5472cc7ba9e20fa805b17cc3a3d5"
+    },
+    "images/case-085-3.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/surface-cohort/targets/VG/2322146_television/completion.png",
+      "source_sha256": "d88e4cc959142dfb180791a91cc1c4ff8d240b51ae7627346205dc48a448f42e",
+      "thumbnail_sha256": "fdc500e180d4f58eaf232b5059b487c850e03e0be16e6604b1496b04fa847bae"
+    },
+    "images/case-086-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/2322171.jpg",
+      "source_sha256": "8dc4fd0fafa61309d78f9d3c7e0ae5e56b6362986c91f178becdc9a8f8870ae2",
+      "thumbnail_sha256": "c54d5fa5c7e38d23cc7508ba310d8cef515036189530025551cfdd49726a374a"
+    },
+    "images/case-086-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/2322171_bed.png",
+      "source_sha256": "95c46e299da694efd9e09481ca6ef25a61e9010266c6bfd37fc2d54aef6018a1",
+      "thumbnail_sha256": "58262f4d9f10981799a01ea86d901a3872d19b00b16f7e89820a96de05a3d37b"
+    },
+    "images/case-086-2.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/targets/VG/2322171_bed/completion.png",
+      "source_sha256": "8d2c55979162637540046ada06f3523e837518f05b0eb1ce098a16fc3545fb1f",
+      "thumbnail_sha256": "72fb4e1187a479bd66994c0281d302c316048edd328fd9690c9afa0f2f84207e"
+    },
+    "images/case-086-3.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/surface-cohort/targets/VG/2322171_bed/completion.png",
+      "source_sha256": "e5dfd96cee07b97e943f55e600e7a737b5cefc45238e38316e28445ca14120fe",
+      "thumbnail_sha256": "f79ed664babdb66a5605f0c4f40ed8c408e429f3705bb6d2443140447b50b393"
+    },
+    "images/case-087-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/2322304.jpg",
+      "source_sha256": "60570ca6f1041676b13d330d8463c3e705914ec119f957dca47ca36dd46d1877",
+      "thumbnail_sha256": "c169e757f47269b8bf636a8a569e121b97392943d57a74043e4c5988255d54df"
+    },
+    "images/case-087-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/2322304_sofa.png",
+      "source_sha256": "695f1048762597e2aee181a24cfbd6bfe47a47f67d04c8c3aeaedc6809d9429c",
+      "thumbnail_sha256": "5f4a7a73b62ba965f6ca48dcdba04aa99b40646471b8b5a6686261507657ea38"
+    },
+    "images/case-088-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/2322354.jpg",
+      "source_sha256": "3c341cda284af1994d76b732f097b78a39a3a4255b28357f53f6c9867c323b9c",
+      "thumbnail_sha256": "49c70865e6d0d98a43f33976114873a9848b7b407db7594049c91d44bda250bd"
+    },
+    "images/case-088-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/2322354_dog.png",
+      "source_sha256": "8f9d7304d6c7c11a01f43c2b56f17327cc7d8d5355cd23934c6bedd6ae59f50c",
+      "thumbnail_sha256": "9a779a13b92b6e14bfb7143332ec8aa6a8f17e5994522ebe800b34843538daca"
+    },
+    "images/case-089-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/2322508.jpg",
+      "source_sha256": "003e83db4b0d5431c6b2f188815bc9116f6cef92b5d919221ee3d52363bb5281",
+      "thumbnail_sha256": "344c51b629527bb37436ae99f86415dd5b669ab6e1e523c1b3adc742df274bff"
+    },
+    "images/case-089-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/2322508_beerbottle.png",
+      "source_sha256": "a0176383a912c6c9e5bdc2acbeb8aea7ffa151e55b9265354f26a08d9f7c6cf2",
+      "thumbnail_sha256": "d91cff3e5221215537584e3ead16cd69b6acc1a0492a6236f2b3e51c75652eb4"
+    },
+    "images/case-090-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/2322864.jpg",
+      "source_sha256": "4fdc6c28d6bfce229e199e2ba423bfe561c4fccfbb29fcc365489638e2b35457",
+      "thumbnail_sha256": "04bf85d2f408f55435d005991ee413f8de25865cf8ef33f31f47af87d8dcc1c5"
+    },
+    "images/case-090-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/2322864_dog.png",
+      "source_sha256": "865679dc32c5ebbb852c814fe011307b1b43f803341f4eefd1aca7fe896540d7",
+      "thumbnail_sha256": "9a779a13b92b6e14bfb7143332ec8aa6a8f17e5994522ebe800b34843538daca"
+    },
+    "images/case-091-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/2350264.jpg",
+      "source_sha256": "367e59a21f7848c2c46c10860e19386263f6725d0de616619dfb8329d19db108",
+      "thumbnail_sha256": "e15ee60bf44734d1db8fcad4093f4210a62c44ba444928960ee7f566f7af22a3"
+    },
+    "images/case-091-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/2350264_baseballbat.png",
+      "source_sha256": "c5b138b14da13695619846a97ab803bc10aa925f6ad7c3f97efb8a325c3b5f1f",
+      "thumbnail_sha256": "e134e2db05c5b11f9ceee08cd19974e436e83a4f45240700e2b7dbb1b336f4f5"
+    },
+    "images/case-092-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/2350312.jpg",
+      "source_sha256": "f6917aa4f447dae442f76092fe02fc3421379f3265387fc3c682c1241bb4db54",
+      "thumbnail_sha256": "e1703e901f68498ce83d36d48a03de76f519e18a3a7661c9d4f413165fe8eafa"
+    },
+    "images/case-092-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/2350312_motorcycle.png",
+      "source_sha256": "bb5b7e27d4c71a89f7569e79b68a49e1252a4df9d4b5ac19d92927b0ef80cd53",
+      "thumbnail_sha256": "fc2f74b510bcd8a1c9391533c44964fb686af5f276beb820bfc21f443442ada5"
+    },
+    "images/case-092-2.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/targets/VG/2350312_motorcycle/completion.png",
+      "source_sha256": "258a5cc345d5046141b902825bd8364cf09e8e92784a80ba8cfcd2aa1a33b6e0",
+      "thumbnail_sha256": "6f358b1a41d3f436a1977323af776c926127b5ecfe12155702b99689f80b9bee"
+    },
+    "images/case-092-3.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/surface-cohort/targets/VG/2350312_motorcycle/completion.png",
+      "source_sha256": "75ddbca9a6956956dac5d78076c52c3deca1c79f099e034e645c810e6943a392",
+      "thumbnail_sha256": "ec31e33fefd0ea29125d38e859a1d3ae8e842141f4fa27fd854ea5ff97fa8ea6"
+    },
+    "images/case-093-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/2350700.jpg",
+      "source_sha256": "0ce2ce5df3503428683e6631bc05bd399292615f3c522d556edb5ba6e32bebf8",
+      "thumbnail_sha256": "cba97714d4f6c996d7016b96f642a5630bb18273510a16209e568b8fdf506a5e"
+    },
+    "images/case-093-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/2350700_cat.png",
+      "source_sha256": "f00242fdc0a187d5c937b0ca8fede11e40161f36a1749b2ff02fea6264d004bb",
+      "thumbnail_sha256": "e0d72e66ac668f6fafadf2f975578f8473ebd5a52b0a054f0d8352779dbaea43"
+    },
+    "images/case-094-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/2350736.jpg",
+      "source_sha256": "c454e600960029acc933fd89433be3b40038e0f8c7c16830b63c746e24547a6b",
+      "thumbnail_sha256": "d50e9b26e5af3b2d763da92e4ac0a337940f7d5c9153c6a6497d9e091ef6a52f"
+    },
+    "images/case-094-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/2350736_phone.png",
+      "source_sha256": "7c04c2ad973b9e419dae9259a08e2e557def9ea5840c298d1b4248f33a963452",
+      "thumbnail_sha256": "794025857fdc679711ca42040c4eb5b731355d720d88aaa66d7c724aa1616641"
+    },
+    "images/case-094-2.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/targets/VG/2350736_phone/completion.png",
+      "source_sha256": "18ca6e1f5ba4ada69b77c86953e0bf48a4f933b15a0a1c45e65df3471415a83f",
+      "thumbnail_sha256": "c916cb7ed05ecae56c3d5cd1c96f2c1a55259baaa40f5f403f37663369a5a5e4"
+    },
+    "images/case-094-3.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/surface-cohort/targets/VG/2350736_phone/completion.png",
+      "source_sha256": "0de39c6d31ed8e348cc6e897b6835e9cf4973244af710ca2ca415d134ad8eb5e",
+      "thumbnail_sha256": "72af18e64f95ce83701e9d67b6893a34d115057eb05aa8acd0e634087d49ba0e"
+    },
+    "images/case-095-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/2350963.jpg",
+      "source_sha256": "e857c63acfb57916bbab70bdd76581d8ae065c2d817ada2f35d5c8a14311d6e9",
+      "thumbnail_sha256": "c66ea6f8cb3de0a72897a8039d3c54696bfdd1391558dd41db417eae1107abee"
+    },
+    "images/case-095-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/2350963_motorcycle.png",
+      "source_sha256": "4d1ecdf496e5d1a58fb246860fe364cc7b76fb5ea360d48819ec716fe0991f04",
+      "thumbnail_sha256": "74860a029bf1b5df3432f29082f0927b866384e397e893fd98cd693756e48d64"
+    },
+    "images/case-095-2.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/targets/VG/2350963_motorcycle/completion.png",
+      "source_sha256": "5bfdf717e01ee0f8e2258402716fc5ba45433eec576d72c351144dc444b2a3a5",
+      "thumbnail_sha256": "88f7497f11e02706dc711a1f940efefc0415b71089986a7cc38832afabac1500"
+    },
+    "images/case-095-3.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/surface-cohort/targets/VG/2350963_motorcycle/completion.png",
+      "source_sha256": "04124db0240ea88d47d75df71fb278e641cb025d40fe15b3ae360a71949e23f5",
+      "thumbnail_sha256": "74929fcb39c477f61b509298b4c2b3b7c6df3cf145278c6c53d7524de4c4c76e"
+    },
+    "images/case-096-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/2351033.jpg",
+      "source_sha256": "4783e70180b79e1f6f3f7735be5bf9ce27b4c14fbf520af3973a7c0b3bea47a9",
+      "thumbnail_sha256": "145afaa3c751553473b8c0a6d884dc9a8799a023d59eca863a0f90c0c5aababe"
+    },
+    "images/case-096-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/2351033_fork.png",
+      "source_sha256": "43435ce9cdcd974fc50bc68e97f6773148b22b30333148b8f6ea336fde379c4c",
+      "thumbnail_sha256": "489deef28a817c0a016ea0fa57b9b115d04e35e2b14197a0951799b419b85461"
+    },
+    "images/case-096-2.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/targets/VG/2351033_fork/completion.png",
+      "source_sha256": "dafabb4e43d62053eafabf4912384e4563d8ae0d1865cec475bd81fd059c0e67",
+      "thumbnail_sha256": "70eeec95a0a82f3959bfd65cba4ff1b571c482e2757788edc88f3a2fdbe2238d"
+    },
+    "images/case-096-3.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/surface-cohort/targets/VG/2351033_fork/completion.png",
+      "source_sha256": "a42eb89fb4221c809938d07cba0c9e0fad5d10cd74f24c8fbb498cd2b44c3956",
+      "thumbnail_sha256": "3faa66679d5d232ef9ddf328d112c0a2d64e8bb94a6e18fdf0f45bfaff99bf46"
+    },
+    "images/case-097-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/2351049.jpg",
+      "source_sha256": "6aaaafd6547dc4dbe06a32dd5c1f51b8ce3c1ab76115a6f8545b5ba526a7ae44",
+      "thumbnail_sha256": "6433ddf34436314bf60eb6a9abeb6319b34b368f786963fe54fec9f859050f45"
+    },
+    "images/case-097-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/2351049_tennisracket.png",
+      "source_sha256": "297afe0647862d402a35b9fc5231dc28d9d2664a3289cd8f50502ceb2870c280",
+      "thumbnail_sha256": "9a779a13b92b6e14bfb7143332ec8aa6a8f17e5994522ebe800b34843538daca"
+    },
+    "images/case-098-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/2351235.jpg",
+      "source_sha256": "631dbf97b893720df822011e54d561edcbbd61dfed898b4ef957fea37ccd3234",
+      "thumbnail_sha256": "c8bafee0dffb8cefee208af37308717be5ac7dd45de3d97aaff0275b2d1cd208"
+    },
+    "images/case-098-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/2351235_cat.png",
+      "source_sha256": "982d03153e23bf1c394d95c5b59d7b9762cfcfb34fb85827368d6ebfc4197515",
+      "thumbnail_sha256": "361371e35fa992728a4e6ba556f0111219332fe3df85c7cb17c98fb537ba392d"
+    },
+    "images/case-099-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/2351594.jpg",
+      "source_sha256": "2960561dd3a9f3f1a7016d9689a31f03af446f2e274e52b1303b134ae0875c0a",
+      "thumbnail_sha256": "941507c6b09a66e0f621a84bb54d722bebf7aa3bc75fa65d4e7390d9b3c100cf"
+    },
+    "images/case-099-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/2351594_airplane.png",
+      "source_sha256": "56cb50f543b2df19fa76a721a3b0dcf65417200ed6e61bdea26ab21e9e823e0c",
+      "thumbnail_sha256": "d7f2939a23e1a2d7143a748cec1ef0681eb980eb65db64ff78bb80ee749d65dc"
+    },
+    "images/case-099-2.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/targets/VG/2351594_airplane/completion.png",
+      "source_sha256": "d97e3686aace20e003286b3000f7994305106f4d086eba80717ea75aa27e6493",
+      "thumbnail_sha256": "d40298f77e7adf24b5fbbc1232a400033621ab00fa4637f46eac2df8a2e21eb6"
+    },
+    "images/case-099-3.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/surface-cohort/targets/VG/2351594_airplane/completion.png",
+      "source_sha256": "812c468813d8b4cc015ff5ae9aa805d0b200d2a71051560783122b096e229351",
+      "thumbnail_sha256": "1b07a6e07911bbdec037ecd2a6aa29d4613606c67ac6b0eb954066b45d501915"
+    },
+    "images/case-100-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/2351613.jpg",
+      "source_sha256": "3fd228f5758f2dc0f12f6f2b0370f483227675f2510ed86180eaed4ed5c0fe83",
+      "thumbnail_sha256": "4053b8431a956f355aaf3d69864afd2d87851629019711e030e906c3e31f438a"
+    },
+    "images/case-100-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/2351613_phone.png",
+      "source_sha256": "326be80876a6b98aa4170b16ff4d7715d94397ffa3c590cecf03387b39782390",
+      "thumbnail_sha256": "9772f458a77f50d0ad82d7562a0d1d13bc0c2d82072f178ebbd6f86d6cf3df2b"
+    },
+    "images/case-100-2.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/targets/VG/2351613_phone/completion.png",
+      "source_sha256": "2c00424d4588108b82b40393bf20ff6ada3c761852bfa8a1e30919629e6ef2d2",
+      "thumbnail_sha256": "215d7d38b676e46c3f81faf72357bd2423043d9d93dd87b672d9ca02c688aba2"
+    },
+    "images/case-100-3.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/surface-cohort/targets/VG/2351613_phone/completion.png",
+      "source_sha256": "6b656e0f107c58138367d1f8f8e653fe37649036d0d251b58563da4d1e9c2377",
+      "thumbnail_sha256": "df8db69409b87e65b46f7b4790475473b2b5f3f92d5b4d70444f6603b665cf69"
+    },
+    "images/case-101-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/2351866.jpg",
+      "source_sha256": "5bf648aa5fd147aa344f6e942bf0afdcd1a31d88508a56d3c9e436b523d2945c",
+      "thumbnail_sha256": "b9a3ff50ab0258dce336c4ae9e9aba5717716975a36629c731616a3e1bbb8e97"
+    },
+    "images/case-101-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/2351866_banana.png",
+      "source_sha256": "256b4ce46213664314568c4bb326fe9dac1d741600f764aa26c2cbb0aff2c398",
+      "thumbnail_sha256": "c5ec1c346a5b134e7a17d6e87a561281c24c3a108f9ae9460fde6adfd1e05650"
+    },
+    "images/case-101-2.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/targets/VG/2351866_banana/completion.png",
+      "source_sha256": "f0bcd4796883317c690560b483618ec9a3f4566371a5b0120f2e6cbf9372bc53",
+      "thumbnail_sha256": "93013967c4dce5e263a719d42305742ec71df79ede6b7b8e10e13592e50fcc10"
+    },
+    "images/case-101-3.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/surface-cohort/targets/VG/2351866_banana/completion.png",
+      "source_sha256": "cf01de433f24570e1c4f5dbe2bd843fad45284bf4ba36dd51cbf44aa8fdadacf",
+      "thumbnail_sha256": "999c5917edb3fbc9b5bc6f679f4ac11c4ff6cc555d6d4dc3ee1566d117f8f0d8"
+    },
+    "images/case-102-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/2352236.jpg",
+      "source_sha256": "afc9eec36cc0ac7ca123a11a8e74ad0a8c0e88f155c61aa1e1db5cf522de62e8",
+      "thumbnail_sha256": "af3200bcc7cfe5121c9c42aa701583700ed7d7985c25301202c22730ce284d69"
+    },
+    "images/case-102-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/2352236_horse.png",
+      "source_sha256": "e85c84fe975807653a6964646782682e42915a2d4dbeaf7484d952e40738514e",
+      "thumbnail_sha256": "2a6b78119ad889246616afd279a454a90f9f4cda6abc444306bbfbba8a7aab62"
+    },
+    "images/case-102-2.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/targets/VG/2352236_horse/completion.png",
+      "source_sha256": "456e05f5571fa133d58587991e1c3d8cb5a8a0805085fd950f52a6330fb4ce13",
+      "thumbnail_sha256": "f9c72e87fea8b637d859f63c0b0ac43e4ef26e6c6384a2895f0fb4ee5f66e322"
+    },
+    "images/case-102-3.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/surface-cohort/targets/VG/2352236_horse/completion.png",
+      "source_sha256": "980c6d1cd9bed4ee3f33956023602bdf824a50c61797f20f57497ba97b582708",
+      "thumbnail_sha256": "605b32a97c2e570ee2986448ad6e361c90079fedf77ef1c9ecf7ee99f596d77e"
+    },
+    "images/case-103-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/2352547.jpg",
+      "source_sha256": "ba2bf5f887a4bc7211fc6789a6f92258ba744a2a4e4964d81990b899c9be359b",
+      "thumbnail_sha256": "6cb879fe36a5658775fc6a9c1890fee5bdb19349e0f25ff7a375c7d3feacbbed"
+    },
+    "images/case-103-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/2352547_dog.png",
+      "source_sha256": "69f1017bef88df37b3d68880a926ac4ec501b2384be2ef515ecb85074b08cd55",
+      "thumbnail_sha256": "9a779a13b92b6e14bfb7143332ec8aa6a8f17e5994522ebe800b34843538daca"
+    },
+    "images/case-104-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/2352661.jpg",
+      "source_sha256": "2836cf408969c4a7e8bd2b04613e7561a0987eb9a062807928383bee1220ecd4",
+      "thumbnail_sha256": "2294baa18c7f055e705680fd44e43a0fc13754eb81d8e40334f34c2adc763dca"
+    },
+    "images/case-104-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/2352661_airplane.png",
+      "source_sha256": "2481925357ef8df12fa6d7443bc178034670b8fb6c355c6db5b2286fa82867b3",
+      "thumbnail_sha256": "099c9acfb7aea5c9c6c56522f0e0e158c637fceab219a1df23cbadcb843c7028"
+    },
+    "images/case-104-2.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/targets/VG/2352661_airplane/completion.png",
+      "source_sha256": "f50f86fa11aef33876bb69862d7fad54784d1a4304829628c7379828a5f340e0",
+      "thumbnail_sha256": "294ab336a7168963578942cf2401999376611bc5fc193b1bac485d8824e73505"
+    },
+    "images/case-104-3.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/surface-cohort/targets/VG/2352661_airplane/completion.png",
+      "source_sha256": "35a166ed59581cdc114e361d90e342ecd330f1a85037452830be77d1ea5a9ae3",
+      "thumbnail_sha256": "1a85cee5e919cfa56b45b35bb5cea057620da7d876b7302b3782a5b89c681c9c"
+    },
+    "images/case-105-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/2352928.jpg",
+      "source_sha256": "6c7570d2369e7e253fdc2270932f565a6e697e9ac793db132a286be010a43395",
+      "thumbnail_sha256": "a0752374e15a26fb76947d0a6ea8c311aa8c23bfd5c924508b8214ecd366bbc4"
+    },
+    "images/case-105-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/2352928_giraffe.png",
+      "source_sha256": "741e1d1b854d6f30d72e6d7e1b0c27b5adfa6eb4f33f84a7f2c8d542103dcd9d",
+      "thumbnail_sha256": "a52db4c091111bc5964fc9ffe9a662bd59e52ffbab57ca307bf7968cd2fb43b8"
+    },
+    "images/case-106-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/2353014.jpg",
+      "source_sha256": "a7c34b2d340d58b0e03fefd0a27c52c4487699583f48501f444130d46477a168",
+      "thumbnail_sha256": "2d740def973bfcdd2ff2c219f73c20a6e37b5b18501d2c94ab30c0ff1b194516"
+    },
+    "images/case-106-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/2353014_giraffe.png",
+      "source_sha256": "e57479636ec9351860f41c347ea3f89a5cea4bc71cb300fca56d1e9110888dcc",
+      "thumbnail_sha256": "40264ba6afb2968779989a4ac19d89acc7b1bed5e6134777951a93d62978ab7c"
+    },
+    "images/case-106-2.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/targets/VG/2353014_giraffe/completion.png",
+      "source_sha256": "39bf1255ebfb5b15b56127d30198fa88726b948e8d599cf1d2577005efcd4115",
+      "thumbnail_sha256": "8135e08585f108c9d4b01107b7262c1af05da3ece19c26f3738b1ac12ff8e871"
+    },
+    "images/case-106-3.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/surface-cohort/targets/VG/2353014_giraffe/completion.png",
+      "source_sha256": "00231331b2fc6647f6ff91275a004f01760369a94e4369a2a02290140f3da223",
+      "thumbnail_sha256": "3a81f6d6b89f70f487e2be620beb9aa839a3f7afe2dc6fec5ae56fff652e43d1"
+    },
+    "images/case-107-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/2353034.jpg",
+      "source_sha256": "658e290c755ed4b230f01801d8c6d6a26348c00aa6c73f65534389695e350d8e",
+      "thumbnail_sha256": "4e8ef839f3042ce9ac2bd9b51a5301448ec09f896f995e355bb002b8d4a22aa1"
+    },
+    "images/case-107-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/2353034_dog.png",
+      "source_sha256": "7659f7c031cba744fb38ee7b413f0d7dccedb3bda9c7ecd7a8297636d0df4e65",
+      "thumbnail_sha256": "9a779a13b92b6e14bfb7143332ec8aa6a8f17e5994522ebe800b34843538daca"
+    },
+    "images/case-108-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/2353468.jpg",
+      "source_sha256": "83bee4908b17596a0b6f632731ea358ff6e330dca3b922ae1c18d7fe43410337",
+      "thumbnail_sha256": "0c3c111fd4287900cb693247b27ea1196449694bd15355cce648cea5111ba9a7"
+    },
+    "images/case-108-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/2353468_dog.png",
+      "source_sha256": "171ed39b734e1b08bc3462e2eaafa955a22bb3eab00a4aba9e4ab5ba2ef1785f",
+      "thumbnail_sha256": "9a779a13b92b6e14bfb7143332ec8aa6a8f17e5994522ebe800b34843538daca"
+    },
+    "images/case-109-0.jpg": {
+      "source": "datasets/open_world_amodal/images/VG/2353868.jpg",
+      "source_sha256": "d1054dd701d8cfebee8c1b1f16068f5e00d1a385f76dc901b73ddf267a81bbc4",
+      "thumbnail_sha256": "0f92f769cbacb39da5d363a0e7a78ab725c78b316a56be5954a06960ff68a526"
+    },
+    "images/case-109-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/VG/2353868_horse.png",
+      "source_sha256": "1c9707ad1fb18034108cf1932f660b71d7cd863723459ea5c72a77cd60b25b9f",
+      "thumbnail_sha256": "6502239d24a762d7ff8374c6a0048592d84f67f0a68c395391ea59df6f0527c9"
+    },
+    "images/case-109-2.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/targets/VG/2353868_horse/completion.png",
+      "source_sha256": "7d24a33c94819c5029698e16b896301b7d01c123447e06d793bee4240301822e",
+      "thumbnail_sha256": "d2f5ffe3a50d49fde9a257c637ad514b118f371c4c4a146fc9a4452bee7ace45"
+    },
+    "images/case-109-3.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/surface-cohort/targets/VG/2353868_horse/completion.png",
+      "source_sha256": "cd5f48e210ebb263f7b28538bb8283574996582afdf081b75997d2a6851a65bd",
+      "thumbnail_sha256": "63e394c621d7302e1d6de374b14c77596de7a21f415ed5a918ed16370d32bdae"
+    },
+    "images/case-110-0.jpg": {
+      "source": "datasets/open_world_amodal/images/COCOA/COCO_train2014_000000005435.jpg",
+      "source_sha256": "269fd9c0806e2be5a7e532fc40a8f664c18861572397b6db9511c3e2d6859a33",
+      "thumbnail_sha256": "ab199cbed0397525512fea2933c1be586a347be6971cea7d0921a2a97524c03f"
+    },
+    "images/case-110-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/COCOA/COCO_train2014_000000005435_chair.png",
+      "source_sha256": "8f13b1b7ee6c9054a9be74d1b0ff9fb14ca971e5f843c6ff99067da967ecb9aa",
+      "thumbnail_sha256": "9a779a13b92b6e14bfb7143332ec8aa6a8f17e5994522ebe800b34843538daca"
+    },
+    "images/case-111-0.jpg": {
+      "source": "datasets/open_world_amodal/images/COCOA/COCO_train2014_000000008405.jpg",
+      "source_sha256": "5c22edd623e025c68a9eae564ac90cdc1ce7a6860595d62d983fbb0bcc59690c",
+      "thumbnail_sha256": "252eac5c834ad0c962849a9ebd843578b0f610df80fa9fbc8a7049475e77b475"
+    },
+    "images/case-111-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/COCOA/COCO_train2014_000000008405_flower.png",
+      "source_sha256": "bdf9bc33122be861e2478d20e8f9ebb50bed3620546e8db9bdeb7d59a501d1ce",
+      "thumbnail_sha256": "9188c5f2262c958899c08bbb4fb3a08241dc088dde0573157e0140d5517f7a4e"
+    },
+    "images/case-111-2.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/targets/COCOA/COCO_train2014_000000008405_flower/completion.png",
+      "source_sha256": "9cbf0cb1f20a122081c16d8616959902fb549a6f457d0abab959494e1f13e8e1",
+      "thumbnail_sha256": "ec30609db24fee7ec5fdcb5dd8881ceafdaf287731dd3367c2945b60f7c7d58a"
+    },
+    "images/case-111-3.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/surface-cohort/targets/COCOA/COCO_train2014_000000008405_flower/completion.png",
+      "source_sha256": "57bd5fd434da33cbc5e0d8b50b2101871ac4af6d312f8d14d4dde729dbef0cf9",
+      "thumbnail_sha256": "1231113b73f18cfc55a722f1d21829c2f9e4fa9bf9fcbcc99eb5a582b4babe26"
+    },
+    "images/case-112-0.jpg": {
+      "source": "datasets/open_world_amodal/images/COCOA/COCO_train2014_000000009199.jpg",
+      "source_sha256": "111a519f0aab055389f8f6406a9166489686142122173329fbc4df9a1c8319ef",
+      "thumbnail_sha256": "1ce5bac524a7eed38e5cb5fd880c5c908114bc38ef346566bd17fdb4bb473eb8"
+    },
+    "images/case-112-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/COCOA/COCO_train2014_000000009199_bed.png",
+      "source_sha256": "5793829ca79d20907fb73a3868f5e9f2a1e1c342d8e7461dfc13ea0d75c139f6",
+      "thumbnail_sha256": "54d96e97a31994adcdfe5daac28144871a415f94e73647a032c78a131293a3bd"
+    },
+    "images/case-112-2.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/targets/COCOA/COCO_train2014_000000009199_bed/completion.png",
+      "source_sha256": "fb7350f494a20004574e3e9a532e2ca20818b01d624d1d4b211caf94c6af3eae",
+      "thumbnail_sha256": "c6f213c3eb9fca45457b5911073bbf05fc05a8400e03530b95c18720e5c9249f"
+    },
+    "images/case-112-3.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/surface-cohort/targets/COCOA/COCO_train2014_000000009199_bed/completion.png",
+      "source_sha256": "dd5db59d772fb354a3b8a171d8843186fbb8cde01bf35c6799e0d8881507bb8e",
+      "thumbnail_sha256": "b701d7342b9f41cb86f2d5a78fffacae1ea215c296af01059e9af94e29208a71"
+    },
+    "images/case-113-0.jpg": {
+      "source": "datasets/open_world_amodal/images/COCOA/COCO_train2014_000000018377.jpg",
+      "source_sha256": "df0c1ca653c01bd2abbb2ed38b93ebe6e08f92ffa839dad8a39d3a32923c67c9",
+      "thumbnail_sha256": "a45f22767a868a4a73b686efe8ead4bb5f497463d14b0190bc8b170bf43c402b"
+    },
+    "images/case-113-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/COCOA/COCO_train2014_000000018377_bakingtray.png",
+      "source_sha256": "46c6a860802549065113c37376670c3b047f60db532ee43484c0c2b0149375d2",
+      "thumbnail_sha256": "5bf0ddd507f84585393bb8c1048abe9fabd6f486e5be0f7119fcada4d67d412f"
+    },
+    "images/case-113-2.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/targets/COCOA/COCO_train2014_000000018377_bakingtray/completion.png",
+      "source_sha256": "4f49465aa4fdb764fdd6908d78c3402d75dab38d6f84a49f3a19e942d547d22a",
+      "thumbnail_sha256": "67d6c0a269e807541f6ed47c97a1b430c20810f1993c6981f4eec46488ef3c0c"
+    },
+    "images/case-113-3.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/surface-cohort/targets/COCOA/COCO_train2014_000000018377_bakingtray/completion.png",
+      "source_sha256": "9f66f87727eb5286dd402be5091c2827876a294020e49384d78c129acfdba7c9",
+      "thumbnail_sha256": "0cac6952365ffc00d69fbbe54568140d808293790a6f5f94242821d2239d2736"
+    },
+    "images/case-114-0.jpg": {
+      "source": "datasets/open_world_amodal/images/COCOA/COCO_train2014_000000018584.jpg",
+      "source_sha256": "bece28cd07d2dba1c7b3dde8cfa59b885a25c4677d939fcddde7ab7d0a91c4bd",
+      "thumbnail_sha256": "8951f1442fd5226e3ece7d75aa08534b395cff1a4737aa09dfe7112dbe63ef8b"
+    },
+    "images/case-114-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/COCOA/COCO_train2014_000000018584_BigBen.png",
+      "source_sha256": "c52d8e4b721aef6ce0575cf0382c3aa5beee2a92b41230aa8b7b0c3ef5b35e40",
+      "thumbnail_sha256": "61596ba96ae94f12e932ab19fa84d3985dee974a67984fd661343b016f737cfb"
+    },
+    "images/case-114-2.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/targets/COCOA/COCO_train2014_000000018584_BigBen/completion.png",
+      "source_sha256": "4788f650a8e6597ce17945ff8f856d7c5da728b7af9e558662c87414a7eaf79f",
+      "thumbnail_sha256": "c700638cb26b55ee155da3e03d0413a6f85fa87286a85159db5cd7ee5e0abcc1"
+    },
+    "images/case-114-3.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/surface-cohort/targets/COCOA/COCO_train2014_000000018584_BigBen/completion.png",
+      "source_sha256": "b0a33b5845f9844cea0722fe33566acc44e3b7365d019f17143bd251b71d187b",
+      "thumbnail_sha256": "28367e4e6c3f2f2e0fcb5a37826f5b8e42301f21d00964835750ddf75be30282"
+    },
+    "images/case-115-0.jpg": {
+      "source": "datasets/open_world_amodal/images/COCOA/COCO_train2014_000000021268.jpg",
+      "source_sha256": "5abbc05268966ffcfb2fe57c14b73661b82473097d59492e03b1cdb51668590d",
+      "thumbnail_sha256": "3b8b4eaa6bddc5317df9480ce1046a7bba0cdcaf75b51d39b0c75bc4dbae7742"
+    },
+    "images/case-115-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/COCOA/COCO_train2014_000000021268_whiteplate.png",
+      "source_sha256": "d8241351bfef4d1846d6eb9f49580008b12876a2c6c2c5747ea6e173f28de32a",
+      "thumbnail_sha256": "d2481a7a998f882b2d65bf7543f6921e164ff06695337a6c9912cb43fde6cfbe"
+    },
+    "images/case-115-2.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/targets/COCOA/COCO_train2014_000000021268_whiteplate/completion.png",
+      "source_sha256": "2bcd62ce6b707d5e4c06bc28029778fd41047aa7439b73e903af508424602781",
+      "thumbnail_sha256": "3ec874d8143c2ae59d16122c4863f69a9c9dac43cf3c77e07609fa322dbe5f9d"
+    },
+    "images/case-115-3.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/surface-cohort/targets/COCOA/COCO_train2014_000000021268_whiteplate/completion.png",
+      "source_sha256": "61af787e52b870e4fae50e6003fc2de68d61ab567c0fbfb994ed730481f95103",
+      "thumbnail_sha256": "74facdfb24a077c4f05edc37c339d33f93f9902ff1a4b72eea17d0c49bf392f7"
+    },
+    "images/case-116-0.jpg": {
+      "source": "datasets/open_world_amodal/images/COCOA/COCO_train2014_000000023444.jpg",
+      "source_sha256": "22ab6cd3c49086885ecc116b87520d594c7673df078b7c7f945c69e26277d1b0",
+      "thumbnail_sha256": "cff33634e9b56fbf8c2989ae19907a1c3e85b56ec0d176742f1543c4b25d1eea"
+    },
+    "images/case-116-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/COCOA/COCO_train2014_000000023444_microwave.png",
+      "source_sha256": "a010dfd5a9df8a9a1e5e41d7f7a1dbfed8f2a96a5dba8848532bcc3e1de6b656",
+      "thumbnail_sha256": "82b4ed8ae258ac467ffc031d24801e020bfa9408913b8713d4fc17cb2a7c86d6"
+    },
+    "images/case-116-2.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/targets/COCOA/COCO_train2014_000000023444_microwave/completion.png",
+      "source_sha256": "56087f17b0b4c44cc49d3cfa28a8e22f3b6b0e14449117ee69ccd74de1f90801",
+      "thumbnail_sha256": "17c1dc7b4a6634f77520db2833e7b889991a8f9018ae0d958017c51c96c24b50"
+    },
+    "images/case-116-3.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/surface-cohort/targets/COCOA/COCO_train2014_000000023444_microwave/completion.png",
+      "source_sha256": "60fef030761935e1a7add5ebd453d6ad9a3d4c68929d41867661573d1378c2ec",
+      "thumbnail_sha256": "e3ac3a6b4d06191fc9c1fb47d5eb3b353905a7c37aeb6373149cd562bb126aa8"
+    },
+    "images/case-117-0.jpg": {
+      "source": "datasets/open_world_amodal/images/COCOA/COCO_train2014_000000024086.jpg",
+      "source_sha256": "755e4a71ff4acb1a654e0c8b824721e7894441c6cbc0e312ebc2a4798368cd10",
+      "thumbnail_sha256": "ea6518a4347216f82251a993343a3b1465740432479bd6114585ea2de4a706c8"
+    },
+    "images/case-117-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/COCOA/COCO_train2014_000000024086_plate.png",
+      "source_sha256": "adc0aeefa2498c5e93b212f485dd23bcd4e237a05f37bc8486b0a7ed30ca5da2",
+      "thumbnail_sha256": "f0b1d04a4310875cb4873cd3f621c9527297a10f66a7e9386db6effdd8d57a1c"
+    },
+    "images/case-118-0.jpg": {
+      "source": "datasets/open_world_amodal/images/COCOA/COCO_train2014_000000024672.jpg",
+      "source_sha256": "8ee3d6abb6c22ec60de39e024a61ad363793452197ee3bbbeeb92b440710f958",
+      "thumbnail_sha256": "7ee8809e8e3178c65a27a4da8d15950eeb2475d157fd984ef91c45288923b2b9"
+    },
+    "images/case-118-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/COCOA/COCO_train2014_000000024672_sofa.png",
+      "source_sha256": "9ece4b158dafa408527e78349392a0af23db4583135ec326839e2f84a0e473a5",
+      "thumbnail_sha256": "9a779a13b92b6e14bfb7143332ec8aa6a8f17e5994522ebe800b34843538daca"
+    },
+    "images/case-119-0.jpg": {
+      "source": "datasets/open_world_amodal/images/COCOA/COCO_train2014_000000024672.jpg",
+      "source_sha256": "8ee3d6abb6c22ec60de39e024a61ad363793452197ee3bbbeeb92b440710f958",
+      "thumbnail_sha256": "7ee8809e8e3178c65a27a4da8d15950eeb2475d157fd984ef91c45288923b2b9"
+    },
+    "images/case-119-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/COCOA/COCO_train2014_000000024672_whitecabinet.png",
+      "source_sha256": "9ece4b158dafa408527e78349392a0af23db4583135ec326839e2f84a0e473a5",
+      "thumbnail_sha256": "9a779a13b92b6e14bfb7143332ec8aa6a8f17e5994522ebe800b34843538daca"
+    },
+    "images/case-120-0.jpg": {
+      "source": "datasets/open_world_amodal/images/COCOA/COCO_train2014_000000040068.jpg",
+      "source_sha256": "aa857e92048b2a876a85b0183e1b616df0a6eabe2e9286e3897277a98ad67150",
+      "thumbnail_sha256": "d5546a2545b6739da2fca5e46437977e548c78ba8445dcc54483b11930883e3c"
+    },
+    "images/case-120-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/COCOA/COCO_train2014_000000040068_refrigerator.png",
+      "source_sha256": "2cd83adca9da9e2e404fb8e26edabbde990073a94d186f9a9c31923718ec9f1c",
+      "thumbnail_sha256": "7418a04a4e3e608f1e778646d8b491c2371ac9ac5c0e9e2f3f55a05db871a262"
+    },
+    "images/case-120-2.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/targets/COCOA/COCO_train2014_000000040068_refrigerator/completion.png",
+      "source_sha256": "609071103c8fa46a22e6f8594e1d062af765e32167d89fcd2fad37c03487bf34",
+      "thumbnail_sha256": "57ca292df3d83bf3b75e51f60619540be181602b4bc4a2c579c78eee43e822a5"
+    },
+    "images/case-120-3.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/surface-cohort/targets/COCOA/COCO_train2014_000000040068_refrigerator/completion.png",
+      "source_sha256": "f1c2093f2824d4374b9f2bd5a54274ecd4700a7c0c8ab6e00ab0591e4abd5491",
+      "thumbnail_sha256": "bbf847fe284daba4a489f263fc055f3358a348d48606895359b855c02c67db3d"
+    },
+    "images/case-121-0.jpg": {
+      "source": "datasets/open_world_amodal/images/COCOA/COCO_train2014_000000064111.jpg",
+      "source_sha256": "e2acf0882dda8d971f35f9ff59d0ca035b2ba6048faa3f7171b2e32ee0a10f0b",
+      "thumbnail_sha256": "61c048dc63a19a92714a45c03f7679c384883b83da1f6b4c88e36a7721fe2b24"
+    },
+    "images/case-121-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/COCOA/COCO_train2014_000000064111_toilet.png",
+      "source_sha256": "1c02b7b9a3fdf57385194a42b0b4b4e1a8c6a03249753555173b9a0bd416ef84",
+      "thumbnail_sha256": "519e68ea0b1128c09c2adf54e058725af3fa90de56449be0f08f61ff70c861d7"
+    },
+    "images/case-121-2.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/targets/COCOA/COCO_train2014_000000064111_toilet/completion.png",
+      "source_sha256": "9151b13995a50e41c41df96909e1d994d30f8d2da61a64abe3866b84f45b2ba7",
+      "thumbnail_sha256": "6a37dff9733565b6c8cc4e470fab6d75cb0da9b490510fcff646ceaa8e335107"
+    },
+    "images/case-121-3.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/surface-cohort/targets/COCOA/COCO_train2014_000000064111_toilet/completion.png",
+      "source_sha256": "7a926221cb8a31c5cb8f5613dd6dc0c6316d7cc56128bdebc6ceb2df641cc37c",
+      "thumbnail_sha256": "44be0c162696d85d97bfb5526c4b13a2fcabbede8d43677fba19940ce0159939"
+    },
+    "images/case-122-0.jpg": {
+      "source": "datasets/open_world_amodal/images/COCOA/COCO_train2014_000000095111.jpg",
+      "source_sha256": "a4614df1bceacbdabb23661c2c40e5c04f66bb14a3866f128c089de2212413c5",
+      "thumbnail_sha256": "43c1397ba6e8bfd8d2e4bc20a1459d2c4b8469fc6a958707e68e9519df26c0cb"
+    },
+    "images/case-122-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/COCOA/COCO_train2014_000000095111_elephant.png",
+      "source_sha256": "cdb432a697c85b1eb6c534e27e28d92c0c1d7b8f129d50cdd92cd4354658dc79",
+      "thumbnail_sha256": "9a779a13b92b6e14bfb7143332ec8aa6a8f17e5994522ebe800b34843538daca"
+    },
+    "images/case-123-0.jpg": {
+      "source": "datasets/open_world_amodal/images/COCOA/COCO_train2014_000000096378.jpg",
+      "source_sha256": "72f2231747cf717bc3f54fbfbbfde920e5e1bd39504ff1257dc1dfbec5f590ea",
+      "thumbnail_sha256": "c311e82a73291142905fdb4faa1c485ca4f9cea4527486065d7852fff3f97e1e"
+    },
+    "images/case-123-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/COCOA/COCO_train2014_000000096378_sheep.png",
+      "source_sha256": "891211772c580c211c931579cd4449aa638cb8fc7e0970266362c6ab906f438c",
+      "thumbnail_sha256": "9a779a13b92b6e14bfb7143332ec8aa6a8f17e5994522ebe800b34843538daca"
+    },
+    "images/case-124-0.jpg": {
+      "source": "datasets/open_world_amodal/images/COCOA/COCO_train2014_000000108113.jpg",
+      "source_sha256": "51aa5e399dbd33e263a9f62cde0dea929a7c5c4824fdc3b63985e1cc3744ddba",
+      "thumbnail_sha256": "e722076c683905a57acf6dd3fad0604288b40be1ae0fa9d544ed80f99a6818eb"
+    },
+    "images/case-124-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/COCOA/COCO_train2014_000000108113_dog.png",
+      "source_sha256": "b25e960c79581a03ff0ab8fbbdd8209de17158ca159c30d72fdddd93fea36451",
+      "thumbnail_sha256": "ebdafedbe90d84c7e604a73d21c9b21f5ec3f787cfb9aa14e2fcc09b94aa060f"
+    },
+    "images/case-124-2.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/targets/COCOA/COCO_train2014_000000108113_dog/completion.png",
+      "source_sha256": "82fcfabb7b8beaa12b5350710595726159f73dca4f7d133d01c53e2b8e075faf",
+      "thumbnail_sha256": "4c8ba7863583d9c3faac6ed98c2e8157de6a06982153c7dbc7af2be03b106e4b"
+    },
+    "images/case-124-3.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/surface-cohort/targets/COCOA/COCO_train2014_000000108113_dog/completion.png",
+      "source_sha256": "bcb485eb0b548c76a803051f1c55fcb90fbd71822316fd726b2d003f03de437f",
+      "thumbnail_sha256": "e8e4506486d9623dee742492441f1a92c95c54231aa5e893a1df0a72489283a8"
+    },
+    "images/case-125-0.jpg": {
+      "source": "datasets/open_world_amodal/images/COCOA/COCO_train2014_000000145259.jpg",
+      "source_sha256": "81c8a334f3cb04799c4590ad8e9d9b33913f140a513abfa91ba3d69c837be558",
+      "thumbnail_sha256": "a8cfcf59e75ed7e9261f8127cf68472a97bd399bd033f1ed2a58d82cc49c07ee"
+    },
+    "images/case-125-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/COCOA/COCO_train2014_000000145259_elephant.png",
+      "source_sha256": "641c86ca4de3148537c63f999a6a799320fd45dba6dcfe8423588961c6ccc64a",
+      "thumbnail_sha256": "117783e79906a088f0bbc48c98c0a10c1643023be9b9adc71de9cab5d7f35d7d"
+    },
+    "images/case-126-0.jpg": {
+      "source": "datasets/open_world_amodal/images/COCOA/COCO_train2014_000000155108.jpg",
+      "source_sha256": "bdf83054ac08a6aa67a62604424e83d8a1364184b725a771603d7aca21bfd97a",
+      "thumbnail_sha256": "2772ae57f1c8d59eab73497e8cd788801c782be980c15e30b0f1367f459347ca"
+    },
+    "images/case-126-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/COCOA/COCO_train2014_000000155108_Christmastree.png",
+      "source_sha256": "3398d98f72db3054f62d147bb6ab25eeb1609f96a8d06730476d122eb2fecb35",
+      "thumbnail_sha256": "7c14623877fe207ba3251b2982fd5a2b6192088c4f243b7db342c061a0c215f3"
+    },
+    "images/case-126-2.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/targets/COCOA/COCO_train2014_000000155108_Christmastree/completion.png",
+      "source_sha256": "78ebc8a06fc2a9fe29b6ca97f5b6c4b81f8ea5ac51db46ddd5c2666d2af8e6fd",
+      "thumbnail_sha256": "9a70989628effcdd8810ab8c387e3a185c04526039fd76ee17ebf0d7074b1ad7"
+    },
+    "images/case-126-3.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/surface-cohort/targets/COCOA/COCO_train2014_000000155108_Christmastree/completion.png",
+      "source_sha256": "12c3d78e3aa235d6f50397c07a3b07177d64af7eaaf3c37297cbd3eb84fdded0",
+      "thumbnail_sha256": "f46a2fd435b0a7a5cf5f69dd90b42dedcae8bd26424ddbcbfc82d7e6f5bb5cd7"
+    },
+    "images/case-127-0.jpg": {
+      "source": "datasets/open_world_amodal/images/COCOA/COCO_train2014_000000169878.jpg",
+      "source_sha256": "575d8d6624d696b2f6910e1b85dfefa372706f0654f4e1e2c0d91e5473785715",
+      "thumbnail_sha256": "594e141a9a91785ea5d78b6be0d0863ed408f17b6394aaecf14d65da0fb42699"
+    },
+    "images/case-127-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/COCOA/COCO_train2014_000000169878_redbucket.png",
+      "source_sha256": "693a5ee81e6b519872e6ec6c6c9d9d62232a21cfa29fb785bbd290ad4d1b8ee8",
+      "thumbnail_sha256": "f45d1a020e7a8191b07b9d82eb83d56a554368eb9f980e7b1551eed52e3cf4a0"
+    },
+    "images/case-128-0.jpg": {
+      "source": "datasets/open_world_amodal/images/COCOA/COCO_train2014_000000182020.jpg",
+      "source_sha256": "bcbb0ea440edbab2d0de354a63a9b954700a7b49f27ad78e5362d8d3b752531a",
+      "thumbnail_sha256": "617d57649b01f25f3d3d33a9d25f0f895e161385d59f3dab7c7a11e9eb672032"
+    },
+    "images/case-128-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/COCOA/COCO_train2014_000000182020_grayscarfontheleft.png",
+      "source_sha256": "81b49834d339b10295f649369ffbb99583999cb1fdc8af43b33b8a57243d4702",
+      "thumbnail_sha256": "a73d7e04f12911b45c74b2c413b909caf15d8da3cf039efc5deaa54428fb7192"
+    },
+    "images/case-128-2.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/targets/COCOA/COCO_train2014_000000182020_grayscarfontheleft/completion.png",
+      "source_sha256": "1c51cc1fc13ee0d10bb61893a99e8e0eb1279349bb40ece1569b12e813e59525",
+      "thumbnail_sha256": "2103361bbb94b5f8ffb067f9a311cd2f3b66a0461c10e97a1a1b42534edc77dc"
+    },
+    "images/case-128-3.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/surface-cohort/targets/COCOA/COCO_train2014_000000182020_grayscarfontheleft/completion.png",
+      "source_sha256": "b723c42f03e8487a9304d4bf4fa354bae24159999ebc1bd8049ffc6620e6dd0d",
+      "thumbnail_sha256": "329d512d91ce67aea2f052ae1b8a53f18c2d6cbf470577c44e9300afaeb349f4"
+    },
+    "images/case-129-0.jpg": {
+      "source": "datasets/open_world_amodal/images/COCOA/COCO_train2014_000000182020.jpg",
+      "source_sha256": "bcbb0ea440edbab2d0de354a63a9b954700a7b49f27ad78e5362d8d3b752531a",
+      "thumbnail_sha256": "617d57649b01f25f3d3d33a9d25f0f895e161385d59f3dab7c7a11e9eb672032"
+    },
+    "images/case-129-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/COCOA/COCO_train2014_000000182020_cat.png",
+      "source_sha256": "ea639b0b2477f6be0c4ccdf09f435b8333bba3fcad262db943b9a1a0e0496bd5",
+      "thumbnail_sha256": "2d4c61e3b285ef69eb34c95dd0458a504db62f1eff417f32dc84a2c622dc62e1"
+    },
+    "images/case-130-0.jpg": {
+      "source": "datasets/open_world_amodal/images/COCOA/COCO_train2014_000000201115.jpg",
+      "source_sha256": "42507150c6730708c7f8834c87bb7f568376153d7ff6921554a622ddaf94069f",
+      "thumbnail_sha256": "222f5c50326c259e895c8884f95cd338b83b99dc89428edfa581384d2d248da8"
+    },
+    "images/case-130-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/COCOA/COCO_train2014_000000201115_sprinkler.png",
+      "source_sha256": "d4b766716c2d43384ee3530c9a76681f9a2c4d16441d312f463c0668b562ed77",
+      "thumbnail_sha256": "751672fcff5b91e23a984fa305edcc3bd6880fc08d7fe3df39a33b95e34ca017"
+    },
+    "images/case-130-2.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/targets/COCOA/COCO_train2014_000000201115_sprinkler/completion.png",
+      "source_sha256": "1a26e4da6ebb73cf8138e83f7a491d7d27965b8b14dc2fc3a97f380d819a274d",
+      "thumbnail_sha256": "f59225cb1372427708e3d61b0376475d4fd709a1b6e325e1daa42b2c280afb60"
+    },
+    "images/case-130-3.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/surface-cohort/targets/COCOA/COCO_train2014_000000201115_sprinkler/completion.png",
+      "source_sha256": "a04582ce774c7e4e02d3087c84d5b34ea64a4175365e93d44db26db14fe39c06",
+      "thumbnail_sha256": "1adb3cf4152b2ce0cecc74dbb559d6c1302a8eeff8b4477eaceb07627b0cbf17"
+    },
+    "images/case-131-0.jpg": {
+      "source": "datasets/open_world_amodal/images/COCOA/COCO_train2014_000000205963.jpg",
+      "source_sha256": "5226c722d9bb64c60fd760fa2c14259bfe474640b1855857f9353a7d62e6acbd",
+      "thumbnail_sha256": "70e4ddae5938f75431ea21fcbe84b07364b36d59ebb904e7c3650486f693a0ef"
+    },
+    "images/case-131-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/COCOA/COCO_train2014_000000205963_bluesuitcase.png",
+      "source_sha256": "010983d0208b46b5d7b0d368bf8f1ad0ed7764e28e9587bfd687cffe83ee55c0",
+      "thumbnail_sha256": "9a779a13b92b6e14bfb7143332ec8aa6a8f17e5994522ebe800b34843538daca"
+    },
+    "images/case-132-0.jpg": {
+      "source": "datasets/open_world_amodal/images/COCOA/COCO_train2014_000000230515.jpg",
+      "source_sha256": "23c677939b77361f40e8ea72aa127a3ab87f19e3f7b0c44e9727a33ca98860a7",
+      "thumbnail_sha256": "ea63c8c690668ed40284b832e7d2e8119fd69a7b12557ad49e2d9157f93477ec"
+    },
+    "images/case-132-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/COCOA/COCO_train2014_000000230515_elephant.png",
+      "source_sha256": "50043cea06d9b217e03eb7eee214b2f5dfa6c29e180f4ffcc0942205e08da9b3",
+      "thumbnail_sha256": "9a779a13b92b6e14bfb7143332ec8aa6a8f17e5994522ebe800b34843538daca"
+    },
+    "images/case-133-0.jpg": {
+      "source": "datasets/open_world_amodal/images/COCOA/COCO_train2014_000000238843.jpg",
+      "source_sha256": "ca540652c9e39e3e46b59a165face612253ce3a1dee064731034096f55da436b",
+      "thumbnail_sha256": "b03bf2989fb2c30a2a6f51282b14da19e4242cdd5c2d67c4cc807c9702540aca"
+    },
+    "images/case-133-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/COCOA/COCO_train2014_000000238843_giraffe.png",
+      "source_sha256": "ad462715a572373dd6c0e0e06828ea1e53e43aa32c1ee6d45ff82bffd6402089",
+      "thumbnail_sha256": "7d8a160bf5759de9038a1ddfcd67b4cc61aa15021306b0bfc68b11ebe3dedaac"
+    },
+    "images/case-134-0.jpg": {
+      "source": "datasets/open_world_amodal/images/COCOA/COCO_train2014_000000283624.jpg",
+      "source_sha256": "1c629f30df52be5ed27ca3d9928b387b0aad11bafbc5bdb40b44bb7c2317ed80",
+      "thumbnail_sha256": "59e7545467c404d071ac327ee6d8a51d1edccc5ebf694957f396ca32538d0753"
+    },
+    "images/case-134-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/COCOA/COCO_train2014_000000283624_dog.png",
+      "source_sha256": "68496d440c0bc0136d2081efdee1cdfdcfcae5b9d3f8d99f2c5b16e6708b0eef",
+      "thumbnail_sha256": "9a779a13b92b6e14bfb7143332ec8aa6a8f17e5994522ebe800b34843538daca"
+    },
+    "images/case-135-0.jpg": {
+      "source": "datasets/open_world_amodal/images/COCOA/COCO_train2014_000000317896.jpg",
+      "source_sha256": "be4b34af4a368e2d86885b02348b2f282b16fff8b78f250f6658902bccb418de",
+      "thumbnail_sha256": "edb8e9ec9b629906a3b8450abd096f89cdb90518062147c7d8782c8e874f7c2c"
+    },
+    "images/case-135-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/COCOA/COCO_train2014_000000317896_fryingpan.png",
+      "source_sha256": "a85d907b93ebfa39c55ae04bd2422511adc8497b91ac1b9c9f7e9177233b6a30",
+      "thumbnail_sha256": "822ec93aeb595924e9e77a676b2461d1d09d062d004310525d752e57fb46307c"
+    },
+    "images/case-135-2.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/targets/COCOA/COCO_train2014_000000317896_fryingpan/completion.png",
+      "source_sha256": "c38ad80bfefe01e48c0920c0395a89f4cfc9ff082625607123eaf1592cd15aa1",
+      "thumbnail_sha256": "8dc7494757872d21f26622d8d6adfc38723b7385da9d4ba37f4cb747f9a81be2"
+    },
+    "images/case-135-3.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/surface-cohort/targets/COCOA/COCO_train2014_000000317896_fryingpan/completion.png",
+      "source_sha256": "2fb8ab3fc7e07c580792703d9b36abeb4f1bb2dd85170bad44c1aa775a95230c",
+      "thumbnail_sha256": "b5037fde18e02acb4224db18e96a34b9398c47080121eb0569bb00fb4154df1b"
+    },
+    "images/case-136-0.jpg": {
+      "source": "datasets/open_world_amodal/images/COCOA/COCO_train2014_000000387318.jpg",
+      "source_sha256": "1ae544176b58f26423b8aac46cbe1bc73d250b45d54ce712cc9f98deffb36c1b",
+      "thumbnail_sha256": "6c6064f8af42514e4c0ac43da8c4c6f684853556249833ad70e31af743a0e6d8"
+    },
+    "images/case-136-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/COCOA/COCO_train2014_000000387318_woodentray.png",
+      "source_sha256": "442ce5d58ec0c07cd63a7548f515f7c7aec50d9b683c98195571cafd89d47550",
+      "thumbnail_sha256": "3ab808b94ab239f7a2c6fb3eafbad6634d0103bb7cb14101cb86db9792014576"
+    },
+    "images/case-136-2.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/targets/COCOA/COCO_train2014_000000387318_woodentray/completion.png",
+      "source_sha256": "eb61b192d68e8e266c1c138165beac57ca270533c85f742838f5fe4cf8202f72",
+      "thumbnail_sha256": "271b20794f953416d246c94899ee9ed2f645d23a3cd07564b40d7401bd78b813"
+    },
+    "images/case-136-3.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/surface-cohort/targets/COCOA/COCO_train2014_000000387318_woodentray/completion.png",
+      "source_sha256": "113cd95aa59bd0069f9378457f53c2e315a2d0b94905df6619722378e5105e06",
+      "thumbnail_sha256": "d77ac50ec348bfc077a0126c283f205d12d91af0710b1df662b2503935ba7489"
+    },
+    "images/case-137-0.jpg": {
+      "source": "datasets/open_world_amodal/images/COCOA/COCO_train2014_000000403687.jpg",
+      "source_sha256": "23e6236a7014606a91860ade909fe68ead0cece510d57be56c78f12f94f8be5b",
+      "thumbnail_sha256": "9b8be3ec16d044d480c1eade5d2972b3b34fd0d4e166f21c7564c9743bb4d6b2"
+    },
+    "images/case-137-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/COCOA/COCO_train2014_000000403687_dog.png",
+      "source_sha256": "3eb0c954fb54d962ebdcd27445808d2bd26d549ce13b9fcba97a4fc7f6dc48cd",
+      "thumbnail_sha256": "9a779a13b92b6e14bfb7143332ec8aa6a8f17e5994522ebe800b34843538daca"
+    },
+    "images/case-138-0.jpg": {
+      "source": "datasets/open_world_amodal/images/COCOA/COCO_train2014_000000430753.jpg",
+      "source_sha256": "46f755c342f908f90b8a865f7ae99d3b0121e18444bda72ac53c25d98a3460dd",
+      "thumbnail_sha256": "e68f9bfc461c8ad18db4e64af2c78bbef4ed8bf4ead2526e4c24c69af8df9dc6"
+    },
+    "images/case-138-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/COCOA/COCO_train2014_000000430753_knife.png",
+      "source_sha256": "46b5ad7623dc8c821b77b38aedf176acfd6c9642915d5f192c30bc4cb818fb12",
+      "thumbnail_sha256": "20102506343351eaa483bc97996dd1753ac5f4902d97268ebc390abc016ab5e1"
+    },
+    "images/case-139-0.jpg": {
+      "source": "datasets/open_world_amodal/images/COCOA/COCO_train2014_000000432892.jpg",
+      "source_sha256": "74fe518f2e86f02c90dafa58c9df9d7a36aa74984ebede51bae8cccd292d145c",
+      "thumbnail_sha256": "40adc3ecdd1809489a1afb20902df126f733a896bcc36108e7070af8ae80269e"
+    },
+    "images/case-139-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/COCOA/COCO_train2014_000000432892_television.png",
+      "source_sha256": "223b4f70bca62dd679ba9765ff97928674bd3633c3d6a7d78c7928a9b1ec753f",
+      "thumbnail_sha256": "6392758991de4bddd4ecd472bf269a39509cd991833807aff7263c4bf5abae5b"
+    },
+    "images/case-140-0.jpg": {
+      "source": "datasets/open_world_amodal/images/COCOA/COCO_train2014_000000453260.jpg",
+      "source_sha256": "5c5e76561e3fb63c565c095cdf8824f4742f53420ec48adb59027abd774f8f7c",
+      "thumbnail_sha256": "908d6f17c57cc88be385d1b5707e62d4b8faa9e7b7004b1e14c47f4fc636e5ff"
+    },
+    "images/case-140-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/COCOA/COCO_train2014_000000453260_toilet.png",
+      "source_sha256": "8e9de9b2b49a085562033a9e53b17a561451fcdd425c1e24971964c2c7a30144",
+      "thumbnail_sha256": "d1bb4d29f81093d47399a96a3fba6be13af52d2d04ce2768bdc7f1ea3ed23098"
+    },
+    "images/case-141-0.jpg": {
+      "source": "datasets/open_world_amodal/images/COCOA/COCO_train2014_000000474446.jpg",
+      "source_sha256": "b51bfdf58d8ae6c484e60fe45ad5addb554801bd37e5a61c5a1e419da990d262",
+      "thumbnail_sha256": "8001160219f6e475751cd27271bab123e4a178d62bc692f5789e1e372edd032a"
+    },
+    "images/case-141-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/COCOA/COCO_train2014_000000474446_dog.png",
+      "source_sha256": "4abfc5e479d5c1a4eee9ce8f7d4f052539978e184de22ad2aa9295245f63deda",
+      "thumbnail_sha256": "9a779a13b92b6e14bfb7143332ec8aa6a8f17e5994522ebe800b34843538daca"
+    },
+    "images/case-142-0.jpg": {
+      "source": "datasets/open_world_amodal/images/COCOA/COCO_train2014_000000474446.jpg",
+      "source_sha256": "b51bfdf58d8ae6c484e60fe45ad5addb554801bd37e5a61c5a1e419da990d262",
+      "thumbnail_sha256": "8001160219f6e475751cd27271bab123e4a178d62bc692f5789e1e372edd032a"
+    },
+    "images/case-142-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/COCOA/COCO_train2014_000000474446_keyboard.png",
+      "source_sha256": "4abfc5e479d5c1a4eee9ce8f7d4f052539978e184de22ad2aa9295245f63deda",
+      "thumbnail_sha256": "9a779a13b92b6e14bfb7143332ec8aa6a8f17e5994522ebe800b34843538daca"
+    },
+    "images/case-143-0.jpg": {
+      "source": "datasets/open_world_amodal/images/COCOA/COCO_train2014_000000486609.jpg",
+      "source_sha256": "ca4e95c015ff608819f23f4e91802172ffba41084e7a8c8eb8825d032ee8a4a5",
+      "thumbnail_sha256": "d7d2b5b90c7f9f24fe876d7f27908996d54489551748bd1bf2970457805aab04"
+    },
+    "images/case-143-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/COCOA/COCO_train2014_000000486609_plate.png",
+      "source_sha256": "439023392b7faa57cf863818cec63cf465d1ae9f0024c9b8c25f210467ff752a",
+      "thumbnail_sha256": "df691d27a6b73d68e9b36aee9796529729dd14c9b8baf3a34fc3339eef287a61"
+    },
+    "images/case-143-2.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/targets/COCOA/COCO_train2014_000000486609_plate/completion.png",
+      "source_sha256": "145c9092289fffc36c05dd5e38771cd876dac92e8d051de95c2b83a1774b9a57",
+      "thumbnail_sha256": "baa4a88bfb676eed14603b7267623e2950f03b52d95fb51a7b603f6f76240692"
+    },
+    "images/case-143-3.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/surface-cohort/targets/COCOA/COCO_train2014_000000486609_plate/completion.png",
+      "source_sha256": "17f61a0c8d72b2479c5ade730667f37d8b1f421d217db416cd9155385db004f9",
+      "thumbnail_sha256": "537b8e28d8e18a43f9b8bdf15a3998c7e49e44f1c9eed0efed3924967bb00744"
+    },
+    "images/case-144-0.jpg": {
+      "source": "datasets/open_world_amodal/images/COCOA/COCO_train2014_000000502140.jpg",
+      "source_sha256": "f29feabab498a27f761b308201d4d857bc82dc3f96a957dacff05d827e0df0c2",
+      "thumbnail_sha256": "973620e243b4555d0d45069a8a95bf2105d9c0800191eeb1ced1facb36e7b472"
+    },
+    "images/case-144-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/COCOA/COCO_train2014_000000502140_surfboard.png",
+      "source_sha256": "7caccb1dc3171ede163a0ec5e1c5fcb6cd71f4df41dd0718d2a444cc6c2a2d79",
+      "thumbnail_sha256": "9a779a13b92b6e14bfb7143332ec8aa6a8f17e5994522ebe800b34843538daca"
+    },
+    "images/case-145-0.jpg": {
+      "source": "datasets/open_world_amodal/images/COCOA/COCO_train2014_000000526029.jpg",
+      "source_sha256": "d8906981e89702d8acc8165c0b1d7eb4ed4cb7e8d9ec6b56e1d04331bff78407",
+      "thumbnail_sha256": "9d035abc6452696ea053c396812c8bf02c0de8bbc4763fb2c67581c839130baa"
+    },
+    "images/case-145-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/COCOA/COCO_train2014_000000526029_greensuitcase.png",
+      "source_sha256": "2355c14d9197094814d6a963f411bea17df0b36e328ee50ece28b0914f0eb0ce",
+      "thumbnail_sha256": "9a779a13b92b6e14bfb7143332ec8aa6a8f17e5994522ebe800b34843538daca"
+    },
+    "images/case-146-0.jpg": {
+      "source": "datasets/open_world_amodal/images/COCOA/COCO_train2014_000000526029.jpg",
+      "source_sha256": "d8906981e89702d8acc8165c0b1d7eb4ed4cb7e8d9ec6b56e1d04331bff78407",
+      "thumbnail_sha256": "9d035abc6452696ea053c396812c8bf02c0de8bbc4763fb2c67581c839130baa"
+    },
+    "images/case-146-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/COCOA/COCO_train2014_000000526029_blacksuitcase.png",
+      "source_sha256": "2355c14d9197094814d6a963f411bea17df0b36e328ee50ece28b0914f0eb0ce",
+      "thumbnail_sha256": "9a779a13b92b6e14bfb7143332ec8aa6a8f17e5994522ebe800b34843538daca"
+    },
+    "images/case-147-0.jpg": {
+      "source": "datasets/open_world_amodal/images/COCOA/COCO_train2014_000000561565.jpg",
+      "source_sha256": "c4766cdadef3316996bb81a6518460d9ef29a0c3895b678eda0b633a0d675048",
+      "thumbnail_sha256": "b7fda9a7dff3fbecdd47acd666e7862d17def2cf256661b0dd4bdbac04fa7f71"
+    },
+    "images/case-147-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/COCOA/COCO_train2014_000000561565_zebra.png",
+      "source_sha256": "b01bd517176d1719c5e3461241f2fd7efd219ff22b0f56afd613778b798a0628",
+      "thumbnail_sha256": "532e977272177b1384dc7018ec21fefb7e42c7b31dc02bf75ca6767d6f486c17"
+    },
+    "images/case-148-0.jpg": {
+      "source": "datasets/open_world_amodal/images/COCOA/COCO_train2014_000000564978.jpg",
+      "source_sha256": "6cb0d62a553f46c3337134365f651c40249bc10f201ed1b33ecc125efbd3d692",
+      "thumbnail_sha256": "36f8ba16525ee4a9dcdf695976b122788c0798784599f61dbb6f1f41c1ea9c35"
+    },
+    "images/case-148-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/COCOA/COCO_train2014_000000564978_displayscreen.png",
+      "source_sha256": "0fc90e0259f984419a1f6cef88e63b9f47f6e80ccfc844e80aa073b23d1253d0",
+      "thumbnail_sha256": "9a779a13b92b6e14bfb7143332ec8aa6a8f17e5994522ebe800b34843538daca"
+    },
+    "images/case-149-0.jpg": {
+      "source": "datasets/open_world_amodal/images/COCOA/COCO_test2014_000000061511.jpg",
+      "source_sha256": "ece903551e00129aaeb4ebe31d06e32e6bbe65fb93cbc0ce48005218763ef75b",
+      "thumbnail_sha256": "4a192407b07d7d998b051d9364ec9a2b1d99eda6d913d4116cafee41527821e0"
+    },
+    "images/case-149-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/COCOA/COCO_test2014_000000061511_bench.png",
+      "source_sha256": "f79a04b8182b1c54d18d65f3085c4d6088ffc2634d03137eb4bc5aec657e9081",
+      "thumbnail_sha256": "16824dadd8847c503c750b0b92160e2285868d4dc2277ad41355ac31e2eb256f"
+    },
+    "images/case-150-0.jpg": {
+      "source": "datasets/open_world_amodal/images/COCOA/COCO_test2014_000000260571.jpg",
+      "source_sha256": "db5b26c08a969f9955abecaa69fa1584096b1729f1478c2371a7dd984f833fd2",
+      "thumbnail_sha256": "4fdc3339b56427f4eebaf85a75e2f8cfb872aa305281bc5bbbecaa46156dd04f"
+    },
+    "images/case-150-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/COCOA/COCO_test2014_000000260571_cat.png",
+      "source_sha256": "3d1b4cde37ea9d48c4cb6ff33112bdd53409a0839dcb94b7ace7fc1d35fde588",
+      "thumbnail_sha256": "5a5110f492f3001221ef5bb9a9ea1b8b644dd9119325843f33318089fa608f93"
+    },
+    "images/case-151-0.jpg": {
+      "source": "datasets/open_world_amodal/images/COCOA/COCO_test2014_000000267439.jpg",
+      "source_sha256": "5834245c9bc88b3378514f88a76f01f11b7f96dec4814ebf91717dd8f585dc54",
+      "thumbnail_sha256": "934342868be3d26f1054c00306ce17910a6e329fef87ff96fc03814a18457ab3"
+    },
+    "images/case-151-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/COCOA/COCO_test2014_000000267439_suitcase.png",
+      "source_sha256": "7e1d8832aa23aff3b44e7284188b36da61c50bff4c5bda0d96a92864d696716a",
+      "thumbnail_sha256": "adf6a95779205f0023c9979d24be9501a53f56a9d49309348573cb8593ac6760"
+    },
+    "images/case-152-0.jpg": {
+      "source": "datasets/open_world_amodal/images/COCOA/COCO_test2014_000000296835.jpg",
+      "source_sha256": "79fc2adc87c695f3d90cc6165bb456507d99bf2f5b736eccacd13bcb91c1decf",
+      "thumbnail_sha256": "12e04ee988ecc054bd901d7b8b2aaffe6639338e67b333f64f9402f313cf06fe"
+    },
+    "images/case-152-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/COCOA/COCO_test2014_000000296835_toothbrush.png",
+      "source_sha256": "bb80e8a9bd24c26bb42e0493fd58d06c2cfa38d222c6ce2948aa49b2db87c2da",
+      "thumbnail_sha256": "c66b095a81468bb36bf01d83f0ebc4503d073ae9e055b8bfad6f0274de002381"
+    },
+    "images/case-152-2.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/targets/COCOA/COCO_test2014_000000296835_toothbrush/completion.png",
+      "source_sha256": "aa94b5ca6ea5dde0e5c8b37cdf82453aa6b820c5412b23863f670721ffe8bb7b",
+      "thumbnail_sha256": "47268e502ff7491654151aa440118d5350b0102e7e4d5c12a93c11113e24486c"
+    },
+    "images/case-152-3.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/surface-cohort/targets/COCOA/COCO_test2014_000000296835_toothbrush/completion.png",
+      "source_sha256": "9f9716d15dbfeeedd686a4ca4002edc11240217211b0ba42c3577bdf142cb877",
+      "thumbnail_sha256": "0b7e3fc80d961961327ec516dfc1389dde2134669f0a6004a11f4b3f983cf702"
+    },
+    "images/case-153-0.jpg": {
+      "source": "datasets/open_world_amodal/images/COCOA/COCO_test2014_000000296835.jpg",
+      "source_sha256": "79fc2adc87c695f3d90cc6165bb456507d99bf2f5b736eccacd13bcb91c1decf",
+      "thumbnail_sha256": "12e04ee988ecc054bd901d7b8b2aaffe6639338e67b333f64f9402f313cf06fe"
+    },
+    "images/case-153-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/COCOA/COCO_test2014_000000296835_book.png",
+      "source_sha256": "dfaba64bd61248cd44406db7d6368acb20a5ad9cfef5dcea5ad8b86a0ab2da13",
+      "thumbnail_sha256": "e8de34da9ee1956871fbe8cd92c67ef0646d354c43c36113eae2877518653148"
+    },
+    "images/case-153-2.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/targets/COCOA/COCO_test2014_000000296835_book/completion.png",
+      "source_sha256": "3120045bcc8a617aa5a309dfeedec0a80c03c6b7711727649f799c406a6d6e0a",
+      "thumbnail_sha256": "ed39a32a8c6f7f70af7180b909de05a3dee920988c6aca90e3f99a13ba79228e"
+    },
+    "images/case-153-3.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/surface-cohort/targets/COCOA/COCO_test2014_000000296835_book/completion.png",
+      "source_sha256": "54ed15f623eaa303c56b21233c1e48627fa185799a8a672d0ef7ea0fc717c904",
+      "thumbnail_sha256": "e5d899dc17325e10769eeeea6bc332f907a437a4470ac509661cabdedbd5e5fd"
+    },
+    "images/case-154-0.jpg": {
+      "source": "datasets/open_world_amodal/images/COCOA/COCO_val2014_000000058797.jpg",
+      "source_sha256": "1efac5128e17cc60946745f0383e37ab8e103407e70be22f60647d5cbfa1ccf6",
+      "thumbnail_sha256": "0db51c72380b27fcce101ea53ed9e44838c88262b50026f2842457430b3ff105"
+    },
+    "images/case-154-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/COCOA/COCO_val2014_000000058797_toilet.png",
+      "source_sha256": "75d624c5481e356eee89ca025561879258a7519f5507f8dc8bebb88ed504c468",
+      "thumbnail_sha256": "5e1e88041138f7b2e04a3d64244725382bc1f270c2a34129ba4ed5f7aafcef67"
+    },
+    "images/case-154-2.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/targets/COCOA/COCO_val2014_000000058797_toilet/completion.png",
+      "source_sha256": "dd99d4ce97678ad127bf1d70181a9a2de3ce3154eca09a978331252f22ac0d2f",
+      "thumbnail_sha256": "e1ea2c8406efd97e353d4007c928938c7e66f9203aa17e7730b2b28490aa9f2d"
+    },
+    "images/case-154-3.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/surface-cohort/targets/COCOA/COCO_val2014_000000058797_toilet/completion.png",
+      "source_sha256": "221f13dd25a83bfaa813d1a515eeb266cfd2574dabb4f9e54bccddbcd8b0b08a",
+      "thumbnail_sha256": "d8f44db4cb107c9aaeeebba6aff06cf7b1bf5e6f407d734fc71d472ee345ac93"
+    },
+    "images/case-155-0.jpg": {
+      "source": "datasets/open_world_amodal/images/COCOA/COCO_val2014_000000065433.jpg",
+      "source_sha256": "baf76b4c198a96cee076ef6ae5a61e3af9c826bfaa94a79b8f43546b03cceb0a",
+      "thumbnail_sha256": "fbb1b0118134b1cc449f09e0c463acc93754d3a5f0082389cd4e6cbece5e61da"
+    },
+    "images/case-155-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/COCOA/COCO_val2014_000000065433_dog.png",
+      "source_sha256": "97249bedf636573ce86a490ea967c8689cda8c212d2c6f9ae4114b8ae89d0bd4",
+      "thumbnail_sha256": "9a779a13b92b6e14bfb7143332ec8aa6a8f17e5994522ebe800b34843538daca"
+    },
+    "images/case-156-0.jpg": {
+      "source": "datasets/open_world_amodal/images/COCOA/COCO_val2014_000000088250.jpg",
+      "source_sha256": "48de16fc1752d2b8eef87d2285bbe9dd21139ac91be586a19d59bc02f6c12391",
+      "thumbnail_sha256": "16d61aedcce718202efed9baeea334162a745e39c11ec5bc3daea007e6857a11"
+    },
+    "images/case-156-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/COCOA/COCO_val2014_000000088250_elephant.png",
+      "source_sha256": "e1fe3caf8dc5313994eb1c76489bacd1842878ed0a8ae227857eb56b00d59a25",
+      "thumbnail_sha256": "9a779a13b92b6e14bfb7143332ec8aa6a8f17e5994522ebe800b34843538daca"
+    },
+    "images/case-157-0.jpg": {
+      "source": "datasets/open_world_amodal/images/COCOA/COCO_val2014_000000090707.jpg",
+      "source_sha256": "407e30bf40674cea648d0cc3a63beb663d4bd11638b5d2d687c600f33fcfa253",
+      "thumbnail_sha256": "fd484df9ffd9586394b2b55b45839a8f8554f3904025590407b0f5de178bdc57"
+    },
+    "images/case-157-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/COCOA/COCO_val2014_000000090707_whiteplate.png",
+      "source_sha256": "78d035e51dfacec0d93ad5242d120d63919ec69204dcbe695847a2e5285b32bb",
+      "thumbnail_sha256": "571a15c860434daecd3e1e0d89ed9a867a0857e6522bb8509f976e11a485af55"
+    },
+    "images/case-157-2.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/targets/COCOA/COCO_val2014_000000090707_whiteplate/completion.png",
+      "source_sha256": "c4ffb92eae4160ece36afb9a1271d1d5186334390388eae790a2da6e593fddd9",
+      "thumbnail_sha256": "c336e0a8defd99b578076f113851a4ee38d5447d88c87e793528f7da7467ad65"
+    },
+    "images/case-157-3.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/surface-cohort/targets/COCOA/COCO_val2014_000000090707_whiteplate/completion.png",
+      "source_sha256": "bf91547ede2c62b689ffe46680e5c73c7e84e47f7b96ab27f55847c9600ac0c5",
+      "thumbnail_sha256": "fd575b4df9f4a737a29efd1850cc08c8cf10bedf28e51c4f12e165c70b85229e"
+    },
+    "images/case-158-0.jpg": {
+      "source": "datasets/open_world_amodal/images/COCOA/COCO_val2014_000000143450.jpg",
+      "source_sha256": "f9652f10a431eefac5b0faa4251c7f4bda4953983d4d46dd1fae3a03da3e9d9a",
+      "thumbnail_sha256": "7b89263e79dbe2f27882a1d6614077f47f2c7cf53e47ac065fb2442382bab5b1"
+    },
+    "images/case-158-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/COCOA/COCO_val2014_000000143450_plate.png",
+      "source_sha256": "3c683a3de2adf50c32e077ff16c8ef994354350ebb3f65fbb9ba28c47e4725f0",
+      "thumbnail_sha256": "4d6ea7bb927dcaa24291a57980a1c833dc0907a9b6a1dc0436ba2e949d5e6b73"
+    },
+    "images/case-158-2.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/targets/COCOA/COCO_val2014_000000143450_plate/completion.png",
+      "source_sha256": "874b0b1ae91b22a59c74e64a2e088bad194486fb8d1cfa35e680e089d7cd486a",
+      "thumbnail_sha256": "6afcadebe2e7093d604f30b6533139090889242b6b09a6b4cba1477f2fc89c47"
+    },
+    "images/case-158-3.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/surface-cohort/targets/COCOA/COCO_val2014_000000143450_plate/completion.png",
+      "source_sha256": "8b54f7c1f2899d0ce8a548961807ccfa72cd2608e627bcc013647475801e4a7a",
+      "thumbnail_sha256": "3e54f80cb289a5e56e07a44e29200f29df91cfd0b022145bcd12d57f2855c156"
+    },
+    "images/case-159-0.jpg": {
+      "source": "datasets/open_world_amodal/images/COCOA/COCO_val2014_000000143450.jpg",
+      "source_sha256": "f9652f10a431eefac5b0faa4251c7f4bda4953983d4d46dd1fae3a03da3e9d9a",
+      "thumbnail_sha256": "7b89263e79dbe2f27882a1d6614077f47f2c7cf53e47ac065fb2442382bab5b1"
+    },
+    "images/case-159-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/COCOA/COCO_val2014_000000143450_cake.png",
+      "source_sha256": "0257de088c3e09cc4c4bc388fb2cab7d34bcf743a7ae22d60ebf5e683abaca18",
+      "thumbnail_sha256": "820241ed2638fe535f675b3555e60f5cf3ea396bc44ef438de3578abcdaf556c"
+    },
+    "images/case-159-2.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/targets/COCOA/COCO_val2014_000000143450_cake/completion.png",
+      "source_sha256": "eb65ae01de3f27f925e8926caeb4b4f075933c9dd5fb0d6bb3dd26dc13c35a5f",
+      "thumbnail_sha256": "6e2ec4bd1231c81b88de20ba008344214e194f3f4de5cf4b75bda2607f9ecf1b"
+    },
+    "images/case-159-3.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/surface-cohort/targets/COCOA/COCO_val2014_000000143450_cake/completion.png",
+      "source_sha256": "f23795f74f62eb7a5a98831ad46a106fab86d079c5778f71969f5f72b89eb94d",
+      "thumbnail_sha256": "9e7360e65b06bc0ebc21f89af1dab418dc072efd1ce14ba815f4c47d8420cc2a"
+    },
+    "images/case-160-0.jpg": {
+      "source": "datasets/open_world_amodal/images/COCOA/COCO_val2014_000000143450.jpg",
+      "source_sha256": "f9652f10a431eefac5b0faa4251c7f4bda4953983d4d46dd1fae3a03da3e9d9a",
+      "thumbnail_sha256": "7b89263e79dbe2f27882a1d6614077f47f2c7cf53e47ac065fb2442382bab5b1"
+    },
+    "images/case-160-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/COCOA/COCO_val2014_000000143450_spoon.png",
+      "source_sha256": "1672b0f0bd98a80204a07b19c779824e1a462fb852d53a71b682eedab262ae45",
+      "thumbnail_sha256": "0a70a12a04531bd398f3b9d20ca17a86e1a41b15ca042fce004832099a294c05"
+    },
+    "images/case-161-0.jpg": {
+      "source": "datasets/open_world_amodal/images/COCOA/COCO_val2014_000000185941.jpg",
+      "source_sha256": "0c5a6258357811b12e6ec551829bf22075e91bc6962fb94c0325529e2e29279d",
+      "thumbnail_sha256": "511df5335e44f86691cb009c6d1d1756e951038689035ea9001791747eca5d5f"
+    },
+    "images/case-161-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/COCOA/COCO_val2014_000000185941_phonebooth.png",
+      "source_sha256": "8d36fd3ae88e4c690a1cacd96fdc63d059c25d4b8ea61e38c910e4b17fa2853b",
+      "thumbnail_sha256": "fe698eed5db345ce88bfb400ec6bb6a6e1adaeca0d9b06fc49f5a2ad85e53055"
+    },
+    "images/case-161-2.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/targets/COCOA/COCO_val2014_000000185941_phonebooth/completion.png",
+      "source_sha256": "d41c29d500953e019a646e46ec61d046de5f9742ef4a68fdc02de69c5ae7917b",
+      "thumbnail_sha256": "1304e66aef35f80c4518db745ed6839a6191e1f153e3f89060c654df1f649033"
+    },
+    "images/case-161-3.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/surface-cohort/targets/COCOA/COCO_val2014_000000185941_phonebooth/completion.png",
+      "source_sha256": "0a522c36f4e580e06d5e63d6186ace7d42ab3af0701cf979c8f9ee5ac545423d",
+      "thumbnail_sha256": "3bbeb786038da865470c5daec8507d59c63a5d55e55702b1b106c2aeefe5c594"
+    },
+    "images/case-162-0.jpg": {
+      "source": "datasets/open_world_amodal/images/COCOA/COCO_val2014_000000185941.jpg",
+      "source_sha256": "0c5a6258357811b12e6ec551829bf22075e91bc6962fb94c0325529e2e29279d",
+      "thumbnail_sha256": "511df5335e44f86691cb009c6d1d1756e951038689035ea9001791747eca5d5f"
+    },
+    "images/case-162-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/COCOA/COCO_val2014_000000185941_redcoach.png",
+      "source_sha256": "9dc3e332ff95e1ee5dfbd99eb691ddb15a278c5124b94700a5d8635068ffe070",
+      "thumbnail_sha256": "b2cffd1654bdc35f94c77b500c1ae05642e4806da880a4c1fd99e44161a820e6"
+    },
+    "images/case-162-2.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/targets/COCOA/COCO_val2014_000000185941_redcoach/completion.png",
+      "source_sha256": "7860b72a3d4ec2e48ca562247ac5d5a40af1d66a19d14e686a30e8ab538a57a5",
+      "thumbnail_sha256": "519de83bcca83ca4e4ae8a0dda8080e48444b136e11f7f16cdab070296a4d87e"
+    },
+    "images/case-162-3.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/surface-cohort/targets/COCOA/COCO_val2014_000000185941_redcoach/completion.png",
+      "source_sha256": "d3d3d39256927583b631ef31f710cd79cde9bce313b19f3cf7675f4e8b727563",
+      "thumbnail_sha256": "fcf5fbc6139bb058b7cbc5b478b6f31997035c2d14193fe0992d82aabe579e92"
+    },
+    "images/case-163-0.jpg": {
+      "source": "datasets/open_world_amodal/images/COCOA/COCO_val2014_000000195542.jpg",
+      "source_sha256": "d83401051c5e21de368f8ae6ce45745194b5866a7b252e69db92e88b7004cd06",
+      "thumbnail_sha256": "e468e3c80d71a31b21a0f2bda898e1a9f3f832f2501fec114a2f026cc708993c"
+    },
+    "images/case-163-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/COCOA/COCO_val2014_000000195542_mousepad.png",
+      "source_sha256": "c3d978ea18ba9b7edddef659845ee4f5dc0705e01376954c245bf7a157dc4e35",
+      "thumbnail_sha256": "c710c9def6f169802255ebb63b54500bd9ab3ce18b6da575bcb4057a31d9ffad"
+    },
+    "images/case-163-2.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/targets/COCOA/COCO_val2014_000000195542_mousepad/completion.png",
+      "source_sha256": "048f51490b0cd01767c22798edc8aa082538df107b44d133743430165d8d8906",
+      "thumbnail_sha256": "84419250f392e6a33b725ff087d27c1c3c57cead5ee067749f769bd6f6346c28"
+    },
+    "images/case-163-3.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/surface-cohort/targets/COCOA/COCO_val2014_000000195542_mousepad/completion.png",
+      "source_sha256": "005587dc8e6981ced5ff32c0b8a4e4358e4208a9cd7f20f5d6c88c7a55c0908c",
+      "thumbnail_sha256": "783f8f9ff0536b2f1e478d1ab9fd86d4ae3ac25c9bce6b418d3959340062ba6b"
+    },
+    "images/case-164-0.jpg": {
+      "source": "datasets/open_world_amodal/images/COCOA/COCO_val2014_000000210467.jpg",
+      "source_sha256": "2f8365f6897ce7048d1966e271ac8b9de91a4b67c287aadcecbe7babf1938f29",
+      "thumbnail_sha256": "7adfd3466f94f568640935e407baa18588b8205a6a26a9c0bd4740fbbcbe18b4"
+    },
+    "images/case-164-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/COCOA/COCO_val2014_000000210467_trashcan.png",
+      "source_sha256": "7bffb81fde0aec4463ca2fce3493039269fc56a56ca98ec104a3a4b7c993f3cc",
+      "thumbnail_sha256": "9a779a13b92b6e14bfb7143332ec8aa6a8f17e5994522ebe800b34843538daca"
+    },
+    "images/case-165-0.jpg": {
+      "source": "datasets/open_world_amodal/images/COCOA/COCO_val2014_000000222317.jpg",
+      "source_sha256": "578a6e929caa3bb20a211d0b0fcb8a7b018d2532e0695fcdb046155c48dc8c40",
+      "thumbnail_sha256": "80f18ea2bb44830ccac7e88112b1d20be829f09d0dc9bb8da8a2a73168aa1a05"
+    },
+    "images/case-165-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/COCOA/COCO_val2014_000000222317_dog.png",
+      "source_sha256": "6de9b16cbb29d87d0f3acb30fa86720c0b7c25dc939560d89bb3ee93ae4d90ee",
+      "thumbnail_sha256": "9a779a13b92b6e14bfb7143332ec8aa6a8f17e5994522ebe800b34843538daca"
+    },
+    "images/case-166-0.jpg": {
+      "source": "datasets/open_world_amodal/images/COCOA/COCO_val2014_000000222317.jpg",
+      "source_sha256": "578a6e929caa3bb20a211d0b0fcb8a7b018d2532e0695fcdb046155c48dc8c40",
+      "thumbnail_sha256": "80f18ea2bb44830ccac7e88112b1d20be829f09d0dc9bb8da8a2a73168aa1a05"
+    },
+    "images/case-166-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/COCOA/COCO_val2014_000000222317_sofa.png",
+      "source_sha256": "f9845b785fe31c31f6f12da396bf990697a79f2e496600de353c06121fc5fb90",
+      "thumbnail_sha256": "0cdb0016300be521ef05b3f0752de65ab3f01e5ec7e3c1da326a6fb8622fac96"
+    },
+    "images/case-166-2.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/targets/COCOA/COCO_val2014_000000222317_sofa/completion.png",
+      "source_sha256": "250a88136aa325947a5338d44b43f3a66935081bb8216bbb024bc85302ae31ab",
+      "thumbnail_sha256": "4ebb567f3605e744dea3d55bdeddf0257479cd10257ef8163e097e0cfcc5b2e6"
+    },
+    "images/case-166-3.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/surface-cohort/targets/COCOA/COCO_val2014_000000222317_sofa/completion.png",
+      "source_sha256": "092ee20002b178d428c0dad9a93cf819dd4376fb07a596496882e12078ec0c76",
+      "thumbnail_sha256": "ab68ffd11f78edbc92c1d395e3149a52565f58b2cd3180eb9cf541d467cd17ff"
+    },
+    "images/case-167-0.jpg": {
+      "source": "datasets/open_world_amodal/images/COCOA/COCO_val2014_000000229255.jpg",
+      "source_sha256": "0d6a3b0fa6dde2b422599b778ff1f674a84296015efed33cfe62f83f94a9c357",
+      "thumbnail_sha256": "d46a3733b2ac6ee32809f2feee7ccc1940f34958bf9ac281d1d49d07ae97568b"
+    },
+    "images/case-167-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/COCOA/COCO_val2014_000000229255_wateringcan.png",
+      "source_sha256": "10d0c3d9b362f9e626b5c7911f103f87b1a33d47846d30b505864f189a293675",
+      "thumbnail_sha256": "9a779a13b92b6e14bfb7143332ec8aa6a8f17e5994522ebe800b34843538daca"
+    },
+    "images/case-168-0.jpg": {
+      "source": "datasets/open_world_amodal/images/COCOA/COCO_val2014_000000238459.jpg",
+      "source_sha256": "e15883a2370486b0b3702f9d414241486b6e8a8cd4571b9095a58e511242547d",
+      "thumbnail_sha256": "f2475c415c9961f9573e9a640cb21cb449ac3a3db18c099615188c4f4f5f61f4"
+    },
+    "images/case-168-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/COCOA/COCO_val2014_000000238459_cow.png",
+      "source_sha256": "bcddd48010497a779a0ab04242d18dd469d30c4c1971a13b4096e03737daac4a",
+      "thumbnail_sha256": "9a779a13b92b6e14bfb7143332ec8aa6a8f17e5994522ebe800b34843538daca"
+    },
+    "images/case-169-0.jpg": {
+      "source": "datasets/open_world_amodal/images/COCOA/COCO_val2014_000000281533.jpg",
+      "source_sha256": "877453072a27ce3b154171f17e1b458629c91fd7830ba96a1b5ac896885d69d2",
+      "thumbnail_sha256": "d25bbff1b7d54863087b30005abbfd58c146c456c015de1c5c5b6c1a9a14cc08"
+    },
+    "images/case-169-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/COCOA/COCO_val2014_000000281533_displayscreen.png",
+      "source_sha256": "e93824d12bc44a355e491a129290c2da4656af570efe71c855690837ac62fe29",
+      "thumbnail_sha256": "fe67c9b79644dfac6fa3b3e8b28a12f327bd7a094a5ea0e7868bb42b1fb7c2d6"
+    },
+    "images/case-169-2.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/targets/COCOA/COCO_val2014_000000281533_displayscreen/completion.png",
+      "source_sha256": "3e01254c8c783412e3f9f61816113e36e243627ecaae45fc1b815c8a26c99374",
+      "thumbnail_sha256": "16163f5bb5b984a271b30dd805b5b35c5cdf4726a182083e85fbb9dca55e73ab"
+    },
+    "images/case-169-3.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/surface-cohort/targets/COCOA/COCO_val2014_000000281533_displayscreen/completion.png",
+      "source_sha256": "7a3124510909de5460aa4a091a72a85f143b76a9502bfdab07d3d472120e49b7",
+      "thumbnail_sha256": "8e06208b4a9400a3cf007c81850c867eebb837e18708807be27fcee5fd6c453a"
+    },
+    "images/case-170-0.jpg": {
+      "source": "datasets/open_world_amodal/images/COCOA/COCO_val2014_000000285894.jpg",
+      "source_sha256": "752f64ad2588e94c759a84a008b81cc55915cb45132ae9dc2e011dc64eb44c8d",
+      "thumbnail_sha256": "c56048327fbf453c5589e59dd98f73346a6a426c1f484f368298797df0545c12"
+    },
+    "images/case-170-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/COCOA/COCO_val2014_000000285894_giraffe.png",
+      "source_sha256": "9587acea9b99bb51b655e29e735668003e7113ecdcaf0d28e9c899e97fd14de4",
+      "thumbnail_sha256": "9a779a13b92b6e14bfb7143332ec8aa6a8f17e5994522ebe800b34843538daca"
+    },
+    "images/case-171-0.jpg": {
+      "source": "datasets/open_world_amodal/images/COCOA/COCO_val2014_000000367386.jpg",
+      "source_sha256": "0c6c07cc48f85cc745139995fa71da8c26b1ff079738652b124678bddcb1b3d3",
+      "thumbnail_sha256": "70850e7e2774bb954f1c3a2be44319e72330138bc1078f45e4ac5e20d44418f8"
+    },
+    "images/case-171-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/COCOA/COCO_val2014_000000367386_blacksofa.png",
+      "source_sha256": "3457500b6a4cc0b02f33d0a8751f8c7b51f549e42c838fd3c0a12ba9d4a3190c",
+      "thumbnail_sha256": "9a779a13b92b6e14bfb7143332ec8aa6a8f17e5994522ebe800b34843538daca"
+    },
+    "images/case-172-0.jpg": {
+      "source": "datasets/open_world_amodal/images/COCOA/COCO_val2014_000000473888.jpg",
+      "source_sha256": "cf857df6740a9ca12479fe6ad9043d818f712d8ba91f63e80457e1cc69dd53cd",
+      "thumbnail_sha256": "afd0f500c32d8ba2ce11354579c1c578eb8ea7a18341a0fcfabbe2ccae816988"
+    },
+    "images/case-172-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/COCOA/COCO_val2014_000000473888_doghouse.png",
+      "source_sha256": "45b6348bb2a420ed5fb6268ca9b269fefbb06e839eee14ab83689ade8e89fafc",
+      "thumbnail_sha256": "42185a69f1183772d38a5763a768fd83f5cb78c4f7311d2b5bd0519f19307391"
+    },
+    "images/case-173-0.jpg": {
+      "source": "datasets/open_world_amodal/images/COCOA/COCO_val2014_000000559277.jpg",
+      "source_sha256": "ec94f6b3d9c74c01e8491c1252cb5fc167bd9bab379e811bc0d44b2815d898e6",
+      "thumbnail_sha256": "64ab66580dc01e5ac43551526d7ee20c56f03717d1a1273bc58b1fa0da238f2a"
+    },
+    "images/case-173-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/COCOA/COCO_val2014_000000559277_dog.png",
+      "source_sha256": "1463e066e66369e405d92cce60fa88b75ac1b18f64778f5b70bad119c404d04d",
+      "thumbnail_sha256": "9a779a13b92b6e14bfb7143332ec8aa6a8f17e5994522ebe800b34843538daca"
+    },
+    "images/case-174-0.jpg": {
+      "source": "datasets/open_world_amodal/images/COCOA/COCO_val2014_000000577385.jpg",
+      "source_sha256": "285b193317861ca961d3a6b1421991a94df2b305c8794be51ce38ef1a4d9eb91",
+      "thumbnail_sha256": "8da2f2254ca7fbc76faf9ed8306b510247810a18919c6dad02c413f1cb9639af"
+    },
+    "images/case-174-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/COCOA/COCO_val2014_000000577385_thickcuttingboard.png",
+      "source_sha256": "87a502fd673546c7dbf40dd4a9093dd2b4e917e04333484ce8a54c708f453a29",
+      "thumbnail_sha256": "1ed8ff4075e0c264138cc61cbe478f1011b2bab4a75dcd80b76f01622d432682"
+    },
+    "images/case-174-2.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/targets/COCOA/COCO_val2014_000000577385_thickcuttingboard/completion.png",
+      "source_sha256": "d323cd25ba718ad314d978f43f9170210d72567f27a807925a4636d5cb8d7e4a",
+      "thumbnail_sha256": "72e721bb7bc5a1a631f9d7a66cb2fdf55b9ed3457bc3585fae3dd98639e0e3c0"
+    },
+    "images/case-174-3.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/surface-cohort/targets/COCOA/COCO_val2014_000000577385_thickcuttingboard/completion.png",
+      "source_sha256": "3710f6b219bee284481248cc70b950420c92bce5a78d32a4b14f67ff15fe99d8",
+      "thumbnail_sha256": "6db710a56f070788ea10bae1c03c962e262e9593ccaf81c17e78fdb5bdc7dbcd"
+    },
+    "images/case-175-0.jpg": {
+      "source": "datasets/open_world_amodal/images/COCOA/COCO_val2014_000000579593.jpg",
+      "source_sha256": "630c55ec84344147a9e8e996e899cee53a24a9db02278d4c751f19225307182c",
+      "thumbnail_sha256": "bf5c135f70d312fe41fd0c813478c85cad09a9be6611500c0cf9feee00c4287b"
+    },
+    "images/case-175-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/COCOA/COCO_val2014_000000579593_giraffe.png",
+      "source_sha256": "e7f646d3c833beb73ddff8d7200c3dfa87c488b6b3919bba7dd2cdbf0261c8c0",
+      "thumbnail_sha256": "9a779a13b92b6e14bfb7143332ec8aa6a8f17e5994522ebe800b34843538daca"
+    },
+    "images/case-176-0.jpg": {
+      "source": "datasets/open_world_amodal/images/COCOA/COCO_val2014_000000580555.jpg",
+      "source_sha256": "d26009d8eac5adf619319db9c6b18c5dc6b07ceb7218fadf68c17049e8ebf7a2",
+      "thumbnail_sha256": "a71af2113aa3c03549f1e4b3f5181031e3f831e26c1cbc48afc99e6e40b5e783"
+    },
+    "images/case-176-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/COCOA/COCO_val2014_000000580555_whiteplate.png",
+      "source_sha256": "6dc90b34e4acb6c20a140187120a03990dbf4715a3261c1b44f4f5a30343d449",
+      "thumbnail_sha256": "6e01b416eca6e0745ffe32eca9b2ea1200ca70a9e50b4d3d0b109c3e60b0877e"
+    },
+    "images/case-176-2.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/targets/COCOA/COCO_val2014_000000580555_whiteplate/completion.png",
+      "source_sha256": "68c51e373cd3e79b78e150df217c382a217976dd11df2eb61e7a2431a0b21f86",
+      "thumbnail_sha256": "42ac1c7a428096ccce0aad52d0c7dac77449debd19391c4b57f74892d5eb8a0f"
+    },
+    "images/case-176-3.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/surface-cohort/targets/COCOA/COCO_val2014_000000580555_whiteplate/completion.png",
+      "source_sha256": "021ed6815bfb1869523821f7c6ffda01282c9b6cd476ae6c45f90a6a51c0347d",
+      "thumbnail_sha256": "144dc1fc36b47a307f60bc8c503f10c26be2322a59f8bda63e411dbfa440e4e3"
+    },
+    "images/case-177-0.jpg": {
+      "source": "datasets/open_world_amodal/images/free_images/pexels-ilia-bronskiy-1137858493-25347405_goblet.jpg",
+      "source_sha256": "33992b9b7e95f86ce93eac937e38d1686dcface30f2d074620397455872dfa29",
+      "thumbnail_sha256": "c48ca7406208dfbae07bb795faacb8341d92d55f037890daf33ea98f6302a571"
+    },
+    "images/case-177-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/free_images/pexels-ilia-bronskiy-1137858493-25347405_goblet.png",
+      "source_sha256": "75552f001da108f254cba25d17db0d55855c5b1642ad9dcf6202f2fae0dac9bf",
+      "thumbnail_sha256": "9a779a13b92b6e14bfb7143332ec8aa6a8f17e5994522ebe800b34843538daca"
+    },
+    "images/case-178-0.jpg": {
+      "source": "datasets/open_world_amodal/images/free_images/sparrow-8937767_640_eagle.jpg",
+      "source_sha256": "70a8398ecb5ad8b19189b8bf44fc50ede16a983e0710cc0f11a6173a54d8f0ed",
+      "thumbnail_sha256": "383b88a27e5dcec5766d60f507d543be385dad2a39298b151e1fdce9d2a74b7d"
+    },
+    "images/case-178-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/free_images/sparrow-8937767_640_eagle.png",
+      "source_sha256": "230921fba0f685d41fa9ccaf80c867697d8ea0a2bf181cec8eb56ebbbe45dc3e",
+      "thumbnail_sha256": "6b25154e23757c0ab17a01a515bd32fa185d5197d30cd6ceccf3c4f3f8abb3dd"
+    },
+    "images/case-179-0.jpg": {
+      "source": "datasets/open_world_amodal/images/free_images/pexels-koolshooters-6076013_basketball.jpg",
+      "source_sha256": "b382770360f597328b2c10d3cb72ff2825a190c95955093eb7f446f6e98537b4",
+      "thumbnail_sha256": "50cc325b57aca6ffc1391dd1dacd751ad12a2f077c06f31a9be78b81c73ccded"
+    },
+    "images/case-179-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/free_images/pexels-koolshooters-6076013_basketball.png",
+      "source_sha256": "54643f0a2229f65fab229b6e709ab8082a232be7caa510dee0530e6c40753691",
+      "thumbnail_sha256": "d38cf18deb1f1f0c59e6c6bf76e83eab5e659550558c19a404159730ad739eb7"
+    },
+    "images/case-180-0.jpg": {
+      "source": "datasets/open_world_amodal/images/free_images/pexels-dejiprince-28231061_ladder.jpg",
+      "source_sha256": "a894b244e178261cb574be97e187145c196bd06cf1ed9954bfa14ae57d4d90e4",
+      "thumbnail_sha256": "a91a317351ba47bde992ee5059e2c857c2904038919db49bd55ea6262d6e4519"
+    },
+    "images/case-180-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/free_images/pexels-dejiprince-28231061_ladder.png",
+      "source_sha256": "ffbae36612c7f08e3d226862012d1c79b4a6f9e25e083e69e0c93860af70d4f9",
+      "thumbnail_sha256": "45d1e0a87886a7b8e62805bafc6ea0335ae9785f5c2f18a75e23bebde4a26cb0"
+    },
+    "images/case-180-2.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/targets/free_images/pexels-dejiprince-28231061_ladder/completion.png",
+      "source_sha256": "cd53a4db8d95c4d0b5fc518fae2886b328057b746eaa6a97abd2751f153b7d24",
+      "thumbnail_sha256": "72cd5d8e8a1a3548300f41953cdaf9fb877ea0f0176739b8506ed4b51653d145"
+    },
+    "images/case-180-3.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/surface-cohort/targets/free_images/pexels-dejiprince-28231061_ladder/completion.png",
+      "source_sha256": "7e664672cb13c0b8243251f1b62a6e10c2c3f04d15792b74e9de073ffc591e81",
+      "thumbnail_sha256": "f7ce82aed6e09c3ee44ce49a91fb211c7cd233834c007d8593fab119b189905b"
+    },
+    "images/case-181-0.jpg": {
+      "source": "datasets/open_world_amodal/images/free_images/pexels-kelly-1179532-28287998_electricguitar.jpg",
+      "source_sha256": "d19abd57ca8126d6845cb0b126a2aeba348d16f5fe69a7eeabe419aa31c8e39f",
+      "thumbnail_sha256": "21afadf2d27197480690456229de98e2c0f4051e7c8b36268053fdc2379a9e8e"
+    },
+    "images/case-181-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/free_images/pexels-kelly-1179532-28287998_electricguitar.png",
+      "source_sha256": "620abc2ca87be0da5181957f30821f101e02dfe6faa70eb8fedbc4d2142bfd42",
+      "thumbnail_sha256": "db48e9034ecf1f59292b79da05767bab7b9f1beeb7c34e01c43512e7e5cfc118"
+    },
+    "images/case-181-2.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/targets/free_images/pexels-kelly-1179532-28287998_electricguitar/completion.png",
+      "source_sha256": "3dac68b658e3d5a76a385588c567f9870ef7ab97235eb8f3134d513de4a3d263",
+      "thumbnail_sha256": "e9c46c41451cbf339deb93dc0739f59de9c2221db04322ffd93f8caa30952e76"
+    },
+    "images/case-181-3.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/surface-cohort/targets/free_images/pexels-kelly-1179532-28287998_electricguitar/completion.png",
+      "source_sha256": "e8ad7a1ce6cb9cb9c304c331663ae21de3b071037d7b95eabefe7e0e85ff32eb",
+      "thumbnail_sha256": "5bfe4303be8cf68abb200b9aad7aa8dc55c185c864c2417a5e96342603c17540"
+    },
+    "images/case-182-0.jpg": {
+      "source": "datasets/open_world_amodal/images/free_images/pexels-oliver-dohrn-706160180-26698092_kangaroo.jpg",
+      "source_sha256": "ce010aaee2e7c9e92230babbd54915f30a82855c36d24ceeff517de4746510c4",
+      "thumbnail_sha256": "2254d970707829abadc30bc2201cf3e5e6484f1f3e6aab2e8be9162e80c4fbbd"
+    },
+    "images/case-182-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/free_images/pexels-oliver-dohrn-706160180-26698092_kangaroo.png",
+      "source_sha256": "7df87bad49c8d9103e4038feef5c645a803357b9858bc5a6d66ff24eb5d69996",
+      "thumbnail_sha256": "9a779a13b92b6e14bfb7143332ec8aa6a8f17e5994522ebe800b34843538daca"
+    },
+    "images/case-183-0.jpg": {
+      "source": "datasets/open_world_amodal/images/free_images/toa-heftiba-fqSEh-iPRok-unsplash_cup.jpg",
+      "source_sha256": "426a0b0e9d4201d01fd46b100cbc6eda35c39042b468691ddeafc2baa1d8eff0",
+      "thumbnail_sha256": "468be389cec3947c0a6bec1b41087ca934cbbdbaa47ff01e565136e22ecc56e5"
+    },
+    "images/case-183-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/free_images/toa-heftiba-fqSEh-iPRok-unsplash_cup.png",
+      "source_sha256": "a9b82e989b088e28213ad54b86d94cd585837d9038170846b88cb5f2fd4ba308",
+      "thumbnail_sha256": "9a779a13b92b6e14bfb7143332ec8aa6a8f17e5994522ebe800b34843538daca"
+    },
+    "images/case-184-0.jpg": {
+      "source": "datasets/open_world_amodal/images/free_images/rafael-hoyos-weht-mRgrF98emKY-unsplash_car.jpg",
+      "source_sha256": "37490c67e837556e2335cbbc7fdfe5a9631e0c6d40f93fc8c429809d3c852562",
+      "thumbnail_sha256": "4837db86e2675cc107d6d95faec4a42c5cbe8096679cb8bfa2ebfac92bb55060"
+    },
+    "images/case-184-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/free_images/rafael-hoyos-weht-mRgrF98emKY-unsplash_car.png",
+      "source_sha256": "a50074509966d95f7a5afef2349aee257f00fe06a422425cf279af3b0c77e4df",
+      "thumbnail_sha256": "9a779a13b92b6e14bfb7143332ec8aa6a8f17e5994522ebe800b34843538daca"
+    },
+    "images/case-185-0.jpg": {
+      "source": "datasets/open_world_amodal/images/free_images/deer-9018759_640_deer.jpg",
+      "source_sha256": "3353fa75fbd921875a465b9e2c698962670a8f76ee7fcbecfcc1ceaf655cdfd3",
+      "thumbnail_sha256": "c58cc66ead47eb927d89f435719a5d632ffa682bec805231010d375c67a530c5"
+    },
+    "images/case-185-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/free_images/deer-9018759_640_deer.png",
+      "source_sha256": "3301fcedac9eb97de40d720c24464ae6ef44665e46868ec295caa77a244763a3",
+      "thumbnail_sha256": "42209ed01d4df7a28a5cc69b40fcc8a816c23cb1abb79715aa013d63f23e9bff"
+    },
+    "images/case-185-2.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/targets/free_images/deer-9018759_640_deer/completion.png",
+      "source_sha256": "12e1e9670c10891b1433a481ce2b831499776f344f53cd6a679615a4ce682506",
+      "thumbnail_sha256": "9229bee262ba07cc4a6c953626ca456bca3a8e04688b064d4eae5aeeab780c96"
+    },
+    "images/case-185-3.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/surface-cohort/targets/free_images/deer-9018759_640_deer/completion.png",
+      "source_sha256": "1a373b7158b6c4fd7929458b27ac862889af7e05fcb65d1401ad4dbdac084a57",
+      "thumbnail_sha256": "62bc463271abe11ffadc523c217fb9c62373d33c6579f491866a642e175dcd4e"
+    },
+    "images/case-186-0.jpg": {
+      "source": "datasets/open_world_amodal/images/free_images/butterfly-8422900_640_flower.jpg",
+      "source_sha256": "2fd016941ec2e535915b3ee7974f01e9ba8c0149951c2ce72b43abc397baa62c",
+      "thumbnail_sha256": "0228c92f320834b1458d00161ba22321fa9778c176839322aa4572afc9a1f531"
+    },
+    "images/case-186-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/free_images/butterfly-8422900_640_flower.png",
+      "source_sha256": "b502ad05b8bf67790a3d49f4e42fe89b66961222ee137e028a886cacbfd673f4",
+      "thumbnail_sha256": "ad0f1aaed1eda8a9af4590bff305361a4eeeb3d28b64d149f6555451e8d96864"
+    },
+    "images/case-186-2.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/targets/free_images/butterfly-8422900_640_flower/completion.png",
+      "source_sha256": "c859403032077de8caf0e0138626f505c9fc4bc9e05482ab7248bcd0ff82b330",
+      "thumbnail_sha256": "d78d1bb442dfd8fcb3da168cc004308edaffcac66ba8dbaf2f010dc20e7596ef"
+    },
+    "images/case-186-3.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/surface-cohort/targets/free_images/butterfly-8422900_640_flower/completion.png",
+      "source_sha256": "03ff14dcaff64adff2f7b48633e5bec8bf2447869e234ab0c16be5b1ca525737",
+      "thumbnail_sha256": "56654840da4aa70b3bbdb72a162a454097599efaacaeebc2c669fe52396c841e"
+    },
+    "images/case-187-0.jpg": {
+      "source": "datasets/open_world_amodal/images/free_images/violin-8405558_640_violin.jpg",
+      "source_sha256": "375ae2025094fa4817f4bf758d6a62a00d9dd8bc4adf377600f96d51be07d9df",
+      "thumbnail_sha256": "7c1b5af85b97f7e25d92bce4df7e13c8b581b2b00de17f1a1f39d7dcacef8264"
+    },
+    "images/case-187-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/free_images/violin-8405558_640_violin.png",
+      "source_sha256": "537212f0287d358a7ff87d8bce83a4d4cdce18d2b2383694a7f268b3794455ae",
+      "thumbnail_sha256": "1b9c47ed967646571e210ea3641e15ce8238f67ad05d39eb75fba54c187ab1cc"
+    },
+    "images/case-187-2.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/targets/free_images/violin-8405558_640_violin/completion.png",
+      "source_sha256": "9a4afe2e8a1b2e6d0ed2ec1c92d39e3819e59781825ebb93a451a79cb6b8456e",
+      "thumbnail_sha256": "12e58e26a370f4deb4c5b1abdec3dfc8d0b7c29d3de9bfa795e0c870b5cbe721"
+    },
+    "images/case-187-3.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/surface-cohort/targets/free_images/violin-8405558_640_violin/completion.png",
+      "source_sha256": "1d17597f16930ac207cb50cfecd56be73ed6cfa56461a4a366d7d44224784ce4",
+      "thumbnail_sha256": "c7149e70b166c0ec3ec24018a818f5ba5e0ba271fe9ea0924bd82e685c8a2e79"
+    },
+    "images/case-188-0.jpg": {
+      "source": "datasets/open_world_amodal/images/free_images/halloween-7553022_640_bone.jpg",
+      "source_sha256": "4ee5b0a90253ed2d28ede62e4cae44bfe63ffa84fa4d4ddbc962059f0d3fb2dd",
+      "thumbnail_sha256": "9d3dd976702f0644a686ee03c85589e66bc8c5c65fb59d817686c2cde5883795"
+    },
+    "images/case-188-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/free_images/halloween-7553022_640_bone.png",
+      "source_sha256": "ee8b5edfe6c92ad622e0f5527ebf69f9abf35c876ea49f6b6dbc15b780c8e3c0",
+      "thumbnail_sha256": "0dd06466fbf0b8eeac752c9f0b9d2d5e9c7d54c895857b4048a656560d3aae1e"
+    },
+    "images/case-189-0.jpg": {
+      "source": "datasets/open_world_amodal/images/free_images/squirrel-8044947_640_squirrel.jpg",
+      "source_sha256": "1d0139d302fb5af3fe41729748518309ef416c37022fe290f207700731dad8ee",
+      "thumbnail_sha256": "122b970888bc748ce072c8d5eb91737b1f68938e79359d8de6dae4c60e3601ed"
+    },
+    "images/case-189-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/free_images/squirrel-8044947_640_squirrel.png",
+      "source_sha256": "649da6646a4af3e714949d881a2ec715af22ede8eba0c5b2acd94ed9386d4ffb",
+      "thumbnail_sha256": "d76ad10cd2d5c20311f8619a24bd44a687b81094c17c9febc3e5fe005eed6b3f"
+    },
+    "images/case-190-0.jpg": {
+      "source": "datasets/open_world_amodal/images/free_images/bee-7957348_640_bee.jpg",
+      "source_sha256": "2d61cbfbcc8d5692f20c148f771025d844db8bfbfb75163f6603fa8f4963f858",
+      "thumbnail_sha256": "71fd69e914401c450543ae671c9260eca7c7e7fa5308594358d2fc4f888dbca1"
+    },
+    "images/case-190-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/free_images/bee-7957348_640_bee.png",
+      "source_sha256": "b53561857bacd7af6dcb69756f2082e0ec6bca7074d2a5af2006a0dde7c7ab77",
+      "thumbnail_sha256": "e8c444f58caf54ec8acc5f62f3dd2a230232d4c93815b30221e5d42d2fcbfd49"
+    },
+    "images/case-190-2.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/targets/free_images/bee-7957348_640_bee/completion.png",
+      "source_sha256": "3d737267d042c6988bd56ffcd89f70a2ffc221084414a068e8dc6947fe92f95b",
+      "thumbnail_sha256": "9d714b659001be970c8a8bfe5a208d540f40048088e3ddbba5fddf69c1e598b2"
+    },
+    "images/case-190-3.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/surface-cohort/targets/free_images/bee-7957348_640_bee/completion.png",
+      "source_sha256": "bd87ede591c3c102b05da6e4a44dca0fedee9dcaa1c55a7cf0486a3821a2aa77",
+      "thumbnail_sha256": "bf3f503e45e1a85d8b32fcb26256c9dab3f5999e6a1ef097dd533e68e66c90aa"
+    },
+    "images/case-191-0.jpg": {
+      "source": "datasets/open_world_amodal/images/laion/000000878.jpg",
+      "source_sha256": "b856b28c8be1567a0832ca202d071bdcc0824213b129cd7416b8494aa7362c94",
+      "thumbnail_sha256": "bbe7cf535b12be4c8b2ca1d9c86fa9a8745e0c2f8d1421f61eced210e0757a35"
+    },
+    "images/case-191-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/laion/000000878_microphone.png",
+      "source_sha256": "bb4d229b7054dcc76e35e53cd0b3c6f598c0ba7299e563ee0f5afb33ae6926dc",
+      "thumbnail_sha256": "df4932224852cc3441618a311e8ae4ed153d1e2a4e803076cd935dd8f8eec43f"
+    },
+    "images/case-192-0.jpg": {
+      "source": "datasets/open_world_amodal/images/laion/000004773.jpg",
+      "source_sha256": "b2c6d38a91387ee8d1a2d9ec9082c280ccc5d1c06c886f6c838a76a81e84e710",
+      "thumbnail_sha256": "fc150e9c255cb5b920141497a8f574f1dad3aca4df36c3b18e6960e9335707e2"
+    },
+    "images/case-192-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/laion/000004773_book.png",
+      "source_sha256": "dffd50c3dec57167ee4e2c77f8f838e47578b5aaf978a1f6dcf5e7029b90438b",
+      "thumbnail_sha256": "9a779a13b92b6e14bfb7143332ec8aa6a8f17e5994522ebe800b34843538daca"
+    },
+    "images/case-193-0.jpg": {
+      "source": "datasets/open_world_amodal/images/laion/000006623.jpg",
+      "source_sha256": "0396018760b4a72b4aca88f7d69f24526733e92d15e76bd645bd30148fb0477c",
+      "thumbnail_sha256": "d73d5a4bd8739f804e6186b3da768afdf6bd4a8fc8da9330582097a66f71d966"
+    },
+    "images/case-193-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/laion/000006623_backpack.png",
+      "source_sha256": "279ef8aedb031230e3ff396b381ad9e53348133db11e7b43e23db557a13e2dc9",
+      "thumbnail_sha256": "9a779a13b92b6e14bfb7143332ec8aa6a8f17e5994522ebe800b34843538daca"
+    },
+    "images/case-194-0.jpg": {
+      "source": "datasets/open_world_amodal/images/laion/000006776.jpg",
+      "source_sha256": "50bcc8afe0b229ee634e6f8856f9830aec2ef1507530a99561562ccdf92a7ea8",
+      "thumbnail_sha256": "e79693ee333b1ff3cb96c09096e02d761d13e3f5a7988acf07a524d6b8f675cf"
+    },
+    "images/case-194-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/laion/000006776_guitar.png",
+      "source_sha256": "e01ee5450d470e3486b5e531259155190f35a3589ea8d837fee93704ccedd53a",
+      "thumbnail_sha256": "12c14c36674157be54899fef52424109e1c0429ac130beac53dfd7edb0ccdb5f"
+    },
+    "images/case-195-0.jpg": {
+      "source": "datasets/open_world_amodal/images/laion/000008816.jpg",
+      "source_sha256": "c8de3a82b28b9a539952dc7910407c6eea8d4c43be80dbf623aefa38229753fc",
+      "thumbnail_sha256": "1a85bc9627084f901d1853c4f70e470058110c68aa70c2b8f6d0c8e3f5844559"
+    },
+    "images/case-195-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/laion/000008816_pants.png",
+      "source_sha256": "98e8caff546caf3df5ca910d529ec35b360cecc7a8a9c7422aba445dfc8e84f2",
+      "thumbnail_sha256": "9a779a13b92b6e14bfb7143332ec8aa6a8f17e5994522ebe800b34843538daca"
+    },
+    "images/case-196-0.jpg": {
+      "source": "datasets/open_world_amodal/images/laion/000008955.jpg",
+      "source_sha256": "6e40abd21a16eb20b5788bcc50ff246ce64797a3388a32c73cacd827e485ee5d",
+      "thumbnail_sha256": "2ef58e7b67acd958b121dc67af221dec8cc07eed94bdac935776639c75a66cfa"
+    },
+    "images/case-196-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/laion/000008955_gorilla.png",
+      "source_sha256": "5c116310eed7fb57fea5eb2f9b5bc5122597b14af40014468bb2ba682e0f8336",
+      "thumbnail_sha256": "37dd893712fec22e95f9922a5c95ce61b35e2ebf218eb4a2d637021819413e39"
+    },
+    "images/case-196-2.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/targets/laion/000008955_gorilla/completion.png",
+      "source_sha256": "4fe43e49c12ff3ad2a99b6626047f394af475322c5e4acfe3a20dcf72c95ead1",
+      "thumbnail_sha256": "fc95fd7d98806b9e7857eff5367d0be2c287292aff2e42e1fa5210d038048840"
+    },
+    "images/case-196-3.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/surface-cohort/targets/laion/000008955_gorilla/completion.png",
+      "source_sha256": "3675567fdeb266cbc73210dbb6852b6f43de92b453fb56d65f89af3ac82d7900",
+      "thumbnail_sha256": "9baa28e70b33de16dc9175ca30b9f9a18b622b15fc42097208249492c9cc61c1"
+    },
+    "images/case-197-0.jpg": {
+      "source": "datasets/open_world_amodal/images/laion/000012713.jpg",
+      "source_sha256": "d2b0700f038b0559d76e8decc85112c9d63ca7d194bac1971e746c096534aba0",
+      "thumbnail_sha256": "0fad8d2abcd471f76c575bd43b8e6db5c51d20eed40fdec2d8f6bdaaf235f04c"
+    },
+    "images/case-197-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/laion/000012713_saxophone.png",
+      "source_sha256": "b3e6dc45786df718a9432b97a84c67bcd3e0faf4575839b046d52dcf0be9094a",
+      "thumbnail_sha256": "b8c695860a8a2e27a05737f130a69591b328da328330ecbb33ec5b14221a4c1c"
+    },
+    "images/case-197-2.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/targets/laion/000012713_saxophone/completion.png",
+      "source_sha256": "becf688dff5d104bcc5171e550b5177a220b146ea38918015439b812aa58dc3a",
+      "thumbnail_sha256": "63e0601d723f26eb96031d2a1bd40a25b32c4decc796f8f5fe3db0d7c7854cba"
+    },
+    "images/case-197-3.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/surface-cohort/targets/laion/000012713_saxophone/completion.png",
+      "source_sha256": "b24a3fb097b1faca2780cd68529b145175afd5c88d1361e56d54f199cbf138b3",
+      "thumbnail_sha256": "0e18c6e2de9a0fc9e3499f2969fa47896f4e2ae3ee06ba6f14c62cdf49f79130"
+    },
+    "images/case-198-0.jpg": {
+      "source": "datasets/open_world_amodal/images/laion/000012714.jpg",
+      "source_sha256": "6a5f25f714f47f7ec8ae10202a563f633415e46feed3fcf8ebf9a812070f5ff3",
+      "thumbnail_sha256": "3330706ed1d73881862fb8bdaabab29bd5c0c59841302b6ebfe4b894d0b7dcee"
+    },
+    "images/case-198-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/laion/000012714_box.png",
+      "source_sha256": "59a5df493ea2d0bbcd9547f0877346af59eaa16d7005f258d6ab11f9644e448b",
+      "thumbnail_sha256": "f7808137616e8f6d629ff2ab54d0239ecdec4f1fd89a9f7b0b1f6be809412206"
+    },
+    "images/case-199-0.jpg": {
+      "source": "datasets/open_world_amodal/images/laion/000012982.jpg",
+      "source_sha256": "e68fb51af960d822505789e2aedc187e92521c81d6f16983017fa7f4fee5a501",
+      "thumbnail_sha256": "9cb3ee773401873dbe21f2af271cc46687dc4bc5c8fbdeb5a4bc07752ac44af3"
+    },
+    "images/case-199-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/laion/000012982_umbrella.png",
+      "source_sha256": "13d98cb105b4491390ea8212d85a1325cf4e0200f3bd3132f7cc54afd57be35c",
+      "thumbnail_sha256": "9a779a13b92b6e14bfb7143332ec8aa6a8f17e5994522ebe800b34843538daca"
+    },
+    "images/case-200-0.jpg": {
+      "source": "datasets/open_world_amodal/images/laion/000013564.jpg",
+      "source_sha256": "0cbaa736e307aef04b13c9c3e0178ede5087df84675cfce01435ef02503ea298",
+      "thumbnail_sha256": "efd19747a0ac83ff056b83d9ace1590d59c9d16f0dc57f809dc9bd07688ef63d"
+    },
+    "images/case-200-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/laion/000013564_plate.png",
+      "source_sha256": "82033763acb9862807e6800e1dd2944d4918de7be5416c777d909fe2b63bc436",
+      "thumbnail_sha256": "badd552a162f01f90f5170185b10f23b1b62e83ae5a3a54e38be497b8e41a911"
+    },
+    "images/case-201-0.jpg": {
+      "source": "datasets/open_world_amodal/images/laion/000013564.jpg",
+      "source_sha256": "0cbaa736e307aef04b13c9c3e0178ede5087df84675cfce01435ef02503ea298",
+      "thumbnail_sha256": "efd19747a0ac83ff056b83d9ace1590d59c9d16f0dc57f809dc9bd07688ef63d"
+    },
+    "images/case-201-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/laion/000013564_cup.png",
+      "source_sha256": "02f746fc0fa0c6980f6fd6bb9952b4d7d829a237134c6c9cc1a0503ba6fe7b7d",
+      "thumbnail_sha256": "20d0a88418a3922b6d4d5169c78dc9c4168247bd79fef31051592e9c873bd51c"
+    },
+    "images/case-201-2.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/targets/laion/000013564_cup/completion.png",
+      "source_sha256": "cdbababc869b626d0f7a9639c44a163da92a91b59431dbd8c33edbcb4e3f6fc7",
+      "thumbnail_sha256": "6ab7deddc8c085edca92e4e205d54b039878970cefcf94e06cf6cc929754e9ff"
+    },
+    "images/case-201-3.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/surface-cohort/targets/laion/000013564_cup/completion.png",
+      "source_sha256": "85594a11b8b2fe3d39ac6f6d5d29161a37d99c8d1ef30a2b95408a8f4511bd46",
+      "thumbnail_sha256": "00a85a25f422c91245d1c40df96a8f560f37da02119bbed4323a80e93d1cb2e7"
+    },
+    "images/case-202-0.jpg": {
+      "source": "datasets/open_world_amodal/images/laion/000013936.jpg",
+      "source_sha256": "8fb480edc9c3975dfe5bee3d2f1c3a1d3b380e9f7ce63caf7a30556b73b104a3",
+      "thumbnail_sha256": "94f0d2b3c25afa0bab1c6cd82386d38010ec53d911c37140c2927a47b731b755"
+    },
+    "images/case-202-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/laion/000013936_tennisracket.png",
+      "source_sha256": "680cda9cb10936fc282dba0b14d50c9540ca9ca29b8043e732793563da907d90",
+      "thumbnail_sha256": "9a779a13b92b6e14bfb7143332ec8aa6a8f17e5994522ebe800b34843538daca"
+    },
+    "images/case-203-0.jpg": {
+      "source": "datasets/open_world_amodal/images/laion/000014853.jpg",
+      "source_sha256": "821741f91a84eec789976c01f9b67af3425a798878743becd7f0209630c1960c",
+      "thumbnail_sha256": "ae8c26c8af26b3f8d6bcb03cfe9f67c0326abe78c863374e3957bd998c9689b2"
+    },
+    "images/case-203-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/laion/000014853_box.png",
+      "source_sha256": "049eb0920322044a82c7d824f3c2ac2c69fe97ec174ed880f439952a84cee715",
+      "thumbnail_sha256": "4388127b7da3c015e7438cfad429bb403073e6f04d375596b1e7be0d5302d1f7"
+    },
+    "images/case-203-2.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/targets/laion/000014853_box/completion.png",
+      "source_sha256": "ca9d60a5055abde74676e6eec0c51a9b5f8daa0cea9fbaed707ddfe717548d26",
+      "thumbnail_sha256": "666707a9fca9aff4b709198d3ce96b1bdcdc7cfefcf8760f531d0cf91fdb1554"
+    },
+    "images/case-203-3.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/surface-cohort/targets/laion/000014853_box/completion.png",
+      "source_sha256": "014c9898b91cd1dd76c57e4e2831124eedd841af413325bb2091abdfa06710a4",
+      "thumbnail_sha256": "39ae1257f8851892c08aefd6f149b3df0f063cebbd31d14fe8a06f3a62652869"
+    },
+    "images/case-204-0.jpg": {
+      "source": "datasets/open_world_amodal/images/laion/000015451.jpg",
+      "source_sha256": "cc3311f2291dcc82c16ba338620b093d6d5debc14eddcc12b9bbf295ae13fdd1",
+      "thumbnail_sha256": "a816a638f933ed769f76e613b4750458f1928ec22ba80ed802f3259c96f27856"
+    },
+    "images/case-204-1.jpg": {
+      "source": "output/surface-annotated-20261112-freshrefs/baseline-cohort/visible_references/crops/laion/000015451_carpet.png",
+      "source_sha256": "198b57322f6323639287a0492785ba3a08b946b8440462ae790de8f378e21e83",
+      "thumbnail_sha256": "94972696c80a8cd1dfec302a8e531e03ed8883f86011759e2b9c3d3cf372576d"
+    }
+  },
+  "direction_counts": {
+    "tie": 117,
+    "gain": 48,
+    "loss": 39
+  },
+  "transition_counts": {
+    "both_failed": 117,
+    "shared": 87
+  }
+}

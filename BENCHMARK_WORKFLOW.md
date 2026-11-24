@@ -1,14 +1,27 @@
-> For a fresh GitHub clone, use [the collaborator guide](docs/GETTING_STARTED.md).
-> Historical output links below require separately transferred experiment artifacts.
-> Local research notes are archived under `docs/archive/local-handoff-20261112/`.
-
 # Open-World Amodal Appearance Completion
+
+For the dated 24 November 2026 findings and included evidence, start with the
+[published results index](results/README.md). Operational notes below retain
+their historical context; the annotated full comparison is complete, while
+the frozen v2 full benchmark remains unfinished.
 
 Reproducible evaluation of the released Progressive Mixed Context diffusion (PD-MC) pipeline on the verified 2,565-target Open-World benchmark. This is a research project, with separate SAM and LISA reference protocols.
 
 The existing root entry points and cluster cache layout remain supported. See [SETUP_NEW_COMPETITION.md](SETUP_NEW_COMPETITION.md) for the project setup workflow, [OPEN_WORLD_REPRODUCTION.md](OPEN_WORLD_REPRODUCTION.md) for the scientific protocol, and [AMODAL_SLURM.md](AMODAL_SLURM.md) for pinned GPU provisioning.
 
-## Accepted baseline
+## Annotated-vocabulary team baseline
+
+As of 12 November, the team uses **annotated vocabulary** as its baseline. The
+[Surface-PMC transfer experiment](docs/SURFACE_ANNOTATED_RESULTS_20261112.md)
+compares both methods under that vocabulary and identical fresh SAM references.
+Its frozen 204-target cohort is complete: primary LPIPS +0.250%
+[-0.269%, +0.810%], inconclusive; secondary CLIP +1.333%; both arms save 87 outputs.
+The [full 2,565-target comparison](docs/SURFACE_ANNOTATED_FULL_RESULTS_20261114.md)
+is complete, verified and registered: LPIPS +1.191%, below the 3% target.
+Use `configs/annotated.json` for the annotated contract;
+the historical released-vocabulary configuration remains a separate protocol.
+
+## Historical released-vocabulary baseline
 
 The [2026-11-06 baseline report](output/baseline-establishment-20261105/REPORT.md) records the completed, scored and provenance-verified four-GPU run **31548**: **951 saved completions / 2,565 targets**, with **1,614 failures**. It is registered on the cluster and independently verified after recovering all 16,814 files locally.
 
@@ -232,5 +245,7 @@ See [the paper-to-code map](docs/PAPER_CODE_MAP.md), [reproducible evaluation co
 ## Independent human visual review
 
 The [human review handoff](output/human-review-20261108/README.md) contains a ready-to-share 160-case random audit and a full 1,390-output alternative for one human rater. Both use an offline form with blank ratings, native evidence, anonymous case IDs and backup/resume. Send only the selected reviewer ZIP; keep the identity key and earlier assistant labels with the coordinator.
+
+The separate [human preference website](docs/HUMAN_PREFERENCE_STUDY.md) compares the completed full annotated-vocabulary PD-MC and Surface-aware runs on all 1,387 shared successful outputs. It supports blinded choices, ties, optional shape/surface judgements, browser resume, JSON/CSV export, and a validated final-report importer. The full Shape-aware comparison and combined method use later, separate rounds. No human ratings have been collected.
 
 See [the protocol and response-import commands](docs/HUMAN_VISUAL_REVIEW.md). Human ratings are still pending; the packet itself is not evidence of completed human evaluation.

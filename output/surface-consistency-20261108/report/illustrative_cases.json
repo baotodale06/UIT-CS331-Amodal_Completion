@@ -1,0 +1,1147 @@
+[
+  {
+    "title": "Largest full-surface loss (selected by measured error)",
+    "case": {
+      "case_id": "laion-023-3c05dee92a",
+      "source": "laion",
+      "split": "test",
+      "label": "bowl",
+      "target_id": "laion/000006554_bowl",
+      "metrics": [
+        {
+          "seed": 11,
+          "hidden_core_mae": 0.07317486419559079,
+          "hidden_mae": 0.07613746113764834,
+          "visible_mae": 0.010844907031806487,
+          "hidden_mask_recall": 0.9396527048945711,
+          "visible_mask_recall": 0.9896183359245699,
+          "generation_missing": false,
+          "masked_spatial_lpips": 0.19035257399082184
+        },
+        {
+          "seed": 22,
+          "hidden_core_mae": 0.18534204127855386,
+          "hidden_mae": 0.18781854350057445,
+          "visible_mae": 0.010156532981148055,
+          "hidden_mask_recall": 0.9992367140540025,
+          "visible_mask_recall": 0.9880134409950349,
+          "generation_missing": false,
+          "masked_spatial_lpips": 0.40209898352622986
+        },
+        {
+          "seed": 33,
+          "hidden_core_mae": 0.056091913596529784,
+          "hidden_mae": 0.05806836207854667,
+          "visible_mae": 0.010030822767611147,
+          "hidden_mask_recall": 0.9168972426295201,
+          "visible_mask_recall": 0.9881889763779528,
+          "generation_missing": false,
+          "masked_spatial_lpips": 0.14738978445529938
+        },
+        {
+          "seed": 44,
+          "hidden_core_mae": 0.07140165865029344,
+          "hidden_mae": 0.07287519293734894,
+          "visible_mae": 0.010964454658604166,
+          "hidden_mask_recall": 0.7881404446140635,
+          "visible_mask_recall": 0.9890415768092683,
+          "generation_missing": false,
+          "masked_spatial_lpips": 0.25644558668136597
+        }
+      ],
+      "scores": [
+        {
+          "valid": true,
+          "invalid_reasons": [],
+          "visible_pixels": 39878,
+          "hidden_pixels": 19808,
+          "predicted_pixels": 60003,
+          "visible_recall": 0.9896183359245699,
+          "boundary": 0.026309397911676195,
+          "color": 0.3991647008990198,
+          "texture": 0.15653891132894238,
+          "local_boundary": 0.033916131947434446,
+          "local_texture": 0.0562400549376843,
+          "visible_mae": 0.010844907031806487,
+          "visible_band_pixels": 1854,
+          "hidden_band_pixels": 1846
+        },
+        {
+          "valid": true,
+          "invalid_reasons": [],
+          "visible_pixels": 39878,
+          "hidden_pixels": 24287,
+          "predicted_pixels": 64391,
+          "visible_recall": 0.9880134409950349,
+          "boundary": 0.019371450202045504,
+          "color": 0.1916323173171162,
+          "texture": 0.17369042319806716,
+          "local_boundary": 0.02821801204733067,
+          "local_texture": 0.09715253281540336,
+          "visible_mae": 0.010156532981148056,
+          "visible_band_pixels": 1854,
+          "hidden_band_pixels": 1831
+        },
+        {
+          "valid": true,
+          "invalid_reasons": [],
+          "visible_pixels": 39878,
+          "hidden_pixels": 20778,
+          "predicted_pixels": 60816,
+          "visible_recall": 0.9881889763779528,
+          "boundary": 0.016114596208505822,
+          "color": 0.43250510256724867,
+          "texture": 0.22313944819229398,
+          "local_boundary": 0.03216623183946948,
+          "local_texture": 0.05160980606070145,
+          "visible_mae": 0.01003082276761115,
+          "visible_band_pixels": 1854,
+          "hidden_band_pixels": 1838
+        },
+        {
+          "valid": true,
+          "invalid_reasons": [],
+          "visible_pixels": 39878,
+          "hidden_pixels": 16574,
+          "predicted_pixels": 56726,
+          "visible_recall": 0.9890415768092683,
+          "boundary": 0.021410958036127227,
+          "color": 0.4247994352333817,
+          "texture": 0.15141816131418664,
+          "local_boundary": 0.030447607834601643,
+          "local_texture": 0.057932658077142526,
+          "visible_mae": 0.010964454658604168,
+          "visible_band_pixels": 1854,
+          "hidden_band_pixels": 1839
+        }
+      ],
+      "selected": {
+        "boundary": {
+          "index": 2,
+          "fallback": false,
+          "losses": [
+            1.0562577245999383,
+            0.7777161598796161,
+            0.6469614690988085,
+            0.8595973914974194
+          ]
+        },
+        "color": {
+          "index": 1,
+          "fallback": false,
+          "losses": [
+            1.0354030122806193,
+            0.4970797221136365,
+            1.1218854899149904,
+            1.1018975722680926
+          ]
+        },
+        "texture": {
+          "index": 3,
+          "fallback": false,
+          "losses": [
+            1.0417453595675092,
+            1.1558863597031368,
+            1.4849629572439638,
+            1.0076674582962568
+          ]
+        },
+        "boundary_color": {
+          "index": 1,
+          "fallback": false,
+          "losses": [
+            1.0482366814002002,
+            0.6697790684311624,
+            0.8296245540281093,
+            0.9527897687169091
+          ]
+        },
+        "boundary_texture": {
+          "index": 3,
+          "fallback": false,
+          "losses": [
+            1.0494852875848049,
+            0.9541955864639257,
+            1.0380288302332144,
+            0.9286967560035435
+          ]
+        },
+        "surface_full": {
+          "index": 1,
+          "fallback": false,
+          "losses": [
+            1.0459647187587584,
+            0.8399166203763534,
+            1.058992995153658,
+            0.9719969600696808
+          ]
+        },
+        "local_surface": {
+          "index": 2,
+          "fallback": false,
+          "losses": [
+            0.42774398458389873,
+            0.5078856324924972,
+            0.40045728515921775,
+            0.40646828766867715
+          ]
+        },
+        "visible_preservation": {
+          "index": 2,
+          "fallback": false,
+          "losses": [
+            0.010844907031806487,
+            0.010156532981148056,
+            0.01003082276761115,
+            0.010964454658604168
+          ]
+        },
+        "fixed_seed_11": {
+          "index": 0,
+          "fallback": false,
+          "losses": null
+        },
+        "oracle_hidden_mae": {
+          "index": 2,
+          "fallback": false,
+          "losses": null
+        },
+        "development_selected": {
+          "index": 3,
+          "fallback": false,
+          "losses": [
+            1.0417453595675092,
+            1.1558863597031368,
+            1.4849629572439638,
+            1.0076674582962568
+          ]
+        }
+      },
+      "statuses": [
+        "generated",
+        "generated",
+        "generated",
+        "generated"
+      ],
+      "cohort": "Pilot test",
+      "experiment_path": "output\\surface-consistency-20261108"
+    },
+    "text": "bowl (Pilot test). Full surface selects seed 22, while the unavailable hidden-MAE oracle selects seed 33. Gain versus the pool mean is -0.0888. The gallery exposes every case, including all losses. The full rule selects seed 22, whose generated upper bowl interior is visibly darker than the source. It has the lowest global color-histogram loss, whereas seed 33 has the best mean boundary term and much lower held-out error. The local rule chooses seed 33. Seed 22 covers essentially all held-out target pixels, so this particular error is not explained by missing-mask coverage alone. The example shows why matching a global distribution can conflict with the appearance of a particular part."
+  },
+  {
+    "title": "Largest full-surface gain (selected by measured error)",
+    "case": {
+      "case_id": "COCOA-017-7ea421952f",
+      "source": "COCOA",
+      "split": "test",
+      "label": "toilet",
+      "target_id": "COCOA/COCO_val2014_000000369386_toilet",
+      "metrics": [
+        {
+          "seed": 11,
+          "hidden_core_mae": 0.32332936830621656,
+          "hidden_mae": 0.32633464223199266,
+          "visible_mae": 0.006729386249571064,
+          "hidden_mask_recall": 1.0,
+          "visible_mask_recall": 0.9873890293374096,
+          "generation_missing": false,
+          "masked_spatial_lpips": 0.5137975215911865
+        },
+        {
+          "seed": 22,
+          "hidden_core_mae": 0.1097405259373257,
+          "hidden_mae": 0.10947890451306547,
+          "visible_mae": 0.010008811175321637,
+          "hidden_mask_recall": 1.0,
+          "visible_mask_recall": 0.9876241989534952,
+          "generation_missing": false,
+          "masked_spatial_lpips": 0.356693297624588
+        },
+        {
+          "seed": 33,
+          "hidden_core_mae": 0.3185549081584726,
+          "hidden_mae": 0.32227620182960953,
+          "visible_mae": 0.00613973302100349,
+          "hidden_mask_recall": 1.0,
+          "visible_mask_recall": 0.9883003115997413,
+          "generation_missing": false,
+          "masked_spatial_lpips": 0.5261923670768738
+        },
+        {
+          "seed": 44,
+          "hidden_core_mae": 0.07400435630286235,
+          "hidden_mae": 0.07681939050044366,
+          "visible_mae": 0.008045567571493292,
+          "hidden_mask_recall": 1.0,
+          "visible_mask_recall": 0.9869774825092598,
+          "generation_missing": false,
+          "masked_spatial_lpips": 0.27196580171585083
+        }
+      ],
+      "scores": [
+        {
+          "valid": true,
+          "invalid_reasons": [],
+          "visible_pixels": 34018,
+          "hidden_pixels": 37029,
+          "predicted_pixels": 70701,
+          "visible_recall": 0.9873890293374096,
+          "boundary": 0.06675762714158032,
+          "color": 0.9360881924458275,
+          "texture": 0.1361721704026797,
+          "local_boundary": 0.049304485872819714,
+          "local_texture": 0.5177250170367269,
+          "visible_mae": 0.006729386249571065,
+          "visible_band_pixels": 1308,
+          "hidden_band_pixels": 1315
+        },
+        {
+          "valid": true,
+          "invalid_reasons": [],
+          "visible_pixels": 34018,
+          "hidden_pixels": 34819,
+          "predicted_pixels": 68494,
+          "visible_recall": 0.9876241989534952,
+          "boundary": 0.01889150436161545,
+          "color": 0.4894637303946691,
+          "texture": 0.1901755125299514,
+          "local_boundary": 0.023359837776251016,
+          "local_texture": 0.1204844872303385,
+          "visible_mae": 0.010008811175321639,
+          "visible_band_pixels": 1308,
+          "hidden_band_pixels": 1315
+        },
+        {
+          "valid": true,
+          "invalid_reasons": [],
+          "visible_pixels": 34018,
+          "hidden_pixels": 37613,
+          "predicted_pixels": 71324,
+          "visible_recall": 0.9883003115997413,
+          "boundary": 0.01809758396665713,
+          "color": 0.9136686132158154,
+          "texture": 0.15223531229025816,
+          "local_boundary": 0.02160376478131755,
+          "local_texture": 0.32236445756891224,
+          "visible_mae": 0.00613973302100349,
+          "visible_band_pixels": 1308,
+          "hidden_band_pixels": 1317
+        },
+        {
+          "valid": true,
+          "invalid_reasons": [],
+          "visible_pixels": 34018,
+          "hidden_pixels": 34420,
+          "predicted_pixels": 68076,
+          "visible_recall": 0.9869774825092598,
+          "boundary": 0.018584280525797244,
+          "color": 0.3942926187800672,
+          "texture": 0.14097364572929558,
+          "local_boundary": 0.025489819458451617,
+          "local_texture": 0.16936959582914676,
+          "visible_mae": 0.008045567571493294,
+          "visible_band_pixels": 1308,
+          "hidden_band_pixels": 1313
+        }
+      ],
+      "selected": {
+        "boundary": {
+          "index": 2,
+          "fallback": false,
+          "losses": [
+            2.6801548093566483,
+            0.7584475128719675,
+            0.7265735584505327,
+            0.7461132302383013
+          ]
+        },
+        "color": {
+          "index": 3,
+          "fallback": false,
+          "losses": [
+            2.428141897406715,
+            1.2696318580057935,
+            2.3699872063317367,
+            1.0227652001427212
+          ]
+        },
+        "texture": {
+          "index": 0,
+          "fallback": false,
+          "losses": [
+            0.9062074433438322,
+            1.2655924076611382,
+            1.0131054879220012,
+            0.9381606145912623
+          ]
+        },
+        "boundary_color": {
+          "index": 3,
+          "fallback": false,
+          "losses": [
+            2.583226766298982,
+            0.9550568763849774,
+            1.3586557307125342,
+            0.8525178340476935
+          ]
+        },
+        "boundary_texture": {
+          "index": 3,
+          "fallback": false,
+          "losses": [
+            1.8523127052173343,
+            0.9951151304402471,
+            0.8602884588705513,
+            0.8357353429363497
+          ]
+        },
+        "surface_full": {
+          "index": 3,
+          "fallback": false,
+          "losses": [
+            1.9962700032646792,
+            1.0637443123316337,
+            1.2377131457358477,
+            0.8824928072379425
+          ]
+        },
+        "local_surface": {
+          "index": 1,
+          "fallback": false,
+          "losses": [
+            1.937702615022422,
+            0.5413532407726692,
+            1.1373302353916603,
+            0.7051057841638845
+          ]
+        },
+        "visible_preservation": {
+          "index": 2,
+          "fallback": false,
+          "losses": [
+            0.006729386249571065,
+            0.010008811175321639,
+            0.00613973302100349,
+            0.008045567571493294
+          ]
+        },
+        "fixed_seed_11": {
+          "index": 0,
+          "fallback": false,
+          "losses": null
+        },
+        "oracle_hidden_mae": {
+          "index": 3,
+          "fallback": false,
+          "losses": null
+        },
+        "development_selected": {
+          "index": 0,
+          "fallback": false,
+          "losses": [
+            0.9062074433438322,
+            1.2655924076611382,
+            1.0131054879220012,
+            0.9381606145912623
+          ]
+        }
+      },
+      "statuses": [
+        "generated",
+        "generated",
+        "generated",
+        "generated"
+      ],
+      "cohort": "Replication",
+      "experiment_path": "output\\surface-consistency-replication87-20261108"
+    },
+    "text": "toilet (Replication). Full surface selects seed 44, while the unavailable hidden-MAE oracle selects seed 44. Gain versus the pool mean is +0.1324. The gallery exposes every case, including all losses. Seeds 11 and 33 retain large gray regions where the held-out source contains white ceramic. Every candidate has hidden-mask recall 1.00, so the validity guard accepts these RGB failures. The full score selects seed 44, which continues the white surface and has the smallest color-histogram loss. Seed 22 is another plausible white completion, selected by the local rule, but differs more from the original opening and interior. This is a concrete case where appearance ranking helps beyond accepting a mask."
+  },
+  {
+    "title": "Middle-ranked full-surface outcome",
+    "case": {
+      "case_id": "VG-017-7e03cf5392",
+      "source": "VG",
+      "split": "test",
+      "label": "giraffe",
+      "target_id": "VG/2321032_giraffe",
+      "metrics": [
+        {
+          "seed": 11,
+          "hidden_core_mae": 0.25280522037874975,
+          "hidden_mae": 0.2526615700431797,
+          "visible_mae": 0.06087149616606141,
+          "hidden_mask_recall": 0.5941506410256411,
+          "visible_mask_recall": 0.9967280474813575,
+          "generation_missing": false,
+          "masked_spatial_lpips": 0.40870362520217896
+        },
+        {
+          "seed": 22,
+          "hidden_core_mae": 0.2532393790849673,
+          "hidden_mae": 0.24530477191339375,
+          "visible_mae": 0.060690417292062676,
+          "hidden_mask_recall": 0.9169070512820513,
+          "visible_mask_recall": 0.9974128747527012,
+          "generation_missing": false,
+          "masked_spatial_lpips": 0.24007225036621094
+        },
+        {
+          "seed": 33,
+          "hidden_core_mae": 0.24850437824702534,
+          "hidden_mae": 0.24747773403538964,
+          "visible_mae": 0.06213984401653929,
+          "hidden_mask_recall": 0.780448717948718,
+          "visible_mask_recall": 0.9967660934408766,
+          "generation_missing": false,
+          "masked_spatial_lpips": 0.30212172865867615
+        },
+        {
+          "seed": 44,
+          "hidden_core_mae": 0.26101652840623424,
+          "hidden_mae": 0.26085718745519126,
+          "visible_mae": 0.06121410873485497,
+          "hidden_mask_recall": 0.5157051282051283,
+          "visible_mask_recall": 0.9963475878861665,
+          "generation_missing": false,
+          "masked_spatial_lpips": 0.4093517065048218
+        }
+      ],
+      "scores": [
+        {
+          "valid": true,
+          "invalid_reasons": [],
+          "visible_pixels": 26284,
+          "hidden_pixels": 18800,
+          "predicted_pixels": 45096,
+          "visible_recall": 0.9967280474813575,
+          "boundary": 0.019327040126721574,
+          "color": 0.3460433926881404,
+          "texture": 0.0847335831520589,
+          "local_boundary": 0.20066968926323786,
+          "local_texture": 0.14400298941660022,
+          "visible_mae": 0.06087149616606141,
+          "visible_band_pixels": 960,
+          "hidden_band_pixels": 967
+        },
+        {
+          "valid": true,
+          "invalid_reasons": [],
+          "visible_pixels": 26284,
+          "hidden_pixels": 15775,
+          "predicted_pixels": 42092,
+          "visible_recall": 0.9974128747527012,
+          "boundary": 0.029038972964169504,
+          "color": 0.3382486707041254,
+          "texture": 0.05743644629833195,
+          "local_boundary": 0.21707822376231828,
+          "local_texture": 0.09589873791437409,
+          "visible_mae": 0.06069041729206267,
+          "visible_band_pixels": 960,
+          "hidden_band_pixels": 927
+        },
+        {
+          "valid": true,
+          "invalid_reasons": [],
+          "visible_pixels": 26284,
+          "hidden_pixels": 15931,
+          "predicted_pixels": 42232,
+          "visible_recall": 0.9967660934408766,
+          "boundary": 0.03614750885342795,
+          "color": 0.2138451115009262,
+          "texture": 0.06968660575888867,
+          "local_boundary": 0.21695628967285155,
+          "local_texture": 0.0800111504074314,
+          "visible_mae": 0.0621398440165393,
+          "visible_band_pixels": 960,
+          "hidden_band_pixels": 975
+        },
+        {
+          "valid": true,
+          "invalid_reasons": [],
+          "visible_pixels": 26284,
+          "hidden_pixels": 15454,
+          "predicted_pixels": 41728,
+          "visible_recall": 0.9963475878861665,
+          "boundary": 0.0637365252475268,
+          "color": 0.2958670403654573,
+          "texture": 0.08975090061538603,
+          "local_boundary": 0.21056868064594814,
+          "local_texture": 0.10093861447653422,
+          "visible_mae": 0.06121410873485497,
+          "visible_band_pixels": 960,
+          "hidden_band_pixels": 976
+        }
+      ],
+      "selected": {
+        "boundary": {
+          "index": 0,
+          "fallback": false,
+          "losses": [
+            0.7759332044023207,
+            1.165843460607671,
+            1.4512337218683764,
+            2.5588649864914386
+          ]
+        },
+        "color": {
+          "index": 2,
+          "fallback": false,
+          "losses": [
+            0.8976103607411584,
+            0.8773914420743477,
+            0.5546980284350278,
+            0.7674567018050126
+          ]
+        },
+        "texture": {
+          "index": 1,
+          "fallback": false,
+          "losses": [
+            0.5638905771019292,
+            0.3822318099274596,
+            0.46375497029479196,
+            0.5972801486820893
+          ]
+        },
+        "boundary_color": {
+          "index": 0,
+          "fallback": false,
+          "losses": [
+            0.8227321106864891,
+            1.0549003765563927,
+            1.1064123013170883,
+            1.8698618000735825
+          ]
+        },
+        "boundary_texture": {
+          "index": 0,
+          "fallback": false,
+          "losses": [
+            0.6769799783288046,
+            0.8001580236235724,
+            0.9904103044673702,
+            1.643458728847076
+          ]
+        },
+        "surface_full": {
+          "index": 0,
+          "fallback": false,
+          "losses": [
+            0.7321375739318932,
+            0.8194663782362662,
+            0.8814822354592847,
+            1.4244582220865598
+          ]
+        },
+        "local_surface": {
+          "index": 2,
+          "fallback": false,
+          "losses": [
+            1.9611058826947134,
+            1.9407296231555953,
+            1.8918485195588657,
+            1.9064244879989696
+          ]
+        },
+        "visible_preservation": {
+          "index": 1,
+          "fallback": false,
+          "losses": [
+            0.06087149616606141,
+            0.06069041729206267,
+            0.0621398440165393,
+            0.06121410873485497
+          ]
+        },
+        "fixed_seed_11": {
+          "index": 0,
+          "fallback": false,
+          "losses": null
+        },
+        "oracle_hidden_mae": {
+          "index": 2,
+          "fallback": false,
+          "losses": null
+        },
+        "development_selected": {
+          "index": 1,
+          "fallback": false,
+          "losses": [
+            0.5638905771019292,
+            0.3822318099274596,
+            0.46375497029479196,
+            0.5972801486820893
+          ]
+        }
+      },
+      "statuses": [
+        "generated",
+        "generated",
+        "generated",
+        "generated"
+      ],
+      "cohort": "Replication",
+      "experiment_path": "output\\surface-consistency-replication87-20261108"
+    },
+    "text": "giraffe (Replication). Full surface selects seed 11, while the unavailable hidden-MAE oracle selects seed 33. Gain versus the pool mean is +0.0011. The gallery exposes every case, including all losses. The candidates retain the recognizable brown-and-white patch pattern, but their generated neck and head positions differ from the source. All four hidden pixel errors remain high and close together (0.2485-0.2610). Full surface selects the smallest boundary loss, while the local rule finds the pixel-error oracle, yet even the oracle has little headroom over the pool mean. Surface compatibility alone does not identify the original pose, and this pool cannot provide a low-error reconstruction."
+  },
+  {
+    "title": "A pixel-error gain can retain a visible structural defect",
+    "case": {
+      "case_id": "free_images-020-f312566e68",
+      "source": "free_images",
+      "split": "test",
+      "label": "horse",
+      "target_id": "free_images/horse-6577968_640_horse",
+      "metrics": [
+        {
+          "seed": 11,
+          "hidden_core_mae": 0.25164530920216555,
+          "hidden_mae": 0.24320516787068067,
+          "visible_mae": 0.049767981807483735,
+          "hidden_mask_recall": 0.011496931562184417,
+          "visible_mask_recall": 0.9837918772225341,
+          "generation_missing": false,
+          "masked_spatial_lpips": 0.6363571286201477
+        },
+        {
+          "seed": 22,
+          "hidden_core_mae": 0.25857647028360015,
+          "hidden_mae": 0.24991810362492223,
+          "visible_mae": 0.050775518392521396,
+          "hidden_mask_recall": 0.037365027577099356,
+          "visible_mask_recall": 0.9833426913718885,
+          "generation_missing": false,
+          "masked_spatial_lpips": 0.6338295936584473
+        },
+        {
+          "seed": 33,
+          "hidden_core_mae": 0.09794691122778638,
+          "hidden_mae": 0.10733743783463914,
+          "visible_mae": 0.04958233789491841,
+          "hidden_mask_recall": 0.7447370465315001,
+          "visible_mask_recall": 0.9874976604903613,
+          "generation_missing": false,
+          "masked_spatial_lpips": 0.40564844012260437
+        },
+        {
+          "seed": 44,
+          "hidden_core_mae": 0.25766195548366166,
+          "hidden_mae": 0.24774290708037738,
+          "visible_mae": 0.05023536996057391,
+          "hidden_mask_recall": 0.009244154431756389,
+          "visible_mask_recall": 0.9803855511884709,
+          "generation_missing": false,
+          "masked_spatial_lpips": 0.6062131524085999
+        }
+      ],
+      "scores": [
+        {
+          "valid": true,
+          "invalid_reasons": [],
+          "visible_pixels": 26715,
+          "hidden_pixels": 152,
+          "predicted_pixels": 26607,
+          "visible_recall": 0.9837918772225341,
+          "boundary": 0.09535982004292233,
+          "color": 0.3870835566198119,
+          "texture": 0.3162601182624275,
+          "local_boundary": 0.15901747790601625,
+          "local_texture": 0.2547967805830469,
+          "visible_mae": 0.04976798180748374,
+          "visible_band_pixels": 497,
+          "hidden_band_pixels": 152
+        },
+        {
+          "valid": true,
+          "invalid_reasons": [],
+          "visible_pixels": 26715,
+          "hidden_pixels": 490,
+          "predicted_pixels": 26880,
+          "visible_recall": 0.9833426913718885,
+          "boundary": 0.06258583242757398,
+          "color": 0.3615057869941427,
+          "texture": 0.22744361674871913,
+          "local_boundary": 0.14732427989548677,
+          "local_texture": 0.18808916744796284,
+          "visible_mae": 0.050775518392521396,
+          "visible_band_pixels": 872,
+          "hidden_band_pixels": 476
+        },
+        {
+          "valid": true,
+          "invalid_reasons": [],
+          "visible_pixels": 26715,
+          "hidden_pixels": 21745,
+          "predicted_pixels": 48243,
+          "visible_recall": 0.9874976604903613,
+          "boundary": 0.019915517663440227,
+          "color": 0.337315172956948,
+          "texture": 0.32769842649449576,
+          "local_boundary": 0.13171213397606954,
+          "local_texture": 0.20001796501484792,
+          "visible_mae": 0.0495823378949184,
+          "visible_band_pixels": 991,
+          "hidden_band_pixels": 1023
+        },
+        {
+          "valid": true,
+          "invalid_reasons": [],
+          "visible_pixels": 26715,
+          "hidden_pixels": 150,
+          "predicted_pixels": 26473,
+          "visible_recall": 0.9803855511884709,
+          "boundary": 0.05229576530803191,
+          "color": 0.3944347873226424,
+          "texture": null,
+          "local_boundary": 0.11750694826356728,
+          "local_texture": null,
+          "visible_mae": 0.05023536996057391,
+          "visible_band_pixels": 486,
+          "hidden_band_pixels": 150
+        }
+      ],
+      "selected": {
+        "boundary": {
+          "index": 2,
+          "fallback": false,
+          "losses": [
+            3.828462622935771,
+            2.5126674952452612,
+            0.7995591325212139,
+            2.099546567196791
+          ]
+        },
+        "color": {
+          "index": 2,
+          "fallback": false,
+          "losses": [
+            1.004065438716836,
+            0.9377186408707575,
+            0.8749700195958378,
+            1.023133974578192
+          ]
+        },
+        "texture": {
+          "index": 1,
+          "fallback": false,
+          "losses": [
+            2.10466846753419,
+            1.513606618953289,
+            2.180788867381744,
+            null
+          ]
+        },
+        "boundary_color": {
+          "index": 2,
+          "fallback": false,
+          "losses": [
+            2.742156013620796,
+            1.9069179358704522,
+            0.8285633198576077,
+            1.6855417238819452
+          ]
+        },
+        "boundary_texture": {
+          "index": 2,
+          "fallback": false,
+          "losses": [
+            3.024025350415033,
+            2.0464390863090074,
+            1.4441330087894613,
+            null
+          ]
+        },
+        "surface_full": {
+          "index": 2,
+          "fallback": false,
+          "losses": [
+            2.5190353724904835,
+            1.7692589749494452,
+            1.3018422614910552,
+            null
+          ]
+        },
+        "local_surface": {
+          "index": 2,
+          "fallback": false,
+          "losses": [
+            1.9786737740447153,
+            1.6883816899692519,
+            1.6056274229466343,
+            null
+          ]
+        },
+        "visible_preservation": {
+          "index": 2,
+          "fallback": false,
+          "losses": [
+            0.04976798180748374,
+            0.050775518392521396,
+            0.0495823378949184,
+            0.05023536996057391
+          ]
+        },
+        "fixed_seed_11": {
+          "index": 0,
+          "fallback": false,
+          "losses": null
+        },
+        "oracle_hidden_mae": {
+          "index": 2,
+          "fallback": false,
+          "losses": null
+        },
+        "development_selected": {
+          "index": 1,
+          "fallback": false,
+          "losses": [
+            2.10466846753419,
+            1.513606618953289,
+            2.180788867381744,
+            null
+          ]
+        }
+      },
+      "statuses": [
+        "generated",
+        "generated",
+        "generated",
+        "generated"
+      ],
+      "cohort": "Pilot test",
+      "experiment_path": "output\\surface-consistency-20261108"
+    },
+    "text": "horse (Pilot test). Full surface selects seed 33, while the unavailable hidden-MAE oracle selects seed 33. Gain versus the pool mean is +0.1185. The gallery exposes every case, including all losses. Seed 33 extends dark target structure into the hidden side; the other candidates mostly replace that area with water. Its held-out mask recall is 0.74, compared with 0.01-0.04 for the alternatives, and it has lower pixel error. However, it also introduces a conspicuous pale upright protrusion on the right. The numerical gain is real under the fixed metric, while the completed structure still has visible defects. This example is included to prevent equating a metric win with a correct completion."
+  },
+  {
+    "title": "All-invalid pool: an explicit fallback, not a scored success",
+    "case": {
+      "case_id": "laion-009-acb3bbb567",
+      "source": "laion",
+      "split": "test",
+      "label": "pizza",
+      "target_id": "laion/000016771_pizza",
+      "metrics": [
+        {
+          "seed": 11,
+          "hidden_core_mae": 0.3765883050794543,
+          "hidden_mae": 0.368491651636448,
+          "visible_mae": 0.0269780305149001,
+          "hidden_mask_recall": 0.0009600074927414067,
+          "visible_mask_recall": 0.9944532488114105,
+          "generation_missing": false,
+          "masked_spatial_lpips": 0.8112660050392151
+        },
+        {
+          "seed": 22,
+          "hidden_core_mae": 0.38354743352181486,
+          "hidden_mae": 0.37465518393120195,
+          "visible_mae": 0.029740721352541983,
+          "hidden_mask_recall": 0.0007024445068839561,
+          "visible_mask_recall": 0.9905400463245154,
+          "generation_missing": false,
+          "masked_spatial_lpips": 0.8338722586631775
+        },
+        {
+          "seed": 33,
+          "hidden_core_mae": 0.37847881433488756,
+          "hidden_mae": 0.37048917648465163,
+          "visible_mae": 0.031221145778804024,
+          "hidden_mask_recall": 0.0,
+          "visible_mask_recall": 0.993465805193222,
+          "generation_missing": false,
+          "masked_spatial_lpips": 0.8327187299728394
+        },
+        {
+          "seed": 44,
+          "hidden_core_mae": 0.38335365678224703,
+          "hidden_mae": 0.3750962168382983,
+          "visible_mae": 0.026483599575796837,
+          "hidden_mask_recall": 0.000561955605507165,
+          "visible_mask_recall": 0.9939290503474338,
+          "generation_missing": false,
+          "masked_spatial_lpips": 0.8525944352149963
+        }
+      ],
+      "scores": [
+        {
+          "valid": false,
+          "invalid_reasons": [
+            "insufficient_generated_support"
+          ],
+          "visible_pixels": 82030,
+          "hidden_pixels": 41,
+          "predicted_pixels": 82311,
+          "visible_recall": 0.9944532488114105,
+          "boundary": null,
+          "color": null,
+          "texture": null,
+          "local_boundary": null,
+          "local_texture": null,
+          "visible_mae": 0.026978030514900095
+        },
+        {
+          "valid": false,
+          "invalid_reasons": [
+            "insufficient_generated_support"
+          ],
+          "visible_pixels": 82030,
+          "hidden_pixels": 30,
+          "predicted_pixels": 81759,
+          "visible_recall": 0.9905400463245154,
+          "boundary": null,
+          "color": null,
+          "texture": null,
+          "local_boundary": null,
+          "local_texture": null,
+          "visible_mae": 0.02974072135254199
+        },
+        {
+          "valid": false,
+          "invalid_reasons": [
+            "insufficient_generated_support"
+          ],
+          "visible_pixels": 82030,
+          "hidden_pixels": 0,
+          "predicted_pixels": 81888,
+          "visible_recall": 0.993465805193222,
+          "boundary": null,
+          "color": null,
+          "texture": null,
+          "local_boundary": null,
+          "local_texture": null,
+          "visible_mae": 0.031221145778804024
+        },
+        {
+          "valid": false,
+          "invalid_reasons": [
+            "insufficient_generated_support"
+          ],
+          "visible_pixels": 82030,
+          "hidden_pixels": 24,
+          "predicted_pixels": 82137,
+          "visible_recall": 0.9939290503474338,
+          "boundary": null,
+          "color": null,
+          "texture": null,
+          "local_boundary": null,
+          "local_texture": null,
+          "visible_mae": 0.026483599575796834
+        }
+      ],
+      "selected": {
+        "boundary": {
+          "index": 0,
+          "fallback": true,
+          "losses": [
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        "color": {
+          "index": 0,
+          "fallback": true,
+          "losses": [
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        "texture": {
+          "index": 0,
+          "fallback": true,
+          "losses": [
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        "boundary_color": {
+          "index": 0,
+          "fallback": true,
+          "losses": [
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        "boundary_texture": {
+          "index": 0,
+          "fallback": true,
+          "losses": [
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        "surface_full": {
+          "index": 0,
+          "fallback": true,
+          "losses": [
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        "local_surface": {
+          "index": 0,
+          "fallback": true,
+          "losses": [
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        "visible_preservation": {
+          "index": 0,
+          "fallback": true,
+          "losses": [
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        "fixed_seed_11": {
+          "index": 0,
+          "fallback": false,
+          "losses": null
+        },
+        "oracle_hidden_mae": {
+          "index": 0,
+          "fallback": false,
+          "losses": null
+        },
+        "development_selected": {
+          "index": 0,
+          "fallback": true,
+          "losses": [
+            null,
+            null,
+            null,
+            null
+          ]
+        }
+      },
+      "statuses": [
+        "generated",
+        "generated",
+        "generated",
+        "generated"
+      ],
+      "cohort": "Replication",
+      "experiment_path": "output\\surface-consistency-replication87-20261108"
+    },
+    "text": "pizza (Replication). Full surface selects seed 11, while the unavailable hidden-MAE oracle selects seed 11. Gain versus the pool mean is +0.0039. The gallery exposes every case, including all losses. Every candidate leaves the hidden side without meaningful predicted target support: the predicted hidden masks contain only 0-41 pixels, below the fixed 64-pixel guard. All surface losses are undefined. FULL* and LOCAL* therefore mean the declared seed-11 fallback, not a successful score-based choice. The fallback happens to have the lowest pixel error in this poor pool, but its error is still 0.3766. The candidate generator did not supply a satisfactory completion to select."
+  }
+]

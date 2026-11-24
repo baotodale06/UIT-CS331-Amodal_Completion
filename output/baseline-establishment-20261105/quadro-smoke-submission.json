@@ -1,0 +1,8 @@
+{
+  "submitted_utc": "2026-11-05T10:09:17.589033+00:00",
+  "command": "cd ~/Vu_Hung/cv_nangcao && sbatch --parsable --dependency=afterok:30435 --partition=debug-gpu --job-name=pdmc-quadro-smoke --gres=gpu:1 --cpus-per-task=4 --mem=32G --time=01:00:00 --output=logs/%x-%j.out",
+  "returncode": 0,
+  "stdout": "30436\n",
+  "stderr": "",
+  "job_id": "30436"
+}

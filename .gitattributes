@@ -31,3 +31,13 @@
 /Grounded-Segment-Anything/** -text
 /InstaOrder/** -text
 /lama/** -text
+
+# Published evidence retains the exact bytes recorded in its SHA-256 manifest.
+/output/** -text whitespace=cr-at-eol,-blank-at-eof,-blank-at-eol
+/results/validation-*.txt -text whitespace=cr-at-eol,-blank-at-eof,-blank-at-eol
+# Retain imported Shape source bytes referenced by research manifests.
+/amodal_benchmark/shape*.py -text whitespace=cr-at-eol,-blank-at-eof
+/scripts/*shape*.py -text whitespace=cr-at-eol,-blank-at-eof
+/scripts/*shape*.sh -text whitespace=cr-at-eol,-blank-at-eof
+/tests/test_shape*.py -text whitespace=cr-at-eol,-blank-at-eof
+/configs/research/shape*.json -text whitespace=cr-at-eol,-blank-at-eof

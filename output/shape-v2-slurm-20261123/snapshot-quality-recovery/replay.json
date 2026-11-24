@@ -1,0 +1,10 @@
+{
+  "at": "2026-11-23T12:52:41.291741+00:00",
+  "verified": true,
+  "targets": 193,
+  "result_sha256": "8e707a59b04954d7827446ea35bf9ca522330853bd8bc9297af04a10cb7c0a1d",
+  "replay_source_sha256": "f4482dc25242339534ef6e41c6f2fcf1208068fe32f238586dfe8a1c39b5abf4",
+  "benchmark_success": false,
+  "allocation_gpu_hours": 0.03666666666666667,
+  "scope": "Independent metadata/statistical replay. Native RGB remains on the cluster."
+}

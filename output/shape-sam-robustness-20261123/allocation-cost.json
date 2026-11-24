@@ -1,0 +1,57 @@
+{
+  "jobs": {
+    "45661": {
+      "role": "training_masks",
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "seconds": 358,
+      "gpus": 4,
+      "reserved_gpu_hours": 0.3977777777777778,
+      "nodes": "gebru",
+      "start": "2026-11-23T12:20:02",
+      "end": "2026-11-23T12:26:00"
+    },
+    "45662": {
+      "role": "preflight",
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "seconds": 74,
+      "gpus": 4,
+      "reserved_gpu_hours": 0.08222222222222222,
+      "nodes": "gebru",
+      "start": "2026-11-23T12:26:00",
+      "end": "2026-11-23T12:27:14"
+    },
+    "45663": {
+      "role": "training",
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "seconds": 920,
+      "gpus": 4,
+      "reserved_gpu_hours": 1.0222222222222221,
+      "nodes": "gebru",
+      "start": "2026-11-23T12:27:14",
+      "end": "2026-11-23T12:42:34"
+    },
+    "45664": {
+      "role": "native_validation",
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "seconds": 68,
+      "gpus": 1,
+      "reserved_gpu_hours": 0.01888888888888889,
+      "nodes": "gebru",
+      "start": "2026-11-23T12:42:34",
+      "end": "2026-11-23T12:43:42"
+    }
+  },
+  "reserved_gpu_hours_by_role": {
+    "training_masks": 0.3977777777777778,
+    "preflight": 0.08222222222222222,
+    "training": 1.0222222222222221,
+    "native_validation": 0.01888888888888889
+  },
+  "total_reserved_gpu_hours": 1.521111111111111,
+  "final": true,
+  "scope": "Elapsed allocated GPU-hours, including failures and interruptions; not GPU utilization. Running totals are provisional."
+}

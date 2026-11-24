@@ -1,0 +1,8 @@
+{
+  "at": "2026-11-23T12:28:49.701533+00:00",
+  "files": {
+    "scripts/evaluate_shape_robust_native.py": "fa98a9478b40d581edc15a62e3fb215f230e0200212fd32ea1823063b92f934c",
+    "scripts/run_shape_robust_native.sh": "951ecd7312a2008de03b47d630ba5f3b56ce494e2192d74ccc66f4144c8a6c62"
+  },
+  "zip_sha256": "5a4ccbe82c36b42d1997397094a75fc79ce81e7fa86667a66e00fa861f24a48c"
+}

@@ -1,0 +1,16 @@
+{
+  "at": "2026-11-14T05:10:16.742232+00:00",
+  "tests": {
+    "command": "python -m unittest discover -s tests -p 'test_annotated*.py' -v",
+    "passed": 11,
+    "failed": 0
+  },
+  "source_freezes_passed": [
+    "python scripts/check_annotated_surface_freeze.py --design output/surface-annotated-20261112-design",
+    "python scripts/check_annotated_freshrefs.py"
+  ],
+  "full_real_metadata_audit_passed": true,
+  "report_validation_passed": true,
+  "new_gpu_inference_launched": false,
+  "remote_mutations_performed": false
+}

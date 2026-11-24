@@ -1,0 +1,8 @@
+{
+  "at": "2026-11-24T12:28:58.129140+00:00",
+  "state": "QUEUED",
+  "total_gpu_hours": 30.0,
+  "used_gpu_hours": 1.4925330355555555,
+  "reserved_gpu_hours": 0.0,
+  "benchmark_success": false
+}

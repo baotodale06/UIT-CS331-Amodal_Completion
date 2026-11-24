@@ -1,0 +1,218 @@
+{
+  "selected_targets": 4,
+  "paper_targets": 2565,
+  "full_image_coverage": false,
+  "evaluation_performed": false,
+  "exact_table_reproduction": false,
+  "boundary_check": "released",
+  "target_selection": "label-semantic",
+  "metric_alignment": "released",
+  "protocol_notes": [
+    "Released PD-MC Grounding DINO + SAM segmentation, InstaOrder, LaMa and Mixed Context diffusion.",
+    "Released boundary behavior is retained; undersized backdrops are enlarged when required.",
+    "Target identity uses versioned class aliases and exact-mask deduplication; distinct instances remain ambiguous.",
+    "Appearance references use the selected initial SAM mask with 5x5 erosion and first-crop preprocessing.",
+    "SAM references differ from the OpenWorld paper's LISA references; appearance scores are a separate protocol.",
+    "Failed completions receive LPIPS=1, VGG=0, SSIM=0, including failed target detections.",
+    "Successful completions with empty eroded references receive CLIP only; inspect all metric denominators.",
+    "CLIP is raw ViT-B/32 logits on successful completions only; visible masks are not hidden-pixel ground truth.",
+    "Annotation-guided vocabulary experiment: scene categories plus separate queries for missing categories annotated in each image; the same queries run during completion checks.",
+    "Success denotes a saved output; completed_outputs and iteration_limited_outputs report its stop state separately."
+  ],
+  "source_counts_in_paper": {
+    "VG": {
+      "images": 1234,
+      "instances": 1294,
+      "classes": 269
+    },
+    "COCOA": {
+      "images": 751,
+      "instances": 845,
+      "classes": 256
+    },
+    "free_images": {
+      "images": 228,
+      "instances": 249,
+      "classes": 147
+    },
+    "laion": {
+      "images": 166,
+      "instances": 177,
+      "classes": 97
+    }
+  },
+  "statistics": {
+    "VG": {
+      "targets": 1,
+      "successes": 1,
+      "failures": 0,
+      "reference_failures": 0,
+      "missing_images": 0,
+      "failure_rate": 0.0,
+      "status_counts": {
+        "success": 1
+      },
+      "failure_reasons": {},
+      "completed_outputs": 1,
+      "iteration_limited_outputs": 0,
+      "completion_state_unknown": 0,
+      "failure_stage_counts": {},
+      "target_selection_failures": 0,
+      "initial_segmentation_failures": 0,
+      "pdmc_failures": 0,
+      "CLIP": null,
+      "CLIP_n": 0,
+      "LPIPS": null,
+      "LPIPS_n": 0,
+      "Feature Similarity": null,
+      "Feature Similarity_n": 0,
+      "SSIM": null,
+      "SSIM_n": 0
+    },
+    "COCOA": {
+      "targets": 1,
+      "successes": 1,
+      "failures": 0,
+      "reference_failures": 0,
+      "missing_images": 0,
+      "failure_rate": 0.0,
+      "status_counts": {
+        "success": 1
+      },
+      "failure_reasons": {},
+      "completed_outputs": 0,
+      "iteration_limited_outputs": 1,
+      "completion_state_unknown": 0,
+      "failure_stage_counts": {},
+      "target_selection_failures": 0,
+      "initial_segmentation_failures": 0,
+      "pdmc_failures": 0,
+      "CLIP": null,
+      "CLIP_n": 0,
+      "LPIPS": null,
+      "LPIPS_n": 0,
+      "Feature Similarity": null,
+      "Feature Similarity_n": 0,
+      "SSIM": null,
+      "SSIM_n": 0
+    },
+    "free_images": {
+      "targets": 1,
+      "successes": 1,
+      "failures": 0,
+      "reference_failures": 0,
+      "missing_images": 0,
+      "failure_rate": 0.0,
+      "status_counts": {
+        "success": 1
+      },
+      "failure_reasons": {},
+      "completed_outputs": 1,
+      "iteration_limited_outputs": 0,
+      "completion_state_unknown": 0,
+      "failure_stage_counts": {},
+      "target_selection_failures": 0,
+      "initial_segmentation_failures": 0,
+      "pdmc_failures": 0,
+      "CLIP": null,
+      "CLIP_n": 0,
+      "LPIPS": null,
+      "LPIPS_n": 0,
+      "Feature Similarity": null,
+      "Feature Similarity_n": 0,
+      "SSIM": null,
+      "SSIM_n": 0
+    },
+    "laion": {
+      "targets": 1,
+      "successes": 1,
+      "failures": 0,
+      "reference_failures": 0,
+      "missing_images": 0,
+      "failure_rate": 0.0,
+      "status_counts": {
+        "success": 1
+      },
+      "failure_reasons": {},
+      "completed_outputs": 1,
+      "iteration_limited_outputs": 0,
+      "completion_state_unknown": 0,
+      "failure_stage_counts": {},
+      "target_selection_failures": 0,
+      "initial_segmentation_failures": 0,
+      "pdmc_failures": 0,
+      "CLIP": null,
+      "CLIP_n": 0,
+      "LPIPS": null,
+      "LPIPS_n": 0,
+      "Feature Similarity": null,
+      "Feature Similarity_n": 0,
+      "SSIM": null,
+      "SSIM_n": 0
+    },
+    "Overall": {
+      "targets": 4,
+      "successes": 4,
+      "failures": 0,
+      "reference_failures": 0,
+      "missing_images": 0,
+      "failure_rate": 0.0,
+      "status_counts": {
+        "success": 4
+      },
+      "failure_reasons": {},
+      "completed_outputs": 3,
+      "iteration_limited_outputs": 1,
+      "completion_state_unknown": 0,
+      "failure_stage_counts": {},
+      "target_selection_failures": 0,
+      "initial_segmentation_failures": 0,
+      "pdmc_failures": 0,
+      "CLIP": null,
+      "CLIP_n": 0,
+      "LPIPS": null,
+      "LPIPS_n": 0,
+      "Feature Similarity": null,
+      "Feature Similarity_n": 0,
+      "SSIM": null,
+      "SSIM_n": 0
+    }
+  },
+  "data_identity": {
+    "targets_sha256": "88fbcbd816362da0372be25b505d4ba2882ab4bbc57a05b9fe9935134b2c8b02",
+    "inputs_sha256": "3f901384bdc40669d1e4e025f8e6bdf460f64d8dc964a1ee1440975d455afad3",
+    "references_sha256": "c07e5402a8642f24e51121b3ad3ebfd18af3f3d13e1c7f849c6318038afa7d7a"
+  },
+  "research_cohort": {
+    "manifest_sha256": "ad872458e4014038b56e0d821879218413dd63cd4c6a33b07c0c53f9c22bf892",
+    "target_ids": [
+      "VG/43_television",
+      "COCOA/COCO_train2014_000000004719_greentablecloth",
+      "free_images/dairy-cattle-9018750_640_cow",
+      "laion/000000115_violin"
+    ]
+  },
+  "pipeline_profile": "released-sam",
+  "reference_backend": "grounded-sam",
+  "resize_background": true,
+  "label_matching": {
+    "version": 2,
+    "aliases_sha256": "312fbdd25431183cbfc3c06ec98515301ff653380ce6f2d1f69dd066e775781e",
+    "annotation_rule": "longest-object-suffix-before-spatial-description-v1",
+    "deduplication": "exact-binary-mask",
+    "duplicate_representative": "highest-detector-score/stable-first-index",
+    "implementation_sha256": "0e60f36d26f9a962ce4f8a933a7a8cafd56452b3e59d461ab5c4c9ec54845c07"
+  },
+  "detector_vocabulary": {
+    "version": 1,
+    "mode": "annotated",
+    "queries": "base-scene-vocabulary-plus-per-image-missing-annotation-categories",
+    "base_chunking": "tokenizer-budget-preserve-order-v1",
+    "extra_chunking": "one-category-per-query",
+    "max_text_tokens": 256,
+    "query_gate": "base-plus-added-categories-and-their-returned-phrases",
+    "deduplication": "semantic-matcher-exact-masks-only",
+    "image_queries_sha256": "fb5a6fbd4c96bef88d04d4b3b6a1381791e9fdb41a02a4c27500824c8526607c",
+    "implementation_sha256": "1e38eedf7bddb16c2dbee8f8934aa77d60026698d55577ba90fa7d8aef8b0bea"
+  }
+}

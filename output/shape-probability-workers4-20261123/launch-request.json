@@ -1,0 +1,9 @@
+{
+  "at": "2026-11-23T17:26:13.396026+00:00",
+  "active_processes": [],
+  "predecessor_complete": true,
+  "benchmark_success": false,
+  "kaggle_state": "QUEUED",
+  "kaggle_kernel": "ez4kacchan/shape-only-probability-training-20261123/1",
+  "disposition": "start_local"
+}

@@ -1,0 +1,262 @@
+{
+  "schema": 1,
+  "reference": {
+    "paper": "https://openaccess.thecvf.com/content/CVPR2025/papers/Ao_Open-World_Amodal_Appearance_Completion_CVPR_2025_paper.pdf",
+    "metric_table": 3,
+    "failure_table": 5
+  },
+  "exact_table_reproduction": false,
+  "sources": {
+    "VG": {
+      "paper_targets": 1294,
+      "selected_targets": 109,
+      "complete_source": false,
+      "reference_failures": 0,
+      "missing_images": 0,
+      "metrics": {
+        "CLIP_success": {
+          "paper": 28.367,
+          "observed": 28.84094051438935,
+          "delta": 0.4739405143893478,
+          "n": 49,
+          "comparison_status": "paper_denominator_unknown"
+        },
+        "LPIPS": {
+          "paper": 0.578,
+          "observed": 0.6534616889414984,
+          "delta": 0.0754616889414984,
+          "n": 109,
+          "comparison_status": "different_reference_backend"
+        },
+        "Feature Similarity": {
+          "paper": 0.413,
+          "observed": 0.319482205657784,
+          "delta": -0.09351779434221597,
+          "n": 109,
+          "comparison_status": "different_reference_backend"
+        },
+        "SSIM": {
+          "paper": 0.463,
+          "observed": 0.38050339973660546,
+          "delta": -0.08249660026339456,
+          "n": 109,
+          "comparison_status": "different_reference_backend"
+        }
+      },
+      "failure_rate": {
+        "paper": 0.4,
+        "observed": 0.5504587155963303,
+        "delta_pp": 15.045871559633028,
+        "n": 109
+      },
+      "failure_reasons": {
+        "query_mask_too_small": 4,
+        "multiple_distinct_instances": 25,
+        "label_not_matched": 15,
+        "no_occlusion_detected": 16
+      }
+    },
+    "COCOA": {
+      "paper_targets": 845,
+      "selected_targets": 67,
+      "complete_source": false,
+      "reference_failures": 0,
+      "missing_images": 0,
+      "metrics": {
+        "CLIP_success": {
+          "paper": 27.383,
+          "observed": 27.53071457999093,
+          "delta": 0.1477145799909323,
+          "n": 28,
+          "comparison_status": "paper_denominator_unknown"
+        },
+        "LPIPS": {
+          "paper": 0.664,
+          "observed": 0.7095168981311927,
+          "delta": 0.04551689813119264,
+          "n": 67,
+          "comparison_status": "different_reference_backend"
+        },
+        "Feature Similarity": {
+          "paper": 0.328,
+          "observed": 0.2504138190354874,
+          "delta": -0.07758618096451264,
+          "n": 67,
+          "comparison_status": "different_reference_backend"
+        },
+        "SSIM": {
+          "paper": 0.382,
+          "observed": 0.34117402866129337,
+          "delta": -0.040825971338706635,
+          "n": 67,
+          "comparison_status": "different_reference_backend"
+        }
+      },
+      "failure_rate": {
+        "paper": 0.485,
+        "observed": 0.582089552238806,
+        "delta_pp": 9.7089552238806,
+        "n": 67
+      },
+      "failure_reasons": {
+        "label_not_matched": 9,
+        "query_mask_too_small": 2,
+        "multiple_distinct_instances": 16,
+        "no_occlusion_detected": 12
+      }
+    },
+    "free_images": {
+      "paper_targets": 249,
+      "selected_targets": 14,
+      "complete_source": false,
+      "reference_failures": 0,
+      "missing_images": 0,
+      "metrics": {
+        "CLIP_success": {
+          "paper": 28.333,
+          "observed": 29.22546164194743,
+          "delta": 0.8924616419474312,
+          "n": 6,
+          "comparison_status": "paper_denominator_unknown"
+        },
+        "LPIPS": {
+          "paper": 0.72,
+          "observed": 0.6808170548507145,
+          "delta": -0.03918294514928544,
+          "n": 14,
+          "comparison_status": "different_reference_backend"
+        },
+        "Feature Similarity": {
+          "paper": 0.279,
+          "observed": 0.2662275529333523,
+          "delta": -0.012772447066647707,
+          "n": 14,
+          "comparison_status": "different_reference_backend"
+        },
+        "SSIM": {
+          "paper": 0.309,
+          "observed": 0.35922524994283594,
+          "delta": 0.05022524994283595,
+          "n": 14,
+          "comparison_status": "different_reference_backend"
+        }
+      },
+      "failure_rate": {
+        "paper": 0.582,
+        "observed": 0.5714285714285714,
+        "delta_pp": -1.0571428571428565,
+        "n": 14
+      },
+      "failure_reasons": {
+        "multiple_distinct_instances": 3,
+        "no_occlusion_detected": 2,
+        "query_mask_too_small": 2,
+        "label_not_matched": 1
+      }
+    },
+    "laion": {
+      "paper_targets": 177,
+      "selected_targets": 14,
+      "complete_source": false,
+      "reference_failures": 0,
+      "missing_images": 0,
+      "metrics": {
+        "CLIP_success": {
+          "paper": 27.573,
+          "observed": 28.862477779388428,
+          "delta": 1.2894777793884273,
+          "n": 4,
+          "comparison_status": "paper_denominator_unknown"
+        },
+        "LPIPS": {
+          "paper": 0.692,
+          "observed": 0.7964704238942691,
+          "delta": 0.1044704238942692,
+          "n": 14,
+          "comparison_status": "different_reference_backend"
+        },
+        "Feature Similarity": {
+          "paper": 0.299,
+          "observed": 0.19023272820881434,
+          "delta": -0.10876727179118564,
+          "n": 14,
+          "comparison_status": "different_reference_backend"
+        },
+        "SSIM": {
+          "paper": 0.346,
+          "observed": 0.2392236848884952,
+          "delta": -0.10677631511150476,
+          "n": 14,
+          "comparison_status": "different_reference_backend"
+        }
+      },
+      "failure_rate": {
+        "paper": 0.542,
+        "observed": 0.7142857142857143,
+        "delta_pp": 17.228571428571428,
+        "n": 14
+      },
+      "failure_reasons": {
+        "query_mask_too_small": 1,
+        "multiple_distinct_instances": 3,
+        "label_not_matched": 2,
+        "no_occlusion_detected": 4
+      }
+    },
+    "Overall": {
+      "paper_targets": 2565,
+      "selected_targets": 204,
+      "complete_source": false,
+      "reference_failures": 0,
+      "missing_images": 0,
+      "metrics": {
+        "CLIP_success": {
+          "paper": 27.984,
+          "observed": 28.44676752200072,
+          "delta": 0.4627675220007177,
+          "n": 87,
+          "comparison_status": "paper_denominator_unknown"
+        },
+        "LPIPS": {
+          "paper": 0.628,
+          "observed": 0.6835636322149167,
+          "delta": 0.05556363221491667,
+          "n": 204,
+          "comparison_status": "different_reference_backend"
+        },
+        "Feature Similarity": {
+          "paper": 0.364,
+          "observed": 0.2842731873924826,
+          "delta": -0.0797268126075174,
+          "n": 204,
+          "comparison_status": "different_reference_backend"
+        },
+        "SSIM": {
+          "paper": 0.413,
+          "observed": 0.3564304685256632,
+          "delta": -0.0565695314743368,
+          "n": 204,
+          "comparison_status": "different_reference_backend"
+        }
+      },
+      "failure_rate": {
+        "paper": 0.455,
+        "observed": 0.5735294117647058,
+        "delta_pp": 11.852941176470583,
+        "n": 204
+      },
+      "failure_reasons": {
+        "query_mask_too_small": 9,
+        "multiple_distinct_instances": 47,
+        "label_not_matched": 27,
+        "no_occlusion_detected": 34
+      }
+    }
+  },
+  "notes": [
+    "Deltas are observed minus published, not improvements in reproduction fidelity.",
+    "CLIP_success uses successful completions; the paper's CLIP denominator is unknown.",
+    "Failure-rate deltas use percentage points; missing images and reference failures are excluded.",
+    "Visible references are not amodal ground truth; local target matching remains an adapter assumption."
+  ]
+}

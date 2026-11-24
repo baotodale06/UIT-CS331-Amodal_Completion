@@ -1,0 +1,41 @@
+{
+  "passed": true,
+  "at": "2026-11-12T10:57:13.297663+00:00",
+  "reviewer": "Codex assistant; this is delivery/layout review, not a blinded human quality study",
+  "pdf": {
+    "pages": 10,
+    "contact_sheet_inspected": true,
+    "individual_pages_inspected_this_review": [
+      8,
+      9,
+      10
+    ],
+    "no_observed_clipping": true,
+    "primary_inconclusive_result_and_intervals_visible": true
+  },
+  "gallery": {
+    "offline_file_opened": true,
+    "viewport_screenshot_inspected": true,
+    "filters_and_case_insensitive_search_passed": true,
+    "checks": 25,
+    "image_panels_loaded": 582,
+    "independent_paired_record_counts": {
+      "tie": 117,
+      "gain": 48,
+      "loss": 39
+    },
+    "no_horizontal_overflow_at_tested_viewport": true
+  },
+  "repaired_issue": "Malformed dropdown option closing tags fixed in the builder; automated validation now checks the option values and closing tags; browser retest passed.",
+  "scientific_scope": "No inference, model parameter, reference, cohort, endpoint or numerical result changed during delivery repair.",
+  "artifact_sha256": {
+    "REPORT.pdf": "e348c4c443d6a93e5762a728142db6007f67d2c00df43add6eea4cc734046149",
+    "REPORT.md": "607e5f6fe6d54fd69b68980fb169929d0bc2cee5e73ca1329c9d3d1358b06860",
+    "gallery.html": "05386c49ab01afa017bb7156f1d01a7e41719673066bbd52443540a0b6c3b205",
+    "gallery-manifest.json": "f24978cfe5ba4117d2548e69ac6f751be5a419f2bda249697f7a00ccbb0d63be",
+    "browser-validation.json": "4d1cd2044392a347370c0ec287b668bd927710e89d76ea5cc01e82affba9527b",
+    "validation.json": "fa4c3a74d3653524a5515f2179bfb8f79288eccbf78ff36063086642e7e12dc1",
+    "cross-system-audit.json": "ca9e6445f742bae35bd235fc2b49957442ac9d6de24c61a69f7f13f23e0aa073",
+    "pdf-review/contact-sheet.png": "d72292280ed966df10802b03acaa75bf7af362f71a0d904b30175ec8c4dc617b"
+  }
+}

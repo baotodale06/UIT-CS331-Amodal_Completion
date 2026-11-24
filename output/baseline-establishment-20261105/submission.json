@@ -1,0 +1,10 @@
+{
+  "submitted_utc": "2026-11-05T09:54:00.148135+00:00",
+  "command": "cd ~/Vu_Hung/cv_nangcao && sbatch --parsable --dependency=afterok:30425 --partition=debug-gpu --job-name=pdmc-baseline --gres=gpu:4 --cpus-per-task=16 --mem=64G --time=24:00:00 --output=logs/%x-%j.out scripts/run_baseline_slurm.sh --cache-dir /home/daoqm/Vu_Hung/cv_nangcao/.amodal-cache --output-dir output/pdmc-baseline-provenance-20261105 --benchmark-workers 4 --run-only",
+  "returncode": 0,
+  "stdout": "30426\n",
+  "stderr": "",
+  "replaced_pending_job": "30423",
+  "reason": "Use the existing persistent cache; validate its repair before the four-GPU run",
+  "job_id": "30426"
+}

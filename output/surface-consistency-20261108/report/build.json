@@ -1,0 +1,10 @@
+{
+  "report_sha256": "4c00d3ced9c00fa1935075e0cbd30e8a8bb4caed36051b9aabd7f2844d7d3872",
+  "pdf_sha256": "daeb4a0656d01cab4c7ab5e54b3ca493af950ad20c6c545d206480ebb8d54664",
+  "builder_sha256": "b9e0bd16bd0d7c99cd2dcc84c1ea0936d572fe178eebf545899bb4d4288ce3ad",
+  "test_cases": 159,
+  "candidate_rows": 636,
+  "selection_rows": 1749,
+  "gallery_panels": 159,
+  "development_method": "texture"
+}

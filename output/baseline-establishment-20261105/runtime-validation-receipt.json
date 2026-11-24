@@ -1,0 +1,21 @@
+{
+  "downloaded_utc": "2026-11-05T10:03:45.629452+00:00",
+  "job_id": "30425",
+  "archive_sha256": "ada158e7528c63ea786a84747222bab67e24be54a62dcef3c2c1d86e9b91830a",
+  "source_files_verified": 36,
+  "gpu": {
+    "torch": "1.13.1",
+    "cuda": "11.7",
+    "visible_devices": "0",
+    "devices": [
+      {
+        "index": 0,
+        "name": "Quadro RTX 6000",
+        "total_memory": 25197805568
+      }
+    ]
+  },
+  "cuda_extension": "passed_forward_and_backward",
+  "pipeline_imports": "passed",
+  "pinned_runtime": "passed"
+}

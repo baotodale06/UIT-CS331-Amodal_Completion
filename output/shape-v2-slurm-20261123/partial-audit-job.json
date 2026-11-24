@@ -1,0 +1,15 @@
+{
+  "job_id": "45665",
+  "command": [
+    "sbatch",
+    "--parsable",
+    "--partition=debug-cpu",
+    "--cpus-per-task=2",
+    "--mem=4G",
+    "--time=00:10:00",
+    "--job-name=shape-v2-partial-audit",
+    "--output=/home/daoqm/Vu_Hung/cv_nangcao/output/shape-v2-slurm-20261123/partial-audit-%j.log",
+    "--wrap",
+    "PYTHONNOUSERSITE=1 OPENBLAS_NUM_THREADS=2 OMP_NUM_THREADS=2 /home/daoqm/Vu_Hung/cv_nangcao/.amodal-cache/surface-metrics-env/bin/python /home/daoqm/Vu_Hung/cv_nangcao/output/shape-v2-slurm-20261123/partial_audit.py"
+  ]
+}

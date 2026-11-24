@@ -1,0 +1,1492 @@
+{
+  "controlled_cases": 128,
+  "matched": 32,
+  "previously_occluded": 23,
+  "cases_sha256": "34340e97dfe65f69f7d35fcb2cb939bed5299d9a0445b86a44c9a8a39b107209",
+  "geometry_manifest_sha256": "f0e0bc47f7f4fdf9fb0cb8f6388826e16c06b6a670fd40a95402e6d091e57a9c",
+  "script_sha256": "f1d1ff2a24949eb84732cb2d68e300185daf1cc4580025c3359a5b7949850da2",
+  "comparisons": {
+    "shape4": {
+      "n": 32,
+      "baseline": 0.6327672146753028,
+      "method": 0.6732209912584641,
+      "absolute_gain": 0.04045377658316129,
+      "absolute_ci": [
+        0.02030177852466127,
+        0.06396995516739203
+      ],
+      "relative_gain_percent": 6.3931530656056,
+      "relative_ci_percent": [
+        3.1187182991913924,
+        10.372812808814171
+      ],
+      "wins": 25,
+      "losses": 7,
+      "direction": "higher"
+    },
+    "shape8": {
+      "n": 32,
+      "baseline": 0.6356568948512336,
+      "method": 0.6740417260308088,
+      "absolute_gain": 0.03838483117957518,
+      "absolute_ci": [
+        0.015382453026429722,
+        0.06314406295298244
+      ],
+      "relative_gain_percent": 6.0386084836787,
+      "relative_ci_percent": [
+        2.3985652933986366,
+        10.083304518142706
+      ],
+      "wins": 25,
+      "losses": 7,
+      "direction": "higher"
+    },
+    "surface8": {
+      "n": 32,
+      "baseline": 0.6356568948512336,
+      "method": 0.6626443196059353,
+      "absolute_gain": 0.026987424754701735,
+      "absolute_ci": [
+        0.0017494491294031697,
+        0.05376022251135245
+      ],
+      "relative_gain_percent": 4.245596165682708,
+      "relative_ci_percent": [
+        0.2658269201191527,
+        8.639600492281636
+      ],
+      "wins": 20,
+      "losses": 12,
+      "direction": "higher"
+    },
+    "combined8": {
+      "n": 32,
+      "baseline": 0.6356568948512336,
+      "method": 0.6711975913208807,
+      "absolute_gain": 0.03554069646964719,
+      "absolute_ci": [
+        0.01621804550133564,
+        0.05807662427565703
+      ],
+      "relative_gain_percent": 5.5911761136430345,
+      "relative_ci_percent": [
+        2.508512539927217,
+        9.230274741840764
+      ],
+      "wins": 21,
+      "losses": 11,
+      "direction": "higher"
+    }
+  },
+  "rows": [
+    {
+      "id": "COCOA/COCO_train2014_000000019863_train",
+      "case_id": "COCOA-000-eb8b47f878",
+      "image": "COCOA/COCO_train2014_000000019863",
+      "crop_box": [
+        -37,
+        -132,
+        645,
+        550
+      ],
+      "original_occlusion": 0.042235677689799724,
+      "pre_occlusion_sam_iou": 0.8172863916808554,
+      "amodal_iou": {
+        "first": 0.6943462589890478,
+        "shape4": 0.7209402158676759,
+        "shape8": 0.7209402158676759,
+        "surface8": 0.6723404255319149,
+        "combined8": 0.6723404255319149,
+        "uniform4": 0.6694221345742231,
+        "uniform8": 0.624632631786393
+      },
+      "candidate_amodal_iou": [
+        0.6943462589890478,
+        0.7209402158676759,
+        0.599795006855731,
+        0.6626070565844374,
+        0.6723404255319149,
+        0.4804492777019524,
+        0.6554324856081032,
+        0.5111503271522819
+      ],
+      "candidate_mask_sha256": [
+        "18a99efd74b00d7e7f82ff589511f366aeb0b64439cffc8ed6f629f32e6a278e",
+        "47859d32ea27d7a644bf5d365ea7ca7a7e973c96a6aafe270f4a8bc469386695",
+        "0af63261daca2881e7452ecad1738dcfbf156287bafd164f10f4ee4ff8e7ba7e",
+        "323bd39247fcceea2ffe702ee64bec3ccaacf492c7532b0e8084ea1e77733fba",
+        "800bc936aaa006d57241d03d78f9d55c395dc71745f87cf68f01282faf7455b3",
+        "2a514f5e52cb14f2f1e8726f92294c63a161ad2da7b7bf320df05eebedd54823",
+        "5adf876da0955057676736c0c3e5b39db72d4f31b0c11e99c2eb53f705681845",
+        "35361f0b532a1b861e0f1ba8abd8697c19bce2fbed51fc4c65c366b64c97dc5c"
+      ],
+      "controlled_result_sha256": "994dda1dc451005c51efea0d60b8d69e409380540fb59cc7efbc8bd21345a6c0",
+      "decision_sha256": "9021746a32a5304616df571ff9f7b77cab70336bda601aedf0c1823db656f3b3"
+    },
+    {
+      "id": "COCOA/COCO_test2014_000000220612_elephant",
+      "case_id": "COCOA-002-eeac5d6a0b",
+      "image": "COCOA/COCO_test2014_000000220612",
+      "crop_box": [
+        95,
+        -85,
+        711,
+        531
+      ],
+      "original_occlusion": 0.4509095162242545,
+      "pre_occlusion_sam_iou": 0.5952504274503907,
+      "amodal_iou": {
+        "first": 0.3553406926358705,
+        "shape4": 0.359211162418524,
+        "shape8": 0.36212866877477395,
+        "surface8": 0.359211162418524,
+        "combined8": 0.359211162418524,
+        "uniform4": 0.3572840790325281,
+        "uniform8": 0.3570047463730853
+      },
+      "candidate_amodal_iou": [
+        0.3553406926358705,
+        0.35417664553930467,
+        0.36040781553641327,
+        0.359211162418524,
+        0.36212866877477395,
+        0.35197108261949583,
+        0.360251582094188,
+        0.3525503213661123
+      ],
+      "candidate_mask_sha256": [
+        "ed1f52ac24258479f941b9e9ef83343e0333dc4947427bdc192994c6e9630970",
+        "b59c1739c79767d71f44e65473c8ffb234d503d2ffca2bfda325c5ecb15d54b9",
+        "d9164d1dbd1281bb84750acd424d1d90b36ae3940d531f3a1dc235128d881255",
+        "87c2d88cfc3a79b01723f34d435c9bd1234d6b3fbaea848f37520c7d87d2f6b7",
+        "f673a14ed57a84c35715e162e26b61a2371a68e9e491c26b60fe3313ba6daf71",
+        "1b75854213b274a43ca7684cd3c33ef419a314f5ceae51f22e38164a4fa5c25c",
+        "d9d93c39443439a8d189900188909a97533949ba325a5bb51164f375cb4dbed1",
+        "81b5b016c47369806b1defdeb9985f9fe55dbd09f788b1259a7a101fd954be12"
+      ],
+      "controlled_result_sha256": "ef7b51ec2ea1c32dc0a1c825bea325c768c6def8bdc03ef9163b02a619dca0fe",
+      "decision_sha256": "66d4c094ab8d6d7bf0748895157a2878ec1211d1c247337408372197f8096c5e"
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000142649_cat",
+      "case_id": "COCOA-007-2f12c6b99d",
+      "image": "COCOA/COCO_train2014_000000142649",
+      "crop_box": [
+        38,
+        -43,
+        569,
+        488
+      ],
+      "original_occlusion": 0.004009718921359056,
+      "pre_occlusion_sam_iou": 0.9491559139071969,
+      "amodal_iou": {
+        "first": 0.6987537659097244,
+        "shape4": 0.7348934313112607,
+        "shape8": 0.8436433688822855,
+        "surface8": 0.8802702561148065,
+        "combined8": 0.7348934313112607,
+        "uniform4": 0.6976990339497904,
+        "uniform8": 0.7431206260913795
+      },
+      "candidate_amodal_iou": [
+        0.6987537659097244,
+        0.6203285420944559,
+        0.7348934313112607,
+        0.7368203964837204,
+        0.8802702561148065,
+        0.7457178521069786,
+        0.8436433688822855,
+        0.684537395827804
+      ],
+      "candidate_mask_sha256": [
+        "3065aade8121ef227502b5a12adc0fb0677ef6484d1946f825aa0bd316a39f1c",
+        "a3045eb3d365c4d5dcba148ae71a47e0fa9c8fc00e7fc3d9b57d13ffce983e84",
+        "093cc43d01a1b2166951aace80ff7307c157dca8e2209e2e13694bccff03d216",
+        "cd616aca4258c9961b8c8b9580e6d3c29edad06810b3fc55b7f76fa1ce2e00c3",
+        "d0cb68c2c9bb051574b4d177394b38e4b2c20dd9ad56d3da89a813b3cce93e2c",
+        "576c21f7db7ff22f91467ef965b696693f46d2a4c9675fa3c9bbce9761c12867",
+        "ac7b3ffc268268f88ae30db8d9297c38fb82c9ce5dd2a2ad37861bd0ceb44b0f",
+        "5081a31b296c1b488e2874c1be3e43129cc2d512198a5235aa2e1f9edd05188e"
+      ],
+      "controlled_result_sha256": "084934a1bbc2740400dee11d1aeb1a4219b1b42ba954dac62fcf20ad6836a43d",
+      "decision_sha256": "6507284f4d02ffdf079b8124cc4fd7bd7eaad4dc5789f7c6c2526b9c16f0d195"
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000524059_elephant",
+      "case_id": "COCOA-009-9316d75b70",
+      "image": "COCOA/COCO_train2014_000000524059",
+      "crop_box": [
+        -57,
+        117,
+        358,
+        532
+      ],
+      "original_occlusion": 0.1482872282722076,
+      "pre_occlusion_sam_iou": 0.8244444444444444,
+      "amodal_iou": {
+        "first": 0.7513684167367105,
+        "shape4": 0.7776984143180752,
+        "shape8": 0.7776984143180752,
+        "surface8": 0.7655329064598876,
+        "combined8": 0.7776984143180752,
+        "uniform4": 0.7735318282405274,
+        "uniform8": 0.7467623878546166
+      },
+      "candidate_amodal_iou": [
+        0.7513684167367105,
+        0.7711962833914053,
+        0.7776984143180752,
+        0.7938641985159179,
+        0.7555690317364059,
+        0.6089583333333334,
+        0.7499115183451964,
+        0.7655329064598876
+      ],
+      "candidate_mask_sha256": [
+        "a7c53f6f6c5c27bddee54c3be7441b9f6221219129ef7704c879787197a916d2",
+        "529918c13fa68c38491a005b401e252ba405db49bae3e8dff149cc0a39058451",
+        "b68ba373683d41ce4ed774abf48b70e3abb806bff7e3d902743c1b144d602706",
+        "7a7b6847f345c45c7df0572fb4c09d46c4f955b531c6fb8bd814c3309d32206f",
+        "4312037a343c868903e5090024102473f9ff2220c9909f6fc9082cf2695f733b",
+        "a0f40bacc91cdd6b7db52aaaffddff588d66429978ded19b1f893800f5b9797d",
+        "d41982d50cc5cd5bcfddba6fcf27534fd0d49ce9f0cbb50653e276463cb901bc",
+        "dbe1ebac3f33f64056d794ebcb731f5883d33c389d5c40aa44c5b578b4cf4219"
+      ],
+      "controlled_result_sha256": "68b2084febd0fbdd379c44ce89822f57276483b16f75c99ca75485d021a0aef7",
+      "decision_sha256": "7768bf232e5bd1a4584fa297e07be74520e849479097c77bf7cf384da969ec70"
+    },
+    {
+      "id": "COCOA/COCO_test2014_000000345332_cat",
+      "case_id": "COCOA-010-f98898360a",
+      "image": "COCOA/COCO_test2014_000000345332",
+      "crop_box": [
+        -75,
+        -43,
+        347,
+        379
+      ],
+      "original_occlusion": 0.0,
+      "pre_occlusion_sam_iou": 0.9180944564139394,
+      "amodal_iou": {
+        "first": 0.6166226688239802,
+        "shape4": 0.6166226688239802,
+        "shape8": 0.6166226688239802,
+        "surface8": 0.6000816993464052,
+        "combined8": 0.6003989361702128,
+        "uniform4": 0.5978305874413606,
+        "uniform8": 0.6001997718179011
+      },
+      "candidate_amodal_iou": [
+        0.6166226688239802,
+        0.6003989361702128,
+        0.5771086122590099,
+        0.5971921325122397,
+        0.5986071757757826,
+        0.6000816993464052,
+        0.5963676671214189,
+        0.6152192825341589
+      ],
+      "candidate_mask_sha256": [
+        "5bcb7c9a092ead406586186f9af91ff658c1d865c62ac0c8c851a4046cd67c1e",
+        "3af7dd7f99478d810e8dc0672504511603538962a871fb8a8171446ef552e106",
+        "1ca173d374892ca03abb09c350443cf103998072df39729168491ffa1c932c6b",
+        "bdedaeacdc682017d2f924c8b6363554c8c21be39703fc58624b6919e33e6742",
+        "21cee9e27067e77c125ca3e6239f3ee02bd4bcc5d44048b71fb5f1ad6cdf6159",
+        "52b2bdaad55031d760d1219fa850805f0e6cdba6ebae83086c850650ea8a04e9",
+        "ce55b650b01457edbfb34dd7b3e531e6bf940fcfb536793f6f0e15204b391754",
+        "eb701643681b9f4c224c8e4b7aae084c0f2023e7d2c72d457cc087ab0a4e760c"
+      ],
+      "controlled_result_sha256": "8e985e63eb1864dc5ce1429b4842e75f46086496ea778a5c5415237b96085186",
+      "decision_sha256": "e585a1b2cf5d54ea861857705dbe21d38bc3a45a7e177b64ad77040c34202b01"
+    },
+    {
+      "id": "COCOA/COCO_test2014_000000004996_elephant",
+      "case_id": "COCOA-011-c5e7c39a5b",
+      "image": "COCOA/COCO_test2014_000000004996",
+      "crop_box": [
+        -48,
+        -82,
+        742,
+        708
+      ],
+      "original_occlusion": 0.0,
+      "pre_occlusion_sam_iou": 0.9147456681517178,
+      "amodal_iou": {
+        "first": 0.6704187740238722,
+        "shape4": 0.8493459849054772,
+        "shape8": 0.8493459849054772,
+        "surface8": 0.6784170215522127,
+        "combined8": 0.8493459849054772,
+        "uniform4": 0.8449284396834291,
+        "uniform8": 0.8150534067867692
+      },
+      "candidate_amodal_iou": [
+        0.6704187740238722,
+        0.8493459849054772,
+        0.9320415726716081,
+        0.9279074271327588,
+        0.6784170215522127,
+        0.8898653883401123,
+        0.6501931002096979,
+        0.9222379854584146
+      ],
+      "candidate_mask_sha256": [
+        "6c24a4a194eaf4111c95bc7debf64255da1b9bac532f74f95fe0fffb3a62c7bf",
+        "fb79660a10e7f7a45f2051d92783059742a644f38dd2cb8594fbdb82ae0122c5",
+        "b4742eadb5633f8bc9d8bb5ec15c7088cb7082fc8b86f9028b1487b290e570df",
+        "83beec914a7ac1a4f58aedf52bb6e9aac2e0fd648deb4452548c7b9a0b3137c5",
+        "2aba8dcfd7f5b338d3eef8384ad8f7c646901bebcb26e9c18d26bf6c7b787c92",
+        "765cc38400a1c38f4d044ded31ee28965d253960d57f80ca2155f8d23d6573ca",
+        "c80f02907b3beec7f05a687fc67cf7bcdd58784d2c33bc5647b6c778147f0d9e",
+        "3cd18df50abd82f56935e0ddb3e82fa83b592a6a2dbc2b9ab596b6d3fb5a7da0"
+      ],
+      "controlled_result_sha256": "1fb588c3024a5253f194410c6043c379b129862a7cd91b5619d5df80bac1a224",
+      "decision_sha256": "f1ed2cf21b62fbee988fc8c0854b1568b48e40e96f1eaa98f2712b371e62ff3e"
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000051738_bed",
+      "case_id": "COCOA-012-dccaf71036",
+      "image": "COCOA/COCO_val2014_000000051738",
+      "crop_box": [
+        41,
+        -16,
+        568,
+        511
+      ],
+      "original_occlusion": 0.0616184455416609,
+      "pre_occlusion_sam_iou": 0.04992431577368371,
+      "amodal_iou": {
+        "first": 0.8092118212749205,
+        "shape4": 0.7171641383826258,
+        "shape8": 0.7171641383826258,
+        "surface8": 0.7171641383826258,
+        "combined8": 0.7171641383826258,
+        "uniform4": 0.7410892187531058,
+        "uniform8": 0.7804744134007247
+      },
+      "candidate_amodal_iou": [
+        0.8092118212749205,
+        0.7171641383826258,
+        0.6714145876211034,
+        0.7665663277337735,
+        0.8130989525295298,
+        0.754774564592263,
+        0.8948063110074284,
+        0.8167586040641529
+      ],
+      "candidate_mask_sha256": [
+        "a811f0409f18bdcdf9d00688048e87ed48a32bd3db25c95dd367b42b6fe00a93",
+        "d84ff4c2ec43691f668e8fd29128a95dbf06732514d192126c77c8efbc6e317b",
+        "d4839a9c4f1ff5a9d7ef27b4ad4f00a46f6c10c590e9a8f1742e24e5576d13fa",
+        "7199ac1c843b747a423ae3ab4df567d46530406d1dd890dec1f083be881fb95a",
+        "9cf9d4c2fc40471bbd553b384d43a4d7e53e05525bbb511ca091552c78e4d51d",
+        "065864209aef6f1c21f80e780eae1abeb1737687c3db370529f333c884213386",
+        "4013ac3c31738a9d3ad28f936abd93ad5812741455f82894ac536b0d55472236",
+        "16b71ceeb5d52e55ed0e1b142a7b9b7d1dd279155e040e02ea34a27a658dad78"
+      ],
+      "controlled_result_sha256": "bba4fc885be973756ffcb82a8c0149992404db73f782377e1903e31d8fe7cc17",
+      "decision_sha256": "5c550d2dfcf3d65071739025f59edd6fa11ff98058fba949ba7fbfaab040cd0c"
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000193222_sofa",
+      "case_id": "COCOA-017-6344a19c35",
+      "image": "COCOA/COCO_train2014_000000193222",
+      "crop_box": [
+        30,
+        -35,
+        731,
+        666
+      ],
+      "original_occlusion": 0.13018000803519808,
+      "pre_occlusion_sam_iou": 0.8559301313460278,
+      "amodal_iou": {
+        "first": 0.7288332654496982,
+        "shape4": 0.7288332654496982,
+        "shape8": 0.8157645100089054,
+        "surface8": 0.5423498605060937,
+        "combined8": 0.7288332654496982,
+        "uniform4": 0.6616743116664716,
+        "uniform8": 0.6596258459032073
+      },
+      "candidate_amodal_iou": [
+        0.7288332654496982,
+        0.5583885632907926,
+        0.817125557419302,
+        0.5423498605060937,
+        0.6226756146089771,
+        0.8157645100089054,
+        0.5461238792894555,
+        0.6457455166524338
+      ],
+      "candidate_mask_sha256": [
+        "6535b0b8dbc5d20e72e4dc97d7714f1f4f1cb55a60f59d5d2fc98bd787bfe90a",
+        "2144c0279d0a69d10f092279bf9860f8f52bf00bf83e30c82060872143241751",
+        "21a28acd99a7438e2638c670061f62779eba2be4c7b6223c5e23d65b66ebaeb1",
+        "0f9aabf34d3ba5f68000e16141b7e497d541e758ad4e2867469d824c0b260ca3",
+        "c81fa494625411b98b999923f0364c8e2040c3e90cfb0214a04d904067f22d94",
+        "f4ad2ded344929b503bff19863a0af34921792207d0bce4c1e3a04612ed8d693",
+        "cc1d579c11ef8caa747eaabf025e7121c50aa21124d2a1cc71fbdea0b1386cd8",
+        "f81b0bfb752494a5386e0b88b8a6ed6fdc45c9da038dc8687aeb88f534c5f349"
+      ],
+      "controlled_result_sha256": "d51bfa4d332b3086cac5e8effba653e2446658abadfa78d0d29d8faca2771136",
+      "decision_sha256": "20cff78def693f1dee0ec4ec8e5b739dd2a06c56a6fd829623d9bfe90861c298"
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000174113_microwave",
+      "case_id": "COCOA-018-fb84163db3",
+      "image": "COCOA/COCO_val2014_000000174113",
+      "crop_box": [
+        247,
+        116,
+        588,
+        457
+      ],
+      "original_occlusion": 0.48729146375946464,
+      "pre_occlusion_sam_iou": 0.5073501814087327,
+      "amodal_iou": {
+        "first": 0.0,
+        "shape4": 0.41944078079662356,
+        "shape8": 0.4217989191503023,
+        "surface8": 0.41944078079662356,
+        "combined8": 0.41944078079662356,
+        "uniform4": 0.19974489918167743,
+        "uniform8": 0.25313900495707187
+      },
+      "candidate_amodal_iou": [
+        0.0,
+        0.41944078079662356,
+        0.0,
+        0.3795388159300862,
+        0.418800954203476,
+        0.4217989191503023,
+        0.3855325695760873,
+        0.0
+      ],
+      "candidate_mask_sha256": [
+        "ef2a4c8949cdab1ef24e678bdb88cc276b1fd75e62066e47011c2ce53996efe6",
+        "942d10cfeb07117b3542b190de3ab6dad9fadfb2f28ebcc80c28963856933d83",
+        "ef2a4c8949cdab1ef24e678bdb88cc276b1fd75e62066e47011c2ce53996efe6",
+        "721d74bda96b4cd021aaf47ace5205861b46b0ed3af10ae2b457b0cb7cd34a77",
+        "1cb8edc705cf540c3b63b1b3609297bb6a44d13432be508bc884670cc81e0487",
+        "0e41ff42dbd6ee2d8ba4db793fe6fdd4d68edadfad7c211d9469299e29473f8b",
+        "d0a7268a711aa5b3f22d2b1a8037d8af3b786fef6d55e223f6fd39c2428ff7aa",
+        "ef2a4c8949cdab1ef24e678bdb88cc276b1fd75e62066e47011c2ce53996efe6"
+      ],
+      "controlled_result_sha256": "7daa73c412bff31b8372f581878d435e4e8ebc3fa04405d9955386517e574129",
+      "decision_sha256": "9e6b2cc120e3c050839f5df9125178b001fa683c82fa79cb7b224d37a8abd128"
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000428847_bicycle",
+      "case_id": "COCOA-019-5d2c3e1a78",
+      "image": "COCOA/COCO_val2014_000000428847",
+      "crop_box": [
+        49,
+        84,
+        368,
+        403
+      ],
+      "original_occlusion": 0.1846218399244729,
+      "pre_occlusion_sam_iou": 0.6820033423856278,
+      "amodal_iou": {
+        "first": 0.6307191155421746,
+        "shape4": 0.6015255905511812,
+        "shape8": 0.6015255905511812,
+        "surface8": 0.5927138181300697,
+        "combined8": 0.6015255905511812,
+        "uniform4": 0.6102766230607336,
+        "uniform8": 0.6063577700047356
+      },
+      "candidate_amodal_iou": [
+        0.6307191155421746,
+        0.621998883305416,
+        0.6015255905511812,
+        0.5868629028441626,
+        0.5927138181300697,
+        0.6005096540233265,
+        0.5910107232489162,
+        0.625521472392638
+      ],
+      "candidate_mask_sha256": [
+        "4f39efe0ae7e2092372ed478101e7d7fa67bca1e6631ca31702498f69bf2849c",
+        "555b2b7b107d5825746dd3908fca54012f88714cfa1c7e090fd5e262b1def8fa",
+        "7a878d91db246247e52c9024ff945f260a0435b67854814abe39684ca36fbaca",
+        "cca2709878e3ea15a643c2917c90da3bb1575e4ac8a393ac304f35d78f05ae10",
+        "94e17b47e988d78cd7933d32a5fa24c5a7e9f5bd47346f8ca87e7f30752ce1e1",
+        "84d123635f6e93e02df9db19a7a4aab65590fb522c870c33536074f67994e5c7",
+        "5ce149368f6d4d6f89fb5debb787b6b378644619b05c3a52d3509db772d887cb",
+        "02bcf509c94bdf1821dd8a6e6844e2ba3dbe1967117388c3ed5606ff795a9fe9"
+      ],
+      "controlled_result_sha256": "17f0a360b95eea905e1d51ea082487a6fe968a90e6f8a7aee3466400c8979a8a",
+      "decision_sha256": "fc0ead476fc6c69167182274ca976fb69344677650ad02321b3795b8fdb31c1f"
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000391525_sofa",
+      "case_id": "COCOA-022-0b872e80a1",
+      "image": "COCOA/COCO_train2014_000000391525",
+      "crop_box": [
+        -45,
+        224,
+        296,
+        565
+      ],
+      "original_occlusion": 0.0,
+      "pre_occlusion_sam_iou": 0.974412041392286,
+      "amodal_iou": {
+        "first": 0.9336797179439599,
+        "shape4": 0.9326430680671327,
+        "shape8": 0.9326430680671327,
+        "surface8": 0.9677924986004852,
+        "combined8": 0.9677924986004852,
+        "uniform4": 0.7446640241874777,
+        "uniform8": 0.7518431494303824
+      },
+      "candidate_amodal_iou": [
+        0.9336797179439599,
+        0.9298201348087806,
+        0.9326430680671327,
+        0.18251317593003727,
+        0.9677924986004852,
+        0.9302342316410607,
+        0.20249813718185028,
+        0.9355642312697527
+      ],
+      "candidate_mask_sha256": [
+        "550250d0e41db808f665078bab23278fb7f76ffc924bcdb17bfde7b952b0da99",
+        "1676279dfcbce8be2d62ef929055367ae7efd106114f2fc491fe16c98eb13a10",
+        "3d6befefa3ed2f062bba73af7c9832522eaae4a15d4218c2cde2434efff56821",
+        "bc951f5c5e8f538a51ba968e01d9939be7fc8cb9251c55039b674743704be13f",
+        "b105dedc1fe24a556a4f6ad7ccef55d43193f3a245ba035c385bcc26db2070a3",
+        "296f4f36b0b0150bf57e1329a0200ca57ddffb1348f7b6940641a4b2aaaaf40e",
+        "d660019981dccda13587e39c5b1417bf3b531febe5036cb9354dd7bd75a28223",
+        "f3ebac9d64b21844c0d768c68f7a4eb01b4bf4b62a48e1c40d8a6dd6d2e98156"
+      ],
+      "controlled_result_sha256": "11a83c2c917e850b7dabb72b389b783492fa89b88f8e3e49a8b4f491d51f28ff",
+      "decision_sha256": "326f00d3d0c5d477a7e53f31e25b819d5bf3313ea4e73b36b719dd4d16607631"
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000236596_keyboard",
+      "case_id": "COCOA-023-ee007b7f56",
+      "image": "COCOA/COCO_train2014_000000236596",
+      "crop_box": [
+        -69,
+        49,
+        453,
+        571
+      ],
+      "original_occlusion": 0.10442921611231823,
+      "pre_occlusion_sam_iou": 0.8180734302746671,
+      "amodal_iou": {
+        "first": 0.5640437019087702,
+        "shape4": 0.610084127249429,
+        "shape8": 0.6244359017215444,
+        "surface8": 0.6244359017215444,
+        "combined8": 0.6244359017215444,
+        "uniform4": 0.6142793101725401,
+        "uniform8": 0.5946431445218603
+      },
+      "candidate_amodal_iou": [
+        0.5640437019087702,
+        0.610084127249429,
+        0.7249955475469603,
+        0.5579938639850008,
+        0.5595619658119658,
+        0.5567683036995313,
+        0.5592617442516801,
+        0.6244359017215444
+      ],
+      "candidate_mask_sha256": [
+        "96f3941e77291380b17a9a449e1057210c9670034b4e59d3a53462729945fa65",
+        "e72cac8f4a1806eea4be05f4c9d3586e16572af588dd7b70cb8cd0f43906e930",
+        "42b522187a50672fdf91b1c8df537a3a7fdaad33b486e54c1ae7e2b73d14f057",
+        "b2a742223b13efd39c134ea3865009c5cf002553ffe26d18afd6500724d04b7d",
+        "875c9e88e50d9a0327f59a338dceb070fb38f607ffbff5bd19daa057290e57ec",
+        "d4f4cd87e545f2c91621faa32c9f2ec34f637fdd538bbbdb07e8efcd0ca8db6d",
+        "7452ad4c5ea5b48d2f19d49b35b34a2a17a39d3754ab9030b8556722beb7fd44",
+        "9c284eda36e0c39abebc0396d7b6aeb48c731079fcf70a7952957bbdfe22d484"
+      ],
+      "controlled_result_sha256": "5f32531f0643caf9c9e966e77a7a72736f225552ef6b7d74bc3a89d95382ab34",
+      "decision_sha256": "2ca7ee129562c60445b5fc82ca0634fe88931ce9ce806295587fb5054e4fd6ba"
+    },
+    {
+      "id": "COCOA/COCO_test2014_000000197935_bus",
+      "case_id": "COCOA-024-b03d623aa2",
+      "image": "COCOA/COCO_test2014_000000197935",
+      "crop_box": [
+        150,
+        10,
+        473,
+        333
+      ],
+      "original_occlusion": 0.334223699154503,
+      "pre_occlusion_sam_iou": 0.6484685404359982,
+      "amodal_iou": {
+        "first": 0.682683418774687,
+        "shape4": 0.682683418774687,
+        "shape8": 0.682683418774687,
+        "surface8": 0.7022314762235262,
+        "combined8": 0.7022314762235262,
+        "uniform4": 0.6982771340659454,
+        "uniform8": 0.705823746623537
+      },
+      "candidate_amodal_iou": [
+        0.682683418774687,
+        0.7022314762235262,
+        0.7111382079636716,
+        0.6970554333018967,
+        0.6846529568370961,
+        0.7510340338869176,
+        0.7237435736019305,
+        0.6940508723985706
+      ],
+      "candidate_mask_sha256": [
+        "2f722106b4e1dcc541a271e91a66e591cef96bb2693527b849ac13dce936012e",
+        "c01dacaa603febab6e035612379f7e8570c7e26bda6f581041bb85648f389f62",
+        "9830b4317a2c539f1bd796418833d3b3f6d33013566b384ea791d021279ceb8d",
+        "33a574d256a50227f50a4751ad016fa322b2561b524d9d6000b4e1dd3485d475",
+        "e0379fccf49cf5fe1ba951910a8f6b652e2d0a13aa80cb6cc587cb2108fe0878",
+        "78355be93b17db2ab02480537d5d679eefcad28120a5d1ffbfe1730e4dc96215",
+        "ff1d8539a07b778e0df76598b17bb35b7ce2de80ead1184afbea221c6aa3b871",
+        "5f98d2fbb4ba8fab30e370f1d71aa72e73020611320cb298788f9924b0c2200c"
+      ],
+      "controlled_result_sha256": "d2e9f146573968d265c5a5f7e24dbd511195fb6a5be0f6a4e7666963acc36ca1",
+      "decision_sha256": "9999590b6f2ca1622ba41e9eb8720c14af4bdde8ae677ffcd4fe528ca109d51f"
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000020601_bowl",
+      "case_id": "COCOA-026-b9c73075a3",
+      "image": "COCOA/COCO_train2014_000000020601",
+      "crop_box": [
+        1,
+        159,
+        184,
+        342
+      ],
+      "original_occlusion": 0.0,
+      "pre_occlusion_sam_iou": 0.5364977307110439,
+      "amodal_iou": {
+        "first": 0.5402703203110535,
+        "shape4": 0.566888045540797,
+        "shape8": 0.4500089269773255,
+        "surface8": 0.5584024114544084,
+        "combined8": 0.5584024114544084,
+        "uniform4": 0.5767484790736025,
+        "uniform8": 0.583254189554721
+      },
+      "candidate_amodal_iou": [
+        0.5402703203110535,
+        0.5584024114544084,
+        0.566888045540797,
+        0.6414331389881512,
+        0.5097402597402597,
+        0.8528347406513872,
+        0.5464556727743846,
+        0.4500089269773255
+      ],
+      "candidate_mask_sha256": [
+        "0058977627e30e6913c0a508dc12576b0b99d86a1cfa05f1aa7c6a4a35a59e25",
+        "d1ac8866ba0665c2dca6255d87d2a60a2e3702d105f6a60152b8e4a9a582a69c",
+        "5b4f2d2d46a9765ef10955344c540ade797b554365360281a04329ba0ca5b936",
+        "337d91d0cd1ea00296e29d5cb92e833425088af33fb555f558127c14fc166633",
+        "66396384b4593e28482cce794200a7b4129e4affce486ec74fd2e57d09899572",
+        "e34007741a956afd7d69bcc23b772742d78c08165d9d38cc45044cc9d55573ba",
+        "1189079999d650c6a8cd6d93d09faeafb8c1383d4405cf9c826fc5c66a232b96",
+        "c5a252e1fee562734cb47e6cc19e5f5a734d6ce8f9dca67777bef30dfecc8a25"
+      ],
+      "controlled_result_sha256": "069672caa415464daa2d2aeaac98ea4817a0bb0508f6f35c17b4763f461b033e",
+      "decision_sha256": "02c62c3482ffff36e1ba77f1b3af5cba7d7de4bec199a34a6812c4e9c490abaa"
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000244581_bed",
+      "case_id": "COCOA-027-dca41763f9",
+      "image": "COCOA/COCO_val2014_000000244581",
+      "crop_box": [
+        125,
+        52,
+        632,
+        559
+      ],
+      "original_occlusion": 0.0,
+      "pre_occlusion_sam_iou": 0.4769674908999623,
+      "amodal_iou": {
+        "first": 0.9033883765815999,
+        "shape4": 0.9025069202258261,
+        "shape8": 0.7522497848031927,
+        "surface8": 0.8624917889205167,
+        "combined8": 0.8624917889205167,
+        "uniform4": 0.7782487950482556,
+        "uniform8": 0.8109488867328679
+      },
+      "candidate_amodal_iou": [
+        0.9033883765815999,
+        0.9025069202258261,
+        0.9319216337577659,
+        0.3751782496278305,
+        0.868727825646224,
+        0.8624917889205167,
+        0.8911265142999875,
+        0.7522497848031927
+      ],
+      "candidate_mask_sha256": [
+        "75f669ab968ace28f8367af41ea1be7405ab618c5464aad1c88aedd23e54b2f1",
+        "cd2a4f420c26d1c1aeb39ac47fe0d5cfd61182cc2920cfce95a8b320d5c5253c",
+        "47b758fd4126a787828d9a108ed04c08eb8bcb7931cb45521b03146537bc1e24",
+        "ac20664ed2ae56398dbac9b86d69f26cc0214f403f2417e78f73ee2b53fb7d64",
+        "79161e1c6a3aa8a244b3e9e5f75ccd0026d06bc642ed49e3d02d050fce2ca4bd",
+        "acfbf59eaec387a8636df5eebdbaa63a4592d74e1f5db503f0b68d7973be204f",
+        "e0d0cfaf288dae6d426c2291b96463ff4b1a01340e7e45dd49a885971fafc8b0",
+        "c4362305455299391b33065ac9bb880ff2eddf343ab992a29a1e22111af0f71e"
+      ],
+      "controlled_result_sha256": "ce07c5850ca4d6aa16dda5b0ef0eb13a7938a73fdadc1517c718e1a5210899f7",
+      "decision_sha256": "16b6386dc8240ad545605dd8e45b0a6cfc5a1f370bdb37846c8fd5c4f0c4e2ac"
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000163068_car",
+      "case_id": "COCOA-030-7526c7825a",
+      "image": "COCOA/COCO_train2014_000000163068",
+      "crop_box": [
+        26,
+        -187,
+        731,
+        518
+      ],
+      "original_occlusion": 0.2504642082429501,
+      "pre_occlusion_sam_iou": 0.765730788852476,
+      "amodal_iou": {
+        "first": 0.7183227209709689,
+        "shape4": 0.6924232365145229,
+        "shape8": 0.7253348720273668,
+        "surface8": 0.6924232365145229,
+        "combined8": 0.6924232365145229,
+        "uniform4": 0.7050893963391315,
+        "uniform8": 0.7086316769552257
+      },
+      "candidate_amodal_iou": [
+        0.7183227209709689,
+        0.6924232365145229,
+        0.7217880226882997,
+        0.6878236051827343,
+        0.7218316549496485,
+        0.7089651855966703,
+        0.7253348720273668,
+        0.6925641177115948
+      ],
+      "candidate_mask_sha256": [
+        "6b9d7eb54e9b5ea343fcb439ff4dfa735b522cc5fd3b9383b7392b2983ff4e53",
+        "6f4263a2614b8f9203ef2097727187dccbc77f5bc54000337157971612bbce91",
+        "025f70acbc974d68ad6aa6dc329774858b7969ccec9fa5c9ef6383a5405a5825",
+        "a1f50d71e50a074052086cbf6fb58481bb13b8948ea383fecaa4eb7109082849",
+        "6c65598fc4401a1553ced5509910032628aa8850b5efb89beef4ce9ed5da62d4",
+        "372c78d8db39066fedb1a730dcc0b30483d9b76292f0989a9332670606010fdb",
+        "f6e108a860c3470b397b42c57935c9f14dcab3ad172c7f2e28b9b77cb75526ab",
+        "6a385c237abcd8c782590be96334988e8913b6210584f81ab3a0bbbb20db3fec"
+      ],
+      "controlled_result_sha256": "9bff7319a1af9b76916bb51c661f63f93e94161b6d5db9080c2aec6e2fdd1875",
+      "decision_sha256": "149afb2918e5c3e5ce0e3e5304275eedf9a568eda598a2ed05e38417ce887cae"
+    },
+    {
+      "id": "COCOA/COCO_test2014_000000231201_laptop",
+      "case_id": "COCOA-031-6cd0fa15f2",
+      "image": "COCOA/COCO_test2014_000000231201",
+      "crop_box": [
+        323,
+        -57,
+        758,
+        378
+      ],
+      "original_occlusion": 0.00813712879592864,
+      "pre_occlusion_sam_iou": 0.9581481170846263,
+      "amodal_iou": {
+        "first": 0.9305960479429867,
+        "shape4": 0.9305960479429867,
+        "shape8": 0.9503956603193244,
+        "surface8": 0.9623223011994669,
+        "combined8": 0.9623223011994669,
+        "uniform4": 0.9164781038502363,
+        "uniform8": 0.9272464600971637
+      },
+      "candidate_amodal_iou": [
+        0.9305960479429867,
+        0.8672202650561986,
+        0.9623223011994669,
+        0.9057738012022928,
+        0.9232402234636872,
+        0.9503956603193244,
+        0.9114122084089956,
+        0.9670111731843576
+      ],
+      "candidate_mask_sha256": [
+        "faf762b90cc9857b89123e3d646e01d0feb2b4541b4852ecd44d7739ff874d20",
+        "2e3ca5002dd08fd49d1673afe45796e8dcc0239217e5ca9c7128f973cfef9d6d",
+        "edaadd1565d11402ff4d0067cbf9af2016e78f910ebc83b0671662a51b4aa562",
+        "24489ec8023790d282eea3094c44993b1216bdbe68b4f6225bdecd9c45682147",
+        "da682384d5c6d30f150d548621bfa63dc9d15cd4b10ba371c7e2e6f9a02e375f",
+        "8a9a09a99482c6f63ba5cd104ac88dba084b141ec772f0ae6c577a36f1f1adf7",
+        "159f8df0f04de7b71f55874757ef87e4b1c61cedc4dfa7875764208bece10ad3",
+        "5a25323bec910f410071b40856e22de6e04cf4fba6a738eca0346798e059b021"
+      ],
+      "controlled_result_sha256": "a04452b9f06d9744c5bb322a60135ff98f02ab29700a8693e93a44161d42b0ab",
+      "decision_sha256": "10ca0d2b1fa7cda5aafa03a5d72c40531d31f724abdbadc77126da478e1ea018"
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000092514_microwave",
+      "case_id": "COCOA-032-a2ca075c0a",
+      "image": "COCOA/COCO_val2014_000000092514",
+      "crop_box": [
+        130,
+        52,
+        275,
+        197
+      ],
+      "original_occlusion": 0.32242897821336336,
+      "pre_occlusion_sam_iou": 0.664844933166524,
+      "amodal_iou": {
+        "first": 0.5727626905007448,
+        "shape4": 0.6377477359233495,
+        "shape8": 0.6377477359233495,
+        "surface8": 0.6478809446780976,
+        "combined8": 0.6478809446780976,
+        "uniform4": 0.58587701646212,
+        "uniform8": 0.5953675891239893
+      },
+      "candidate_amodal_iou": [
+        0.5727626905007448,
+        0.5661348721430188,
+        0.5668627672813666,
+        0.6377477359233495,
+        0.5639660056657224,
+        0.5775817332641412,
+        0.6478809446780976,
+        0.6300039635354736
+      ],
+      "candidate_mask_sha256": [
+        "306796651dd06a3c0650bf3a0afbd251827827b885c1e31895687810981c2feb",
+        "76391d18301b5aaa1b7bd9055951133ec7a864242404c238bd650c72869d1424",
+        "3e69b85e962f78fb0b028a7e89f48401ee7fd47ca34bf7306e6b30dd68ca18d6",
+        "9e53336e743f68b02f5972ce83063fd1715332335cb825060eb293c2eb3476eb",
+        "42078e28d90a097751b07f7960e9618286c5ed00507f4acd580da5d570621eed",
+        "f76f0af03fa92af3cf89d9dfd25b79e1abfdc012eabed81e9514dcde48af0c30",
+        "84f24bde12f7a30b0a8d060730d0c19ebccf8ed7b77942782c3a96647d3c610a",
+        "7fb8a2e3caf10c9840f0d7f14b2016efc128e2d2032a50bf8563e6691c896f63"
+      ],
+      "controlled_result_sha256": "765e2fdeea95bbaf5d4eb0b474bad9de7e3f8dd58f88810b146b5229aa8a6ed9",
+      "decision_sha256": "35c0c72bd02c609ef8ba222142eceac9c193d420efb68dc17b2aa57415d8e66c"
+    },
+    {
+      "id": "COCOA/COCO_test2014_000000172707_bed",
+      "case_id": "COCOA-035-f60a71fd85",
+      "image": "COCOA/COCO_test2014_000000172707",
+      "crop_box": [
+        -64,
+        64,
+        413,
+        541
+      ],
+      "original_occlusion": 0.0,
+      "pre_occlusion_sam_iou": 0.37087546883160044,
+      "amodal_iou": {
+        "first": 0.3377181526771934,
+        "shape4": 0.3377181526771934,
+        "shape8": 0.3377181526771934,
+        "surface8": 0.3377181526771934,
+        "combined8": 0.3377181526771934,
+        "uniform4": 0.33456342804482864,
+        "uniform8": 0.33014970592969517
+      },
+      "candidate_amodal_iou": [
+        0.3377181526771934,
+        0.3660353349973083,
+        0.24252065723240573,
+        0.391979567272407,
+        0.3346907277692034,
+        0.23096190600553188,
+        0.3494749262536873,
+        0.3878163752298244
+      ],
+      "candidate_mask_sha256": [
+        "da158e4650e14fcf66d83625f2b6d5e8e8576c5e7d2b30c64d14829329b145d2",
+        "144bfdd1cb5e976cdf2c29396dd008e9bb13e1a2674f8ca98cc231d9c17ee457",
+        "5586c997e78ed97d97a221f1ad595da58edf7b6c1b20735a855ac73d2bac842b",
+        "fb8745488b7f7ec0e8a6516eda56297e300e2ea5f986bcbf86d8e4cb9a7248c6",
+        "64d8c8cad4340cd72c044c357f96daa1c10aee74da691ffce3c57c1945918cdb",
+        "9885db971b278271e50949c9c222005a0791f4516dba44580944838b971c4f95",
+        "5ee3a947ed2da337eb06f8945a98074627e0b1bccef07518c6600bcc41547614",
+        "1a3d109fc83258577403c4cdc7c899988c7bdfbadda5f5cbf031f823c88f9806"
+      ],
+      "controlled_result_sha256": "003dd691a98467b298ef1f222b7e5c591d5a3253206e7a17fa0c71613ebd95f3",
+      "decision_sha256": "4f053c8ac7bdb0c66a235b9c5284e17c07efc10d3cac1e16a165063e25b8d0dd"
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000110979_cat",
+      "case_id": "COCOA-036-26dd777723",
+      "image": "COCOA/COCO_train2014_000000110979",
+      "crop_box": [
+        134,
+        100,
+        521,
+        487
+      ],
+      "original_occlusion": 0.1261215334420881,
+      "pre_occlusion_sam_iou": 0.6657576938059993,
+      "amodal_iou": {
+        "first": 0.6545922406967538,
+        "shape4": 0.6545922406967538,
+        "shape8": 0.6545922406967538,
+        "surface8": 0.639390266177374,
+        "combined8": 0.6545922406967538,
+        "uniform4": 0.647750563061855,
+        "uniform8": 0.6153165577571752
+      },
+      "candidate_amodal_iou": [
+        0.6545922406967538,
+        0.6416696665248552,
+        0.653731539867301,
+        0.6410088051585097,
+        0.6160785268110651,
+        0.6401357294635063,
+        0.639390266177374,
+        0.4359256873580364
+      ],
+      "candidate_mask_sha256": [
+        "21fde994d871eb6de5dfe957adb4f443169c5739ce729de901cbc8dedd91f197",
+        "b1ddd9364686573852d6fe560b39e752f86fd2c6351a9aea9860f95a22728c20",
+        "8790c0035bb2dbfe29c513e5b1de0e6945efa225285225708f2d3f3197d2b8d3",
+        "03f080c114e4243cad5a665e7bbb4529ce9ed7c04d67cf3200652cb79c15ff6d",
+        "37886d39152bb613b9a0404c0c2434ec3ca5c2cf8db64c1cc1ab0ac018210201",
+        "5b31ca89a71e68af7a85b6a558414bccfc16f07e66be6aaed030d3994a0513e4",
+        "a413f60efe05d931d0c884784bc199ac301478c3b8a23fb505596281e03227f9",
+        "3eeb51d9b01f67618a7d09fa3b6797617f15c755c7ca3e780e303cd1948e160c"
+      ],
+      "controlled_result_sha256": "5a025a02f0d15c4035d6da1d9f9d5b62a1933bdd62fbcce9b55f797dbc73aa56",
+      "decision_sha256": "cf110196aa0b7ada3592365480e382754c3798e1341676c263ca450e03e49ad9"
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000504057_bowl",
+      "case_id": "COCOA-039-e71bec429a",
+      "image": "COCOA/COCO_train2014_000000504057",
+      "crop_box": [
+        114,
+        -157,
+        718,
+        447
+      ],
+      "original_occlusion": 0.37824071991001124,
+      "pre_occlusion_sam_iou": 0.5964421832302603,
+      "amodal_iou": {
+        "first": 0.4130370237077691,
+        "shape4": 0.5261333498767002,
+        "shape8": 0.5339470842770971,
+        "surface8": 0.5636740177830265,
+        "combined8": 0.5339470842770971,
+        "uniform4": 0.4769244273520595,
+        "uniform8": 0.49381209075173327
+      },
+      "candidate_amodal_iou": [
+        0.4130370237077691,
+        0.5261333498767002,
+        0.4093117408906883,
+        0.5592155949330802,
+        0.5378498241321303,
+        0.5339470842770971,
+        0.40732809041337487,
+        0.5636740177830265
+      ],
+      "candidate_mask_sha256": [
+        "bfc4a5cdf9e7b2ed1fbd39bb958d0330a8b153d08462a86f348578e985d21431",
+        "8f63b5ccc69bae7ff021faeb03c45b14bdbe266a97f47cd28e52b89fce04c9e2",
+        "0f8a9abe0b872e7dcd728190cbb782ead19fff480b2dfe7c936e55f9f2c1ec3b",
+        "0352dd597496b8252b131ebdd022454d999746442f549caa1a16378f2d0ca817",
+        "6d08ce45323222d8ec58d4ecc019999b2df5a461933e561bfdf35678aeddb0e4",
+        "9f767f5c9ad90ab4ea8ec1a2d2a3343c362eda9a4b8f94b8f94f769985b3ab45",
+        "3337abf617b8e4555ab8ee04923a3294604f0a9812a0208bdcacc642bc3a2d06",
+        "0a71ddfd6a19f5425ef04266b4429089a91fe2143c8d8a38b3201b67025d7e82"
+      ],
+      "controlled_result_sha256": "30766f52f40fb209ac22a6b9e02dd0a4dcb1267765b995b2f2d83d235bddcb8b",
+      "decision_sha256": "04dadbdbc9da49dbe0008446a205ab9d27dd702d5e1a48a5494ffeb6e95b8519"
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000411334_cat",
+      "case_id": "COCOA-040-a45d3d2df6",
+      "image": "COCOA/COCO_train2014_000000411334",
+      "crop_box": [
+        256,
+        -23,
+        702,
+        423
+      ],
+      "original_occlusion": 0.20323659705270772,
+      "pre_occlusion_sam_iou": 0.7805882948904124,
+      "amodal_iou": {
+        "first": 0.5812422917367418,
+        "shape4": 0.6259979620858387,
+        "shape8": 0.6259979620858387,
+        "surface8": 0.578434451048559,
+        "combined8": 0.578434451048559,
+        "uniform4": 0.5973710518063315,
+        "uniform8": 0.574068631984037
+      },
+      "candidate_amodal_iou": [
+        0.5812422917367418,
+        0.6259979620858387,
+        0.6038095023541868,
+        0.578434451048559,
+        0.5663136094008532,
+        0.5414595749465873,
+        0.5628729776633264,
+        0.5324186866362034
+      ],
+      "candidate_mask_sha256": [
+        "ba9d60a20910f9ae009be7c20a4d02f2c84b989e68f248b0c017fd93d2a993c9",
+        "ce9e0e4ba18d981882f1ec355e2d0e956aa134906ecca0be0e8255372f05da8d",
+        "b98ae464109b26cc47a900d0c397f1bb0253f39012b0b4c922c10f054b1c4bb5",
+        "8238decb01c28c4f9f88e57e00f0e65d7227506514900921d44cbe9eb42ce908",
+        "344ac81dcb3a6578d95bfc554f53c84504798a97a3c47017f4676501190e940f",
+        "74c146ab062e73bf34ba4b48b279b935fd073e535d6ed181cd5b036f5551d4f9",
+        "0d6f93a87fff423b17119fe40373a4895abdd33c636200a5f07125ac9cfe62dd",
+        "bd7b9b9aa16274acb8957cf3b55bee262249cea1eaaf983a550c9e2c0878eea9"
+      ],
+      "controlled_result_sha256": "5c533ae633b85c7ff482736873f0881a4ebc74adafe058278c75025294fff591",
+      "decision_sha256": "c42f267d9d9426002f6d11aa994415195fb9ba6ff5370968621762323022e212"
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000238453_cat",
+      "case_id": "COCOA-041-73a27a6330",
+      "image": "COCOA/COCO_train2014_000000238453",
+      "crop_box": [
+        203,
+        54,
+        529,
+        380
+      ],
+      "original_occlusion": 0.6892887170001681,
+      "pre_occlusion_sam_iou": 0.30978966502207217,
+      "amodal_iou": {
+        "first": 0.5246876370013153,
+        "shape4": 0.5098214561041043,
+        "shape8": 0.48921336490397266,
+        "surface8": 0.48921336490397266,
+        "combined8": 0.48921336490397266,
+        "uniform4": 0.46084122949310147,
+        "uniform8": 0.3798633719427202
+      },
+      "candidate_amodal_iou": [
+        0.5246876370013153,
+        0.281577747378021,
+        0.5272780774889652,
+        0.5098214561041043,
+        0.23790149184611822,
+        0.19395065003979836,
+        0.48921336490397266,
+        0.2744765507794664
+      ],
+      "candidate_mask_sha256": [
+        "6a6497aab8ee57e9b7045d54cab4faa28718246faac72de33b3a78814008c570",
+        "e5c4bcacb9d92c2a3ff1e1b9518efc37b23cf8388eef69e529dd3ae0b0b85ad6",
+        "97298e7c26cde2c74e5dc4c0fb086ddfd397df0eff7772e9838d21b1f2a38098",
+        "49fbc4a3ef34555cde3c11edd4fbe9b59954d064a256ed04f0aa948961842edb",
+        "cc4c77fd4d7d5332626b03f9cf7d1ec59e986a3dff6a65dab9421d48ccac99ba",
+        "6960ecfa5bd44cb7505976d3a7e71aa37e8a93fc80ce76dea1a956723912405b",
+        "2e147f6b2d30e35cbc814ef1253b57e0470a8724bed6766665121dc36aa4fccf",
+        "abc309a66654c599a30f994896a765c103434fc2a0b811160148a2c615115649"
+      ],
+      "controlled_result_sha256": "69867c0f19b6439f1da9cc1dd875f6d1ae552fb73ebd8799e8dbea9d379ecfd9",
+      "decision_sha256": "657bada17e289037a6eacad0613c7e56303bd2b1babefaf5eae3f78e11346a2a"
+    },
+    {
+      "id": "COCOA/COCO_test2014_000000191998_bed",
+      "case_id": "COCOA-044-3021f1b8a6",
+      "image": "COCOA/COCO_test2014_000000191998",
+      "crop_box": [
+        -80,
+        23,
+        528,
+        631
+      ],
+      "original_occlusion": 0.1270739649558071,
+      "pre_occlusion_sam_iou": 0.18458140818876587,
+      "amodal_iou": {
+        "first": 0.12726237635505372,
+        "shape4": 0.17214647712627304,
+        "shape8": 0.17214647712627304,
+        "surface8": 0.17214647712627304,
+        "combined8": 0.17214647712627304,
+        "uniform4": 0.1489454033328786,
+        "uniform8": 0.19028247449146587
+      },
+      "candidate_amodal_iou": [
+        0.12726237635505372,
+        0.15107523234515977,
+        0.1452975275050278,
+        0.17214647712627304,
+        0.15452826748303758,
+        0.14406752793849567,
+        0.2562738600468965,
+        0.37160852713178294
+      ],
+      "candidate_mask_sha256": [
+        "7ad507281ad870f79b87d4787f3fa50b9218cc02b945970d2873e2fdad12d1f7",
+        "0af1e2a9b4be400a382a7c294370f836a58ad3fed5d3b13e0af4da1dcd4dc3a7",
+        "d7318ddf1324b7e1ce28e38d0e7179ec880185879cf824a7c92ae96809a05fec",
+        "0743d109456499c23c763411632971bcb8756fc2f115ce4bcb0df1584ba2655a",
+        "5ef0ca2be44cac1cf9cc4bb113f7fa9ed9763a084f803a1e7e310678901d12a0",
+        "55757e97907e1a089cb1b5364ec8fd246c48866042f079fe58430f8d08833636",
+        "1b0f58424d3efdd2c3b4244b14887ec510c403df0f49dbfb52932db63e7220c2",
+        "ff4ba7b526fed657aa392cd2d34f9ecd4bd3cb9fe1e485c5f94d37e03e277f37"
+      ],
+      "controlled_result_sha256": "d87ce82668568285b744192ddbc76711516324ce114c71ee2144016e2240a3cc",
+      "decision_sha256": "27599d60b65a43ea666e2a920f191459d593a38f8ca4b8b6dbe4e0624eda683a"
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000021345_cat",
+      "case_id": "COCOA-045-cac5ccd5aa",
+      "image": "COCOA/COCO_train2014_000000021345",
+      "crop_box": [
+        -132,
+        -14,
+        558,
+        676
+      ],
+      "original_occlusion": 0.17968213229156613,
+      "pre_occlusion_sam_iou": 0.6890742465193396,
+      "amodal_iou": {
+        "first": 0.7483683461973051,
+        "shape4": 0.7710748170612949,
+        "shape8": 0.7727941832456062,
+        "surface8": 0.7753051732533344,
+        "combined8": 0.7727941832456062,
+        "uniform4": 0.7577498467227511,
+        "uniform8": 0.728480926278265
+      },
+      "candidate_amodal_iou": [
+        0.7483683461973051,
+        0.7649822969864086,
+        0.7710748170612949,
+        0.7465739266459956,
+        0.7353565448222176,
+        0.7727941832456062,
+        0.7753051732533344,
+        0.5133921220139571
+      ],
+      "candidate_mask_sha256": [
+        "69873df632734e11b1a778b069f27f309437ef312e2848110aa3563862cb6e23",
+        "ba4ecba5fb3c8e7ae1be350d8a35b5d5c7e8f1ad4336b13761c86e9053fe785e",
+        "17abd18e216264436e0b354cace770db92ca1d344e797e9f58cdb04c40db7074",
+        "14fda617aae9daf64d2ef429e347a0b97345924ca010260d22fceac74e1fd35f",
+        "4fc1435492f641118592945ee0771f3e2025d3612534d4d46100ea798d67115d",
+        "59b7cbc8c9f841952e365eac9e8414bd0778ff53b98a70a83382a101b5f5dfa5",
+        "8ac0827a95748081e7cf2d40d747b8cc1a5ab7dcb51fd4aa064e88b5c6a73ac7",
+        "a69437c8da55e7e92cbe00e1c612e5c1559ef506f479f325ed4001a3892abecb"
+      ],
+      "controlled_result_sha256": "ac2c78475efd853bc4b095fe7cde8b6052044e281f124ed0dd470c523380d22b",
+      "decision_sha256": "2e588d5c1cc4f3c16af9f58d154594d05f0e849f7d2e319b8cd58b3bd8a2dfcd"
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000289388_toilet",
+      "case_id": "COCOA-047-89434309c1",
+      "image": "COCOA/COCO_val2014_000000289388",
+      "crop_box": [
+        50,
+        201,
+        396,
+        547
+      ],
+      "original_occlusion": 0.0031032584213424095,
+      "pre_occlusion_sam_iou": 0.9594844844844845,
+      "amodal_iou": {
+        "first": 0.7504942566130284,
+        "shape4": 0.8580744431418523,
+        "shape8": 0.8803266957830582,
+        "surface8": 0.9009206270216472,
+        "combined8": 0.8803266957830582,
+        "uniform4": 0.668799160882839,
+        "uniform8": 0.7245552796442821
+      },
+      "candidate_amodal_iou": [
+        0.7504942566130284,
+        0.7856124821843823,
+        0.8580744431418523,
+        0.28101546159209284,
+        0.7590787650900456,
+        0.8803266957830582,
+        0.9009206270216472,
+        0.5809195057281504
+      ],
+      "candidate_mask_sha256": [
+        "9c398c6b0b8abc6849560e1e4068108410d5b36663d5c73f0ef0fdfee911f423",
+        "b23ae89fcc0350be8e89c75caf82532c5da4113f2e332707bec46de4480bc4af",
+        "e36c211412535657dec43ae5fcb730e1f8b1b51b756895ed6cea3bc5b6554a0d",
+        "5f65b5952f7f393e47faabcd4a533b6d02aea6faa2f2f4acb8ec928ae5238ab4",
+        "b40c2ea3619a5a4c573b3a83c8577f44e5730a5779eae7085075b314e872a913",
+        "fc7f75a5f424ba8980da72b757fe8446abd4bb7eb33a247513aee3a3663e2e2a",
+        "381e5662ef94db30c44997f6b71f3030a2a3916446b76d753fa185e8ae6c32f2",
+        "5109fd2c3f489d3679f5e779c509d8bf60689cd4fb2f242b7036c5ead80c373c"
+      ],
+      "controlled_result_sha256": "5403c5e971bc349b0e936004b655ac4fee63e1b59f48d88fdad18ac4efde2ea2",
+      "decision_sha256": "62f30d1aff4158ebcc21485a021e59442b377cc1406c8a69f22de4703fe743ce"
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000248755_cat",
+      "case_id": "COCOA-049-1a7b92033f",
+      "image": "COCOA/COCO_train2014_000000248755",
+      "crop_box": [
+        -75,
+        -143,
+        746,
+        678
+      ],
+      "original_occlusion": 0.0,
+      "pre_occlusion_sam_iou": 0.9653789569949276,
+      "amodal_iou": {
+        "first": 0.6587037900940981,
+        "shape4": 0.6584582623994352,
+        "shape8": 0.6584582623994352,
+        "surface8": 0.6362911720329092,
+        "combined8": 0.6362911720329092,
+        "uniform4": 0.6449849573751342,
+        "uniform8": 0.6394920039915455
+      },
+      "candidate_amodal_iou": [
+        0.6587037900940981,
+        0.6584582623994352,
+        0.6294066725137539,
+        0.6333711044932496,
+        0.6316194011580571,
+        0.6322340153088809,
+        0.6362911720329092,
+        0.6358516139319802
+      ],
+      "candidate_mask_sha256": [
+        "0b740c4693efd97d3c7c5cd76313f73544c983288b22d02ae0fc3762e7113f68",
+        "3d00795c579fee864ac39607b098076a066da13dcf72f8095b7d90c753323125",
+        "4f33f53b4c3d99112db26b8e72e0cdb54d474267ed9414efe821cd8d3f681bfa",
+        "dd648ea778246e5d4513cc1a1dd07b58e4c7516308fb08b0bcfe981816ed4db6",
+        "d8502587b09b44b2427a2d179bbf26db8f2105996ebecf496d077189291d3b6d",
+        "381766628222600dae78a9ae216d4ccd935a9dd34f911ae6430078f534ea24bf",
+        "7a755d6976e1623a624b6414385d5f21c6da2f289c5da8e1e141e326d7806443",
+        "cd8d8555edcbd4a92c7b78962b6470ce9f1cf198071529026206fe3ff2a2e3f2"
+      ],
+      "controlled_result_sha256": "0874cc7b55d863f2f94bfa5257d4c29cf4188be9749583bbcdfe639ba6933fb0",
+      "decision_sha256": "2a50a8c28403132e313b59c814668b59373af90e212032409810e37a7b242f81"
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000206371_toilet",
+      "case_id": "COCOA-051-1dae3de71a",
+      "image": "COCOA/COCO_train2014_000000206371",
+      "crop_box": [
+        61,
+        241,
+        541,
+        721
+      ],
+      "original_occlusion": 0.0,
+      "pre_occlusion_sam_iou": 0.9672039951956508,
+      "amodal_iou": {
+        "first": 0.6332275319617092,
+        "shape4": 0.8250453556900262,
+        "shape8": 0.8509537187638622,
+        "surface8": 0.8509537187638622,
+        "combined8": 0.8509537187638622,
+        "uniform4": 0.6789555269377412,
+        "uniform8": 0.7327310912869321
+      },
+      "candidate_amodal_iou": [
+        0.6332275319617092,
+        0.6298440304355519,
+        0.6277051896636774,
+        0.8250453556900262,
+        0.6406983790334798,
+        0.8509537187638622,
+        0.8430653348616342,
+        0.811309189885516
+      ],
+      "candidate_mask_sha256": [
+        "1e086d9479f225953abdb123ab814de63104330b439183901ffe1fa4270bee39",
+        "7b3045fc3f74519bf207da380d61a3049b5ceb50559573b0297b1a61f93bdad5",
+        "accf6be96bb89e7a17333d3518223970094b55f43cadd505243c9575a7608e01",
+        "a394af436be375b2d8100223a9d39a1d337ad4342da5512533ddfe5ba227c7ff",
+        "a7da73f88ab03f07f53e720ca6f22c34e8a1269e0c5b047dc2543859837ad1a0",
+        "83ec31b480d7129fe5d1e2ddefbf05f66bbf43c613bc5c21cd5e6070bfd4e260",
+        "2f3abb9f1fbf3b707bf2754acdad9b5f0ce58d9fee6377136082a652c128ea11",
+        "bce8a3376ba26b0cf20883ca67e7d031d0c0acb99846999b0053c0c1edb445c4"
+      ],
+      "controlled_result_sha256": "f9f1134558d7b91060e4b17576be05013fcb60e7fbf84fa6f16571bd61a013c1",
+      "decision_sha256": "9dbe900b1d831290a72cfe007d96cc9f7a3cf56f27ddc801d92ae381aeb15e3b"
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000475578_pizza",
+      "case_id": "COCOA-052-389678308a",
+      "image": "COCOA/COCO_train2014_000000475578",
+      "crop_box": [
+        -70,
+        -189,
+        708,
+        589
+      ],
+      "original_occlusion": 0.07089925163932428,
+      "pre_occlusion_sam_iou": 0.30045879933309805,
+      "amodal_iou": {
+        "first": 0.885741035711246,
+        "shape4": 0.8648599775771239,
+        "shape8": 0.8550162478831983,
+        "surface8": 0.8936575945929636,
+        "combined8": 0.8648599775771239,
+        "uniform4": 0.8841814854052817,
+        "uniform8": 0.8848469006164352
+      },
+      "candidate_amodal_iou": [
+        0.885741035711246,
+        0.8924673337397937,
+        0.8648599775771239,
+        0.8936575945929636,
+        0.8550162478831983,
+        0.8866915318470192,
+        0.8981882488811895,
+        0.902153234698947
+      ],
+      "candidate_mask_sha256": [
+        "3a68d098a5b2ec97033e944ea45b59bf868e852a69a74a31bc1fa48a41b479d3",
+        "82fe51209854dfbad3e237b9ccb20bfedf6d7e8646d9bf5609580aa656c81a81",
+        "e95d514409ff141e51de49d8193bf16427278125cd39af32e5e2bfc103e14a5f",
+        "5be37e6dbcc2d01c93598b1c4d6e9ffef459c11aa76afb351e682eb21c648ce6",
+        "0b7bb470fdb64fc9855d790828be4295b60cc5a0601d6b101e4329d1b34238b1",
+        "f5f1fd785d25aee5863e60fe8a269bf586945296330d89b1a80e70561c213b4b",
+        "7555e0ded95a0e6682f926217953fd235f8a6306882dbf77e4e651dc05f6cf3c",
+        "3302ec9b80fc34a2b3618a173c9ac9c9b631b8bfbc6dc5475e4a067cd9ab317a"
+      ],
+      "controlled_result_sha256": "30a0b2eaf9ceeac7e8d7df8dbbc5422205acb5c8db6ae54c91369212f0c1c3cd",
+      "decision_sha256": "f687f2c61973fee57c4eb7a67cabdd33b5c02c6c3c81ca6f0893e9ef6d10f38f"
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000543525_refrigerator",
+      "case_id": "COCOA-056-1b0e0de466",
+      "image": "COCOA/COCO_val2014_000000543525",
+      "crop_box": [
+        27,
+        73,
+        476,
+        522
+      ],
+      "original_occlusion": 0.36473167441163246,
+      "pre_occlusion_sam_iou": 0.6123697453837951,
+      "amodal_iou": {
+        "first": 0.8047064492811822,
+        "shape4": 0.8790304017564672,
+        "shape8": 0.8771684238504475,
+        "surface8": 0.7880092694078227,
+        "combined8": 0.8790304017564672,
+        "uniform4": 0.827122251804826,
+        "uniform8": 0.8277359109276152
+      },
+      "candidate_amodal_iou": [
+        0.8047064492811822,
+        0.836742886773832,
+        0.8790304017564672,
+        0.7880092694078227,
+        0.8068355500634126,
+        0.8771684238504475,
+        0.837577334200477,
+        0.7918169720872813
+      ],
+      "candidate_mask_sha256": [
+        "dcd1a3ea5910b83f1e6eaa7c69115cfbe81816a6528f1293b0d535283a4b9d9f",
+        "f749d08efceb59094c2f9ce974ae24d24406622c6cb6098f9c776fc5fa0baf92",
+        "2057339725f271e23df25d64a29b4d87ad95c261545e37aadb76df8f20dc8209",
+        "42fc1c839e43d4f236fdaa081d683420c0f6485c32251d4d7176a414b161ce88",
+        "58c6d7b1198d664057cb522f6a81cbbbcfac62c96c731fb3af018bfbd79cfa0e",
+        "7cf6539db197008a48f8cbebc6ced4a6b26fb7755e8dd2dfdec149c7d5aee797",
+        "81fe4ab1b1c2b73e5181497bcb19055800e6b77e623c9a494a5cff4fe81c52c4",
+        "8da36f91413afc0520ad23b33f9f00e358d1383ef2a5d038d2d6f024b472b956"
+      ],
+      "controlled_result_sha256": "72b7aac80302789c33ec7130d42173bfed9d145200919e09dfccc8659c07aded",
+      "decision_sha256": "ebb7274e6a6bb5a322cdc997f2c3c91d5a5d655ab900678d4052a44c771046d7"
+    },
+    {
+      "id": "COCOA/COCO_test2014_000000154092_umbrella",
+      "case_id": "COCOA-060-f7ce73b48e",
+      "image": "COCOA/COCO_test2014_000000154092",
+      "crop_box": [
+        36,
+        -97,
+        498,
+        365
+      ],
+      "original_occlusion": 0.029213565002003426,
+      "pre_occlusion_sam_iou": 0.9013374895791801,
+      "amodal_iou": {
+        "first": 0.8279975345346434,
+        "shape4": 0.8279975345346434,
+        "shape8": 0.8279975345346434,
+        "surface8": 0.828645592575472,
+        "combined8": 0.8208094543124622,
+        "uniform4": 0.8170284315036778,
+        "uniform8": 0.8265146314948185
+      },
+      "candidate_amodal_iou": [
+        0.8279975345346434,
+        0.824415677813736,
+        0.8208094543124622,
+        0.7948910593538693,
+        0.8209878688866489,
+        0.8398378812759861,
+        0.8545319832057298,
+        0.828645592575472
+      ],
+      "candidate_mask_sha256": [
+        "b0db419bb27efbc1d80f3019c84f8f8c011cd4875d3d0c19a068bbcf35fd29c3",
+        "4dfa8ed71d472913b36944f121b21b674a65b8a4d77e70fcc5fccfb07bec3ed1",
+        "803c9810c9bd746b0d38c880289334094b8657a19b34f78711e2c485b597ec6d",
+        "9db5f79bb0614a4c1a3aa6d836b7e1bb726c843947e487a97843ff39516fc670",
+        "fb83154e859bab70b4ccb93fc94246f2b84dbebff3f9a89573a7c2ab5a9da6af",
+        "50c5f32252e7f9365bb38686e388de9023f0b2ead83aecb225c9c0274eade045",
+        "9ea60ca7be9c1d8143a7a3da5df60bbc0bf0a828557fe011692293fa0e3bedcf",
+        "992278bb1cf1f3c3dd9a551f4e36b11cd535778c622ed01069556dba9c7d5f76"
+      ],
+      "controlled_result_sha256": "4e3607b0b948063eee3f51279b6dc9fa91ee8843ee151153683d0bb66b07ce70",
+      "decision_sha256": "898d2a0fbae188243a0b0729b4e568a061616810063f82a6f74545523afc4b03"
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000056373_cat",
+      "case_id": "COCOA-063-fe9d635c69",
+      "image": "COCOA/COCO_val2014_000000056373",
+      "crop_box": [
+        9,
+        32,
+        410,
+        433
+      ],
+      "original_occlusion": 0.0,
+      "pre_occlusion_sam_iou": 0.5830613603520224,
+      "amodal_iou": {
+        "first": 0.5173880813485029,
+        "shape4": 0.5508730364792938,
+        "shape8": 0.5508730364792938,
+        "surface8": 0.5047557214737868,
+        "combined8": 0.5283728589186834,
+        "uniform4": 0.53018969110323,
+        "uniform8": 0.5290416101271214
+      },
+      "candidate_amodal_iou": [
+        0.5173880813485029,
+        0.5047557214737868,
+        0.5477419251113362,
+        0.5508730364792938,
+        0.5341075893217195,
+        0.5137045585689556,
+        0.5353891097946929,
+        0.5283728589186834
+      ],
+      "candidate_mask_sha256": [
+        "6336a49eb794e9508f972184cfdd72f91e01c3e90a5c75b193556239b705e01d",
+        "5fe7a145e18d06d4d040a1c3e1e00b4e1164c05da7d4025e0a95180f6c159814",
+        "d009a3bbb37b5b735723aaecb528535f83ff325207f05f214ec950810d16058d",
+        "c749d5967cae568607a405dea4c2c0be6559f55266ceb66b07a2b4e00a53fbb3",
+        "af5ec47a729a79e837e42311e3eb5d633d9f43d44cbacfb99dbdbd7fb6c53907",
+        "be363184d322c2e11ec42d86ef9bec4b16d45a86bfde0330001a0ce091688803",
+        "1eb69c67e1213cf04d4da67ea52d6ad19796fa44ec9006e5b324c546a3719bc9",
+        "04701295173ebe015301369010bb421eca5334eb0f9327765c040e47088a1715"
+      ],
+      "controlled_result_sha256": "f4817519ee7a144443e1f0a66bfc5b5810e99ec369070d563bed7a008031847c",
+      "decision_sha256": "76133df6f765b8799cacd3b4bf72b235f6bf513d78dde43b06a7c011b8b05a06"
+    }
+  ]
+}

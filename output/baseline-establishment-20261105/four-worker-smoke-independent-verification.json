@@ -1,0 +1,92 @@
+{
+  "schema": 1,
+  "verified": true,
+  "run_dir": "C:\\Users\\daovu\\Documents\\Project\\cv_nangcao\\output\\baseline-establishment-20261105\\runtime-evidence-31548\\output\\pdmc-baseline-provenance-20261105-smoke",
+  "selected_targets": 8,
+  "full_evaluation": false,
+  "evaluation_performed": true,
+  "reference_backend": "grounded-sam",
+  "data_identity": {
+    "targets_sha256": "e102689db19bc7ad0e2922e4bc790096856a1accd425eb3b1b03034ec2558704",
+    "inputs_sha256": "d202cf99ac0b262e8fb5ebcd9df0aa42d80ab6b69311482311abecd32ae894f3",
+    "references_sha256": "a99f759941df3f2c50578fa2916bf33946d262842826935e0616643cba85f0a8"
+  },
+  "statistics": {
+    "VG": {
+      "targets": 8,
+      "successes": 1,
+      "failures": 7,
+      "reference_failures": 0,
+      "missing_images": 0,
+      "failure_rate": 0.875,
+      "status_counts": {
+        "not_detected": 3,
+        "ambiguous_target": 4,
+        "success": 1
+      },
+      "failure_reasons": {
+        "label_not_matched": 3,
+        "multiple_distinct_instances": 4
+      },
+      "completed_outputs": 1,
+      "iteration_limited_outputs": 0,
+      "completion_state_unknown": 0,
+      "failure_stage_counts": {
+        "target_selection": 7
+      },
+      "target_selection_failures": 7,
+      "initial_segmentation_failures": 0,
+      "pdmc_failures": 0,
+      "CLIP": 27.513896942138672,
+      "CLIP_n": 1,
+      "LPIPS": 0.8904890576377511,
+      "LPIPS_n": 8,
+      "Feature Similarity": 0.11319790035486221,
+      "Feature Similarity_n": 8,
+      "SSIM": 0.1144011184206497,
+      "SSIM_n": 8
+    },
+    "Overall": {
+      "targets": 8,
+      "successes": 1,
+      "failures": 7,
+      "reference_failures": 0,
+      "missing_images": 0,
+      "failure_rate": 0.875,
+      "status_counts": {
+        "not_detected": 3,
+        "ambiguous_target": 4,
+        "success": 1
+      },
+      "failure_reasons": {
+        "label_not_matched": 3,
+        "multiple_distinct_instances": 4
+      },
+      "completed_outputs": 1,
+      "iteration_limited_outputs": 0,
+      "completion_state_unknown": 0,
+      "failure_stage_counts": {
+        "target_selection": 7
+      },
+      "target_selection_failures": 7,
+      "initial_segmentation_failures": 0,
+      "pdmc_failures": 0,
+      "CLIP": 27.513896942138672,
+      "CLIP_n": 1,
+      "LPIPS": 0.8904890576377511,
+      "LPIPS_n": 8,
+      "Feature Similarity": 0.11319790035486221,
+      "Feature Similarity_n": 8,
+      "SSIM": 0.1144011184206497,
+      "SSIM_n": 8
+    }
+  },
+  "provenance_verified": true,
+  "clip_only_targets": 0,
+  "uncached_clip_only_targets": 0,
+  "limitations": [
+    "Learned metrics are checked against saved caches, not recomputed on CPU.",
+    "Historical uncached CLIP-only values can only be checked for finite values and aggregation.",
+    "Checksums establish consistency, not independent segmentation or hidden-pixel ground truth."
+  ]
+}

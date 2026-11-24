@@ -1,0 +1,74 @@
+{
+  "checked_utc": "2026-11-06T05:34:43.641345+00:00",
+  "one_worker_run": "output\\baseline-establishment-20261105\\resumed-evidence\\output\\pdmc-baseline-provenance-20261105-quadro-smoke",
+  "four_worker_run": "output\\baseline-establishment-20261105\\runtime-evidence-31548\\output\\pdmc-baseline-provenance-20261105-smoke",
+  "same_statistics": true,
+  "same_data_identity": true,
+  "targets": [
+    {
+      "target": "VG\\16_whitecar",
+      "same_status": true,
+      "same_seed": true,
+      "same_completion_sha256": true,
+      "same_reference_artifacts": true,
+      "same_record": true
+    },
+    {
+      "target": "VG\\22_tram",
+      "same_status": true,
+      "same_seed": true,
+      "same_completion_sha256": true,
+      "same_reference_artifacts": true,
+      "same_record": true
+    },
+    {
+      "target": "VG\\23_whitecar",
+      "same_status": true,
+      "same_seed": true,
+      "same_completion_sha256": true,
+      "same_reference_artifacts": true,
+      "same_record": true
+    },
+    {
+      "target": "VG\\24_redcar",
+      "same_status": true,
+      "same_seed": true,
+      "same_completion_sha256": true,
+      "same_reference_artifacts": true,
+      "same_record": true
+    },
+    {
+      "target": "VG\\33_browntable",
+      "same_status": true,
+      "same_seed": true,
+      "same_completion_sha256": true,
+      "same_reference_artifacts": true,
+      "same_record": true
+    },
+    {
+      "target": "VG\\41_whitemicrowave",
+      "same_status": true,
+      "same_seed": true,
+      "same_completion_sha256": true,
+      "same_reference_artifacts": true,
+      "same_record": true
+    },
+    {
+      "target": "VG\\43_television",
+      "same_status": true,
+      "same_seed": true,
+      "same_completion_sha256": true,
+      "same_reference_artifacts": true,
+      "same_record": true
+    },
+    {
+      "target": "VG\\4_blackfloorlamp",
+      "same_status": true,
+      "same_seed": true,
+      "same_completion_sha256": true,
+      "same_reference_artifacts": true,
+      "same_record": true
+    }
+  ],
+  "all_target_records_identical": true
+}

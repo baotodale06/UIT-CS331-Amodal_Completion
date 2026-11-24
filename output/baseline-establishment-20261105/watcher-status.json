@@ -1,0 +1,12 @@
+{
+  "updated_utc": "2026-11-06T10:04:13.665195+00:00",
+  "state": "accepted",
+  "job_id": "31548",
+  "cluster_job_state": "COMPLETED",
+  "local_independent_verification": true,
+  "files_verified": 16814,
+  "registered_entry_id": "ec823094e31f226957ef0442f0480cf14ae2db91c79550a9701a9e0aef99b07c",
+  "report": "C:\\Users\\daovu\\Documents\\Project\\cv_nangcao\\output\\baseline-establishment-20261105\\REPORT.md",
+  "active_watcher_required": false,
+  "recovery": "Slow bulk transfer superseded by exact-byte recovery; all files independently hash-verified."
+}

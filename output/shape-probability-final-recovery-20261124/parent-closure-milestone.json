@@ -1,0 +1,37 @@
+{
+  "at": "2026-11-24T12:24:30.383585+00:00",
+  "parent_complete": true,
+  "parent_training_sha256": "5c3dade6cdf7b4e5a6ef7ff9db18625f3685713c11d1bdcd39b52e267ed61baf",
+  "parent_replay_sha256": "08a42f29ec223ca6bf59b40ded8c4d4bae697226814e39d4287324d5fd94654c",
+  "parent_execution_sha256": "7ed8ad5077f670fbb6077a1f4dfdbf48455bdd125c3930d250fa2634e34ce700",
+  "selected_epoch": 0,
+  "eligible_epochs": [],
+  "epochs": 20,
+  "sampled_training_objects": 189880,
+  "skipped_optimizer_steps": 0,
+  "maximum_trained_hidden_iou": 0.3476279268246576,
+  "final_validation": {
+    "images": 217,
+    "objects": 1264,
+    "full_iou": 0.8228906042288991,
+    "full_iou_images": 217,
+    "hidden_iou": 0.3447257954460679,
+    "hidden_iou_images": 177
+  },
+  "floors": {
+    "full_iou": 0.811373590207884,
+    "hidden_iou": 0.3703334756537925
+  },
+  "recovery_windows_pid": 5580,
+  "recovery_reference_artifacts_verified": 2528,
+  "kaggle": {
+    "at": "2026-11-24T12:23:31.497264+00:00",
+    "kernel": "ez4kacchan/shape-calibrated-batch-20261124/1",
+    "observer_pid": 23064,
+    "benchmark_success": false,
+    "observer_manifest_sha256": "e225378a0c7f2763c60a0d246fae7ba7a8539d8935a830aad9362beb9b1d6545",
+    "state": "QUEUED",
+    "disposition": "waiting"
+  },
+  "benchmark_success": false
+}

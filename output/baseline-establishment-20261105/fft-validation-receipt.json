@@ -1,0 +1,13 @@
+{
+  "created_utc": "2026-11-05T10:13:41.913589+00:00",
+  "passed_job": "30435",
+  "failed_diagnostic_job": "30440",
+  "archive_sha256": "e3f4af24d199c2381557edf66f5554e27bee5fd46eeaabbfa59d2d9189584318",
+  "validation_script_sha256": "e3c2a4a0e7c05c93250faedc84e954098567808a2022f456b72f97a1b797e476",
+  "cuda_forward_backward": "passed",
+  "fft_roundtrip_quadro": "passed",
+  "fft_roundtrip_l40s": "CUFFT_INTERNAL_ERROR",
+  "pipeline_imports": "passed",
+  "pinned_packages": "passed",
+  "smoke_execution_preserved": "20261105T100237.595089Z-308fa5ea"
+}

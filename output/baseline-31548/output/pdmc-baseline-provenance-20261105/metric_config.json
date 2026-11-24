@@ -1,0 +1,11 @@
+{
+  "protocol_version": 3,
+  "clip_model": "openai/clip-vit-base-patch32",
+  "clip_revision": "3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268",
+  "clip_failures": "excluded_with_denominator",
+  "alignment": "released",
+  "lpips": "alex/0.1.4",
+  "vgg": "VGG16_IMAGENET1K_V1/features",
+  "ssim_data_range": "prediction.max-prediction.min",
+  "exact_copy_penalties": true
+}

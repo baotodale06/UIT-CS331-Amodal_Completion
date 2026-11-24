@@ -1,0 +1,12 @@
+{
+  "at": "2026-11-23T10:54:31.904947+00:00",
+  "command": "python -m unittest tests.test_shape_v2_report -v",
+  "tests_passed": 2,
+  "skips": 0,
+  "change": "Include frozen native geometry occlusion strata in the final report",
+  "files": {
+    "scripts/build_shape_v2_report.py": "7e96b5d716679bbc6f255ab1345eeafebca19f19aa7e9a5fffe094c4f6fc5b49",
+    "tests/test_shape_v2_report.py": "5dc4e6e3601f35a99f0c8028b1d2dd7a877efa89cff22c1c70a37ffecfebff6c"
+  },
+  "goal_achieved": false
+}

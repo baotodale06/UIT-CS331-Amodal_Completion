@@ -16,11 +16,11 @@ if ($RemotePath -notmatch '^/?[A-Za-z0-9_.-]+(/[A-Za-z0-9_.-]+)*$' -or
 }
 $projectRoot = Split-Path -Parent $PSScriptRoot
 $sourceNames = @(
-    'amodal_benchmark', 'configs', 'scripts', 'tests', 'cookbooks', 'docs', 'requirements',
+    'amodal_benchmark', 'configs', 'scripts', 'tests', 'cookbooks', 'docs',
     'evaluate_open_world.py', 'evaluate_pdmc_open_world.py', 'prepare_open_world.py',
     'prepare_visible_references.py', 'compare_open_world.py', 'run_open_world_controls.py',
     'run_amodal_slurm.sh', 'run_pdmc_open_world.sh', 'pyproject.toml', 'requirements.txt',
-    'MANIFEST.in', '.python-version', 'CONTRIBUTING.md', 'BENCHMARK_WORKFLOW.md', 'requirements-analysis.txt',
+    'MANIFEST.in',
     'README.md', 'SETUP_NEW_COMPETITION.md', 'OPEN_WORLD_REPRODUCTION.md', 'AMODAL_SLURM.md',
     '.gitignore', '.gitattributes'
 )

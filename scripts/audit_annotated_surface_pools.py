@@ -25,7 +25,7 @@ def independent_policies(record):
             raise ValueError('Failed target has scored candidates')
         return {name: failure_metrics() for name in names}, {}
     scores, observable = record['candidate_scores'], record['observable_scores']
-    if len(scores) != 8 or len(observable) != 8:
+    if len(scores) != 8 or len(observable) != 8 or len(record['candidate_artifacts']) != 8:
         raise ValueError('Incomplete candidate pool')
     if any(set(row) != set(METRICS) or not all(np.isfinite(v) for v in row.values()) for row in scores):
         raise ValueError('Invalid candidate metrics')
@@ -44,9 +44,11 @@ def independent_policies(record):
 
 def main():
     design = ROOT / 'output/surface-annotated-20261112-design'
-    study = ROOT / 'output/surface-annotated-20261112'
+    active = json.loads((design / 'active-study.json').read_text())
+    study = ROOT / active['study']
     diagnostic = study / 'pool-diagnostic'
-    freeze = json.loads((design / 'pool-freeze.json').read_text())
+    freeze_path = design / active['pool_freeze']
+    freeze = json.loads(freeze_path.read_text())
     cohort = json.loads((design / 'cohort.json').read_text())
     summary = json.loads((diagnostic / 'analysis/summary.json').read_text())
     expected_choices = json.loads((diagnostic / 'analysis/choices.json').read_text())
@@ -59,7 +61,7 @@ def main():
     with tempfile.TemporaryDirectory(prefix='annotated-pool-audit-') as temporary:
         for identity in cohort['target_ids']:
             row = records[identity]
-            if row['inputs']['freeze_sha256'] != sha256(design / 'pool-freeze.json'):
+            if row['inputs']['freeze_sha256'] != sha256(freeze_path):
                 raise ValueError('Diagnostic freeze changed')
             for side in ('baseline', 'surface'):
                 parent = study / (side + '-cohort') / 'targets' / identity

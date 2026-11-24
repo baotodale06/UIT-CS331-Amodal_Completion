@@ -1,0 +1,12 @@
+{
+  "process_id": 41428,
+  "started_utc": "2026-11-06T05:42:49.3508895Z",
+  "previous_process_id": 39056,
+  "command": "C:\\Python314\\python.exe -u output/baseline-establishment-20261105/watch_baseline.py",
+  "job_id": "31548",
+  "purpose": "Monitor existing job and recover/verify/report the completed baseline; never submit or stop jobs",
+  "reason": "Load final monitor handling for all terminal Slurm states",
+  "state": "stopped_after_cluster_completion",
+  "stopped_utc": "2026-11-06T09:45:39.804200+00:00",
+  "superseded_by": "Completed manual exact-byte recovery and independent full verification"
+}

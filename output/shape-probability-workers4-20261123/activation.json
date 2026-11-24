@@ -1,0 +1,7 @@
+﻿{
+    "at":  "2026-11-23T17:07:27.7917530Z",
+    "pid":  3532,
+    "command":  "python -u scripts/queue_shape_probability_workers4.py --watch",
+    "operational_manifest_sha256":  "9a531b2d0b9ddc938518db4a0ac0ff3cffc694f814eb8fc030bea22a9cfb56fe",
+    "benchmark_success":  false
+}

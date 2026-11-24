@@ -1,0 +1,17 @@
+{
+  "downloaded_utc": "2026-11-06T10:00:06.130560+00:00",
+  "files_verified": 16814,
+  "total_bytes": 2960571039,
+  "destination": "C:\\Users\\daovu\\Documents\\Project\\cv_nangcao\\output\\baseline-31548",
+  "source": "daoqm@slurm.csse.rose-hulman.edu:/home/daoqm/Vu_Hung/cv_nangcao",
+  "all_remote_hashes_match": true,
+  "remote_manifest_sha256": "5d1f81800130042770b0250ec5c40c536188fc5efd7a04e89c5dade86b002237",
+  "methods": {
+    "verified_partial_transfer": 3588,
+    "existing_hash_verified_recovery": 5004,
+    "identical_existing_bytes": 5892,
+    "downloaded": 1860,
+    "exact_png_reconstruction": 470
+  },
+  "remote_artifacts_modified": false
+}

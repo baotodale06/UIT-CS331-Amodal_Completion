@@ -1,0 +1,18 @@
+{
+  "verified": true,
+  "freeze_sha256": "6078e500c236095a537000d2d3f90838253ab7542d39c69d0fafe67db150523b",
+  "targets": 4,
+  "successful_outputs": 4,
+  "decisions": {
+    "pools": 9,
+    "candidates": 72,
+    "fallbacks": 0
+  },
+  "statuses": {
+    "VG/43_television": "success",
+    "COCOA/COCO_train2014_000000004719_greentablecloth": "success",
+    "free_images/dairy-cattle-9018750_640_cow": "success",
+    "laion/000000115_violin": "success"
+  },
+  "benchmark_success": false
+}

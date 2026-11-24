@@ -1,0 +1,249 @@
+{
+  "scope": "Four completed 204-target rows and the two registered historical full controls. The two new full evaluations are open.",
+  "report_sha256": "368a49952c715c79405332ef526c2a7644ad56f49bbe3e21cda49c6d5b09cfc6",
+  "jobs": {
+    "39486": {
+      "name": "ann-fresh-baseline-cohort",
+      "state": "COMPLETED",
+      "elapsed_seconds": 1440,
+      "resources": "billing=16,cpu=16,gres/gpu=4,mem=64G,node=1"
+    },
+    "39487": {
+      "name": "ann-fresh-surface-cohort",
+      "state": "COMPLETED",
+      "elapsed_seconds": 6574,
+      "resources": "billing=16,cpu=16,gres/gpu=4,mem=64G,node=1"
+    },
+    "39488": {
+      "name": "ann-fresh-baseline-full",
+      "state": "COMPLETED",
+      "elapsed_seconds": 20697,
+      "resources": "billing=16,cpu=16,gres/gpu=4,mem=64G,node=1"
+    },
+    "39490": {
+      "name": "ann-fresh-surface-full",
+      "state": "TIMEOUT",
+      "elapsed_seconds": 86419,
+      "resources": "billing=16,cpu=16,gres/gpu=4,mem=64G,node=1"
+    },
+    "39491": {
+      "name": "ann-fresh-surface-resume",
+      "state": "COMPLETED",
+      "elapsed_seconds": 11772,
+      "resources": "billing=16,cpu=16,gres/gpu=4,mem=64G,node=1"
+    },
+    "44902": {
+      "name": "shape-prior",
+      "state": "COMPLETED",
+      "elapsed_seconds": 228,
+      "resources": "billing=16,cpu=16,gres/gpu:nvidia_l40s=4,gres/gpu=4,mem=64G,node=1"
+    },
+    "44903": {
+      "name": "shape-128",
+      "state": "COMPLETED",
+      "elapsed_seconds": 35,
+      "resources": "billing=16,cpu=16,gres/gpu:nvidia_l40s=4,gres/gpu=4,mem=64G,node=1"
+    },
+    "44905": {
+      "name": "sh-shape-cohort",
+      "state": "FAILED",
+      "elapsed_seconds": 108,
+      "resources": "billing=16,cpu=16,gres/gpu:nvidia_l40s=4,gres/gpu=4,mem=96G,node=1"
+    },
+    "44913": {
+      "name": "baseline-cohort",
+      "state": "COMPLETED",
+      "elapsed_seconds": 1264,
+      "resources": "billing=16,cpu=16,gres/gpu:nvidia_l40s=4,gres/gpu=4,mem=96G,node=1"
+    },
+    "44914": {
+      "name": "shape-cohort",
+      "state": "COMPLETED",
+      "elapsed_seconds": 6593,
+      "resources": "billing=16,cpu=16,gres/gpu:nvidia_l40s=4,gres/gpu=4,mem=96G,node=1"
+    },
+    "44915": {
+      "name": "surface-cohort",
+      "state": "CANCELLED by 263710875",
+      "elapsed_seconds": 0,
+      "resources": ""
+    },
+    "44917": {
+      "name": "combined-cohort",
+      "state": "COMPLETED",
+      "elapsed_seconds": 6599,
+      "resources": "billing=16,cpu=16,gres/gpu:nvidia_l40s=4,gres/gpu=4,mem=96G,node=1"
+    },
+    "44919": {
+      "name": "baseline-full",
+      "state": "CANCELLED by 263710875",
+      "elapsed_seconds": 0,
+      "resources": ""
+    },
+    "44921": {
+      "name": "surface-full",
+      "state": "CANCELLED by 263710875",
+      "elapsed_seconds": 0,
+      "resources": ""
+    }
+  },
+  "rows": [
+    {
+      "scope": "cohort",
+      "method": "PMC",
+      "run": "output/shape-20261121/progressive-l40s/baseline-cohort",
+      "targets": 204,
+      "saved": 86,
+      "LPIPS": 0.6892723084116975,
+      "SSIM": 0.3506709524118859,
+      "gpu_hours": 1.4044444444444444,
+      "jobs": [
+        "44913"
+      ],
+      "execution_sha256": "2d3f866143b09acfa3ee70ad7d9803d5034ec2f3dce3470c1ea5a4dfa6e92975",
+      "scores_sha256": "b1e33a774c42abadffcec7c3ce14b8cc91f78d3ac8d40e3c87a0e98278a889f1",
+      "displayed": [
+        "PMC",
+        "L40S",
+        "1",
+        "0.689272",
+        "0.350671",
+        "86",
+        "1.404"
+      ]
+    },
+    {
+      "scope": "cohort",
+      "method": "Shape",
+      "run": "output/shape-20261121/progressive-l40s/shape-cohort",
+      "targets": 204,
+      "saved": 86,
+      "LPIPS": 0.6973806900319224,
+      "SSIM": 0.34467576238029046,
+      "gpu_hours": 7.325555555555556,
+      "jobs": [
+        "44914"
+      ],
+      "execution_sha256": "0e830d44c12f6dc71e268842ccbb56f4bdfacea5281a99c8b5420b55268aa1fc",
+      "scores_sha256": "d43739dec2ee8ff63cea3e404eba7e892d4c1cfdee70f367d421aefafeeb781f",
+      "displayed": [
+        "Shape",
+        "L40S",
+        "8",
+        "0.697381",
+        "0.344676",
+        "86",
+        "7.326"
+      ]
+    },
+    {
+      "scope": "cohort",
+      "method": "Shape + Surface",
+      "run": "output/shape-20261121/progressive-l40s/combined-cohort",
+      "targets": 204,
+      "saved": 87,
+      "LPIPS": 0.6838414316412573,
+      "SSIM": 0.355980796698346,
+      "gpu_hours": 7.332222222222223,
+      "jobs": [
+        "44917"
+      ],
+      "execution_sha256": "5d5b48014c35efd36a4e68c11f0cc3f6a999e104c4cfe258dd165f5d77a79f4e",
+      "scores_sha256": "2cef97bcac237b30b0b1b94ff5a02c23d747d77b826d5dec15fe7f61755b8905",
+      "displayed": [
+        "Shape + Surface",
+        "L40S",
+        "8",
+        "0.683841",
+        "0.355981",
+        "87",
+        "7.332"
+      ]
+    },
+    {
+      "scope": "cohort",
+      "method": "Surface",
+      "run": "output/surface-annotated-20261112-freshrefs/surface-cohort",
+      "targets": 204,
+      "saved": 87,
+      "LPIPS": 0.6835636322149167,
+      "SSIM": 0.3564304685256632,
+      "gpu_hours": 7.304444444444444,
+      "jobs": [
+        "39487"
+      ],
+      "execution_sha256": "6139148d949f6dccbd48a574b122ba95c193f5fb25968930dce0687b5277821e",
+      "scores_sha256": "4e2f580b582a7f7c0511f9248c5deda035b40aa5694da09adbfd30545c545497",
+      "displayed": [
+        "Surface",
+        "Quadro RTX 6000 (historical)",
+        "8",
+        "0.683564",
+        "0.356430",
+        "87",
+        "7.304"
+      ]
+    },
+    {
+      "scope": "full",
+      "method": "PMC",
+      "run": "output/surface-annotated-20261112-freshrefs/baseline",
+      "targets": 2565,
+      "saved": 1394,
+      "LPIPS": 0.6144084983053263,
+      "SSIM": 0.44562376843817725,
+      "gpu_hours": 24.596666666666668,
+      "jobs": [
+        "39486",
+        "39488"
+      ],
+      "execution_sha256": "f275d7535e3c202fe4373ed1c9d00282dbf417e8cd2d04a1538d6d4d1e05fe43",
+      "scores_sha256": "ceb0da09942d105e034efe1948054161120959f3be76046111083fbe5a460a1b",
+      "displayed": [
+        "PMC",
+        "Quadro RTX 6000 (historical)",
+        "1",
+        "0.614408",
+        "0.445624",
+        "1,394",
+        "24.597"
+      ]
+    },
+    {
+      "scope": "full",
+      "method": "Surface",
+      "run": "output/surface-annotated-20261112-freshrefs/surface",
+      "targets": 2565,
+      "saved": 1399,
+      "LPIPS": 0.6070883523912458,
+      "SSIM": 0.45179261583260805,
+      "gpu_hours": 116.40555555555555,
+      "jobs": [
+        "39487",
+        "39490",
+        "39491"
+      ],
+      "execution_sha256": "a317b0b84414ac234dd605fd95df20a3d516e32977dd46709c95705f03fd95a0",
+      "scores_sha256": "4702b1ee894e531537304646dd69c4d734fa406935dacd95901f88b114978dd4",
+      "displayed": [
+        "Surface",
+        "Quadro RTX 6000 (historical)",
+        "8",
+        "0.607088",
+        "0.451793",
+        "1,399",
+        "116.406"
+      ]
+    }
+  ],
+  "separate_gpu_hours": {
+    "training_and_validation": 0.25333333333333335,
+    "controlled_inference": 0.03888888888888889,
+    "failed_reference_attempt": 0.12
+  },
+  "cancelled_repeat_jobs": [
+    "44915",
+    "44919",
+    "44921"
+  ]
+}

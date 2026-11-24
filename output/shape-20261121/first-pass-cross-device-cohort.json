@@ -1,0 +1,4431 @@
+{
+  "cpu_job": "45289",
+  "independent_numpy_check_job": "45288",
+  "executions": {
+    "surface": {
+      "directory": "output/surface-annotated-20261112-freshrefs/surface-cohort",
+      "sha256": "6139148d949f6dccbd48a574b122ba95c193f5fb25968930dce0687b5277821e"
+    },
+    "shape": {
+      "directory": "output/shape-20261121/progressive-l40s/shape-cohort",
+      "sha256": "0e830d44c12f6dc71e268842ccbb56f4bdfacea5281a99c8b5420b55268aa1fc"
+    }
+  },
+  "condition": "First sampling pass with identical input digest, saved scoring-reference digests, crop coordinates, target and candidate seeds and decoded visible mask.",
+  "summary": {
+    "targets": 59,
+    "candidates": 472,
+    "identical_rgb": 0,
+    "identical_masks": 4,
+    "rgb_channel_values": 371195904,
+    "rgb_absolute_error_sum": 216738018,
+    "mean_absolute_rgb_difference_8bit": 0.583891189704507
+  },
+  "rows": [
+    {
+      "id": "VG/4_blackfloorlamp",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "VG/16_whitecar",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "VG/33_browntable",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "VG/61549_elephant",
+      "identical_scoring_references": false,
+      "first_decisions": {
+        "surface": "f837b6cb83e642f5cbec77d9741cf76645a5c1f1a8d60167151612b7e2fe95cb",
+        "shape": "fb04056780127cbd8feb7b9a47a04b8276b1435b4ef28a8f416bd3c5efc3ed09"
+      },
+      "identical_crop": true,
+      "identical_visible": true
+    },
+    {
+      "id": "VG/61567_stopsign",
+      "identical_scoring_references": false,
+      "first_decisions": {}
+    },
+    {
+      "id": "VG/61606_whitesofa",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "VG/107932_sofa",
+      "identical_scoring_references": false,
+      "first_decisions": {}
+    },
+    {
+      "id": "VG/107970_bicycle",
+      "identical_scoring_references": false,
+      "first_decisions": {
+        "surface": "f27c52fc0fb64e2b6634fa14bc69d29e97a50eaad7352ee32bc540515c31254d",
+        "shape": "e6b71f0c2b95e2c82749c76544a7944cf811ddc0db952cfdb0214e2f9f827499"
+      },
+      "identical_crop": true,
+      "identical_visible": false
+    },
+    {
+      "id": "VG/150407_whiteplate",
+      "identical_scoring_references": true,
+      "first_decisions": {
+        "surface": "7312cfcf69abfe289562e0b5476bb3a326b473219c81828634594dab41d56ff2",
+        "shape": "ba1f4fb28fa477faac33adb6900050babe22f4b2af265f4de67ea7e8868a63df"
+      },
+      "identical_crop": true,
+      "identical_visible": true,
+      "candidates": [
+        {
+          "slot": 0,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 626115,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 1,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 255174,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 2,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 250037,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 3,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 238988,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 4,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 360407,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 5,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 333320,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 6,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 274948,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 7,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 346414,
+          "identical_candidate_mask": false
+        }
+      ]
+    },
+    {
+      "id": "VG/150469_redsofa",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "VG/285758_cat",
+      "identical_scoring_references": true,
+      "first_decisions": {
+        "surface": "c7ed083db4d8dce0af6dbfb8eac1f38dea71ad597b0fe402b0d0c5ad6c4e2b6f",
+        "shape": "fbc5935d93cab8e8650521eaebd8814d75d1adccbbb291b9cad3889421c543ae"
+      },
+      "identical_crop": true,
+      "identical_visible": true,
+      "candidates": [
+        {
+          "slot": 0,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 143672,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 1,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 240342,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 2,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 177179,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 3,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 128441,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 4,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 116675,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 5,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 119489,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 6,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 131455,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 7,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 109131,
+          "identical_candidate_mask": false
+        }
+      ]
+    },
+    {
+      "id": "VG/498179_redcar",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "VG/498191_keyboard",
+      "identical_scoring_references": true,
+      "first_decisions": {
+        "surface": "3f48702a1d097ed754235f642eb84ffc22aad41468ad3269d130d624e5b0ad7f",
+        "shape": "2dc3470bf0fa0c1c1df9a61c85c4d9e6abcb540b705e63e169b70b89d466fa26"
+      },
+      "identical_crop": true,
+      "identical_visible": true,
+      "candidates": [
+        {
+          "slot": 0,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 4105822,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 1,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 134926,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 2,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 155300,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 3,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 150005,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 4,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 164399,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 5,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 131601,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 6,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 254288,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 7,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 221237,
+          "identical_candidate_mask": false
+        }
+      ]
+    },
+    {
+      "id": "VG/713373_table",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "VG/713392_redbus",
+      "identical_scoring_references": false,
+      "first_decisions": {
+        "surface": "d46a8e1fd561b84f545211e283e10e64cc9ac41759e115799d48ceee32e5442c",
+        "shape": "b7be5ff345641b3b2f618187f298c1fb995c94f120e0048382cd2af222aae04f"
+      },
+      "identical_crop": true,
+      "identical_visible": false
+    },
+    {
+      "id": "VG/713407_policecar",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "VG/713467_cow",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "VG/713796_desk",
+      "identical_scoring_references": false,
+      "first_decisions": {
+        "surface": "6c549a2d1ee093aa33d521f5fa4c16d637d838061255e9e505ef90ddfa6004b6",
+        "shape": "43d1a755a9e9e95f2224d93a576064132a49c1cf54c644f4819fbd54a825ee56"
+      },
+      "identical_crop": true,
+      "identical_visible": false
+    },
+    {
+      "id": "VG/713812_bus",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "VG/1159278_whitehouse",
+      "identical_scoring_references": true,
+      "first_decisions": {
+        "surface": "1b940faf978fb610aff6f0958971fe394b73891b9a6825041dd220852da3ddb1",
+        "shape": "33d5d6aab7ae3b755bc1fa0851a63d559a65dfcadbfb44bcdf99d8b571e56b0b"
+      },
+      "identical_crop": true,
+      "identical_visible": true,
+      "candidates": [
+        {
+          "slot": 0,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 273168,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 1,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 245217,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 2,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 217786,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 3,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 248219,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 4,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 316726,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 5,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 253735,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 6,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 287393,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 7,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 199226,
+          "identical_candidate_mask": false
+        }
+      ]
+    },
+    {
+      "id": "VG/1159289_bookshelf",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "VG/1159293_table",
+      "identical_scoring_references": false,
+      "first_decisions": {
+        "surface": "a32288c43182b3b2a876ee2bd17af46aabb86ad31e28153071b513d27cad42ad",
+        "shape": "ea184ddbb41c21aa202b85635220e80575f0f7416abd48f70afba7799cea2b80"
+      },
+      "identical_crop": true,
+      "identical_visible": false
+    },
+    {
+      "id": "VG/1159293_curtain",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "VG/1159606_bicycle",
+      "identical_scoring_references": false,
+      "first_decisions": {
+        "surface": "0ae28dfff969b69e8cc54fb74b83853bb216e86fd3eb2cd0e4862fc280c3d570",
+        "shape": "8d6e5c3e2a19d203467eb0d3d9f6062b405658b92b9e92ee25e0cb88753a96cf"
+      },
+      "identical_crop": true,
+      "identical_visible": false
+    },
+    {
+      "id": "VG/1159619_whitebus",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "VG/1159720_cow",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "VG/1159855_redcurtain",
+      "identical_scoring_references": true,
+      "first_decisions": {
+        "surface": "02ea71da066f10975bcf39c1646b3b20a6b378780194a4bff0204ddf00f004f4",
+        "shape": "cd1e94f8a07c60a1b1ac5d3edc1147252c379ef893c682b4572776b9923202a9"
+      },
+      "identical_crop": true,
+      "identical_visible": true,
+      "candidates": [
+        {
+          "slot": 0,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 1431888,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 1,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 788115,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 2,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 904563,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 3,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 705928,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 4,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 928395,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 5,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 1316096,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 6,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 658763,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 7,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 741447,
+          "identical_candidate_mask": false
+        }
+      ]
+    },
+    {
+      "id": "VG/1159856_bed",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "VG/1159934_sofa",
+      "identical_scoring_references": true,
+      "first_decisions": {
+        "surface": "f01bf96199cf993c9464b3cae721c9b304730a7778493ed1eb6fbb1eaf43f5a2",
+        "shape": "fa6886cda4125750759557454d723c133f8e2452e5159aeba14138d274b13139"
+      },
+      "identical_crop": true,
+      "identical_visible": true,
+      "candidates": [
+        {
+          "slot": 0,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 152719,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 1,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 97747,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 2,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 185805,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 3,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 302932,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 4,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 141237,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 5,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 110017,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 6,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 375906,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 7,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 148195,
+          "identical_candidate_mask": false
+        }
+      ]
+    },
+    {
+      "id": "VG/1160167_greenvan",
+      "identical_scoring_references": true,
+      "first_decisions": {
+        "surface": "194b091f6eb43f26a51fc12750065c60db69661e70e7630d0a2fbb7b559abcad",
+        "shape": "e0e424cd8886ce0863e4b5abfd178107fa79291879852365d5ea1ff8578e61ec"
+      },
+      "identical_crop": true,
+      "identical_visible": true,
+      "candidates": [
+        {
+          "slot": 0,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 157269,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 1,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 320342,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 2,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 121838,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 3,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 265843,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 4,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 140171,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 5,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 285578,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 6,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 182170,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 7,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 196641,
+          "identical_candidate_mask": false
+        }
+      ]
+    },
+    {
+      "id": "VG/1591864_browntable",
+      "identical_scoring_references": false,
+      "first_decisions": {
+        "surface": "f914321149108d422e6306a26454bfd86e8066814a511567d9cf575e43afa4b8",
+        "shape": "885908c0df7f1d1916a7a27228b950c5bfd7889cfc533f10a02a7240e2f697c7"
+      },
+      "identical_crop": true,
+      "identical_visible": false
+    },
+    {
+      "id": "VG/1591880_blacksofa",
+      "identical_scoring_references": false,
+      "first_decisions": {
+        "surface": "eb8a487714548d25145162ed04b071fb6b9c7626b6c128b95afe57283cb68a89",
+        "shape": "df4e722d3b13ff90bd725b2ade4e5ef10652019ed6fbec471b2160d5c9709a74"
+      },
+      "identical_crop": true,
+      "identical_visible": false
+    },
+    {
+      "id": "VG/1592010_redsofa",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "VG/1592064_bench",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "VG/1592549_boat",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "VG/1592770_laptop",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "VG/1592866_motorbike",
+      "identical_scoring_references": true,
+      "first_decisions": {
+        "surface": "fdf098900c5ceb985e59ff61b307ad2e0287302999da088263e8c2af05a84e64",
+        "shape": "380db3c0ada94fb46bcf54d02e8a35d1feb4474f90f5a53052112bff8252cb7b"
+      },
+      "identical_crop": true,
+      "identical_visible": true,
+      "candidates": [
+        {
+          "slot": 0,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 319461,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 1,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 276066,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 2,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 296326,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 3,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 295086,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 4,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 270708,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 5,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 271379,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 6,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 250058,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 7,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 435418,
+          "identical_candidate_mask": false
+        }
+      ]
+    },
+    {
+      "id": "VG/1593220_dog",
+      "identical_scoring_references": false,
+      "first_decisions": {}
+    },
+    {
+      "id": "VG/1593257_banana",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "VG/2315395_TVstand",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "VG/2315469_bus",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "VG/2315561_horse",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "VG/2315747_fork",
+      "identical_scoring_references": true,
+      "first_decisions": {
+        "surface": "211169ffdf554d6c0ebfe5ed1bc584938f7efbe14d9f4685a71c41073318535d",
+        "shape": "32e156349a4197949a941ff1f66781fce88cab7b560a44bd98f4e8f1f1fb0252"
+      },
+      "identical_crop": true,
+      "identical_visible": true,
+      "candidates": [
+        {
+          "slot": 0,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 170771,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 1,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 257779,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 2,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 183618,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 3,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 255827,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 4,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 200508,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 5,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 185301,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 6,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 197275,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 7,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 205749,
+          "identical_candidate_mask": false
+        }
+      ]
+    },
+    {
+      "id": "VG/2315757_motorbike",
+      "identical_scoring_references": true,
+      "first_decisions": {
+        "surface": "b04bc5f10e9bbb8e3777a2ccf67078255fef713ce1d00f9130bc468a0c699f6b",
+        "shape": "9cf364162b44500a75f5febbd604f8db4a499aba537bb7401e63a80dce993d75"
+      },
+      "identical_crop": true,
+      "identical_visible": true,
+      "candidates": [
+        {
+          "slot": 0,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 209548,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 1,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 266568,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 2,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 197768,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 3,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 181850,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 4,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 307657,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 5,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 212669,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 6,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 228008,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 7,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 199961,
+          "identical_candidate_mask": false
+        }
+      ]
+    },
+    {
+      "id": "VG/2315812_whiteplate",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "VG/2315974_pinkteddybear",
+      "identical_scoring_references": true,
+      "first_decisions": {
+        "surface": "fcc05a245baf4e91514a43f11ffee22f855a18fcdf282380619daa654e35c587",
+        "shape": "c1eaf30edf7561e431831037db976a3c029c4eb3eeafe4dc1eb5d48aa2b543b8"
+      },
+      "identical_crop": true,
+      "identical_visible": true,
+      "candidates": [
+        {
+          "slot": 0,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 132130,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 1,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 246488,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 2,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 111268,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 3,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 105333,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 4,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 169632,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 5,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 114835,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 6,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 399274,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 7,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 165474,
+          "identical_candidate_mask": false
+        }
+      ]
+    },
+    {
+      "id": "VG/2316036_bench",
+      "identical_scoring_references": true,
+      "first_decisions": {
+        "surface": "ace113f1a5177569cce0f0ee7710121372c8dabb01c6d62d0b348fa1b019a450",
+        "shape": "2c825089aafa299df4d9bddb4fe8bc392f9c6b3657ac0c21186a2302e4c14b57"
+      },
+      "identical_crop": true,
+      "identical_visible": true,
+      "candidates": [
+        {
+          "slot": 0,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 182742,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 1,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 261200,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 2,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 306979,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 3,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 258037,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 4,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 526434,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 5,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 190368,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 6,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 532707,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 7,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 309910,
+          "identical_candidate_mask": false
+        }
+      ]
+    },
+    {
+      "id": "VG/2316204_horse",
+      "identical_scoring_references": false,
+      "first_decisions": {
+        "surface": "70ef9a0f30f6b231419ec8866dbfeded2b1f2c00db344792ef97b50ae1031993",
+        "shape": "dcb7aa50502c515ddcf3297965f261fddb9d56e4e53ab4db5ba3f46c35fd8d7b"
+      },
+      "identical_crop": true,
+      "identical_visible": false
+    },
+    {
+      "id": "VG/2316349_dog",
+      "identical_scoring_references": false,
+      "first_decisions": {
+        "surface": "dcbe5580480ce0d1335e69e4387f0768ba79be9d8c62d4d962616c41c629a847",
+        "shape": "262d4b3e8027e06fb110b2da4268bcbc508af2643c8695630c314aa6bab26dd7"
+      },
+      "identical_crop": true,
+      "identical_visible": false
+    },
+    {
+      "id": "VG/2316391_tennisracket",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "VG/2316448_plate",
+      "identical_scoring_references": true,
+      "first_decisions": {
+        "surface": "09867039c7668a1df2b8d3b7c262e97076d3758b29813b4f294b89f02cc3b0b5",
+        "shape": "db9ee1e0dc60e7944c159a6326d34e5488a8f11581377a90a88153c6ddea63e0"
+      },
+      "identical_crop": true,
+      "identical_visible": true,
+      "candidates": [
+        {
+          "slot": 0,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 555608,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 1,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 506829,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 2,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 881015,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 3,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 396172,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 4,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 470026,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 5,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 758608,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 6,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 1052136,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 7,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 624660,
+          "identical_candidate_mask": false
+        }
+      ]
+    },
+    {
+      "id": "VG/2316448_fork",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "VG/2316454_giraffe",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "VG/2316470_bus",
+      "identical_scoring_references": true,
+      "first_decisions": {
+        "surface": "92a6087f61b5e1feb6596580342d4f4eca3a673215a7ab7a0741d6e18bccdc2b",
+        "shape": "4707b9307c3c90d812c2de51c4ab6fde49f75802574daa366c732f6a177fa6e9"
+      },
+      "identical_crop": true,
+      "identical_visible": true,
+      "candidates": [
+        {
+          "slot": 0,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 188988,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 1,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 221024,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 2,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 227593,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 3,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 231862,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 4,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 236961,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 5,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 281431,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 6,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 220256,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 7,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 283442,
+          "identical_candidate_mask": false
+        }
+      ]
+    },
+    {
+      "id": "VG/2316957_umbrella",
+      "identical_scoring_references": true,
+      "first_decisions": {
+        "surface": "4481da472558c24ce65e1148e67bcb0c38d820a22706f22f3849d1c42d01c5f8",
+        "shape": "5d1577e6b7f15cd12f248b2b9f2f86ea4ad9474f2cff2c6bc2c5d2ff6e541d58"
+      },
+      "identical_crop": true,
+      "identical_visible": true,
+      "candidates": [
+        {
+          "slot": 0,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 273463,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 1,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 245081,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 2,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 201528,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 3,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 258667,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 4,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 161673,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 5,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 149106,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 6,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 144293,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 7,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 134986,
+          "identical_candidate_mask": false
+        }
+      ]
+    },
+    {
+      "id": "VG/2317003_dog",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "VG/2317090_car",
+      "identical_scoring_references": false,
+      "first_decisions": {
+        "surface": "8f71272bd632e4e093e793b25a8a9a315a919d4db6d6bf3c4372db90bcbd6b19",
+        "shape": "9688a178c283ee3049fb22042c503a4fc49bf02c54bcc88c2fc376eab98965c4"
+      },
+      "identical_crop": true,
+      "identical_visible": false
+    },
+    {
+      "id": "VG/2317127_chair",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "VG/2317264_stopsign",
+      "identical_scoring_references": false,
+      "first_decisions": {
+        "surface": "eeff86a04389f30fc472caad2c2b7ab69702fe0bc6b5a7c8ad5b06ef37854dd1",
+        "shape": "389c1b084336426d649f608ee11955d3df6d1308f3ecb09f6345df06ea06754d"
+      },
+      "identical_crop": true,
+      "identical_visible": false
+    },
+    {
+      "id": "VG/2317450_surfingboard",
+      "identical_scoring_references": false,
+      "first_decisions": {
+        "surface": "94e165d522ac8ace626868badb3926330a7d80f8d39f166efa37fcb34f80cd02",
+        "shape": "f720c2fc8037ee7d16d5a77ccce7a3318cd649b46810b855e7b1bbd418de60b3"
+      },
+      "identical_crop": true,
+      "identical_visible": false
+    },
+    {
+      "id": "VG/2317553_redbus",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "VG/2317861_newspaper",
+      "identical_scoring_references": true,
+      "first_decisions": {
+        "surface": "3c88d60ec181d4109542cf1640cd1d69db0af0cea866847cc00ebe8b202d3c7a",
+        "shape": "493f0ca69b236a442578c130099d2aad60c50c52dbbdbacc382969a98cdca246"
+      },
+      "identical_crop": true,
+      "identical_visible": true,
+      "candidates": [
+        {
+          "slot": 0,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 132825,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 1,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 145380,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 2,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 119504,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 3,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 128857,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 4,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 412934,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 5,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 139931,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 6,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 128841,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 7,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 146629,
+          "identical_candidate_mask": false
+        }
+      ]
+    },
+    {
+      "id": "VG/2317871_umbrella",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "VG/2318217_surfingboard",
+      "identical_scoring_references": true,
+      "first_decisions": {
+        "surface": "8fd30478134a9e3b99e996ab5c6af1052ffdf6ba7959292a0ade3ff6eb637183",
+        "shape": "77d15f960b603bc17cdcb183ccfd1f907fc5f3b9f2492441c34ba3215e3a582e"
+      },
+      "identical_crop": true,
+      "identical_visible": true,
+      "candidates": [
+        {
+          "slot": 0,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 207283,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 1,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 346045,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 2,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 235816,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 3,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 208731,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 4,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 211858,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 5,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 202651,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 6,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 277989,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 7,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 236539,
+          "identical_candidate_mask": false
+        }
+      ]
+    },
+    {
+      "id": "VG/2318432_cabinet",
+      "identical_scoring_references": true,
+      "first_decisions": {
+        "surface": "69e05bd269f75c47be5da631ad25a60c20201c25ad93afacce858927306f3bc5",
+        "shape": "295330bc5b2799b7d86c069dcdeb6ac1d5d997aebae035f3a2a208087c935e85"
+      },
+      "identical_crop": true,
+      "identical_visible": true,
+      "candidates": [
+        {
+          "slot": 0,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 118015,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 1,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 128015,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 2,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 157424,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 3,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 98157,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 4,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 164807,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 5,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 98109,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 6,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 120084,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 7,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 102460,
+          "identical_candidate_mask": false
+        }
+      ]
+    },
+    {
+      "id": "VG/2318575_ship",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "VG/2319055_dog",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "VG/2319494_refrigerator",
+      "identical_scoring_references": false,
+      "first_decisions": {}
+    },
+    {
+      "id": "VG/2319875_blacktruck",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "VG/2320294_table",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "VG/2320362_snowboard",
+      "identical_scoring_references": true,
+      "first_decisions": {
+        "surface": "448a0f78a147d29afc70a9a4e71ed23616276ee630b4aa2df694452473ab07bc",
+        "shape": "14923313eeb49fbfb27eabbdaf17a2b58f466a073af7d5131251bd21dfb441fe"
+      },
+      "identical_crop": true,
+      "identical_visible": true,
+      "candidates": [
+        {
+          "slot": 0,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 174779,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 1,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 186672,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 2,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 179251,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 3,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 159277,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 4,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 206291,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 5,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 123849,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 6,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 715488,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 7,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 200479,
+          "identical_candidate_mask": false
+        }
+      ]
+    },
+    {
+      "id": "VG/2320380_bed",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "VG/2320543_chair",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "VG/2320691_firehydrant",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "VG/2320716_zebra",
+      "identical_scoring_references": true,
+      "first_decisions": {
+        "surface": "777d00cde9d18e23df98aa62a9eb1bf8c891329d61ae84c68b1e170ad0a5ba46",
+        "shape": "36de3e47f110dc4f7423ff7bc01bcc54e86ae7f2edf3087bf0637fc9a8aeb7e6"
+      },
+      "identical_crop": true,
+      "identical_visible": true,
+      "candidates": [
+        {
+          "slot": 0,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 1217521,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 1,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 347964,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 2,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 370745,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 3,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 394957,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 4,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 414351,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 5,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 561876,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 6,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 300040,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 7,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 528044,
+          "identical_candidate_mask": false
+        }
+      ]
+    },
+    {
+      "id": "VG/2320733_tennisracket",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "VG/2320799_toilet",
+      "identical_scoring_references": false,
+      "first_decisions": {}
+    },
+    {
+      "id": "VG/2320860_browndoor",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "VG/2320946_sofa",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "VG/2321128_bus",
+      "identical_scoring_references": true,
+      "first_decisions": {
+        "surface": "ea923213c9e241f81a2e08eec5ad2deaec436f666325eec17d0f775e24240ba2",
+        "shape": "ca74d31e2579a560a8af20f30e64f1a1d99fcde741586659786e3b82947d64ac"
+      },
+      "identical_crop": true,
+      "identical_visible": true,
+      "candidates": [
+        {
+          "slot": 0,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 204886,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 1,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 302682,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 2,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 273578,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 3,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 221111,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 4,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 208478,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 5,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 422380,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 6,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 288124,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 7,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 197578,
+          "identical_candidate_mask": false
+        }
+      ]
+    },
+    {
+      "id": "VG/2321211_beerbottle",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "VG/2321446_banana",
+      "identical_scoring_references": true,
+      "first_decisions": {
+        "surface": "be182b21f25e5fcfe846878a8b1875f5d3734737522156ea1a01b8a769f33568",
+        "shape": "87d9d6084476f5199daf8849f373e0c571f6ccdca03ef9a0d67cca9830d86c65"
+      },
+      "identical_crop": true,
+      "identical_visible": true,
+      "candidates": [
+        {
+          "slot": 0,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 154126,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 1,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 141796,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 2,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 124437,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 3,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 150035,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 4,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 179867,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 5,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 139856,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 6,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 138370,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 7,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 333815,
+          "identical_candidate_mask": false
+        }
+      ]
+    },
+    {
+      "id": "VG/2321453_elephant",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "VG/2322049_fryingpan",
+      "identical_scoring_references": true,
+      "first_decisions": {
+        "surface": "0e4f467a846d14e711b15f840bbfe3271d0b3c6ebdc6e507ec2f1a3428198f58",
+        "shape": "702c8d55a568e661fd253569e03fc68d086057cb485c150e4666d65216cdb3c3"
+      },
+      "identical_crop": true,
+      "identical_visible": true,
+      "candidates": [
+        {
+          "slot": 0,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 114678,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 1,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 97906,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 2,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 95897,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 3,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 113491,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 4,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 93587,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 5,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 87283,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 6,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 117252,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 7,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 83831,
+          "identical_candidate_mask": false
+        }
+      ]
+    },
+    {
+      "id": "VG/2322146_television",
+      "identical_scoring_references": true,
+      "first_decisions": {
+        "surface": "cca07019a8a1a8ff0175a6a3a7fc055569a881aa5a65699889efda5390907d61",
+        "shape": "ce35fc1743edfaec13d0d71bd062cac347c381d499442beee33be29679915a14"
+      },
+      "identical_crop": true,
+      "identical_visible": true,
+      "candidates": [
+        {
+          "slot": 0,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 147637,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 1,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 133634,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 2,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 198092,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 3,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 224784,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 4,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 163786,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 5,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 232454,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 6,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 116527,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 7,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 4083461,
+          "identical_candidate_mask": false
+        }
+      ]
+    },
+    {
+      "id": "VG/2322171_bed",
+      "identical_scoring_references": true,
+      "first_decisions": {
+        "surface": "082601de3c66f32106d7d7e7d8b020dd3f4987bf9750a0d28419a3e170d21a39",
+        "shape": "d541e1432b1c30149c4a189fb4464df9d8bf21af60075f19598359a2d2bd515a"
+      },
+      "identical_crop": true,
+      "identical_visible": true,
+      "candidates": [
+        {
+          "slot": 0,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 158990,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 1,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 149867,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 2,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 191316,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 3,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 148421,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 4,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 1937390,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 5,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 770295,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 6,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 201783,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 7,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 131353,
+          "identical_candidate_mask": false
+        }
+      ]
+    },
+    {
+      "id": "VG/2322304_sofa",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "VG/2322354_dog",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "VG/2322508_beerbottle",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "VG/2322864_dog",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "VG/2350264_baseballbat",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "VG/2350312_motorcycle",
+      "identical_scoring_references": true,
+      "first_decisions": {
+        "surface": "0821dfe33ea5fc9f4c0c1b4b899135a6a44ac0b42a9db5b1ca3ed8c5057651a0",
+        "shape": "6aa223c1e095b5d351dd12b77b22c1ae6499b4524b250ddc6c9b49d5d0141e70"
+      },
+      "identical_crop": true,
+      "identical_visible": true,
+      "candidates": [
+        {
+          "slot": 0,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 353388,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 1,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 172311,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 2,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 158316,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 3,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 166122,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 4,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 255134,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 5,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 161928,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 6,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 205468,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 7,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 161872,
+          "identical_candidate_mask": false
+        }
+      ]
+    },
+    {
+      "id": "VG/2350700_cat",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "VG/2350736_phone",
+      "identical_scoring_references": true,
+      "first_decisions": {
+        "surface": "a9a7152b74e77debce3c15e1aceda108a80423db2cbbfbc9897303a4993fcab7",
+        "shape": "745f5c895773473aa0bf9bb506bef9b68bdecd03d5259bb66ad07ca377a436ca"
+      },
+      "identical_crop": true,
+      "identical_visible": true,
+      "candidates": [
+        {
+          "slot": 0,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 350126,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 1,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 420216,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 2,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 295984,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 3,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 493651,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 4,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 709787,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 5,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 309540,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 6,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 307809,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 7,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 334846,
+          "identical_candidate_mask": false
+        }
+      ]
+    },
+    {
+      "id": "VG/2350963_motorcycle",
+      "identical_scoring_references": false,
+      "first_decisions": {
+        "surface": "019f8238fccbcf76c02e9b604573449bf8b9daa0492522f2921f1b9612a5fb17",
+        "shape": "4c1cdd112eceb829d72fa6c5c772f597ba35272d1df568a55acbd36317c30a91"
+      },
+      "identical_crop": true,
+      "identical_visible": false
+    },
+    {
+      "id": "VG/2351033_fork",
+      "identical_scoring_references": true,
+      "first_decisions": {
+        "surface": "c7f3a4b210ea02f4638d1bb06c8edc8e0ec7482e3bc047e00bb0d806007bb70d",
+        "shape": "7cd6d5c50c5e0b61403ed9970dae8241e0d3411c0249f10d602e73e574cae32f"
+      },
+      "identical_crop": true,
+      "identical_visible": true,
+      "candidates": [
+        {
+          "slot": 0,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 150738,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 1,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 145832,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 2,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 360137,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 3,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 24731172,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 4,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 147234,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 5,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 141524,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 6,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 217257,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 7,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 162705,
+          "identical_candidate_mask": false
+        }
+      ]
+    },
+    {
+      "id": "VG/2351049_tennisracket",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "VG/2351235_cat",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "VG/2351594_airplane",
+      "identical_scoring_references": true,
+      "first_decisions": {
+        "surface": "57bb7f73844f1de68700712661dedcf5b2d7df844aec76b3f2788e77c5cbb3d0",
+        "shape": "9e047354a31b0396345050d06445dea8968b8f094cc490163ad9fb92bdbed0b4"
+      },
+      "identical_crop": true,
+      "identical_visible": true,
+      "candidates": [
+        {
+          "slot": 0,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 349061,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 1,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 321537,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 2,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 431884,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 3,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 713427,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 4,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 386800,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 5,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 462571,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 6,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 293214,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 7,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 615610,
+          "identical_candidate_mask": false
+        }
+      ]
+    },
+    {
+      "id": "VG/2351613_phone",
+      "identical_scoring_references": true,
+      "first_decisions": {
+        "surface": "2beb8d9a888de939c35a8e3c6691b7f7506a8c060cfd3a62a8cd29f61f8572d1",
+        "shape": "832be2285b4e7cada494961308e5e2cd46c2a1baca5ab0ca7b12396fee12c7ce"
+      },
+      "identical_crop": true,
+      "identical_visible": true,
+      "candidates": [
+        {
+          "slot": 0,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 93323,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 1,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 94511,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 2,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 172149,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 3,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 476470,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 4,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 95552,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 5,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 124567,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 6,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 94648,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 7,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 115911,
+          "identical_candidate_mask": false
+        }
+      ]
+    },
+    {
+      "id": "VG/2351866_banana",
+      "identical_scoring_references": true,
+      "first_decisions": {
+        "surface": "c5198793dfdea4b59ff389ee19638cb9df9a346d782405f480c4472d4c1328ef",
+        "shape": "69e7a46b6741a10f2e2f0455873eadfc8160cd0b92006ed351234d0d790604e4"
+      },
+      "identical_crop": true,
+      "identical_visible": true,
+      "candidates": [
+        {
+          "slot": 0,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 239396,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 1,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 177240,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 2,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 240187,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 3,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 176283,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 4,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 427932,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 5,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 171438,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 6,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 263061,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 7,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 190554,
+          "identical_candidate_mask": false
+        }
+      ]
+    },
+    {
+      "id": "VG/2352236_horse",
+      "identical_scoring_references": true,
+      "first_decisions": {
+        "surface": "9b329f13f761a30e6923447ab23097814c4a1748cf662b81f7d2890789fcffbc",
+        "shape": "9c7b15e23e6f06da74fae3cf299849eb907b1009bbc2b28fffc1df6899dfebca"
+      },
+      "identical_crop": true,
+      "identical_visible": true,
+      "candidates": [
+        {
+          "slot": 0,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 132877,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 1,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 118618,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 2,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 122243,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 3,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 113497,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 4,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 105768,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 5,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 110222,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 6,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 121055,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 7,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 125873,
+          "identical_candidate_mask": false
+        }
+      ]
+    },
+    {
+      "id": "VG/2352547_dog",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "VG/2352661_airplane",
+      "identical_scoring_references": true,
+      "first_decisions": {
+        "surface": "cba1d84a2f5546776609b6d8188056eb89ae048ae6e3f047dcf398a38fc7a1b9",
+        "shape": "4a6b8cbe8ec7cece193e6674bbc39ee18324206ff648c93e4392a6ffed52cbb9"
+      },
+      "identical_crop": true,
+      "identical_visible": true,
+      "candidates": [
+        {
+          "slot": 0,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 347430,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 1,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 204594,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 2,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 347582,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 3,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 229701,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 4,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 306079,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 5,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 264152,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 6,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 224118,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 7,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 306426,
+          "identical_candidate_mask": false
+        }
+      ]
+    },
+    {
+      "id": "VG/2352928_giraffe",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "VG/2353014_giraffe",
+      "identical_scoring_references": true,
+      "first_decisions": {
+        "surface": "a7a9341b519021ab1d0720ad66817c4b6e24139d44b34cd2be67cd5bf624ef92",
+        "shape": "7900dfa9d0ad1a0aa4d607fccae4b0b703d798b42db3579de6a260c7c83616a3"
+      },
+      "identical_crop": true,
+      "identical_visible": true,
+      "candidates": [
+        {
+          "slot": 0,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 332528,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 1,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 253171,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 2,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 230234,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 3,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 263560,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 4,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 185808,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 5,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 582322,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 6,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 352633,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 7,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 382598,
+          "identical_candidate_mask": false
+        }
+      ]
+    },
+    {
+      "id": "VG/2353034_dog",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "VG/2353468_dog",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "VG/2353868_horse",
+      "identical_scoring_references": true,
+      "first_decisions": {
+        "surface": "d1630738c6bf4b9341463542b3988e379e3fad03e3a39b6c645cb20a466c385c",
+        "shape": "b353569c79635e72b4fa57908521fabd62d0801576dbce86ade2287507d251f0"
+      },
+      "identical_crop": true,
+      "identical_visible": true,
+      "candidates": [
+        {
+          "slot": 0,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 170516,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 1,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 156518,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 2,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 153033,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 3,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 147874,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 4,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 180741,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 5,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 146541,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 6,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 175537,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 7,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 162231,
+          "identical_candidate_mask": false
+        }
+      ]
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000005435_chair",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000008405_flower",
+      "identical_scoring_references": false,
+      "first_decisions": {
+        "surface": "4f610e010365879dc4ff940e1bd51eafeacd3d0f2e5400a243aa8cdc8aedaab3",
+        "shape": "9bacc92de2ea69e11b71b439ea1321ae4e47f142fab3cc44ac77ee81e64e5c61"
+      },
+      "identical_crop": true,
+      "identical_visible": false
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000009199_bed",
+      "identical_scoring_references": false,
+      "first_decisions": {
+        "surface": "6128f52d3f0a0ea4ec3dc83ddd7778cb69dfc58a3b2d72c0e1e21412597519f5",
+        "shape": "f223568a56567369e680670543a0e4678f8e2be906696e6a1dbfe45a51e047f2"
+      },
+      "identical_crop": true,
+      "identical_visible": true
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000018377_bakingtray",
+      "identical_scoring_references": true,
+      "first_decisions": {
+        "surface": "984544804ebfbe6b6795b56fdf0e464724b7907b0868911038afda6dfd700c58",
+        "shape": "b6171db83e424c0544a2fe9df1d32764c57f687d2995e168120e6db86d758c12"
+      },
+      "identical_crop": true,
+      "identical_visible": true,
+      "candidates": [
+        {
+          "slot": 0,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 114532,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 1,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 81961,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 2,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 95827,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 3,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 99252,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 4,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 90734,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 5,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 131129,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 6,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 72314,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 7,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 78549,
+          "identical_candidate_mask": false
+        }
+      ]
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000018584_BigBen",
+      "identical_scoring_references": true,
+      "first_decisions": {
+        "surface": "4f147c289bbd877f5375822894c5996054bf40708393f3f98fe6e3fee41d4ecc",
+        "shape": "6f281efd9669daa85891840f7e286a8f53b5d0cd51c2cbaf31070ed8d6be6e24"
+      },
+      "identical_crop": true,
+      "identical_visible": true,
+      "candidates": [
+        {
+          "slot": 0,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 246280,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 1,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 1447956,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 2,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 201917,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 3,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 214583,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 4,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 1775339,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 5,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 311386,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 6,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 221977,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 7,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 187122,
+          "identical_candidate_mask": false
+        }
+      ]
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000021268_whiteplate",
+      "identical_scoring_references": true,
+      "first_decisions": {
+        "surface": "ce986f77422bc070e3ad9a2dc931317fff5b53f1f56d6959d8c371712502c7fe",
+        "shape": "b95769b9d252c7ba2600029a3c5ccfd3d4878ad7e83f025ce94ed077915868c9"
+      },
+      "identical_crop": true,
+      "identical_visible": true,
+      "candidates": [
+        {
+          "slot": 0,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 631926,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 1,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 183660,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 2,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 332039,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 3,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 183493,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 4,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 183459,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 5,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 157329,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 6,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 203701,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 7,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 232620,
+          "identical_candidate_mask": false
+        }
+      ]
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000023444_microwave",
+      "identical_scoring_references": true,
+      "first_decisions": {
+        "surface": "6ca149e4870b85c3c7a8d564d0aad981d63cd21399034ed6d7ffda326a2d6fad",
+        "shape": "39e80ce955822d4ec71d40c06c253a8e752fa34d021443fcad39a398e31b1e3d"
+      },
+      "identical_crop": true,
+      "identical_visible": true,
+      "candidates": [
+        {
+          "slot": 0,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 217034,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 1,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 300957,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 2,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 721842,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 3,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 455288,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 4,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 6009271,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 5,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 5983294,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 6,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 937329,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 7,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 547286,
+          "identical_candidate_mask": false
+        }
+      ]
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000024086_plate",
+      "identical_scoring_references": false,
+      "first_decisions": {}
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000024672_sofa",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000024672_whitecabinet",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000040068_refrigerator",
+      "identical_scoring_references": false,
+      "first_decisions": {
+        "surface": "d40af6c3452780a55cc1909eee1343df6a852ebf619f768e5c04beb57a1846e0",
+        "shape": "1cb959fc5ba1843bcb70e98d63e33492181ea4df2f2a3bd734af247442cd4775"
+      },
+      "identical_crop": true,
+      "identical_visible": false
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000064111_toilet",
+      "identical_scoring_references": true,
+      "first_decisions": {
+        "surface": "3625c966ac5b25bec8f79220bbb28e2e73cf0e87001db148dc396d44a0d6be58",
+        "shape": "56d16e5bf402a89237d79cb3af67f84b032bc21b3567cf908c1ee5510178f18e"
+      },
+      "identical_crop": true,
+      "identical_visible": true,
+      "candidates": [
+        {
+          "slot": 0,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 183763,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 1,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 1742123,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 2,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 412956,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 3,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 252044,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 4,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 245615,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 5,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 145142,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 6,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 370999,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 7,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 197327,
+          "identical_candidate_mask": false
+        }
+      ]
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000095111_elephant",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000096378_sheep",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000108113_dog",
+      "identical_scoring_references": false,
+      "first_decisions": {
+        "surface": "a293cd90c6b89c3fbc4a972a02e04bf32e1d2d3fd49501d99e1ed8acbd471c5b",
+        "shape": "f7e7c7689b84e8abab1c4e90e5faef6192b8cb23f24f4c9e3547cdcd25666395"
+      },
+      "identical_crop": true,
+      "identical_visible": true
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000145259_elephant",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000155108_Christmastree",
+      "identical_scoring_references": true,
+      "first_decisions": {
+        "surface": "433a8a9ec735d3c41967cde23f8f1e2634a6e6c9a8f34264a49efe6a67d6cf03",
+        "shape": "879392deae4de540749ea2a3bbc696ff051c315fc1b43d94d95ce3fa25ff2f08"
+      },
+      "identical_crop": true,
+      "identical_visible": true,
+      "candidates": [
+        {
+          "slot": 0,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 528601,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 1,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 466714,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 2,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 482581,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 3,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 4486702,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 4,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 542159,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 5,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 364780,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 6,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 546133,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 7,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 505139,
+          "identical_candidate_mask": false
+        }
+      ]
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000169878_redbucket",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000182020_grayscarfontheleft",
+      "identical_scoring_references": true,
+      "first_decisions": {
+        "surface": "4715f299969dba056273e3f8712b1eb87b427845bbb7b5f99f625b5c3ab3fdb0",
+        "shape": "0e3c86fe6110416909c5e8323f2f149d548cc5c57e78ca833d5cc62157893931"
+      },
+      "identical_crop": true,
+      "identical_visible": true,
+      "candidates": [
+        {
+          "slot": 0,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 409157,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 1,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 574347,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 2,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 413343,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 3,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 460722,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 4,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 600889,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 5,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 419415,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 6,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 836895,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 7,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 373922,
+          "identical_candidate_mask": false
+        }
+      ]
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000182020_cat",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000201115_sprinkler",
+      "identical_scoring_references": true,
+      "first_decisions": {
+        "surface": "663ddff5b6604dec24cfdd5692e813bf2a70ab7e2d06bfa9a1bf2d8afc122191",
+        "shape": "f801b51b970c0c2dbd04ddd947fcfbf0e131f0458178d20165e45324be87778c"
+      },
+      "identical_crop": true,
+      "identical_visible": true,
+      "candidates": [
+        {
+          "slot": 0,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 246965,
+          "identical_candidate_mask": true
+        },
+        {
+          "slot": 1,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 356636,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 2,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 225656,
+          "identical_candidate_mask": true
+        },
+        {
+          "slot": 3,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 212591,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 4,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 273088,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 5,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 523834,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 6,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 256482,
+          "identical_candidate_mask": true
+        },
+        {
+          "slot": 7,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 222934,
+          "identical_candidate_mask": false
+        }
+      ]
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000205963_bluesuitcase",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000230515_elephant",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000238843_giraffe",
+      "identical_scoring_references": false,
+      "first_decisions": {}
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000283624_dog",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000317896_fryingpan",
+      "identical_scoring_references": true,
+      "first_decisions": {
+        "surface": "f009b8c0eb9ce3885e44ee525cb94e351c1adbc980e49e5a4f3c0d0958028d76",
+        "shape": "f1a2e328daa5629c50dc6c0b2f9d77e7d52b91f04dc08f5a405640e7c73f7397"
+      },
+      "identical_crop": true,
+      "identical_visible": true,
+      "candidates": [
+        {
+          "slot": 0,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 490499,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 1,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 240364,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 2,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 185136,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 3,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 284954,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 4,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 154889,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 5,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 274952,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 6,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 233200,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 7,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 230738,
+          "identical_candidate_mask": false
+        }
+      ]
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000387318_woodentray",
+      "identical_scoring_references": true,
+      "first_decisions": {
+        "surface": "cfc61c75b51af57ad561ca6be1110e0f0f0d66632e38c6d6df4d57ca61e9add5",
+        "shape": "1b15458475154d9af01397b8534d5b95cb0d4833b251a60953717f635a76ec73"
+      },
+      "identical_crop": true,
+      "identical_visible": true,
+      "candidates": [
+        {
+          "slot": 0,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 885262,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 1,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 691515,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 2,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 1327642,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 3,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 11548271,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 4,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 1028714,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 5,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 849788,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 6,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 1021075,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 7,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 808311,
+          "identical_candidate_mask": false
+        }
+      ]
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000403687_dog",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000430753_knife",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000432892_television",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000453260_toilet",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000474446_dog",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000474446_keyboard",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000486609_plate",
+      "identical_scoring_references": false,
+      "first_decisions": {
+        "surface": "a8110ec66b5bac3027b7a5964d6ef59e7c483e6022ad6977fb7d790b4d7320fe",
+        "shape": "2d8017baa0b32ab96a0f05c1ee11fd6160d45b237b3f10fc797647268c2776e7"
+      },
+      "identical_crop": true,
+      "identical_visible": true
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000502140_surfboard",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000526029_greensuitcase",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000526029_blacksuitcase",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000561565_zebra",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000564978_displayscreen",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "COCOA/COCO_test2014_000000061511_bench",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "COCOA/COCO_test2014_000000260571_cat",
+      "identical_scoring_references": false,
+      "first_decisions": {}
+    },
+    {
+      "id": "COCOA/COCO_test2014_000000267439_suitcase",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "COCOA/COCO_test2014_000000296835_toothbrush",
+      "identical_scoring_references": true,
+      "first_decisions": {
+        "surface": "b3739e862fa7b674eef601489b0848d6ae02fca0d5a5cdab5f714e3c7765e853",
+        "shape": "8554ec540f2f0a78d627dafa4a9180bea639adbc1891547d7428240a84193a57"
+      },
+      "identical_crop": true,
+      "identical_visible": true,
+      "candidates": [
+        {
+          "slot": 0,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 137720,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 1,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 358474,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 2,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 227415,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 3,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 127098,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 4,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 141857,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 5,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 186772,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 6,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 168166,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 7,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 130285,
+          "identical_candidate_mask": false
+        }
+      ]
+    },
+    {
+      "id": "COCOA/COCO_test2014_000000296835_book",
+      "identical_scoring_references": false,
+      "first_decisions": {
+        "surface": "18ed1abaebd56018b5fe1d6b0473fc1b4853f3000dfc11c0b407dadda35abbfe",
+        "shape": "e461e65459630b61fd50560693d22cc88db790ffddaf5bdbf23a2d798145286f"
+      },
+      "identical_crop": true,
+      "identical_visible": true
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000058797_toilet",
+      "identical_scoring_references": true,
+      "first_decisions": {
+        "surface": "aa0d30294dc652fd8951e4f9cbe7dc252b46c178f11045b1c2d8ea19e633b57f",
+        "shape": "8534eabc0b07d50b121f2be0acf43864685c43749632d6eab7cf9b47ebe158bf"
+      },
+      "identical_crop": true,
+      "identical_visible": true,
+      "candidates": [
+        {
+          "slot": 0,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 524477,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 1,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 498982,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 2,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 191385,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 3,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 3689200,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 4,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 559576,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 5,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 817072,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 6,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 818632,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 7,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 248836,
+          "identical_candidate_mask": false
+        }
+      ]
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000065433_dog",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000088250_elephant",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000090707_whiteplate",
+      "identical_scoring_references": true,
+      "first_decisions": {
+        "surface": "d920ef30a2c5de6b3beed17be6c7bf3b44e572206f5f1c25164f3cd5d029ac73",
+        "shape": "7f2d843be9088fa6f9869c1e0ee0b3e413321ae07addac1bae38b345fb552815"
+      },
+      "identical_crop": true,
+      "identical_visible": true,
+      "candidates": [
+        {
+          "slot": 0,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 261453,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 1,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 513338,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 2,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 425051,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 3,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 231953,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 4,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 309960,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 5,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 326509,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 6,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 198692,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 7,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 238622,
+          "identical_candidate_mask": false
+        }
+      ]
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000143450_plate",
+      "identical_scoring_references": false,
+      "first_decisions": {
+        "surface": "4428c3bc73bbdfc1555e142cc9f3086897d34a98fc3a88918aaebf030a471cfa",
+        "shape": "469764d706e7233e9cdcbaaf226042d8ac9aef414e937303419b2b603d74b306"
+      },
+      "identical_crop": true,
+      "identical_visible": true
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000143450_cake",
+      "identical_scoring_references": false,
+      "first_decisions": {
+        "surface": "2fa99245b73ad5e8c614f9d1c66bfaba75f5b0c9f236becc38f2213544f7e723",
+        "shape": "8629e971e99c0d87f1dfb3e66e89c8c11eda34b52174de902bcb02e94ba2df0b"
+      },
+      "identical_crop": true,
+      "identical_visible": false
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000143450_spoon",
+      "identical_scoring_references": false,
+      "first_decisions": {}
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000185941_phonebooth",
+      "identical_scoring_references": true,
+      "first_decisions": {
+        "surface": "b9fc068fc8f1fd9a0180cbb8b8a9aa09ad714f1cf4481bc8b29ea494afc8e064",
+        "shape": "cdd02177ad2e92260fda442fa2ed6488576ddcc190e4655e37d87c2f4105f3b4"
+      },
+      "identical_crop": true,
+      "identical_visible": true,
+      "candidates": [
+        {
+          "slot": 0,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 251962,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 1,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 594844,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 2,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 260596,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 3,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 1408288,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 4,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 302915,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 5,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 250800,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 6,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 615607,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 7,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 308916,
+          "identical_candidate_mask": false
+        }
+      ]
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000185941_redcoach",
+      "identical_scoring_references": true,
+      "first_decisions": {
+        "surface": "64cefca6ff7fbd780d8f66c2c6d951d53168108ff12cec5d17d9732a25a3419f",
+        "shape": "7bc35dc93b2cf06dc4cd3a92fdd83c4becce7ee94d080825f595dcd3a3302735"
+      },
+      "identical_crop": true,
+      "identical_visible": true,
+      "candidates": [
+        {
+          "slot": 0,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 246282,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 1,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 1599400,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 2,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 200790,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 3,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 279204,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 4,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 456765,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 5,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 387523,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 6,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 1234689,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 7,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 251303,
+          "identical_candidate_mask": false
+        }
+      ]
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000195542_mousepad",
+      "identical_scoring_references": true,
+      "first_decisions": {
+        "surface": "c27c9c883dd2205d72c236428bf142804de361204f9b9198b77c792a9148194f",
+        "shape": "a93e97cc034d3f5eaedeb0beea9d31f4d25ef72bb80bedfcdd7c5d81f369444e"
+      },
+      "identical_crop": true,
+      "identical_visible": true,
+      "candidates": [
+        {
+          "slot": 0,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 56062,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 1,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 48726,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 2,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 74742,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 3,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 66907,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 4,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 98572,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 5,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 47536,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 6,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 45262,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 7,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 58905,
+          "identical_candidate_mask": false
+        }
+      ]
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000210467_trashcan",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000222317_dog",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000222317_sofa",
+      "identical_scoring_references": true,
+      "first_decisions": {
+        "surface": "49c0e32cde8124e0b5dd77348c1ac927d191730a70db5bacb157ddaf26db2de8",
+        "shape": "dd98b9ec15089cab008a338e0a912514fb64415274395f667567964536a7979a"
+      },
+      "identical_crop": true,
+      "identical_visible": true,
+      "candidates": [
+        {
+          "slot": 0,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 172691,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 1,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 348676,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 2,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 158065,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 3,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 258975,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 4,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 593525,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 5,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 228593,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 6,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 378084,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 7,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 181027,
+          "identical_candidate_mask": false
+        }
+      ]
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000229255_wateringcan",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000238459_cow",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000281533_displayscreen",
+      "identical_scoring_references": true,
+      "first_decisions": {
+        "surface": "1058f29fc70d66988a106f41f5a1ad2bd8f232d841de7778937a9043a6eb4167",
+        "shape": "fec0200f7a2bc44fd5cb1820dc34c76a813e3d8715024365f53822261b6c61a7"
+      },
+      "identical_crop": true,
+      "identical_visible": true,
+      "candidates": [
+        {
+          "slot": 0,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 162326,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 1,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 178261,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 2,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 321811,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 3,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 248891,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 4,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 153444,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 5,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 210005,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 6,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 195011,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 7,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 191110,
+          "identical_candidate_mask": false
+        }
+      ]
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000285894_giraffe",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000367386_blacksofa",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000473888_doghouse",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000559277_dog",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000577385_thickcuttingboard",
+      "identical_scoring_references": false,
+      "first_decisions": {
+        "surface": "9782f970bf0791094b2d315df4d8a32986cfb150dd4c49fc1a45e6fd305c4798",
+        "shape": "4891b54cbbe169fbca2f5d720538876aafb95bbe4f2b31cbb10df3a416fd99c4"
+      },
+      "identical_crop": true,
+      "identical_visible": false
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000579593_giraffe",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000580555_whiteplate",
+      "identical_scoring_references": true,
+      "first_decisions": {
+        "surface": "9ce437f02219e4531d6ae8306fa136dfc0e89ca7ac9fb9aeac1d2743d13a5ed5",
+        "shape": "3f8c7f91a7073de2ea7c7d9f25221998cdf332a220937b85ea6ae092d6e662e3"
+      },
+      "identical_crop": true,
+      "identical_visible": true,
+      "candidates": [
+        {
+          "slot": 0,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 174030,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 1,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 201327,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 2,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 207598,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 3,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 334123,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 4,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 234320,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 5,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 309515,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 6,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 187608,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 7,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 330288,
+          "identical_candidate_mask": false
+        }
+      ]
+    },
+    {
+      "id": "free_images/pexels-ilia-bronskiy-1137858493-25347405_goblet",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "free_images/sparrow-8937767_640_eagle",
+      "identical_scoring_references": false,
+      "first_decisions": {}
+    },
+    {
+      "id": "free_images/pexels-koolshooters-6076013_basketball",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "free_images/pexels-dejiprince-28231061_ladder",
+      "identical_scoring_references": true,
+      "first_decisions": {
+        "surface": "2ee1a48f20644aef6d5d3b6956812421a7e9bae5f784b0f5215a2bd6f6eaed68",
+        "shape": "3bdfa4d59c451ce22a446f879178ee950ad590a819bb20e7ec38d10c1434c7df"
+      },
+      "identical_crop": true,
+      "identical_visible": true,
+      "candidates": [
+        {
+          "slot": 0,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 914687,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 1,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 311175,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 2,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 544015,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 3,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 2575349,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 4,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 401348,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 5,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 471732,
+          "identical_candidate_mask": true
+        },
+        {
+          "slot": 6,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 551083,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 7,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 244503,
+          "identical_candidate_mask": false
+        }
+      ]
+    },
+    {
+      "id": "free_images/pexels-kelly-1179532-28287998_electricguitar",
+      "identical_scoring_references": false,
+      "first_decisions": {
+        "surface": "c39352045e9bfdc81f64318ea5151ef8bea11bf2ef100a2ed509fe801dee0656",
+        "shape": "9c30d84bb7d2e175619c9ea875ec4e760719810124c71aae2ec5e26b44ff5e85"
+      },
+      "identical_crop": true,
+      "identical_visible": false
+    },
+    {
+      "id": "free_images/pexels-oliver-dohrn-706160180-26698092_kangaroo",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "free_images/toa-heftiba-fqSEh-iPRok-unsplash_cup",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "free_images/rafael-hoyos-weht-mRgrF98emKY-unsplash_car",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "free_images/deer-9018759_640_deer",
+      "identical_scoring_references": true,
+      "first_decisions": {
+        "surface": "62bb30cbb34af046c37b8785d98070212f932f2aa69e84804ea2fce4774d319d",
+        "shape": "7f955799a3764aa68b55dec88e912a411bf068ca0e38b41e0a31a2e0a120e928"
+      },
+      "identical_crop": true,
+      "identical_visible": true,
+      "candidates": [
+        {
+          "slot": 0,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 106506,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 1,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 107642,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 2,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 113312,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 3,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 118784,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 4,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 114639,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 5,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 106674,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 6,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 108268,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 7,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 118084,
+          "identical_candidate_mask": false
+        }
+      ]
+    },
+    {
+      "id": "free_images/butterfly-8422900_640_flower",
+      "identical_scoring_references": false,
+      "first_decisions": {
+        "surface": "da5379b99266e2bd88b4f4eff4320329a9e80bf1a426b4909d1a6eae2e3805c8",
+        "shape": "49a54abe0fe4af0d6c800e03cfdc90627bb8e553650d88b55a9ef59d5afec55b"
+      },
+      "identical_crop": true,
+      "identical_visible": false
+    },
+    {
+      "id": "free_images/violin-8405558_640_violin",
+      "identical_scoring_references": false,
+      "first_decisions": {
+        "surface": "3f870d0bce73e1d945057fd405fe3952a5f924e39393ed51365bcca818bb06bd",
+        "shape": "52a99eaa58285dc720ab2ae3a8e7edb42d216f244b5205763a47ff32601ee366"
+      },
+      "identical_crop": true,
+      "identical_visible": false
+    },
+    {
+      "id": "free_images/halloween-7553022_640_bone",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "free_images/squirrel-8044947_640_squirrel",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "free_images/bee-7957348_640_bee",
+      "identical_scoring_references": true,
+      "first_decisions": {
+        "surface": "6b1d072d2c581cd70a833c2f10f5ced45bf14f9f68e6b3a6c81884e1817b9d63",
+        "shape": "8b338cceac71604ef4e68c280e36526d08e56da7f6bacee0bf75f3f42ed5adaa"
+      },
+      "identical_crop": true,
+      "identical_visible": true,
+      "candidates": [
+        {
+          "slot": 0,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 98306,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 1,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 80581,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 2,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 82104,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 3,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 80065,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 4,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 146487,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 5,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 147786,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 6,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 80417,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 7,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 91990,
+          "identical_candidate_mask": false
+        }
+      ]
+    },
+    {
+      "id": "laion/000000878_microphone",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "laion/000004773_book",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "laion/000006623_backpack",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "laion/000006776_guitar",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "laion/000008816_pants",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "laion/000008955_gorilla",
+      "identical_scoring_references": true,
+      "first_decisions": {
+        "surface": "5d7f94afd280132d1812e82d34ef2cd77eee01e2e76810058c2201329d5e6fec",
+        "shape": "c8e9b488ee25c4182c46662d73599725971be6c7b580488e06595674ebe0fc92"
+      },
+      "identical_crop": true,
+      "identical_visible": true,
+      "candidates": [
+        {
+          "slot": 0,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 1318093,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 1,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 1347832,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 2,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 1159101,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 3,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 1631002,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 4,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 2479543,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 5,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 908170,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 6,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 611975,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 7,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 987008,
+          "identical_candidate_mask": false
+        }
+      ]
+    },
+    {
+      "id": "laion/000012713_saxophone",
+      "identical_scoring_references": false,
+      "first_decisions": {
+        "surface": "a88ef0dccd84f5edd96aa5544d578d0b71d3e0750c35f14657b39503cb3fbd34",
+        "shape": "8c831b1fe618b4c6813f6c9c841e342d09062b356cfe9e3f3bfd185e2650791f"
+      },
+      "identical_crop": true,
+      "identical_visible": false
+    },
+    {
+      "id": "laion/000012714_box",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "laion/000012982_umbrella",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "laion/000013564_plate",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "laion/000013564_cup",
+      "identical_scoring_references": false,
+      "first_decisions": {
+        "surface": "9298f6be79b85d8a69c176a21c9d5c3f67cbaef207a119fe7eaef689186b30d7",
+        "shape": "eddf5fd7b9045bb36042fae2bef30099b0ad1135fb3959f1bac2671b09e53eeb"
+      },
+      "identical_crop": true,
+      "identical_visible": false
+    },
+    {
+      "id": "laion/000013936_tennisracket",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    },
+    {
+      "id": "laion/000014853_box",
+      "identical_scoring_references": true,
+      "first_decisions": {
+        "surface": "4edefc1d67c26b8325e0a20be97a2d03f95d3df0a104b32d0f874326d5a60ca7",
+        "shape": "2c8bf2e9089494a5f458f8a972f48fb93c2dd009b8e2feb33dc24d7b69d8e90d"
+      },
+      "identical_crop": true,
+      "identical_visible": true,
+      "candidates": [
+        {
+          "slot": 0,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 123187,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 1,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 145032,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 2,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 1211435,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 3,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 311008,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 4,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 402074,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 5,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 107315,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 6,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 117539,
+          "identical_candidate_mask": false
+        },
+        {
+          "slot": 7,
+          "rgb_channel_values": 786432,
+          "rgb_absolute_error_sum": 152569,
+          "identical_candidate_mask": false
+        }
+      ]
+    },
+    {
+      "id": "laion/000015451_carpet",
+      "identical_scoring_references": true,
+      "first_decisions": {}
+    }
+  ]
+}

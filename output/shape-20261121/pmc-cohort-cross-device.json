@@ -1,0 +1,95 @@
+{
+  "conditions": {
+    "quadro": {
+      "path": "output/surface-annotated-20261112-freshrefs/baseline-cohort",
+      "execution_sha256": "b948a17bb4f3a11784dcaae01237fa4d381859b40115790f1f174872cde2614d",
+      "per_target_sha256": "52bdc8495d8cc40db1c0037c5f0e730cd67afd432a96a127a944fc5c407a3f3c"
+    },
+    "l40s": {
+      "path": "output/shape-20261121/progressive-l40s/baseline-cohort",
+      "execution_sha256": "2d3f866143b09acfa3ee70ad7d9803d5034ec2f3dce3470c1ea5a4dfa6e92975",
+      "per_target_sha256": "b1e33a774c42abadffcec7c3ce14b8cc91f78d3ac8d40e3c87a0e98278a889f1"
+    }
+  },
+  "positive_gain_favors": "L40S",
+  "coverage": {
+    "neither_saved": 117,
+    "both_saved": 86,
+    "quadro_only": 1
+  },
+  "results": {
+    "all": {
+      "LPIPS": {
+        "n": 204,
+        "images": 192,
+        "baseline": 0.6852755600805668,
+        "method": 0.6892723084116975,
+        "absolute_gain": -0.00399674833113072,
+        "relative_gain_percent": -0.5832322884331127,
+        "absolute_ci": [
+          -0.012500440955423343,
+          0.0011422253611281209
+        ],
+        "relative_ci_percent": [
+          -1.8529641402317516,
+          0.1632772012785533
+        ],
+        "undefined_relative_bootstrap_samples": 0
+      },
+      "SSIM": {
+        "n": 204,
+        "images": 192,
+        "baseline": 0.3549824166898807,
+        "method": 0.3506709524118859,
+        "absolute_gain": -0.0043114642779947775,
+        "relative_gain_percent": -1.2145571372796624,
+        "absolute_ci": [
+          -0.01311447512682491,
+          0.0007610681089585251
+        ],
+        "relative_ci_percent": [
+          -3.8719635949688733,
+          0.2166437257131193
+        ],
+        "undefined_relative_bootstrap_samples": 0
+      }
+    },
+    "identical_references": {
+      "LPIPS": {
+        "n": 166,
+        "images": 159,
+        "baseline": 0.7294696065630898,
+        "method": 0.7292259789509586,
+        "absolute_gain": 0.0002436276121311877,
+        "relative_gain_percent": 0.033397911295995446,
+        "absolute_ci": [
+          -0.0012494483455449455,
+          0.0020364112173501072
+        ],
+        "relative_ci_percent": [
+          -0.17305124397262198,
+          0.28148296067784767
+        ],
+        "undefined_relative_bootstrap_samples": 0
+      },
+      "SSIM": {
+        "n": 166,
+        "images": 159,
+        "baseline": 0.2995250382756191,
+        "method": 0.29999937531434295,
+        "absolute_gain": 0.0004743370387238702,
+        "relative_gain_percent": 0.1583630675601121,
+        "absolute_ci": [
+          -0.00037251140586970336,
+          0.0015520270421743156
+        ],
+        "relative_ci_percent": [
+          -0.12392846021737361,
+          0.5206770959112761
+        ],
+        "undefined_relative_bootstrap_samples": 0
+      }
+    }
+  },
+  "reference_audit_sha256": "8e41b85a06e856a8e8dacc91ee41ea05d12520f38d4da71db5177eabbc4c86cb"
+}

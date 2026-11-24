@@ -1,0 +1,11 @@
+{
+  "submitted_utc": "2026-11-06T05:24:28.886601+00:00",
+  "command": "cd /home/daoqm/Vu_Hung/cv_nangcao && sbatch --parsable --partition=debug-gpu --job-name=pdmc-baseline --gres=gpu:4 --cpus-per-task=16 --mem=64G --time=24:00:00 --output=logs/%x-%j.out scripts/run_baseline_slurm.sh --cache-dir /home/daoqm/Vu_Hung/cv_nangcao/.amodal-cache --output-dir output/pdmc-baseline-provenance-20261105 --benchmark-workers 4 --run-only",
+  "previous_job_id": "30426",
+  "previous_failure": "--run-only and --setup-only combined; no inference ran",
+  "queue_before_submit": "31541,cvp-audit\n",
+  "returncode": 0,
+  "stdout": "31548\n",
+  "stderr": "",
+  "job_id": "31548"
+}

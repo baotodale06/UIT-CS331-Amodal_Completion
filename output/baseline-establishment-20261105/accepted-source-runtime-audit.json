@@ -1,0 +1,55 @@
+{
+  "checked_utc": "2026-11-06T09:57:29.924469+00:00",
+  "source_files": 36,
+  "differences_from_current_sources": [],
+  "packages": [
+    {
+      "name": "Pillow",
+      "version": "9.5.0"
+    },
+    {
+      "name": "diffusers",
+      "version": "0.25.0"
+    },
+    {
+      "name": "groundingdino",
+      "version": "0.1.0"
+    },
+    {
+      "name": "lpips",
+      "version": "0.1.4"
+    },
+    {
+      "name": "numpy",
+      "version": "1.23.5"
+    },
+    {
+      "name": "opencv-python",
+      "version": "4.8.1.78"
+    },
+    {
+      "name": "scipy",
+      "version": "1.10.1"
+    },
+    {
+      "name": "timm",
+      "version": "0.6.12"
+    },
+    {
+      "name": "torch",
+      "version": "1.13.1"
+    },
+    {
+      "name": "transformers",
+      "version": "4.30.2"
+    }
+  ],
+  "execution_environment": {
+    "SLURM_JOB_ID": "31548",
+    "SLURM_JOB_GPUS": "3,4,5,6",
+    "SLURM_CPUS_PER_TASK": "16",
+    "CUDA_VISIBLE_DEVICES": "3,4,5,6",
+    "OMP_NUM_THREADS": "16",
+    "MKL_NUM_THREADS": "16"
+  }
+}

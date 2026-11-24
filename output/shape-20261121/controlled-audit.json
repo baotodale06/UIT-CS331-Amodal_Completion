@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "candidates": 1024,
+  "cases": 128,
+  "tests": [
+    "native full/hidden IoU",
+    "native raw hidden-core RGB MAE",
+    "all predicted and oracle indices",
+    "equal-midrank combined index",
+    "all reported mean IoUs"
+  ],
+  "summary_sha256": "a334fa9535310d28b8ee2b9db68b48869f44a6b1db38cc035d1db23bc391b781"
+}

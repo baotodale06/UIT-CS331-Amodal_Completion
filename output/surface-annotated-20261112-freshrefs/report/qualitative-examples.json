@@ -1,0 +1,182 @@
+{
+  "selection": "Largest two positive and two negative LPIPS differences among shared successes; ID breaks ties.",
+  "limitation": "Metric-selected extremes, not a representative or blinded human evaluation. Crops differ between methods.",
+  "cases": [
+    {
+      "id": "VG/2315974_pinkteddybear",
+      "delta": 0.15577171742916107,
+      "panels": [
+        {
+          "path": "images/case-046-0.jpg",
+          "sha256": "34715951d6f28ec008a2329e3c2550a52e7c5013010b44ee86e0053dea630f14"
+        },
+        {
+          "path": "images/case-046-1.jpg",
+          "sha256": "e688a5a7f3b7fc4635d5cfd76babc3ad8c65ec33171504197a82033ead6c8bc1"
+        },
+        {
+          "path": "images/case-046-2.jpg",
+          "sha256": "110f43d4ffa98bc3708673627ecd4ef66fd922cc90390516c42e0c201ae9f9f6"
+        },
+        {
+          "path": "images/case-046-3.jpg",
+          "sha256": "1d48bedc5c9bd48168d7adccfbcc07375d4cdd66e5ee2567e9a76d43a86f4eff"
+        }
+      ],
+      "native_geometry": {
+        "baseline": {
+          "width": 439,
+          "height": 439,
+          "nonzero_alpha_pixels": 59688,
+          "native_sha256": "fe6a46377e34c6c906be6753ad42b76f439cdb52df9778205553360c7ddc25f6",
+          "offset_rc": [
+            -34,
+            180
+          ]
+        },
+        "surface": {
+          "width": 439,
+          "height": 439,
+          "nonzero_alpha_pixels": 35646,
+          "native_sha256": "96485a1364373f498aea7562088ac23b8299925a23dc1b87d6252bd325386d56",
+          "offset_rc": [
+            -34,
+            180
+          ]
+        }
+      }
+    },
+    {
+      "id": "laion/000012713_saxophone",
+      "delta": 0.11107775568962097,
+      "panels": [
+        {
+          "path": "images/case-197-0.jpg",
+          "sha256": "0fad8d2abcd471f76c575bd43b8e6db5c51d20eed40fdec2d8f6bdaaf235f04c"
+        },
+        {
+          "path": "images/case-197-1.jpg",
+          "sha256": "b8c695860a8a2e27a05737f130a69591b328da328330ecbb33ec5b14221a4c1c"
+        },
+        {
+          "path": "images/case-197-2.jpg",
+          "sha256": "63e0601d723f26eb96031d2a1bd40a25b32c4decc796f8f5fe3db0d7c7854cba"
+        },
+        {
+          "path": "images/case-197-3.jpg",
+          "sha256": "0e18c6e2de9a0fc9e3499f2969fa47896f4e2ae3ee06ba6f14c62cdf49f79130"
+        }
+      ],
+      "native_geometry": {
+        "baseline": {
+          "width": 248,
+          "height": 248,
+          "nonzero_alpha_pixels": 5481,
+          "native_sha256": "becf688dff5d104bcc5171e550b5177a220b146ea38918015439b812aa58dc3a",
+          "offset_rc": [
+            -14,
+            44
+          ]
+        },
+        "surface": {
+          "width": 248,
+          "height": 248,
+          "nonzero_alpha_pixels": 4133,
+          "native_sha256": "b24a3fb097b1faca2780cd68529b145175afd5c88d1361e56d54f199cbf138b3",
+          "offset_rc": [
+            -14,
+            44
+          ]
+        }
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000185941_phonebooth",
+      "delta": -0.16898727416992188,
+      "panels": [
+        {
+          "path": "images/case-161-0.jpg",
+          "sha256": "511df5335e44f86691cb009c6d1d1756e951038689035ea9001791747eca5d5f"
+        },
+        {
+          "path": "images/case-161-1.jpg",
+          "sha256": "fe698eed5db345ce88bfb400ec6bb6a6e1adaeca0d9b06fc49f5a2ad85e53055"
+        },
+        {
+          "path": "images/case-161-2.jpg",
+          "sha256": "1304e66aef35f80c4518db745ed6839a6191e1f153e3f89060c654df1f649033"
+        },
+        {
+          "path": "images/case-161-3.jpg",
+          "sha256": "3bbeb786038da865470c5daec8507d59c63a5d55e55702b1b106c2aeefe5c594"
+        }
+      ],
+      "native_geometry": {
+        "baseline": {
+          "width": 546,
+          "height": 546,
+          "nonzero_alpha_pixels": 144334,
+          "native_sha256": "d41c29d500953e019a646e46ec61d046de5f9742ef4a68fdc02de69c5ae7917b",
+          "offset_rc": [
+            -60,
+            -151
+          ]
+        },
+        "surface": {
+          "width": 546,
+          "height": 546,
+          "nonzero_alpha_pixels": 194128,
+          "native_sha256": "0a522c36f4e580e06d5e63d6186ace7d42ab3af0701cf979c8f9ee5ac545423d",
+          "offset_rc": [
+            -60,
+            -151
+          ]
+        }
+      }
+    },
+    {
+      "id": "VG/1159293_table",
+      "delta": -0.11905929446220398,
+      "panels": [
+        {
+          "path": "images/case-022-0.jpg",
+          "sha256": "431eed77d7ab023964c32723d5119a36a1ff387def4f8341fc086331b42c1e46"
+        },
+        {
+          "path": "images/case-022-1.jpg",
+          "sha256": "db0e9a285b10a35d305fa1b86c37436a2a9cd6ff25b508d21a8d975a3038537f"
+        },
+        {
+          "path": "images/case-022-2.jpg",
+          "sha256": "fdb9e06622c5d4555768b3c403ef6997b93e78f6a3a62a9796bd6a494c42086f"
+        },
+        {
+          "path": "images/case-022-3.jpg",
+          "sha256": "4143328a5b1f1eb14ff1fd45d574192165c2c01c371d08419ad9612b1be69ba8"
+        }
+      ],
+      "native_geometry": {
+        "baseline": {
+          "width": 414,
+          "height": 414,
+          "nonzero_alpha_pixels": 2120,
+          "native_sha256": "d9fca9f1e1d888e5f409b1bb255a6a37ec654a7f2c70a16eb88f4149e675ac1e",
+          "offset_rc": [
+            428,
+            584
+          ]
+        },
+        "surface": {
+          "width": 414,
+          "height": 414,
+          "nonzero_alpha_pixels": 24581,
+          "native_sha256": "a203c36164207a9cd39287d58394e44ec021bd4b6f9fdfae9d789ae720bc621a",
+          "offset_rc": [
+            428,
+            584
+          ]
+        }
+      }
+    }
+  ]
+}

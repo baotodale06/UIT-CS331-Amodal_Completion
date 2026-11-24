@@ -1,0 +1,16 @@
+{
+  "created_utc": "2026-11-05T07:09:31.920912+00:00",
+  "purpose": "Read-only existing runtime inventory; no allocation, transfer or GPU computation",
+  "command": [
+    "ssh",
+    "-o",
+    "BatchMode=yes",
+    "-o",
+    "ConnectTimeout=15",
+    "daoqm@slurm.csse.rose-hulman.edu",
+    "ssh -o BatchMode=yes -o ConnectTimeout=10 gebru 'hostname; ls -ld /dev/shm/daoqm/amodal-cache /dev/shm/daoqm/amodal-cache/conda-env /dev/shm/daoqm/amodal-cache/amodal; df -h /dev/shm; ls /dev/shm/daoqm/amodal-cache/conda-env/.amodal*; ls /dev/shm/daoqm/amodal-cache/amodal/pretrained; git -C /dev/shm/daoqm/amodal-cache/amodal rev-parse HEAD' "
+  ],
+  "returncode": 255,
+  "stdout": "",
+  "stderr": "gebru is part of the CSSE Slurm cluster and direct access is no longer permitted.\n\nInstead, please SSH to slurm.csse.rose-hulman.edu\n    OR\nLogin to the web portal at https://hpc.csse.rose-hulman.edu\n\n- CSSE Sysadmin\n\n\ndaoqm@gebru: Permission denied (publickey,password).\n"
+}

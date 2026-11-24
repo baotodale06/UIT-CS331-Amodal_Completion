@@ -1,0 +1,1828 @@
+[
+  {
+    "case_id": "VG-000-01154e3322",
+    "label": "chair",
+    "split": "test",
+    "source": "VG",
+    "input_hashes": {
+      "observed.png": "071515c9004cfb35e0bab001eaeb1a190c18b39d9ee0ae2078a23f9d7070d338",
+      "occlusion.png": "d1961375141c64f9048742d847ef4f15a6ff08ddbb2a0b0fd5445456bb1d1a55",
+      "visible.png": "3615a3742c26e643578b16e9be1ca00843fafebee9ae7588cc557e646f3e817d"
+    }
+  },
+  {
+    "case_id": "VG-001-6cdb7880d0",
+    "label": "large scissors",
+    "split": "test",
+    "source": "VG",
+    "input_hashes": {
+      "observed.png": "1d849c6bc8970297a973a5b99390acda2f01206023706a9bf5cbb04f837268e4",
+      "occlusion.png": "93e43043c54682bac7f2f180c3fbbe5489aecf0f6baeac9d2a0928dd2157e47d",
+      "visible.png": "df14d680a3d252d8b5c9933ff8b06f5f7caf25a122f3a3c19cccf2118af55774"
+    }
+  },
+  {
+    "case_id": "VG-002-2260538973",
+    "label": "giraffe",
+    "split": "test",
+    "source": "VG",
+    "input_hashes": {
+      "observed.png": "488a3804b94312be83dbe8a80d3804bf89efacc967f5029940ea215bf11fb7a8",
+      "occlusion.png": "546096d7a6a33cf41a5f6f31e034176e085fcb95b14db0a6515bcee842c14c75",
+      "visible.png": "be72a5723efdf5c8f35f3f40e16e3a727d182fae1c4896f08f7107344b081823"
+    }
+  },
+  {
+    "case_id": "VG-003-c724b7a9ec",
+    "label": "red bus",
+    "split": "test",
+    "source": "VG",
+    "input_hashes": {
+      "observed.png": "ee4724ee71395e84b15d811eece00500373cd009b0caed3a302c353848bdc572",
+      "occlusion.png": "dcc231c25a74cb671e0b7b780cb692ba7e4e3acf408aa82fee41c819aa80a8b3",
+      "visible.png": "1f64da81364c1c44d040686b431fe3c90dd0517cfe082d9353ebf25908d159b3"
+    }
+  },
+  {
+    "case_id": "VG-004-92d469511b",
+    "label": "horse",
+    "split": "test",
+    "source": "VG",
+    "input_hashes": {
+      "observed.png": "d29742703a29029b16edd6ba0deeef48b087b2cf4d2e40d7a8406a654390b784",
+      "occlusion.png": "e75a40b7972f0cf81763cdd51781b0fe1e827501f683d675bfa14c5e598219d0",
+      "visible.png": "70982dc386b8e3b8addd362f4b7dd08bba2810572aadb76192d0baa557a023c6"
+    }
+  },
+  {
+    "case_id": "VG-005-120558301f",
+    "label": "chair",
+    "split": "test",
+    "source": "VG",
+    "input_hashes": {
+      "observed.png": "64f4de67a15a0bc5f024eb18aad6ac3a79aebfd49f5bff860539035e435494ce",
+      "occlusion.png": "79bd1053dfe112e675d5a250a86a2acb76284795602caef0259fccaa0aca3c3f",
+      "visible.png": "aa232d31b73421c114f64a40db89574f6723fe079d2afe97b632335c42a1f891"
+    }
+  },
+  {
+    "case_id": "VG-006-4865f8fa0f",
+    "label": "cat",
+    "split": "test",
+    "source": "VG",
+    "input_hashes": {
+      "observed.png": "6646d49f6940e54a69f2656b905f4b5c96bad41a8ea42969f7578b77889d6258",
+      "occlusion.png": "69141325fec9bbdfd06904eac724964e9a109d40d945fcbe54e8e72a8ce3dba9",
+      "visible.png": "f16fa68c94bf2fadb880f987fccf62476ca52657f47530a84ac8e830079283e6"
+    }
+  },
+  {
+    "case_id": "VG-007-f7b7f5bdcb",
+    "label": "bench",
+    "split": "test",
+    "source": "VG",
+    "input_hashes": {
+      "observed.png": "4393f2e338980ee69870dd72aa5253ff623ed02d4ae28e4d7ff3ac31e83d2cd7",
+      "occlusion.png": "14a5de01815e8a02b136a23cd5faa7818fde673c7eb249f0a00e0b99d4b882ec",
+      "visible.png": "39465bcaa0d5b264714ec817fda6f7ca421a66a4a6c4d68b846dfb5d07a2a2b2"
+    }
+  },
+  {
+    "case_id": "COCOA-000-9c12bc826f",
+    "label": "cat",
+    "split": "test",
+    "source": "COCOA",
+    "input_hashes": {
+      "observed.png": "328be56e0131d8c1b9546a91c26447e4138f2e5e9db6b3b0b709e9bd15d47d14",
+      "occlusion.png": "465998a223e5d1b23610f3b85e3083a50090fc38bcab205b0a9c60f2190ea6ad",
+      "visible.png": "d147b154974184e9fa3866319d0c44d6f21fda449f7cae82b0adcc0f345d7d27"
+    }
+  },
+  {
+    "case_id": "VG-008-2eafd26fe9",
+    "label": "sofa",
+    "split": "test",
+    "source": "VG",
+    "input_hashes": {
+      "observed.png": "e5e03b519dc59b1f4f45bba64c6d31bbfc8c7fcb5004714456825601614fe102",
+      "occlusion.png": "ee3bb795a944efc0257ce9c179cb86957cd7350db716ecfc3752b2446300670b",
+      "visible.png": "4607d62d94bed153b4fb54963dff2ec51da462ab4c995e44d19db5673a498d70"
+    }
+  },
+  {
+    "case_id": "VG-009-5f3cfefdc3",
+    "label": "giraffe",
+    "split": "test",
+    "source": "VG",
+    "input_hashes": {
+      "observed.png": "f123c0e82bc8178a203ffae2a3228a847244b93239a07a423a9713742f8e0d6e",
+      "occlusion.png": "f6db5cbece80a061b9210fa93bc3c9831d0ce34cd974fb464c7411a434470f87",
+      "visible.png": "e404568dcd78d11f1d7d9fb9c184f85e0b9577e267bca3040531e31151c03b0b"
+    }
+  },
+  {
+    "case_id": "COCOA-001-037e4a6592",
+    "label": "clock",
+    "split": "test",
+    "source": "COCOA",
+    "input_hashes": {
+      "observed.png": "70a87d5dae2042169229b09b2198bf15859d4ee680c039e493d88b5f6692bea2",
+      "occlusion.png": "3ab482c4e5530e1477fb563bbf4b46d1a1b7e5763dc69d6bbfa6fc45d0060cbd",
+      "visible.png": "d0f85f277112d57fa488da459ed5f48f7ba0b4f8794c651cfdfd20951d2ebd9f"
+    }
+  },
+  {
+    "case_id": "VG-010-3cde8e621c",
+    "label": "bus",
+    "split": "test",
+    "source": "VG",
+    "input_hashes": {
+      "observed.png": "978dec5d497fb6b411ddc6bf5beee890a651ce1fab546dae90ea8aa1bae7df3c",
+      "occlusion.png": "0760bf8897690f4bb94a0226ddd67ee54608bbf8db4f78eb5b9ee7c3e8e6c2a9",
+      "visible.png": "6d02dc7c9aaaea8286ddbe832c8874f48ee930a9a1cd4a6e6cc19106d1a9ee9a"
+    }
+  },
+  {
+    "case_id": "VG-011-e774229449",
+    "label": "microwave",
+    "split": "test",
+    "source": "VG",
+    "input_hashes": {
+      "observed.png": "8a1077397df199b3ad0e3dcf88efe810a18b627166e76367a37fd1d3bd69f4a2",
+      "occlusion.png": "4e66d03fdb21be24155d8f8740850e8d0903d9dc2cdb73a215309978d02eb30e",
+      "visible.png": "42d4ee300e44da1c95518d27da445c86fba0f74f975f358c51a0ae8a104fc197"
+    }
+  },
+  {
+    "case_id": "VG-012-82cfbf57ca",
+    "label": "motorbike",
+    "split": "test",
+    "source": "VG",
+    "input_hashes": {
+      "observed.png": "17f9a90bdaea2d2cea2e91e3ea6dc0f6d31e8a4fbd106bab2db74e5d82f6f096",
+      "occlusion.png": "15db941d80a7635ad52309800b993a530b7a1878e34c59d93de8db1077da4a37",
+      "visible.png": "8acf05a5a3356afdab4aa6ae07a270891223924b699ef3d138acf9394e57cb24"
+    }
+  },
+  {
+    "case_id": "COCOA-002-7ac58f8c1c",
+    "label": "clock",
+    "split": "test",
+    "source": "COCOA",
+    "input_hashes": {
+      "observed.png": "9c0820b289b8e55b2b24eb53f40605de1efb8d56dfb6d76d1ea2db9550482215",
+      "occlusion.png": "8181b489b7b34e486bb78bc1b8c95f62090e277e6299840acab6e828749fc2a3",
+      "visible.png": "3299685fd01e9137a6f77cb55e8b3709310468cc1f82392616871eec84421680"
+    }
+  },
+  {
+    "case_id": "VG-013-48c26547d0",
+    "label": "scissors",
+    "split": "test",
+    "source": "VG",
+    "input_hashes": {
+      "observed.png": "ccdd4f1c6b552968d93acecde8a6fb04e9c35e1b4373ddd7e7a6d73d40aa4fdc",
+      "occlusion.png": "320d882c7d70ae87f9be7496d0000c1f8c80479f82e4853e9696db156bbec18f",
+      "visible.png": "0c8cdee49e0d83894f2e706784f2e9563412d828e49c76506d1dee83d0510440"
+    }
+  },
+  {
+    "case_id": "VG-014-e79bb253fa",
+    "label": "white truck",
+    "split": "test",
+    "source": "VG",
+    "input_hashes": {
+      "observed.png": "6eafb27475f7cf4ad6b872c0235dfb766a5c60ba159f3005e603d4bbc162e85c",
+      "occlusion.png": "bd85dcdedb34a553a86a6ad27e016e752a1b372cd357d2515af6b497412f840f",
+      "visible.png": "a1dd437b7866a5693964434adf28d6bb47d45d2b9b22c7f771eae062361296fd"
+    }
+  },
+  {
+    "case_id": "VG-015-73dfb0076f",
+    "label": "bus",
+    "split": "test",
+    "source": "VG",
+    "input_hashes": {
+      "observed.png": "fd862977575669060607941c6f15ba8667f1bd9dd58d67db3800d32cd90a8dc3",
+      "occlusion.png": "35b98f941d65667156c827c572c52a0eebbbc832126fdeca56b774d9d06498e0",
+      "visible.png": "39e0b5b3c97c387c5827a09b2beaa6dfbc9897fdbc0603750c8f2d1f00dab9ba"
+    }
+  },
+  {
+    "case_id": "VG-016-fc2b979f49",
+    "label": "scissors",
+    "split": "test",
+    "source": "VG",
+    "input_hashes": {
+      "observed.png": "b936c5877fde729c7ba9635c143c823aaf00d00bcd398591946870f47310ddfe",
+      "occlusion.png": "1ba002d864c317a374f2c712b32f20866a1c34c09a58d5b4c683292c90d8a08d",
+      "visible.png": "918d538419a4937e9700e597fa167cc586a44ee89b0e1503d11113073d7de1e1"
+    }
+  },
+  {
+    "case_id": "VG-017-cd89377579",
+    "label": "cat",
+    "split": "test",
+    "source": "VG",
+    "input_hashes": {
+      "observed.png": "cbd7d81f7ba2065e923f45d1b3326493e45424946dc8aefeaf64e8238a8ab08b",
+      "occlusion.png": "117fee3404d733e25dac4c0b659b0125ad20fbfe13311987d94075ee42220941",
+      "visible.png": "d082760aa03a47c653a74fc1f08263d4ea29ef13104f07ddff4bc2bb5dbd551e"
+    }
+  },
+  {
+    "case_id": "COCOA-003-4664009fcb",
+    "label": "dog",
+    "split": "test",
+    "source": "COCOA",
+    "input_hashes": {
+      "observed.png": "9129cdd92509b22bc8d57791d27a63c9fce02ba5ea38d3343ea5e75e56edb67d",
+      "occlusion.png": "eaf77b0ef1c8ef32621f9baa5117feffc40339f40c8c1c8291621460e75cf294",
+      "visible.png": "1bee810e9392491c818ecb92693fe871b95f4a7a81db24c4b3d2a03a1abf6515"
+    }
+  },
+  {
+    "case_id": "COCOA-004-8faf058a32",
+    "label": "dog",
+    "split": "test",
+    "source": "COCOA",
+    "input_hashes": {
+      "observed.png": "1cce596865063b2fcc4e84df45e25b2222dd5844984edbe4e946cd0b6e506606",
+      "occlusion.png": "8aa42f4a3887ef4123bb7b9ee877bbeaf2aeafd6522e4a1965cf6a3a01cfd801",
+      "visible.png": "cc69a5e2053f04b05d1e80aae38b227ae507ceed843aeda56e3e9302445ae1b3"
+    }
+  },
+  {
+    "case_id": "COCOA-005-729f5e7d2f",
+    "label": "toilet",
+    "split": "test",
+    "source": "COCOA",
+    "input_hashes": {
+      "observed.png": "70ca3a2dac72167192fcf7cf1facfd0aae55af63272932823b6e767446a65f30",
+      "occlusion.png": "6528f7685bf3b2c06ee1de1182dc2a1506fb68f390555c0c8e2a3dadfdafb76f",
+      "visible.png": "d58add34703040500da0aedb9db33a0976bf6d6f4499dc7ad07f2e270eef13dd"
+    }
+  },
+  {
+    "case_id": "VG-018-bee5b6eccc",
+    "label": "motor bike",
+    "split": "test",
+    "source": "VG",
+    "input_hashes": {
+      "observed.png": "530fdc5b21e855f6bc873f8e5755f8d11e5fa7810f9af1cde0de5ff34cc16e4d",
+      "occlusion.png": "af1e0aaece347de19675796d3f0a68a2e7ecfbc6eaedb1e46339162d15a2b69d",
+      "visible.png": "d1f51bb613899f535eef15bd6e59a018c93797038482bb16650fc7482c08b679"
+    }
+  },
+  {
+    "case_id": "VG-019-540677d069",
+    "label": "blue truck",
+    "split": "test",
+    "source": "VG",
+    "input_hashes": {
+      "observed.png": "06351b5968c2392407104d63c2fcb57b2df7bea7cd3b06ca124612953df34539",
+      "occlusion.png": "411f95302bc0991c98345e29a9c131036380e470a18c5aeef88396eda8c37226",
+      "visible.png": "6ec0837aadeff3172fa145c681707af6a39a3cc845ec8bd5053a7546069e20e6"
+    }
+  },
+  {
+    "case_id": "VG-020-1fe6e8ff05",
+    "label": "bed",
+    "split": "test",
+    "source": "VG",
+    "input_hashes": {
+      "observed.png": "93415a5d4c8c93446d54e43865d87d376e1212686cdd2b290c00256f178ff050",
+      "occlusion.png": "9dec06c57fa21b28789c2de543900b4b4fb47206347b7237c85027af016f0b61",
+      "visible.png": "6572e49c50b9793d0927763f7aaa72cfd45454b29497c632dca5b1f6205b6676"
+    }
+  },
+  {
+    "case_id": "COCOA-006-a51d52ae5f",
+    "label": "cat",
+    "split": "test",
+    "source": "COCOA",
+    "input_hashes": {
+      "observed.png": "f2ca6cbf04649bf7957ecdd6c5e1608b4a126b588111ceac7c99ae04bbfcff6c",
+      "occlusion.png": "e8ec28b8520ff29e6c1c9df29ce52ea1b183b3fd7a0b90bb5fc11fbd10a96a9f",
+      "visible.png": "ca4f6b2226103178051009317d1996c30ef03b9cdc272f7604f0f6628ee52b34"
+    }
+  },
+  {
+    "case_id": "COCOA-007-08a29e4d1c",
+    "label": "zebra",
+    "split": "test",
+    "source": "COCOA",
+    "input_hashes": {
+      "observed.png": "684bb4ee5a60c882bf1cfe856bdf7676a877c5e6fd5130118ad362f81eb2a57d",
+      "occlusion.png": "f5e9de54edbb5485f4b0240351ce92e509dcc43efc7be812cdd79ca1ddebaccf",
+      "visible.png": "80db37ad33a1105ed9aeedfc65c3fca9f14ad74b50ab6b44d726489b34be894a"
+    }
+  },
+  {
+    "case_id": "VG-021-bb77d9d358",
+    "label": "airplane",
+    "split": "test",
+    "source": "VG",
+    "input_hashes": {
+      "observed.png": "e68fe0a3c8659cfc3f68acc7789d50b6c354989269f090524c3ff29a0956a867",
+      "occlusion.png": "03834437196abfcd7cf5e47538b55b67beb21b8565f5022a12ca79de77887797",
+      "visible.png": "14e319e9acc3885526a0e7844e62a9d081489e0c3645b7e0740362aa1cf5c467"
+    }
+  },
+  {
+    "case_id": "VG-022-e2d0df06d1",
+    "label": "refrigerator",
+    "split": "test",
+    "source": "VG",
+    "input_hashes": {
+      "observed.png": "91b94455ceeb66f7391353cdf67588fa8f01f598aac3e0b1b40c6d42b68e7612",
+      "occlusion.png": "0259f2ea2a571f11ee70730275f31049c6d06cc531273d83627cfafdc77101a3",
+      "visible.png": "c35f62a4e6bffd5c07fe6e664d882d78862739f7a9895a81e9e1d95e9e9dc626"
+    }
+  },
+  {
+    "case_id": "COCOA-008-cc50623f08",
+    "label": "cat",
+    "split": "test",
+    "source": "COCOA",
+    "input_hashes": {
+      "observed.png": "f3a92f475b503f083dda3de64eef7778d2576cc61e97904d28c072b0fe998052",
+      "occlusion.png": "8501115b2e06c8d3f752519edb1ae0ef7c948419b2082da275b81a26cf9eb4e1",
+      "visible.png": "5a58615976273522613807e4dd8f40d3f174fed3c7686290db2e10aa8cf0ae4c"
+    }
+  },
+  {
+    "case_id": "COCOA-009-5821959db9",
+    "label": "chair",
+    "split": "test",
+    "source": "COCOA",
+    "input_hashes": {
+      "observed.png": "7018e7b09488742fad4c5797c5e4df42a83a9991ea9ce6d5fbd2b683c1c46697",
+      "occlusion.png": "79e81bf6c9bd505c2c042cf257ca2fcaa7f1b47e6c8b9ffb7d02afdca1b9c434",
+      "visible.png": "186bd0908e89aae5df0fa1662714af478f7670e974f576720cfbeab4d314d716"
+    }
+  },
+  {
+    "case_id": "COCOA-010-d8efe4cdce",
+    "label": "blue bus",
+    "split": "test",
+    "source": "COCOA",
+    "input_hashes": {
+      "observed.png": "9346d12f819687a84628af5e996eb3b045b8d8ecb61b519b44265368ce28aada",
+      "occlusion.png": "ce90e4f2517d35eccfb0e778eb99283df9e31dccbe1d50d94566f561589bbb2e",
+      "visible.png": "d8a78a6e0b310fc13ae159b963a85b5505ed9f88721620b413f8c3b613641e19"
+    }
+  },
+  {
+    "case_id": "COCOA-011-47680f9cd1",
+    "label": "motorcycle",
+    "split": "test",
+    "source": "COCOA",
+    "input_hashes": {
+      "observed.png": "560cbf39fe03681c1082a36e7dd6d59062f67a1e4505d268b658c53ce12276b9",
+      "occlusion.png": "4f9c396b3b6880303f3336f64ce7321a2d068fd6ea70475127f5b3c641cf3964",
+      "visible.png": "2c6960fe98022ce6dac990bbfb527eb98c7fb5e31ff057a729dad1ebc143fbde"
+    }
+  },
+  {
+    "case_id": "VG-023-a0f77d5491",
+    "label": "scissors",
+    "split": "test",
+    "source": "VG",
+    "input_hashes": {
+      "observed.png": "3adde7d26baacb1fb6e4cf87d5b5fd4762712c5ccd44a6595cf6aff161e0799c",
+      "occlusion.png": "5e013a8be4aff56c4ef4b05118cd23e5a73abd0433bece6dbca8b059d97af5a7",
+      "visible.png": "6150e2f60b0351eb23fc25fc2129ec309274396e04aa3c0edeaf4ea7a6308dc4"
+    }
+  },
+  {
+    "case_id": "VG-024-caec61886a",
+    "label": "elephant",
+    "split": "test",
+    "source": "VG",
+    "input_hashes": {
+      "observed.png": "98d4f54461a1c3eb27f93922e4d8fda47fcb3bf4e0f15a0d105ccfa34e7ca235",
+      "occlusion.png": "419976116c5285fc0ce7ae8476b3d1e69dc6fcc4ae6052e1d1ea0aca4ba5fde2",
+      "visible.png": "24d15f60f3fa26da93611e68fda22ea58bbca2e7f42366431935d4947c1a50c7"
+    }
+  },
+  {
+    "case_id": "VG-025-080af4fd38",
+    "label": "laptop",
+    "split": "test",
+    "source": "VG",
+    "input_hashes": {
+      "observed.png": "90e783735b8cd0848db6d3267c83c9e948867508767673979cb30506d3f2763e",
+      "occlusion.png": "f98698f3db41c364c4b253bc8fb1228848f8fb4587ce48ee33c93e7a36bb05fa",
+      "visible.png": "7aba4be4411948483aaf96e77aa569cf126bf8fe414e72f1bb013e6ce8ea824e"
+    }
+  },
+  {
+    "case_id": "COCOA-012-4102a0d47e",
+    "label": "rocking chair",
+    "split": "test",
+    "source": "COCOA",
+    "input_hashes": {
+      "observed.png": "f3ef68b4f477f065f832a87b20770a27361c9841c56abaca95df40492cae4e7d",
+      "occlusion.png": "e3535fa61831c42c81f1dcb509edae500eb1a77ccde49f5ee1e174041320edc0",
+      "visible.png": "4854d8cb37e4aed74725ecbb9991a3523b947aeeedcb5324444f92a0632636a7"
+    }
+  },
+  {
+    "case_id": "COCOA-013-ac1ce1c4cb",
+    "label": "elephant",
+    "split": "test",
+    "source": "COCOA",
+    "input_hashes": {
+      "observed.png": "145c042b0067dfe6a6b59be825c2441c46962bf1eed6c72961f6fa9f81e9b2d6",
+      "occlusion.png": "6dd11a7559bc5f7e74549216af4c0952870107f902197a112d3bb37a37726e0d",
+      "visible.png": "8cb9117eb012c2c26b3add509cdaeef009bd692a8112af2a4879eb14e374ee1b"
+    }
+  },
+  {
+    "case_id": "COCOA-014-c34a50cd4f",
+    "label": "laptop",
+    "split": "test",
+    "source": "COCOA",
+    "input_hashes": {
+      "observed.png": "91b59dd590fd6d0f5a5861647da4a551264d4f8a248ceb715d7979003b057692",
+      "occlusion.png": "0d65b143ead71938735eba797ef0580efc175ccc5d64c716e2022c5c713ebbb6",
+      "visible.png": "201058266d06d37129dcbbf4526c1a518283ebd3051ebac38e1e1f08b6db7d40"
+    }
+  },
+  {
+    "case_id": "VG-026-33a0f43d6c",
+    "label": "horse",
+    "split": "test",
+    "source": "VG",
+    "input_hashes": {
+      "observed.png": "58bc9e6d9548350f581e76defedfbc21b1af69239f3603ae940b002b8a2c7245",
+      "occlusion.png": "f2475522b03f9c6a6fb6a2a8e30ebda603f6f29b8e6e8e1a989e7fb2987bc4b7",
+      "visible.png": "ae1a8728d0823e2c2a77d98704d110ad7fd780670b998d961f7287fdc7100ebc"
+    }
+  },
+  {
+    "case_id": "VG-027-5fc218f6ff",
+    "label": "green boat",
+    "split": "test",
+    "source": "VG",
+    "input_hashes": {
+      "observed.png": "d22be24522a1fb4814ff2c710988ce6a6008c085d985d72ac97cbca81e5b1141",
+      "occlusion.png": "ac35502f16f64573c9c30ed3048969582693f53b7f97fd72ef6c9dc070e7b28b",
+      "visible.png": "d9ebcea5cd012782deba3e785043f5ba14b4d176bf3b55f1520882b6d056133c"
+    }
+  },
+  {
+    "case_id": "VG-028-069ef09d60",
+    "label": "bird",
+    "split": "test",
+    "source": "VG",
+    "input_hashes": {
+      "observed.png": "567b083ec4b4663e508fe08de1102231b9fcf6e488fc2088d1675283fde0eef6",
+      "occlusion.png": "4f5935b460c165fb47fc5876820ddabca7a538fb1f9bba62c28d0876b9568d34",
+      "visible.png": "fe377bb9171b608fe24b96c17b4d4e1d88ae9882db174d826a9faf28438e10f3"
+    }
+  },
+  {
+    "case_id": "COCOA-015-8ac6153778",
+    "label": "toilet",
+    "split": "test",
+    "source": "COCOA",
+    "input_hashes": {
+      "observed.png": "e9edf81df81e08a43eca41c3b781d30a34e879c8ee82f9a25e137e1b2693cf76",
+      "occlusion.png": "0c990a8d61a5c7eb47f92cb8d29d53f35bd733c13cc6e703ec9361a927662254",
+      "visible.png": "c4aacdf9627961ce9c35d8b4146b85ba7e45221e9388d03a50a16fb86dd81956"
+    }
+  },
+  {
+    "case_id": "VG-029-10f5e37dd2",
+    "label": "skateboard",
+    "split": "test",
+    "source": "VG",
+    "input_hashes": {
+      "observed.png": "9ec4e21e8fc38f0a8ad25c39d44ff04d6a359cd767bd1de48835dd69cc2bfc64",
+      "occlusion.png": "38328deabac4a10288da603c5bec85484e944155bea36423058fbf880928e716",
+      "visible.png": "6f90932c650fa84a711e5f5a4668b63e3db34006e65fe5a911ce5db3d54b9291"
+    }
+  },
+  {
+    "case_id": "COCOA-016-31ca1a463a",
+    "label": "bear",
+    "split": "test",
+    "source": "COCOA",
+    "input_hashes": {
+      "observed.png": "9f772e07b9664156db88c83c445e6186481892338eb2677bc96e1833f12b8172",
+      "occlusion.png": "2bdd785513782e0b2f7b3b13515d6875745c34905bbf0f709cdbe15f4d9e94c5",
+      "visible.png": "b414f60e99fb82e441ac5fecf36e2abe48e0e452e9fb16b91178fc1068526b63"
+    }
+  },
+  {
+    "case_id": "VG-030-3b5dfffa8f",
+    "label": "elephant",
+    "split": "test",
+    "source": "VG",
+    "input_hashes": {
+      "observed.png": "78df5f0a6c127b1a2dfe152abe16ea2704f77f99047a961868174af833ef15f8",
+      "occlusion.png": "a028627246a42eabd1b3a17b7c1d745e44247bb883523c675e2f06708220a6ae",
+      "visible.png": "f598fcd091d59d97e424fa18d2e0244da6f45bb3cdca1bd06998786e21ff1841"
+    }
+  },
+  {
+    "case_id": "VG-031-ff07be0546",
+    "label": "bear",
+    "split": "test",
+    "source": "VG",
+    "input_hashes": {
+      "observed.png": "a04620aa8d94fbafff62dc49063fc94df116705c2879a4f6e5445788dbae2990",
+      "occlusion.png": "51c744386773110949105b830c753323ac24a6dec2d3ca623ac921083d9a82d3",
+      "visible.png": "0df6929c3c1462f697e4395a678d87d720dea56a65fd84433a312e24b315e4cb"
+    }
+  },
+  {
+    "case_id": "free_images-000-af611acbca",
+    "label": "phone",
+    "split": "test",
+    "source": "free_images",
+    "input_hashes": {
+      "observed.png": "8781b7895acb364e76cfb21867126615346b381b6887a7e6cf8fc38b3f6689bf",
+      "occlusion.png": "63213022ecf4ec2a8dce837f110345e4c8dc87d8b6783e4deb02d06835fd0e8d",
+      "visible.png": "570ba74e83b4a94b1ad5521efa21b37c84b2eb4116d4854f33f8fc59aac1a37f"
+    }
+  },
+  {
+    "case_id": "COCOA-017-19de2ed041",
+    "label": "glass round table",
+    "split": "test",
+    "source": "COCOA",
+    "input_hashes": {
+      "observed.png": "961ccb3b7e45cda8e4b40d847e9cdb3feeb3d6c59a044ae5996b82bcc3acf08a",
+      "occlusion.png": "f93dd75a58e3f2fbf87151ac68d373cad1a09f65f556326e766af90e1ae0875d",
+      "visible.png": "96047949bf889ca32fb154083cdf9a52ff9eaacc3c63de42349d5e7c6d76e136"
+    }
+  },
+  {
+    "case_id": "COCOA-018-b6ee19a975",
+    "label": "bench",
+    "split": "test",
+    "source": "COCOA",
+    "input_hashes": {
+      "observed.png": "6864e3ce633ca123e8613977db17c1ebc1191720d2ec4140f8531c82b8a5f88d",
+      "occlusion.png": "2a576555b093224edf778461088839421c5eedf2ec1a5c6b8b3cba39c7027386",
+      "visible.png": "a75030f5ce6cba6fd738140d44b4cd33af5b640f2ab351f50fe651844b7e56d7"
+    }
+  },
+  {
+    "case_id": "VG-032-1659eff397",
+    "label": "brown sofa",
+    "split": "test",
+    "source": "VG",
+    "input_hashes": {
+      "observed.png": "e06da87c379a474a87d8d9aa58ce056e9d54479bcff8dbfd4292eac7dbfea86e",
+      "occlusion.png": "81e463c1ec81a3dbccaf34595a0098482b69fcc240d8504a80c00df2966e625c",
+      "visible.png": "c7df7fdfc7aded1da2b04e5e3735dd73244776d96b9ea54514918f3c6e056142"
+    }
+  },
+  {
+    "case_id": "VG-033-692aafb1db",
+    "label": "wedding cake",
+    "split": "test",
+    "source": "VG",
+    "input_hashes": {
+      "observed.png": "5887edb2ebfc60a862ae7b98e1b39271a6259cf02033a5a886d6a89e286000e3",
+      "occlusion.png": "8aa42f4a3887ef4123bb7b9ee877bbeaf2aeafd6522e4a1965cf6a3a01cfd801",
+      "visible.png": "273be4991984c9a5b4c9195e5aadf4d6a1b2361c287899f4c48046743f055141"
+    }
+  },
+  {
+    "case_id": "COCOA-019-ed529fa7fd",
+    "label": "surfboard",
+    "split": "test",
+    "source": "COCOA",
+    "input_hashes": {
+      "observed.png": "b85747af3d4e7c152884fa1c63af0fa49627a9514f2b86d0b2ba80a06ca81584",
+      "occlusion.png": "6cce23014f8215373cf60e8f8b4b357c85903ad04ac4d3a8e942106a9e9f1506",
+      "visible.png": "4a4872c8d5b4b5d05584f823ad71db05e9ead865ffd27c879eb2accf9e3d3612"
+    }
+  },
+  {
+    "case_id": "VG-034-bb7dbb288e",
+    "label": "bus",
+    "split": "test",
+    "source": "VG",
+    "input_hashes": {
+      "observed.png": "45443f3dfa6485e636b8161574d841c675cd8ac157560bba99f993ef0ed4cb42",
+      "occlusion.png": "0c990a8d61a5c7eb47f92cb8d29d53f35bd733c13cc6e703ec9361a927662254",
+      "visible.png": "c689a666e736d4a68e9f2f6f0ea9018b9495cac9bcef63f180bb204bd0270186"
+    }
+  },
+  {
+    "case_id": "VG-035-3049a5873d",
+    "label": "umbrella",
+    "split": "test",
+    "source": "VG",
+    "input_hashes": {
+      "observed.png": "51f578da82a1fd1ef714fba5673ec59fe46d824a6cdbff2b657aa151e98734a2",
+      "occlusion.png": "35ea537777ff6ef0ae672d94cb9295da8d5ca8391560bd57d8b5a6462768db11",
+      "visible.png": "5ee8edb8ef65b0dd89a76e20a00dc8089ef1e016c243906fbbd114ffe5d3694e"
+    }
+  },
+  {
+    "case_id": "VG-036-ed7790c08a",
+    "label": "blue truck",
+    "split": "test",
+    "source": "VG",
+    "input_hashes": {
+      "observed.png": "450558160fc6696e08ea9bdc8bc8c1150a90b3982f9228ced245997c6b99904a",
+      "occlusion.png": "d69b5b94f6135aa69273646be90475414830ac97fb40230d2068d50ceeebb358",
+      "visible.png": "940545230ac705effed8a78a61e4baa2024b5430ec6ade4ec1fc62a91c9260ad"
+    }
+  },
+  {
+    "case_id": "VG-037-70a0fd9016",
+    "label": "laptop",
+    "split": "test",
+    "source": "VG",
+    "input_hashes": {
+      "observed.png": "623d86af470e69353d3b73156d87f2888c992812a6b5d40aa5075b9902c0082d",
+      "occlusion.png": "50400bc24475c8e7df88e24dba00aaf49901bf5132ca5d48c6bd04b5f27ead07",
+      "visible.png": "97d3e6d968bab46dc4e54e7c8c933ae9adfb0dc9f2d53456489844377555148e"
+    }
+  },
+  {
+    "case_id": "VG-038-b8116dca11",
+    "label": "laptop",
+    "split": "test",
+    "source": "VG",
+    "input_hashes": {
+      "observed.png": "b41f4cd37cc7cd79eb69731c9609c13cd756715fc2199dde183e05e0a344f14a",
+      "occlusion.png": "14c399fe34d7d8f6b8127ab492441878ddab917ef24b6a45f87924aaacc305d3",
+      "visible.png": "f5232e28c0b49696ee13925876efe8364b0cd4a57c092e245b1683bac4d34d5a"
+    }
+  },
+  {
+    "case_id": "COCOA-020-67d855a11d",
+    "label": "train",
+    "split": "test",
+    "source": "COCOA",
+    "input_hashes": {
+      "observed.png": "b740b0987180643e9e217fea296e7d1e9c4ecf4105c26dc8885697b1db24aa21",
+      "occlusion.png": "63213022ecf4ec2a8dce837f110345e4c8dc87d8b6783e4deb02d06835fd0e8d",
+      "visible.png": "cd85ce6d7c4425cb5f9e70e745de4ec872694a64d630b6db679db64c45d9e5a4"
+    }
+  },
+  {
+    "case_id": "COCOA-021-9fad382a51",
+    "label": "banana",
+    "split": "test",
+    "source": "COCOA",
+    "input_hashes": {
+      "observed.png": "f65d250c88f4837da7bb48dc9bebeb7b5e626c5d3d5d23bbc845b611efe9fd0d",
+      "occlusion.png": "a41b5b3c170fb8be9855504e596476b5eeca7a03d0e520e04922212510401cf2",
+      "visible.png": "f406eca20521bf63142007d95e0f7abadce3dd9aea5de13127b653062b0d2893"
+    }
+  },
+  {
+    "case_id": "COCOA-022-29b0ece397",
+    "label": "table",
+    "split": "test",
+    "source": "COCOA",
+    "input_hashes": {
+      "observed.png": "7ad21e824058cec2ebebbc34e0c15c16feed5a8408349e3f739605a5c282e4f0",
+      "occlusion.png": "d8fce127625e65d83fe8f468708c1abf3847c29e477a3dd9d831c38e8075d3d2",
+      "visible.png": "368617da048ca7f0d3a938e209548fc2cc3d3b718b31461324e7d024148341c5"
+    }
+  },
+  {
+    "case_id": "COCOA-023-84f9bb32bf",
+    "label": "laptop",
+    "split": "test",
+    "source": "COCOA",
+    "input_hashes": {
+      "observed.png": "9c94e2fa11930e406bdc019c6edaa04a890c8cb42e77869cc50af0b0b4d001d0",
+      "occlusion.png": "09d07f7b0b363115a839aed67d98b1400fa7e821c73c7dd81a58f50bc2c266ef",
+      "visible.png": "2acd3589fdfba6de495b8e95a91c98374c0a2a73283e44d72a13d0b792372a18"
+    }
+  },
+  {
+    "case_id": "COCOA-024-a389837191",
+    "label": "giraffe",
+    "split": "test",
+    "source": "COCOA",
+    "input_hashes": {
+      "observed.png": "0a5b6fa3c316c6f507c9177d2cc1239f06094d244d50b9e1b3ce2049712a84c9",
+      "occlusion.png": "09d70f4b25682bba773479c917dc7f54ff764387acb9cac27a80d8abc75df651",
+      "visible.png": "ee7a97b57c563a6f2cfc8e1881702763ccd0103049b14ec0040a715de801d065"
+    }
+  },
+  {
+    "case_id": "VG-039-b643e6bce0",
+    "label": "bench",
+    "split": "test",
+    "source": "VG",
+    "input_hashes": {
+      "observed.png": "550e3168bb809eea12c339983447eb455702d1f73841681efe9b74256316e97d",
+      "occlusion.png": "4dffc90aecc9c9aacccfa644fdf0a54f18e0149a18535e58c2302d6e991affab",
+      "visible.png": "a5c1965374c4b6295143bd47e8512fac1f9c135e02d44464e566757844e5d16c"
+    }
+  },
+  {
+    "case_id": "VG-040-77fb997522",
+    "label": "surfing board",
+    "split": "test",
+    "source": "VG",
+    "input_hashes": {
+      "observed.png": "34b1341a7c322b4badf998d1d3b4d702cba81275377d07b7762692a8e1acd47f",
+      "occlusion.png": "65bf0150c53a27cc617435925b3d54e6c17048403da0f8a501fb776980dccae6",
+      "visible.png": "e906e2843954a374d54e0f2c7fbf670438996ccc2b89ff63f609310d46ed3745"
+    }
+  },
+  {
+    "case_id": "VG-041-890470ca28",
+    "label": "green car",
+    "split": "test",
+    "source": "VG",
+    "input_hashes": {
+      "observed.png": "482615b965dce7763dfa79c5bd8c90944d2cc5b0d77195bdf27765ff08f1521f",
+      "occlusion.png": "dceb9a855b827d68d10c7541257eb51e40b44d916bc6334329cbea92e4fd2a48",
+      "visible.png": "e500b956552642ef0bc39e932812e13af1bcf4eb92f58201fd65c3b586fa4c2a"
+    }
+  },
+  {
+    "case_id": "VG-042-ccf5801b8d",
+    "label": "coffee table",
+    "split": "test",
+    "source": "VG",
+    "input_hashes": {
+      "observed.png": "de534d228398a1cbf63b118f796afb2c166441862207a5fafce47887fa787975",
+      "occlusion.png": "d4c3fd2a60e1bb5d72cd0a2e7989e830e5eefc505666dcc74f8cf8c6bf8772ee",
+      "visible.png": "8f1afd8f3f7720215670e1e30c6511393528353c9f36dfed602373671c0e4540"
+    }
+  },
+  {
+    "case_id": "VG-043-4c29b096ff",
+    "label": "white handbag",
+    "split": "test",
+    "source": "VG",
+    "input_hashes": {
+      "observed.png": "d7b7cf2117d5d0fdfdac0a5a4585f749a0d5e98a622280564aed4a5d09c3f360",
+      "occlusion.png": "5414b40114557130c3a310c83ca32e96c68961b8e896a2732761870cd9481cef",
+      "visible.png": "00e71f6df7efdd394cf7f6438ab958cf5ae68bb3031887609208f217471d3f99"
+    }
+  },
+  {
+    "case_id": "VG-044-0c53d0a1f0",
+    "label": "keyboard",
+    "split": "test",
+    "source": "VG",
+    "input_hashes": {
+      "observed.png": "0bb4219edd2719e16164534d54696eae2c8bb4bee589afd590240a847bfe9a71",
+      "occlusion.png": "f93dd75a58e3f2fbf87151ac68d373cad1a09f65f556326e766af90e1ae0875d",
+      "visible.png": "0acfb42c4740044b261d07c09dab8d95e67cb0096906ecca2e698fc4d7295865"
+    }
+  },
+  {
+    "case_id": "VG-045-6bb283b53a",
+    "label": "cat",
+    "split": "test",
+    "source": "VG",
+    "input_hashes": {
+      "observed.png": "226bf358e87f1bf53fc8db15b299dec43a652d636bb69450a2900e95a60e02b1",
+      "occlusion.png": "602debfd37f976d03442e702a0361c71f149c6469e1062112c1599947c05de9e",
+      "visible.png": "cc2955ed656ffa1f5446399de24dce290ee369a55ef8ebb3ef4cf6c35478880d"
+    }
+  },
+  {
+    "case_id": "VG-046-c9713f8128",
+    "label": "bus",
+    "split": "test",
+    "source": "VG",
+    "input_hashes": {
+      "observed.png": "6c8a3c3fc31214d0cde59fa4feea94731f4be68a600a62a475d99d002bf9904c",
+      "occlusion.png": "320d882c7d70ae87f9be7496d0000c1f8c80479f82e4853e9696db156bbec18f",
+      "visible.png": "3d596a95f8466c3adef13597d83713f38259201d4a60ee5baffa5d403e0605cc"
+    }
+  },
+  {
+    "case_id": "COCOA-025-1967c4052a",
+    "label": "bed",
+    "split": "test",
+    "source": "COCOA",
+    "input_hashes": {
+      "observed.png": "b68291d3325f6b67866d1d9f2145d027584022bba6f30e537cabb8a450e2e254",
+      "occlusion.png": "76c2ba6b5ebb24be152e17c5b45d235b887cf13e50956adecc7f6f25da14e243",
+      "visible.png": "1f065ba7b38aeb2bbf07d096cedbb4b4622ec78b7cf903214ea0fa33ae8d3b6c"
+    }
+  },
+  {
+    "case_id": "VG-047-1e60642911",
+    "label": "banana",
+    "split": "test",
+    "source": "VG",
+    "input_hashes": {
+      "observed.png": "99704405410425eb4517eb887fe1860da5ba6d65c2d4db64123ce546bf5ce0e9",
+      "occlusion.png": "c619139237a16dd4a732cd7ff30a2cfa2d38bfc9efb79b9eab758e6d749c3949",
+      "visible.png": "1a3ddead2385c6477cd35e99f989eb50605390e157136f0b0508d10095a98bff"
+    }
+  },
+  {
+    "case_id": "COCOA-026-964d38c13d",
+    "label": "bench",
+    "split": "test",
+    "source": "COCOA",
+    "input_hashes": {
+      "observed.png": "3b47a0f2aa281ecaf533ff59e920d8c1e6c9227b0443a696175d287d20bc79ff",
+      "occlusion.png": "cb04f143f621a5be01d3c74929eb4a1d4bfa4e4b68b67f8d430d459d8002ceb3",
+      "visible.png": "981500cdc1b702b08069172e60ad6c5ff640b6ef60b5adebcc31ee727dd8d1dc"
+    }
+  },
+  {
+    "case_id": "COCOA-027-4ab1d5c025",
+    "label": "giraffe",
+    "split": "test",
+    "source": "COCOA",
+    "input_hashes": {
+      "observed.png": "430a4864afec8810fde37615ce91b404151bbca803e5303d7fe73c0ee40ec516",
+      "occlusion.png": "0355044147fa4346de71b818fb87c2d5dc3654b428e15b155956fdee524ba1e5",
+      "visible.png": "9f321430e27d4ac6022449ce8c51b86182c3e6dbeeedf7bd1ba6473b94dde1bf"
+    }
+  },
+  {
+    "case_id": "COCOA-028-11b7d9f28d",
+    "label": "motorcycle",
+    "split": "test",
+    "source": "COCOA",
+    "input_hashes": {
+      "observed.png": "bafb571f53de19ea3d618850e434913156e90821d963beeae2c3bad8e01c4f31",
+      "occlusion.png": "4f9c396b3b6880303f3336f64ce7321a2d068fd6ea70475127f5b3c641cf3964",
+      "visible.png": "2b7ede997604a24caa5389be7e6334d1e017b15b6d9e5583df78a58003eafc36"
+    }
+  },
+  {
+    "case_id": "VG-048-f72041baa5",
+    "label": "toilet",
+    "split": "test",
+    "source": "VG",
+    "input_hashes": {
+      "observed.png": "57810d45035cb34e6348d5c04f175f5517ba1c9857dcda3c9f790ddfe965d853",
+      "occlusion.png": "039ce48bfbe0a80bcf73dc68a281dc79369e1d0f4b1ddd54829eb9d345e280c1",
+      "visible.png": "784ba5eb94d6054b3df4aac2f18b6a8f1ff2abfcf633830a3042450202bd2c3e"
+    }
+  },
+  {
+    "case_id": "VG-049-062a3388e9",
+    "label": "bed",
+    "split": "test",
+    "source": "VG",
+    "input_hashes": {
+      "observed.png": "df6b683980267a947859e5af0ca8e3145f3794cd0ea2bd6549d5ce64f75be38d",
+      "occlusion.png": "294e1ae86baea8f52b88a0c7a3e11da5d743fd0c6ba48911916a72b8ac9a5e3b",
+      "visible.png": "a9387b264018f48b8c9d26cc1325ccb55179255199ebdf5c916d0a387dd587a9"
+    }
+  },
+  {
+    "case_id": "VG-050-6f44ebc217",
+    "label": "laptop",
+    "split": "test",
+    "source": "VG",
+    "input_hashes": {
+      "observed.png": "f1feffd733dbc5c215c26b6bbbc153798ed30e16e5527afa28d217b0e6d58828",
+      "occlusion.png": "51c744386773110949105b830c753323ac24a6dec2d3ca623ac921083d9a82d3",
+      "visible.png": "769ef596d86aa84173ac1ba1e9d40420b2e2c19383ab465afd20a79d4be55aad"
+    }
+  },
+  {
+    "case_id": "COCOA-029-4fdc8798ff",
+    "label": "toilet",
+    "split": "test",
+    "source": "COCOA",
+    "input_hashes": {
+      "observed.png": "b012aabfa2a58681309ad2b843abfff6a159d627937d4dd421dfc76de4487c8b",
+      "occlusion.png": "56571cf08f045a9bcf7d5e6df982fb41070bd4d015b0761dc7b379ae683502af",
+      "visible.png": "960ba7c97f559ab551329418a0264d9c5323386a88beffc0ff2d7bd9f50879b5"
+    }
+  },
+  {
+    "case_id": "VG-051-57c48a2adf",
+    "label": "brown dog",
+    "split": "test",
+    "source": "VG",
+    "input_hashes": {
+      "observed.png": "531e557a83eeed8da6e061638f3e7bdc25bf5c7ad31dfb844f25a1927ea5991d",
+      "occlusion.png": "9708009d5d203f9828e889d6e44e1d07990013ba368f420aece288ace2c66579",
+      "visible.png": "fcee46968eaeb388a333486f83410a47915980e545ddde41efb90d55661119a8"
+    }
+  },
+  {
+    "case_id": "COCOA-030-98a8762cd9",
+    "label": "cat",
+    "split": "test",
+    "source": "COCOA",
+    "input_hashes": {
+      "observed.png": "49184e424407b114abd8a5ce93e8861f79fdfd550791c8f2ff25fd6029f0c211",
+      "occlusion.png": "fb59cac44e65955a808b2e088086edc7ab85cf43730de7827dac6c70a065e08b",
+      "visible.png": "9bc815826f5876f3bb6b32909d5ca278dca87c916d397384fcb1c4682a3556e4"
+    }
+  },
+  {
+    "case_id": "COCOA-031-3baf2bf817",
+    "label": "white sofa",
+    "split": "test",
+    "source": "COCOA",
+    "input_hashes": {
+      "observed.png": "e0fca85bb30cc36fb3708b48568c7e9ffc7fd6f66c33ee00c16f681b81c73464",
+      "occlusion.png": "75ee5d81fa0a21ebc2ea53eb804c9b0b5dff3577961528478bbddb7a9a1d70c8",
+      "visible.png": "d414f8fa707a79640a80521e31b0c805c3a78fec731aafe64ef5f288b1588bef"
+    }
+  },
+  {
+    "case_id": "VG-052-3da8049bb3",
+    "label": "horse",
+    "split": "test",
+    "source": "VG",
+    "input_hashes": {
+      "observed.png": "44ce027ad7a5c48daa542780d4782b5d89ac28f4f2f8208324f1c20a51c58329",
+      "occlusion.png": "19995148b3238fdc554df3ddd8857ec9201b1251ac6d3f204a8878918f51c12d",
+      "visible.png": "ad918646b5bfaa9ad9fcb1e5071193528d53d9dfa9088efff6d4c1e863e22173"
+    }
+  },
+  {
+    "case_id": "VG-053-2e0f83506d",
+    "label": "bus",
+    "split": "test",
+    "source": "VG",
+    "input_hashes": {
+      "observed.png": "d650e2b78178be4677304abf0a2a566249fab0bacb7e6fef2392b2d9cee21f83",
+      "occlusion.png": "627f13bd7db85d9c531f33aa8a8f49c8d83e1297a675973051da1742097511ac",
+      "visible.png": "33a445cbae79a312b2bfd18248af5548613e458d5bff5d4591b71e6f0f30d496"
+    }
+  },
+  {
+    "case_id": "VG-054-4b3af6bdde",
+    "label": "umbrella",
+    "split": "test",
+    "source": "VG",
+    "input_hashes": {
+      "observed.png": "8cd73d6c6bcbacec204be5c5fd7154efef3a98a32c3e72a1cf73fdf0f4c6c5fd",
+      "occlusion.png": "cd73aa36b04b11c05d3d2d48b964bdee7065bdd28015971029a0f8f1bfa7bf2f",
+      "visible.png": "cab3ca933ec0ab76d0c70cd2332cedae67e11507b7131191121235685e59473a"
+    }
+  },
+  {
+    "case_id": "VG-055-71cd408512",
+    "label": "motorbike",
+    "split": "test",
+    "source": "VG",
+    "input_hashes": {
+      "observed.png": "c7d42ca9103f21ffc666e28c9b601d0a2cd9801e1c653878a8413be2abb3ef07",
+      "occlusion.png": "0c7781138c8ad726f52d504307bce604f153238fef77651ed0528f7738c4f78d",
+      "visible.png": "87dcd3ee0873df723ba576b89acf1c4fa31cc6d6db1b90ed8604b811b56eb47d"
+    }
+  },
+  {
+    "case_id": "VG-056-836adf1236",
+    "label": "horse",
+    "split": "test",
+    "source": "VG",
+    "input_hashes": {
+      "observed.png": "1228faa316d41e2bf4d4b36b8df71331eb89f3006fada5a16e779a67b74520b2",
+      "occlusion.png": "9feb2f5c92f675615004f0928580d6153d95f0e27bc4abdee285559bad5440b3",
+      "visible.png": "e0f3a0ad21a1b4f2ccab3feb1ad2bc6ba234b897f8edd986b30c2b0c2b3a216e"
+    }
+  },
+  {
+    "case_id": "VG-057-721dd5ace8",
+    "label": "toilet",
+    "split": "test",
+    "source": "VG",
+    "input_hashes": {
+      "observed.png": "35dd1691c1b4d30a050960325eba9c6481dc58be404486c3d1893bad35f8ed23",
+      "occlusion.png": "6081979cc263377d926b5511cc0a76ac795411aa4bb0bd0ff9c10541e599e11d",
+      "visible.png": "f99b84bbd013b117c1b83197d5f97d0db2a6f02f333c528b2f390b63ef56773f"
+    }
+  },
+  {
+    "case_id": "COCOA-032-f91c79811d",
+    "label": "cat",
+    "split": "test",
+    "source": "COCOA",
+    "input_hashes": {
+      "observed.png": "f327faa7ddf4711ae2dc69628f5f94141eb68980ed11fcdfb694cc1bc3b6fdf8",
+      "occlusion.png": "039ce48bfbe0a80bcf73dc68a281dc79369e1d0f4b1ddd54829eb9d345e280c1",
+      "visible.png": "e7a09dfe3644b4b28d16321a07eadfebcd1e1d01e878df5327957b7ff0a8fc51"
+    }
+  },
+  {
+    "case_id": "VG-058-2694ac011c",
+    "label": "brown sofa",
+    "split": "test",
+    "source": "VG",
+    "input_hashes": {
+      "observed.png": "0554ead195009707f88bfe4a21c01bc7f7ba5339628b2e093c47152884ef4197",
+      "occlusion.png": "f909b427c218fd0b85e41b3f4e07ce5c99fe52faef5fd364c4fb54233bb5bf36",
+      "visible.png": "28308fa25e3ae18cdbb975240a1737ac125baa1615170554263b8eaaa75c32e5"
+    }
+  },
+  {
+    "case_id": "VG-059-02e9b3c415",
+    "label": "toilet",
+    "split": "test",
+    "source": "VG",
+    "input_hashes": {
+      "observed.png": "b2ea5cc3665c1b8410b3fc537bf5fbb894b1e22787425e510d73fa18f32f6da6",
+      "occlusion.png": "3ab482c4e5530e1477fb563bbf4b46d1a1b7e5763dc69d6bbfa6fc45d0060cbd",
+      "visible.png": "f310c24b79cf6af963ae063712ac5f3facbb6e730941a1b38e3ae5742051b7b0"
+    }
+  },
+  {
+    "case_id": "COCOA-033-ac34ba66ad",
+    "label": "airplane",
+    "split": "test",
+    "source": "COCOA",
+    "input_hashes": {
+      "observed.png": "5a2d528cc5f2203a08ef7a8d669b94cce3a7e2df6021f1da524c919ac97301b1",
+      "occlusion.png": "9d561bf31a72e40df1214cd3ce558a2af18f54315bbc006689f44b186ffbd53c",
+      "visible.png": "feddab944fbb7037e99eb85cfe433e23900efa3a8fb3cab2fbcee1e4ede26c8e"
+    }
+  },
+  {
+    "case_id": "COCOA-034-a8ec96e800",
+    "label": "elephant",
+    "split": "test",
+    "source": "COCOA",
+    "input_hashes": {
+      "observed.png": "c21921bb9d1b38ef8c0a0a5270a39a460be93c481227cb02af7e0d49f3d16026",
+      "occlusion.png": "422e6671b2cb77042ecd8dc08c2b0f57bc532d770bf1be395bbd47ae956b8b30",
+      "visible.png": "74b712d81bd12ab69f2f04c4e5f8b50270e43dcbb62ba1f0a4148c346f6ab572"
+    }
+  },
+  {
+    "case_id": "VG-060-52ea4ae0d5",
+    "label": "fire hydrant",
+    "split": "test",
+    "source": "VG",
+    "input_hashes": {
+      "observed.png": "1ed6f4fcae3c13c3df99480ae1e565499680733004390a534912b3c3d126082b",
+      "occlusion.png": "b640f2e0b1f55094e9f7e282b9f2c8d56b4e03adb6f7bcc8c915366e9a88e28d",
+      "visible.png": "47b10f68661c53fce24d98685661d75a2b178e098c0f08361f22bb65ec595fd5"
+    }
+  },
+  {
+    "case_id": "VG-061-4ea458c770",
+    "label": "horse",
+    "split": "test",
+    "source": "VG",
+    "input_hashes": {
+      "observed.png": "cb2d3aefe830ad3b0326d2687afe218eb251b2b6fe4eeee2b5cb82c77536cdce",
+      "occlusion.png": "b8965af690bda401dea958b45eb314648710f5abfac9ff5f034c6f06c556d57a",
+      "visible.png": "ec94390bd21b37610a631b16114850499af3972b6c34a7c3fb3319a5b2521987"
+    }
+  },
+  {
+    "case_id": "VG-062-216413d601",
+    "label": "black car",
+    "split": "test",
+    "source": "VG",
+    "input_hashes": {
+      "observed.png": "f4f70947bdf3c1fd91c6d600f07218fed2727981416a0e9686831a2229a8d063",
+      "occlusion.png": "9a560f9ba294890cea8988c7cf67693a951ea5720d146177a644e62ce6354a63",
+      "visible.png": "f680c438b38fcce6007cd3fec52f4ca84a080e07d23700fc066e6ac01181aa3c"
+    }
+  },
+  {
+    "case_id": "VG-063-ace326dba0",
+    "label": "phone",
+    "split": "test",
+    "source": "VG",
+    "input_hashes": {
+      "observed.png": "4d1c7bd74b19d4b1d8ef23be05464a83ecfa2628154d2d3a1c911c1141087b15",
+      "occlusion.png": "f5bba9aeef6017f0504c2dbe1f4c6037346d2773072eaa021f5cc66c4ff010c9",
+      "visible.png": "b42542726b341d251930a2c421258998d753a48cef024abfc3ec0013136a5f08"
+    }
+  },
+  {
+    "case_id": "free_images-001-cdc8ef23f8",
+    "label": "wine bottle",
+    "split": "test",
+    "source": "free_images",
+    "input_hashes": {
+      "observed.png": "f2053b3f6fe7b3aa041fc81e51f447440f6e8ae9d527ad655646630b2b0d31f0",
+      "occlusion.png": "e843a1575414fa9a397bd2dbf349077f8e225cc3d9b6b5be15dd85cd1f8c5f80",
+      "visible.png": "278c1b82e8bfd8dd5eaba2855d08a9a468dd367b0913da3cebf98bf485077e3d"
+    }
+  },
+  {
+    "case_id": "COCOA-035-64585524a8",
+    "label": "white bench",
+    "split": "test",
+    "source": "COCOA",
+    "input_hashes": {
+      "observed.png": "c6456e30773bdbfb88e1f76131b7d0badfe3558ad946702f2d2e3511f987eae8",
+      "occlusion.png": "c518ccaec10280be38f289ccc2b73c627a7c5663715c4bca0a437bb5c92869b5",
+      "visible.png": "af055e56e3ec19f57780d5029a238c910013c8f0afabdf66928759e075ca629e"
+    }
+  },
+  {
+    "case_id": "COCOA-036-7654986028",
+    "label": "wine bottle",
+    "split": "test",
+    "source": "COCOA",
+    "input_hashes": {
+      "observed.png": "b837ec6aaec90a3a419ceaa7853d001a67c2c30393a6414ef57866a199f848ab",
+      "occlusion.png": "9a5a08c3ade5c1c90e91b56f8d3fa80b7e2b66c1184aa26061a30734269d2b20",
+      "visible.png": "b5e4b13bfde2d6914da2e33c1be80f8eb2ce19927d66f4b8627238b49bde5540"
+    }
+  },
+  {
+    "case_id": "COCOA-037-635e2ced24",
+    "label": "table",
+    "split": "test",
+    "source": "COCOA",
+    "input_hashes": {
+      "observed.png": "af7c010635ff3be8245adf6eae451dbd090f1397310407d286712a19a1380f53",
+      "occlusion.png": "7414095815f287436028b2a6ac7fa424e232549c22130a6b46ec20234c38e553",
+      "visible.png": "e39d0f7250db497d8e4666f51f3ff03e1db41baaedebfd6f507792d1a681dc5f"
+    }
+  },
+  {
+    "case_id": "COCOA-038-8e41c6b95e",
+    "label": "cat",
+    "split": "test",
+    "source": "COCOA",
+    "input_hashes": {
+      "observed.png": "dd9140f9ad914d2aeb238332050dd574d6f4f1d030fe55861c322801b1c1ff6f",
+      "occlusion.png": "c611062fb36b5ce930b021c4b94b1cfe9423c8ba726cd400ee6a6921e0382f62",
+      "visible.png": "4f0ef6487fb9fc2f9a6423361f7b74ddeceabcfa72f808ecf0befff23ef8584c"
+    }
+  },
+  {
+    "case_id": "COCOA-039-0f212b0766",
+    "label": "refrigerator",
+    "split": "test",
+    "source": "COCOA",
+    "input_hashes": {
+      "observed.png": "a8f82f65e05dbfdd98167368fe78cb3b966e5848c9167a7b038672612c6807b4",
+      "occlusion.png": "7a3033ca843cd6599d8b8c48da5f64989d4f4d6bd714f9fa2d9a828a5f17dad3",
+      "visible.png": "16f0093741d0afbb4cd58bb8086a3674d63a3f6d6dfa30e0bef1922ae8869780"
+    }
+  },
+  {
+    "case_id": "free_images-002-04c9189ebf",
+    "label": "umbrella",
+    "split": "test",
+    "source": "free_images",
+    "input_hashes": {
+      "observed.png": "c6c3494d0b06bd8a31e51069c3c671a15934d43b1f027458069d444a28dd1abc",
+      "occlusion.png": "5c7dc531784d50275ebf3aac871eb15cfcf30c25e274d7d58d77e8cd44733758",
+      "visible.png": "e84f80bec424365c52a3b77b711b43e9a5016009ba75d90df8a535dbe6bc70ef"
+    }
+  },
+  {
+    "case_id": "COCOA-040-121fbacf45",
+    "label": "horse",
+    "split": "test",
+    "source": "COCOA",
+    "input_hashes": {
+      "observed.png": "331c58a07167539557010c24835a63838641082891e3997775691a140214d42f",
+      "occlusion.png": "165868e98037035c1565c18a253cc537c047c5604945c8b847498aa09923b0f9",
+      "visible.png": "0e9d75d801c07a937afde75eb16bc2635d456305fcf0d2a6bdb62fa8b143efb7"
+    }
+  },
+  {
+    "case_id": "free_images-003-f233929518",
+    "label": "dog",
+    "split": "test",
+    "source": "free_images",
+    "input_hashes": {
+      "observed.png": "e54a90ec46c5251e02ff7731f1154dcee90225d6b8c2aa21c75d9a3a396b4343",
+      "occlusion.png": "fa6fbc74b4c8209d75ad5606fd52ba10c3a4b1ee38478041d504d20494a83057",
+      "visible.png": "c6ec38777ba9c136f9c702290f9e5402c9318e83b79584ef0f07ae5cfc5e30a5"
+    }
+  },
+  {
+    "case_id": "COCOA-041-50b97e2938",
+    "label": "phone",
+    "split": "test",
+    "source": "COCOA",
+    "input_hashes": {
+      "observed.png": "a6498cee6b4cf2520b5f7b60a4c7dc4875a117428a42667cab149a70207b516e",
+      "occlusion.png": "529e1bc2b42cb3633ead54af83b4cd59d8340bbcf8c3dab7789bc75eb874e361",
+      "visible.png": "21c7e47045d909cd41cfdc6eba723e8ddbe4ce328b189fb8c696b7d5e74233c6"
+    }
+  },
+  {
+    "case_id": "COCOA-042-cfa29602b2",
+    "label": "elephant",
+    "split": "test",
+    "source": "COCOA",
+    "input_hashes": {
+      "observed.png": "5972f5e073f3e6eb0a123a537d000534d8922dc8846ce9320062158e5bc3f851",
+      "occlusion.png": "4acbcb7030133664a48fab37c120a1ad8fb2d6232ee51bac01f01a8d0de6e872",
+      "visible.png": "725299d0f4aa39badb59758d45a465a3999c183402ef9f0882f352149fac6035"
+    }
+  },
+  {
+    "case_id": "COCOA-043-66ec60842c",
+    "label": "laptop",
+    "split": "test",
+    "source": "COCOA",
+    "input_hashes": {
+      "observed.png": "ef802a0e854d399e956125e95e69ad8cd924e010d670accefd4b30b60b35f6f3",
+      "occlusion.png": "8ffb215bec12a7d5fa0edc03f84552ddd9e15105fe7dd1d5bf01bf99bcbc0e0c",
+      "visible.png": "18e00434d36fe7ecd3d47540def9c973e43bfcb776a8febcde0be40a9165f6a2"
+    }
+  },
+  {
+    "case_id": "COCOA-044-b632b77a38",
+    "label": "bench",
+    "split": "test",
+    "source": "COCOA",
+    "input_hashes": {
+      "observed.png": "f394df38bde626d0d86cd66b4fc960c4a3a850e2060e99f90a9d682a07b644af",
+      "occlusion.png": "63c941b0c454c8f937cb1cb562e0d050cdb2379e37288ac6a5bc865bcd76e7fb",
+      "visible.png": "c4cab721ff8299d5f1d5806dc6c459ae22506ff66f0db30a5f25d6afa68717c9"
+    }
+  },
+  {
+    "case_id": "COCOA-045-5b6097f480",
+    "label": "toilet",
+    "split": "test",
+    "source": "COCOA",
+    "input_hashes": {
+      "observed.png": "9806e103b266a810a9971e7ccd9bf117172814ca5d34512a3d8d7178768a415e",
+      "occlusion.png": "d80326a9c4dad3fa6e919278a5069d2f1f130840ef1b5be9ed042405d7f44b4c",
+      "visible.png": "97a8f2579a61d0fc45a9c2e9298e95d220ef8fe5bd317e355348c1cde28fd1e9"
+    }
+  },
+  {
+    "case_id": "COCOA-046-1b243d72aa",
+    "label": "horse",
+    "split": "test",
+    "source": "COCOA",
+    "input_hashes": {
+      "observed.png": "bed1c679f95e7a2ae7d3d5f0bf873c77df2121076064bf8986ff3a658232b90a",
+      "occlusion.png": "69b73541a6d7af63b695368ad153c64318460f482c38593d2ad282d0838fa6d2",
+      "visible.png": "0e24081d9aee92451ef2c864a5f74a1596d5fd099618356e81ad4fb11187bf42"
+    }
+  },
+  {
+    "case_id": "free_images-004-a2c0a978b8",
+    "label": "dog",
+    "split": "test",
+    "source": "free_images",
+    "input_hashes": {
+      "observed.png": "cbdaac37255d110a6906a553542eaa17e9089064e34df9cbd582beb7087adbbf",
+      "occlusion.png": "1dfea9de63a58db29ca5cff8a320912218771a741d7e08ca7f5242e7182dc7a0",
+      "visible.png": "ac5596a4b3d07a1ab90da032e596e65e533bbf725cad30eb43779a78d77f182a"
+    }
+  },
+  {
+    "case_id": "COCOA-047-520391de86",
+    "label": "table",
+    "split": "test",
+    "source": "COCOA",
+    "input_hashes": {
+      "observed.png": "c12a10f61771267cccc73abb0c960d1da97464df73659330d9c5d9cc0a7d01cb",
+      "occlusion.png": "b1a03e14b82a9ff03339cf34102cf04baad39d4258a3ff619d0fa76262204029",
+      "visible.png": "ae490888f2839a527e21ba3a653935aa6812f55586979883718cd85310ba5c58"
+    }
+  },
+  {
+    "case_id": "COCOA-048-cf6400ef7b",
+    "label": "giraffe",
+    "split": "test",
+    "source": "COCOA",
+    "input_hashes": {
+      "observed.png": "4dd8d16bd4efd5c824fd5f49dfe5493606615a67852f61c2cce182450da348aa",
+      "occlusion.png": "5f1ebfadc3752eabef293897eed4268bf3a77531209d58dd27573560281476cd",
+      "visible.png": "c078627228c100574904c67766906ad626e409629654881215d66332274b285d"
+    }
+  },
+  {
+    "case_id": "COCOA-049-7f9d2b0bcc",
+    "label": "elephant",
+    "split": "test",
+    "source": "COCOA",
+    "input_hashes": {
+      "observed.png": "06d2de8de414a049c7f6fcc260d8a2ed70d3f3871d940c4a541858fe62a7af2d",
+      "occlusion.png": "e388d0a9e8a552d25a6232b5e3383bd4175cfdea78bfd1f32f5345948b5ba86a",
+      "visible.png": "3bebe79409e21f891fbb4172f0cb778e70cf339e7ec512ee8b2f943f12b9a0e0"
+    }
+  },
+  {
+    "case_id": "COCOA-050-87c323e781",
+    "label": "toilet",
+    "split": "test",
+    "source": "COCOA",
+    "input_hashes": {
+      "observed.png": "f6631bcc8033fa05e93c5b543cb91a9bab790c64d8ac5da9aba46a417d69eaa8",
+      "occlusion.png": "129f41b927b248131bae1be7e5ae68a6ff45408ec543f98c7fc233110a916bc7",
+      "visible.png": "e61d49473a2574be0f71c0cf8e42826024d35c17d254c8602879026ef436a10e"
+    }
+  },
+  {
+    "case_id": "COCOA-051-1fa2afbb97",
+    "label": "dining table",
+    "split": "test",
+    "source": "COCOA",
+    "input_hashes": {
+      "observed.png": "9a262d7c407e7195c40bde0f9c37fe503a5b0531caca7e5b2c1eb5c09e709889",
+      "occlusion.png": "41dce2409b28cde47f26cc0c3fa05fcc353a9f323cad0f859762ea05bc0ff821",
+      "visible.png": "cb7111a50727efc25b00db572f48f539edb051033bf689ca34f9ad4ed8e33a86"
+    }
+  },
+  {
+    "case_id": "COCOA-052-e5e8b0f2dc",
+    "label": "cat",
+    "split": "test",
+    "source": "COCOA",
+    "input_hashes": {
+      "observed.png": "e2c1ac7df47765589aaa69944cf35438dd6b347771fa8fe05f082826fc9713ac",
+      "occlusion.png": "6081979cc263377d926b5511cc0a76ac795411aa4bb0bd0ff9c10541e599e11d",
+      "visible.png": "98639da012b04ed9380a00c0113a2e1fe455765e7dc288839bae6c1074a61196"
+    }
+  },
+  {
+    "case_id": "free_images-005-bd35f68ef2",
+    "label": "cat",
+    "split": "test",
+    "source": "free_images",
+    "input_hashes": {
+      "observed.png": "c684260b4a82124577c2133991bf9ed03320e6906633d88fe2633c0096845146",
+      "occlusion.png": "7e1b443edaabb6701bb4a291984706e98bef0da79cc85c466b7c47f49410ead5",
+      "visible.png": "6a60714dee7e1378938160a8835b7ef94385710a8c3eaf278f27398dcec09809"
+    }
+  },
+  {
+    "case_id": "COCOA-053-aa19ac7631",
+    "label": "laptop",
+    "split": "test",
+    "source": "COCOA",
+    "input_hashes": {
+      "observed.png": "bd9e1e60b1947053ed1e3e7aaea9e457eaa7978a7d239cc3c15091bcd0ca1ec2",
+      "occlusion.png": "cf5b887d78c1a5f7c9182592ba8e91c6fd0d6d2eb81516d9cfb7a24dc1e08a2b",
+      "visible.png": "b3fd1ff13be0d4d6c60f26ee31343d657778dd96a92dd14451d3f6059b0d2e29"
+    }
+  },
+  {
+    "case_id": "COCOA-054-50511bedc0",
+    "label": "knife",
+    "split": "test",
+    "source": "COCOA",
+    "input_hashes": {
+      "observed.png": "f6da9912748cf8c296213b2a18e337c013050157d4843169ea6d2f6926c0baf5",
+      "occlusion.png": "4f9c396b3b6880303f3336f64ce7321a2d068fd6ea70475127f5b3c641cf3964",
+      "visible.png": "5463ad34e2a9168de6f0bef17b7fa299270e49d09bdd504141da60727f9184d7"
+    }
+  },
+  {
+    "case_id": "free_images-006-a09aac2486",
+    "label": "bear",
+    "split": "test",
+    "source": "free_images",
+    "input_hashes": {
+      "observed.png": "97548e0baa135412ac50236e1d577c202a68fa968360724c82cace07166d6c27",
+      "occlusion.png": "e6a82d8006f03d33bebdd7cff40cf7d28723840fe7a75203ff317db424bb0215",
+      "visible.png": "86339d1028480150abb0376b4a5354ef8ff46426815adccf342ba99245c0ea36"
+    }
+  },
+  {
+    "case_id": "COCOA-055-2a14f1bb8f",
+    "label": "scissors",
+    "split": "test",
+    "source": "COCOA",
+    "input_hashes": {
+      "observed.png": "96c0e8083383092c4108af4ebaaf9215872bd2fcf6081cc50e08f6077af55926",
+      "occlusion.png": "50c3f1701a4050cae6da937c817da21fb70a3c6657cda448858bf312e7273716",
+      "visible.png": "ae3be27b78a7aba6e197ac853be16c7b91d4d1aa1f8e7ff08af3bbbbd6a88890"
+    }
+  },
+  {
+    "case_id": "COCOA-056-20080d4825",
+    "label": "paper bowl",
+    "split": "test",
+    "source": "COCOA",
+    "input_hashes": {
+      "observed.png": "ab2fdf64eb9a4e049d0628b8ca9321e46716ae66969e2598355ec1dc9fff5f23",
+      "occlusion.png": "96bfada26a00a50acbf0551ce26dc82a79858e942f45c9a8f712f8d0bb79b58f",
+      "visible.png": "f628866591ad89cd9d305ce3fdb9b0a540f92a971b63b267a132f669ef5a4d85"
+    }
+  },
+  {
+    "case_id": "COCOA-057-62c47920b6",
+    "label": "cat",
+    "split": "test",
+    "source": "COCOA",
+    "input_hashes": {
+      "observed.png": "dde7c2645d8e871ea817f9755823d19abd2f845358a452d40e0f41c8f09057ae",
+      "occlusion.png": "dfc868cb7c1ba025a222ad5c8e07eafa0fc6e36dfba6b2325a7fb8aa95c8067f",
+      "visible.png": "46a0bcb58572b6af925d42a431082faaaa4bc438c40172d5168f2ca8d8611052"
+    }
+  },
+  {
+    "case_id": "COCOA-058-9cd9c51239",
+    "label": "bird",
+    "split": "test",
+    "source": "COCOA",
+    "input_hashes": {
+      "observed.png": "997620ba4d4667c548203a53e836d6214855ecd792448ab7816076f8a7ba4126",
+      "occlusion.png": "f7f81f3efd4ba433708d126d8e2255ea14dec779c2580d9964613c6d5cca89ab",
+      "visible.png": "edc26732b860ef46a5d98d4a0888d9586feb2bc26bc698eb72bf6e35076fa137"
+    }
+  },
+  {
+    "case_id": "COCOA-059-ac2ac573b3",
+    "label": "bus",
+    "split": "test",
+    "source": "COCOA",
+    "input_hashes": {
+      "observed.png": "45c8a82ba6cf3d4cb4915903cfce16d5919e13efa7dc198df3dbf47b8d7ef727",
+      "occlusion.png": "a97bdbde281013abd58592bb4e57df00830049cf9696506dbd14995977c1da6e",
+      "visible.png": "53e400aaa0d4c71a2142603434e78deaab26c01446aec32f8484c5e56c1fd97d"
+    }
+  },
+  {
+    "case_id": "COCOA-060-6635d710e2",
+    "label": "sink",
+    "split": "test",
+    "source": "COCOA",
+    "input_hashes": {
+      "observed.png": "2ed4da90a8f66a1dc4c0579ec3c2351628a885fa53220d225cb01074a11f9768",
+      "occlusion.png": "411f95302bc0991c98345e29a9c131036380e470a18c5aeef88396eda8c37226",
+      "visible.png": "9c159526083f0b0f7887c69217315fe8ebdf475e5cac2ae7507f5542ab4821c7"
+    }
+  },
+  {
+    "case_id": "free_images-007-33a8405900",
+    "label": "laptop",
+    "split": "test",
+    "source": "free_images",
+    "input_hashes": {
+      "observed.png": "9d97cc8736e5f99a03a88fe531aea902f95fde5d2ebf5ba40b7fbf27052a816d",
+      "occlusion.png": "6081979cc263377d926b5511cc0a76ac795411aa4bb0bd0ff9c10541e599e11d",
+      "visible.png": "a1b207c03a4a74e41f8a5641863e4e4b5e9e1313d92b10b23c0e7a43234afd02"
+    }
+  },
+  {
+    "case_id": "COCOA-061-973d27bee9",
+    "label": "yellow surfboard",
+    "split": "test",
+    "source": "COCOA",
+    "input_hashes": {
+      "observed.png": "ba1bd7a59005a27ac70480155a93625d1d59052ddbd152633bee1831cb2293f2",
+      "occlusion.png": "e147915725e0af3c24af1354f94a55a73f766459ef9a35beef1ce9391492abda",
+      "visible.png": "4b4c541da64618f89627eaf4d0253f9e7810bd7bba4a1745dc251b8d6910149b"
+    }
+  },
+  {
+    "case_id": "COCOA-062-a7fca78d5c",
+    "label": "bed",
+    "split": "test",
+    "source": "COCOA",
+    "input_hashes": {
+      "observed.png": "84ddb5a36fb83e4c499d345b40b0397a2ebca721d3459be862b8fc8c9ff04731",
+      "occlusion.png": "64886f89b44c0e0f2606a583517533158ce069e7a93e9c45e63e04a7c57215e7",
+      "visible.png": "55d64ce7458405995a9cebdab3db78f636bb3de2509bb0eb8d07e6ea972540eb"
+    }
+  },
+  {
+    "case_id": "COCOA-063-d582c28f83",
+    "label": "elephant",
+    "split": "test",
+    "source": "COCOA",
+    "input_hashes": {
+      "observed.png": "4c65e8a736b65c18178f55cbef634af893396c15f29afa47e4b50f6e2bfc9544",
+      "occlusion.png": "bd85dcdedb34a553a86a6ad27e016e752a1b372cd357d2515af6b497412f840f",
+      "visible.png": "6fe6140dfc1bfa5dea8d853c9e13e34f7fbea515bc2777419dfc6c36e8078382"
+    }
+  },
+  {
+    "case_id": "free_images-008-5f375a4954",
+    "label": "sofa",
+    "split": "test",
+    "source": "free_images",
+    "input_hashes": {
+      "observed.png": "54703030ce3ab436db08df54ca52683b8d1b6bd100a99f90594d4cdae1b30b96",
+      "occlusion.png": "3b2c903e368b3bd7967d8e792822a0e8f1f9b7968ad425f118bd40b29cc929bd",
+      "visible.png": "8a046b32019d6bd877e4143bcc108c25da4ec9ec01cc132af5c472d9ec54e050"
+    }
+  },
+  {
+    "case_id": "free_images-009-df9c7e8d91",
+    "label": "cup",
+    "split": "test",
+    "source": "free_images",
+    "input_hashes": {
+      "observed.png": "dd3640601912ffa21d0c480c9adbcd06effcd155825e7295c58cbfc4a1bdbf1c",
+      "occlusion.png": "58f860f4fcf9532efb5bd4b727fb7b03159f2ef8525570bd1c90d3cd302ddfb3",
+      "visible.png": "ae484fb8c79614245f24900f13b8f1a0a21d1d32421074982273252596ae4cb2"
+    }
+  },
+  {
+    "case_id": "free_images-010-5e83de2b6d",
+    "label": "giraffe",
+    "split": "test",
+    "source": "free_images",
+    "input_hashes": {
+      "observed.png": "94d72aa7d3cc05a97100fe14c18c903fb248dbab6d2611ebe8494970f1ef55c8",
+      "occlusion.png": "0b3d1b1a099477808227325e432493664f1835b62ef77d4b2ad2407d5d10d3ca",
+      "visible.png": "472847d8358ef45c12d50656a976790cae2370d27be9367bf2831bf1a1e796a7"
+    }
+  },
+  {
+    "case_id": "free_images-011-5f36d716b0",
+    "label": "horse",
+    "split": "test",
+    "source": "free_images",
+    "input_hashes": {
+      "observed.png": "8878137cb32ce0dfe3d0092a9c7e24398c65791b737b7f7e1fdab25f704d2f06",
+      "occlusion.png": "14f5ef93fe15b8e683014e7f315bd28254add2486925bb6d19f9b8a134124ff6",
+      "visible.png": "6d90ed162ac0230d16d8483e24f9e407d957a973d0ace3083a40b2d0137fe9f6"
+    }
+  },
+  {
+    "case_id": "free_images-012-ba19d126fe",
+    "label": "bird",
+    "split": "test",
+    "source": "free_images",
+    "input_hashes": {
+      "observed.png": "f018eefa8ce1af9e1e668ecef84d552b86e70be2c39eb8f2b5d4a276c3de8bff",
+      "occlusion.png": "5cbfd692649bd6a4a40eeecfab1d94505f008c93deed32fda43595632179c703",
+      "visible.png": "acb6485370a8b257afb5864c6fcbe95b3457333cee18c0bd70e24ff50fdcd878"
+    }
+  },
+  {
+    "case_id": "free_images-013-3b1195506c",
+    "label": "book",
+    "split": "test",
+    "source": "free_images",
+    "input_hashes": {
+      "observed.png": "648aee16d781c2dc04551314286ca35a4fb3d24d199fd8e11feefa578041d2c8",
+      "occlusion.png": "640faf3e1f8ddd93631f0a35cd2db02b52954d095ec168e6f5aba516b04640be",
+      "visible.png": "bb81701c4bfdf79baeb6faacedb5e566e3ce9bf129fa48c5b33c56589050dbfd"
+    }
+  },
+  {
+    "case_id": "free_images-014-e34fde4156",
+    "label": "TV",
+    "split": "test",
+    "source": "free_images",
+    "input_hashes": {
+      "observed.png": "eb527f179d280f383fe3c9d4d7af86a39d0032d494553516f959d0062e86a752",
+      "occlusion.png": "79e81bf6c9bd505c2c042cf257ca2fcaa7f1b47e6c8b9ffb7d02afdca1b9c434",
+      "visible.png": "dd45467af66947667e933163490263eb28bab8a613de4a9d8d8eb383bc711b4c"
+    }
+  },
+  {
+    "case_id": "free_images-015-e196672230",
+    "label": "pizza",
+    "split": "test",
+    "source": "free_images",
+    "input_hashes": {
+      "observed.png": "3674a47bfb17630bcb14a279a868a448bbbe8172405c92998bac02312e569c84",
+      "occlusion.png": "320d882c7d70ae87f9be7496d0000c1f8c80479f82e4853e9696db156bbec18f",
+      "visible.png": "d3c959a5dfe643fff755a195c09a0fd948b5ec8a1406c3995730b16fa8ff0e9b"
+    }
+  },
+  {
+    "case_id": "free_images-016-a37eb0cb85",
+    "label": "bird",
+    "split": "test",
+    "source": "free_images",
+    "input_hashes": {
+      "observed.png": "80eafb4ffd89103001b09a6b2807d354dbd2511e23e8c513bdf76cadb36da629",
+      "occlusion.png": "d86ae48f7018fa5a4b8135366be4f7b7c3013f1446727c7170a7b4911e341cda",
+      "visible.png": "63f50ffaad4da33292964be6d925eb91f9c4dffc2505721d6e8d7c1332694975"
+    }
+  },
+  {
+    "case_id": "free_images-017-b520c89a94",
+    "label": "chair",
+    "split": "test",
+    "source": "free_images",
+    "input_hashes": {
+      "observed.png": "5cfd585952055b03531d55e22ab8a7bfd35f9e561030dee7d18318d072d20635",
+      "occlusion.png": "8ffd58f2124b53d45cf3e0ad785261b144290a7cb9dd0d73bb375dad94a724ed",
+      "visible.png": "7a53ca8c7327ebe6961f35e756d9da9e62368a91182b9ba39a0cddbde6cecd48"
+    }
+  },
+  {
+    "case_id": "free_images-018-613af4f7ae",
+    "label": "chair",
+    "split": "test",
+    "source": "free_images",
+    "input_hashes": {
+      "observed.png": "7843c5bba637423fdcd375b3246e472476d421e8e45edffb3a1084cda32c08f2",
+      "occlusion.png": "465998a223e5d1b23610f3b85e3083a50090fc38bcab205b0a9c60f2190ea6ad",
+      "visible.png": "46d9a914291f6d25a8547953ce6010fdd623c13d14d8965413facb7b8b3321d4"
+    }
+  },
+  {
+    "case_id": "free_images-019-05c4c728d1",
+    "label": "laptop",
+    "split": "test",
+    "source": "free_images",
+    "input_hashes": {
+      "observed.png": "369f985ed5ff2c99e2ea35a656372f640ed1c70fb9468c3003f4c99965b5d803",
+      "occlusion.png": "5df7c153b6246e7abdd0b6e57c94d8c84e4b6eef96b7880b9451d59c0f873fdd",
+      "visible.png": "a53b8be6f6470cc1b72977bb41d71c842697313ad2ae284ee33131be57d8fc97"
+    }
+  },
+  {
+    "case_id": "free_images-020-d307c371b4",
+    "label": "chair",
+    "split": "test",
+    "source": "free_images",
+    "input_hashes": {
+      "observed.png": "596d02a33771b854c1afab788394a88f962460cbdfc5a764da6d4b85d8930757",
+      "occlusion.png": "9d561bf31a72e40df1214cd3ce558a2af18f54315bbc006689f44b186ffbd53c",
+      "visible.png": "34595620de466d5a2ae9afe8038d3c1361eea5a6bb556b5b8e2c84410b13ebb4"
+    }
+  },
+  {
+    "case_id": "free_images-021-e5e6b2c132",
+    "label": "cow",
+    "split": "test",
+    "source": "free_images",
+    "input_hashes": {
+      "observed.png": "678e169d4fe28007b9e97ac6609e680fc3547f76f66126c0d3f64481da8ae231",
+      "occlusion.png": "f39ac1892252a0eafe7cc61c8e97b1998697641beae499252ea0526ea4c17641",
+      "visible.png": "dbe5e78dcc3221053a77a039c4638c264139b3c7ae560e57d485f8b5d9ba3e43"
+    }
+  },
+  {
+    "case_id": "free_images-022-c674e1c20d",
+    "label": "bird",
+    "split": "test",
+    "source": "free_images",
+    "input_hashes": {
+      "observed.png": "c72ce76da8a3bd44d2b58ce96ad11b55d0073a0a6585f7e86013e22649cb485d",
+      "occlusion.png": "f90fc62d7ab89f67f5e7c8e058d4f5c36ffebc209070e904662f588a7151a66c",
+      "visible.png": "4de7257e25321d04a4aa4709371597c6e72a0f2fff23e77b0b10f52a969bfdaf"
+    }
+  },
+  {
+    "case_id": "free_images-023-63b1333a4b",
+    "label": "laptop",
+    "split": "test",
+    "source": "free_images",
+    "input_hashes": {
+      "observed.png": "4166d7daffd1b4003b60e372e1b40d83525e94d0c937d650670b161c8817b9e5",
+      "occlusion.png": "e088a756902711a4f6b2743e8856c47fe652cbaf85317e392bc7c632394c9005",
+      "visible.png": "2ea01b472086c37c3ad7ba96298eed707afbab11e0ab6626e84d865a21c72397"
+    }
+  },
+  {
+    "case_id": "free_images-024-5ea27c95eb",
+    "label": "horse",
+    "split": "test",
+    "source": "free_images",
+    "input_hashes": {
+      "observed.png": "017d2580810d0118f25f769ac038d2b62717b5ec1e6dd0c11403b43f8241061b",
+      "occlusion.png": "7095cf95ee546e8f9b20c26796e71eb243e8651ab32f4a4359ddca78f6709bcb",
+      "visible.png": "d35ccd3a425c3aea3bff5f0ab4704f62c87284ebeabb5e5eced4d05bdfa90058"
+    }
+  },
+  {
+    "case_id": "free_images-025-394b8da139",
+    "label": "cow",
+    "split": "test",
+    "source": "free_images",
+    "input_hashes": {
+      "observed.png": "58ba48c8a00e597ce51137978d6d89cd330b20a4922c6776d6b1c8f984cf7bb2",
+      "occlusion.png": "79e81bf6c9bd505c2c042cf257ca2fcaa7f1b47e6c8b9ffb7d02afdca1b9c434",
+      "visible.png": "62a33514ef00a4623ac4381c81501b4b79eed3ae9e14c42f39b87d69ec893b81"
+    }
+  },
+  {
+    "case_id": "free_images-026-fafe98ffe3",
+    "label": "bottle",
+    "split": "test",
+    "source": "free_images",
+    "input_hashes": {
+      "observed.png": "d26cc1d2661ef2260fe5b4ef6eb74f9eeeca45db459db3197df66aa6d99fe2f1",
+      "occlusion.png": "aad9d3085914d37cb19b3288b689670bb627866a8ac64a622ce9cd8736462e90",
+      "visible.png": "20774b70cdac3b9119702b54bc90f071da950d969e946cb086f72dd24ae7bc1e"
+    }
+  },
+  {
+    "case_id": "free_images-027-d6cb463654",
+    "label": "cow",
+    "split": "test",
+    "source": "free_images",
+    "input_hashes": {
+      "observed.png": "438185da9e0daa3fbfd53608fff97fc46563137f13e49678a15f74b8dde68d6d",
+      "occlusion.png": "1759f6e2379cec6117226646c07a329767102d29a23ad90db5f1dbba661c0397",
+      "visible.png": "7d03dbb13238a698a86d01be0992f2b3ef3df8c0f791e66d085a6bd626126404"
+    }
+  },
+  {
+    "case_id": "free_images-028-5e0713369c",
+    "label": "bird",
+    "split": "test",
+    "source": "free_images",
+    "input_hashes": {
+      "observed.png": "cab8bc36ed3d7d8bcb0e39e5ccdd3118f34f683bd33479240adb08464f37e2a8",
+      "occlusion.png": "50e213dd2e86551f6be0ac0d8fd96245b0b5674d0ceac1e2d2979f83422f7079",
+      "visible.png": "6065c60d08defc0dc63a909c7cbab2df026be0910f8f7892576e55d7a9fa100c"
+    }
+  },
+  {
+    "case_id": "free_images-029-858c7b07b9",
+    "label": "cat",
+    "split": "test",
+    "source": "free_images",
+    "input_hashes": {
+      "observed.png": "b6346d06938c4d082c9d9c1e89085c27d3e217a305e31f688135411d6d86f075",
+      "occlusion.png": "bd85dcdedb34a553a86a6ad27e016e752a1b372cd357d2515af6b497412f840f",
+      "visible.png": "c087406935a7ee0c304edf606390cf280c3283087be710c90a2c8f24721b9286"
+    }
+  },
+  {
+    "case_id": "free_images-030-364b8f7888",
+    "label": "laptop",
+    "split": "test",
+    "source": "free_images",
+    "input_hashes": {
+      "observed.png": "91f359e6bcf533db400a6ec29c63ed79cb3af4e677cef33921926767fda02ede",
+      "occlusion.png": "678de2d2da03254d9863ea4733d079c4e29a9a742538a5be7bf4b539716e2fbc",
+      "visible.png": "6e9855772ef3e6922d3b507e60cddc2350e1dc68c9dd4f184c8cd95b848d1baa"
+    }
+  },
+  {
+    "case_id": "free_images-031-ea1807159a",
+    "label": "car",
+    "split": "test",
+    "source": "free_images",
+    "input_hashes": {
+      "observed.png": "29078801652f21130af02438db6ff62b0f9824e0342b4bfa6e95190e73c834e0",
+      "occlusion.png": "81e463c1ec81a3dbccaf34595a0098482b69fcc240d8504a80c00df2966e625c",
+      "visible.png": "1cf4f8385c83f774fa61e6cbe9c0bbbc045bb6a43d54bbb65a8428e8e659bc86"
+    }
+  },
+  {
+    "case_id": "free_images-032-4832690f3e",
+    "label": "disposable cup",
+    "split": "test",
+    "source": "free_images",
+    "input_hashes": {
+      "observed.png": "72f7b59398dd3a9d2407f1dd6b90061ae80d737e45cdc4ac1450ef27a6c9d7ef",
+      "occlusion.png": "e5fb66e670fdce5930590ae130c02c4cd5214278435c19093621c8737ad0f191",
+      "visible.png": "6511e7307373865854e999879d7ea42c7fb3c60cdf02c8c8742729f7847a2cf3"
+    }
+  },
+  {
+    "case_id": "free_images-033-b89111b323",
+    "label": "motorcycle",
+    "split": "test",
+    "source": "free_images",
+    "input_hashes": {
+      "observed.png": "b47a71ca2c8bb0e9f5a64379daed1c2d22cd94b72f675b6b4c1093bc5b93e10a",
+      "occlusion.png": "dceb9a855b827d68d10c7541257eb51e40b44d916bc6334329cbea92e4fd2a48",
+      "visible.png": "f46b548a47d5c048268b1b193b84f6e33c49c4bb41f0697aba24c18340f2bcbc"
+    }
+  },
+  {
+    "case_id": "free_images-034-086c5dd413",
+    "label": "coffee cup",
+    "split": "test",
+    "source": "free_images",
+    "input_hashes": {
+      "observed.png": "7d80b2ff705538bb3300f5bcba3340cd079cba0f7ba6abd199dbe60e88a94252",
+      "occlusion.png": "2e7b96070ffdc1551e6c676df1a016773f6398f0a3d6ec7a2dad880e5084db4a",
+      "visible.png": "8a8ec770137a5fba018bd7754c6f0b625c0544f1ef6aedc5727642d3bcf7e6e5"
+    }
+  },
+  {
+    "case_id": "free_images-035-2db4a5db5e",
+    "label": "book",
+    "split": "test",
+    "source": "free_images",
+    "input_hashes": {
+      "observed.png": "79ad88c59618d95bd08b42c6da5b79e5bf64520581fe8a4e4e83fd64f094b615",
+      "occlusion.png": "129f41b927b248131bae1be7e5ae68a6ff45408ec543f98c7fc233110a916bc7",
+      "visible.png": "bddea3947212a1bb9bdd0671dcd1afce6f55b4a8b1962133b662c6c0225b1b23"
+    }
+  },
+  {
+    "case_id": "free_images-036-e508a391d2",
+    "label": "laptop",
+    "split": "test",
+    "source": "free_images",
+    "input_hashes": {
+      "observed.png": "fab6717b42ae71e9fde75e5fcf0f17ab30aedeebddacbe00ca08dfe823ee3616",
+      "occlusion.png": "483e873cc29801717250dff1f2ad043ca33b6fe9783f3fa79cf31b716a35652b",
+      "visible.png": "85443d70ebde0febbd024bff1a76373439e2f7b65f5217c664779a6bac66661a"
+    }
+  },
+  {
+    "case_id": "free_images-037-ee464316ea",
+    "label": "book",
+    "split": "test",
+    "source": "free_images",
+    "input_hashes": {
+      "observed.png": "c08c0b1fc833af57ff92c6840af43a4f7176156b298f0f54d35fde253781e7f8",
+      "occlusion.png": "732ded1ec4f833ab5ab00e6c40697ffaa13c8e52bec4fe5de715e8faa7c506a6",
+      "visible.png": "8150dec703e650408a5e977fb30df68ed33a7799240c2e06348384b70b955697"
+    }
+  }
+]

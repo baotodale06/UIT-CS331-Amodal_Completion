@@ -1,0 +1,11 @@
+{
+  "verified": true,
+  "at": "2026-11-23T10:30:04.670505+00:00",
+  "snapshot": "recovery/20261123T102640.131631Z",
+  "control_config_sha256": "d9cdf7f7469f13f325896fea108b8e6599646f0959f1cb5fddbf19ed273a55b8",
+  "smoke_config_sha256": "eff93b6901cd2b3633e6a271abe77a3d632f8039a94a3bd5ea636392bc702275",
+  "freeze_sha256": "6078e500c236095a537000d2d3f90838253ab7542d39c69d0fafe67db150523b",
+  "changed_factor": "Frozen shape-v2 selection only",
+  "smoke_completion_verified": false,
+  "benchmark_success": false
+}

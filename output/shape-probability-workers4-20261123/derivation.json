@@ -1,0 +1,16 @@
+{
+  "at": "2026-11-23T16:57:39.128937+00:00",
+  "preserved_sources": {
+    "scripts/train_shape_probability_local.py": "eab5f83116624922307b2f5bf3e9fe9b430b188682bc9a6292e4ea93b0284644",
+    "scripts/verify_shape_probability_local.py": "0c44e527b96aad4546e6ed651e57ff75b2e6d2f428ac9f37c20058723f6fdb0a",
+    "scripts/build_shape_probability_local_report.py": "965814ea8d8b0a152262ebae2078f2014e610c1fca7e36f38a91fef440ccdfef",
+    "scripts/queue_shape_probability_local.py": "4edf3e3914afcc45988b5d6736dd4dec037deaf9894191b447cd8ac40b28cc5f",
+    "tests/test_shape_probability_local.py": "572edbd034fc8348b5cbdf736803c589107b811bd57e9401895d5991e0d84e44",
+    "configs/research/shape-probability-local-20261123.json": "36b5ee0193ae836e23f276324b2e13f5c6b15974e99cdeb187ed774d7694167f"
+  },
+  "timing_sha256": "0322e7377a4936264da83c8f46ed80b89e321e6aac753332ccc60d1495c24ab7",
+  "optimizer_parity_sha256": "5fc7b2557ee9fabea65b9f49301d89b4c96c83f052b1adc5e9df65a4b003dcdf",
+  "complete": true,
+  "activated": false,
+  "benchmark_success": false
+}

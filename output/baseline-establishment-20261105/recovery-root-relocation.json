@@ -1,0 +1,7 @@
+﻿{
+    "source":  "C:\\Users\\daovu\\Documents\\Project\\cv_nangcao\\output\\baseline-establishment-20261105\\accepted-evidence-20261106-final",
+    "destination":  "C:\\Users\\daovu\\Documents\\Project\\cv_nangcao\\output\\baseline-31548",
+    "updated_utc":  "2026-11-06T09:54:06.4985947Z",
+    "reason":  "Use a shorter artifact root for Windows path compatibility; all existing recovered files preserved",
+    "maximum_new_path_characters":  213
+}

@@ -1,0 +1,10 @@
+{
+  "at": "2026-11-23T10:58:15.581919+00:00",
+  "files": {
+    "scripts/audit_shape_sam_validation.py": "c269c7430d4473e2ef1499fb82a0904512c825b8cc90a2b528b5edf4b3d1473b",
+    "scripts/run_shape_sam_validation.sh": "a99ffef187f1ef5fabb46d48db3363266e390c11b94165e76ac8b72d5e7c6359",
+    "tests/test_shape_sam_validation.py": "a09a833950970e2d6d680f492624d221c76c06712a3cca02ec70ae787b8ad5f6"
+  },
+  "zip_sha256": "9d795929d1a9a0bb86d06a681d5e18b198921d064fc2ca2687f1937856b50108",
+  "scope": "Development validation masks only. Frozen shape-v2 benchmark, checkpoint and holdout are unchanged."
+}

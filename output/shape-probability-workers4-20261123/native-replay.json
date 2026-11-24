@@ -1,0 +1,118 @@
+{
+  "verified": true,
+  "objects": 1264,
+  "images": 217,
+  "calibration_sha256": "c1eb659d76e6a686188a44e5542c95af547ac792e3e71dafba887eadb7379487",
+  "original_quadro": {
+    "images": 217,
+    "objects": 1264,
+    "full_iou": 0.811373590207884,
+    "full_iou_images": 217,
+    "hidden_iou": 0.3703334756537925,
+    "hidden_iou_images": 177
+  },
+  "local_baseline": {
+    "images": 217,
+    "objects": 1264,
+    "full_iou": 0.811373590207884,
+    "full_iou_images": 217,
+    "hidden_iou": 0.3703334756537925,
+    "hidden_iou_images": 177
+  },
+  "selection_floor": {
+    "full_iou": 0.811373590207884,
+    "hidden_iou": 0.3703334756537925
+  },
+  "original_quadro_different_mask_objects": 0,
+  "original_quadro_different_pixels": 0,
+  "original_quadro_pixel_differences": [],
+  "calibration_geometry": {
+    "full_iou": {
+      "images": 217,
+      "objects": 1264,
+      "annotated_input": 0.811373590207884,
+      "sam_input": 0.811373590207884,
+      "sam_minus_annotated": 0.0,
+      "absolute_ci": [
+        0.0,
+        0.0
+      ]
+    },
+    "hidden_iou": {
+      "images": 177,
+      "objects": 680,
+      "annotated_input": 0.3703334756537925,
+      "sam_input": 0.3703334756537925,
+      "sam_minus_annotated": 0.0,
+      "absolute_ci": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "source_archive_sha256": "fe6b8235e4dd4e5908e3452558f4f281d0f18c0fbc392aeb1543f8840a2268f3",
+  "replay_source_sha256": "26b941a542cd622a19b1cf570d33cae24dee10055ebfcf6acde1383559d8bc83",
+  "benchmark_success": false,
+  "scope": "completed native validation; no benchmark admission or benchmark result",
+  "selected_epoch": 0,
+  "new_checkpoint_eligible": false,
+  "selected_geometry": {
+    "images": 217,
+    "objects": 1264,
+    "full_iou": 0.811373590207884,
+    "full_iou_images": 217,
+    "hidden_iou": 0.3703334756537925,
+    "hidden_iou_images": 177
+  },
+  "geometry_vs_quadro": {
+    "full_iou": {
+      "images": 217,
+      "objects": 1264,
+      "annotated_input": 0.811373590207884,
+      "sam_input": 0.811373590207884,
+      "sam_minus_annotated": 0.0,
+      "absolute_ci": [
+        0.0,
+        0.0
+      ]
+    },
+    "hidden_iou": {
+      "images": 177,
+      "objects": 680,
+      "annotated_input": 0.3703334756537925,
+      "sam_input": 0.3703334756537925,
+      "sam_minus_annotated": 0.0,
+      "absolute_ci": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "geometry_vs_local": {
+    "full_iou": {
+      "images": 217,
+      "objects": 1264,
+      "annotated_input": 0.811373590207884,
+      "sam_input": 0.811373590207884,
+      "sam_minus_annotated": 0.0,
+      "absolute_ci": [
+        0.0,
+        0.0
+      ]
+    },
+    "hidden_iou": {
+      "images": 177,
+      "objects": 680,
+      "annotated_input": 0.3703334756537925,
+      "sam_input": 0.3703334756537925,
+      "sam_minus_annotated": 0.0,
+      "absolute_ci": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "training_sha256": "5c3dade6cdf7b4e5a6ef7ff9db18625f3685713c11d1bdcd39b52e267ed61baf",
+  "checkpoint_sha256": "a52493d7d78cb1c6fc4f9765c6c818e706d22270c58dc6fb95caebabedb44fa8",
+  "native_sha256": "2c6bb8f679de71e85b634b84cb2807bf1d2dc704239b2c3db78e584a98748f1d"
+}

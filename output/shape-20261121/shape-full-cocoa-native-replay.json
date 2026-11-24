@@ -1,0 +1,2258 @@
+{
+  "method": "shape",
+  "targets": 321,
+  "saved": 181,
+  "mean_amodal_iou": 0.45432966409836995,
+  "execution_sha256": "8443fd2592601dd9ad5d9f27dd68ebedf2897ce21db8c640720e3a8bccf2b35c",
+  "pairs_sha256": "f536ada9766caa7520ff0cce32f9560059bcce43bbe84c19881db331a133b943",
+  "manifest_sha256": "f0e0bc47f7f4fdf9fb0cb8f6388826e16c06b6a670fd40a95402e6d091e57a9c",
+  "rows": [
+    {
+      "id": "COCOA/COCO_train2014_000000002178_sheep",
+      "status": "not_detected",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000007890_table",
+      "status": "success",
+      "intersection": 452,
+      "union": 133526,
+      "amodal_iou": 0.003385108518191214
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000009016_sofa",
+      "status": "success",
+      "intersection": 17309,
+      "union": 29074,
+      "amodal_iou": 0.5953429180711288
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000009199_bed",
+      "status": "success",
+      "intersection": 103238,
+      "union": 135748,
+      "amodal_iou": 0.7605121254088458
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000012372_table",
+      "status": "no_completion",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000013468_plate",
+      "status": "success",
+      "intersection": 233089,
+      "union": 273873,
+      "amodal_iou": 0.851084261683335
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000013720_table",
+      "status": "not_detected",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000014484_house",
+      "status": "success",
+      "intersection": 65102,
+      "union": 73442,
+      "amodal_iou": 0.8864410010620626
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000018072_cat",
+      "status": "success",
+      "intersection": 60258,
+      "union": 66912,
+      "amodal_iou": 0.9005559540889526
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000018072_mousepad",
+      "status": "success",
+      "intersection": 110906,
+      "union": 112751,
+      "amodal_iou": 0.9836365087671063
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000018155_dog",
+      "status": "no_completion",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000018155_sofa",
+      "status": "no_completion",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000018211_bed",
+      "status": "success",
+      "intersection": 210765,
+      "union": 217889,
+      "amodal_iou": 0.9673044531848786
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000018292_bowl",
+      "status": "success",
+      "intersection": 164083,
+      "union": 176698,
+      "amodal_iou": 0.9286070017770434
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000018385_bear",
+      "status": "success",
+      "intersection": 80250,
+      "union": 102611,
+      "amodal_iou": 0.7820798939684829
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000018473_dog",
+      "status": "not_detected",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000018555_bench",
+      "status": "success",
+      "intersection": 35056,
+      "union": 42938,
+      "amodal_iou": 0.8164329964134334
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000018647_zebra",
+      "status": "ambiguous_target",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000019863_train",
+      "status": "no_completion",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000020013_bench",
+      "status": "success",
+      "intersection": 20008,
+      "union": 21135,
+      "amodal_iou": 0.9466761296427727
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000020039_house",
+      "status": "success",
+      "intersection": 142963,
+      "union": 162373,
+      "amodal_iou": 0.880460421375475
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000020583_toilet",
+      "status": "no_completion",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000020601_bowl",
+      "status": "no_completion",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000020652_toilet",
+      "status": "no_completion",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000020677_bowl",
+      "status": "success",
+      "intersection": 27437,
+      "union": 32027,
+      "amodal_iou": 0.8566834233615387
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000020692_plate",
+      "status": "success",
+      "intersection": 245112,
+      "union": 270865,
+      "amodal_iou": 0.9049231166817419
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000020702_plate",
+      "status": "success",
+      "intersection": 17686,
+      "union": 31014,
+      "amodal_iou": 0.570258592893532
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000020857_egg",
+      "status": "success",
+      "intersection": 24419,
+      "union": 24783,
+      "amodal_iou": 0.9853125126094501
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000021313_keyboard",
+      "status": "success",
+      "intersection": 102774,
+      "union": 106353,
+      "amodal_iou": 0.9663479168429664
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000021320_chair",
+      "status": "not_detected",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000021345_cat",
+      "status": "success",
+      "intersection": 121332,
+      "union": 176111,
+      "amodal_iou": 0.6889518542282992
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000024086_plate",
+      "status": "no_completion",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000024091_car",
+      "status": "success",
+      "intersection": 130162,
+      "union": 135051,
+      "amodal_iou": 0.963798861170965
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000024266_cat",
+      "status": "no_completion",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000024428_banana",
+      "status": "no_completion",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000024861_dog",
+      "status": "success",
+      "intersection": 67619,
+      "union": 71984,
+      "amodal_iou": 0.9393615247832852
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000024882_banana",
+      "status": "success",
+      "intersection": 32067,
+      "union": 44940,
+      "amodal_iou": 0.7135514018691589
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000027270_plate",
+      "status": "success",
+      "intersection": 224351,
+      "union": 247781,
+      "amodal_iou": 0.9054406915784503
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000027626_bed",
+      "status": "ambiguous_target",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000028588_clock",
+      "status": "success",
+      "intersection": 119026,
+      "union": 120646,
+      "amodal_iou": 0.9865722858611143
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000031671_dog",
+      "status": "not_detected",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000033332_toilet",
+      "status": "no_completion",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000033332_mirror",
+      "status": "no_completion",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000034387_bed",
+      "status": "ambiguous_target",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000037566_dog",
+      "status": "not_detected",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000039716_cat",
+      "status": "success",
+      "intersection": 99208,
+      "union": 104896,
+      "amodal_iou": 0.9457748627211714
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000041649_elephant",
+      "status": "success",
+      "intersection": 46150,
+      "union": 52472,
+      "amodal_iou": 0.879516694618082
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000044814_dog",
+      "status": "not_detected",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000047387_dog",
+      "status": "not_detected",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000048825_dog",
+      "status": "not_detected",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000050592_door",
+      "status": "success",
+      "intersection": 128428,
+      "union": 130443,
+      "amodal_iou": 0.9845526398503561
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000051281_cat",
+      "status": "success",
+      "intersection": 47149,
+      "union": 48674,
+      "amodal_iou": 0.9686691046554629
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000052433_plate",
+      "status": "success",
+      "intersection": 16595,
+      "union": 20183,
+      "amodal_iou": 0.8222266263687261
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000052433_fish",
+      "status": "success",
+      "intersection": 8354,
+      "union": 12381,
+      "amodal_iou": 0.6747435586786205
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000056971_sheep",
+      "status": "no_completion",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000058385_elephant",
+      "status": "no_completion",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000058731_clock",
+      "status": "success",
+      "intersection": 23516,
+      "union": 25102,
+      "amodal_iou": 0.9368177834435503
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000059082_bed",
+      "status": "ambiguous_target",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000060172_plate",
+      "status": "success",
+      "intersection": 55597,
+      "union": 269810,
+      "amodal_iou": 0.20605981987324412
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000061626_elephant",
+      "status": "ambiguous_target",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000064111_toilet",
+      "status": "success",
+      "intersection": 75024,
+      "union": 86753,
+      "amodal_iou": 0.8648000645510818
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000068717_cat",
+      "status": "no_completion",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000084214_keyboard",
+      "status": "success",
+      "intersection": 14108,
+      "union": 14693,
+      "amodal_iou": 0.9601851221670183
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000085666_gun",
+      "status": "ambiguous_target",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000096378_sheep",
+      "status": "not_detected",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000101531_pizza",
+      "status": "success",
+      "intersection": 9158,
+      "union": 13898,
+      "amodal_iou": 0.6589437329112102
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000108113_dog",
+      "status": "success",
+      "intersection": 69370,
+      "union": 147033,
+      "amodal_iou": 0.47179884787768733
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000108314_plate",
+      "status": "ambiguous_target",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000108819_train",
+      "status": "success",
+      "intersection": 25749,
+      "union": 37029,
+      "amodal_iou": 0.6953738961354614
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000109106_cat",
+      "status": "success",
+      "intersection": 190503,
+      "union": 202998,
+      "amodal_iou": 0.9384476694351669
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000110979_cat",
+      "status": "no_completion",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000116675_jeep",
+      "status": "success",
+      "intersection": 33639,
+      "union": 36188,
+      "amodal_iou": 0.9295622858406102
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000116677_cat",
+      "status": "success",
+      "intersection": 30886,
+      "union": 34791,
+      "amodal_iou": 0.8877583283032968
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000117418_cat",
+      "status": "success",
+      "intersection": 24451,
+      "union": 58768,
+      "amodal_iou": 0.41605976041383064
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000119294_train",
+      "status": "success",
+      "intersection": 101489,
+      "union": 107014,
+      "amodal_iou": 0.9483712411460182
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000119805_dog",
+      "status": "not_detected",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000132656_bird",
+      "status": "no_completion",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000134085_dog",
+      "status": "not_detected",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000137514_cat",
+      "status": "success",
+      "intersection": 61796,
+      "union": 63440,
+      "amodal_iou": 0.9740857503152585
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000142428_horse",
+      "status": "success",
+      "intersection": 28125,
+      "union": 34322,
+      "amodal_iou": 0.8194452537730902
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000142649_cat",
+      "status": "success",
+      "intersection": 73158,
+      "union": 75611,
+      "amodal_iou": 0.9675576305034982
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000143339_firehydrant",
+      "status": "no_completion",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000145292_bench",
+      "status": "success",
+      "intersection": 38606,
+      "union": 45142,
+      "amodal_iou": 0.8552124407425458
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000147392_bed",
+      "status": "success",
+      "intersection": 59279,
+      "union": 109910,
+      "amodal_iou": 0.5393412792284596
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000152299_dog",
+      "status": "not_detected",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000153202_laptop",
+      "status": "success",
+      "intersection": 71068,
+      "union": 72663,
+      "amodal_iou": 0.978049351114047
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000157181_bench",
+      "status": "no_completion",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000160463_laptop",
+      "status": "success",
+      "intersection": 42700,
+      "union": 90952,
+      "amodal_iou": 0.46947840619227726
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000163068_car",
+      "status": "no_completion",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000168116_flower",
+      "status": "success",
+      "intersection": 60922,
+      "union": 65618,
+      "amodal_iou": 0.9284342710841538
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000168963_cat",
+      "status": "success",
+      "intersection": 18510,
+      "union": 21620,
+      "amodal_iou": 0.8561517113783533
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000169245_elephant",
+      "status": "success",
+      "intersection": 46159,
+      "union": 58970,
+      "amodal_iou": 0.78275394268272
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000170902_truck",
+      "status": "success",
+      "intersection": 37366,
+      "union": 43482,
+      "amodal_iou": 0.8593440964077089
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000173150_plate",
+      "status": "success",
+      "intersection": 198510,
+      "union": 199795,
+      "amodal_iou": 0.9935684076178083
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000176904_bird",
+      "status": "no_completion",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000182020_cat",
+      "status": "no_completion",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000182604_dog",
+      "status": "not_detected",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000190360_car",
+      "status": "success",
+      "intersection": 205097,
+      "union": 211281,
+      "amodal_iou": 0.9707309223261912
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000192759_sofa",
+      "status": "not_detected",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000193166_car",
+      "status": "success",
+      "intersection": 52481,
+      "union": 62097,
+      "amodal_iou": 0.8451454981722144
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000193222_sofa",
+      "status": "success",
+      "intersection": 99878,
+      "union": 103010,
+      "amodal_iou": 0.9695951849335016
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000193254_cat",
+      "status": "success",
+      "intersection": 63969,
+      "union": 69116,
+      "amodal_iou": 0.9255309913768158
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000193254_plate",
+      "status": "success",
+      "intersection": 36239,
+      "union": 37401,
+      "amodal_iou": 0.9689313119970054
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000193340_toycar",
+      "status": "not_detected",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000193690_giraffe",
+      "status": "no_completion",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000193707_cow",
+      "status": "success",
+      "intersection": 93735,
+      "union": 100081,
+      "amodal_iou": 0.936591360997592
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000193819_dog",
+      "status": "not_detected",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000195058_table",
+      "status": "success",
+      "intersection": 20521,
+      "union": 26259,
+      "amodal_iou": 0.7814844434289197
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000197888_plate",
+      "status": "success",
+      "intersection": 10627,
+      "union": 47898,
+      "amodal_iou": 0.2218673013486993
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000203778_cat",
+      "status": "success",
+      "intersection": 75495,
+      "union": 80902,
+      "amodal_iou": 0.9331660527551853
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000203778_keyboard",
+      "status": "success",
+      "intersection": 38234,
+      "union": 42760,
+      "amodal_iou": 0.894153414405987
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000206371_toilet",
+      "status": "success",
+      "intersection": 76275,
+      "union": 79190,
+      "amodal_iou": 0.9631897966915014
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000206656_cat",
+      "status": "success",
+      "intersection": 94232,
+      "union": 102197,
+      "amodal_iou": 0.9220622914566964
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000228244_giraffe",
+      "status": "no_completion",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000233434_bed",
+      "status": "success",
+      "intersection": 36444,
+      "union": 130458,
+      "amodal_iou": 0.27935427493906084
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000236028_cat",
+      "status": "not_detected",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000236028_dog",
+      "status": "success",
+      "intersection": 121436,
+      "union": 125375,
+      "amodal_iou": 0.9685822532402791
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000236596_keyboard",
+      "status": "success",
+      "intersection": 79707,
+      "union": 93191,
+      "amodal_iou": 0.8553079160004722
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000237419_sofa",
+      "status": "success",
+      "intersection": 28705,
+      "union": 68312,
+      "amodal_iou": 0.42020435648202364
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000238453_cat",
+      "status": "success",
+      "intersection": 17265,
+      "union": 30516,
+      "amodal_iou": 0.5657687770349981
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000239323_cat",
+      "status": "no_completion",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000248755_cat",
+      "status": "success",
+      "intersection": 170734,
+      "union": 178962,
+      "amodal_iou": 0.9540237592338038
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000253265_laptop",
+      "status": "success",
+      "intersection": 31797,
+      "union": 32975,
+      "amodal_iou": 0.964275966641395
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000256028_elephant",
+      "status": "no_completion",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000259760_bed",
+      "status": "no_completion",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000267560_sofa",
+      "status": "no_completion",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000267560_dog",
+      "status": "not_detected",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000268546_dog",
+      "status": "not_detected",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000277718_plate",
+      "status": "success",
+      "intersection": 16219,
+      "union": 17548,
+      "amodal_iou": 0.9242648734898564
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000286692_bed",
+      "status": "ambiguous_target",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000290719_refrigerator",
+      "status": "not_detected",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000293265_giraffe",
+      "status": "no_completion",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000309599_airplane",
+      "status": "ambiguous_target",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000324000_laptop",
+      "status": "success",
+      "intersection": 31441,
+      "union": 36945,
+      "amodal_iou": 0.8510217891460279
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000327563_monkey",
+      "status": "success",
+      "intersection": 39688,
+      "union": 42875,
+      "amodal_iou": 0.925667638483965
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000329054_table",
+      "status": "success",
+      "intersection": 50924,
+      "union": 81549,
+      "amodal_iou": 0.6244589142724006
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000357010_keyboard",
+      "status": "success",
+      "intersection": 81558,
+      "union": 84813,
+      "amodal_iou": 0.9616214495419334
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000359726_can",
+      "status": "no_completion",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000362365_bear",
+      "status": "success",
+      "intersection": 259398,
+      "union": 263762,
+      "amodal_iou": 0.9834547812042674
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000372460_dog",
+      "status": "not_detected",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000385803_horse",
+      "status": "success",
+      "intersection": 67535,
+      "union": 74051,
+      "amodal_iou": 0.9120065900528015
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000386778_dog",
+      "status": "not_detected",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000391525_sofa",
+      "status": "no_completion",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000400199_zebra",
+      "status": "no_completion",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000403687_dog",
+      "status": "not_detected",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000409367_laptop",
+      "status": "success",
+      "intersection": 5898,
+      "union": 7111,
+      "amodal_iou": 0.8294192096751511
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000411083_plate",
+      "status": "success",
+      "intersection": 158460,
+      "union": 171317,
+      "amodal_iou": 0.9249519895865559
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000411334_cat",
+      "status": "success",
+      "intersection": 69427,
+      "union": 88784,
+      "amodal_iou": 0.7819764822490539
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000411717_plate",
+      "status": "success",
+      "intersection": 127634,
+      "union": 131679,
+      "amodal_iou": 0.9692813584550308
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000411750_plate",
+      "status": "success",
+      "intersection": 191071,
+      "union": 193573,
+      "amodal_iou": 0.9870746436744794
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000417036_train",
+      "status": "success",
+      "intersection": 15,
+      "union": 168722,
+      "amodal_iou": 8.890364030772513e-05
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000417701_bus",
+      "status": "success",
+      "intersection": 201590,
+      "union": 220410,
+      "amodal_iou": 0.9146136745156753
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000418282_suitcase",
+      "status": "not_detected",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000426656_bench",
+      "status": "success",
+      "intersection": 40307,
+      "union": 41869,
+      "amodal_iou": 0.9626931620053023
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000428834_horse",
+      "status": "success",
+      "intersection": 127464,
+      "union": 133309,
+      "amodal_iou": 0.9561544981959208
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000430753_knife",
+      "status": "no_completion",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000433101_sofa",
+      "status": "success",
+      "intersection": 17510,
+      "union": 18457,
+      "amodal_iou": 0.9486915533401962
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000435042_cat",
+      "status": "success",
+      "intersection": 16676,
+      "union": 20186,
+      "amodal_iou": 0.826117110868919
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000437537_chair",
+      "status": "success",
+      "intersection": 63869,
+      "union": 79439,
+      "amodal_iou": 0.8040005538841123
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000437537_cat",
+      "status": "success",
+      "intersection": 14479,
+      "union": 23399,
+      "amodal_iou": 0.618787127655028
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000439809_horse",
+      "status": "success",
+      "intersection": 41966,
+      "union": 56299,
+      "amodal_iou": 0.7454128847759285
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000439946_bench",
+      "status": "success",
+      "intersection": 116802,
+      "union": 145430,
+      "amodal_iou": 0.8031492814412432
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000440161_giraffe",
+      "status": "no_completion",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000447932_bear",
+      "status": "no_completion",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000450160_bench",
+      "status": "success",
+      "intersection": 15176,
+      "union": 18329,
+      "amodal_iou": 0.827977521959736
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000452682_dog",
+      "status": "no_completion",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000458748_cup",
+      "status": "ambiguous_target",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000459515_pizza",
+      "status": "success",
+      "intersection": 200433,
+      "union": 203118,
+      "amodal_iou": 0.986781082917319
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000468357_laptop",
+      "status": "success",
+      "intersection": 33922,
+      "union": 38415,
+      "amodal_iou": 0.8830404789795653
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000470385_bed",
+      "status": "no_completion",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000470862_cat",
+      "status": "no_completion",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000473531_horse",
+      "status": "no_completion",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000474446_dog",
+      "status": "not_detected",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000474699_plate",
+      "status": "success",
+      "intersection": 66257,
+      "union": 190613,
+      "amodal_iou": 0.34759958659692675
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000475578_pizza",
+      "status": "success",
+      "intersection": 79344,
+      "union": 82122,
+      "amodal_iou": 0.9661722802659458
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000479467_toilet",
+      "status": "success",
+      "intersection": 13770,
+      "union": 26513,
+      "amodal_iou": 0.519367857277562
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000485560_dog",
+      "status": "success",
+      "intersection": 52731,
+      "union": 63207,
+      "amodal_iou": 0.8342588637334473
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000493365_sofa",
+      "status": "success",
+      "intersection": 17012,
+      "union": 75298,
+      "amodal_iou": 0.22592897553719887
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000494504_door",
+      "status": "no_completion",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000495039_cat",
+      "status": "success",
+      "intersection": 140713,
+      "union": 146022,
+      "amodal_iou": 0.9636424648340661
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000497097_cat",
+      "status": "no_completion",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000503928_cat",
+      "status": "ambiguous_target",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000504057_bowl",
+      "status": "success",
+      "intersection": 66521,
+      "union": 111239,
+      "amodal_iou": 0.5980007011929269
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000506296_cat",
+      "status": "success",
+      "intersection": 7813,
+      "union": 10681,
+      "amodal_iou": 0.7314858159348375
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000506296_dog",
+      "status": "not_detected",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000520342_car",
+      "status": "success",
+      "intersection": 99509,
+      "union": 102466,
+      "amodal_iou": 0.9711416469853414
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000523536_chair",
+      "status": "success",
+      "intersection": 15853,
+      "union": 107097,
+      "amodal_iou": 0.14802468789975443
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000524059_elephant",
+      "status": "no_completion",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000526166_bench",
+      "status": "success",
+      "intersection": 18102,
+      "union": 31613,
+      "amodal_iou": 0.5726125328187771
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000531096_dog",
+      "status": "not_detected",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000536934_cat",
+      "status": "success",
+      "intersection": 91869,
+      "union": 96112,
+      "amodal_iou": 0.9558535874812718
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000536934_laptop",
+      "status": "success",
+      "intersection": 205974,
+      "union": 247258,
+      "amodal_iou": 0.8330327026830274
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000537022_cat",
+      "status": "no_completion",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000541429_toy",
+      "status": "ambiguous_target",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000542359_refrigerator",
+      "status": "no_completion",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000550359_toilet",
+      "status": "ambiguous_target",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000559403_bathtub",
+      "status": "success",
+      "intersection": 52787,
+      "union": 54122,
+      "amodal_iou": 0.9753335057832305
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000561565_zebra",
+      "status": "no_completion",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000562999_cat",
+      "status": "no_completion",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000567495_bear",
+      "status": "success",
+      "intersection": 103267,
+      "union": 130885,
+      "amodal_iou": 0.788990335026932
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000570503_motorcycle",
+      "status": "success",
+      "intersection": 103395,
+      "union": 120837,
+      "amodal_iou": 0.8556567938628069
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000580932_cat",
+      "status": "success",
+      "intersection": 52300,
+      "union": 105672,
+      "amodal_iou": 0.4949277008100538
+    },
+    {
+      "id": "COCOA/COCO_test2014_000000004996_elephant",
+      "status": "success",
+      "intersection": 118328,
+      "union": 123973,
+      "amodal_iou": 0.9544658917667557
+    },
+    {
+      "id": "COCOA/COCO_test2014_000000005285_horse",
+      "status": "success",
+      "intersection": 30704,
+      "union": 33536,
+      "amodal_iou": 0.9155534351145038
+    },
+    {
+      "id": "COCOA/COCO_test2014_000000014909_TV",
+      "status": "success",
+      "intersection": 4776,
+      "union": 5132,
+      "amodal_iou": 0.9306313328137179
+    },
+    {
+      "id": "COCOA/COCO_test2014_000000015537_table",
+      "status": "success",
+      "intersection": 33654,
+      "union": 47190,
+      "amodal_iou": 0.7131595677050222
+    },
+    {
+      "id": "COCOA/COCO_test2014_000000015537_door",
+      "status": "success",
+      "intersection": 25167,
+      "union": 30594,
+      "amodal_iou": 0.8226122769170425
+    },
+    {
+      "id": "COCOA/COCO_test2014_000000024836_truck",
+      "status": "success",
+      "intersection": 102416,
+      "union": 134190,
+      "amodal_iou": 0.763216335047321
+    },
+    {
+      "id": "COCOA/COCO_test2014_000000034057_laptop",
+      "status": "success",
+      "intersection": 1975,
+      "union": 2220,
+      "amodal_iou": 0.8896396396396397
+    },
+    {
+      "id": "COCOA/COCO_test2014_000000060759_toilet",
+      "status": "success",
+      "intersection": 13189,
+      "union": 14578,
+      "amodal_iou": 0.9047194402524352
+    },
+    {
+      "id": "COCOA/COCO_test2014_000000064887_cat",
+      "status": "not_detected",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_test2014_000000068197_plate",
+      "status": "success",
+      "intersection": 85648,
+      "union": 92105,
+      "amodal_iou": 0.9298952282720808
+    },
+    {
+      "id": "COCOA/COCO_test2014_000000073268_elephant",
+      "status": "success",
+      "intersection": 61815,
+      "union": 78058,
+      "amodal_iou": 0.7919111429962336
+    },
+    {
+      "id": "COCOA/COCO_test2014_000000102399_keyboard",
+      "status": "success",
+      "intersection": 69188,
+      "union": 71788,
+      "amodal_iou": 0.9637822477294256
+    },
+    {
+      "id": "COCOA/COCO_test2014_000000109499_cat",
+      "status": "success",
+      "intersection": 36587,
+      "union": 37282,
+      "amodal_iou": 0.981358296228743
+    },
+    {
+      "id": "COCOA/COCO_test2014_000000112645_dog",
+      "status": "not_detected",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_test2014_000000116469_cat",
+      "status": "no_completion",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_test2014_000000139050_pizza",
+      "status": "success",
+      "intersection": 210807,
+      "union": 221002,
+      "amodal_iou": 0.9538691957538846
+    },
+    {
+      "id": "COCOA/COCO_test2014_000000146037_house",
+      "status": "success",
+      "intersection": 31534,
+      "union": 51597,
+      "amodal_iou": 0.6111595635405159
+    },
+    {
+      "id": "COCOA/COCO_test2014_000000146735_bed",
+      "status": "ambiguous_target",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_test2014_000000154092_umbrella",
+      "status": "success",
+      "intersection": 24974,
+      "union": 27621,
+      "amodal_iou": 0.9041671192208827
+    },
+    {
+      "id": "COCOA/COCO_test2014_000000169618_bus",
+      "status": "success",
+      "intersection": 149756,
+      "union": 153278,
+      "amodal_iou": 0.9770221427732616
+    },
+    {
+      "id": "COCOA/COCO_test2014_000000172707_bed",
+      "status": "success",
+      "intersection": 37546,
+      "union": 84257,
+      "amodal_iou": 0.4456128274208671
+    },
+    {
+      "id": "COCOA/COCO_test2014_000000173234_laptop",
+      "status": "success",
+      "intersection": 104268,
+      "union": 105662,
+      "amodal_iou": 0.9868069883212508
+    },
+    {
+      "id": "COCOA/COCO_test2014_000000173635_clock",
+      "status": "no_completion",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_test2014_000000179246_bus",
+      "status": "success",
+      "intersection": 79658,
+      "union": 82585,
+      "amodal_iou": 0.9645577284010414
+    },
+    {
+      "id": "COCOA/COCO_test2014_000000191998_bed",
+      "status": "no_completion",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_test2014_000000197935_bus",
+      "status": "no_completion",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_test2014_000000220612_elephant",
+      "status": "success",
+      "intersection": 97024,
+      "union": 179550,
+      "amodal_iou": 0.5403731551099972
+    },
+    {
+      "id": "COCOA/COCO_test2014_000000231201_laptop",
+      "status": "success",
+      "intersection": 34521,
+      "union": 35769,
+      "amodal_iou": 0.9651094523190472
+    },
+    {
+      "id": "COCOA/COCO_test2014_000000231336_banana",
+      "status": "success",
+      "intersection": 55780,
+      "union": 73904,
+      "amodal_iou": 0.754762935700368
+    },
+    {
+      "id": "COCOA/COCO_test2014_000000232157_umbrella",
+      "status": "no_completion",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_test2014_000000237436_cat",
+      "status": "no_completion",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_test2014_000000260571_cat",
+      "status": "no_completion",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_test2014_000000269573_guitar",
+      "status": "success",
+      "intersection": 37282,
+      "union": 83829,
+      "amodal_iou": 0.4447386942466211
+    },
+    {
+      "id": "COCOA/COCO_test2014_000000296835_book",
+      "status": "success",
+      "intersection": 76249,
+      "union": 84126,
+      "amodal_iou": 0.9063666405154174
+    },
+    {
+      "id": "COCOA/COCO_test2014_000000345332_cat",
+      "status": "success",
+      "intersection": 54434,
+      "union": 60165,
+      "amodal_iou": 0.9047452838028754
+    },
+    {
+      "id": "COCOA/COCO_test2014_000000347937_bus",
+      "status": "ambiguous_target",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000000042_dog",
+      "status": "success",
+      "intersection": 51762,
+      "union": 63641,
+      "amodal_iou": 0.8133435992520545
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000013843_bear",
+      "status": "no_completion",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000013980_plate",
+      "status": "success",
+      "intersection": 73436,
+      "union": 175193,
+      "amodal_iou": 0.41917199888123385
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000014007_cat",
+      "status": "no_completion",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000045959_firehydrant",
+      "status": "no_completion",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000051738_bed",
+      "status": "success",
+      "intersection": 3068,
+      "union": 73702,
+      "amodal_iou": 0.04162709288757428
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000052290_cat",
+      "status": "success",
+      "intersection": 73098,
+      "union": 76340,
+      "amodal_iou": 0.9575320932669635
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000053503_plate",
+      "status": "success",
+      "intersection": 20090,
+      "union": 32196,
+      "amodal_iou": 0.6239905578332712
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000054513_plate",
+      "status": "success",
+      "intersection": 56545,
+      "union": 59952,
+      "amodal_iou": 0.9431712036295703
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000056373_cat",
+      "status": "no_completion",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000058797_toilet",
+      "status": "success",
+      "intersection": 29376,
+      "union": 29735,
+      "amodal_iou": 0.9879266857238944
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000065433_dog",
+      "status": "not_detected",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000069884_table",
+      "status": "success",
+      "intersection": 34750,
+      "union": 50643,
+      "amodal_iou": 0.6861757794759394
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000069884_doll",
+      "status": "success",
+      "intersection": 40793,
+      "union": 52273,
+      "amodal_iou": 0.7803837545195417
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000074035_dog",
+      "status": "not_detected",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000074132_bathtub",
+      "status": "no_completion",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000080357_plate",
+      "status": "success",
+      "intersection": 92047,
+      "union": 110820,
+      "amodal_iou": 0.8305991698249413
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000092514_microwave",
+      "status": "no_completion",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000092801_cat",
+      "status": "ambiguous_target",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000098674_bird",
+      "status": "success",
+      "intersection": 24035,
+      "union": 31719,
+      "amodal_iou": 0.757747722185441
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000100329_bear",
+      "status": "no_completion",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000108303_plate",
+      "status": "success",
+      "intersection": 87077,
+      "union": 94263,
+      "amodal_iou": 0.9237664831376043
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000126914_plate",
+      "status": "success",
+      "intersection": 203392,
+      "union": 206257,
+      "amodal_iou": 0.9861095623421265
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000133680_bench",
+      "status": "not_detected",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000137413_cat",
+      "status": "not_detected",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000143450_plate",
+      "status": "success",
+      "intersection": 199553,
+      "union": 214679,
+      "amodal_iou": 0.9295413151728861
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000143450_cake",
+      "status": "success",
+      "intersection": 79377,
+      "union": 91478,
+      "amodal_iou": 0.867716828089814
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000143450_spoon",
+      "status": "no_completion",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000155591_keyboard",
+      "status": "success",
+      "intersection": 21810,
+      "union": 33162,
+      "amodal_iou": 0.6576804776551475
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000155591_laptop",
+      "status": "success",
+      "intersection": 33397,
+      "union": 35269,
+      "amodal_iou": 0.9469222263177295
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000166805_plate",
+      "status": "success",
+      "intersection": 218383,
+      "union": 220002,
+      "amodal_iou": 0.9926409759911273
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000168781_horse",
+      "status": "success",
+      "intersection": 70281,
+      "union": 91062,
+      "amodal_iou": 0.7717928444356592
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000170893_dog",
+      "status": "not_detected",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000174113_microwave",
+      "status": "success",
+      "intersection": 25550,
+      "union": 31888,
+      "amodal_iou": 0.8012418464626192
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000184700_toilet",
+      "status": "no_completion",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000189103_bench",
+      "status": "ambiguous_target",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000207060_toothbrush",
+      "status": "success",
+      "intersection": 22935,
+      "union": 24991,
+      "amodal_iou": 0.9177303829378576
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000212342_bench",
+      "status": "success",
+      "intersection": 18924,
+      "union": 20082,
+      "amodal_iou": 0.9423364206752316
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000221911_plate",
+      "status": "success",
+      "intersection": 28923,
+      "union": 31350,
+      "amodal_iou": 0.9225837320574163
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000222317_dog",
+      "status": "not_detected",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000222343_toilet",
+      "status": "no_completion",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000229255_wateringcan",
+      "status": "not_detected",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000237399_laptop",
+      "status": "success",
+      "intersection": 54263,
+      "union": 56541,
+      "amodal_iou": 0.9597106524468969
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000238292_bird",
+      "status": "success",
+      "intersection": 29614,
+      "union": 51513,
+      "amodal_iou": 0.5748840098615884
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000242907_toilet",
+      "status": "no_completion",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000244581_bed",
+      "status": "no_completion",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000264976_toilet",
+      "status": "success",
+      "intersection": 83260,
+      "union": 85364,
+      "amodal_iou": 0.9753526076566233
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000277831_laptop",
+      "status": "no_completion",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000285894_giraffe",
+      "status": "ambiguous_target",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000289388_toilet",
+      "status": "no_completion",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000290165_elephant",
+      "status": "no_completion",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000296056_dog",
+      "status": "not_detected",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000297425_cake",
+      "status": "success",
+      "intersection": 124135,
+      "union": 153294,
+      "amodal_iou": 0.8097838141088366
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000297604_elephant",
+      "status": "no_completion",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000307573_refrigerator",
+      "status": "no_completion",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000317480_chair",
+      "status": "success",
+      "intersection": 51751,
+      "union": 67127,
+      "amodal_iou": 0.7709416479211048
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000320951_toilet",
+      "status": "no_completion",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000322577_laptop",
+      "status": "no_completion",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000328802_zebra",
+      "status": "no_completion",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000328805_toilet",
+      "status": "no_completion",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000331807_cuttingboard",
+      "status": "success",
+      "intersection": 66941,
+      "union": 67941,
+      "amodal_iou": 0.9852813470511179
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000369386_toilet",
+      "status": "success",
+      "intersection": 32021,
+      "union": 32263,
+      "amodal_iou": 0.9924991476304126
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000371782_teddybear",
+      "status": "success",
+      "intersection": 77136,
+      "union": 81464,
+      "amodal_iou": 0.9468722380437985
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000388298_toilet",
+      "status": "no_completion",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000395997_dog",
+      "status": "not_detected",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000426075_zebra",
+      "status": "success",
+      "intersection": 67015,
+      "union": 77341,
+      "amodal_iou": 0.8664873740965335
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000428847_bicycle",
+      "status": "success",
+      "intersection": 16347,
+      "union": 19227,
+      "amodal_iou": 0.850210641285692
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000453369_cat",
+      "status": "success",
+      "intersection": 111961,
+      "union": 134405,
+      "amodal_iou": 0.8330121647260147
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000473370_laptop",
+      "status": "success",
+      "intersection": 129861,
+      "union": 131736,
+      "amodal_iou": 0.9857669885224996
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000488943_car",
+      "status": "not_detected",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000489793_keyboard",
+      "status": "success",
+      "intersection": 132727,
+      "union": 161648,
+      "amodal_iou": 0.8210865584479857
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000508639_horse",
+      "status": "no_completion",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000529256_bed",
+      "status": "success",
+      "intersection": 17951,
+      "union": 121740,
+      "amodal_iou": 0.14745358961721702
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000543525_refrigerator",
+      "status": "success",
+      "intersection": 33050,
+      "union": 53488,
+      "amodal_iou": 0.6178956027520192
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000550643_pot",
+      "status": "success",
+      "intersection": 55618,
+      "union": 183938,
+      "amodal_iou": 0.30237362589568223
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000559277_dog",
+      "status": "not_detected",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000579034_phone",
+      "status": "no_completion",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000579593_giraffe",
+      "status": "ambiguous_target",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000580698_bear",
+      "status": "success",
+      "intersection": 201848,
+      "union": 211218,
+      "amodal_iou": 0.9556382505278906
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000580951_elephant",
+      "status": "no_completion",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000581033_cat",
+      "status": "success",
+      "intersection": 135411,
+      "union": 142374,
+      "amodal_iou": 0.9510935985502971
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000581422_cow",
+      "status": "not_detected",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000581717_cat",
+      "status": "no_completion",
+      "intersection": null,
+      "union": null,
+      "amodal_iou": 0.0
+    }
+  ]
+}

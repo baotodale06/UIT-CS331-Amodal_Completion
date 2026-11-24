@@ -1,0 +1,839 @@
+{
+  "passed": true,
+  "at": "2026-11-14T04:56:37.921850+00:00",
+  "targets": 2565,
+  "images": 2379,
+  "recovered_metadata_members": 16197,
+  "archive_sha256": "55f01d52989e89941c1f04305f5074d66cca891c185c2ac61065b01578bfa851",
+  "source_sha256": "3afdc29628d33594ab4a39868e0c2dc0505e124b84f8e6bbea145fd104e68478",
+  "estimate_source_sha256": "94a9d68dfb8756e6d2b0a6e60c49e105268a21e0a5b8a67fe7de1bcd37e1dfc8",
+  "metrics": {
+    "CLIP": {
+      "n": 1387,
+      "images": 1317,
+      "baseline": 28.168627441230228,
+      "method": 28.541179137171476,
+      "absolute_gain": 0.3725516959412457,
+      "relative_gain_percent": 1.3225766740623803,
+      "absolute_ci": [
+        0.284030017581858,
+        0.46129621864109854
+      ],
+      "relative_ci_percent": [
+        1.0067643561663198,
+        1.641338656452276
+      ],
+      "undefined_relative_bootstrap_samples": 0
+    },
+    "LPIPS": {
+      "n": 2565,
+      "images": 2379,
+      "baseline": 0.6144084983053263,
+      "method": 0.6070883523912458,
+      "absolute_gain": 0.0073201459140805475,
+      "relative_gain_percent": 1.1914135195510998,
+      "absolute_ci": [
+        0.004622879365662854,
+        0.0101053932863979
+      ],
+      "relative_ci_percent": [
+        0.7493683686125686,
+        1.6411362730789947
+      ],
+      "undefined_relative_bootstrap_samples": 0
+    },
+    "Feature Similarity": {
+      "n": 2565,
+      "images": 2379,
+      "baseline": 0.3496083703538363,
+      "method": 0.3578593586155778,
+      "absolute_gain": 0.008250988261741504,
+      "relative_gain_percent": 2.3600659942411375,
+      "absolute_ci": [
+        0.005749076297420311,
+        0.010831202008512718
+      ],
+      "relative_ci_percent": [
+        1.6435998025371956,
+        3.0998897766005737
+      ],
+      "undefined_relative_bootstrap_samples": 0
+    },
+    "SSIM": {
+      "n": 2565,
+      "images": 2379,
+      "baseline": 0.44562376843817736,
+      "method": 0.45179261583260805,
+      "absolute_gain": 0.006168847394430775,
+      "relative_gain_percent": 1.3843174065987005,
+      "absolute_ci": [
+        0.0033068165592231025,
+        0.009165824748464965
+      ],
+      "relative_ci_percent": [
+        0.7441206319547986,
+        2.0610210658880384
+      ],
+      "undefined_relative_bootstrap_samples": 0
+    }
+  },
+  "unseen_metrics": {
+    "CLIP": {
+      "n": 1011,
+      "images": 972,
+      "baseline": 28.161953296906635,
+      "method": 28.538611043218808,
+      "absolute_gain": 0.3766577463121725,
+      "relative_gain_percent": 1.3374702469716309,
+      "absolute_ci": [
+        0.27523790238492585,
+        0.478016806801636
+      ],
+      "relative_ci_percent": [
+        0.9749724606091685,
+        1.7023581052972245
+      ],
+      "undefined_relative_bootstrap_samples": 0
+    },
+    "LPIPS": {
+      "n": 2017,
+      "images": 1900,
+      "baseline": 0.642323846997574,
+      "method": 0.6371766506838781,
+      "absolute_gain": 0.005147196313695973,
+      "relative_gain_percent": 0.8013397506188826,
+      "absolute_ci": [
+        0.0025597221612306204,
+        0.007587578581626213
+      ],
+      "relative_ci_percent": [
+        0.3962796907703645,
+        1.1794104885476318
+      ],
+      "undefined_relative_bootstrap_samples": 0
+    },
+    "Feature Similarity": {
+      "n": 2017,
+      "images": 1900,
+      "baseline": 0.32246654973091554,
+      "method": 0.32859682474593804,
+      "absolute_gain": 0.006130275015022475,
+      "relative_gain_percent": 1.9010576508285668,
+      "absolute_ci": [
+        0.0036541390809741617,
+        0.00841337583399053
+      ],
+      "relative_ci_percent": [
+        1.1336465155116418,
+        2.6035507956940487
+      ],
+      "undefined_relative_bootstrap_samples": 0
+    },
+    "SSIM": {
+      "n": 2017,
+      "images": 1900,
+      "baseline": 0.4139410871160934,
+      "method": 0.41782504314763663,
+      "absolute_gain": 0.003883956031543186,
+      "relative_gain_percent": 0.9382871506190678,
+      "absolute_ci": [
+        0.0013888753742892798,
+        0.006277544052909072
+      ],
+      "relative_ci_percent": [
+        0.33125415513572565,
+        1.5210297681591973
+      ],
+      "undefined_relative_bootstrap_samples": 0
+    }
+  },
+  "unseen_targets": 2017,
+  "unseen_images": 1900,
+  "per_source": {
+    "COCOA": {
+      "CLIP": {
+        "n": 436,
+        "images": 397,
+        "baseline": 27.569062766678837,
+        "method": 28.154934279415585,
+        "absolute_gain": 0.5858715127367492,
+        "relative_gain_percent": 2.125104932637967,
+        "absolute_ci": [
+          0.41269684036113924,
+          0.7547680575646679
+        ],
+        "relative_ci_percent": [
+          1.4913363853967934,
+          2.751387112573112
+        ],
+        "undefined_relative_bootstrap_samples": 0
+      },
+      "LPIPS": {
+        "n": 845,
+        "images": 751,
+        "baseline": 0.6473442929339479,
+        "method": 0.6409754873688757,
+        "absolute_gain": 0.006368805565072235,
+        "relative_gain_percent": 0.9838359022533436,
+        "absolute_ci": [
+          0.00022166192040586129,
+          0.013324992927155301
+        ],
+        "relative_ci_percent": [
+          0.03487377113539131,
+          2.040625696931668
+        ],
+        "undefined_relative_bootstrap_samples": 0
+      },
+      "Feature Similarity": {
+        "n": 845,
+        "images": 751,
+        "baseline": 0.3111586488739273,
+        "method": 0.31848331298348465,
+        "absolute_gain": 0.007324664109557338,
+        "relative_gain_percent": 2.3539966303572317,
+        "absolute_ci": [
+          0.0017717927019772076,
+          0.01342633945161997
+        ],
+        "relative_ci_percent": [
+          0.5591411849839173,
+          4.355459756257307
+        ],
+        "undefined_relative_bootstrap_samples": 0
+      },
+      "SSIM": {
+        "n": 845,
+        "images": 751,
+        "baseline": 0.42092441769889677,
+        "method": 0.4265342646561328,
+        "absolute_gain": 0.0056098469572360525,
+        "relative_gain_percent": 1.332744483654305,
+        "absolute_ci": [
+          -0.0009386780782758064,
+          0.012864336345152109
+        ],
+        "relative_ci_percent": [
+          -0.220229148787817,
+          3.101483610124643
+        ],
+        "undefined_relative_bootstrap_samples": 0
+      }
+    },
+    "VG": {
+      "CLIP": {
+        "n": 726,
+        "images": 706,
+        "baseline": 28.462688078236646,
+        "method": 28.72810724221642,
+        "absolute_gain": 0.26541916397977466,
+        "relative_gain_percent": 0.93251615325371,
+        "absolute_ci": [
+          0.14519320944719327,
+          0.3881237480960508
+        ],
+        "relative_ci_percent": [
+          0.5090927193590424,
+          1.3668473698903656
+        ],
+        "undefined_relative_bootstrap_samples": 0
+      },
+      "LPIPS": {
+        "n": 1294,
+        "images": 1234,
+        "baseline": 0.5931616310387204,
+        "method": 0.5839147932476247,
+        "absolute_gain": 0.009246837791095745,
+        "relative_gain_percent": 1.5589069331580097,
+        "absolute_ci": [
+          0.006657966162759219,
+          0.01206927858359131
+        ],
+        "relative_ci_percent": [
+          1.1234961948336253,
+          2.0478032198318186
+        ],
+        "undefined_relative_bootstrap_samples": 0
+      },
+      "Feature Similarity": {
+        "n": 1294,
+        "images": 1234,
+        "baseline": 0.3721187010614728,
+        "method": 0.38219326339558435,
+        "absolute_gain": 0.010074562334111522,
+        "relative_gain_percent": 2.707351795374357,
+        "absolute_ci": [
+          0.007553518227797824,
+          0.012831015039752832
+        ],
+        "relative_ci_percent": [
+          2.0243316773580067,
+          3.4638265646051893
+        ],
+        "undefined_relative_bootstrap_samples": 0
+      },
+      "SSIM": {
+        "n": 1294,
+        "images": 1234,
+        "baseline": 0.46350326455655894,
+        "method": 0.47154828614946026,
+        "absolute_gain": 0.008045021592901332,
+        "relative_gain_percent": 1.7356990140291964,
+        "absolute_ci": [
+          0.005627920878039587,
+          0.01082272494000872
+        ],
+        "relative_ci_percent": [
+          1.2184489108967167,
+          2.3434834771197623
+        ],
+        "undefined_relative_bootstrap_samples": 0
+      }
+    },
+    "free_images": {
+      "CLIP": {
+        "n": 132,
+        "images": 123,
+        "baseline": 28.488554347645152,
+        "method": 28.807351343559496,
+        "absolute_gain": 0.31879699591434363,
+        "relative_gain_percent": 1.1190353572317902,
+        "absolute_ci": [
+          0.0870239516358767,
+          0.5700448828486172
+        ],
+        "relative_ci_percent": [
+          0.3017897339739747,
+          2.016442326275857
+        ],
+        "undefined_relative_bootstrap_samples": 0
+      },
+      "LPIPS": {
+        "n": 249,
+        "images": 228,
+        "baseline": 0.6288084355164244,
+        "method": 0.6191499390486015,
+        "absolute_gain": 0.009658496467823005,
+        "relative_gain_percent": 1.5359998247941327,
+        "absolute_ci": [
+          0.0049642482091343705,
+          0.01451408920831801
+        ],
+        "relative_ci_percent": [
+          0.780861112112883,
+          2.3434633937925553
+        ],
+        "undefined_relative_bootstrap_samples": 0
+      },
+      "Feature Similarity": {
+        "n": 249,
+        "images": 228,
+        "baseline": 0.3476874223315572,
+        "method": 0.3571355574461351,
+        "absolute_gain": 0.00944813511457788,
+        "relative_gain_percent": 2.717422175130647,
+        "absolute_ci": [
+          0.003667419790986955,
+          0.015563979777433566
+        ],
+        "relative_ci_percent": [
+          1.0417766211378787,
+          4.530769712362075
+        ],
+        "undefined_relative_bootstrap_samples": 0
+      },
+      "SSIM": {
+        "n": 249,
+        "images": 228,
+        "baseline": 0.42294993263788055,
+        "method": 0.4301071889439104,
+        "absolute_gain": 0.007157256306029866,
+        "relative_gain_percent": 1.69222306323376,
+        "absolute_ci": [
+          0.003484964947298257,
+          0.011153706445036287
+        ],
+        "relative_ci_percent": [
+          0.8363231923753274,
+          2.606536534626023
+        ],
+        "undefined_relative_bootstrap_samples": 0
+      }
+    },
+    "laion": {
+      "CLIP": {
+        "n": 93,
+        "images": 91,
+        "baseline": 28.229829849735385,
+        "method": 28.514923464867376,
+        "absolute_gain": 0.28509361513199344,
+        "relative_gain_percent": 1.009901996042905,
+        "absolute_ci": [
+          -0.013898137307936142,
+          0.5694866984927353
+        ],
+        "relative_ci_percent": [
+          -0.04923610177583096,
+          2.032933701377902
+        ],
+        "undefined_relative_bootstrap_samples": 0
+      },
+      "LPIPS": {
+        "n": 177,
+        "images": 166,
+        "baseline": 0.5922453085665649,
+        "method": 0.5977585297814534,
+        "absolute_gain": -0.00551322121488846,
+        "relative_gain_percent": -0.9309016272720387,
+        "absolute_ci": [
+          -0.020744501920507696,
+          0.008255517385382577
+        ],
+        "relative_ci_percent": [
+          -3.605665007310551,
+          1.3636648799838802
+        ],
+        "undefined_relative_bootstrap_samples": 0
+      },
+      "Feature Similarity": {
+        "n": 177,
+        "images": 166,
+        "baseline": 0.37130307528258716,
+        "method": 0.3689605578527612,
+        "absolute_gain": -0.0023425174298259497,
+        "relative_gain_percent": -0.6308909313619697,
+        "absolute_ci": [
+          -0.015465918108820914,
+          0.009450986350786074
+        ],
+        "relative_ci_percent": [
+          -4.168033387675759,
+          2.629552628435735
+        ],
+        "undefined_relative_bootstrap_samples": 0
+      },
+      "SSIM": {
+        "n": 177,
+        "images": 166,
+        "baseline": 0.4647235905386295,
+        "method": 0.45845442741114195,
+        "absolute_gain": -0.006269163127487509,
+        "relative_gain_percent": -1.3490090142016136,
+        "absolute_ci": [
+          -0.023587097796184245,
+          0.009630983649269209
+        ],
+        "relative_ci_percent": [
+          -5.052511384506251,
+          2.1490599946566857
+        ],
+        "undefined_relative_bootstrap_samples": 0
+      }
+    }
+  },
+  "shared_success_metrics": {
+    "CLIP": {
+      "n": 1387,
+      "images": 1317,
+      "baseline": 28.168627441230228,
+      "method": 28.541179137171476,
+      "absolute_gain": 0.3725516959412457,
+      "relative_gain_percent": 1.3225766740623803,
+      "absolute_ci": [
+        0.284030017581858,
+        0.46129621864109854
+      ],
+      "relative_ci_percent": [
+        1.0067643561663198,
+        1.641338656452276
+      ],
+      "undefined_relative_bootstrap_samples": 0
+    },
+    "LPIPS": {
+      "n": 1387,
+      "images": 1317,
+      "baseline": 0.29047168756915065,
+      "method": 0.2787262666124445,
+      "absolute_gain": 0.011745420956706176,
+      "relative_gain_percent": 4.0435682578908905,
+      "absolute_ci": [
+        0.008606534626887758,
+        0.014960653087517407
+      ],
+      "relative_ci_percent": [
+        2.9724864738774324,
+        5.125410573989775
+      ],
+      "undefined_relative_bootstrap_samples": 0
+    },
+    "Feature Similarity": {
+      "n": 1387,
+      "images": 1317,
+      "baseline": 0.6434930417936486,
+      "method": 0.6573458881625703,
+      "absolute_gain": 0.013852846368921689,
+      "relative_gain_percent": 2.1527577563711926,
+      "absolute_ci": [
+        0.010728868681080705,
+        0.017055397775407512
+      ],
+      "relative_ci_percent": [
+        1.658523997016705,
+        2.653346691412881
+      ],
+      "undefined_relative_bootstrap_samples": 0
+    },
+    "SSIM": {
+      "n": 1387,
+      "images": 1317,
+      "baseline": 0.8199044329036549,
+      "method": 0.8287719263258758,
+      "absolute_gain": 0.008867493422220934,
+      "relative_gain_percent": 1.081527683759082,
+      "absolute_ci": [
+        0.006629656007768715,
+        0.011163123282729302
+      ],
+      "relative_ci_percent": [
+        0.8078636027650344,
+        1.3668208366212755
+      ],
+      "undefined_relative_bootstrap_samples": 0
+    }
+  },
+  "status_counts": {
+    "baseline": {
+      "no_completion": 608,
+      "ambiguous_target": 329,
+      "not_detected": 234,
+      "success": 1394
+    },
+    "surface": {
+      "no_completion": 603,
+      "ambiguous_target": 329,
+      "not_detected": 234,
+      "success": 1399
+    }
+  },
+  "failure_reasons": {
+    "baseline": {
+      "query_mask_too_small": 108,
+      "multiple_distinct_instances": 329,
+      "no_occlusion_detected": 484,
+      "label_not_matched": 232,
+      "no_detections": 2,
+      "completion_not_detected": 15,
+      "unknown_detected_class": 1
+    },
+    "surface": {
+      "query_mask_too_small": 108,
+      "multiple_distinct_instances": 329,
+      "no_occlusion_detected": 484,
+      "label_not_matched": 232,
+      "no_detections": 2,
+      "completion_not_detected": 10,
+      "unknown_detected_class": 1
+    }
+  },
+  "transitions": {
+    "no_completion -> no_completion": 596,
+    "ambiguous_target -> ambiguous_target": 329,
+    "not_detected -> not_detected": 234,
+    "success -> success": 1387,
+    "no_completion -> success": 12,
+    "success -> no_completion": 7
+  },
+  "coverage": {
+    "both_failed": 1159,
+    "shared_success": 1387,
+    "gained": 12,
+    "lost": 7
+  },
+  "lpips_gain_contributions": {
+    "both_failed": 0.0,
+    "shared_success": 0.006351227628441117,
+    "gained": 0.00288955473992792,
+    "lost": -0.0019206364542884902
+  },
+  "capped_successes": {
+    "baseline": 209,
+    "surface": 199
+  },
+  "preserved_cohort_result_hashes": 408,
+  "historical_result_hash_checks": 5538,
+  "decisions_replayed": 2847,
+  "recorded_candidates": 22776,
+  "fallback_decisions": 9,
+  "surface_pass_histogram": {
+    "0": 1156,
+    "1": 944,
+    "6": 209,
+    "2": 180,
+    "3": 37,
+    "5": 22,
+    "4": 17
+  },
+  "no_sampling_reasons": {
+    "query_mask_too_small": 108,
+    "multiple_distinct_instances": 329,
+    "no_occlusion_detected": 484,
+    "label_not_matched": 232,
+    "no_detections": 2,
+    "unknown_detected_class": 1
+  },
+  "compute": {
+    "baseline": {
+      "jobs": [
+        "39486",
+        "39488"
+      ],
+      "allocation_seconds": 22137,
+      "reserved_gpu_hours": 24.596666666666668
+    },
+    "surface": {
+      "jobs": [
+        "39487",
+        "39490",
+        "39491"
+      ],
+      "allocation_seconds": 104765,
+      "reserved_gpu_hours": 116.40555555555555
+    },
+    "allocation_ratio": 4.732574422911867,
+    "scope": "Cohort plus full continuation, including timeout; excludes smoke, failed reference attempts, pool diagnostic, CPU audits and idle queue time."
+  },
+  "registry_entries": [
+    {
+      "entry_id": "8bc78148309a979e702c34a6dac641a6816a584c8225d8482faccda2e0396e73",
+      "recorded_utc": "2026-11-13T19:02:40.043684+00:00",
+      "run_dir": "/home/daoqm/Vu_Hung/cv_nangcao/output/surface-annotated-20261112-freshrefs/baseline",
+      "status": "complete",
+      "hypothesis": "Matched runtime control for frozen Surface-PMC",
+      "reason": "",
+      "baseline_dir": "",
+      "changed_factor": "",
+      "comparison": "",
+      "protocol_sha256": "303d7b78f68ec5d27d86d29415b2580e30b4960768b26eff38b7d5b486552bf1",
+      "inputs_sha256": "2b2646b675f699f4789b391bb7ea544e3a72a30deea57db4356db9f6e5566b4d",
+      "references_sha256": "e51252748cd8d5cf1a7a3b4c95918b0ef66969ca0ff7496577de93947a82a953",
+      "summary_sha256": "184ed88b31c56fe67cfea574c90c2a8edade71cf487b3d503e1461ad91f76b8d",
+      "targets": "2565",
+      "successes": "1394",
+      "failures": "1171",
+      "failure_rate": "0.4565302144249513",
+      "CLIP": "28.15974118275143",
+      "CLIP_n": "1394",
+      "LPIPS": "0.6144084983053263",
+      "LPIPS_n": "2565",
+      "Feature Similarity": "0.3496083703538363",
+      "Feature Similarity_n": "2565",
+      "SSIM": "0.44562376843817725",
+      "SSIM_n": "2565"
+    },
+    {
+      "entry_id": "a7ff31bd96bac1c68386a1e07745f7a31dc58ca1488e290743055be8826a6fab",
+      "recorded_utc": "2026-11-13T19:04:29.628546+00:00",
+      "run_dir": "/home/daoqm/Vu_Hung/cv_nangcao/output/surface-annotated-20261112-freshrefs/surface",
+      "status": "complete",
+      "hypothesis": "Eight-candidate observation-anchored Surface-PMC improves progressive output",
+      "reason": "",
+      "baseline_dir": "",
+      "changed_factor": "",
+      "comparison": "",
+      "protocol_sha256": "31e7c2b7a77153ef6dee61c3817593c62791a9506370b8f1a36c12dfaaecf712",
+      "inputs_sha256": "2b2646b675f699f4789b391bb7ea544e3a72a30deea57db4356db9f6e5566b4d",
+      "references_sha256": "e51252748cd8d5cf1a7a3b4c95918b0ef66969ca0ff7496577de93947a82a953",
+      "summary_sha256": "1f6df9932957f86472d48fa332bf30a29b90ee8b9d5b35f65c1d611ee4444096",
+      "targets": "2565",
+      "successes": "1399",
+      "failures": "1166",
+      "failure_rate": "0.45458089668615986",
+      "CLIP": "28.533665025123447",
+      "CLIP_n": "1399",
+      "LPIPS": "0.6070883523912458",
+      "LPIPS_n": "2565",
+      "Feature Similarity": "0.3578593586155778",
+      "Feature Similarity_n": "2565",
+      "SSIM": "0.451792615832608",
+      "SSIM_n": "2565"
+    }
+  ],
+  "jobs": {
+    "39486": {
+      "id": "39486",
+      "name": "ann-fresh-baseline-cohort",
+      "partition": "debug-gpu",
+      "state": "COMPLETED",
+      "seconds": 1440,
+      "start": "2026-11-12T02:34:21",
+      "end": "2026-11-12T02:58:21",
+      "exit_code": "0:0",
+      "allocated": "billing=16,cpu=16,gres/gpu=4,mem=64G,node=1",
+      "nodes": "gebru"
+    },
+    "39487": {
+      "id": "39487",
+      "name": "ann-fresh-surface-cohort",
+      "partition": "debug-gpu",
+      "state": "COMPLETED",
+      "seconds": 6574,
+      "start": "2026-11-12T03:03:35",
+      "end": "2026-11-12T04:53:09",
+      "exit_code": "0:0",
+      "allocated": "billing=16,cpu=16,gres/gpu=4,mem=64G,node=1",
+      "nodes": "gebru"
+    },
+    "39488": {
+      "id": "39488",
+      "name": "ann-fresh-baseline-full",
+      "partition": "debug-gpu",
+      "state": "COMPLETED",
+      "seconds": 20697,
+      "start": "2026-11-12T04:56:41",
+      "end": "2026-11-12T10:41:38",
+      "exit_code": "0:0",
+      "allocated": "billing=16,cpu=16,gres/gpu=4,mem=64G,node=1",
+      "nodes": "gebru"
+    },
+    "39489": {
+      "id": "39489",
+      "name": "ann-fresh-pool",
+      "partition": "debug-gpu",
+      "state": "COMPLETED",
+      "seconds": 211,
+      "start": "2026-11-12T04:53:09",
+      "end": "2026-11-12T04:56:40",
+      "exit_code": "0:0",
+      "allocated": "billing=16,cpu=16,gres/gpu=4,mem=64G,node=1",
+      "nodes": "gebru"
+    },
+    "39490": {
+      "id": "39490",
+      "name": "ann-fresh-surface-full",
+      "partition": "debug-gpu",
+      "state": "TIMEOUT",
+      "seconds": 86419,
+      "start": "2026-11-12T10:41:38",
+      "end": "2026-11-13T10:41:57",
+      "exit_code": "0:0",
+      "allocated": "billing=16,cpu=16,gres/gpu=4,mem=64G,node=1",
+      "nodes": "gebru"
+    },
+    "39491": {
+      "id": "39491",
+      "name": "ann-fresh-surface-resume",
+      "partition": "debug-gpu",
+      "state": "COMPLETED",
+      "seconds": 11772,
+      "start": "2026-11-13T10:41:58",
+      "end": "2026-11-13T13:58:10",
+      "exit_code": "0:0",
+      "allocated": "billing=16,cpu=16,gres/gpu=4,mem=64G,node=1",
+      "nodes": "gebru"
+    },
+    "39492": {
+      "id": "39492",
+      "name": "ann-fresh-finalize",
+      "partition": "debug-cpu",
+      "state": "COMPLETED",
+      "seconds": 489,
+      "start": "2026-11-13T13:58:10",
+      "end": "2026-11-13T14:06:19",
+      "exit_code": "0:0",
+      "allocated": "billing=4,cpu=4,mem=12G,node=1",
+      "nodes": "floyd"
+    },
+    "39493": {
+      "id": "39493",
+      "name": "ann-export-cohort",
+      "partition": "debug-cpu",
+      "state": "COMPLETED",
+      "seconds": 88,
+      "start": "2026-11-12T04:53:09",
+      "end": "2026-11-12T04:54:37",
+      "exit_code": "0:0",
+      "allocated": "billing=2,cpu=2,mem=8G,node=1",
+      "nodes": "floyd"
+    },
+    "39494": {
+      "id": "39494",
+      "name": "ann-export-pool",
+      "partition": "debug-cpu",
+      "state": "COMPLETED",
+      "seconds": 1,
+      "start": "2026-11-12T04:56:41",
+      "end": "2026-11-12T04:56:42",
+      "exit_code": "0:0",
+      "allocated": "billing=2,cpu=2,mem=8G,node=1",
+      "nodes": "floyd"
+    },
+    "39495": {
+      "id": "39495",
+      "name": "ann-export-full",
+      "partition": "debug-cpu",
+      "state": "COMPLETED",
+      "seconds": 114,
+      "start": "2026-11-13T14:06:39",
+      "end": "2026-11-13T14:08:33",
+      "exit_code": "0:0",
+      "allocated": "billing=2,cpu=2,mem=8G,node=1",
+      "nodes": "floyd"
+    },
+    "39496": {
+      "id": "39496",
+      "name": "ann-fresh-smoke",
+      "partition": "debug-gpu",
+      "state": "COMPLETED",
+      "seconds": 314,
+      "start": "2026-11-12T02:58:21",
+      "end": "2026-11-12T03:03:35",
+      "exit_code": "0:0",
+      "allocated": "billing=16,cpu=16,gres/gpu=4,mem=64G,node=1",
+      "nodes": "gebru"
+    },
+    "39497": {
+      "id": "39497",
+      "name": "ann-full-audit",
+      "partition": "debug-cpu",
+      "state": "COMPLETED",
+      "seconds": 20,
+      "start": "2026-11-13T14:06:19",
+      "end": "2026-11-13T14:06:39",
+      "exit_code": "0:0",
+      "allocated": "billing=4,cpu=4,mem=12G,node=1",
+      "nodes": "floyd"
+    },
+    "39498": {
+      "id": "39498",
+      "name": "ann-native-audit-cohort",
+      "partition": "debug-cpu",
+      "state": "COMPLETED",
+      "seconds": 209,
+      "start": "2026-11-12T04:53:09",
+      "end": "2026-11-12T04:56:38",
+      "exit_code": "0:0",
+      "allocated": "billing=4,cpu=4,mem=12G,node=1",
+      "nodes": "floyd"
+    },
+    "39499": {
+      "id": "39499",
+      "name": "ann-native-audit-pool",
+      "partition": "debug-cpu",
+      "state": "COMPLETED",
+      "seconds": 191,
+      "start": "2026-11-12T04:56:41",
+      "end": "2026-11-12T04:59:52",
+      "exit_code": "0:0",
+      "allocated": "billing=4,cpu=4,mem=12G,node=1",
+      "nodes": "floyd"
+    }
+  },
+  "full_metric_point_target_met": false,
+  "method_parameters_unchanged": true,
+  "local_full_native_verification": false,
+  "local_neural_metrics_recomputed": false,
+  "local_feature_extraction_recomputed": false,
+  "local_full_rgb_correction_replay": false,
+  "numpy_version": "2.5.3",
+  "scope": "Independent metadata, provenance, registry, stored-feature selector, arithmetic and bootstrap audit. Native full-run artifacts were verified on the cluster; full PNGs remain there. Primary cohort and its native replay remain separate. New decomposition/source analyses are post-hoc descriptive."
+}

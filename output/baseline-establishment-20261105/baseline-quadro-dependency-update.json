@@ -1,0 +1,7 @@
+{
+  "updated_utc": "2026-11-05T10:09:20.542774+00:00",
+  "command": "scontrol update JobId=30426 Partition=debug-gpu Dependency=afterok:30436",
+  "returncode": 0,
+  "stdout": "",
+  "stderr": ""
+}

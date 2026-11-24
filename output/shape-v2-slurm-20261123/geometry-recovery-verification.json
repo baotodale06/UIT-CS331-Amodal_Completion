@@ -1,0 +1,37 @@
+{
+  "verified": true,
+  "at": "2026-11-23T10:19:29.533333+00:00",
+  "snapshot": "recovery/20261123T101929.137326Z",
+  "freeze_sha256": "6078e500c236095a537000d2d3f90838253ab7542d39c69d0fafe67db150523b",
+  "geometry": {
+    "validation": {
+      "sha256": "b23525451aca0154664b65b65017e68df8f07f60ca836e6471684b55f9a97999",
+      "aggregate": {
+        "objects": 1264,
+        "images": 217,
+        "full_iou": 0.8887311603237202,
+        "full_iou_images": 217,
+        "visible_only_full_iou": 0.8747651105671711,
+        "visible_only_full_iou_images": 217,
+        "hidden_iou": 0.4366466431941758,
+        "hidden_iou_images": 177
+      }
+    },
+    "holdout": {
+      "sha256": "7a93c9b6457dd8cad59f1ddc047f67180245923010965c614478c1037d02d65a",
+      "aggregate": {
+        "objects": 1183,
+        "images": 195,
+        "full_iou": 0.8749363365910948,
+        "full_iou_images": 195,
+        "visible_only_full_iou": 0.8718718875516753,
+        "visible_only_full_iou_images": 195,
+        "hidden_iou": 0.4213458902062311,
+        "hidden_iou_images": 166
+      }
+    }
+  },
+  "local_neural_inference_recomputed": false,
+  "scope": "Recovered model/policy/data binding and image-grouped arithmetic replay; native GPU predictions were computed on the cluster.",
+  "benchmark_success": false
+}

@@ -1,0 +1,48 @@
+{
+  "at": "2026-11-24T12:32:00.741882+00:00",
+  "completed": true,
+  "assessment_sha256": "9aca4cd8b074ea4badf3f0f48f50e1c6513c14b39416dd023a65f0bee064de0b",
+  "execution_sha256": "e0678cf4515beaae3a738c280ce052aef42dface5812f7aacc50a6388ba6a4a8",
+  "independent_replay_sha256": "6685eadd221a1ad4d4e849d8325173c15ea6581aab7abc6470d2ac1afea3d254",
+  "native_objects": 1264,
+  "native_images": 217,
+  "exported_binary_masks_audited": 8848,
+  "retained_offsets": [],
+  "diagnostic_processes_exited": true,
+  "processes": [
+    {
+      "ProcessId": 14576,
+      "ParentProcessId": 29004,
+      "CommandLine": "\"C:\\Python314\\python.exe\" -u scripts/collect_shape_v2.py --watch",
+      "CreationDate": "/Date(1795430610529)/"
+    },
+    {
+      "ProcessId": 2860,
+      "ParentProcessId": 36432,
+      "CommandLine": "\"C:\\Python314\\python.exe\" -u scripts/collect_shape_constrained.py --watch",
+      "CreationDate": "/Date(1795438864002)/"
+    },
+    {
+      "ProcessId": 22844,
+      "ParentProcessId": 26520,
+      "CommandLine": "\"C:\\Python314\\python.exe\" -u output/shape-calibrated-benchmark-20261123/collect.py --watch",
+      "CreationDate": "/Date(1795450333705)/"
+    },
+    {
+      "ProcessId": 23064,
+      "ParentProcessId": 36700,
+      "CommandLine": "C:\\Users\\daovu\\.cache\\shape-kaggle-cli\\Scripts\\python.exe -u C:\\Users\\daovu\\Documents\\Project\\cv_nangcao\\output\\shape-calibrated-batch-20261124\\collector.py --watch",
+      "CreationDate": "/Date(1795521354578)/"
+    }
+  ],
+  "kaggle": {
+    "at": "2026-11-24T12:31:38.670884+00:00",
+    "kernel": "ez4kacchan/shape-calibrated-batch-20261124/1",
+    "observer_pid": 23064,
+    "benchmark_success": false,
+    "observer_manifest_sha256": "e225378a0c7f2763c60a0d246fae7ba7a8539d8935a830aad9362beb9b1d6545",
+    "state": "QUEUED",
+    "disposition": "waiting"
+  },
+  "benchmark_success": false
+}

@@ -1,0 +1,3441 @@
+{
+  "n": 159,
+  "methods": {
+    "boundary": {
+      "hidden_core_mae": {
+        "mean": 0.16345536657453796,
+        "ci_low": 0.15172410921894805,
+        "ci_high": 0.1755119334986388,
+        "n": 159
+      },
+      "gain_vs_uniform": {
+        "mean": 0.0064014854237437096,
+        "ci_low": 0.0018813979097195256,
+        "ci_high": 0.011055004076330768,
+        "n": 159
+      },
+      "gain_vs_valid_uniform": {
+        "mean": 0.005670672485053822,
+        "ci_low": 0.0011457785490855774,
+        "ci_high": 0.010306498791009859,
+        "n": 159
+      },
+      "gain_vs_fixed": {
+        "mean": 0.006045894229318663,
+        "ci_low": -9.606587817859736e-05,
+        "ci_high": 0.012556285156356458,
+        "n": 159
+      },
+      "hidden_mask_recall": 0.740553824994406,
+      "visible_mae": 0.031297083861239985,
+      "oracle_regret": 0.024658654058507302,
+      "fallbacks": 1,
+      "wins": 90,
+      "ties": 0,
+      "losses": 69,
+      "by_source": {
+        "COCOA": {
+          "n": 42,
+          "hidden_core_mae": 0.1591496084640078,
+          "gain_vs_uniform": 0.012016962170396004
+        },
+        "VG": {
+          "n": 42,
+          "hidden_core_mae": 0.15339763698863645,
+          "gain_vs_uniform": 0.002456760195102079
+        },
+        "free_images": {
+          "n": 42,
+          "hidden_core_mae": 0.1637212480416967,
+          "gain_vs_uniform": 0.004627569523853521
+        },
+        "laion": {
+          "n": 33,
+          "hidden_core_mae": 0.18139777450270353,
+          "gain_vs_uniform": 0.006532785546135828
+        }
+      }
+    },
+    "color": {
+      "hidden_core_mae": {
+        "mean": 0.16259019203205335,
+        "ci_low": 0.1507878106873333,
+        "ci_high": 0.17469693698811645,
+        "n": 159
+      },
+      "gain_vs_uniform": {
+        "mean": 0.007266659966228316,
+        "ci_low": 0.002067258887616697,
+        "ci_high": 0.012511465049161211,
+        "n": 159
+      },
+      "gain_vs_valid_uniform": {
+        "mean": 0.006535847027538428,
+        "ci_low": 0.001396584239569971,
+        "ci_high": 0.0115629996679767,
+        "n": 159
+      },
+      "gain_vs_fixed": {
+        "mean": 0.006911068771803268,
+        "ci_low": -0.0003672668227814532,
+        "ci_high": 0.014631347293653753,
+        "n": 159
+      },
+      "hidden_mask_recall": 0.7422818873214091,
+      "visible_mae": 0.031450875320977165,
+      "oracle_regret": 0.023793479516022703,
+      "fallbacks": 1,
+      "wins": 96,
+      "ties": 0,
+      "losses": 63,
+      "by_source": {
+        "COCOA": {
+          "n": 42,
+          "hidden_core_mae": 0.16170802198810083,
+          "gain_vs_uniform": 0.009458548646302982
+        },
+        "VG": {
+          "n": 42,
+          "hidden_core_mae": 0.15018265542411557,
+          "gain_vs_uniform": 0.00567174175962296
+        },
+        "free_images": {
+          "n": 42,
+          "hidden_core_mae": 0.16275751839492483,
+          "gain_vs_uniform": 0.0055912991706253785
+        },
+        "laion": {
+          "n": 33,
+          "hidden_core_mae": 0.17929140330898644,
+          "gain_vs_uniform": 0.008639156739852933
+        }
+      }
+    },
+    "texture": {
+      "hidden_core_mae": {
+        "mean": 0.16656480201139878,
+        "ci_low": 0.15480407784605354,
+        "ci_high": 0.17845210592737026,
+        "n": 159
+      },
+      "gain_vs_uniform": {
+        "mean": 0.0032920499868828966,
+        "ci_low": -0.0014143814538524029,
+        "ci_high": 0.008050495303891719,
+        "n": 159
+      },
+      "gain_vs_valid_uniform": {
+        "mean": 0.0025612370481930082,
+        "ci_low": -0.0021302614693276957,
+        "ci_high": 0.00729921670148918,
+        "n": 159
+      },
+      "gain_vs_fixed": {
+        "mean": 0.0029364587924578488,
+        "ci_low": -0.0030451467410213206,
+        "ci_high": 0.009382042278375004,
+        "n": 159
+      },
+      "hidden_mask_recall": 0.7323227048749149,
+      "visible_mae": 0.03149132503283214,
+      "oracle_regret": 0.027768089495368124,
+      "fallbacks": 1,
+      "wins": 88,
+      "ties": 0,
+      "losses": 71,
+      "by_source": {
+        "COCOA": {
+          "n": 42,
+          "hidden_core_mae": 0.16450291188752356,
+          "gain_vs_uniform": 0.006663658746880246
+        },
+        "VG": {
+          "n": 42,
+          "hidden_core_mae": 0.15449042811710983,
+          "gain_vs_uniform": 0.0013639690666287156
+        },
+        "free_images": {
+          "n": 42,
+          "hidden_core_mae": 0.16711454023218314,
+          "gain_vs_uniform": 0.0012342773333670792
+        },
+        "laion": {
+          "n": 33,
+          "hidden_core_mae": 0.18385674393533671,
+          "gain_vs_uniform": 0.004073816113502628
+        }
+      }
+    },
+    "boundary_color": {
+      "hidden_core_mae": {
+        "mean": 0.1632774438257657,
+        "ci_low": 0.15174300709824934,
+        "ci_high": 0.17505685896923734,
+        "n": 159
+      },
+      "gain_vs_uniform": {
+        "mean": 0.006579408172515984,
+        "ci_low": 0.0016442948860901398,
+        "ci_high": 0.011367681483009097,
+        "n": 159
+      },
+      "gain_vs_valid_uniform": {
+        "mean": 0.0058485952338260955,
+        "ci_low": 0.0009244208220918431,
+        "ci_high": 0.01056791899424689,
+        "n": 159
+      },
+      "gain_vs_fixed": {
+        "mean": 0.006223816978090938,
+        "ci_low": -0.0008331701109811852,
+        "ci_high": 0.013694606792621269,
+        "n": 159
+      },
+      "hidden_mask_recall": 0.7308983136220881,
+      "visible_mae": 0.03133445441395284,
+      "oracle_regret": 0.02448073130973503,
+      "fallbacks": 1,
+      "wins": 90,
+      "ties": 0,
+      "losses": 69,
+      "by_source": {
+        "COCOA": {
+          "n": 42,
+          "hidden_core_mae": 0.15365174957670322,
+          "gain_vs_uniform": 0.0175148210577006
+        },
+        "VG": {
+          "n": 42,
+          "hidden_core_mae": 0.15313940129897016,
+          "gain_vs_uniform": 0.0027149958847683766
+        },
+        "free_images": {
+          "n": 42,
+          "hidden_core_mae": 0.1641803004819614,
+          "gain_vs_uniform": 0.004168517083588809
+        },
+        "laion": {
+          "n": 33,
+          "hidden_core_mae": 0.1872822003416995,
+          "gain_vs_uniform": 0.0006483597071398306
+        }
+      }
+    },
+    "boundary_texture": {
+      "hidden_core_mae": {
+        "mean": 0.16405715509959484,
+        "ci_low": 0.1527192556745134,
+        "ci_high": 0.17588288751929215,
+        "n": 159
+      },
+      "gain_vs_uniform": {
+        "mean": 0.005799696898686838,
+        "ci_low": 0.0011854415951775893,
+        "ci_high": 0.010466613665597594,
+        "n": 159
+      },
+      "gain_vs_valid_uniform": {
+        "mean": 0.00506888395999695,
+        "ci_low": 0.0004062625786266553,
+        "ci_high": 0.00971850427197254,
+        "n": 159
+      },
+      "gain_vs_fixed": {
+        "mean": 0.0054441057042617915,
+        "ci_low": -0.0007337199522431606,
+        "ci_high": 0.012290441585064343,
+        "n": 159
+      },
+      "hidden_mask_recall": 0.7303830578854156,
+      "visible_mae": 0.03131896310558216,
+      "oracle_regret": 0.02526044258356418,
+      "fallbacks": 1,
+      "wins": 87,
+      "ties": 0,
+      "losses": 72,
+      "by_source": {
+        "COCOA": {
+          "n": 42,
+          "hidden_core_mae": 0.15322646768125314,
+          "gain_vs_uniform": 0.01794010295315066
+        },
+        "VG": {
+          "n": 42,
+          "hidden_core_mae": 0.15492995292767078,
+          "gain_vs_uniform": 0.0009244442560677746
+        },
+        "free_images": {
+          "n": 42,
+          "hidden_core_mae": 0.16693722329490454,
+          "gain_vs_uniform": 0.001411594270645681
+        },
+        "laion": {
+          "n": 33,
+          "hidden_core_mae": 0.18579256414772072,
+          "gain_vs_uniform": 0.002137995901118617
+        }
+      }
+    },
+    "surface_full": {
+      "hidden_core_mae": {
+        "mean": 0.16554660787429482,
+        "ci_low": 0.15423159357291497,
+        "ci_high": 0.17711644112277894,
+        "n": 159
+      },
+      "gain_vs_uniform": {
+        "mean": 0.004310244123986858,
+        "ci_low": -0.000512018445688576,
+        "ci_high": 0.009074011894031404,
+        "n": 159
+      },
+      "gain_vs_valid_uniform": {
+        "mean": 0.003579431185296969,
+        "ci_low": -0.0011495585921139785,
+        "ci_high": 0.00824731284362441,
+        "n": 159
+      },
+      "gain_vs_fixed": {
+        "mean": 0.003954652929561811,
+        "ci_low": -0.0026025289007648505,
+        "ci_high": 0.010900825882838628,
+        "n": 159
+      },
+      "hidden_mask_recall": 0.7310466159159452,
+      "visible_mae": 0.03129852394975597,
+      "oracle_regret": 0.026749895358264157,
+      "fallbacks": 1,
+      "wins": 84,
+      "ties": 0,
+      "losses": 75,
+      "by_source": {
+        "COCOA": {
+          "n": 42,
+          "hidden_core_mae": 0.15416332817084785,
+          "gain_vs_uniform": 0.017003242463555966
+        },
+        "VG": {
+          "n": 42,
+          "hidden_core_mae": 0.1554380667047745,
+          "gain_vs_uniform": 0.00041633047896404087
+        },
+        "free_images": {
+          "n": 42,
+          "hidden_core_mae": 0.1692549990333721,
+          "gain_vs_uniform": -0.0009061814678218897
+        },
+        "laion": {
+          "n": 33,
+          "hidden_core_mae": 0.18818006387379116,
+          "gain_vs_uniform": -0.0002495038249518373
+        }
+      }
+    },
+    "local_surface": {
+      "hidden_core_mae": {
+        "mean": 0.16267033591540167,
+        "ci_low": 0.1510557288488465,
+        "ci_high": 0.1741821422434481,
+        "n": 159
+      },
+      "gain_vs_uniform": {
+        "mean": 0.007186516082879979,
+        "ci_low": 0.0021826751468691664,
+        "ci_high": 0.012295668875614372,
+        "n": 159
+      },
+      "gain_vs_valid_uniform": {
+        "mean": 0.006455703144190092,
+        "ci_low": 0.0015343969837368328,
+        "ci_high": 0.011507110105771252,
+        "n": 159
+      },
+      "gain_vs_fixed": {
+        "mean": 0.006830924888454933,
+        "ci_low": -0.0002996706461849316,
+        "ci_high": 0.014408456088515594,
+        "n": 159
+      },
+      "hidden_mask_recall": 0.7391619200896175,
+      "visible_mae": 0.031489126252231284,
+      "oracle_regret": 0.023873623399371036,
+      "fallbacks": 1,
+      "wins": 89,
+      "ties": 0,
+      "losses": 70,
+      "by_source": {
+        "COCOA": {
+          "n": 42,
+          "hidden_core_mae": 0.15926732256569107,
+          "gain_vs_uniform": 0.01189924806871275
+        },
+        "VG": {
+          "n": 42,
+          "hidden_core_mae": 0.1489241894104078,
+          "gain_vs_uniform": 0.00693020777333074
+        },
+        "free_images": {
+          "n": 42,
+          "hidden_core_mae": 0.1657734135667656,
+          "gain_vs_uniform": 0.0025754039987846084
+        },
+        "laion": {
+          "n": 33,
+          "hidden_core_mae": 0.1805471678105625,
+          "gain_vs_uniform": 0.007383392238276871
+        }
+      }
+    },
+    "visible_preservation": {
+      "hidden_core_mae": {
+        "mean": 0.164304636310542,
+        "ci_low": 0.1521977481949807,
+        "ci_high": 0.17688440857427337,
+        "n": 159
+      },
+      "gain_vs_uniform": {
+        "mean": 0.005552215687739674,
+        "ci_low": 0.0004986291958193047,
+        "ci_high": 0.010811746814202735,
+        "n": 159
+      },
+      "gain_vs_valid_uniform": {
+        "mean": 0.004821402749049786,
+        "ci_low": -0.00022380015687057387,
+        "ci_high": 0.010117558541855136,
+        "n": 159
+      },
+      "gain_vs_fixed": {
+        "mean": 0.005196624493314628,
+        "ci_low": -0.00105140731994449,
+        "ci_high": 0.011797815441681394,
+        "n": 159
+      },
+      "hidden_mask_recall": 0.7278488318942838,
+      "visible_mae": 0.030779100532810327,
+      "oracle_regret": 0.025507923794511344,
+      "fallbacks": 1,
+      "wins": 94,
+      "ties": 0,
+      "losses": 65,
+      "by_source": {
+        "COCOA": {
+          "n": 42,
+          "hidden_core_mae": 0.16109840670520145,
+          "gain_vs_uniform": 0.010068163929202354
+        },
+        "VG": {
+          "n": 42,
+          "hidden_core_mae": 0.15986534387807425,
+          "gain_vs_uniform": -0.004010946694335712
+        },
+        "free_images": {
+          "n": 42,
+          "hidden_core_mae": 0.15842528826103583,
+          "gain_vs_uniform": 0.00992352930451436
+        },
+        "laion": {
+          "n": 33,
+          "hidden_core_mae": 0.18151810733076038,
+          "gain_vs_uniform": 0.006412452718078972
+        }
+      }
+    },
+    "fixed_seed_11": {
+      "hidden_core_mae": {
+        "mean": 0.16950126080385663,
+        "ci_low": 0.15753385950992335,
+        "ci_high": 0.1816572903525304,
+        "n": 159
+      },
+      "gain_vs_uniform": {
+        "mean": 0.0003555911944250473,
+        "ci_low": -0.004200830946169328,
+        "ci_high": 0.004745255404960014,
+        "n": 159
+      },
+      "gain_vs_valid_uniform": {
+        "mean": -0.0003752217442648414,
+        "ci_low": -0.005159159030921864,
+        "ci_high": 0.004284359298137829,
+        "n": 159
+      },
+      "gain_vs_fixed": {
+        "mean": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0,
+        "n": 159
+      },
+      "hidden_mask_recall": 0.680091618385884,
+      "visible_mae": 0.0314877399896353,
+      "oracle_regret": 0.030704548287825973,
+      "fallbacks": 0,
+      "wins": 90,
+      "ties": 0,
+      "losses": 69,
+      "by_source": {
+        "COCOA": {
+          "n": 42,
+          "hidden_core_mae": 0.1714652033979853,
+          "gain_vs_uniform": -0.0002986327635814729
+        },
+        "VG": {
+          "n": 42,
+          "hidden_core_mae": 0.15283679033577563,
+          "gain_vs_uniform": 0.0030176068479629095
+        },
+        "free_images": {
+          "n": 42,
+          "hidden_core_mae": 0.17156268315999132,
+          "gain_vs_uniform": -0.003213865594441139
+        },
+        "laion": {
+          "n": 33,
+          "hidden_core_mae": 0.1855873950992609,
+          "gain_vs_uniform": 0.0023431649495784827
+        }
+      }
+    },
+    "oracle_hidden_mae": {
+      "hidden_core_mae": {
+        "mean": 0.13879671251603065,
+        "ci_low": 0.12831621044562933,
+        "ci_high": 0.1493835185980087,
+        "n": 159
+      },
+      "gain_vs_uniform": {
+        "mean": 0.03106013948225102,
+        "ci_low": 0.027695670954617092,
+        "ci_high": 0.03469030058917549,
+        "n": 159
+      },
+      "gain_vs_valid_uniform": {
+        "mean": 0.030329326543561137,
+        "ci_low": 0.02699795962240573,
+        "ci_high": 0.03389718596207096,
+        "n": 159
+      },
+      "gain_vs_fixed": {
+        "mean": 0.030704548287825973,
+        "ci_low": 0.02460643853476505,
+        "ci_high": 0.03746408733782712,
+        "n": 159
+      },
+      "hidden_mask_recall": 0.7572977334232143,
+      "visible_mae": 0.03151637844245826,
+      "oracle_regret": 0.0,
+      "fallbacks": 0,
+      "wins": 159,
+      "ties": 0,
+      "losses": 0,
+      "by_source": {
+        "COCOA": {
+          "n": 42,
+          "hidden_core_mae": 0.1357450442790384,
+          "gain_vs_uniform": 0.035421526355365406
+        },
+        "VG": {
+          "n": 42,
+          "hidden_core_mae": 0.13145958553695797,
+          "gain_vs_uniform": 0.02439481164678056
+        },
+        "free_images": {
+          "n": 42,
+          "hidden_core_mae": 0.13071216810546515,
+          "gain_vs_uniform": 0.03763664946008506
+        },
+        "laion": {
+          "n": 33,
+          "hidden_core_mae": 0.16230823567719668,
+          "gain_vs_uniform": 0.025622324371642684
+        }
+      }
+    },
+    "development_selected": {
+      "hidden_core_mae": {
+        "mean": 0.16656480201139878,
+        "ci_low": 0.15480407784605354,
+        "ci_high": 0.17845210592737026,
+        "n": 159
+      },
+      "gain_vs_uniform": {
+        "mean": 0.0032920499868828966,
+        "ci_low": -0.0014143814538524029,
+        "ci_high": 0.008050495303891719,
+        "n": 159
+      },
+      "gain_vs_valid_uniform": {
+        "mean": 0.0025612370481930082,
+        "ci_low": -0.0021302614693276957,
+        "ci_high": 0.00729921670148918,
+        "n": 159
+      },
+      "gain_vs_fixed": {
+        "mean": 0.0029364587924578488,
+        "ci_low": -0.0030451467410213206,
+        "ci_high": 0.009382042278375004,
+        "n": 159
+      },
+      "hidden_mask_recall": 0.7323227048749149,
+      "visible_mae": 0.03149132503283214,
+      "oracle_regret": 0.027768089495368124,
+      "fallbacks": 1,
+      "wins": 88,
+      "ties": 0,
+      "losses": 71,
+      "by_source": {
+        "COCOA": {
+          "n": 42,
+          "hidden_core_mae": 0.16450291188752356,
+          "gain_vs_uniform": 0.006663658746880246
+        },
+        "VG": {
+          "n": 42,
+          "hidden_core_mae": 0.15449042811710983,
+          "gain_vs_uniform": 0.0013639690666287156
+        },
+        "free_images": {
+          "n": 42,
+          "hidden_core_mae": 0.16711454023218314,
+          "gain_vs_uniform": 0.0012342773333670792
+        },
+        "laion": {
+          "n": 33,
+          "hidden_core_mae": 0.18385674393533671,
+          "gain_vs_uniform": 0.004073816113502628
+        }
+      }
+    },
+    "uniform_random": {
+      "hidden_core_mae": {
+        "mean": 0.16985685199828165,
+        "ci_low": 0.15897651526966042,
+        "ci_high": 0.18085990590663598,
+        "n": 159
+      },
+      "gain_vs_uniform": {
+        "mean": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0,
+        "n": 159
+      },
+      "gain_vs_valid_uniform": {
+        "mean": -0.0007308129386898881,
+        "ci_low": -0.0016006694102288393,
+        "ci_high": 5.944415118392632e-06,
+        "n": 159
+      },
+      "gain_vs_fixed": {
+        "mean": -0.0003555911944250473,
+        "ci_low": -0.0047452554049600155,
+        "ci_high": 0.004200830946169327,
+        "n": 159
+      },
+      "hidden_mask_recall": 0.6879780665049223,
+      "visible_mae": 0.031547031993298544,
+      "oracle_regret": 0.03106013948225102,
+      "fallbacks": 0,
+      "wins": 0,
+      "ties": 159,
+      "losses": 0,
+      "by_source": {
+        "COCOA": {
+          "n": 42,
+          "hidden_core_mae": 0.17116657063440383,
+          "gain_vs_uniform": 0.0
+        },
+        "VG": {
+          "n": 42,
+          "hidden_core_mae": 0.15585439718373853,
+          "gain_vs_uniform": 0.0
+        },
+        "free_images": {
+          "n": 42,
+          "hidden_core_mae": 0.16834881756555023,
+          "gain_vs_uniform": 0.0
+        },
+        "laion": {
+          "n": 33,
+          "hidden_core_mae": 0.18793056004883937,
+          "gain_vs_uniform": 0.0
+        }
+      }
+    },
+    "uniform_valid_surface": {
+      "hidden_core_mae": {
+        "mean": 0.16912603905959178,
+        "ci_low": 0.15817503090615337,
+        "ci_high": 0.18029212403278252,
+        "n": 159
+      },
+      "gain_vs_uniform": {
+        "mean": 0.0007308129386898881,
+        "ci_low": -5.944415118394023e-06,
+        "ci_high": 0.0016006694102288386,
+        "n": 159
+      },
+      "gain_vs_valid_uniform": {
+        "mean": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0,
+        "n": 159
+      },
+      "gain_vs_fixed": {
+        "mean": 0.0003752217442648414,
+        "ci_low": -0.00428435929813783,
+        "ci_high": 0.005159159030921864,
+        "n": 159
+      },
+      "hidden_mask_recall": 0.7041831026517282,
+      "visible_mae": 0.031535269064328346,
+      "oracle_regret": 0.030329326543561137,
+      "fallbacks": 0,
+      "wins": 13,
+      "ties": 140,
+      "losses": 6,
+      "by_source": {
+        "COCOA": {
+          "n": 42,
+          "hidden_core_mae": 0.17075669235346144,
+          "gain_vs_uniform": 0.0004098782809423528
+        },
+        "VG": {
+          "n": 42,
+          "hidden_core_mae": 0.1548914991217941,
+          "gain_vs_uniform": 0.0009628980619444576
+        },
+        "free_images": {
+          "n": 42,
+          "hidden_core_mae": 0.1670498182876127,
+          "gain_vs_uniform": 0.00129899927793752
+        },
+        "laion": {
+          "n": 33,
+          "hidden_core_mae": 0.1878098121343827,
+          "gain_vs_uniform": 0.00012074791445667723
+        }
+      }
+    }
+  },
+  "cohorts": {
+    "Pilot test": {
+      "boundary": {
+        "hidden_core_mae": {
+          "mean": 0.16231526839032837,
+          "ci_low": 0.14472882156685798,
+          "ci_high": 0.18200647848845716,
+          "n": 72
+        },
+        "gain_vs_uniform": {
+          "mean": 0.009140103573662291,
+          "ci_low": 0.0014373308902165549,
+          "ci_high": 0.01697995968737389,
+          "n": 72
+        },
+        "gain_vs_valid_uniform": {
+          "mean": 0.008469305605104083,
+          "ci_low": 0.0005547629009360207,
+          "ci_high": 0.01630717430530517,
+          "n": 72
+        },
+        "gain_vs_fixed": {
+          "mean": 0.011339885899587288,
+          "ci_low": 0.0003161768563769799,
+          "ci_high": 0.02367334613532312,
+          "n": 72
+        },
+        "hidden_mask_recall": 0.7478185904297932,
+        "visible_mae": 0.028285687550638865,
+        "oracle_regret": 0.024162220840706412,
+        "fallbacks": 0,
+        "wins": 42,
+        "ties": 0,
+        "losses": 30,
+        "by_source": {
+          "COCOA": {
+            "n": 18,
+            "hidden_core_mae": 0.16169134262816107,
+            "gain_vs_uniform": 0.020411998674115566
+          },
+          "VG": {
+            "n": 18,
+            "hidden_core_mae": 0.15483469614283135,
+            "gain_vs_uniform": -0.003292195014939941
+          },
+          "free_images": {
+            "n": 18,
+            "hidden_core_mae": 0.15945964724211528,
+            "gain_vs_uniform": 0.009495023822359297
+          },
+          "laion": {
+            "n": 18,
+            "hidden_core_mae": 0.1732753875482058,
+            "gain_vs_uniform": 0.009945586813114242
+          }
+        }
+      },
+      "color": {
+        "hidden_core_mae": {
+          "mean": 0.1634194319830672,
+          "ci_low": 0.14710884339614774,
+          "ci_high": 0.18134501364795824,
+          "n": 72
+        },
+        "gain_vs_uniform": {
+          "mean": 0.008035939980923446,
+          "ci_low": -0.00020772930548286242,
+          "ci_high": 0.016914652563873776,
+          "n": 72
+        },
+        "gain_vs_valid_uniform": {
+          "mean": 0.007365142012365237,
+          "ci_low": -0.0006816755970621277,
+          "ci_high": 0.016007199907112107,
+          "n": 72
+        },
+        "gain_vs_fixed": {
+          "mean": 0.010235722306848442,
+          "ci_low": -0.001612858500130795,
+          "ci_high": 0.023268741733080075,
+          "n": 72
+        },
+        "hidden_mask_recall": 0.7487472226044561,
+        "visible_mae": 0.02841412462162155,
+        "oracle_regret": 0.025266384433445258,
+        "fallbacks": 0,
+        "wins": 40,
+        "ties": 0,
+        "losses": 32,
+        "by_source": {
+          "COCOA": {
+            "n": 18,
+            "hidden_core_mae": 0.17326876746157716,
+            "gain_vs_uniform": 0.00883457384069946
+          },
+          "VG": {
+            "n": 18,
+            "hidden_core_mae": 0.14117568304769665,
+            "gain_vs_uniform": 0.010366818080194731
+          },
+          "free_images": {
+            "n": 18,
+            "hidden_core_mae": 0.15787433199006773,
+            "gain_vs_uniform": 0.01108033907440683
+          },
+          "laion": {
+            "n": 18,
+            "hidden_core_mae": 0.18135894543292727,
+            "gain_vs_uniform": 0.0018620289283927571
+          }
+        }
+      },
+      "texture": {
+        "hidden_core_mae": {
+          "mean": 0.168104902183194,
+          "ci_low": 0.15272588917287785,
+          "ci_high": 0.18477808510735094,
+          "n": 72
+        },
+        "gain_vs_uniform": {
+          "mean": 0.0033504697807966635,
+          "ci_low": -0.0036557892172421782,
+          "ci_high": 0.010527545173159222,
+          "n": 72
+        },
+        "gain_vs_valid_uniform": {
+          "mean": 0.002679671812238457,
+          "ci_low": -0.004454050877261554,
+          "ci_high": 0.01008079408846008,
+          "n": 72
+        },
+        "gain_vs_fixed": {
+          "mean": 0.0055502521067216605,
+          "ci_low": -0.004184915332889082,
+          "ci_high": 0.016101556424821056,
+          "n": 72
+        },
+        "hidden_mask_recall": 0.7286364566135067,
+        "visible_mae": 0.028410594631460055,
+        "oracle_regret": 0.029951854633572035,
+        "fallbacks": 0,
+        "wins": 36,
+        "ties": 0,
+        "losses": 36,
+        "by_source": {
+          "COCOA": {
+            "n": 18,
+            "hidden_core_mae": 0.17183185594638353,
+            "gain_vs_uniform": 0.01027148535589307
+          },
+          "VG": {
+            "n": 18,
+            "hidden_core_mae": 0.150766583643205,
+            "gain_vs_uniform": 0.0007759174846864147
+          },
+          "free_images": {
+            "n": 18,
+            "hidden_core_mae": 0.17008523945169232,
+            "gain_vs_uniform": -0.0011305683872177602
+          },
+          "laion": {
+            "n": 18,
+            "hidden_core_mae": 0.17973592969149507,
+            "gain_vs_uniform": 0.003485044669824932
+          }
+        }
+      },
+      "boundary_color": {
+        "hidden_core_mae": {
+          "mean": 0.16662750350259103,
+          "ci_low": 0.14925594550487783,
+          "ci_high": 0.1856739850179921,
+          "n": 72
+        },
+        "gain_vs_uniform": {
+          "mean": 0.004827868461399628,
+          "ci_low": -0.0036439594262644313,
+          "ci_high": 0.01313812226798818,
+          "n": 72
+        },
+        "gain_vs_valid_uniform": {
+          "mean": 0.004157070492841419,
+          "ci_low": -0.004435928823247249,
+          "ci_high": 0.012609152158790427,
+          "n": 72
+        },
+        "gain_vs_fixed": {
+          "mean": 0.007027650787324623,
+          "ci_low": -0.005108525525164497,
+          "ci_high": 0.020091250331122294,
+          "n": 72
+        },
+        "hidden_mask_recall": 0.7327670877704477,
+        "visible_mae": 0.028311579714825317,
+        "oracle_regret": 0.02847445595296907,
+        "fallbacks": 0,
+        "wins": 38,
+        "ties": 0,
+        "losses": 34,
+        "by_source": {
+          "COCOA": {
+            "n": 18,
+            "hidden_core_mae": 0.161529936948339,
+            "gain_vs_uniform": 0.02057340435393762
+          },
+          "VG": {
+            "n": 18,
+            "hidden_core_mae": 0.15518839554405267,
+            "gain_vs_uniform": -0.003645894416161265
+          },
+          "free_images": {
+            "n": 18,
+            "hidden_core_mae": 0.1636624257789298,
+            "gain_vs_uniform": 0.005292245285544745
+          },
+          "laion": {
+            "n": 18,
+            "hidden_core_mae": 0.1861292557390426,
+            "gain_vs_uniform": -0.002908281377722589
+          }
+        }
+      },
+      "boundary_texture": {
+        "hidden_core_mae": {
+          "mean": 0.16587622561669113,
+          "ci_low": 0.14927665873961776,
+          "ci_high": 0.18469531077661677,
+          "n": 72
+        },
+        "gain_vs_uniform": {
+          "mean": 0.005579146347299504,
+          "ci_low": -0.002141210566615316,
+          "ci_high": 0.013584052163669308,
+          "n": 72
+        },
+        "gain_vs_valid_uniform": {
+          "mean": 0.004908348378741298,
+          "ci_low": -0.002848002375395835,
+          "ci_high": 0.012635300861448663,
+          "n": 72
+        },
+        "gain_vs_fixed": {
+          "mean": 0.007778928673224502,
+          "ci_low": -0.002268912614840622,
+          "ci_high": 0.019069462010464486,
+          "n": 72
+        },
+        "hidden_mask_recall": 0.7103666211092219,
+        "visible_mae": 0.028319579395029333,
+        "oracle_regret": 0.0277231780670692,
+        "fallbacks": 0,
+        "wins": 37,
+        "ties": 0,
+        "losses": 35,
+        "by_source": {
+          "COCOA": {
+            "n": 18,
+            "hidden_core_mae": 0.1644357014322171,
+            "gain_vs_uniform": 0.017667639870059513
+          },
+          "VG": {
+            "n": 18,
+            "hidden_core_mae": 0.15860226085966045,
+            "gain_vs_uniform": -0.007059759731769027
+          },
+          "free_images": {
+            "n": 18,
+            "hidden_core_mae": 0.15960315522599722,
+            "gain_vs_uniform": 0.009351515838477337
+          },
+          "laion": {
+            "n": 18,
+            "hidden_core_mae": 0.1808637849488898,
+            "gain_vs_uniform": 0.0023571894124301946
+          }
+        }
+      },
+      "surface_full": {
+        "hidden_core_mae": {
+          "mean": 0.16848315609845343,
+          "ci_low": 0.1520482207529053,
+          "ci_high": 0.18704685834808502,
+          "n": 72
+        },
+        "gain_vs_uniform": {
+          "mean": 0.0029722158655372177,
+          "ci_low": -0.004721814750768881,
+          "ci_high": 0.011277247584029378,
+          "n": 72
+        },
+        "gain_vs_valid_uniform": {
+          "mean": 0.0023014178969790098,
+          "ci_low": -0.00538670929449576,
+          "ci_high": 0.010458789145738159,
+          "n": 72
+        },
+        "gain_vs_fixed": {
+          "mean": 0.005171998191462214,
+          "ci_low": -0.005692555968257279,
+          "ci_high": 0.01710632263551234,
+          "n": 72
+        },
+        "hidden_mask_recall": 0.7150108400087174,
+        "visible_mae": 0.028287126870023285,
+        "oracle_regret": 0.030330108548831485,
+        "fallbacks": 0,
+        "wins": 36,
+        "ties": 0,
+        "losses": 36,
+        "by_source": {
+          "COCOA": {
+            "n": 18,
+            "hidden_core_mae": 0.16452110605576498,
+            "gain_vs_uniform": 0.017582235246511632
+          },
+          "VG": {
+            "n": 18,
+            "hidden_core_mae": 0.1554327298922965,
+            "gain_vs_uniform": -0.003890228764405085
+          },
+          "free_images": {
+            "n": 18,
+            "hidden_core_mae": 0.16558094534187795,
+            "gain_vs_uniform": 0.0033737257225966138
+          },
+          "laion": {
+            "n": 18,
+            "hidden_core_mae": 0.1883978431038743,
+            "gain_vs_uniform": -0.005176868742554291
+          }
+        }
+      },
+      "local_surface": {
+        "hidden_core_mae": {
+          "mean": 0.16035908004127514,
+          "ci_low": 0.14370025102027922,
+          "ci_high": 0.1788636115823892,
+          "n": 72
+        },
+        "gain_vs_uniform": {
+          "mean": 0.011096291922715502,
+          "ci_low": 0.0032824827959211113,
+          "ci_high": 0.019390525232920133,
+          "n": 72
+        },
+        "gain_vs_valid_uniform": {
+          "mean": 0.010425493954157296,
+          "ci_low": 0.0027092772113036633,
+          "ci_high": 0.018595491545858503,
+          "n": 72
+        },
+        "gain_vs_fixed": {
+          "mean": 0.0132960742486405,
+          "ci_low": 0.0013205584094144705,
+          "ci_high": 0.026237647182316602,
+          "n": 72
+        },
+        "hidden_mask_recall": 0.7182998430378059,
+        "visible_mae": 0.028424854632516112,
+        "oracle_regret": 0.022206032491653198,
+        "fallbacks": 0,
+        "wins": 38,
+        "ties": 0,
+        "losses": 34,
+        "by_source": {
+          "COCOA": {
+            "n": 18,
+            "hidden_core_mae": 0.1755156178044882,
+            "gain_vs_uniform": 0.006587723497788359
+          },
+          "VG": {
+            "n": 18,
+            "hidden_core_mae": 0.13939558969297958,
+            "gain_vs_uniform": 0.012146911434911832
+          },
+          "free_images": {
+            "n": 18,
+            "hidden_core_mae": 0.1471622108539975,
+            "gain_vs_uniform": 0.021792460210477097
+          },
+          "laion": {
+            "n": 18,
+            "hidden_core_mae": 0.17936290181363526,
+            "gain_vs_uniform": 0.003858072547684732
+          }
+        }
+      },
+      "visible_preservation": {
+        "hidden_core_mae": {
+          "mean": 0.16307984014649576,
+          "ci_low": 0.1452562301874877,
+          "ci_high": 0.18277125859658763,
+          "n": 72
+        },
+        "gain_vs_uniform": {
+          "mean": 0.008375531817494886,
+          "ci_low": 0.0001789221624129311,
+          "ci_high": 0.01663941765208014,
+          "n": 72
+        },
+        "gain_vs_valid_uniform": {
+          "mean": 0.007704733848936678,
+          "ci_low": -0.00032423814093623726,
+          "ci_high": 0.01581264522453432,
+          "n": 72
+        },
+        "gain_vs_fixed": {
+          "mean": 0.010575314143419882,
+          "ci_low": -0.00016507946519352804,
+          "ci_high": 0.02222520149648449,
+          "n": 72
+        },
+        "hidden_mask_recall": 0.7584923106461464,
+        "visible_mae": 0.027701698615134725,
+        "oracle_regret": 0.024926792596873817,
+        "fallbacks": 0,
+        "wins": 43,
+        "ties": 0,
+        "losses": 29,
+        "by_source": {
+          "COCOA": {
+            "n": 18,
+            "hidden_core_mae": 0.15981645569527522,
+            "gain_vs_uniform": 0.022286885607001396
+          },
+          "VG": {
+            "n": 18,
+            "hidden_core_mae": 0.16872582574385386,
+            "gain_vs_uniform": -0.017183324615962434
+          },
+          "free_images": {
+            "n": 18,
+            "hidden_core_mae": 0.14849745939774947,
+            "gain_vs_uniform": 0.020457211666725088
+          },
+          "laion": {
+            "n": 18,
+            "hidden_core_mae": 0.17527961974910455,
+            "gain_vs_uniform": 0.007941354612215483
+          }
+        }
+      },
+      "fixed_seed_11": {
+        "hidden_core_mae": {
+          "mean": 0.17365515428991565,
+          "ci_low": 0.15476661836489572,
+          "ci_high": 0.19469027055303392,
+          "n": 72
+        },
+        "gain_vs_uniform": {
+          "mean": -0.0021997823259249957,
+          "ci_low": -0.009867717566173773,
+          "ci_high": 0.005232469938208705,
+          "n": 72
+        },
+        "gain_vs_valid_uniform": {
+          "mean": -0.002870580294483204,
+          "ci_low": -0.010966921814926681,
+          "ci_high": 0.00484730152161562,
+          "n": 72
+        },
+        "gain_vs_fixed": {
+          "mean": 0.0,
+          "ci_low": 0.0,
+          "ci_high": 0.0,
+          "n": 72
+        },
+        "hidden_mask_recall": 0.6728058821487463,
+        "visible_mae": 0.028552762818599378,
+        "oracle_regret": 0.0355021067402937,
+        "fallbacks": 0,
+        "wins": 39,
+        "ties": 0,
+        "losses": 33,
+        "by_source": {
+          "COCOA": {
+            "n": 18,
+            "hidden_core_mae": 0.18306095885077,
+            "gain_vs_uniform": -0.0009576175484933951
+          },
+          "VG": {
+            "n": 18,
+            "hidden_core_mae": 0.15578352288040853,
+            "gain_vs_uniform": -0.004241021752517128
+          },
+          "free_images": {
+            "n": 18,
+            "hidden_core_mae": 0.17462785379464194,
+            "gain_vs_uniform": -0.00567318273016737
+          },
+          "laion": {
+            "n": 18,
+            "hidden_core_mae": 0.1811482816338421,
+            "gain_vs_uniform": 0.002072692727477909
+          }
+        }
+      },
+      "oracle_hidden_mae": {
+        "hidden_core_mae": {
+          "mean": 0.13815304754962193,
+          "ci_low": 0.12366545072777747,
+          "ci_high": 0.1542420801546695,
+          "n": 72
+        },
+        "gain_vs_uniform": {
+          "mean": 0.03330232441436871,
+          "ci_low": 0.027623426165378218,
+          "ci_high": 0.039404532824242305,
+          "n": 72
+        },
+        "gain_vs_valid_uniform": {
+          "mean": 0.032631526445810494,
+          "ci_low": 0.027022204023662393,
+          "ci_high": 0.038678276804752686,
+          "n": 72
+        },
+        "gain_vs_fixed": {
+          "mean": 0.0355021067402937,
+          "ci_low": 0.024939116277893084,
+          "ci_high": 0.047174041697318016,
+          "n": 72
+        },
+        "hidden_mask_recall": 0.781362702403481,
+        "visible_mae": 0.028511515439033203,
+        "oracle_regret": 0.0,
+        "fallbacks": 0,
+        "wins": 72,
+        "ties": 0,
+        "losses": 0,
+        "by_source": {
+          "COCOA": {
+            "n": 18,
+            "hidden_core_mae": 0.14707667469740457,
+            "gain_vs_uniform": 0.03502666660487205
+          },
+          "VG": {
+            "n": 18,
+            "hidden_core_mae": 0.12397151020107598,
+            "gain_vs_uniform": 0.027570990926815434
+          },
+          "free_images": {
+            "n": 18,
+            "hidden_core_mae": 0.12488149392870938,
+            "gain_vs_uniform": 0.04407317713576515
+          },
+          "laion": {
+            "n": 18,
+            "hidden_core_mae": 0.15668251137129785,
+            "gain_vs_uniform": 0.026538462990022174
+          }
+        }
+      },
+      "development_selected": {
+        "hidden_core_mae": {
+          "mean": 0.168104902183194,
+          "ci_low": 0.15272588917287785,
+          "ci_high": 0.18477808510735094,
+          "n": 72
+        },
+        "gain_vs_uniform": {
+          "mean": 0.0033504697807966635,
+          "ci_low": -0.0036557892172421782,
+          "ci_high": 0.010527545173159222,
+          "n": 72
+        },
+        "gain_vs_valid_uniform": {
+          "mean": 0.002679671812238457,
+          "ci_low": -0.004454050877261554,
+          "ci_high": 0.01008079408846008,
+          "n": 72
+        },
+        "gain_vs_fixed": {
+          "mean": 0.0055502521067216605,
+          "ci_low": -0.004184915332889082,
+          "ci_high": 0.016101556424821056,
+          "n": 72
+        },
+        "hidden_mask_recall": 0.7286364566135067,
+        "visible_mae": 0.028410594631460055,
+        "oracle_regret": 0.029951854633572035,
+        "fallbacks": 0,
+        "wins": 36,
+        "ties": 0,
+        "losses": 36,
+        "by_source": {
+          "COCOA": {
+            "n": 18,
+            "hidden_core_mae": 0.17183185594638353,
+            "gain_vs_uniform": 0.01027148535589307
+          },
+          "VG": {
+            "n": 18,
+            "hidden_core_mae": 0.150766583643205,
+            "gain_vs_uniform": 0.0007759174846864147
+          },
+          "free_images": {
+            "n": 18,
+            "hidden_core_mae": 0.17008523945169232,
+            "gain_vs_uniform": -0.0011305683872177602
+          },
+          "laion": {
+            "n": 18,
+            "hidden_core_mae": 0.17973592969149507,
+            "gain_vs_uniform": 0.003485044669824932
+          }
+        }
+      },
+      "uniform_random": {
+        "hidden_core_mae": {
+          "mean": 0.17145537196399063,
+          "ci_low": 0.15533848700780306,
+          "ci_high": 0.18927349927185502,
+          "n": 72
+        },
+        "gain_vs_uniform": {
+          "mean": 0.0,
+          "ci_low": 0.0,
+          "ci_high": 0.0,
+          "n": 72
+        },
+        "gain_vs_valid_uniform": {
+          "mean": -0.0006707979685582076,
+          "ci_low": -0.0018905980119621592,
+          "ci_high": 0.00040157726788416366,
+          "n": 72
+        },
+        "gain_vs_fixed": {
+          "mean": 0.0021997823259249957,
+          "ci_low": -0.00523246993820871,
+          "ci_high": 0.009867717566173766,
+          "n": 72
+        },
+        "hidden_mask_recall": 0.7015314607283214,
+        "visible_mae": 0.02848604970002487,
+        "oracle_regret": 0.03330232441436871,
+        "fallbacks": 0,
+        "wins": 0,
+        "ties": 72,
+        "losses": 0,
+        "by_source": {
+          "COCOA": {
+            "n": 18,
+            "hidden_core_mae": 0.18210334130227662,
+            "gain_vs_uniform": 0.0
+          },
+          "VG": {
+            "n": 18,
+            "hidden_core_mae": 0.15154250112789142,
+            "gain_vs_uniform": 0.0
+          },
+          "free_images": {
+            "n": 18,
+            "hidden_core_mae": 0.16895467106447457,
+            "gain_vs_uniform": 0.0
+          },
+          "laion": {
+            "n": 18,
+            "hidden_core_mae": 0.18322097436132,
+            "gain_vs_uniform": 0.0
+          }
+        }
+      },
+      "uniform_valid_surface": {
+        "hidden_core_mae": {
+          "mean": 0.17078457399543245,
+          "ci_low": 0.15467988316720072,
+          "ci_high": 0.1886065128160736,
+          "n": 72
+        },
+        "gain_vs_uniform": {
+          "mean": 0.0006707979685582076,
+          "ci_low": -0.0004015772678841656,
+          "ci_high": 0.0018905980119621592,
+          "n": 72
+        },
+        "gain_vs_valid_uniform": {
+          "mean": 0.0,
+          "ci_low": 0.0,
+          "ci_high": 0.0,
+          "n": 72
+        },
+        "gain_vs_fixed": {
+          "mean": 0.002870580294483204,
+          "ci_low": -0.0048473015216156205,
+          "ci_high": 0.010966921814926681,
+          "n": 72
+        },
+        "hidden_mask_recall": 0.7134724986027499,
+        "visible_mae": 0.02848416724154777,
+        "oracle_regret": 0.032631526445810494,
+        "fallbacks": 0,
+        "wins": 6,
+        "ties": 64,
+        "losses": 2,
+        "by_source": {
+          "COCOA": {
+            "n": 18,
+            "hidden_core_mae": 0.18148077422009437,
+            "gain_vs_uniform": 0.0006225670821822307
+          },
+          "VG": {
+            "n": 18,
+            "hidden_core_mae": 0.15154250112789142,
+            "gain_vs_uniform": 0.0
+          },
+          "free_images": {
+            "n": 18,
+            "hidden_core_mae": 0.16689404627242396,
+            "gain_vs_uniform": 0.0020606247920505996
+          },
+          "laion": {
+            "n": 18,
+            "hidden_core_mae": 0.18322097436132,
+            "gain_vs_uniform": 0.0
+          }
+        }
+      }
+    },
+    "Replication": {
+      "boundary": {
+        "hidden_core_mae": {
+          "mean": 0.16439889610629765,
+          "ci_low": 0.14992510675232917,
+          "ci_high": 0.179039933868822,
+          "n": 87
+        },
+        "gain_vs_uniform": {
+          "mean": 0.004135042816914538,
+          "ci_low": -0.001433980569166795,
+          "ci_high": 0.009652347606463992,
+          "n": 87
+        },
+        "gain_vs_valid_uniform": {
+          "mean": 0.003354562316736363,
+          "ci_low": -0.002321876567658215,
+          "ci_high": 0.00886495497883232,
+          "n": 87
+        },
+        "gain_vs_fixed": {
+          "mean": 0.0016646597435791106,
+          "ci_low": -0.00454390680454427,
+          "ci_high": 0.0081816383430305,
+          "n": 87
+        },
+        "hidden_mask_recall": 0.7345416053237408,
+        "visible_mae": 0.03378927391139262,
+        "oracle_regret": 0.02506949534220459,
+        "fallbacks": 1,
+        "wins": 48,
+        "ties": 0,
+        "losses": 39,
+        "by_source": {
+          "COCOA": {
+            "n": 24,
+            "hidden_core_mae": 0.1572433078408929,
+            "gain_vs_uniform": 0.005720684792606334
+          },
+          "VG": {
+            "n": 24,
+            "hidden_core_mae": 0.15231984262299028,
+            "gain_vs_uniform": 0.006768476602633596
+          },
+          "free_images": {
+            "n": 24,
+            "hidden_core_mae": 0.16691744864138278,
+            "gain_vs_uniform": 0.0009769787999741892
+          },
+          "laion": {
+            "n": 15,
+            "hidden_core_mae": 0.19114463884810082,
+            "gain_vs_uniform": 0.002437424025761729
+          }
+        }
+      },
+      "color": {
+        "hidden_core_mae": {
+          "mean": 0.16190392448638674,
+          "ci_low": 0.14568219999188525,
+          "ci_high": 0.1790216226904661,
+          "n": 87
+        },
+        "gain_vs_uniform": {
+          "mean": 0.006630014436825449,
+          "ci_low": 6.737630348341857e-05,
+          "ci_high": 0.013135589327988847,
+          "n": 87
+        },
+        "gain_vs_valid_uniform": {
+          "mean": 0.005849533936647274,
+          "ci_low": -0.0006022474776466638,
+          "ci_high": 0.012258781268948027,
+          "n": 87
+        },
+        "gain_vs_fixed": {
+          "mean": 0.0041596313634900215,
+          "ci_low": -0.004732090947500164,
+          "ci_high": 0.013298720850542829,
+          "n": 87
+        },
+        "hidden_mask_recall": 0.7369312650181976,
+        "visible_mae": 0.03396404831354733,
+        "oracle_regret": 0.022574523722293693,
+        "fallbacks": 1,
+        "wins": 56,
+        "ties": 0,
+        "losses": 31,
+        "by_source": {
+          "COCOA": {
+            "n": 24,
+            "hidden_core_mae": 0.1530374628829936,
+            "gain_vs_uniform": 0.009926529750505623
+          },
+          "VG": {
+            "n": 24,
+            "hidden_core_mae": 0.15693788470642975,
+            "gain_vs_uniform": 0.0021504345191941296
+          },
+          "free_images": {
+            "n": 24,
+            "hidden_core_mae": 0.16641990819856764,
+            "gain_vs_uniform": 0.001474519242789291
+          },
+          "laion": {
+            "n": 15,
+            "hidden_core_mae": 0.17681035276025742,
+            "gain_vs_uniform": 0.016771710113605138
+          }
+        }
+      },
+      "texture": {
+        "hidden_core_mae": {
+          "mean": 0.16529023635198206,
+          "ci_low": 0.14961588889943006,
+          "ci_high": 0.18162922070520796,
+          "n": 87
+        },
+        "gain_vs_uniform": {
+          "mean": 0.0032437025712301233,
+          "ci_low": -0.0026897237687312676,
+          "ci_high": 0.009273884467518697,
+          "n": 87
+        },
+        "gain_vs_valid_uniform": {
+          "mean": 0.002463222071051948,
+          "ci_low": -0.0033522507889296367,
+          "ci_high": 0.008352091987592196,
+          "n": 87
+        },
+        "gain_vs_fixed": {
+          "mean": 0.0007733194978946945,
+          "ci_low": -0.00652205591139208,
+          "ci_high": 0.008227136685607478,
+          "n": 87
+        },
+        "hidden_mask_recall": 0.7353733930912526,
+        "visible_mae": 0.03404089502017456,
+        "oracle_regret": 0.02596083558788902,
+        "fallbacks": 1,
+        "wins": 52,
+        "ties": 0,
+        "losses": 35,
+        "by_source": {
+          "COCOA": {
+            "n": 24,
+            "hidden_core_mae": 0.1590062038433786,
+            "gain_vs_uniform": 0.003957788790120628
+          },
+          "VG": {
+            "n": 24,
+            "hidden_core_mae": 0.15728331147253843,
+            "gain_vs_uniform": 0.0018050077530854397
+          },
+          "free_images": {
+            "n": 24,
+            "hidden_core_mae": 0.16488651581755123,
+            "gain_vs_uniform": 0.0030079116238057087
+          },
+          "laion": {
+            "n": 15,
+            "hidden_core_mae": 0.18880172102794665,
+            "gain_vs_uniform": 0.004780341845915864
+          }
+        }
+      },
+      "boundary_color": {
+        "hidden_core_mae": {
+          "mean": 0.16050498064494476,
+          "ci_low": 0.14606455664457652,
+          "ci_high": 0.17495000067920632,
+          "n": 87
+        },
+        "gain_vs_uniform": {
+          "mean": 0.008028958278267453,
+          "ci_low": 0.0026837658539416885,
+          "ci_high": 0.013643810721588972,
+          "n": 87
+        },
+        "gain_vs_valid_uniform": {
+          "mean": 0.007248477778089276,
+          "ci_low": 0.001840857435383154,
+          "ci_high": 0.012845886238388256,
+          "n": 87
+        },
+        "gain_vs_fixed": {
+          "mean": 0.005558575204932027,
+          "ci_low": -0.002326134111231975,
+          "ci_high": 0.014383998120842328,
+          "n": 87
+        },
+        "hidden_mask_recall": 0.7293517419131008,
+        "visible_mae": 0.03383614382012735,
+        "oracle_regret": 0.021175579880851687,
+        "fallbacks": 1,
+        "wins": 52,
+        "ties": 0,
+        "losses": 35,
+        "by_source": {
+          "COCOA": {
+            "n": 24,
+            "hidden_core_mae": 0.14774310904797638,
+            "gain_vs_uniform": 0.015220883585522843
+          },
+          "VG": {
+            "n": 24,
+            "hidden_core_mae": 0.15160265561515826,
+            "gain_vs_uniform": 0.007485663610465608
+          },
+          "free_images": {
+            "n": 24,
+            "hidden_core_mae": 0.16456870650923508,
+            "gain_vs_uniform": 0.0033257209321218557
+          },
+          "laion": {
+            "n": 15,
+            "hidden_core_mae": 0.18866573386488783,
+            "gain_vs_uniform": 0.004916329008974734
+          }
+        }
+      },
+      "boundary_texture": {
+        "hidden_core_mae": {
+          "mean": 0.16255171743027377,
+          "ci_low": 0.14753261553261532,
+          "ci_high": 0.177881775345328,
+          "n": 87
+        },
+        "gain_vs_uniform": {
+          "mean": 0.005982221492938423,
+          "ci_low": 0.0005097090516745093,
+          "ci_high": 0.011704536055526679,
+          "n": 87
+        },
+        "gain_vs_valid_uniform": {
+          "mean": 0.005201740992760248,
+          "ci_low": -0.00023944721646524091,
+          "ci_high": 0.010970652365598863,
+          "n": 87
+        },
+        "gain_vs_fixed": {
+          "mean": 0.003511838419602997,
+          "ci_low": -0.004140872351376862,
+          "ci_high": 0.012090601451108381,
+          "n": 87
+        },
+        "hidden_mask_recall": 0.7469483848726104,
+        "visible_mae": 0.03380121169362588,
+        "oracle_regret": 0.023222316666180715,
+        "fallbacks": 1,
+        "wins": 50,
+        "ties": 0,
+        "losses": 37,
+        "by_source": {
+          "COCOA": {
+            "n": 24,
+            "hidden_core_mae": 0.1448195423680302,
+            "gain_vs_uniform": 0.018144450265469018
+          },
+          "VG": {
+            "n": 24,
+            "hidden_core_mae": 0.15217572197867849,
+            "gain_vs_uniform": 0.006912597246945373
+          },
+          "free_images": {
+            "n": 24,
+            "hidden_core_mae": 0.17243777434658503,
+            "gain_vs_uniform": -0.00454334690522806
+          },
+          "laion": {
+            "n": 15,
+            "hidden_core_mae": 0.19170709918631787,
+            "gain_vs_uniform": 0.0018749636875447237
+          }
+        }
+      },
+      "surface_full": {
+        "hidden_core_mae": {
+          "mean": 0.1631163610680946,
+          "ci_low": 0.14845281308518787,
+          "ci_high": 0.17784558192734393,
+          "n": 87
+        },
+        "gain_vs_uniform": {
+          "mean": 0.005417577855117594,
+          "ci_low": 4.352154870148146e-05,
+          "ci_high": 0.011186013072923329,
+          "n": 87
+        },
+        "gain_vs_valid_uniform": {
+          "mean": 0.004637097354939418,
+          "ci_low": -0.0007647804166313296,
+          "ci_high": 0.010371617508629196,
+          "n": 87
+        },
+        "gain_vs_fixed": {
+          "mean": 0.002947194781782167,
+          "ci_low": -0.0051776336217939185,
+          "ci_high": 0.012113040310134252,
+          "n": 87
+        },
+        "hidden_mask_recall": 0.744317602873651,
+        "visible_mae": 0.033790714636431296,
+        "oracle_regret": 0.02378696030400154,
+        "fallbacks": 1,
+        "wins": 48,
+        "ties": 0,
+        "losses": 39,
+        "by_source": {
+          "COCOA": {
+            "n": 24,
+            "hidden_core_mae": 0.14639499475716003,
+            "gain_vs_uniform": 0.016568997876339222
+          },
+          "VG": {
+            "n": 24,
+            "hidden_core_mae": 0.15544206931413299,
+            "gain_vs_uniform": 0.0036462499114908852
+          },
+          "free_images": {
+            "n": 24,
+            "hidden_core_mae": 0.17201053930199273,
+            "gain_vs_uniform": -0.004116111860635767
+          },
+          "laion": {
+            "n": 15,
+            "hidden_core_mae": 0.18791872879769148,
+            "gain_vs_uniform": 0.005663334076171107
+          }
+        }
+      },
+      "local_surface": {
+        "hidden_core_mae": {
+          "mean": 0.16458309939743745,
+          "ci_low": 0.15036385848770215,
+          "ci_high": 0.17892022627445367,
+          "n": 87
+        },
+        "gain_vs_uniform": {
+          "mean": 0.00395083952577472,
+          "ci_low": -0.002078979716352829,
+          "ci_high": 0.009742866628450813,
+          "n": 87
+        },
+        "gain_vs_valid_uniform": {
+          "mean": 0.0031703590255965433,
+          "ci_low": -0.0029012103333815277,
+          "ci_high": 0.008920515773638763,
+          "n": 87
+        },
+        "gain_vs_fixed": {
+          "mean": 0.0014804564524392911,
+          "ci_low": -0.0069057576755071496,
+          "ci_high": 0.009867180095587319,
+          "n": 87
+        },
+        "hidden_mask_recall": 0.7564270873049098,
+        "visible_mae": 0.03402507517889211,
+        "oracle_regret": 0.02525369863334442,
+        "fallbacks": 1,
+        "wins": 51,
+        "ties": 0,
+        "losses": 36,
+        "by_source": {
+          "COCOA": {
+            "n": 24,
+            "hidden_core_mae": 0.1470811011365932,
+            "gain_vs_uniform": 0.015882891496906044
+          },
+          "VG": {
+            "n": 24,
+            "hidden_core_mae": 0.15607063919847894,
+            "gain_vs_uniform": 0.0030176800271449213
+          },
+          "free_images": {
+            "n": 24,
+            "hidden_core_mae": 0.1797318156013417,
+            "gain_vs_uniform": -0.011837388159984757
+          },
+          "laion": {
+            "n": 15,
+            "hidden_core_mae": 0.1819682870068751,
+            "gain_vs_uniform": 0.011613775866987435
+          }
+        }
+      },
+      "visible_preservation": {
+        "hidden_core_mae": {
+          "mean": 0.1653182607221665,
+          "ci_low": 0.14961250963029962,
+          "ci_high": 0.18164316132125938,
+          "n": 87
+        },
+        "gain_vs_uniform": {
+          "mean": 0.0032156782010457057,
+          "ci_low": -0.003133136291483854,
+          "ci_high": 0.009346006943168287,
+          "n": 87
+        },
+        "gain_vs_valid_uniform": {
+          "mean": 0.0024351977008675303,
+          "ci_low": -0.003716843924214265,
+          "ci_high": 0.008455257689099046,
+          "n": 87
+        },
+        "gain_vs_fixed": {
+          "mean": 0.0007452951277102794,
+          "ci_low": -0.005966209357246987,
+          "ci_high": 0.007805735296191829,
+          "n": 87
+        },
+        "hidden_mask_recall": 0.7024887115479148,
+        "visible_mae": 0.03332591591295565,
+        "oracle_regret": 0.02598885995807344,
+        "fallbacks": 1,
+        "wins": 51,
+        "ties": 0,
+        "losses": 36,
+        "by_source": {
+          "COCOA": {
+            "n": 24,
+            "hidden_core_mae": 0.16205986996264615,
+            "gain_vs_uniform": 0.0009041226708530725
+          },
+          "VG": {
+            "n": 24,
+            "hidden_core_mae": 0.15321998247873955,
+            "gain_vs_uniform": 0.005868336746884328
+          },
+          "free_images": {
+            "n": 24,
+            "hidden_core_mae": 0.16587115990850065,
+            "gain_vs_uniform": 0.0020232675328563134
+          },
+          "laion": {
+            "n": 15,
+            "hidden_core_mae": 0.18900429242874736,
+            "gain_vs_uniform": 0.004577770445115158
+          }
+        }
+      },
+      "fixed_seed_11": {
+        "hidden_core_mae": {
+          "mean": 0.16606355584987675,
+          "ci_low": 0.1514789041940772,
+          "ci_high": 0.18050570192457233,
+          "n": 87
+        },
+        "gain_vs_uniform": {
+          "mean": 0.0024703830733354276,
+          "ci_low": -0.0031163152384593865,
+          "ci_high": 0.00793961263506478,
+          "n": 87
+        },
+        "gain_vs_valid_uniform": {
+          "mean": 0.0016899025731572518,
+          "ci_low": -0.004193259221088726,
+          "ci_high": 0.007374153548115898,
+          "n": 87
+        },
+        "gain_vs_fixed": {
+          "mean": 0.0,
+          "ci_low": 0.0,
+          "ci_high": 0.0,
+          "n": 87
+        },
+        "hidden_mask_recall": 0.6861211932028255,
+        "visible_mae": 0.033916686613940886,
+        "oracle_regret": 0.026734155085783712,
+        "fallbacks": 0,
+        "wins": 51,
+        "ties": 0,
+        "losses": 36,
+        "by_source": {
+          "COCOA": {
+            "n": 24,
+            "hidden_core_mae": 0.16276838680839678,
+            "gain_vs_uniform": 0.0001956058251024693
+          },
+          "VG": {
+            "n": 24,
+            "hidden_core_mae": 0.1506267409273009,
+            "gain_vs_uniform": 0.008461578298322938
+          },
+          "free_images": {
+            "n": 24,
+            "hidden_core_mae": 0.1692638051840034,
+            "gain_vs_uniform": -0.0013693777426464656
+          },
+          "laion": {
+            "n": 15,
+            "hidden_core_mae": 0.19091433125776336,
+            "gain_vs_uniform": 0.002667731616099171
+          }
+        }
+      },
+      "oracle_hidden_mae": {
+        "hidden_core_mae": {
+          "mean": 0.13932940076409306,
+          "ci_low": 0.1258315408237125,
+          "ci_high": 0.15318161609269387,
+          "n": 87
+        },
+        "gain_vs_uniform": {
+          "mean": 0.029204538159119144,
+          "ci_low": 0.025290351485282924,
+          "ci_high": 0.03353654075375826,
+          "n": 87
+        },
+        "gain_vs_valid_uniform": {
+          "mean": 0.02842405765894097,
+          "ci_low": 0.02454907333448844,
+          "ci_high": 0.032714907845518955,
+          "n": 87
+        },
+        "gain_vs_fixed": {
+          "mean": 0.026734155085783712,
+          "ci_low": 0.019983406048217658,
+          "ci_high": 0.03452275706616415,
+          "n": 87
+        },
+        "hidden_mask_recall": 0.7373818970257522,
+        "visible_mae": 0.034003161617706584,
+        "oracle_regret": 0.0,
+        "fallbacks": 0,
+        "wins": 87,
+        "ties": 0,
+        "losses": 0,
+        "by_source": {
+          "COCOA": {
+            "n": 24,
+            "hidden_core_mae": 0.12724632146526382,
+            "gain_vs_uniform": 0.03571767116823541
+          },
+          "VG": {
+            "n": 24,
+            "hidden_core_mae": 0.13707564203886946,
+            "gain_vs_uniform": 0.02201267718675441
+          },
+          "free_images": {
+            "n": 24,
+            "hidden_core_mae": 0.13508517373803194,
+            "gain_vs_uniform": 0.032809253703325
+          },
+          "laion": {
+            "n": 15,
+            "hidden_core_mae": 0.16905910484427525,
+            "gain_vs_uniform": 0.024522958029587295
+          }
+        }
+      },
+      "development_selected": {
+        "hidden_core_mae": {
+          "mean": 0.16529023635198206,
+          "ci_low": 0.14961588889943006,
+          "ci_high": 0.18162922070520796,
+          "n": 87
+        },
+        "gain_vs_uniform": {
+          "mean": 0.0032437025712301233,
+          "ci_low": -0.0026897237687312676,
+          "ci_high": 0.009273884467518697,
+          "n": 87
+        },
+        "gain_vs_valid_uniform": {
+          "mean": 0.002463222071051948,
+          "ci_low": -0.0033522507889296367,
+          "ci_high": 0.008352091987592196,
+          "n": 87
+        },
+        "gain_vs_fixed": {
+          "mean": 0.0007733194978946945,
+          "ci_low": -0.00652205591139208,
+          "ci_high": 0.008227136685607478,
+          "n": 87
+        },
+        "hidden_mask_recall": 0.7353733930912526,
+        "visible_mae": 0.03404089502017456,
+        "oracle_regret": 0.02596083558788902,
+        "fallbacks": 1,
+        "wins": 52,
+        "ties": 0,
+        "losses": 35,
+        "by_source": {
+          "COCOA": {
+            "n": 24,
+            "hidden_core_mae": 0.1590062038433786,
+            "gain_vs_uniform": 0.003957788790120628
+          },
+          "VG": {
+            "n": 24,
+            "hidden_core_mae": 0.15728331147253843,
+            "gain_vs_uniform": 0.0018050077530854397
+          },
+          "free_images": {
+            "n": 24,
+            "hidden_core_mae": 0.16488651581755123,
+            "gain_vs_uniform": 0.0030079116238057087
+          },
+          "laion": {
+            "n": 15,
+            "hidden_core_mae": 0.18880172102794665,
+            "gain_vs_uniform": 0.004780341845915864
+          }
+        }
+      },
+      "uniform_random": {
+        "hidden_core_mae": {
+          "mean": 0.16853393892321217,
+          "ci_low": 0.1545067502030907,
+          "ci_high": 0.18222450721626812,
+          "n": 87
+        },
+        "gain_vs_uniform": {
+          "mean": 0.0,
+          "ci_low": 0.0,
+          "ci_high": 0.0,
+          "n": 87
+        },
+        "gain_vs_valid_uniform": {
+          "mean": -0.0007804805001781756,
+          "ci_low": -0.0020866669396707458,
+          "ci_high": 7.719546205327541e-05,
+          "n": 87
+        },
+        "gain_vs_fixed": {
+          "mean": -0.0024703830733354276,
+          "ci_low": -0.00793961263506478,
+          "ci_high": 0.0031163152384593835,
+          "n": 87
+        },
+        "hidden_mask_recall": 0.6767614643890059,
+        "visible_mae": 0.0340802587187664,
+        "oracle_regret": 0.029204538159119144,
+        "fallbacks": 0,
+        "wins": 0,
+        "ties": 87,
+        "losses": 0,
+        "by_source": {
+          "COCOA": {
+            "n": 24,
+            "hidden_core_mae": 0.16296399263349926,
+            "gain_vs_uniform": 0.0
+          },
+          "VG": {
+            "n": 24,
+            "hidden_core_mae": 0.15908831922562386,
+            "gain_vs_uniform": 0.0
+          },
+          "free_images": {
+            "n": 24,
+            "hidden_core_mae": 0.16789442744135696,
+            "gain_vs_uniform": 0.0
+          },
+          "laion": {
+            "n": 15,
+            "hidden_core_mae": 0.19358206287386254,
+            "gain_vs_uniform": 0.0
+          }
+        }
+      },
+      "uniform_valid_surface": {
+        "hidden_core_mae": {
+          "mean": 0.167753458423034,
+          "ci_low": 0.15368172736328892,
+          "ci_high": 0.18171338633427805,
+          "n": 87
+        },
+        "gain_vs_uniform": {
+          "mean": 0.0007804805001781756,
+          "ci_low": -7.719546205327548e-05,
+          "ci_high": 0.0020866669396707453,
+          "n": 87
+        },
+        "gain_vs_valid_uniform": {
+          "mean": 0.0,
+          "ci_low": 0.0,
+          "ci_high": 0.0,
+          "n": 87
+        },
+        "gain_vs_fixed": {
+          "mean": -0.0016899025731572518,
+          "ci_low": -0.007374153548115902,
+          "ci_high": 0.004193259221088725,
+          "n": 87
+        },
+        "hidden_mask_recall": 0.696495326692262,
+        "visible_mae": 0.03406031884869848,
+        "oracle_regret": 0.02842405765894097,
+        "fallbacks": 0,
+        "wins": 7,
+        "ties": 76,
+        "losses": 4,
+        "by_source": {
+          "COCOA": {
+            "n": 24,
+            "hidden_core_mae": 0.1627136309534868,
+            "gain_vs_uniform": 0.00025036168001244435
+          },
+          "VG": {
+            "n": 24,
+            "hidden_core_mae": 0.15740324761722105,
+            "gain_vs_uniform": 0.0016850716084028008
+          },
+          "free_images": {
+            "n": 24,
+            "hidden_core_mae": 0.16716664729900424,
+            "gain_vs_uniform": 0.0007277801423527103
+          },
+          "laion": {
+            "n": 15,
+            "hidden_core_mae": 0.19331641746205783,
+            "gain_vs_uniform": 0.0002656454118046899
+          }
+        }
+      }
+    },
+    "Pooled": {
+      "boundary": {
+        "hidden_core_mae": {
+          "mean": 0.16345536657453796,
+          "ci_low": 0.15172410921894805,
+          "ci_high": 0.1755119334986388,
+          "n": 159
+        },
+        "gain_vs_uniform": {
+          "mean": 0.0064014854237437096,
+          "ci_low": 0.0018813979097195256,
+          "ci_high": 0.011055004076330768,
+          "n": 159
+        },
+        "gain_vs_valid_uniform": {
+          "mean": 0.005670672485053822,
+          "ci_low": 0.0011457785490855774,
+          "ci_high": 0.010306498791009859,
+          "n": 159
+        },
+        "gain_vs_fixed": {
+          "mean": 0.006045894229318663,
+          "ci_low": -9.606587817859736e-05,
+          "ci_high": 0.012556285156356458,
+          "n": 159
+        },
+        "hidden_mask_recall": 0.740553824994406,
+        "visible_mae": 0.031297083861239985,
+        "oracle_regret": 0.024658654058507302,
+        "fallbacks": 1,
+        "wins": 90,
+        "ties": 0,
+        "losses": 69,
+        "by_source": {
+          "COCOA": {
+            "n": 42,
+            "hidden_core_mae": 0.1591496084640078,
+            "gain_vs_uniform": 0.012016962170396004
+          },
+          "VG": {
+            "n": 42,
+            "hidden_core_mae": 0.15339763698863645,
+            "gain_vs_uniform": 0.002456760195102079
+          },
+          "free_images": {
+            "n": 42,
+            "hidden_core_mae": 0.1637212480416967,
+            "gain_vs_uniform": 0.004627569523853521
+          },
+          "laion": {
+            "n": 33,
+            "hidden_core_mae": 0.18139777450270353,
+            "gain_vs_uniform": 0.006532785546135828
+          }
+        }
+      },
+      "color": {
+        "hidden_core_mae": {
+          "mean": 0.16259019203205335,
+          "ci_low": 0.1507878106873333,
+          "ci_high": 0.17469693698811645,
+          "n": 159
+        },
+        "gain_vs_uniform": {
+          "mean": 0.007266659966228316,
+          "ci_low": 0.002067258887616697,
+          "ci_high": 0.012511465049161211,
+          "n": 159
+        },
+        "gain_vs_valid_uniform": {
+          "mean": 0.006535847027538428,
+          "ci_low": 0.001396584239569971,
+          "ci_high": 0.0115629996679767,
+          "n": 159
+        },
+        "gain_vs_fixed": {
+          "mean": 0.006911068771803268,
+          "ci_low": -0.0003672668227814532,
+          "ci_high": 0.014631347293653753,
+          "n": 159
+        },
+        "hidden_mask_recall": 0.7422818873214091,
+        "visible_mae": 0.031450875320977165,
+        "oracle_regret": 0.023793479516022703,
+        "fallbacks": 1,
+        "wins": 96,
+        "ties": 0,
+        "losses": 63,
+        "by_source": {
+          "COCOA": {
+            "n": 42,
+            "hidden_core_mae": 0.16170802198810083,
+            "gain_vs_uniform": 0.009458548646302982
+          },
+          "VG": {
+            "n": 42,
+            "hidden_core_mae": 0.15018265542411557,
+            "gain_vs_uniform": 0.00567174175962296
+          },
+          "free_images": {
+            "n": 42,
+            "hidden_core_mae": 0.16275751839492483,
+            "gain_vs_uniform": 0.0055912991706253785
+          },
+          "laion": {
+            "n": 33,
+            "hidden_core_mae": 0.17929140330898644,
+            "gain_vs_uniform": 0.008639156739852933
+          }
+        }
+      },
+      "texture": {
+        "hidden_core_mae": {
+          "mean": 0.16656480201139878,
+          "ci_low": 0.15480407784605354,
+          "ci_high": 0.17845210592737026,
+          "n": 159
+        },
+        "gain_vs_uniform": {
+          "mean": 0.0032920499868828966,
+          "ci_low": -0.0014143814538524029,
+          "ci_high": 0.008050495303891719,
+          "n": 159
+        },
+        "gain_vs_valid_uniform": {
+          "mean": 0.0025612370481930082,
+          "ci_low": -0.0021302614693276957,
+          "ci_high": 0.00729921670148918,
+          "n": 159
+        },
+        "gain_vs_fixed": {
+          "mean": 0.0029364587924578488,
+          "ci_low": -0.0030451467410213206,
+          "ci_high": 0.009382042278375004,
+          "n": 159
+        },
+        "hidden_mask_recall": 0.7323227048749149,
+        "visible_mae": 0.03149132503283214,
+        "oracle_regret": 0.027768089495368124,
+        "fallbacks": 1,
+        "wins": 88,
+        "ties": 0,
+        "losses": 71,
+        "by_source": {
+          "COCOA": {
+            "n": 42,
+            "hidden_core_mae": 0.16450291188752356,
+            "gain_vs_uniform": 0.006663658746880246
+          },
+          "VG": {
+            "n": 42,
+            "hidden_core_mae": 0.15449042811710983,
+            "gain_vs_uniform": 0.0013639690666287156
+          },
+          "free_images": {
+            "n": 42,
+            "hidden_core_mae": 0.16711454023218314,
+            "gain_vs_uniform": 0.0012342773333670792
+          },
+          "laion": {
+            "n": 33,
+            "hidden_core_mae": 0.18385674393533671,
+            "gain_vs_uniform": 0.004073816113502628
+          }
+        }
+      },
+      "boundary_color": {
+        "hidden_core_mae": {
+          "mean": 0.1632774438257657,
+          "ci_low": 0.15174300709824934,
+          "ci_high": 0.17505685896923734,
+          "n": 159
+        },
+        "gain_vs_uniform": {
+          "mean": 0.006579408172515984,
+          "ci_low": 0.0016442948860901398,
+          "ci_high": 0.011367681483009097,
+          "n": 159
+        },
+        "gain_vs_valid_uniform": {
+          "mean": 0.0058485952338260955,
+          "ci_low": 0.0009244208220918431,
+          "ci_high": 0.01056791899424689,
+          "n": 159
+        },
+        "gain_vs_fixed": {
+          "mean": 0.006223816978090938,
+          "ci_low": -0.0008331701109811852,
+          "ci_high": 0.013694606792621269,
+          "n": 159
+        },
+        "hidden_mask_recall": 0.7308983136220881,
+        "visible_mae": 0.03133445441395284,
+        "oracle_regret": 0.02448073130973503,
+        "fallbacks": 1,
+        "wins": 90,
+        "ties": 0,
+        "losses": 69,
+        "by_source": {
+          "COCOA": {
+            "n": 42,
+            "hidden_core_mae": 0.15365174957670322,
+            "gain_vs_uniform": 0.0175148210577006
+          },
+          "VG": {
+            "n": 42,
+            "hidden_core_mae": 0.15313940129897016,
+            "gain_vs_uniform": 0.0027149958847683766
+          },
+          "free_images": {
+            "n": 42,
+            "hidden_core_mae": 0.1641803004819614,
+            "gain_vs_uniform": 0.004168517083588809
+          },
+          "laion": {
+            "n": 33,
+            "hidden_core_mae": 0.1872822003416995,
+            "gain_vs_uniform": 0.0006483597071398306
+          }
+        }
+      },
+      "boundary_texture": {
+        "hidden_core_mae": {
+          "mean": 0.16405715509959484,
+          "ci_low": 0.1527192556745134,
+          "ci_high": 0.17588288751929215,
+          "n": 159
+        },
+        "gain_vs_uniform": {
+          "mean": 0.005799696898686838,
+          "ci_low": 0.0011854415951775893,
+          "ci_high": 0.010466613665597594,
+          "n": 159
+        },
+        "gain_vs_valid_uniform": {
+          "mean": 0.00506888395999695,
+          "ci_low": 0.0004062625786266553,
+          "ci_high": 0.00971850427197254,
+          "n": 159
+        },
+        "gain_vs_fixed": {
+          "mean": 0.0054441057042617915,
+          "ci_low": -0.0007337199522431606,
+          "ci_high": 0.012290441585064343,
+          "n": 159
+        },
+        "hidden_mask_recall": 0.7303830578854156,
+        "visible_mae": 0.03131896310558216,
+        "oracle_regret": 0.02526044258356418,
+        "fallbacks": 1,
+        "wins": 87,
+        "ties": 0,
+        "losses": 72,
+        "by_source": {
+          "COCOA": {
+            "n": 42,
+            "hidden_core_mae": 0.15322646768125314,
+            "gain_vs_uniform": 0.01794010295315066
+          },
+          "VG": {
+            "n": 42,
+            "hidden_core_mae": 0.15492995292767078,
+            "gain_vs_uniform": 0.0009244442560677746
+          },
+          "free_images": {
+            "n": 42,
+            "hidden_core_mae": 0.16693722329490454,
+            "gain_vs_uniform": 0.001411594270645681
+          },
+          "laion": {
+            "n": 33,
+            "hidden_core_mae": 0.18579256414772072,
+            "gain_vs_uniform": 0.002137995901118617
+          }
+        }
+      },
+      "surface_full": {
+        "hidden_core_mae": {
+          "mean": 0.16554660787429482,
+          "ci_low": 0.15423159357291497,
+          "ci_high": 0.17711644112277894,
+          "n": 159
+        },
+        "gain_vs_uniform": {
+          "mean": 0.004310244123986858,
+          "ci_low": -0.000512018445688576,
+          "ci_high": 0.009074011894031404,
+          "n": 159
+        },
+        "gain_vs_valid_uniform": {
+          "mean": 0.003579431185296969,
+          "ci_low": -0.0011495585921139785,
+          "ci_high": 0.00824731284362441,
+          "n": 159
+        },
+        "gain_vs_fixed": {
+          "mean": 0.003954652929561811,
+          "ci_low": -0.0026025289007648505,
+          "ci_high": 0.010900825882838628,
+          "n": 159
+        },
+        "hidden_mask_recall": 0.7310466159159452,
+        "visible_mae": 0.03129852394975597,
+        "oracle_regret": 0.026749895358264157,
+        "fallbacks": 1,
+        "wins": 84,
+        "ties": 0,
+        "losses": 75,
+        "by_source": {
+          "COCOA": {
+            "n": 42,
+            "hidden_core_mae": 0.15416332817084785,
+            "gain_vs_uniform": 0.017003242463555966
+          },
+          "VG": {
+            "n": 42,
+            "hidden_core_mae": 0.1554380667047745,
+            "gain_vs_uniform": 0.00041633047896404087
+          },
+          "free_images": {
+            "n": 42,
+            "hidden_core_mae": 0.1692549990333721,
+            "gain_vs_uniform": -0.0009061814678218897
+          },
+          "laion": {
+            "n": 33,
+            "hidden_core_mae": 0.18818006387379116,
+            "gain_vs_uniform": -0.0002495038249518373
+          }
+        }
+      },
+      "local_surface": {
+        "hidden_core_mae": {
+          "mean": 0.16267033591540167,
+          "ci_low": 0.1510557288488465,
+          "ci_high": 0.1741821422434481,
+          "n": 159
+        },
+        "gain_vs_uniform": {
+          "mean": 0.007186516082879979,
+          "ci_low": 0.0021826751468691664,
+          "ci_high": 0.012295668875614372,
+          "n": 159
+        },
+        "gain_vs_valid_uniform": {
+          "mean": 0.006455703144190092,
+          "ci_low": 0.0015343969837368328,
+          "ci_high": 0.011507110105771252,
+          "n": 159
+        },
+        "gain_vs_fixed": {
+          "mean": 0.006830924888454933,
+          "ci_low": -0.0002996706461849316,
+          "ci_high": 0.014408456088515594,
+          "n": 159
+        },
+        "hidden_mask_recall": 0.7391619200896175,
+        "visible_mae": 0.031489126252231284,
+        "oracle_regret": 0.023873623399371036,
+        "fallbacks": 1,
+        "wins": 89,
+        "ties": 0,
+        "losses": 70,
+        "by_source": {
+          "COCOA": {
+            "n": 42,
+            "hidden_core_mae": 0.15926732256569107,
+            "gain_vs_uniform": 0.01189924806871275
+          },
+          "VG": {
+            "n": 42,
+            "hidden_core_mae": 0.1489241894104078,
+            "gain_vs_uniform": 0.00693020777333074
+          },
+          "free_images": {
+            "n": 42,
+            "hidden_core_mae": 0.1657734135667656,
+            "gain_vs_uniform": 0.0025754039987846084
+          },
+          "laion": {
+            "n": 33,
+            "hidden_core_mae": 0.1805471678105625,
+            "gain_vs_uniform": 0.007383392238276871
+          }
+        }
+      },
+      "visible_preservation": {
+        "hidden_core_mae": {
+          "mean": 0.164304636310542,
+          "ci_low": 0.1521977481949807,
+          "ci_high": 0.17688440857427337,
+          "n": 159
+        },
+        "gain_vs_uniform": {
+          "mean": 0.005552215687739674,
+          "ci_low": 0.0004986291958193047,
+          "ci_high": 0.010811746814202735,
+          "n": 159
+        },
+        "gain_vs_valid_uniform": {
+          "mean": 0.004821402749049786,
+          "ci_low": -0.00022380015687057387,
+          "ci_high": 0.010117558541855136,
+          "n": 159
+        },
+        "gain_vs_fixed": {
+          "mean": 0.005196624493314628,
+          "ci_low": -0.00105140731994449,
+          "ci_high": 0.011797815441681394,
+          "n": 159
+        },
+        "hidden_mask_recall": 0.7278488318942838,
+        "visible_mae": 0.030779100532810327,
+        "oracle_regret": 0.025507923794511344,
+        "fallbacks": 1,
+        "wins": 94,
+        "ties": 0,
+        "losses": 65,
+        "by_source": {
+          "COCOA": {
+            "n": 42,
+            "hidden_core_mae": 0.16109840670520145,
+            "gain_vs_uniform": 0.010068163929202354
+          },
+          "VG": {
+            "n": 42,
+            "hidden_core_mae": 0.15986534387807425,
+            "gain_vs_uniform": -0.004010946694335712
+          },
+          "free_images": {
+            "n": 42,
+            "hidden_core_mae": 0.15842528826103583,
+            "gain_vs_uniform": 0.00992352930451436
+          },
+          "laion": {
+            "n": 33,
+            "hidden_core_mae": 0.18151810733076038,
+            "gain_vs_uniform": 0.006412452718078972
+          }
+        }
+      },
+      "fixed_seed_11": {
+        "hidden_core_mae": {
+          "mean": 0.16950126080385663,
+          "ci_low": 0.15753385950992335,
+          "ci_high": 0.1816572903525304,
+          "n": 159
+        },
+        "gain_vs_uniform": {
+          "mean": 0.0003555911944250473,
+          "ci_low": -0.004200830946169328,
+          "ci_high": 0.004745255404960014,
+          "n": 159
+        },
+        "gain_vs_valid_uniform": {
+          "mean": -0.0003752217442648414,
+          "ci_low": -0.005159159030921864,
+          "ci_high": 0.004284359298137829,
+          "n": 159
+        },
+        "gain_vs_fixed": {
+          "mean": 0.0,
+          "ci_low": 0.0,
+          "ci_high": 0.0,
+          "n": 159
+        },
+        "hidden_mask_recall": 0.680091618385884,
+        "visible_mae": 0.0314877399896353,
+        "oracle_regret": 0.030704548287825973,
+        "fallbacks": 0,
+        "wins": 90,
+        "ties": 0,
+        "losses": 69,
+        "by_source": {
+          "COCOA": {
+            "n": 42,
+            "hidden_core_mae": 0.1714652033979853,
+            "gain_vs_uniform": -0.0002986327635814729
+          },
+          "VG": {
+            "n": 42,
+            "hidden_core_mae": 0.15283679033577563,
+            "gain_vs_uniform": 0.0030176068479629095
+          },
+          "free_images": {
+            "n": 42,
+            "hidden_core_mae": 0.17156268315999132,
+            "gain_vs_uniform": -0.003213865594441139
+          },
+          "laion": {
+            "n": 33,
+            "hidden_core_mae": 0.1855873950992609,
+            "gain_vs_uniform": 0.0023431649495784827
+          }
+        }
+      },
+      "oracle_hidden_mae": {
+        "hidden_core_mae": {
+          "mean": 0.13879671251603065,
+          "ci_low": 0.12831621044562933,
+          "ci_high": 0.1493835185980087,
+          "n": 159
+        },
+        "gain_vs_uniform": {
+          "mean": 0.03106013948225102,
+          "ci_low": 0.027695670954617092,
+          "ci_high": 0.03469030058917549,
+          "n": 159
+        },
+        "gain_vs_valid_uniform": {
+          "mean": 0.030329326543561137,
+          "ci_low": 0.02699795962240573,
+          "ci_high": 0.03389718596207096,
+          "n": 159
+        },
+        "gain_vs_fixed": {
+          "mean": 0.030704548287825973,
+          "ci_low": 0.02460643853476505,
+          "ci_high": 0.03746408733782712,
+          "n": 159
+        },
+        "hidden_mask_recall": 0.7572977334232143,
+        "visible_mae": 0.03151637844245826,
+        "oracle_regret": 0.0,
+        "fallbacks": 0,
+        "wins": 159,
+        "ties": 0,
+        "losses": 0,
+        "by_source": {
+          "COCOA": {
+            "n": 42,
+            "hidden_core_mae": 0.1357450442790384,
+            "gain_vs_uniform": 0.035421526355365406
+          },
+          "VG": {
+            "n": 42,
+            "hidden_core_mae": 0.13145958553695797,
+            "gain_vs_uniform": 0.02439481164678056
+          },
+          "free_images": {
+            "n": 42,
+            "hidden_core_mae": 0.13071216810546515,
+            "gain_vs_uniform": 0.03763664946008506
+          },
+          "laion": {
+            "n": 33,
+            "hidden_core_mae": 0.16230823567719668,
+            "gain_vs_uniform": 0.025622324371642684
+          }
+        }
+      },
+      "development_selected": {
+        "hidden_core_mae": {
+          "mean": 0.16656480201139878,
+          "ci_low": 0.15480407784605354,
+          "ci_high": 0.17845210592737026,
+          "n": 159
+        },
+        "gain_vs_uniform": {
+          "mean": 0.0032920499868828966,
+          "ci_low": -0.0014143814538524029,
+          "ci_high": 0.008050495303891719,
+          "n": 159
+        },
+        "gain_vs_valid_uniform": {
+          "mean": 0.0025612370481930082,
+          "ci_low": -0.0021302614693276957,
+          "ci_high": 0.00729921670148918,
+          "n": 159
+        },
+        "gain_vs_fixed": {
+          "mean": 0.0029364587924578488,
+          "ci_low": -0.0030451467410213206,
+          "ci_high": 0.009382042278375004,
+          "n": 159
+        },
+        "hidden_mask_recall": 0.7323227048749149,
+        "visible_mae": 0.03149132503283214,
+        "oracle_regret": 0.027768089495368124,
+        "fallbacks": 1,
+        "wins": 88,
+        "ties": 0,
+        "losses": 71,
+        "by_source": {
+          "COCOA": {
+            "n": 42,
+            "hidden_core_mae": 0.16450291188752356,
+            "gain_vs_uniform": 0.006663658746880246
+          },
+          "VG": {
+            "n": 42,
+            "hidden_core_mae": 0.15449042811710983,
+            "gain_vs_uniform": 0.0013639690666287156
+          },
+          "free_images": {
+            "n": 42,
+            "hidden_core_mae": 0.16711454023218314,
+            "gain_vs_uniform": 0.0012342773333670792
+          },
+          "laion": {
+            "n": 33,
+            "hidden_core_mae": 0.18385674393533671,
+            "gain_vs_uniform": 0.004073816113502628
+          }
+        }
+      },
+      "uniform_random": {
+        "hidden_core_mae": {
+          "mean": 0.16985685199828165,
+          "ci_low": 0.15897651526966042,
+          "ci_high": 0.18085990590663598,
+          "n": 159
+        },
+        "gain_vs_uniform": {
+          "mean": 0.0,
+          "ci_low": 0.0,
+          "ci_high": 0.0,
+          "n": 159
+        },
+        "gain_vs_valid_uniform": {
+          "mean": -0.0007308129386898881,
+          "ci_low": -0.0016006694102288393,
+          "ci_high": 5.944415118392632e-06,
+          "n": 159
+        },
+        "gain_vs_fixed": {
+          "mean": -0.0003555911944250473,
+          "ci_low": -0.0047452554049600155,
+          "ci_high": 0.004200830946169327,
+          "n": 159
+        },
+        "hidden_mask_recall": 0.6879780665049223,
+        "visible_mae": 0.031547031993298544,
+        "oracle_regret": 0.03106013948225102,
+        "fallbacks": 0,
+        "wins": 0,
+        "ties": 159,
+        "losses": 0,
+        "by_source": {
+          "COCOA": {
+            "n": 42,
+            "hidden_core_mae": 0.17116657063440383,
+            "gain_vs_uniform": 0.0
+          },
+          "VG": {
+            "n": 42,
+            "hidden_core_mae": 0.15585439718373853,
+            "gain_vs_uniform": 0.0
+          },
+          "free_images": {
+            "n": 42,
+            "hidden_core_mae": 0.16834881756555023,
+            "gain_vs_uniform": 0.0
+          },
+          "laion": {
+            "n": 33,
+            "hidden_core_mae": 0.18793056004883937,
+            "gain_vs_uniform": 0.0
+          }
+        }
+      },
+      "uniform_valid_surface": {
+        "hidden_core_mae": {
+          "mean": 0.16912603905959178,
+          "ci_low": 0.15817503090615337,
+          "ci_high": 0.18029212403278252,
+          "n": 159
+        },
+        "gain_vs_uniform": {
+          "mean": 0.0007308129386898881,
+          "ci_low": -5.944415118394023e-06,
+          "ci_high": 0.0016006694102288386,
+          "n": 159
+        },
+        "gain_vs_valid_uniform": {
+          "mean": 0.0,
+          "ci_low": 0.0,
+          "ci_high": 0.0,
+          "n": 159
+        },
+        "gain_vs_fixed": {
+          "mean": 0.0003752217442648414,
+          "ci_low": -0.00428435929813783,
+          "ci_high": 0.005159159030921864,
+          "n": 159
+        },
+        "hidden_mask_recall": 0.7041831026517282,
+        "visible_mae": 0.031535269064328346,
+        "oracle_regret": 0.030329326543561137,
+        "fallbacks": 0,
+        "wins": 13,
+        "ties": 140,
+        "losses": 6,
+        "by_source": {
+          "COCOA": {
+            "n": 42,
+            "hidden_core_mae": 0.17075669235346144,
+            "gain_vs_uniform": 0.0004098782809423528
+          },
+          "VG": {
+            "n": 42,
+            "hidden_core_mae": 0.1548914991217941,
+            "gain_vs_uniform": 0.0009628980619444576
+          },
+          "free_images": {
+            "n": 42,
+            "hidden_core_mae": 0.1670498182876127,
+            "gain_vs_uniform": 0.00129899927793752
+          },
+          "laion": {
+            "n": 33,
+            "hidden_core_mae": 0.1878098121343827,
+            "gain_vs_uniform": 0.00012074791445667723
+          }
+        }
+      }
+    }
+  },
+  "perceptual": {
+    "n": 159,
+    "excluded_incomplete_pools": 0,
+    "methods": {
+      "fixed_seed_11": {
+        "lpips": {
+          "mean": 0.41496778762190595,
+          "ci_low": 0.39139493348885257,
+          "ci_high": 0.4380572082861414,
+          "n": 159
+        },
+        "gain_vs_uniform": {
+          "mean": 7.846881196183979e-05,
+          "ci_low": -0.009656221053486912,
+          "ci_high": 0.009070089595896077,
+          "n": 159
+        }
+      },
+      "uniform_random": {
+        "lpips": {
+          "mean": 0.41504625643386783,
+          "ci_low": 0.39488917120714795,
+          "ci_high": 0.4352820597507013,
+          "n": 159
+        },
+        "gain_vs_uniform": {
+          "mean": 0.0,
+          "ci_low": 0.0,
+          "ci_high": 0.0,
+          "n": 159
+        }
+      },
+      "uniform_valid_surface": {
+        "lpips": {
+          "mean": 0.41382785601467204,
+          "ci_low": 0.39374782526865604,
+          "ci_high": 0.43365884796331644,
+          "n": 159
+        },
+        "gain_vs_uniform": {
+          "mean": 0.0012184004191957427,
+          "ci_low": -0.0005508528317498592,
+          "ci_high": 0.0036728823239245375,
+          "n": 159
+        }
+      },
+      "visible_preservation": {
+        "lpips": {
+          "mean": 0.4043084527336576,
+          "ci_low": 0.3836484694021678,
+          "ci_high": 0.42474529997404636,
+          "n": 159
+        },
+        "gain_vs_uniform": {
+          "mean": 0.010737803700210163,
+          "ci_low": 0.00014436404665920348,
+          "ci_high": 0.02089176385388153,
+          "n": 159
+        }
+      },
+      "boundary": {
+        "lpips": {
+          "mean": 0.40132226748099115,
+          "ci_low": 0.38030284107223433,
+          "ci_high": 0.4222700701522752,
+          "n": 159
+        },
+        "gain_vs_uniform": {
+          "mean": 0.013723988952876636,
+          "ci_low": 0.003743704392299431,
+          "ci_high": 0.023604944685720046,
+          "n": 159
+        }
+      },
+      "color": {
+        "lpips": {
+          "mean": 0.402481707925879,
+          "ci_low": 0.38124707288946375,
+          "ci_high": 0.4228440414997017,
+          "n": 159
+        },
+        "gain_vs_uniform": {
+          "mean": 0.012564548507988828,
+          "ci_low": 0.0027315086544544066,
+          "ci_high": 0.02285713893068521,
+          "n": 159
+        }
+      },
+      "texture": {
+        "lpips": {
+          "mean": 0.4067261463628625,
+          "ci_low": 0.38469383405439506,
+          "ci_high": 0.42867684659999117,
+          "n": 159
+        },
+        "gain_vs_uniform": {
+          "mean": 0.008320110071005311,
+          "ci_low": -0.0014501583247017937,
+          "ci_high": 0.018620637940453738,
+          "n": 159
+        }
+      },
+      "boundary_color": {
+        "lpips": {
+          "mean": 0.3999703619043407,
+          "ci_low": 0.3784757899430891,
+          "ci_high": 0.42123258005968245,
+          "n": 159
+        },
+        "gain_vs_uniform": {
+          "mean": 0.015075894529527088,
+          "ci_low": 0.005504369565853908,
+          "ci_high": 0.024898128789913997,
+          "n": 159
+        }
+      },
+      "boundary_texture": {
+        "lpips": {
+          "mean": 0.40228814805078805,
+          "ci_low": 0.38190631439803907,
+          "ci_high": 0.423153931980238,
+          "n": 159
+        },
+        "gain_vs_uniform": {
+          "mean": 0.012758108383079744,
+          "ci_low": 0.0030597055752603513,
+          "ci_high": 0.022911613804153488,
+          "n": 159
+        }
+      },
+      "surface_full": {
+        "lpips": {
+          "mean": 0.4060989039124183,
+          "ci_low": 0.3856077943981256,
+          "ci_high": 0.42669466128514244,
+          "n": 159
+        },
+        "gain_vs_uniform": {
+          "mean": 0.008947352521449514,
+          "ci_low": -0.001026603268787452,
+          "ci_high": 0.01922140302628556,
+          "n": 159
+        }
+      },
+      "local_surface": {
+        "lpips": {
+          "mean": 0.3963079387849232,
+          "ci_low": 0.3758477276905715,
+          "ci_high": 0.417143144847462,
+          "n": 159
+        },
+        "gain_vs_uniform": {
+          "mean": 0.018738317648944614,
+          "ci_low": 0.00926481677723006,
+          "ci_high": 0.028777170352602622,
+          "n": 159
+        }
+      },
+      "development_selected": {
+        "lpips": {
+          "mean": 0.4067261463628625,
+          "ci_low": 0.38469383405439506,
+          "ci_high": 0.42867684659999117,
+          "n": 159
+        },
+        "gain_vs_uniform": {
+          "mean": 0.008320110071005311,
+          "ci_low": -0.0014501583247017937,
+          "ci_high": 0.018620637940453738,
+          "n": 159
+        }
+      },
+      "oracle_hidden_mae": {
+        "lpips": {
+          "mean": 0.37227914367550574,
+          "ci_low": 0.3504131303971294,
+          "ci_high": 0.3947423617156375,
+          "n": 159
+        },
+        "gain_vs_uniform": {
+          "mean": 0.04276711275836207,
+          "ci_low": 0.033423196271928794,
+          "ci_high": 0.05201386739822022,
+          "n": 159
+        }
+      }
+    }
+  },
+  "perceptual_cohorts": {
+    "Pilot test": {
+      "n": 72,
+      "excluded_incomplete_pools": 0,
+      "methods": {
+        "fixed_seed_11": {
+          "lpips": {
+            "mean": 0.4253770266142156,
+            "ci_low": 0.38981966737450824,
+            "ci_high": 0.4627898781560361,
+            "n": 72
+          },
+          "gain_vs_uniform": {
+            "mean": -0.00754700914128787,
+            "ci_low": -0.02437103301183217,
+            "ci_high": 0.006326451115698237,
+            "n": 72
+          }
+        },
+        "uniform_random": {
+          "lpips": {
+            "mean": 0.41783001747292775,
+            "ci_low": 0.38737805768679306,
+            "ci_high": 0.4482914322502135,
+            "n": 72
+          },
+          "gain_vs_uniform": {
+            "mean": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "n": 72
+          }
+        },
+        "uniform_valid_surface": {
+          "lpips": {
+            "mean": 0.4176608165812299,
+            "ci_low": 0.3873355834540066,
+            "ci_high": 0.44797278569873283,
+            "n": 72
+          },
+          "gain_vs_uniform": {
+            "mean": 0.0001692008916978465,
+            "ci_low": -0.0003808555451946139,
+            "ci_high": 0.000746200757998005,
+            "n": 72
+          }
+        },
+        "visible_preservation": {
+          "lpips": {
+            "mean": 0.4001494942026006,
+            "ci_low": 0.37048151394248835,
+            "ci_high": 0.43061809512372645,
+            "n": 72
+          },
+          "gain_vs_uniform": {
+            "mean": 0.017680523270327184,
+            "ci_low": 0.0006201936507649309,
+            "ci_high": 0.03481402510596024,
+            "n": 72
+          }
+        },
+        "boundary": {
+          "lpips": {
+            "mean": 0.4064858246387707,
+            "ci_low": 0.374523207734132,
+            "ci_high": 0.4384799936501723,
+            "n": 72
+          },
+          "gain_vs_uniform": {
+            "mean": 0.011344192834157083,
+            "ci_low": -0.005844022180341804,
+            "ci_high": 0.02932861618594163,
+            "n": 72
+          }
+        },
+        "color": {
+          "lpips": {
+            "mean": 0.40280402462101644,
+            "ci_low": 0.37137490538621526,
+            "ci_high": 0.43409671892360263,
+            "n": 72
+          },
+          "gain_vs_uniform": {
+            "mean": 0.01502599285191132,
+            "ci_low": -0.00010461167160732016,
+            "ci_high": 0.03220450486341077,
+            "n": 72
+          }
+        },
+        "texture": {
+          "lpips": {
+            "mean": 0.41380974733167225,
+            "ci_low": 0.3817568846719546,
+            "ci_high": 0.445941896069174,
+            "n": 72
+          },
+          "gain_vs_uniform": {
+            "mean": 0.004020270141255524,
+            "ci_low": -0.011798892268497084,
+            "ci_high": 0.021695852860446188,
+            "n": 72
+          }
+        },
+        "boundary_color": {
+          "lpips": {
+            "mean": 0.40413931684775484,
+            "ci_low": 0.37245351723395287,
+            "ci_high": 0.4372148103623961,
+            "n": 72
+          },
+          "gain_vs_uniform": {
+            "mean": 0.01369070062517292,
+            "ci_low": -0.0028954792108076316,
+            "ci_high": 0.03134479270601231,
+            "n": 72
+          }
+        },
+        "boundary_texture": {
+          "lpips": {
+            "mean": 0.40993920610182816,
+            "ci_low": 0.380061269323859,
+            "ci_high": 0.4402063101167894,
+            "n": 72
+          },
+          "gain_vs_uniform": {
+            "mean": 0.007890811371099617,
+            "ci_low": -0.007518864011055687,
+            "ci_high": 0.024522092919020577,
+            "n": 72
+          }
+        },
+        "surface_full": {
+          "lpips": {
+            "mean": 0.41459211914075744,
+            "ci_low": 0.38392444152591954,
+            "ci_high": 0.4466428386771844,
+            "n": 72
+          },
+          "gain_vs_uniform": {
+            "mean": 0.003237898332170314,
+            "ci_low": -0.013885032461904402,
+            "ci_high": 0.02065026939962986,
+            "n": 72
+          }
+        },
+        "local_surface": {
+          "lpips": {
+            "mean": 0.39869898350702393,
+            "ci_low": 0.36613878888181517,
+            "ci_high": 0.4306848378334608,
+            "n": 72
+          },
+          "gain_vs_uniform": {
+            "mean": 0.019131033965903852,
+            "ci_low": 0.003566792750886331,
+            "ci_high": 0.035462594856896124,
+            "n": 72
+          }
+        },
+        "development_selected": {
+          "lpips": {
+            "mean": 0.41380974733167225,
+            "ci_low": 0.3817568846719546,
+            "ci_high": 0.445941896069174,
+            "n": 72
+          },
+          "gain_vs_uniform": {
+            "mean": 0.004020270141255524,
+            "ci_low": -0.011798892268497084,
+            "ci_high": 0.021695852860446188,
+            "n": 72
+          }
+        },
+        "oracle_hidden_mae": {
+          "lpips": {
+            "mean": 0.37037206679168677,
+            "ci_low": 0.33887210082159275,
+            "ci_high": 0.40173756899312135,
+            "n": 72
+          },
+          "gain_vs_uniform": {
+            "mean": 0.04745795068124102,
+            "ci_low": 0.032928167764071585,
+            "ci_high": 0.06313009848042078,
+            "n": 72
+          }
+        }
+      }
+    },
+    "Replication": {
+      "n": 87,
+      "excluded_incomplete_pools": 0,
+      "methods": {
+        "fixed_seed_11": {
+          "lpips": {
+            "mean": 0.40635324500758074,
+            "ci_low": 0.37784434407521256,
+            "ci_high": 0.43482504189870824,
+            "n": 87
+          },
+          "gain_vs_uniform": {
+            "mean": 0.006389209187065048,
+            "ci_low": -0.0045683175245107245,
+            "ci_high": 0.01767659720204684,
+            "n": 87
+          }
+        },
+        "uniform_random": {
+          "lpips": {
+            "mean": 0.4127424541946458,
+            "ci_low": 0.3873204576461737,
+            "ci_high": 0.43780630469193743,
+            "n": 87
+          },
+          "gain_vs_uniform": {
+            "mean": 0.0,
+            "ci_low": 0.0,
+            "ci_high": 0.0,
+            "n": 87
+          }
+        },
+        "uniform_valid_surface": {
+          "lpips": {
+            "mean": 0.41065575071821037,
+            "ci_low": 0.38600535004977776,
+            "ci_high": 0.4354641311038356,
+            "n": 87
+          },
+          "gain_vs_uniform": {
+            "mean": 0.002086703476435381,
+            "ci_low": -0.001055273842209257,
+            "ci_high": 0.006395996345913609,
+            "n": 87
+          }
+        },
+        "visible_preservation": {
+          "lpips": {
+            "mean": 0.4077503494490152,
+            "ci_low": 0.38064505760183276,
+            "ci_high": 0.43484694660994505,
+            "n": 87
+          },
+          "gain_vs_uniform": {
+            "mean": 0.004992104745630561,
+            "ci_low": -0.0072260860503576265,
+            "ci_high": 0.01744358807952068,
+            "n": 87
+          }
+        },
+        "boundary": {
+          "lpips": {
+            "mean": 0.3970489787986909,
+            "ci_low": 0.37121673023820606,
+            "ci_high": 0.42266617153139635,
+            "n": 87
+          },
+          "gain_vs_uniform": {
+            "mean": 0.01569347539595489,
+            "ci_low": 0.005005329044471527,
+            "ci_high": 0.02646051984837,
+            "n": 87
+          }
+        },
+        "color": {
+          "lpips": {
+            "mean": 0.40221496307473076,
+            "ci_low": 0.3758742693501214,
+            "ci_high": 0.42820833876365044,
+            "n": 87
+          },
+          "gain_vs_uniform": {
+            "mean": 0.010527491119915041,
+            "ci_low": -0.0021930624061831457,
+            "ci_high": 0.023099615756186753,
+            "n": 87
+          }
+        },
+        "texture": {
+          "lpips": {
+            "mean": 0.4008638559059165,
+            "ci_low": 0.3735833535763039,
+            "ci_high": 0.4277508194247881,
+            "n": 87
+          },
+          "gain_vs_uniform": {
+            "mean": 0.011878598288729274,
+            "ci_low": 0.0004941559391331743,
+            "ci_high": 0.023675099397934534,
+            "n": 87
+          }
+        },
+        "boundary_color": {
+          "lpips": {
+            "mean": 0.396520192295998,
+            "ci_low": 0.3701823906073796,
+            "ci_high": 0.42285218100630856,
+            "n": 87
+          },
+          "gain_vs_uniform": {
+            "mean": 0.01622226189864778,
+            "ci_low": 0.004800519738453387,
+            "ci_high": 0.027608155926967824,
+            "n": 87
+          }
+        },
+        "boundary_texture": {
+          "lpips": {
+            "mean": 0.39595623793958246,
+            "ci_low": 0.36965412834509354,
+            "ci_high": 0.42210335967013196,
+            "n": 87
+          },
+          "gain_vs_uniform": {
+            "mean": 0.016786216255063297,
+            "ci_low": 0.004936469725772053,
+            "ci_high": 0.028845796733559373,
+            "n": 87
+          }
+        },
+        "surface_full": {
+          "lpips": {
+            "mean": 0.39907003613724107,
+            "ci_low": 0.37408433647762085,
+            "ci_high": 0.4242864122721313,
+            "n": 87
+          },
+          "gain_vs_uniform": {
+            "mean": 0.013672418057404715,
+            "ci_low": 0.0020852313794452572,
+            "ci_high": 0.025122058098257943,
+            "n": 87
+          }
+        },
+        "local_surface": {
+          "lpips": {
+            "mean": 0.39432914315283984,
+            "ci_low": 0.36860506303779694,
+            "ci_high": 0.41973988021156566,
+            "n": 87
+          },
+          "gain_vs_uniform": {
+            "mean": 0.018413311041805935,
+            "ci_low": 0.0065242178438381215,
+            "ci_high": 0.030178133642365185,
+            "n": 87
+          }
+        },
+        "development_selected": {
+          "lpips": {
+            "mean": 0.4008638559059165,
+            "ci_low": 0.3735833535763039,
+            "ci_high": 0.4277508194247881,
+            "n": 87
+          },
+          "gain_vs_uniform": {
+            "mean": 0.011878598288729274,
+            "ci_low": 0.0004941559391331743,
+            "ci_high": 0.023675099397934534,
+            "n": 87
+          }
+        },
+        "oracle_hidden_mae": {
+          "lpips": {
+            "mean": 0.3738574142000456,
+            "ci_low": 0.345052351503922,
+            "ci_high": 0.4023267321791714,
+            "n": 87
+          },
+          "gain_vs_uniform": {
+            "mean": 0.038885039994600176,
+            "ci_low": 0.028427579907443504,
+            "ci_high": 0.04958536079817119,
+            "n": 87
+          }
+        }
+      }
+    }
+  },
+  "development_method": "texture",
+  "freeze_sha256": "e5f0d3d0a77b4418267b32bdc1c6987a4fa5a440c262384f998ab4177d5e914a"
+}

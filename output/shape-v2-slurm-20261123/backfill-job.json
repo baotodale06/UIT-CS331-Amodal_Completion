@@ -1,0 +1,32 @@
+{
+  "job_id": "45643",
+  "command": [
+    "sbatch",
+    "--parsable",
+    "--partition=debug-cpu",
+    "--cpus-per-task=2",
+    "--mem=2G",
+    "--time=00:05:00",
+    "--job-name=shape-v2-backfill",
+    "--dependency=afterok:45637",
+    "--kill-on-invalid-dep=yes",
+    "--output=/home/daoqm/Vu_Hung/cv_nangcao/output/shape-v2-slurm-20261123/backfill-%j.log",
+    "/home/daoqm/Vu_Hung/cv_nangcao/output/shape-v2-slurm-20261123/amend_backfill.sh"
+  ],
+  "files": {
+    "amend_backfill.py": "f059139223e31467c016419fdbf3d70464de6c14849c7957568c9e6ccb205969",
+    "amend_backfill.sh": "10a1a573c83ab99ae43aa192a3b5655f6fd97f41fd59346d6f41f94806897c46"
+  },
+  "initial_extension": {
+    "job_id": "45636",
+    "command": [
+      "scontrol",
+      "update",
+      "JobId=45636",
+      "TimeLimit=02:20:00"
+    ],
+    "returncode": 1,
+    "stderr": "Access/permission denied for job 45636",
+    "effective_limit_minutes": 90
+  }
+}

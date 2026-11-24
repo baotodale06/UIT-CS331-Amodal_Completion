@@ -1,0 +1,30 @@
+{
+  "source": "ChatGPT - Assess Reproduction Feasibility, section 2, Người 1 — Shape-Guided PMC",
+  "slide_design": "DAHbEx8zTOs",
+  "development": "96+87 = 183 original Surface objects. Four-seed development oracle headroom before training.",
+  "training": "5-channel 256x256 U-Net, synthetic half-plane occlusion of 20–80%, 40 epochs, BCE + Dice + 0.2 visible retention. Use final epoch.",
+  "controlled": "Same frozen 128 VG/COCOA confirmation images and same eight raw candidates. Also evaluate first four seeds for source protocol.",
+  "prior": "S = V union (O intersect threshold(logit >= 0)). RGB inside O outside V replaced with neutral 127. All masks use identical frame.",
+  "shape": "Maximum full-mask IoU among nonempty candidate masks, seed-order ties and slot 0 fallback.",
+  "combined": "Equal sum of within-pool midranks of negative prior IoU and frozen Surface loss among mutually valid candidates. Seed-order ties and slot 0 fallback.",
+  "controls": [
+    "fixed first seed",
+    "exact uniform K",
+    "frozen Surface",
+    "GT shape oracle, evaluation only"
+  ],
+  "primary": "Mean selected-mask IoU against pre-occlusion SAM support versus uniform K=8. Unit is image. Source-stratified paired bootstrap, 5000 draws, seed 20261110.",
+  "secondary": [
+    "hidden-region IoU",
+    "object LPIPS",
+    "hidden spatial LPIPS",
+    "DreamSim",
+    "hidden-core MAE",
+    "CLIP cosine",
+    "object SSIM",
+    "128-case paired gains versus Surface"
+  ],
+  "full": "Exact 2565 annotated-vocabulary targets with historical matched SAM reference files. Compare progressive Shape and combined transfers to baseline and Surface. Report 204-target cohort separately and historical unseen subset. Same eight seeds each pass and upstream stopping. Shape selects raw RGB; combined applies Surface RGB correction to the jointly selected candidate. Use L40S, report allocation time and GPU difference.",
+  "qualitative": "Week 8 slide 17 umbrella and bus identified by baseline/Surface object LPIPS; show same source and four method columns.",
+  "limits": "Controlled pre-occlusion SAM masks are pseudo-labels. The 35% occlusion cohort cannot establish accuracy under heavy real occlusion. Full SAM visible-reference appearance is a different endpoint."
+}

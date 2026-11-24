@@ -1,0 +1,406 @@
+{
+  "at": "2026-11-24T12:35:49.416038+00:00",
+  "hostname": "slurm",
+  "jobs": {
+    "45673": {
+      "JobId": "45673",
+      "JobName": "shape-v2-full",
+      "JobState": "PENDING",
+      "Reason": "ReqNodeNotAvail,_Reserved_for_maintenance",
+      "Dependency": "(null)",
+      "TimeLimit": "1-00:00:00",
+      "StartTime": "Unknown",
+      "Partition": "debug-gpu",
+      "ReqNodeList": "(null)",
+      "NodeList": "",
+      "NumNodes": "1",
+      "NumCPUs": "16",
+      "ReqTRES": "cpu=16,mem=96G,node=1,billing=16,gres/gpu=4",
+      "TresPerNode": "gres/gpu:quadro_rtx_6000:4"
+    },
+    "45674": {
+      "JobId": "45674",
+      "JobName": "shape-v2-resume",
+      "JobState": "PENDING",
+      "Reason": "Dependency",
+      "Dependency": "afterany:45673(unfulfilled)",
+      "TimeLimit": "00:10:00",
+      "StartTime": "Unknown",
+      "Partition": "debug-cpu",
+      "ReqNodeList": "(null)",
+      "NodeList": "",
+      "NumNodes": "1",
+      "NumCPUs": "2",
+      "ReqTRES": "cpu=2,mem=8G,node=1,billing=2"
+    },
+    "45675": {
+      "JobId": "45675",
+      "JobName": "shape-v2-export",
+      "JobState": "PENDING",
+      "Reason": "Dependency",
+      "Dependency": "afterany:45674(unfulfilled)",
+      "TimeLimit": "00:30:00",
+      "StartTime": "Unknown",
+      "Partition": "debug-cpu",
+      "ReqNodeList": "(null)",
+      "NodeList": "",
+      "NumNodes": "1",
+      "NumCPUs": "2",
+      "ReqTRES": "cpu=2,mem=8G,node=1,billing=2"
+    },
+    "45677": {
+      "JobId": "45677",
+      "JobName": "shape-constrained-preflight",
+      "JobState": "PENDING",
+      "Reason": "ReqNodeNotAvail,_Reserved_for_maintenance",
+      "Dependency": "(null)",
+      "TimeLimit": "00:03:00",
+      "StartTime": "Unknown",
+      "Partition": "debug-gpu",
+      "ReqNodeList": "(null)",
+      "NodeList": "",
+      "NumNodes": "1",
+      "NumCPUs": "24",
+      "ReqTRES": "cpu=24,mem=80G,node=1,billing=24,gres/gpu=4",
+      "TresPerNode": "gres/gpu:quadro_rtx_6000:4"
+    },
+    "45678": {
+      "JobId": "45678",
+      "JobName": "shape-constrained-training",
+      "JobState": "PENDING",
+      "Reason": "Dependency",
+      "Dependency": "afterok:45677(unfulfilled)",
+      "TimeLimit": "00:30:00",
+      "StartTime": "Unknown",
+      "Partition": "debug-gpu",
+      "ReqNodeList": "(null)",
+      "NodeList": "",
+      "NumNodes": "1",
+      "NumCPUs": "24",
+      "ReqTRES": "cpu=24,mem=80G,node=1,billing=24,gres/gpu=4",
+      "TresPerNode": "gres/gpu:quadro_rtx_6000:4"
+    },
+    "45679": {
+      "JobId": "45679",
+      "JobName": "shape-constrained-native",
+      "JobState": "PENDING",
+      "Reason": "Dependency",
+      "Dependency": "afterok:45678(unfulfilled)",
+      "TimeLimit": "00:05:00",
+      "StartTime": "Unknown",
+      "Partition": "debug-gpu",
+      "ReqNodeList": "(null)",
+      "NodeList": "",
+      "NumNodes": "1",
+      "NumCPUs": "4",
+      "ReqTRES": "cpu=4,mem=20G,node=1,billing=4,gres/gpu=1",
+      "TresPerNode": "gres/gpu:quadro_rtx_6000:1"
+    },
+    "45680": {
+      "JobId": "45680",
+      "JobName": "shape-cal-native",
+      "JobState": "PENDING",
+      "Reason": "ReqNodeNotAvail,_Reserved_for_maintenance",
+      "Dependency": "(null)",
+      "TimeLimit": "01:00:00",
+      "StartTime": "Unknown",
+      "Partition": "debug-gpu",
+      "ReqNodeList": "gebru",
+      "NodeList": "",
+      "NumNodes": "1",
+      "NumCPUs": "4",
+      "ReqTRES": "cpu=4,mem=16G,node=1,billing=4,gres/gpu=1",
+      "TresPerNode": "gres/gpu:1"
+    },
+    "45681": {
+      "JobId": "45681",
+      "JobName": "shape-cal-check",
+      "JobState": "PENDING",
+      "Reason": "Dependency",
+      "Dependency": "afterok:45680(unfulfilled)",
+      "TimeLimit": "02:00:00",
+      "StartTime": "Unknown",
+      "Partition": "debug-gpu",
+      "ReqNodeList": "gebru",
+      "NodeList": "",
+      "NumNodes": "1-1",
+      "NumCPUs": "4",
+      "ReqTRES": "cpu=4,mem=24G,node=1,billing=4,gres/gpu=1",
+      "TresPerNode": "gres/gpu:1"
+    },
+    "45682": {
+      "JobId": "45682",
+      "JobName": "shape-cal-smoke",
+      "JobState": "PENDING",
+      "Reason": "Dependency",
+      "Dependency": "afterok:45681(unfulfilled)",
+      "TimeLimit": "02:00:00",
+      "StartTime": "Unknown",
+      "Partition": "debug-gpu",
+      "ReqNodeList": "gebru",
+      "NodeList": "",
+      "NumNodes": "1-1",
+      "NumCPUs": "16",
+      "ReqTRES": "cpu=16,mem=96G,node=1,billing=16,gres/gpu=4",
+      "TresPerNode": "gres/gpu:4"
+    },
+    "45683": {
+      "JobId": "45683",
+      "JobName": "shape-cal-full",
+      "JobState": "PENDING",
+      "Reason": "Dependency",
+      "Dependency": "afterok:45682(unfulfilled)",
+      "TimeLimit": "1-00:00:00",
+      "StartTime": "Unknown",
+      "Partition": "debug-gpu",
+      "ReqNodeList": "gebru",
+      "NodeList": "",
+      "NumNodes": "1-1",
+      "NumCPUs": "16",
+      "ReqTRES": "cpu=16,mem=96G,node=1,billing=16,gres/gpu=4",
+      "TresPerNode": "gres/gpu:4"
+    },
+    "45684": {
+      "JobId": "45684",
+      "JobName": "shape-cal-resume",
+      "JobState": "PENDING",
+      "Reason": "Dependency",
+      "Dependency": "afterany:45683(unfulfilled)",
+      "TimeLimit": "00:10:00",
+      "StartTime": "Unknown",
+      "Partition": "debug-cpu",
+      "ReqNodeList": "(null)",
+      "NodeList": "",
+      "NumNodes": "1",
+      "NumCPUs": "2",
+      "ReqTRES": "cpu=2,mem=8G,node=1,billing=2"
+    },
+    "45685": {
+      "JobId": "45685",
+      "JobName": "shape-cal-export",
+      "JobState": "PENDING",
+      "Reason": "Dependency",
+      "Dependency": "afterany:45684(unfulfilled)",
+      "TimeLimit": "00:30:00",
+      "StartTime": "Unknown",
+      "Partition": "debug-cpu",
+      "ReqNodeList": "(null)",
+      "NodeList": "",
+      "NumNodes": "1",
+      "NumCPUs": "2",
+      "ReqTRES": "cpu=2,mem=8G,node=1,billing=2"
+    }
+  },
+  "reservations": "ReservationName=root_1 StartTime=2026-11-23T13:00:00 EndTime=2026-11-25T13:00:00 Duration=2-00:00:00\n   Nodes=floyd,gauss,gebru,gus,hopper,noether NodeCnt=6 CoreCnt=644 Features=(null) PartitionName=(null) Flags=MAINT,IGNORE_JOBS,SPEC_NODES,ALL_NODES\n   TRES=cpu=1288\n   Users=root Groups=(null) Accounts=(null) Licenses=(null) State=ACTIVE BurstBuffer=(null)\n   MaxStartDelay=(null)\n\n",
+  "nodes": "Tue Nov 24 12:35:49 2026\nNODELIST   NODES  PARTITION       STATE CPUS    S:C:T MEMORY TMP_DISK WEIGHT AVAIL_FE REASON              \nfloyd          1 debug-cpu*       maint 88     2:22:2 773914        0      1   (null) none                \nfloyd          1        cpu       maint 88     2:22:2 773914        0      1   (null) none                \ngauss          1        cpu       maint 256    2:64:2 103147        0      5   (null) none                \ngebru          1        gpu       maint 48     2:12:2 192057        0      5   (null) none                \ngebru          1  debug-gpu       maint 48     2:12:2 192057        0      5   (null) none                \ngus            1        gpu       maint 256    2:64:2 103186        0      5   (null) none                \nhopper         1        cpu       maint 512   2:128:2 128935        0      5   (null) none                \nnoether        1        cpu       maint 128    2:32:2 154758        0      5   (null) none                \n",
+  "accounting": "45673|PENDING|0:0|00:00:00|None assigned|Unknown|Unknown\n45674|PENDING|0:0|00:00:00|None assigned|Unknown|Unknown\n45675|PENDING|0:0|00:00:00|None assigned|Unknown|Unknown\n45677|PENDING|0:0|00:00:00|None assigned|Unknown|Unknown\n45678|PENDING|0:0|00:00:00|None assigned|Unknown|Unknown\n45679|PENDING|0:0|00:00:00|None assigned|Unknown|Unknown\n45680|PENDING|0:0|00:00:00|None assigned|Unknown|Unknown\n45681|PENDING|0:0|00:00:00|None assigned|Unknown|Unknown\n45682|PENDING|0:0|00:00:00|None assigned|Unknown|Unknown\n45683|PENDING|0:0|00:00:00|None assigned|Unknown|Unknown\n45684|PENDING|0:0|00:00:00|None assigned|Unknown|Unknown\n45685|PENDING|0:0|00:00:00|None assigned|Unknown|Unknown\n",
+  "benchmark_success": false,
+  "observers": {
+    "v2": {
+      "jobs": {
+        "45632": [
+          "COMPLETED",
+          "0:0"
+        ],
+        "45634": [
+          "COMPLETED",
+          "0:0"
+        ],
+        "45635": [
+          "COMPLETED",
+          "0:0"
+        ],
+        "45636": [
+          "TIMEOUT",
+          "0:0"
+        ],
+        "45637": [
+          "COMPLETED",
+          "0:0"
+        ],
+        "45642": [
+          "COMPLETED",
+          "0:0"
+        ],
+        "45643": [
+          "COMPLETED",
+          "0:0"
+        ],
+        "45658": [
+          "TIMEOUT",
+          "0:0"
+        ],
+        "45659": [
+          "COMPLETED",
+          "0:0"
+        ],
+        "45660": [
+          "COMPLETED",
+          "0:0"
+        ],
+        "45673": [
+          "PENDING",
+          "0:0"
+        ],
+        "45674": [
+          "PENDING",
+          "0:0"
+        ],
+        "45675": [
+          "PENDING",
+          "0:0"
+        ]
+      },
+      "counts": {
+        "ambiguous_target": 57,
+        "no_completion": 38,
+        "success": 112,
+        "not_detected": 15
+      },
+      "export_ready": false,
+      "at": "2026-11-24T12:34:55.500598+00:00",
+      "disposition": "waiting"
+    },
+    "constrained": {
+      "jobs": {
+        "45677": [
+          "PENDING",
+          "0:0"
+        ],
+        "45678": [
+          "PENDING",
+          "0:0"
+        ],
+        "45679": [
+          "PENDING",
+          "0:0"
+        ]
+      },
+      "roles": {
+        "45677": "preflight",
+        "45678": "training",
+        "45679": "native_validation"
+      },
+      "accounting": "JobIDRaw|State|ExitCode|ElapsedRaw|AllocTRES|NodeList|Start|End\n45677|PENDING|0:0|0||None assigned|Unknown|Unknown\n45678|PENDING|0:0|0||None assigned|Unknown|Unknown\n45679|PENDING|0:0|0||None assigned|Unknown|Unknown\n",
+      "training": {},
+      "native": null,
+      "at": "2026-11-24T12:34:54.503916+00:00",
+      "disposition": "waiting"
+    },
+    "calibrated": {
+      "jobs": {
+        "native": "45680",
+        "preflight": "45681",
+        "smoke": "45682",
+        "full": "45683",
+        "controller": "45684",
+        "finalizer": "45685"
+      },
+      "accounting": {
+        "45680": [
+          "PENDING",
+          "0:0",
+          "0",
+          "",
+          "None assigned",
+          "Unknown",
+          "Unknown"
+        ],
+        "45681": [
+          "PENDING",
+          "0:0",
+          "0",
+          "",
+          "None assigned",
+          "Unknown",
+          "Unknown"
+        ],
+        "45682": [
+          "PENDING",
+          "0:0",
+          "0",
+          "",
+          "None assigned",
+          "Unknown",
+          "Unknown"
+        ],
+        "45683": [
+          "PENDING",
+          "0:0",
+          "0",
+          "",
+          "None assigned",
+          "Unknown",
+          "Unknown"
+        ],
+        "45684": [
+          "PENDING",
+          "0:0",
+          "0",
+          "",
+          "None assigned",
+          "Unknown",
+          "Unknown"
+        ],
+        "45685": [
+          "PENDING",
+          "0:0",
+          "0",
+          "",
+          "None assigned",
+          "Unknown",
+          "Unknown"
+        ]
+      },
+      "raw_accounting": "45680|PENDING|0:0|0||None assigned|Unknown|Unknown\n45681|PENDING|0:0|0||None assigned|Unknown|Unknown\n45682|PENDING|0:0|0||None assigned|Unknown|Unknown\n45683|PENDING|0:0|0||None assigned|Unknown|Unknown\n45684|PENDING|0:0|0||None assigned|Unknown|Unknown\n45685|PENDING|0:0|0||None assigned|Unknown|Unknown\n",
+      "counts": {},
+      "audit_ready": false,
+      "export_ready": false,
+      "at": "2026-11-24T12:34:09.079316+00:00",
+      "benchmark_success": false,
+      "disposition": "waiting",
+      "snapshot": "recovery/20261124T123409Z"
+    },
+    "kaggle": {
+      "at": "2026-11-24T12:35:40.808420+00:00",
+      "kernel": "ez4kacchan/shape-calibrated-batch-20261124/1",
+      "observer_pid": 23064,
+      "benchmark_success": false,
+      "observer_manifest_sha256": "e225378a0c7f2763c60a0d246fae7ba7a8539d8935a830aad9362beb9b1d6545",
+      "state": "QUEUED",
+      "disposition": "waiting"
+    }
+  },
+  "processes": [
+    {
+      "ProcessId": 14576,
+      "ParentProcessId": 29004,
+      "CreationDate": "/Date(1795430610529)/",
+      "CommandLine": "\"C:\\Python314\\python.exe\" -u scripts/collect_shape_v2.py --watch"
+    },
+    {
+      "ProcessId": 2860,
+      "ParentProcessId": 36432,
+      "CreationDate": "/Date(1795438864002)/",
+      "CommandLine": "\"C:\\Python314\\python.exe\" -u scripts/collect_shape_constrained.py --watch"
+    },
+    {
+      "ProcessId": 22844,
+      "ParentProcessId": 26520,
+      "CreationDate": "/Date(1795450333705)/",
+      "CommandLine": "\"C:\\Python314\\python.exe\" -u output/shape-calibrated-benchmark-20261123/collect.py --watch"
+    },
+    {
+      "ProcessId": 23064,
+      "ParentProcessId": 36700,
+      "CreationDate": "/Date(1795521354578)/",
+      "CommandLine": "C:\\Users\\daovu\\.cache\\shape-kaggle-cli\\Scripts\\python.exe -u C:\\Users\\daovu\\Documents\\Project\\cv_nangcao\\output\\shape-calibrated-batch-20261124\\collector.py --watch"
+    }
+  ],
+  "recorded_at": "2026-11-24T12:35:50.079539+00:00",
+  "ssh_restored": true,
+  "all_collectors_alive_and_polling": true,
+  "jobs_changed": false,
+  "jobs_duplicated": false,
+  "goal_achieved": false
+}

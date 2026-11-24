@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="A private, blinded human preference study for amodal object completion.">
+  <title>Amodal · Preference Lab</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="study.js"></script>
+  <script defer src="integrity.js"></script>
+  <script defer src="core.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <header class="topbar"><a class="brand" href="index.html" aria-label="Preference Lab home"><span class="mark" aria-hidden="true">◈</span><span>amodal<span class="brand-sub">PREFERENCE LAB</span></span></a><div class="top-actions"><span class="private-label">Personal study</span><button id="help-button" class="quiet">How to rate</button><button id="export-button">Export backup</button></div></header>
+  <div id="notice" class="notice" role="status" hidden></div>
+  <div id="folder-bar" class="folder-bar"><div><strong>Use your local study images</strong><span id="folder-status">On the hosted site, select the extracted reviewer folder. Images stay on your device.</span></div><button id="folder-button">Open study folder</button><input id="folder-input" type="file" webkitdirectory multiple hidden></div>
+  <div class="layout">
+    <aside class="sidebar">
+      <div class="eyebrow">YOUR WORKSPACE</div><h2>Human evaluation</h2><p class="muted">One object. A careful comparison.<br>Your judgement.</p>
+      <div class="round active"><span class="round-tag">ACTIVE ROUND</span><h3 id="round-title">Full Surface comparison</h3><p id="round-count">Loading frozen study…</p></div>
+      <div id="pending-rounds"></div>
+      <section class="progress-section"><div class="between"><strong>Your progress</strong><span id="progress-fraction">0 / 0</span></div><progress id="progress" value="0" max="1"></progress><p id="progress-detail" class="muted">No ratings yet.</p><button class="quiet" id="next-unrated">Continue unreviewed</button></section>
+      <label for="filter">Browse cases</label><select id="filter"><option value="all">All cases</option><option value="unreviewed">Unreviewed</option><option value="rated">Rated</option><option value="skipped">Skipped</option></select>
+      <label for="case-picker" class="sr-only">Choose a case</label><select id="case-picker"></select>
+      <div class="sidebar-bottom"><button id="rater-button" class="quiet">Rater details</button><button id="import-button" class="quiet">Restore JSON backup</button><input id="import-file" type="file" accept="application/json,.json" hidden><p id="save-status">Saved on this browser.<br>Export a backup after each session.</p></div>
+    </aside>
+    <main id="workspace">
+      <div class="case-heading"><div><div class="eyebrow" id="case-position">BLINDED COMPARISON</div><h1>Which completion looks better?</h1><p class="muted">Consider the whole object: plausible shape, consistent appearance, and preservation of what is visible.</p></div><span id="case-state" class="pill">Unreviewed</span></div>
+      <section class="reference-strip" aria-label="Input reference"><button class="reference-image" id="context-zoom"><img id="context-image" alt="Input scene around the target"><span>Input context</span></button><button class="reference-image" id="visible-zoom"><img id="visible-image" alt="Visible target identified by SAM"><span>Visible target</span></button><div class="reference-text"><span class="eyebrow">TARGET OBJECT</span><h2 id="target-label">Loading…</h2><p>Use the visible target as your reference. The hidden region has no known RGB ground truth.</p><button id="scene-zoom" class="quiet">Open full input image</button></div></section>
+      <div class="compare-toolbar"><span>Anonymous outputs <span class="muted">· positions change between cases</span></span><button id="compare-zoom" class="quiet">Inspect at full resolution</button></div>
+      <section id="candidates" class="candidates" aria-label="Completion options"></section>
+      <section class="judgement-panel"><div class="between"><h2>Your overall preference <span class="required">Required</span></h2><span class="muted">Select multiple options for a tie.</span></div><div id="overall-controls" class="judgement-controls"></div>
+        <details id="optional-details"><summary>Add shape and surface preferences <span class="muted">optional</span></summary><div class="optional-grid"><div><h3>Shape &amp; completeness</h3><p class="muted">Plausible silhouette, structure, and missing parts.</p><div id="shape-controls" class="judgement-controls"></div></div><div><h3>Surface &amp; appearance</h3><p class="muted">Consistent texture, color, pattern, and identity.</p><div id="surface-controls" class="judgement-controls"></div></div></div></details>
+        <div class="notes-grid"><div><label for="notes">Notes <span class="muted">optional</span></label><textarea id="notes" rows="2" maxlength="4000" placeholder="What influenced your choice?"></textarea></div><div><label for="confidence">Confidence <span class="muted">optional</span></label><select id="confidence"><option value="">Not recorded</option><option value="high">High</option><option value="medium">Medium</option><option value="low">Low</option></select></div></div>
+      </section>
+      <p id="asset-status" class="asset-status" role="status"></p>
+      <nav class="case-navigation" aria-label="Rating navigation"><button id="previous">Previous</button><button id="next" class="quiet">Next without rating</button><div class="nav-right"><button id="skip-button" class="quiet">Skip case</button><button id="save-next" class="primary">Save &amp; continue</button></div></nav>
+      <p class="footnote">Method names and metric scores stay hidden during rating. Each round has separate responses.</p>
+    </main>
+  </div>
+  <dialog id="help-dialog"><div class="dialog-heading"><h2>A consistent way to judge</h2><button data-close="help-dialog" aria-label="Close guide">Close</button></div><p>Compare each output with the input and visible target. Choose the completion you would prefer to use overall.</p><ol><li>Look for a plausible whole object, including its shape and missing parts.</li><li>Check whether color, texture, pattern, and identity remain consistent with visible evidence.</li><li>Notice lost visible details, distorted geometry, or added objects.</li></ol><p>Select more than one option when they are equally good. “Cannot judge” means the evidence is insufficient; it is different from a tie. Skip when you need to return later or an image is broken.</p><p>Shape and surface preferences are optional, separate judgements. They do not replace your overall choice. Use the same interpretation throughout the round.</p><p>The cropped views share one coordinate frame and scale. Open full resolution to inspect details. The visible SAM target is a detector reference, not the true hidden shape.</p><p>Ratings are saved in this browser. Export JSON after every session; use it to resume elsewhere. CSV is for inspection. No ratings are submitted automatically.</p><div id="study-scope" class="scope-note"></div></dialog>
+  <dialog id="rater-dialog"><form id="rater-form"><h2>Your rater details</h2><p>A short code is enough. These details accompany your exported results.</p><label for="rater-code">Rater code</label><input id="rater-code" maxlength="80" required placeholder="e.g. R01"><label for="rater-role">Your involvement</label><select id="rater-role" required><option value="">Choose one</option><option value="researcher">I work on this research</option><option value="independent">Independent rater</option><option value="other">Other involvement</option></select><label for="rater-exposure">Have you seen previous results or examples?</label><select id="rater-exposure" required><option value="">Choose one</option><option value="yes">Yes</option><option value="no">No</option></select><div class="dialog-actions"><button type="button" data-close="rater-dialog">Cancel</button><button class="primary" type="submit">Save details</button></div></form></dialog>
+  <dialog id="skip-dialog"><form id="skip-form"><h2>Skip this case</h2><p>Skipped cases are excluded from preference scores and remain available to revisit.</p><label for="skip-reason">Reason</label><select id="skip-reason"><option value="Need more time">Need more time</option><option value="Cannot identify the intended target">Cannot identify the intended target</option><option value="Image failed to load">Image failed to load</option><option value="Other — see notes">Other — see notes</option></select><div class="dialog-actions"><button type="button" data-close="skip-dialog">Cancel</button><button type="submit" class="primary">Save skip</button></div></form></dialog>
+  <dialog id="zoom-dialog" class="zoom-dialog"><div class="dialog-heading"><h2 id="zoom-title">Full resolution</h2><button data-close="zoom-dialog">Close</button></div><p class="muted">Native pixels. Scroll to inspect large images. All comparison panels share the same scale.</p><div id="zoom-images"></div></dialog>
+  <dialog id="finish-dialog"><h2 id="finish-title">Session saved</h2><p id="finish-text"></p><p>Download a JSON backup to preserve your work. Method identities remain hidden in this website.</p><div class="dialog-actions"><button data-close="finish-dialog">Keep reviewing</button><button id="finish-export" class="primary">Export JSON backup</button><button id="csv-button">Export CSV</button></div></dialog>
+  <noscript>This study needs JavaScript to save and export your ratings. Enable JavaScript and reopen the page.</noscript>
+</body>
+</html>

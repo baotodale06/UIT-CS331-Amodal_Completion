@@ -1,0 +1,20 @@
+{
+  "command": [
+    "sbatch",
+    "--parsable",
+    "--partition=debug-cpu",
+    "--cpus-per-task=2",
+    "--mem=8G",
+    "--time=00:30:00",
+    "--job-name=shape-v2-export",
+    "--dependency=afterany:45659",
+    "--output=/home/daoqm/Vu_Hung/cv_nangcao/output/shape-v2-slurm-20261123/finalization-%j.log",
+    "scripts/run_shape_v2_finalization.sh",
+    "--study",
+    "/home/daoqm/Vu_Hung/cv_nangcao/output/shape-v2-slurm-20261123",
+    "--job-id",
+    "45658",
+    "--controller-id",
+    "45659"
+  ]
+}

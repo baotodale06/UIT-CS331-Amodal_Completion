@@ -1,0 +1,93 @@
+
+[2026-11-23 04:40:43] Using CUDA 11.7 toolkit at /home/daoqm/Vu_Hung/cv_nangcao/.amodal-cache/conda-env
+
+[2026-11-23 04:40:43] Using host compilers: /home/daoqm/Vu_Hung/cv_nangcao/.amodal-cache/conda-env/bin/x86_64-conda-linux-gnu-gcc / /home/daoqm/Vu_Hung/cv_nangcao/.amodal-cache/conda-env/bin/x86_64-conda-linux-gnu-g++ (11.4.0)
+Compiler probes OK: PyTorch CUDAContext, cuSPARSE, cuBLAS, cuSOLVER, and Thrust
+Obtaining file:///home/daoqm/Vu_Hung/cv_nangcao/.amodal-cache/amodal/Grounded-Segment-Anything/GroundingDINO
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: groundingdino
+  Building editable for groundingdino (pyproject.toml): started
+  Building editable for groundingdino (pyproject.toml): still running...
+  Building editable for groundingdino (pyproject.toml): finished with status 'done'
+  /home/daoqm/Vu_Hung/cv_nangcao/.amodal-cache/conda-env/lib/python3.10/site-packages/setuptools/command/editable_wheel.py:359: BuildBackendWarning: Editable installation.
+  !!
+  
+          ********************************************************************************
+          Please be careful with folders in your working directory with the same
+          name as your package as they may take precedence during imports.
+          ********************************************************************************
+  
+  !!
+    with strategy, WheelFile(wheel_path, "w") as wheel_obj:
+  Created wheel for groundingdino: filename=groundingdino-0.1.0-0.editable-cp310-cp310-linux_x86_64.whl size=10956 sha256=6c419cebebbc3502de44a88af42180b052b34dca0d802ae3a3fdf2aeb96a3eaa
+  Stored in directory: /tmp/pip-ephem-wheel-cache-4ginqqvm/wheels/38/ac/af/042c718e47169db3b99e0f3068285f833d72a22bcd7c30c684
+Successfully built groundingdino
+Installing collected packages: groundingdino
+  Attempting uninstall: groundingdino
+    Found existing installation: groundingdino 0.1.0
+    Uninstalling groundingdino-0.1.0:
+      Successfully uninstalled groundingdino-0.1.0
+Successfully installed groundingdino-0.1.0
+PASS: real GroundingDINO CUDA build and forward/backward operators
+PASS: real cuFFT forward/inverse round trip for LaMa
+PyTorch: 1.13.1 CUDA: 11.7
+GPU: Quadro RTX 6000
+PASS: real SAM exports from /home/daoqm/Vu_Hung/cv_nangcao/.amodal-cache/amodal/Grounded-Segment-Anything/segment_anything/segment_anything/__init__.py
+PASS: custom Mixed Context Diffusers pipeline import
+Detectron v2 is not installed
+PASS: full main.py import graph, including InstaOrder and LaMa
+test_crop_uses_visible_support_and_allows_outpaint (test_shape_v2.ShapeV2Tests) ... ok
+test_gate_requires_every_metric_and_preserves_failed_rows (test_shape_v2.ShapeV2Tests) ... ok
+test_hidden_rgb_cannot_change_shape_input_even_at_resize_boundaries (test_shape_v2.ShapeV2Tests) ... ok
+test_image_split_is_stable_and_excludes_coco_identity (test_shape_v2.ShapeV2Tests) ... ok
+test_network_and_hidden_loss_work_on_cpu_without_pretrained_download (test_shape_v2.ShapeV2Tests) ... ok
+test_soft_score_is_binary_iou_at_probability_extremes (test_shape_v2.ShapeV2Tests) ... ok
+test_training_package_contains_no_holdout_pixels_and_notebook_compiles (test_shape_v2.ShapeV2Tests) ... ok
+test_training_refuses_cpu_before_loading_data_or_creating_outputs (test_shape_v2.ShapeV2Tests) ... ok
+test_validation_loader_does_not_use_hidden_labels_to_define_input_crop (test_shape_v2.ShapeV2Tests) ... ok
+test_changed_contract_cannot_resume_and_score_only_needs_no_model (test_shape_v2_runtime.ShapeV2RuntimeTests) ... ok
+test_contract_rejects_changed_checkpoint_data_sources_or_unfinished_training (test_shape_v2_runtime.ShapeV2RuntimeTests) ... ok
+test_empty_candidate_exclusion_stable_ties_fallback_and_frame_checks (test_shape_v2_runtime.ShapeV2RuntimeTests) ... ok
+test_explicit_v2_cli_forwards_workers_and_rejects_combined_flags (test_shape_v2_runtime.ShapeV2RuntimeTests) ... ok
+test_original_crop_matches_validation_and_neutralizes_hidden_rgb (test_shape_v2_runtime.ShapeV2RuntimeTests) ... ok
+test_payload_must_match_validation_selected_epoch_before_model_loading (test_shape_v2_runtime.ShapeV2RuntimeTests) ... ERROR
+test_progressive_hooks_anchor_original_inputs_preserve_rgb_and_replay_decisions (test_shape_v2_runtime.ShapeV2RuntimeTests) ... ok
+test_real_evaluator_workers_resume_and_scoring_preserve_v2_provenance (test_shape_v2_runtime.ShapeV2RuntimeTests) ... ERROR
+/home/daoqm/Vu_Hung/cv_nangcao/.amodal-cache/conda-env/lib/python3.10/tempfile.py:860: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tmper1tr5pz'>
+  _warnings.warn(warn_message, ResourceWarning)
+test_slurm_receipt_requires_separate_contract_and_all_gpu_evidence (test_shape_v2_runtime.ShapeV2RuntimeTests) ... ok
+test_allocation_and_holdout_checks (test_shape_v2_slurm.ShapeSlurmTests) ... ok
+test_contract_preserves_model_data_selection_and_global_batch (test_shape_v2_slurm.ShapeSlurmTests) ... ok
+test_no_cpu_or_unallocated_training (test_shape_v2_slurm.ShapeSlurmTests) ... ok
+
+======================================================================
+ERROR: test_payload_must_match_validation_selected_epoch_before_model_loading (test_shape_v2_runtime.ShapeV2RuntimeTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/daoqm/Vu_Hung/cv_nangcao/output/shape-v2-slurm-20261123/source/tests/test_shape_v2_runtime.py", line 145, in test_payload_must_match_validation_selected_epoch_before_model_loading
+    runtime.load_prior(checkpoint)
+  File "/home/daoqm/Vu_Hung/cv_nangcao/output/shape-v2-slurm-20261123/source/amodal_benchmark/shape_v2_runtime.py", line 105, in load_prior
+    saved = torch.load(checkpoint, map_location="cpu", weights_only=True)
+  File "/home/daoqm/Vu_Hung/cv_nangcao/.amodal-cache/conda-env/lib/python3.10/site-packages/torch/serialization.py", line 788, in load
+    raise pickle.UnpicklingError(UNSAFE_MESSAGE + str(e)) from None
+_pickle.UnpicklingError: Weights only load failed. Re-running `torch.load` with `weights_only` set to `False` will likely succeed, but it can result in arbitrary code execution.Do it only if you get the file from a trusted source. WeightsUnpickler error: Unsupported operand 71
+
+======================================================================
+ERROR: test_real_evaluator_workers_resume_and_scoring_preserve_v2_provenance (test_shape_v2_runtime.ShapeV2RuntimeTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/daoqm/Vu_Hung/cv_nangcao/output/shape-v2-slurm-20261123/source/tests/test_shape_v2_runtime.py", line 270, in test_real_evaluator_workers_resume_and_scoring_preserve_v2_provenance
+    harness.setUp()
+  File "/home/daoqm/Vu_Hung/cv_nangcao/output/shape-v2-slurm-20261123/source/tests/test_parallel_evaluation.py", line 162, in setUp
+    rows, _ = read_official(ROOT / "tests/fixtures")
+  File "/home/daoqm/Vu_Hung/cv_nangcao/output/shape-v2-slurm-20261123/source/amodal_benchmark/dataset.py", line 68, in read_official
+    raise ValueError(f"Official annotation missing or checksum mismatch: {path}. "
+ValueError: Official annotation missing or checksum mismatch: /home/daoqm/Vu_Hung/cv_nangcao/output/shape-v2-slurm-20261123/source/tests/fixtures/official/VG/VG_annotation.json. Run prepare_open_world.py --download-metadata.
+
+----------------------------------------------------------------------
+Ran 21 tests in 4.594s
+
+FAILED (errors=2)

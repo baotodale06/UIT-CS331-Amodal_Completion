@@ -1,0 +1,6535 @@
+{
+  "scope": "CPU scoring of saved L40S Shape predictions for the complete VG source",
+  "job": "45338",
+  "scorer_sha256": "e53c3fb95bca26df3c8cb48ef82f9426612e7c29648b4082f7ca192cfd08d01c",
+  "metric_source_sha256": "3a9c2555b6f14b5ccab6a42ba5b0927f10669821b2ae1fa0e86c2bc1d890ad96",
+  "ssim_sha256": "20f6d153315a672e337807f595c3418898dec9b11b0264a499624804e78c1af4",
+  "coverage_sha256": "0f46cbd326eb996c97566161fd46c5dbd2fa5b4826782a63a99c85388ad844bc",
+  "cohort_csv_sha256": "d43739dec2ee8ff63cea3e404eba7e892d4c1cfdee70f367d421aefafeeb781f",
+  "control_csv_sha256": {
+    "baseline": "ceb0da09942d105e034efe1948054161120959f3be76046111083fbe5a460a1b",
+    "surface": "4702b1ee894e531537304646dd69c4d734fa406935dacd95901f88b114978dd4"
+  },
+  "metric_config": {
+    "protocol_version": 3,
+    "clip_model": "openai/clip-vit-base-patch32",
+    "clip_revision": "3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268",
+    "clip_failures": "excluded_with_denominator",
+    "alignment": "released",
+    "lpips": "alex/0.1.4",
+    "vgg": "VGG16_IMAGENET1K_V1/features",
+    "ssim_data_range": "prediction.max-prediction.min",
+    "exact_copy_penalties": true
+  },
+  "retained_successes": 48,
+  "retained_max_error": 1.7881393432617188e-07,
+  "cpu_gpu_absolute_tolerance": 1e-05,
+  "comparisons": {
+    "baseline": {
+      "n": 1294,
+      "images": 1234,
+      "baseline": 0.5931616310387204,
+      "method": 0.5983690944668683,
+      "absolute_gain": -0.005207463428147794,
+      "relative_gain_percent": -0.8779164321584146,
+      "absolute_ci": [
+        -0.009381293144304047,
+        -0.0012222328931455286
+      ],
+      "relative_ci_percent": [
+        -1.5985811584295515,
+        -0.20419676328000347
+      ],
+      "undefined_relative_bootstrap_samples": 0
+    },
+    "surface": {
+      "n": 1294,
+      "images": 1234,
+      "baseline": 0.5839147932476247,
+      "method": 0.5983690944668683,
+      "absolute_gain": -0.01445430121924354,
+      "relative_gain_percent": -2.4754127462418656,
+      "absolute_ci": [
+        -0.018517692379002068,
+        -0.01079974658780003
+      ],
+      "relative_ci_percent": [
+        -3.2143267015748185,
+        -1.8291514560865185
+      ],
+      "undefined_relative_bootstrap_samples": 0
+    }
+  },
+  "rows": [
+    {
+      "id": "VG/4_blackfloorlamp",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/16_whitecar",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/22_tram",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/23_whitecar",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/24_redcar",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/33_browntable",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/41_whitemicrowave",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/43_television",
+      "status": "success",
+      "LPIPS": 0.1704883724451065
+    },
+    {
+      "id": "VG/238_napkin",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/276_redcar",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/1990_browntable",
+      "status": "success",
+      "LPIPS": 0.14758099615573883
+    },
+    {
+      "id": "VG/1990_closet",
+      "status": "success",
+      "LPIPS": 0.5161229968070984
+    },
+    {
+      "id": "VG/61529_teddybear",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/61549_elephant",
+      "status": "success",
+      "LPIPS": 0.12651345133781433
+    },
+    {
+      "id": "VG/61555_cow",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/61557_browndonut",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/61560_surfboard",
+      "status": "success",
+      "LPIPS": 0.14408229291439056
+    },
+    {
+      "id": "VG/61562_cat",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/61562_book",
+      "status": "success",
+      "LPIPS": 0.2435200810432434
+    },
+    {
+      "id": "VG/61563_whitecar",
+      "status": "success",
+      "LPIPS": 0.22845107316970825
+    },
+    {
+      "id": "VG/61567_stopsign",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/61578_blueumbrella",
+      "status": "success",
+      "LPIPS": 0.13055700063705444
+    },
+    {
+      "id": "VG/61606_whitesofa",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/107911_truck",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/107912_surfboard",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/107927_greycar",
+      "status": "success",
+      "LPIPS": 0.2200183868408203
+    },
+    {
+      "id": "VG/107932_sofa",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/107934_cat",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/107962_toilet",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/107970_bicycle",
+      "status": "success",
+      "LPIPS": 0.5438358187675476
+    },
+    {
+      "id": "VG/150257_banana",
+      "status": "success",
+      "LPIPS": 0.26963844895362854
+    },
+    {
+      "id": "VG/150259_microwave",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/150294_taxi",
+      "status": "success",
+      "LPIPS": 0.26437485218048096
+    },
+    {
+      "id": "VG/150318_church",
+      "status": "success",
+      "LPIPS": 0.23667646944522858
+    },
+    {
+      "id": "VG/150331_bus",
+      "status": "success",
+      "LPIPS": 0.16244758665561676
+    },
+    {
+      "id": "VG/150366_sofa",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/150392_blackchair",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/150407_whiteplate",
+      "status": "success",
+      "LPIPS": 0.13417169451713562
+    },
+    {
+      "id": "VG/150429_bicycle",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/150469_redsofa",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/150525_yellowvan",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/150531_blackcurtain",
+      "status": "success",
+      "LPIPS": 0.15597310662269592
+    },
+    {
+      "id": "VG/150553_brownsofa",
+      "status": "success",
+      "LPIPS": 0.09726162999868393
+    },
+    {
+      "id": "VG/150553_whitetable",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/285614_bear",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/285627_keyboard",
+      "status": "success",
+      "LPIPS": 0.06236454099416733
+    },
+    {
+      "id": "VG/285634_bathtub",
+      "status": "success",
+      "LPIPS": 0.47843411564826965
+    },
+    {
+      "id": "VG/285634_towel",
+      "status": "success",
+      "LPIPS": 0.40897253155708313
+    },
+    {
+      "id": "VG/285637_refrigerator",
+      "status": "success",
+      "LPIPS": 0.5705703496932983
+    },
+    {
+      "id": "VG/285638_scissors",
+      "status": "success",
+      "LPIPS": 0.43748509883880615
+    },
+    {
+      "id": "VG/285683_knife",
+      "status": "success",
+      "LPIPS": 0.06444191187620163
+    },
+    {
+      "id": "VG/285725_sink",
+      "status": "success",
+      "LPIPS": 0.2443084865808487
+    },
+    {
+      "id": "VG/285735_laptop",
+      "status": "success",
+      "LPIPS": 0.07704994827508926
+    },
+    {
+      "id": "VG/285758_cat",
+      "status": "success",
+      "LPIPS": 0.10179267823696136
+    },
+    {
+      "id": "VG/285767_toilet",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/285785_watch",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/285793_pillow",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/285800_fish",
+      "status": "success",
+      "LPIPS": 0.09013451635837555
+    },
+    {
+      "id": "VG/285825_greenbus",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/285856_whiteplate",
+      "status": "success",
+      "LPIPS": 0.2477429211139679
+    },
+    {
+      "id": "VG/285857_pinkbicycle",
+      "status": "success",
+      "LPIPS": 0.09372474253177643
+    },
+    {
+      "id": "VG/285862_laptop",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/285863_whitecar",
+      "status": "success",
+      "LPIPS": 0.22240206599235535
+    },
+    {
+      "id": "VG/285877_oven",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/285889_plate",
+      "status": "success",
+      "LPIPS": 0.528569221496582
+    },
+    {
+      "id": "VG/285890_bus",
+      "status": "success",
+      "LPIPS": 0.26344648003578186
+    },
+    {
+      "id": "VG/285930_knife",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/285955_bathtub",
+      "status": "success",
+      "LPIPS": 0.37441062927246094
+    },
+    {
+      "id": "VG/285974_blackcar",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/285980_redpepper",
+      "status": "success",
+      "LPIPS": 0.23468060791492462
+    },
+    {
+      "id": "VG/285980_greenapple",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/285994_fork",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/286055_whiteplate",
+      "status": "success",
+      "LPIPS": 0.32385700941085815
+    },
+    {
+      "id": "VG/286059_teddybear",
+      "status": "success",
+      "LPIPS": 0.6423330307006836
+    },
+    {
+      "id": "VG/286061_toilet",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/497915_watermelon",
+      "status": "success",
+      "LPIPS": 0.1265510767698288
+    },
+    {
+      "id": "VG/497988_bicycle",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/498054_toilet",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/498148_table",
+      "status": "success",
+      "LPIPS": 0.08140552788972855
+    },
+    {
+      "id": "VG/498163_plate",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/498168_browntable",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/498179_redcar",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/498191_keyboard",
+      "status": "success",
+      "LPIPS": 0.14549095928668976
+    },
+    {
+      "id": "VG/498364_blackcar",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/498388_redcar",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/498409_horse",
+      "status": "success",
+      "LPIPS": 0.42057451605796814
+    },
+    {
+      "id": "VG/712966_printer",
+      "status": "success",
+      "LPIPS": 0.4484332203865051
+    },
+    {
+      "id": "VG/712996_piano",
+      "status": "success",
+      "LPIPS": 0.42006027698516846
+    },
+    {
+      "id": "VG/713010_plane",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/713015_chair",
+      "status": "success",
+      "LPIPS": 0.4379771947860718
+    },
+    {
+      "id": "VG/713029_laptop",
+      "status": "success",
+      "LPIPS": 0.09206809103488922
+    },
+    {
+      "id": "VG/713066_bus",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/713101_whitecar",
+      "status": "success",
+      "LPIPS": 0.14392486214637756
+    },
+    {
+      "id": "VG/713129_desk",
+      "status": "success",
+      "LPIPS": 0.13891373574733734
+    },
+    {
+      "id": "VG/713154_house",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/713162_house",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/713178_zebra",
+      "status": "success",
+      "LPIPS": 0.18252378702163696
+    },
+    {
+      "id": "VG/713179_blackcar",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/713208_tennisracket",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/713216_knife",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/713257_desk",
+      "status": "success",
+      "LPIPS": 0.6852716207504272
+    },
+    {
+      "id": "VG/713259_redbus",
+      "status": "success",
+      "LPIPS": 0.29552266001701355
+    },
+    {
+      "id": "VG/713329_refrigerator",
+      "status": "success",
+      "LPIPS": 0.49346673488616943
+    },
+    {
+      "id": "VG/713358_bluebus",
+      "status": "success",
+      "LPIPS": 0.23228336870670319
+    },
+    {
+      "id": "VG/713369_yellowtaxi",
+      "status": "success",
+      "LPIPS": 0.4991374611854553
+    },
+    {
+      "id": "VG/713373_table",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/713374_headphone",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/713376_whitetruck",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/713377_refrigerator",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/713381_temple",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/713385_pinksurfboard",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/713387_whiteplate",
+      "status": "success",
+      "LPIPS": 0.46087977290153503
+    },
+    {
+      "id": "VG/713387_fork",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/713389_redplate",
+      "status": "success",
+      "LPIPS": 0.19277429580688477
+    },
+    {
+      "id": "VG/713392_redbus",
+      "status": "success",
+      "LPIPS": 0.5551125407218933
+    },
+    {
+      "id": "VG/713397_whitedesk",
+      "status": "success",
+      "LPIPS": 0.20277324318885803
+    },
+    {
+      "id": "VG/713399_computerscreen",
+      "status": "success",
+      "LPIPS": 0.11325009912252426
+    },
+    {
+      "id": "VG/713407_policecar",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/713414_browndesk",
+      "status": "success",
+      "LPIPS": 0.5300118923187256
+    },
+    {
+      "id": "VG/713422_blackbag",
+      "status": "success",
+      "LPIPS": 0.546169638633728
+    },
+    {
+      "id": "VG/713429_browndesk",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/713431_sofa",
+      "status": "success",
+      "LPIPS": 0.41841399669647217
+    },
+    {
+      "id": "VG/713432_bicycle",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/713433_keyboard",
+      "status": "success",
+      "LPIPS": 0.45651838183403015
+    },
+    {
+      "id": "VG/713442_dog",
+      "status": "success",
+      "LPIPS": 0.14890147745609283
+    },
+    {
+      "id": "VG/713467_cow",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/713474_tricycle",
+      "status": "success",
+      "LPIPS": 0.37452489137649536
+    },
+    {
+      "id": "VG/713500_refrigerator",
+      "status": "success",
+      "LPIPS": 0.11973579227924347
+    },
+    {
+      "id": "VG/713532_sofa",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/713539_yellowcar",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/713544_yellowboat",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/713559_refrigerator",
+      "status": "success",
+      "LPIPS": 0.4677194654941559
+    },
+    {
+      "id": "VG/713573_laptop",
+      "status": "success",
+      "LPIPS": 0.33717218041419983
+    },
+    {
+      "id": "VG/713576_blackloudspeakerbox",
+      "status": "success",
+      "LPIPS": 0.559556782245636
+    },
+    {
+      "id": "VG/713587_bluebus",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/713590_brownsofa",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/713613_whitehouse",
+      "status": "success",
+      "LPIPS": 0.42483192682266235
+    },
+    {
+      "id": "VG/713626_redbus",
+      "status": "success",
+      "LPIPS": 0.1207704246044159
+    },
+    {
+      "id": "VG/713635_pinkhouse",
+      "status": "success",
+      "LPIPS": 0.7035270929336548
+    },
+    {
+      "id": "VG/713646_bed",
+      "status": "success",
+      "LPIPS": 0.6593148708343506
+    },
+    {
+      "id": "VG/713680_dog",
+      "status": "success",
+      "LPIPS": 0.33231449127197266
+    },
+    {
+      "id": "VG/713703_suitcase",
+      "status": "success",
+      "LPIPS": 0.2647584080696106
+    },
+    {
+      "id": "VG/713796_desk",
+      "status": "success",
+      "LPIPS": 0.5550097823143005
+    },
+    {
+      "id": "VG/713812_bus",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/713868_whitebus",
+      "status": "success",
+      "LPIPS": 0.5699933171272278
+    },
+    {
+      "id": "VG/713923_yellowbus",
+      "status": "success",
+      "LPIPS": 0.16287848353385925
+    },
+    {
+      "id": "VG/713936_sofa",
+      "status": "success",
+      "LPIPS": 0.43212881684303284
+    },
+    {
+      "id": "VG/713942_bus",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/713943_dog",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/1159265_horse",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/1159267_plane",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/1159271_house",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/1159278_whitehouse",
+      "status": "success",
+      "LPIPS": 0.20938657224178314
+    },
+    {
+      "id": "VG/1159289_bookshelf",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/1159292_microwave",
+      "status": "success",
+      "LPIPS": 0.16518454253673553
+    },
+    {
+      "id": "VG/1159293_table",
+      "status": "success",
+      "LPIPS": 0.5703809857368469
+    },
+    {
+      "id": "VG/1159293_curtain",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/1159295_bus",
+      "status": "success",
+      "LPIPS": 0.489751398563385
+    },
+    {
+      "id": "VG/1159300_redvan",
+      "status": "success",
+      "LPIPS": 0.3747919201850891
+    },
+    {
+      "id": "VG/1159304_cake",
+      "status": "success",
+      "LPIPS": 0.21466399729251862
+    },
+    {
+      "id": "VG/1159312_motorbike",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/1159312_yellowchair",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/1159323_whitebus",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/1159325_computer",
+      "status": "success",
+      "LPIPS": 0.14666692912578583
+    },
+    {
+      "id": "VG/1159333_clocktower",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/1159344_cat",
+      "status": "success",
+      "LPIPS": 0.09238177537918091
+    },
+    {
+      "id": "VG/1159360_whitetruck",
+      "status": "success",
+      "LPIPS": 0.07262590527534485
+    },
+    {
+      "id": "VG/1159383_whitecar",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/1159385_browntable",
+      "status": "success",
+      "LPIPS": 0.075334332883358
+    },
+    {
+      "id": "VG/1159388_policecar",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/1159398_brownhorse",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/1159406_blackoven",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/1159411_plane",
+      "status": "success",
+      "LPIPS": 0.08675001561641693
+    },
+    {
+      "id": "VG/1159427_bus",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/1159454_bluesofa",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/1159463_pizza",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/1159487_horse",
+      "status": "success",
+      "LPIPS": 0.3232177793979645
+    },
+    {
+      "id": "VG/1159497_pizza",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/1159508_bed",
+      "status": "success",
+      "LPIPS": 0.5129996538162231
+    },
+    {
+      "id": "VG/1159521_pizza",
+      "status": "success",
+      "LPIPS": 0.612356424331665
+    },
+    {
+      "id": "VG/1159526_refrigerator",
+      "status": "success",
+      "LPIPS": 0.13558697700500488
+    },
+    {
+      "id": "VG/1159594_bus",
+      "status": "success",
+      "LPIPS": 0.10672957450151443
+    },
+    {
+      "id": "VG/1159597_horse",
+      "status": "success",
+      "LPIPS": 0.46243682503700256
+    },
+    {
+      "id": "VG/1159604_blackcar",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/1159606_bicycle",
+      "status": "success",
+      "LPIPS": 0.22788813710212708
+    },
+    {
+      "id": "VG/1159607_bus",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/1159611_table",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/1159611_sofa",
+      "status": "success",
+      "LPIPS": 0.690388560295105
+    },
+    {
+      "id": "VG/1159619_whitebus",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/1159635_redtruck",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/1159654_browndog",
+      "status": "success",
+      "LPIPS": 0.40179574489593506
+    },
+    {
+      "id": "VG/1159691_refrigerator",
+      "status": "success",
+      "LPIPS": 0.5177491307258606
+    },
+    {
+      "id": "VG/1159705_fan",
+      "status": "success",
+      "LPIPS": 0.1905350238084793
+    },
+    {
+      "id": "VG/1159707_redvan",
+      "status": "success",
+      "LPIPS": 0.15353082120418549
+    },
+    {
+      "id": "VG/1159720_cow",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/1159721_microwave",
+      "status": "success",
+      "LPIPS": 0.363450825214386
+    },
+    {
+      "id": "VG/1159722_van",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/1159735_elephant",
+      "status": "success",
+      "LPIPS": 0.5326715111732483
+    },
+    {
+      "id": "VG/1159738_whitetruck",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/1159743_whitehorse",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/1159750_refrigerator",
+      "status": "success",
+      "LPIPS": 0.14243628084659576
+    },
+    {
+      "id": "VG/1159757_whitecar",
+      "status": "success",
+      "LPIPS": 0.25678953528404236
+    },
+    {
+      "id": "VG/1159760_kitchentable",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/1159761_chair",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/1159767_weddingcake",
+      "status": "success",
+      "LPIPS": 0.5318286418914795
+    },
+    {
+      "id": "VG/1159773_teddybear",
+      "status": "success",
+      "LPIPS": 0.37524399161338806
+    },
+    {
+      "id": "VG/1159777_plane",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/1159778_refrigerator",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/1159812_bus",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/1159822_horse",
+      "status": "success",
+      "LPIPS": 0.450808584690094
+    },
+    {
+      "id": "VG/1159829_clocktower",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/1159855_redcurtain",
+      "status": "success",
+      "LPIPS": 0.5428847074508667
+    },
+    {
+      "id": "VG/1159856_bed",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/1159893_sofa",
+      "status": "success",
+      "LPIPS": 0.3456299901008606
+    },
+    {
+      "id": "VG/1159909_desk",
+      "status": "success",
+      "LPIPS": 0.4144424796104431
+    },
+    {
+      "id": "VG/1159924_umbrella",
+      "status": "success",
+      "LPIPS": 0.056006576865911484
+    },
+    {
+      "id": "VG/1159927_dog",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/1159931_bus",
+      "status": "success",
+      "LPIPS": 0.09849707037210464
+    },
+    {
+      "id": "VG/1159932_elephant",
+      "status": "success",
+      "LPIPS": 0.5551254749298096
+    },
+    {
+      "id": "VG/1159934_sofa",
+      "status": "success",
+      "LPIPS": 0.524569034576416
+    },
+    {
+      "id": "VG/1159940_plane",
+      "status": "success",
+      "LPIPS": 0.08856606483459473
+    },
+    {
+      "id": "VG/1159946_bus",
+      "status": "success",
+      "LPIPS": 0.3315749764442444
+    },
+    {
+      "id": "VG/1159954_bus",
+      "status": "success",
+      "LPIPS": 0.10534568876028061
+    },
+    {
+      "id": "VG/1159965_tower",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/1159989_bed",
+      "status": "success",
+      "LPIPS": 0.23903819918632507
+    },
+    {
+      "id": "VG/1160012_whitecar",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/1160023_whitebus",
+      "status": "success",
+      "LPIPS": 0.15114453434944153
+    },
+    {
+      "id": "VG/1160041_table",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/1160085_roastedchicken",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/1160113_carpet",
+      "status": "success",
+      "LPIPS": 0.5352761745452881
+    },
+    {
+      "id": "VG/1160113_bookshelf",
+      "status": "success",
+      "LPIPS": 0.12085103243589401
+    },
+    {
+      "id": "VG/1160124_bus",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/1160125_bus",
+      "status": "success",
+      "LPIPS": 0.43190956115722656
+    },
+    {
+      "id": "VG/1160152_redsofa",
+      "status": "success",
+      "LPIPS": 0.606971025466919
+    },
+    {
+      "id": "VG/1160162_cow",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/1160167_greenvan",
+      "status": "success",
+      "LPIPS": 0.2234470695257187
+    },
+    {
+      "id": "VG/1160192_yellowtaxi",
+      "status": "success",
+      "LPIPS": 0.09450662136077881
+    },
+    {
+      "id": "VG/1160200_redbus",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/1160213_blackcar",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/1160240_bed",
+      "status": "success",
+      "LPIPS": 0.40430834889411926
+    },
+    {
+      "id": "VG/1160250_table",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/1160253_clocktower",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/1591790_brownbench",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/1591793_blackchair",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/1591794_winebottle",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/1591820_telephonebooth",
+      "status": "success",
+      "LPIPS": 0.1771070957183838
+    },
+    {
+      "id": "VG/1591864_browntable",
+      "status": "success",
+      "LPIPS": 0.09714527428150177
+    },
+    {
+      "id": "VG/1591870_table",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/1591877_clocktower",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/1591877_whitetruck",
+      "status": "success",
+      "LPIPS": 0.09589134901762009
+    },
+    {
+      "id": "VG/1591877_policecar",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/1591880_blacksofa",
+      "status": "success",
+      "LPIPS": 0.1441393792629242
+    },
+    {
+      "id": "VG/1591881_whitebus",
+      "status": "success",
+      "LPIPS": 0.13399314880371094
+    },
+    {
+      "id": "VG/1591890_redsuitcase",
+      "status": "success",
+      "LPIPS": 0.2033984661102295
+    },
+    {
+      "id": "VG/1591891_elephant",
+      "status": "success",
+      "LPIPS": 0.6187599897384644
+    },
+    {
+      "id": "VG/1591968_bus",
+      "status": "success",
+      "LPIPS": 0.17474864423274994
+    },
+    {
+      "id": "VG/1591990_greenbus",
+      "status": "success",
+      "LPIPS": 0.751598596572876
+    },
+    {
+      "id": "VG/1592010_redsofa",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/1592016_bed",
+      "status": "success",
+      "LPIPS": 0.6682571172714233
+    },
+    {
+      "id": "VG/1592064_bench",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/1592126_blackcar",
+      "status": "success",
+      "LPIPS": 0.11284887790679932
+    },
+    {
+      "id": "VG/1592127_bluecar",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/1592139_blackdog",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/1592155_greenvan",
+      "status": "success",
+      "LPIPS": 0.12648627161979675
+    },
+    {
+      "id": "VG/1592179_motorbike",
+      "status": "success",
+      "LPIPS": 0.12269942462444305
+    },
+    {
+      "id": "VG/1592205_plane",
+      "status": "success",
+      "LPIPS": 0.19762933254241943
+    },
+    {
+      "id": "VG/1592244_motorbike",
+      "status": "success",
+      "LPIPS": 0.6016767024993896
+    },
+    {
+      "id": "VG/1592269_brownsofa",
+      "status": "success",
+      "LPIPS": 0.21784304082393646
+    },
+    {
+      "id": "VG/1592335_van",
+      "status": "success",
+      "LPIPS": 0.08410079777240753
+    },
+    {
+      "id": "VG/1592349_cat",
+      "status": "success",
+      "LPIPS": 0.14117762446403503
+    },
+    {
+      "id": "VG/1592412_boat",
+      "status": "success",
+      "LPIPS": 0.5071310997009277
+    },
+    {
+      "id": "VG/1592427_redbus",
+      "status": "success",
+      "LPIPS": 0.2067338526248932
+    },
+    {
+      "id": "VG/1592428_teddybear",
+      "status": "success",
+      "LPIPS": 0.09437844902276993
+    },
+    {
+      "id": "VG/1592447_teddybear",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/1592523_sofa",
+      "status": "success",
+      "LPIPS": 0.5956130027770996
+    },
+    {
+      "id": "VG/1592549_boat",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/1592560_table",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/1592573_bench",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/1592585_brownsofa",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/1592592_pizzatray",
+      "status": "success",
+      "LPIPS": 0.36616870760917664
+    },
+    {
+      "id": "VG/1592593_pizzatray",
+      "status": "success",
+      "LPIPS": 0.19975639879703522
+    },
+    {
+      "id": "VG/1592593_bowl",
+      "status": "success",
+      "LPIPS": 0.4971224367618561
+    },
+    {
+      "id": "VG/1592614_surfingboard",
+      "status": "success",
+      "LPIPS": 0.28600478172302246
+    },
+    {
+      "id": "VG/1592688_brownsofa",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/1592755_bus",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/1592768_bed",
+      "status": "success",
+      "LPIPS": 0.5009053349494934
+    },
+    {
+      "id": "VG/1592770_laptop",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/1592815_refrigerator",
+      "status": "success",
+      "LPIPS": 0.20941881835460663
+    },
+    {
+      "id": "VG/1592819_bus",
+      "status": "success",
+      "LPIPS": 0.12362393736839294
+    },
+    {
+      "id": "VG/1592846_bus",
+      "status": "success",
+      "LPIPS": 0.31306779384613037
+    },
+    {
+      "id": "VG/1592847_whitevan",
+      "status": "success",
+      "LPIPS": 0.11269459128379822
+    },
+    {
+      "id": "VG/1592865_whitecastle",
+      "status": "success",
+      "LPIPS": 0.08417832106351852
+    },
+    {
+      "id": "VG/1592866_motorbike",
+      "status": "success",
+      "LPIPS": 0.21616125106811523
+    },
+    {
+      "id": "VG/1592868_cabinet",
+      "status": "success",
+      "LPIPS": 0.27522748708724976
+    },
+    {
+      "id": "VG/1592890_elephant",
+      "status": "success",
+      "LPIPS": 0.1120348870754242
+    },
+    {
+      "id": "VG/1592901_teddybear",
+      "status": "success",
+      "LPIPS": 0.13187304139137268
+    },
+    {
+      "id": "VG/1592924_motorbike",
+      "status": "success",
+      "LPIPS": 0.16416822373867035
+    },
+    {
+      "id": "VG/1592968_whitebus",
+      "status": "success",
+      "LPIPS": 0.174885094165802
+    },
+    {
+      "id": "VG/1592983_whitesofa",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/1593019_coffeetable",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/1593020_ambulance",
+      "status": "success",
+      "LPIPS": 0.5821792483329773
+    },
+    {
+      "id": "VG/1593022_redsofa",
+      "status": "success",
+      "LPIPS": 0.5781898498535156
+    },
+    {
+      "id": "VG/1593053_surfingboard",
+      "status": "success",
+      "LPIPS": 0.13062915205955505
+    },
+    {
+      "id": "VG/1593095_horse",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/1593103_redsofa",
+      "status": "success",
+      "LPIPS": 0.5490336418151855
+    },
+    {
+      "id": "VG/1593142_horse",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/1593144_bus",
+      "status": "success",
+      "LPIPS": 0.09796439111232758
+    },
+    {
+      "id": "VG/1593145_sofa",
+      "status": "success",
+      "LPIPS": 0.5086897015571594
+    },
+    {
+      "id": "VG/1593176_dog",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/1593190_redbus",
+      "status": "success",
+      "LPIPS": 0.127980038523674
+    },
+    {
+      "id": "VG/1593200_bicycle",
+      "status": "success",
+      "LPIPS": 0.5778012275695801
+    },
+    {
+      "id": "VG/1593207_carriage",
+      "status": "success",
+      "LPIPS": 0.20954293012619019
+    },
+    {
+      "id": "VG/1593213_horse",
+      "status": "success",
+      "LPIPS": 0.1673177033662796
+    },
+    {
+      "id": "VG/1593220_dog",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/1593224_motorbike",
+      "status": "success",
+      "LPIPS": 0.5112281441688538
+    },
+    {
+      "id": "VG/1593257_banana",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/1593260_motorbike",
+      "status": "success",
+      "LPIPS": 0.14133712649345398
+    },
+    {
+      "id": "VG/1593266_yellowtaxi",
+      "status": "success",
+      "LPIPS": 0.17311923205852509
+    },
+    {
+      "id": "VG/2315358_motorbike",
+      "status": "success",
+      "LPIPS": 0.17103734612464905
+    },
+    {
+      "id": "VG/2315363_cat",
+      "status": "success",
+      "LPIPS": 0.0459606796503067
+    },
+    {
+      "id": "VG/2315366_baseballball",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2315371_truck",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2315373_camera",
+      "status": "success",
+      "LPIPS": 0.27345767617225647
+    },
+    {
+      "id": "VG/2315374_bench",
+      "status": "success",
+      "LPIPS": 0.06843868643045425
+    },
+    {
+      "id": "VG/2315382_brownhorse",
+      "status": "success",
+      "LPIPS": 0.5246314406394958
+    },
+    {
+      "id": "VG/2315395_TVstand",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2315417_toothbrush",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2315468_dog",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2315469_bus",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2315487_bear",
+      "status": "success",
+      "LPIPS": 0.33201131224632263
+    },
+    {
+      "id": "VG/2315497_horse",
+      "status": "success",
+      "LPIPS": 0.15612827241420746
+    },
+    {
+      "id": "VG/2315518_keyboard",
+      "status": "success",
+      "LPIPS": 0.31903067231178284
+    },
+    {
+      "id": "VG/2315519_cat",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2315543_book",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2315548_skateboard",
+      "status": "success",
+      "LPIPS": 0.06600619852542877
+    },
+    {
+      "id": "VG/2315549_cat",
+      "status": "success",
+      "LPIPS": 0.22195973992347717
+    },
+    {
+      "id": "VG/2315550_cat",
+      "status": "success",
+      "LPIPS": 0.25395578145980835
+    },
+    {
+      "id": "VG/2315555_whiteplate",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2315561_horse",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2315570_watch",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2315602_blackumbrella",
+      "status": "success",
+      "LPIPS": 0.19976380467414856
+    },
+    {
+      "id": "VG/2315615_whiteplate",
+      "status": "success",
+      "LPIPS": 0.2866608500480652
+    },
+    {
+      "id": "VG/2315630_cat",
+      "status": "success",
+      "LPIPS": 0.2553896903991699
+    },
+    {
+      "id": "VG/2315642_horse",
+      "status": "success",
+      "LPIPS": 0.18928799033164978
+    },
+    {
+      "id": "VG/2315647_toilet",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2315661_whitecar",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2315662_woodentray",
+      "status": "success",
+      "LPIPS": 0.15219417214393616
+    },
+    {
+      "id": "VG/2315673_chair",
+      "status": "success",
+      "LPIPS": 0.3975808322429657
+    },
+    {
+      "id": "VG/2315688_blackchair",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2315691_bus",
+      "status": "success",
+      "LPIPS": 0.17989161610603333
+    },
+    {
+      "id": "VG/2315693_zebra",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2315710_surfingboard",
+      "status": "success",
+      "LPIPS": 0.0741245448589325
+    },
+    {
+      "id": "VG/2315714_cat",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2315737_motorbike",
+      "status": "success",
+      "LPIPS": 0.09477344900369644
+    },
+    {
+      "id": "VG/2315738_chair",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2315747_fork",
+      "status": "success",
+      "LPIPS": 0.11019015312194824
+    },
+    {
+      "id": "VG/2315754_winebottle",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2315757_motorbike",
+      "status": "success",
+      "LPIPS": 0.12126898020505905
+    },
+    {
+      "id": "VG/2315759_bear",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2315771_knife",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2315780_whiteplate",
+      "status": "success",
+      "LPIPS": 0.26114046573638916
+    },
+    {
+      "id": "VG/2315791_horse",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2315812_whiteplate",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2315815_chair",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2315833_cake",
+      "status": "success",
+      "LPIPS": 0.1414426565170288
+    },
+    {
+      "id": "VG/2315833_chair",
+      "status": "success",
+      "LPIPS": 0.20919457077980042
+    },
+    {
+      "id": "VG/2315843_coffeetable",
+      "status": "success",
+      "LPIPS": 0.2058398723602295
+    },
+    {
+      "id": "VG/2315853_skateboard",
+      "status": "success",
+      "LPIPS": 0.10394991934299469
+    },
+    {
+      "id": "VG/2315863_truck",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2315865_skateboard",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2315872_teddybear",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2315873_cat",
+      "status": "success",
+      "LPIPS": 0.05807396024465561
+    },
+    {
+      "id": "VG/2315882_truck",
+      "status": "success",
+      "LPIPS": 0.40417760610580444
+    },
+    {
+      "id": "VG/2315885_surfingboard",
+      "status": "success",
+      "LPIPS": 0.11798354238271713
+    },
+    {
+      "id": "VG/2315901_guita",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2315928_elephant",
+      "status": "success",
+      "LPIPS": 0.5422320365905762
+    },
+    {
+      "id": "VG/2315932_banana",
+      "status": "success",
+      "LPIPS": 0.25272464752197266
+    },
+    {
+      "id": "VG/2315938_car",
+      "status": "success",
+      "LPIPS": 0.16808003187179565
+    },
+    {
+      "id": "VG/2315958_tomatosaucebottle",
+      "status": "success",
+      "LPIPS": 0.1051449254155159
+    },
+    {
+      "id": "VG/2315962_skateboard",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2315970_laptop",
+      "status": "success",
+      "LPIPS": 0.3619925081729889
+    },
+    {
+      "id": "VG/2315972_bird",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2315974_pinkteddybear",
+      "status": "success",
+      "LPIPS": 0.3194313049316406
+    },
+    {
+      "id": "VG/2315986_cat",
+      "status": "success",
+      "LPIPS": 0.22490495443344116
+    },
+    {
+      "id": "VG/2315992_microwave",
+      "status": "success",
+      "LPIPS": 0.6923636198043823
+    },
+    {
+      "id": "VG/2316019_bread",
+      "status": "success",
+      "LPIPS": 0.086398184299469
+    },
+    {
+      "id": "VG/2316027_cat",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2316029_elephant",
+      "status": "success",
+      "LPIPS": 0.5118967294692993
+    },
+    {
+      "id": "VG/2316036_bench",
+      "status": "success",
+      "LPIPS": 0.1512441486120224
+    },
+    {
+      "id": "VG/2316051_spoon",
+      "status": "success",
+      "LPIPS": 0.18903733789920807
+    },
+    {
+      "id": "VG/2316054_surfingboard",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2316093_phone",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2316098_cat",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2316115_clock",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2316123_giraffe",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2316133_dog",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2316154_brownsofa",
+      "status": "success",
+      "LPIPS": 0.18027456104755402
+    },
+    {
+      "id": "VG/2316160_brownsofa",
+      "status": "success",
+      "LPIPS": 0.5793625712394714
+    },
+    {
+      "id": "VG/2316162_dog",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2316166_whiteplate",
+      "status": "success",
+      "LPIPS": 0.5036458373069763
+    },
+    {
+      "id": "VG/2316173_whiteplate",
+      "status": "success",
+      "LPIPS": 0.37098467350006104
+    },
+    {
+      "id": "VG/2316180_surfingboard",
+      "status": "success",
+      "LPIPS": 0.07640590518712997
+    },
+    {
+      "id": "VG/2316193_whiteplate",
+      "status": "success",
+      "LPIPS": 0.283353716135025
+    },
+    {
+      "id": "VG/2316196_stopsign",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2316202_cow",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2316204_horse",
+      "status": "success",
+      "LPIPS": 0.0971669927239418
+    },
+    {
+      "id": "VG/2316205_tennisracket",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2316207_surfingboard",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2316208_motorbike",
+      "status": "success",
+      "LPIPS": 0.434000700712204
+    },
+    {
+      "id": "VG/2316219_car",
+      "status": "success",
+      "LPIPS": 0.10825816541910172
+    },
+    {
+      "id": "VG/2316246_banana",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2316257_keyboard",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2316261_cat",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2316266_whiteplate",
+      "status": "success",
+      "LPIPS": 0.3201051354408264
+    },
+    {
+      "id": "VG/2316271_teddybear",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2316278_stopsign",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2316285_bird",
+      "status": "success",
+      "LPIPS": 0.14930586516857147
+    },
+    {
+      "id": "VG/2316289_zebra",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2316297_scissors",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2316300_cellphone",
+      "status": "success",
+      "LPIPS": 0.13559789955615997
+    },
+    {
+      "id": "VG/2316301_cat",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2316309_giraffe",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2316310_horse",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2316312_whiteplate",
+      "status": "success",
+      "LPIPS": 0.35256659984588623
+    },
+    {
+      "id": "VG/2316323_orange",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2316323_redball",
+      "status": "success",
+      "LPIPS": 0.16615177690982819
+    },
+    {
+      "id": "VG/2316330_cat",
+      "status": "success",
+      "LPIPS": 0.23600883781909943
+    },
+    {
+      "id": "VG/2316333_phone",
+      "status": "success",
+      "LPIPS": 0.4535229206085205
+    },
+    {
+      "id": "VG/2316336_laptop",
+      "status": "success",
+      "LPIPS": 0.414277046918869
+    },
+    {
+      "id": "VG/2316339_redsofa",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2316349_dog",
+      "status": "success",
+      "LPIPS": 0.3956679403781891
+    },
+    {
+      "id": "VG/2316350_surfingboard",
+      "status": "success",
+      "LPIPS": 0.1320541948080063
+    },
+    {
+      "id": "VG/2316355_shovel",
+      "status": "success",
+      "LPIPS": 0.4063403904438019
+    },
+    {
+      "id": "VG/2316357_blacktruck",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2316372_nightstand",
+      "status": "success",
+      "LPIPS": 0.18424221873283386
+    },
+    {
+      "id": "VG/2316376_car",
+      "status": "success",
+      "LPIPS": 0.21660855412483215
+    },
+    {
+      "id": "VG/2316390_whitedoor",
+      "status": "success",
+      "LPIPS": 0.040706828236579895
+    },
+    {
+      "id": "VG/2316391_tennisracket",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2316395_dog",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2316398_surfingboard",
+      "status": "success",
+      "LPIPS": 0.13421325385570526
+    },
+    {
+      "id": "VG/2316399_refrigerator",
+      "status": "success",
+      "LPIPS": 0.27717044949531555
+    },
+    {
+      "id": "VG/2316400_motorbike",
+      "status": "success",
+      "LPIPS": 0.13553386926651
+    },
+    {
+      "id": "VG/2316404_taxi",
+      "status": "success",
+      "LPIPS": 0.2389012724161148
+    },
+    {
+      "id": "VG/2316409_surfingboard",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2316427_horse",
+      "status": "success",
+      "LPIPS": 0.29403844475746155
+    },
+    {
+      "id": "VG/2316445_chair",
+      "status": "success",
+      "LPIPS": 0.368486613035202
+    },
+    {
+      "id": "VG/2316448_plate",
+      "status": "success",
+      "LPIPS": 0.4065264165401459
+    },
+    {
+      "id": "VG/2316448_fork",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2316451_calculator",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2316451_keyboard",
+      "status": "success",
+      "LPIPS": 0.35618361830711365
+    },
+    {
+      "id": "VG/2316453_sofa",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2316454_giraffe",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2316455_teddybear",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2316469_bicycle",
+      "status": "success",
+      "LPIPS": 0.5212982892990112
+    },
+    {
+      "id": "VG/2316470_bus",
+      "status": "success",
+      "LPIPS": 0.2439928948879242
+    },
+    {
+      "id": "VG/2316487_cow",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2316491_whiteplate",
+      "status": "success",
+      "LPIPS": 0.29991844296455383
+    },
+    {
+      "id": "VG/2316493_spoon",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2316494_whitecar",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2316506_yellowplate",
+      "status": "success",
+      "LPIPS": 0.28607839345932007
+    },
+    {
+      "id": "VG/2316508_whiteplate",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2316514_surfingboard",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2316517_suitcase",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2316523_surfingboard",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2316524_motorbike",
+      "status": "success",
+      "LPIPS": 0.11794719099998474
+    },
+    {
+      "id": "VG/2316525_refrigerator",
+      "status": "success",
+      "LPIPS": 0.15846003592014313
+    },
+    {
+      "id": "VG/2316525_kitchentable",
+      "status": "success",
+      "LPIPS": 0.4005407392978668
+    },
+    {
+      "id": "VG/2316529_skateboard",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2316531_goat",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2316532_bear",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2316552_horse",
+      "status": "success",
+      "LPIPS": 0.0852133110165596
+    },
+    {
+      "id": "VG/2316556_baseballracket",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2316570_microwave",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2316572_giraffe",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2316575_giraffe",
+      "status": "success",
+      "LPIPS": 0.3879328668117523
+    },
+    {
+      "id": "VG/2316580_whitedoor",
+      "status": "success",
+      "LPIPS": 0.17462489008903503
+    },
+    {
+      "id": "VG/2316593_bed",
+      "status": "success",
+      "LPIPS": 0.42689067125320435
+    },
+    {
+      "id": "VG/2316595_refrigerator",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2316596_sink",
+      "status": "success",
+      "LPIPS": 0.22205232083797455
+    },
+    {
+      "id": "VG/2316618_whiteplate",
+      "status": "success",
+      "LPIPS": 0.36814796924591064
+    },
+    {
+      "id": "VG/2316618_whitenapkin",
+      "status": "success",
+      "LPIPS": 0.32665741443634033
+    },
+    {
+      "id": "VG/2316623_laptop",
+      "status": "success",
+      "LPIPS": 0.21661102771759033
+    },
+    {
+      "id": "VG/2316630_laptop",
+      "status": "success",
+      "LPIPS": 0.443969190120697
+    },
+    {
+      "id": "VG/2316630_cat",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2316635_dog",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2316648_bowl",
+      "status": "success",
+      "LPIPS": 0.1896434724330902
+    },
+    {
+      "id": "VG/2316653_whiteplate",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2316662_blackoven",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2316664_cup",
+      "status": "success",
+      "LPIPS": 0.15714894235134125
+    },
+    {
+      "id": "VG/2316669_bed",
+      "status": "success",
+      "LPIPS": 0.18672755360603333
+    },
+    {
+      "id": "VG/2316672_cup",
+      "status": "success",
+      "LPIPS": 0.3923349380493164
+    },
+    {
+      "id": "VG/2316678_cup",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2316684_buiding",
+      "status": "success",
+      "LPIPS": 0.14162445068359375
+    },
+    {
+      "id": "VG/2316701_whiteplate",
+      "status": "success",
+      "LPIPS": 0.18977713584899902
+    },
+    {
+      "id": "VG/2316720_bench",
+      "status": "success",
+      "LPIPS": 0.08365663886070251
+    },
+    {
+      "id": "VG/2316725_baseballracket",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2316744_microwave",
+      "status": "success",
+      "LPIPS": 0.41315871477127075
+    },
+    {
+      "id": "VG/2316770_zebra",
+      "status": "success",
+      "LPIPS": 0.5120069980621338
+    },
+    {
+      "id": "VG/2316808_pizza",
+      "status": "success",
+      "LPIPS": 0.4967825412750244
+    },
+    {
+      "id": "VG/2316816_refrigerator",
+      "status": "success",
+      "LPIPS": 0.4643937647342682
+    },
+    {
+      "id": "VG/2316818_refrigerator",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2316823_horse",
+      "status": "success",
+      "LPIPS": 0.12504322826862335
+    },
+    {
+      "id": "VG/2316837_bench",
+      "status": "success",
+      "LPIPS": 0.46854647994041443
+    },
+    {
+      "id": "VG/2316843_banana",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2316849_yellowtruck",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2316871_whiteplate",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2316872_coffeetable",
+      "status": "success",
+      "LPIPS": 0.33335134387016296
+    },
+    {
+      "id": "VG/2316873_cabinet",
+      "status": "success",
+      "LPIPS": 0.5583826303482056
+    },
+    {
+      "id": "VG/2316875_refrigerator",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2316881_plane",
+      "status": "success",
+      "LPIPS": 0.13795410096645355
+    },
+    {
+      "id": "VG/2316892_banana",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2316893_redbus",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2316894_bed",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2316897_sunumbrella",
+      "status": "success",
+      "LPIPS": 0.2807823121547699
+    },
+    {
+      "id": "VG/2316902_skateboard",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2316904_bench",
+      "status": "success",
+      "LPIPS": 0.25685203075408936
+    },
+    {
+      "id": "VG/2316905_laptop",
+      "status": "success",
+      "LPIPS": 0.13368883728981018
+    },
+    {
+      "id": "VG/2316918_sink",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2316936_phone",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2316948_whiteplate",
+      "status": "success",
+      "LPIPS": 0.3052065372467041
+    },
+    {
+      "id": "VG/2316957_umbrella",
+      "status": "success",
+      "LPIPS": 0.2204037606716156
+    },
+    {
+      "id": "VG/2316975_bus",
+      "status": "success",
+      "LPIPS": 0.2778477072715759
+    },
+    {
+      "id": "VG/2316977_banana",
+      "status": "success",
+      "LPIPS": 0.1348121166229248
+    },
+    {
+      "id": "VG/2316983_bus",
+      "status": "success",
+      "LPIPS": 0.09374415874481201
+    },
+    {
+      "id": "VG/2317003_dog",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2317039_television",
+      "status": "success",
+      "LPIPS": 0.0932886004447937
+    },
+    {
+      "id": "VG/2317044_zebra",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2317046_whitechair",
+      "status": "success",
+      "LPIPS": 0.2542153596878052
+    },
+    {
+      "id": "VG/2317063_bus",
+      "status": "success",
+      "LPIPS": 0.11470054090023041
+    },
+    {
+      "id": "VG/2317070_surfingboard",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2317072_surfingboard",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2317090_car",
+      "status": "success",
+      "LPIPS": 0.06786086410284042
+    },
+    {
+      "id": "VG/2317093_dog",
+      "status": "success",
+      "LPIPS": 0.40620413422584534
+    },
+    {
+      "id": "VG/2317093_whitehandbag",
+      "status": "success",
+      "LPIPS": 0.4304118752479553
+    },
+    {
+      "id": "VG/2317094_umbrella",
+      "status": "success",
+      "LPIPS": 0.15046373009681702
+    },
+    {
+      "id": "VG/2317105_umbrella",
+      "status": "success",
+      "LPIPS": 0.24463170766830444
+    },
+    {
+      "id": "VG/2317111_tower",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2317127_chair",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2317157_babycot",
+      "status": "success",
+      "LPIPS": 0.34095707535743713
+    },
+    {
+      "id": "VG/2317157_heatingradiator",
+      "status": "success",
+      "LPIPS": 0.19001562893390656
+    },
+    {
+      "id": "VG/2317157_redcurtain",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2317165_car",
+      "status": "success",
+      "LPIPS": 0.14067164063453674
+    },
+    {
+      "id": "VG/2317167_giraffe",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2317170_snowboard",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2317175_whitecar",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2317194_plane",
+      "status": "success",
+      "LPIPS": 0.35070523619651794
+    },
+    {
+      "id": "VG/2317195_elephant",
+      "status": "success",
+      "LPIPS": 0.0842268168926239
+    },
+    {
+      "id": "VG/2317198_snowboard",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2317205_surfingboard",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2317206_bear",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2317213_tennisracket",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2317214_curtain",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2317219_whitebear",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2317232_refrigerator",
+      "status": "success",
+      "LPIPS": 0.10003334283828735
+    },
+    {
+      "id": "VG/2317253_bed",
+      "status": "success",
+      "LPIPS": 0.19376324117183685
+    },
+    {
+      "id": "VG/2317260_stopsign",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2317262_giraffe",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2317264_stopsign",
+      "status": "success",
+      "LPIPS": 0.3806140124797821
+    },
+    {
+      "id": "VG/2317271_phone",
+      "status": "success",
+      "LPIPS": 0.12065000832080841
+    },
+    {
+      "id": "VG/2317283_dog",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2317288_remotor",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2317288_cat",
+      "status": "success",
+      "LPIPS": 0.4738556742668152
+    },
+    {
+      "id": "VG/2317293_pillow",
+      "status": "success",
+      "LPIPS": 0.2687219977378845
+    },
+    {
+      "id": "VG/2317299_blackcar",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2317303_nightstand",
+      "status": "success",
+      "LPIPS": 0.12681393325328827
+    },
+    {
+      "id": "VG/2317331_bluesofa",
+      "status": "success",
+      "LPIPS": 0.3569191098213196
+    },
+    {
+      "id": "VG/2317331_bookshelf",
+      "status": "success",
+      "LPIPS": 0.13627620041370392
+    },
+    {
+      "id": "VG/2317353_dog",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2317359_plane",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2317361_blacksofa",
+      "status": "success",
+      "LPIPS": 0.5097784996032715
+    },
+    {
+      "id": "VG/2317361_brownchair",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2317361_curtain",
+      "status": "success",
+      "LPIPS": 0.057039011269807816
+    },
+    {
+      "id": "VG/2317368_babycot",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2317376_scissors",
+      "status": "success",
+      "LPIPS": 0.11662569642066956
+    },
+    {
+      "id": "VG/2317387_dog",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2317400_horse",
+      "status": "success",
+      "LPIPS": 0.15383663773536682
+    },
+    {
+      "id": "VG/2317406_bench",
+      "status": "success",
+      "LPIPS": 0.05854256451129913
+    },
+    {
+      "id": "VG/2317412_cat",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2317418_laptop",
+      "status": "success",
+      "LPIPS": 0.33104807138442993
+    },
+    {
+      "id": "VG/2317430_tenniscourt",
+      "status": "success",
+      "LPIPS": 0.4674178957939148
+    },
+    {
+      "id": "VG/2317433_bench",
+      "status": "success",
+      "LPIPS": 0.10656416416168213
+    },
+    {
+      "id": "VG/2317450_surfingboard",
+      "status": "success",
+      "LPIPS": 0.06658615171909332
+    },
+    {
+      "id": "VG/2317457_dog",
+      "status": "success",
+      "LPIPS": 0.3413489758968353
+    },
+    {
+      "id": "VG/2317458_giraffe",
+      "status": "success",
+      "LPIPS": 0.10540374368429184
+    },
+    {
+      "id": "VG/2317491_bench",
+      "status": "success",
+      "LPIPS": 0.21006497740745544
+    },
+    {
+      "id": "VG/2317494_toybear",
+      "status": "success",
+      "LPIPS": 0.42746809124946594
+    },
+    {
+      "id": "VG/2317503_bus",
+      "status": "success",
+      "LPIPS": 0.2372441440820694
+    },
+    {
+      "id": "VG/2317521_pizza",
+      "status": "success",
+      "LPIPS": 0.24796688556671143
+    },
+    {
+      "id": "VG/2317523_dog",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2317553_redbus",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2317555_spoon",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2317577_bluesofa",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2317594_horse",
+      "status": "success",
+      "LPIPS": 0.14532391726970673
+    },
+    {
+      "id": "VG/2317621_shelf",
+      "status": "success",
+      "LPIPS": 0.22984066605567932
+    },
+    {
+      "id": "VG/2317626_sheep",
+      "status": "success",
+      "LPIPS": 0.4048285484313965
+    },
+    {
+      "id": "VG/2317636_dog",
+      "status": "success",
+      "LPIPS": 0.07474395632743835
+    },
+    {
+      "id": "VG/2317642_bread",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2317686_croissant",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2317687_bluetruck",
+      "status": "success",
+      "LPIPS": 0.5022211670875549
+    },
+    {
+      "id": "VG/2317701_boat",
+      "status": "success",
+      "LPIPS": 0.11422963440418243
+    },
+    {
+      "id": "VG/2317723_sign",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2317732_teddybear",
+      "status": "success",
+      "LPIPS": 0.4813792109489441
+    },
+    {
+      "id": "VG/2317764_cat",
+      "status": "success",
+      "LPIPS": 0.47136393189430237
+    },
+    {
+      "id": "VG/2317766_yellownotebook",
+      "status": "success",
+      "LPIPS": 0.188222274184227
+    },
+    {
+      "id": "VG/2317767_cat",
+      "status": "success",
+      "LPIPS": 0.33723652362823486
+    },
+    {
+      "id": "VG/2317771_laptop",
+      "status": "success",
+      "LPIPS": 0.4803488850593567
+    },
+    {
+      "id": "VG/2317786_pinkflyingplate",
+      "status": "success",
+      "LPIPS": 0.27402594685554504
+    },
+    {
+      "id": "VG/2317855_bluesofa",
+      "status": "success",
+      "LPIPS": 0.4815594553947449
+    },
+    {
+      "id": "VG/2317861_newspaper",
+      "status": "success",
+      "LPIPS": 0.38055887818336487
+    },
+    {
+      "id": "VG/2317865_chair",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2317871_umbrella",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2317872_suitcase",
+      "status": "success",
+      "LPIPS": 0.2047233283519745
+    },
+    {
+      "id": "VG/2317874_umbrella",
+      "status": "success",
+      "LPIPS": 0.3869791328907013
+    },
+    {
+      "id": "VG/2317878_brownchoppingboard",
+      "status": "success",
+      "LPIPS": 0.30947422981262207
+    },
+    {
+      "id": "VG/2317880_policemotorcycle",
+      "status": "success",
+      "LPIPS": 0.1506582498550415
+    },
+    {
+      "id": "VG/2317892_dog",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2317893_giraffe",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2317905_skateboard",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2317906_cat",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2317922_fork",
+      "status": "success",
+      "LPIPS": 0.09421657770872116
+    },
+    {
+      "id": "VG/2317931_giraffe",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2317936_car",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2317940_skateboard",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2317942_chair",
+      "status": "success",
+      "LPIPS": 0.29710185527801514
+    },
+    {
+      "id": "VG/2317947_skateboard",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2317959_toilet",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2317985_flyingplate",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2317992_fork",
+      "status": "success",
+      "LPIPS": 0.0984620451927185
+    },
+    {
+      "id": "VG/2317992_whiteplate",
+      "status": "success",
+      "LPIPS": 0.2778873145580292
+    },
+    {
+      "id": "VG/2318017_chair",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2318017_bookshelf",
+      "status": "success",
+      "LPIPS": 0.17929360270500183
+    },
+    {
+      "id": "VG/2318030_dog",
+      "status": "success",
+      "LPIPS": 0.33574333786964417
+    },
+    {
+      "id": "VG/2318093_dog",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2318095_bench",
+      "status": "success",
+      "LPIPS": 0.1258372813463211
+    },
+    {
+      "id": "VG/2318111_elephant",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2318115_dog",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2318159_carpet",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2318217_surfingboard",
+      "status": "success",
+      "LPIPS": 0.09614070504903793
+    },
+    {
+      "id": "VG/2318232_laptop",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2318253_bear",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2318268_plate",
+      "status": "success",
+      "LPIPS": 0.21974219381809235
+    },
+    {
+      "id": "VG/2318276_bus",
+      "status": "success",
+      "LPIPS": 0.06253527849912643
+    },
+    {
+      "id": "VG/2318301_refrigerator",
+      "status": "success",
+      "LPIPS": 0.26756447553634644
+    },
+    {
+      "id": "VG/2318342_browntray",
+      "status": "success",
+      "LPIPS": 0.408543199300766
+    },
+    {
+      "id": "VG/2318344_scissors",
+      "status": "success",
+      "LPIPS": 0.39295250177383423
+    },
+    {
+      "id": "VG/2318355_cat",
+      "status": "success",
+      "LPIPS": 0.4294886887073517
+    },
+    {
+      "id": "VG/2318372_horse",
+      "status": "success",
+      "LPIPS": 0.10380526632070541
+    },
+    {
+      "id": "VG/2318422_bus",
+      "status": "success",
+      "LPIPS": 0.11497372388839722
+    },
+    {
+      "id": "VG/2318428_blueplate",
+      "status": "success",
+      "LPIPS": 0.23942820727825165
+    },
+    {
+      "id": "VG/2318432_cabinet",
+      "status": "success",
+      "LPIPS": 0.1952286958694458
+    },
+    {
+      "id": "VG/2318436_cat",
+      "status": "success",
+      "LPIPS": 0.19922995567321777
+    },
+    {
+      "id": "VG/2318452_whiteplate",
+      "status": "success",
+      "LPIPS": 0.10300682485103607
+    },
+    {
+      "id": "VG/2318474_scissors",
+      "status": "success",
+      "LPIPS": 0.14704586565494537
+    },
+    {
+      "id": "VG/2318493_bowl",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2318497_girafffe",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2318499_cat",
+      "status": "success",
+      "LPIPS": 0.3726785182952881
+    },
+    {
+      "id": "VG/2318528_surfingboard",
+      "status": "success",
+      "LPIPS": 0.06471916288137436
+    },
+    {
+      "id": "VG/2318535_sheep",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2318559_cat",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2318560_plate",
+      "status": "success",
+      "LPIPS": 0.2098686397075653
+    },
+    {
+      "id": "VG/2318562_brownhorse",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2318575_ship",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2318578_teddybear",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2318592_knife",
+      "status": "success",
+      "LPIPS": 0.3685062825679779
+    },
+    {
+      "id": "VG/2318654_teddybear",
+      "status": "success",
+      "LPIPS": 0.11105199158191681
+    },
+    {
+      "id": "VG/2318702_redchair",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2318723_laptop",
+      "status": "success",
+      "LPIPS": 0.1421489268541336
+    },
+    {
+      "id": "VG/2318767_teddybear",
+      "status": "success",
+      "LPIPS": 0.5442232489585876
+    },
+    {
+      "id": "VG/2318834_plate",
+      "status": "success",
+      "LPIPS": 0.39778393507003784
+    },
+    {
+      "id": "VG/2318890_dog",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2318954_bus",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2318999_chair",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2319026_rugbyball",
+      "status": "success",
+      "LPIPS": 0.4864473342895508
+    },
+    {
+      "id": "VG/2319028_stopsign",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2319055_dog",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2319124_plane",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2319129_bus",
+      "status": "success",
+      "LPIPS": 0.43382149934768677
+    },
+    {
+      "id": "VG/2319130_bed",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2319137_horse",
+      "status": "success",
+      "LPIPS": 0.15241765975952148
+    },
+    {
+      "id": "VG/2319162_cat",
+      "status": "success",
+      "LPIPS": 0.4536813795566559
+    },
+    {
+      "id": "VG/2319166_greenplate",
+      "status": "success",
+      "LPIPS": 0.4856310188770294
+    },
+    {
+      "id": "VG/2319183_baseballracket",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2319185_phone",
+      "status": "success",
+      "LPIPS": 0.44719427824020386
+    },
+    {
+      "id": "VG/2319230_elephant",
+      "status": "success",
+      "LPIPS": 0.13694190979003906
+    },
+    {
+      "id": "VG/2319238_teddybear",
+      "status": "success",
+      "LPIPS": 0.5666468143463135
+    },
+    {
+      "id": "VG/2319253_whiteplate",
+      "status": "success",
+      "LPIPS": 0.1766401082277298
+    },
+    {
+      "id": "VG/2319288_chair",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2319298_bus",
+      "status": "success",
+      "LPIPS": 0.10132969915866852
+    },
+    {
+      "id": "VG/2319308_whitedesk",
+      "status": "success",
+      "LPIPS": 0.32583314180374146
+    },
+    {
+      "id": "VG/2319323_cat",
+      "status": "success",
+      "LPIPS": 0.35719454288482666
+    },
+    {
+      "id": "VG/2319334_bus",
+      "status": "success",
+      "LPIPS": 0.10493183135986328
+    },
+    {
+      "id": "VG/2319342_chair",
+      "status": "success",
+      "LPIPS": 0.23570984601974487
+    },
+    {
+      "id": "VG/2319343_toilet",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2319355_laptop",
+      "status": "success",
+      "LPIPS": 0.08926741778850555
+    },
+    {
+      "id": "VG/2319409_bed",
+      "status": "success",
+      "LPIPS": 0.6206654906272888
+    },
+    {
+      "id": "VG/2319437_umbrella",
+      "status": "success",
+      "LPIPS": 0.2216459959745407
+    },
+    {
+      "id": "VG/2319448_banana",
+      "status": "success",
+      "LPIPS": 0.07987479120492935
+    },
+    {
+      "id": "VG/2319454_teddybear",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2319494_refrigerator",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2319542_remotor",
+      "status": "success",
+      "LPIPS": 0.2433660477399826
+    },
+    {
+      "id": "VG/2319568_redbus",
+      "status": "success",
+      "LPIPS": 0.5863009095191956
+    },
+    {
+      "id": "VG/2319584_banana",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2319593_tennisracket",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2319634_chair",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2319644_bluetable",
+      "status": "success",
+      "LPIPS": 0.11673031747341156
+    },
+    {
+      "id": "VG/2319688_teddybear",
+      "status": "success",
+      "LPIPS": 0.30444249510765076
+    },
+    {
+      "id": "VG/2319688_greenchair",
+      "status": "success",
+      "LPIPS": 0.4667946696281433
+    },
+    {
+      "id": "VG/2319695_bus",
+      "status": "success",
+      "LPIPS": 0.3433537185192108
+    },
+    {
+      "id": "VG/2319737_donut",
+      "status": "success",
+      "LPIPS": 0.08311139047145844
+    },
+    {
+      "id": "VG/2319762_chair",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2319803_cat",
+      "status": "success",
+      "LPIPS": 0.45295965671539307
+    },
+    {
+      "id": "VG/2319856_bus",
+      "status": "success",
+      "LPIPS": 0.5494714379310608
+    },
+    {
+      "id": "VG/2319875_blacktruck",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2319878_chair",
+      "status": "success",
+      "LPIPS": 0.28653597831726074
+    },
+    {
+      "id": "VG/2319890_keyboard",
+      "status": "success",
+      "LPIPS": 0.38164445757865906
+    },
+    {
+      "id": "VG/2319924_keyboard",
+      "status": "success",
+      "LPIPS": 0.2816317677497864
+    },
+    {
+      "id": "VG/2319929_brownchair",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2319932_laptop",
+      "status": "success",
+      "LPIPS": 0.17000725865364075
+    },
+    {
+      "id": "VG/2319967_cat",
+      "status": "success",
+      "LPIPS": 0.30609747767448425
+    },
+    {
+      "id": "VG/2319976_kettle",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2319978_plane",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2319995_bus",
+      "status": "success",
+      "LPIPS": 0.1432318091392517
+    },
+    {
+      "id": "VG/2319996_bus",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2320016_surfingboard",
+      "status": "success",
+      "LPIPS": 0.11423324048519135
+    },
+    {
+      "id": "VG/2320017_elephant",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2320026_brownhorse",
+      "status": "success",
+      "LPIPS": 0.5240296721458435
+    },
+    {
+      "id": "VG/2320037_keyboard",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2320043_chair",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2320046_snowboard",
+      "status": "success",
+      "LPIPS": 0.11506254225969315
+    },
+    {
+      "id": "VG/2320055_laptop",
+      "status": "success",
+      "LPIPS": 0.4947235882282257
+    },
+    {
+      "id": "VG/2320062_greenumbrella",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2320074_snowboard",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2320087_yellowfirehydrant",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2320100_blackdesk",
+      "status": "success",
+      "LPIPS": 0.4390525221824646
+    },
+    {
+      "id": "VG/2320100_chair",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2320113_whitedoor",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2320130_dog",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2320192_bluewaterbottle",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2320193_cow",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2320210_cat",
+      "status": "success",
+      "LPIPS": 0.41159653663635254
+    },
+    {
+      "id": "VG/2320229_cat",
+      "status": "success",
+      "LPIPS": 0.40315890312194824
+    },
+    {
+      "id": "VG/2320236_hairdryer",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2320237_bench",
+      "status": "success",
+      "LPIPS": 0.44091951847076416
+    },
+    {
+      "id": "VG/2320245_coffeebottle",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2320245_bag",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2320245_table",
+      "status": "success",
+      "LPIPS": 0.5229499936103821
+    },
+    {
+      "id": "VG/2320247_skateboard",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2320256_plate",
+      "status": "success",
+      "LPIPS": 0.4757049083709717
+    },
+    {
+      "id": "VG/2320272_stopsign",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2320285_elephant",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2320294_table",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2320298_surfingboard",
+      "status": "success",
+      "LPIPS": 0.25128504633903503
+    },
+    {
+      "id": "VG/2320305_cat",
+      "status": "success",
+      "LPIPS": 0.12538421154022217
+    },
+    {
+      "id": "VG/2320317_bus",
+      "status": "success",
+      "LPIPS": 0.21724587678909302
+    },
+    {
+      "id": "VG/2320318_horse",
+      "status": "success",
+      "LPIPS": 0.1301923543214798
+    },
+    {
+      "id": "VG/2320320_blackcar",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2320320_motorbike",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2320324_brownhorse",
+      "status": "success",
+      "LPIPS": 0.1027153730392456
+    },
+    {
+      "id": "VG/2320327_greencar",
+      "status": "success",
+      "LPIPS": 0.4398595094680786
+    },
+    {
+      "id": "VG/2320329_whitetable",
+      "status": "success",
+      "LPIPS": 0.41909685730934143
+    },
+    {
+      "id": "VG/2320349_brownsuitcase",
+      "status": "success",
+      "LPIPS": 0.46300315856933594
+    },
+    {
+      "id": "VG/2320359_television",
+      "status": "success",
+      "LPIPS": 0.3053432106971741
+    },
+    {
+      "id": "VG/2320362_snowboard",
+      "status": "success",
+      "LPIPS": 0.10423257201910019
+    },
+    {
+      "id": "VG/2320370_pinkfirehydrant",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2320373_bluebowl",
+      "status": "success",
+      "LPIPS": 0.2116800993680954
+    },
+    {
+      "id": "VG/2320374_umbrella",
+      "status": "success",
+      "LPIPS": 0.2605578899383545
+    },
+    {
+      "id": "VG/2320380_bed",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2320390_laptop",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2320395_bakingtray",
+      "status": "success",
+      "LPIPS": 0.5712047219276428
+    },
+    {
+      "id": "VG/2320397_whiteplate",
+      "status": "success",
+      "LPIPS": 0.14365530014038086
+    },
+    {
+      "id": "VG/2320400_bluebottle",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2320407_surfingboard",
+      "status": "success",
+      "LPIPS": 0.14859677851200104
+    },
+    {
+      "id": "VG/2320413_sofa",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2320426_bear",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2320443_motorbike",
+      "status": "success",
+      "LPIPS": 0.11167225986719131
+    },
+    {
+      "id": "VG/2320468_surfingboard",
+      "status": "success",
+      "LPIPS": 0.10864013433456421
+    },
+    {
+      "id": "VG/2320498_boat",
+      "status": "success",
+      "LPIPS": 0.3855125904083252
+    },
+    {
+      "id": "VG/2320527_cat",
+      "status": "success",
+      "LPIPS": 0.31302255392074585
+    },
+    {
+      "id": "VG/2320542_bench",
+      "status": "success",
+      "LPIPS": 0.41525545716285706
+    },
+    {
+      "id": "VG/2320543_chair",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2320560_knife",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2320565_cat",
+      "status": "success",
+      "LPIPS": 0.4529680609703064
+    },
+    {
+      "id": "VG/2320604_bus",
+      "status": "success",
+      "LPIPS": 0.3603060841560364
+    },
+    {
+      "id": "VG/2320604_blackcar",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2320641_cup",
+      "status": "success",
+      "LPIPS": 0.3793332874774933
+    },
+    {
+      "id": "VG/2320659_redcar",
+      "status": "success",
+      "LPIPS": 0.08273930102586746
+    },
+    {
+      "id": "VG/2320691_firehydrant",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2320693_dog",
+      "status": "success",
+      "LPIPS": 0.20066437125205994
+    },
+    {
+      "id": "VG/2320693_flyingplate",
+      "status": "success",
+      "LPIPS": 0.3270639479160309
+    },
+    {
+      "id": "VG/2320703_tennisracket",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2320709_chair",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2320715_cat",
+      "status": "success",
+      "LPIPS": 0.12468399852514267
+    },
+    {
+      "id": "VG/2320715_mouse",
+      "status": "success",
+      "LPIPS": 0.23613183200359344
+    },
+    {
+      "id": "VG/2320716_zebra",
+      "status": "success",
+      "LPIPS": 0.2538866698741913
+    },
+    {
+      "id": "VG/2320719_surfingboard",
+      "status": "success",
+      "LPIPS": 0.08621831983327866
+    },
+    {
+      "id": "VG/2320723_laptop",
+      "status": "success",
+      "LPIPS": 0.2649936378002167
+    },
+    {
+      "id": "VG/2320733_tennisracket",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2320741_blackcar",
+      "status": "success",
+      "LPIPS": 0.5101765394210815
+    },
+    {
+      "id": "VG/2320763_sofa",
+      "status": "success",
+      "LPIPS": 0.1354266107082367
+    },
+    {
+      "id": "VG/2320765_coffeecup",
+      "status": "success",
+      "LPIPS": 0.12111997604370117
+    },
+    {
+      "id": "VG/2320799_toilet",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2320803_cake",
+      "status": "success",
+      "LPIPS": 0.23658540844917297
+    },
+    {
+      "id": "VG/2320804_skateboard",
+      "status": "success",
+      "LPIPS": 0.0674675852060318
+    },
+    {
+      "id": "VG/2320805_bird",
+      "status": "success",
+      "LPIPS": 0.4402565062046051
+    },
+    {
+      "id": "VG/2320806_sofa",
+      "status": "success",
+      "LPIPS": 0.3205845057964325
+    },
+    {
+      "id": "VG/2320812_plate",
+      "status": "success",
+      "LPIPS": 0.3877151310443878
+    },
+    {
+      "id": "VG/2320820_keyboard",
+      "status": "success",
+      "LPIPS": 0.11725924164056778
+    },
+    {
+      "id": "VG/2320825_bookshelf",
+      "status": "success",
+      "LPIPS": 0.3175656199455261
+    },
+    {
+      "id": "VG/2320833_sofa",
+      "status": "success",
+      "LPIPS": 0.07936163246631622
+    },
+    {
+      "id": "VG/2320846_sofa",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2320855_laptop",
+      "status": "success",
+      "LPIPS": 0.3605111837387085
+    },
+    {
+      "id": "VG/2320860_browndoor",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2320873_motorbike",
+      "status": "success",
+      "LPIPS": 0.42208218574523926
+    },
+    {
+      "id": "VG/2320929_motorbike",
+      "status": "success",
+      "LPIPS": 0.09840895980596542
+    },
+    {
+      "id": "VG/2320946_sofa",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2320949_lamp",
+      "status": "success",
+      "LPIPS": 0.43857163190841675
+    },
+    {
+      "id": "VG/2320964_bench",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2320984_flyingplate",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2321032_giraffe",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2321059_dog",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2321071_bear",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2321076_deer",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2321082_bus",
+      "status": "success",
+      "LPIPS": 0.582401692867279
+    },
+    {
+      "id": "VG/2321112_bench",
+      "status": "success",
+      "LPIPS": 0.15860193967819214
+    },
+    {
+      "id": "VG/2321112_castle",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2321114_can",
+      "status": "success",
+      "LPIPS": 0.3383483588695526
+    },
+    {
+      "id": "VG/2321128_bus",
+      "status": "success",
+      "LPIPS": 0.1676296889781952
+    },
+    {
+      "id": "VG/2321131_sheep",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2321145_dog",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2321146_woodentray",
+      "status": "success",
+      "LPIPS": 0.16945722699165344
+    },
+    {
+      "id": "VG/2321151_phone",
+      "status": "success",
+      "LPIPS": 0.1237993836402893
+    },
+    {
+      "id": "VG/2321166_bookshelf",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2321166_sofa",
+      "status": "success",
+      "LPIPS": 0.16000881791114807
+    },
+    {
+      "id": "VG/2321166_cabinet",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2321178_browndesk",
+      "status": "success",
+      "LPIPS": 0.18592794239521027
+    },
+    {
+      "id": "VG/2321182_giraffe",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2321182_zebra",
+      "status": "success",
+      "LPIPS": 0.4450247287750244
+    },
+    {
+      "id": "VG/2321183_blueumbrella",
+      "status": "success",
+      "LPIPS": 0.4685809314250946
+    },
+    {
+      "id": "VG/2321206_bench",
+      "status": "success",
+      "LPIPS": 0.11618319153785706
+    },
+    {
+      "id": "VG/2321211_beerbottle",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2321237_dog",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2321244_cat",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2321259_horse",
+      "status": "success",
+      "LPIPS": 0.10116571187973022
+    },
+    {
+      "id": "VG/2321265_fork",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2321276_zebra",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2321277_cat",
+      "status": "success",
+      "LPIPS": 0.12011910229921341
+    },
+    {
+      "id": "VG/2321303_bed",
+      "status": "success",
+      "LPIPS": 0.611073911190033
+    },
+    {
+      "id": "VG/2321349_bed",
+      "status": "success",
+      "LPIPS": 0.5058469772338867
+    },
+    {
+      "id": "VG/2321386_dog",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2321394_bench",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2321408_teddybear",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2321432_suitcase",
+      "status": "success",
+      "LPIPS": 0.17713168263435364
+    },
+    {
+      "id": "VG/2321446_banana",
+      "status": "success",
+      "LPIPS": 0.2439597249031067
+    },
+    {
+      "id": "VG/2321453_elephant",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2321459_toilet",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2321468_elephant",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2321470_sofa",
+      "status": "success",
+      "LPIPS": 0.47683030366897583
+    },
+    {
+      "id": "VG/2321481_motorbike",
+      "status": "success",
+      "LPIPS": 0.09625304490327835
+    },
+    {
+      "id": "VG/2321484_reddesk",
+      "status": "success",
+      "LPIPS": 0.4200490117073059
+    },
+    {
+      "id": "VG/2321489_blackumbrella",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2321492_greenbus",
+      "status": "success",
+      "LPIPS": 0.38591381907463074
+    },
+    {
+      "id": "VG/2321501_bench",
+      "status": "success",
+      "LPIPS": 0.4609948992729187
+    },
+    {
+      "id": "VG/2321515_horse",
+      "status": "success",
+      "LPIPS": 0.3856890797615051
+    },
+    {
+      "id": "VG/2321522_bench",
+      "status": "success",
+      "LPIPS": 0.269146203994751
+    },
+    {
+      "id": "VG/2321544_dog",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2321554_phone",
+      "status": "success",
+      "LPIPS": 0.07223372161388397
+    },
+    {
+      "id": "VG/2321578_toilet",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2321580_whitecar",
+      "status": "success",
+      "LPIPS": 0.23062503337860107
+    },
+    {
+      "id": "VG/2321584_elephant",
+      "status": "success",
+      "LPIPS": 0.10233502835035324
+    },
+    {
+      "id": "VG/2321593_plate",
+      "status": "success",
+      "LPIPS": 0.5006289482116699
+    },
+    {
+      "id": "VG/2321594_teddybear",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2321647_umbrella",
+      "status": "success",
+      "LPIPS": 0.1338070034980774
+    },
+    {
+      "id": "VG/2321653_redbus",
+      "status": "success",
+      "LPIPS": 0.5154279470443726
+    },
+    {
+      "id": "VG/2321658_redbus",
+      "status": "success",
+      "LPIPS": 0.13127633929252625
+    },
+    {
+      "id": "VG/2321665_bench",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2321671_dog",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2321692_wardrobe",
+      "status": "success",
+      "LPIPS": 0.4536707401275635
+    },
+    {
+      "id": "VG/2321694_elephant",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2321705_remotor",
+      "status": "success",
+      "LPIPS": 0.4498319923877716
+    },
+    {
+      "id": "VG/2321706_keyboard",
+      "status": "success",
+      "LPIPS": 0.13513880968093872
+    },
+    {
+      "id": "VG/2321706_computerscreen",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2321719_surfingboard",
+      "status": "success",
+      "LPIPS": 0.09798983484506607
+    },
+    {
+      "id": "VG/2321729_surfingboard",
+      "status": "success",
+      "LPIPS": 0.38557881116867065
+    },
+    {
+      "id": "VG/2321754_laptop",
+      "status": "success",
+      "LPIPS": 0.5124207735061646
+    },
+    {
+      "id": "VG/2321768_cabinet",
+      "status": "success",
+      "LPIPS": 0.16736221313476562
+    },
+    {
+      "id": "VG/2321776_banana",
+      "status": "success",
+      "LPIPS": 0.10071488469839096
+    },
+    {
+      "id": "VG/2321781_bed",
+      "status": "success",
+      "LPIPS": 0.06756281107664108
+    },
+    {
+      "id": "VG/2321794_fork",
+      "status": "success",
+      "LPIPS": 0.10136612504720688
+    },
+    {
+      "id": "VG/2321797_giraffe",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2321825_giraffe",
+      "status": "success",
+      "LPIPS": 0.17068836092948914
+    },
+    {
+      "id": "VG/2321826_stopsign",
+      "status": "success",
+      "LPIPS": 0.3067944347858429
+    },
+    {
+      "id": "VG/2321862_refrigerator",
+      "status": "success",
+      "LPIPS": 0.5758775472640991
+    },
+    {
+      "id": "VG/2321865_surfingboard",
+      "status": "success",
+      "LPIPS": 0.07225961238145828
+    },
+    {
+      "id": "VG/2321894_motorbike",
+      "status": "success",
+      "LPIPS": 0.5910426378250122
+    },
+    {
+      "id": "VG/2321904_motorbike",
+      "status": "success",
+      "LPIPS": 0.21487334370613098
+    },
+    {
+      "id": "VG/2321909_umbrella",
+      "status": "success",
+      "LPIPS": 0.14273275434970856
+    },
+    {
+      "id": "VG/2321911_motorbike",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2321918_surfingboard",
+      "status": "success",
+      "LPIPS": 0.08484022319316864
+    },
+    {
+      "id": "VG/2321919_cup",
+      "status": "success",
+      "LPIPS": 0.06297123432159424
+    },
+    {
+      "id": "VG/2321940_bus",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2321956_horse",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2322004_car",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2322007_tennisracket",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2322009_sofa",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2322009_bed",
+      "status": "success",
+      "LPIPS": 0.18129561841487885
+    },
+    {
+      "id": "VG/2322009_curtain",
+      "status": "success",
+      "LPIPS": 0.09589696675539017
+    },
+    {
+      "id": "VG/2322010_whiteplate",
+      "status": "success",
+      "LPIPS": 0.15626369416713715
+    },
+    {
+      "id": "VG/2322027_laptop",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2322044_rugbyball",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2322049_fryingpan",
+      "status": "success",
+      "LPIPS": 0.1716775745153427
+    },
+    {
+      "id": "VG/2322102_cat",
+      "status": "success",
+      "LPIPS": 0.21274226903915405
+    },
+    {
+      "id": "VG/2322113_fork",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2322115_bus",
+      "status": "success",
+      "LPIPS": 0.07246848195791245
+    },
+    {
+      "id": "VG/2322118_pineapple",
+      "status": "success",
+      "LPIPS": 0.22009801864624023
+    },
+    {
+      "id": "VG/2322124_skateboard",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2322127_sink",
+      "status": "success",
+      "LPIPS": 0.18056733906269073
+    },
+    {
+      "id": "VG/2322145_zebra",
+      "status": "success",
+      "LPIPS": 0.5305234789848328
+    },
+    {
+      "id": "VG/2322146_television",
+      "status": "success",
+      "LPIPS": 0.5951006412506104
+    },
+    {
+      "id": "VG/2322171_bed",
+      "status": "success",
+      "LPIPS": 0.24435707926750183
+    },
+    {
+      "id": "VG/2322173_taxi",
+      "status": "success",
+      "LPIPS": 0.09425584226846695
+    },
+    {
+      "id": "VG/2322180_teddybear",
+      "status": "success",
+      "LPIPS": 0.5517163872718811
+    },
+    {
+      "id": "VG/2322198_motorbike",
+      "status": "success",
+      "LPIPS": 0.519153356552124
+    },
+    {
+      "id": "VG/2322199_bus",
+      "status": "success",
+      "LPIPS": 0.09017856419086456
+    },
+    {
+      "id": "VG/2322211_umbrella",
+      "status": "success",
+      "LPIPS": 0.25370752811431885
+    },
+    {
+      "id": "VG/2322214_bird",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2322225_redtruck",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2322231_car",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2322237_giraffe",
+      "status": "success",
+      "LPIPS": 0.3720594346523285
+    },
+    {
+      "id": "VG/2322239_bird",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2322245_firehydrant",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2322246_motorbike",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2322251_dog",
+      "status": "success",
+      "LPIPS": 0.1494491994380951
+    },
+    {
+      "id": "VG/2322260_meat",
+      "status": "success",
+      "LPIPS": 0.2624925673007965
+    },
+    {
+      "id": "VG/2322268_bear",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2322272_teddybear",
+      "status": "success",
+      "LPIPS": 0.3692587912082672
+    },
+    {
+      "id": "VG/2322304_sofa",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2322311_motorbike",
+      "status": "success",
+      "LPIPS": 0.3234180212020874
+    },
+    {
+      "id": "VG/2322320_toilet",
+      "status": "success",
+      "LPIPS": 0.39684003591537476
+    },
+    {
+      "id": "VG/2322337_plane",
+      "status": "success",
+      "LPIPS": 0.10823662579059601
+    },
+    {
+      "id": "VG/2322354_dog",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2322389_bus",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2322390_cat",
+      "status": "success",
+      "LPIPS": 0.5159254670143127
+    },
+    {
+      "id": "VG/2322393_sofa",
+      "status": "success",
+      "LPIPS": 0.4057167172431946
+    },
+    {
+      "id": "VG/2322403_glasscup",
+      "status": "success",
+      "LPIPS": 0.5207974314689636
+    },
+    {
+      "id": "VG/2322417_toycat",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2322419_firehydrant",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2322420_cat",
+      "status": "success",
+      "LPIPS": 0.42968788743019104
+    },
+    {
+      "id": "VG/2322420_laptop",
+      "status": "success",
+      "LPIPS": 0.25344356894493103
+    },
+    {
+      "id": "VG/2322429_elephant",
+      "status": "success",
+      "LPIPS": 0.12946493923664093
+    },
+    {
+      "id": "VG/2322437_refrigerator",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2322471_elephant",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2322493_bus",
+      "status": "success",
+      "LPIPS": 0.1530381292104721
+    },
+    {
+      "id": "VG/2322501_greenbus",
+      "status": "success",
+      "LPIPS": 0.15275049209594727
+    },
+    {
+      "id": "VG/2322502_horse",
+      "status": "success",
+      "LPIPS": 0.11012949049472809
+    },
+    {
+      "id": "VG/2322503_horse",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2322508_beerbottle",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2322542_greenboat",
+      "status": "success",
+      "LPIPS": 0.1435815989971161
+    },
+    {
+      "id": "VG/2322557_sofa",
+      "status": "success",
+      "LPIPS": 0.6008509993553162
+    },
+    {
+      "id": "VG/2322562_motorbike",
+      "status": "success",
+      "LPIPS": 0.42901846766471863
+    },
+    {
+      "id": "VG/2322572_motorbike",
+      "status": "success",
+      "LPIPS": 0.23541490733623505
+    },
+    {
+      "id": "VG/2322576_sofa",
+      "status": "success",
+      "LPIPS": 0.36355841159820557
+    },
+    {
+      "id": "VG/2322576_coffeetable",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2322622_redbus",
+      "status": "success",
+      "LPIPS": 0.2195013463497162
+    },
+    {
+      "id": "VG/2322624_bird",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2322631_elephant",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2322634_dog",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2322673_horse",
+      "status": "success",
+      "LPIPS": 0.3990245759487152
+    },
+    {
+      "id": "VG/2322679_firehydrant",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2322698_bed",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2322707_dog",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2322726_cat",
+      "status": "success",
+      "LPIPS": 0.42556819319725037
+    },
+    {
+      "id": "VG/2322764_motorbike",
+      "status": "success",
+      "LPIPS": 0.4067241847515106
+    },
+    {
+      "id": "VG/2322769_motorbike",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2322830_bird",
+      "status": "success",
+      "LPIPS": 0.24953143298625946
+    },
+    {
+      "id": "VG/2322843_cat",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2322857_mouse",
+      "status": "success",
+      "LPIPS": 0.29366999864578247
+    },
+    {
+      "id": "VG/2322857_bottle",
+      "status": "success",
+      "LPIPS": 0.3485211133956909
+    },
+    {
+      "id": "VG/2322864_dog",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2350002_blackcar",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2350031_laptop",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2350033_cat",
+      "status": "success",
+      "LPIPS": 0.30333927273750305
+    },
+    {
+      "id": "VG/2350043_skateboard",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2350051_cow",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2350054_clocktower",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2350058_bluetruck",
+      "status": "success",
+      "LPIPS": 0.27368974685668945
+    },
+    {
+      "id": "VG/2350067_skateboard",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2350072_umbrella",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2350073_bathtub",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2350074_elephant",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2350075_dog",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2350079_horse",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2350083_umbrella",
+      "status": "success",
+      "LPIPS": 0.2772406339645386
+    },
+    {
+      "id": "VG/2350092_bus",
+      "status": "success",
+      "LPIPS": 0.11338372528553009
+    },
+    {
+      "id": "VG/2350094_kettle",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2350136_bird",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2350143_bicycle",
+      "status": "success",
+      "LPIPS": 0.39684775471687317
+    },
+    {
+      "id": "VG/2350154_toybear",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2350188_clock",
+      "status": "success",
+      "LPIPS": 0.253193736076355
+    },
+    {
+      "id": "VG/2350192_laptop",
+      "status": "success",
+      "LPIPS": 0.06972019374370575
+    },
+    {
+      "id": "VG/2350193_airplane",
+      "status": "success",
+      "LPIPS": 0.10574638098478317
+    },
+    {
+      "id": "VG/2350211_dog",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2350216_bench",
+      "status": "success",
+      "LPIPS": 0.20744535326957703
+    },
+    {
+      "id": "VG/2350221_hairdryer",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2350224_laptop",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2350246_apple",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2350254_bus",
+      "status": "success",
+      "LPIPS": 0.22445258498191833
+    },
+    {
+      "id": "VG/2350257_bus",
+      "status": "success",
+      "LPIPS": 0.23085325956344604
+    },
+    {
+      "id": "VG/2350260_car",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2350264_baseballbat",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2350270_baseballbat",
+      "status": "success",
+      "LPIPS": 0.10294920206069946
+    },
+    {
+      "id": "VG/2350302_fork",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2350309_toothbrush",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2350312_motorcycle",
+      "status": "success",
+      "LPIPS": 0.17588186264038086
+    },
+    {
+      "id": "VG/2350324_pizza",
+      "status": "success",
+      "LPIPS": 0.5297133326530457
+    },
+    {
+      "id": "VG/2350329_knife",
+      "status": "success",
+      "LPIPS": 0.19430036842823029
+    },
+    {
+      "id": "VG/2350340_baseballbat",
+      "status": "success",
+      "LPIPS": 0.08222977072000504
+    },
+    {
+      "id": "VG/2350371_dog",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2350374_refrigerator",
+      "status": "success",
+      "LPIPS": 0.5690402984619141
+    },
+    {
+      "id": "VG/2350391_firehydrant",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2350405_coffeecup",
+      "status": "success",
+      "LPIPS": 0.5098071098327637
+    },
+    {
+      "id": "VG/2350416_bird",
+      "status": "success",
+      "LPIPS": 0.18712620437145233
+    },
+    {
+      "id": "VG/2350424_chair",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2350451_babycat",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2350463_cat",
+      "status": "success",
+      "LPIPS": 0.5459331274032593
+    },
+    {
+      "id": "VG/2350478_bench",
+      "status": "success",
+      "LPIPS": 0.13666197657585144
+    },
+    {
+      "id": "VG/2350485_toilet",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2350498_elephant",
+      "status": "success",
+      "LPIPS": 0.4532356858253479
+    },
+    {
+      "id": "VG/2350513_yellowcar",
+      "status": "success",
+      "LPIPS": 0.5049600005149841
+    },
+    {
+      "id": "VG/2350519_largescissors",
+      "status": "success",
+      "LPIPS": 0.23801204562187195
+    },
+    {
+      "id": "VG/2350521_umbrella",
+      "status": "success",
+      "LPIPS": 0.2910953164100647
+    },
+    {
+      "id": "VG/2350532_motorcycle",
+      "status": "success",
+      "LPIPS": 0.4808352291584015
+    },
+    {
+      "id": "VG/2350534_bear",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2350541_airplane",
+      "status": "success",
+      "LPIPS": 0.21296870708465576
+    },
+    {
+      "id": "VG/2350567_firehydrant",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2350569_elephant",
+      "status": "success",
+      "LPIPS": 0.11654312163591385
+    },
+    {
+      "id": "VG/2350590_cat",
+      "status": "success",
+      "LPIPS": 0.39406153559684753
+    },
+    {
+      "id": "VG/2350601_stopsign",
+      "status": "success",
+      "LPIPS": 0.4718056917190552
+    },
+    {
+      "id": "VG/2350636_bicycle",
+      "status": "success",
+      "LPIPS": 0.37752020359039307
+    },
+    {
+      "id": "VG/2350654_tennisracket",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2350659_giraffe",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2350700_cat",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2350727_sofa",
+      "status": "success",
+      "LPIPS": 0.24071945250034332
+    },
+    {
+      "id": "VG/2350731_beerbottle",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2350732_umbrella",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2350736_phone",
+      "status": "success",
+      "LPIPS": 0.36366111040115356
+    },
+    {
+      "id": "VG/2350781_giraffe",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2350782_firehydrant",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2350806_spoon",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2350820_dog",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2350835_skateboard",
+      "status": "success",
+      "LPIPS": 0.21618624031543732
+    },
+    {
+      "id": "VG/2350836_elephant",
+      "status": "success",
+      "LPIPS": 0.4844317138195038
+    },
+    {
+      "id": "VG/2350854_horse",
+      "status": "success",
+      "LPIPS": 0.3680607080459595
+    },
+    {
+      "id": "VG/2350866_goose",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2350871_birthdaycake",
+      "status": "success",
+      "LPIPS": 0.5438194870948792
+    },
+    {
+      "id": "VG/2350881_bear",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2350925_cat",
+      "status": "success",
+      "LPIPS": 0.06340088695287704
+    },
+    {
+      "id": "VG/2350946_bathtub",
+      "status": "success",
+      "LPIPS": 0.49344050884246826
+    },
+    {
+      "id": "VG/2350946_toilet",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2350946_sink",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2350946_window",
+      "status": "success",
+      "LPIPS": 0.2773980498313904
+    },
+    {
+      "id": "VG/2350963_motorcycle",
+      "status": "success",
+      "LPIPS": 0.45660915970802307
+    },
+    {
+      "id": "VG/2350974_redcar",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2350982_tennisracket",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2350987_bus",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2350993_bluemotorcycle",
+      "status": "success",
+      "LPIPS": 0.11879874765872955
+    },
+    {
+      "id": "VG/2350999_bus",
+      "status": "success",
+      "LPIPS": 0.06565707176923752
+    },
+    {
+      "id": "VG/2351026_toilet",
+      "status": "success",
+      "LPIPS": 0.3905528783798218
+    },
+    {
+      "id": "VG/2351033_fork",
+      "status": "success",
+      "LPIPS": 0.25778982043266296
+    },
+    {
+      "id": "VG/2351049_tennisracket",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2351055_redsnowboard",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2351078_hamburger",
+      "status": "success",
+      "LPIPS": 0.3645557463169098
+    },
+    {
+      "id": "VG/2351083_dog",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2351083_cap",
+      "status": "success",
+      "LPIPS": 0.12738917768001556
+    },
+    {
+      "id": "VG/2351102_airplane",
+      "status": "success",
+      "LPIPS": 0.14870329201221466
+    },
+    {
+      "id": "VG/2351104_cat",
+      "status": "success",
+      "LPIPS": 0.12180367112159729
+    },
+    {
+      "id": "VG/2351123_motorcycle",
+      "status": "success",
+      "LPIPS": 0.3580854833126068
+    },
+    {
+      "id": "VG/2351127_zebra",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2351135_refrigerator",
+      "status": "success",
+      "LPIPS": 0.3101329207420349
+    },
+    {
+      "id": "VG/2351138_knife",
+      "status": "success",
+      "LPIPS": 0.19213663041591644
+    },
+    {
+      "id": "VG/2351142_horse",
+      "status": "success",
+      "LPIPS": 0.19202743470668793
+    },
+    {
+      "id": "VG/2351168_umbrella",
+      "status": "success",
+      "LPIPS": 0.16104768216609955
+    },
+    {
+      "id": "VG/2351175_bluecup",
+      "status": "success",
+      "LPIPS": 0.3405084013938904
+    },
+    {
+      "id": "VG/2351186_orangeplate",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2351194_surfboard",
+      "status": "success",
+      "LPIPS": 0.08895839750766754
+    },
+    {
+      "id": "VG/2351201_cow",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2351233_grandpiano",
+      "status": "success",
+      "LPIPS": 0.14684690535068512
+    },
+    {
+      "id": "VG/2351235_cat",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2351237_firehydrant",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2351240_tennisracket",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2351241_pizza",
+      "status": "success",
+      "LPIPS": 0.5835728645324707
+    },
+    {
+      "id": "VG/2351260_horse",
+      "status": "success",
+      "LPIPS": 0.5516023635864258
+    },
+    {
+      "id": "VG/2351280_snowboard",
+      "status": "success",
+      "LPIPS": 0.09094875305891037
+    },
+    {
+      "id": "VG/2351296_scissors",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2351300_bench",
+      "status": "success",
+      "LPIPS": 0.4401954412460327
+    },
+    {
+      "id": "VG/2351323_umbrella",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2351354_fork",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2351375_keyboard",
+      "status": "success",
+      "LPIPS": 0.4161359369754791
+    },
+    {
+      "id": "VG/2351377_stopsign",
+      "status": "success",
+      "LPIPS": 0.5621439218521118
+    },
+    {
+      "id": "VG/2351379_cat",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2351387_cat",
+      "status": "success",
+      "LPIPS": 0.076999731361866
+    },
+    {
+      "id": "VG/2351402_stopsign",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2351427_bicycle",
+      "status": "success",
+      "LPIPS": 0.43728676438331604
+    },
+    {
+      "id": "VG/2351448_cokedrink",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2351487_sheep",
+      "status": "success",
+      "LPIPS": 0.4684765338897705
+    },
+    {
+      "id": "VG/2351507_zebra",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2351558_tennisracket",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2351572_tennisracket",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2351583_zebra",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2351594_airplane",
+      "status": "success",
+      "LPIPS": 0.20082822442054749
+    },
+    {
+      "id": "VG/2351600_toilet",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2351609_laptop",
+      "status": "success",
+      "LPIPS": 0.23110733926296234
+    },
+    {
+      "id": "VG/2351613_phone",
+      "status": "success",
+      "LPIPS": 0.18840627372264862
+    },
+    {
+      "id": "VG/2351620_refrigerator",
+      "status": "success",
+      "LPIPS": 0.4621933102607727
+    },
+    {
+      "id": "VG/2351653_horse",
+      "status": "success",
+      "LPIPS": 0.5600324869155884
+    },
+    {
+      "id": "VG/2351657_dog",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2351684_clock",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2351718_elephant",
+      "status": "success",
+      "LPIPS": 0.38694989681243896
+    },
+    {
+      "id": "VG/2351723_duck",
+      "status": "success",
+      "LPIPS": 0.4411941468715668
+    },
+    {
+      "id": "VG/2351763_cup",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2351766_panda",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2351769_fork",
+      "status": "success",
+      "LPIPS": 0.13061323761940002
+    },
+    {
+      "id": "VG/2351791_boat",
+      "status": "success",
+      "LPIPS": 0.15496768057346344
+    },
+    {
+      "id": "VG/2351801_bench",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2351815_dog",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2351826_toothbrush",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2351834_keyboard",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2351866_banana",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2351894_pizza",
+      "status": "success",
+      "LPIPS": 0.31078964471817017
+    },
+    {
+      "id": "VG/2351903_bear",
+      "status": "success",
+      "LPIPS": 0.5391928553581238
+    },
+    {
+      "id": "VG/2351918_sofa",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2351923_bus",
+      "status": "success",
+      "LPIPS": 0.07388271391391754
+    },
+    {
+      "id": "VG/2351929_panda",
+      "status": "success",
+      "LPIPS": 0.33892208337783813
+    },
+    {
+      "id": "VG/2351931_refrigerator",
+      "status": "success",
+      "LPIPS": 0.41558778285980225
+    },
+    {
+      "id": "VG/2351950_bowl",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2351962_umbrella",
+      "status": "success",
+      "LPIPS": 0.13443326950073242
+    },
+    {
+      "id": "VG/2351968_handbag",
+      "status": "success",
+      "LPIPS": 0.18180255591869354
+    },
+    {
+      "id": "VG/2352009_bicycle",
+      "status": "success",
+      "LPIPS": 0.1552431881427765
+    },
+    {
+      "id": "VG/2352022_giraffe",
+      "status": "success",
+      "LPIPS": 0.3578737676143646
+    },
+    {
+      "id": "VG/2352065_TVremotecontrol",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2352070_bed",
+      "status": "success",
+      "LPIPS": 0.45258790254592896
+    },
+    {
+      "id": "VG/2352072_bench",
+      "status": "success",
+      "LPIPS": 0.10202391445636749
+    },
+    {
+      "id": "VG/2352099_zebra",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2352101_teddybeartoy",
+      "status": "success",
+      "LPIPS": 0.4314875602722168
+    },
+    {
+      "id": "VG/2352103_surfboard",
+      "status": "success",
+      "LPIPS": 0.07178220897912979
+    },
+    {
+      "id": "VG/2352107_giraffe",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2352108_baseballbat",
+      "status": "success",
+      "LPIPS": 0.19295509159564972
+    },
+    {
+      "id": "VG/2352119_dog",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2352148_bench",
+      "status": "success",
+      "LPIPS": 0.38002169132232666
+    },
+    {
+      "id": "VG/2352149_giraffe",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2352156_fork",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2352180_elephant",
+      "status": "success",
+      "LPIPS": 0.09370371699333191
+    },
+    {
+      "id": "VG/2352236_horse",
+      "status": "success",
+      "LPIPS": 0.11919139325618744
+    },
+    {
+      "id": "VG/2352246_sheep",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2352247_horse",
+      "status": "success",
+      "LPIPS": 0.30506590008735657
+    },
+    {
+      "id": "VG/2352254_keyboard",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2352256_spoon",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2352323_bull",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2352352_laptop",
+      "status": "success",
+      "LPIPS": 0.5528032779693604
+    },
+    {
+      "id": "VG/2352352_cup",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2352388_hairdryer",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2352445_tennisracket",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2352449_car",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2352457_mouse",
+      "status": "success",
+      "LPIPS": 0.44376900792121887
+    },
+    {
+      "id": "VG/2352475_umbrella",
+      "status": "success",
+      "LPIPS": 0.08565564453601837
+    },
+    {
+      "id": "VG/2352476_airplane",
+      "status": "success",
+      "LPIPS": 0.18780642747879028
+    },
+    {
+      "id": "VG/2352487_motorcycle",
+      "status": "success",
+      "LPIPS": 0.30184343457221985
+    },
+    {
+      "id": "VG/2352491_giraffe",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2352500_bear",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2352506_cat",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2352542_bird",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2352547_dog",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2352550_elephant",
+      "status": "success",
+      "LPIPS": 0.2570115327835083
+    },
+    {
+      "id": "VG/2352573_surfboard",
+      "status": "success",
+      "LPIPS": 0.08607356250286102
+    },
+    {
+      "id": "VG/2352594_bench",
+      "status": "success",
+      "LPIPS": 0.29408133029937744
+    },
+    {
+      "id": "VG/2352623_tennisracket",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2352626_fan",
+      "status": "success",
+      "LPIPS": 0.27061963081359863
+    },
+    {
+      "id": "VG/2352631_sink",
+      "status": "success",
+      "LPIPS": 0.2574816346168518
+    },
+    {
+      "id": "VG/2352634_cat",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2352634_car",
+      "status": "success",
+      "LPIPS": 0.22485482692718506
+    },
+    {
+      "id": "VG/2352661_airplane",
+      "status": "success",
+      "LPIPS": 0.1249837651848793
+    },
+    {
+      "id": "VG/2352666_bear",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2352710_chocolatedoughnut",
+      "status": "success",
+      "LPIPS": 0.2699192464351654
+    },
+    {
+      "id": "VG/2352716_fork",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2352721_bus",
+      "status": "success",
+      "LPIPS": 0.27388590574264526
+    },
+    {
+      "id": "VG/2352731_cat",
+      "status": "success",
+      "LPIPS": 0.47700971364974976
+    },
+    {
+      "id": "VG/2352737_rabbit",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2352739_cat",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2352740_tennisracket",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2352742_skateboard",
+      "status": "success",
+      "LPIPS": 0.05778961628675461
+    },
+    {
+      "id": "VG/2352743_laptop",
+      "status": "success",
+      "LPIPS": 0.051930077373981476
+    },
+    {
+      "id": "VG/2352743_dog",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2352757_surfboard",
+      "status": "success",
+      "LPIPS": 0.26522088050842285
+    },
+    {
+      "id": "VG/2352777_elephant",
+      "status": "success",
+      "LPIPS": 0.4813247621059418
+    },
+    {
+      "id": "VG/2352782_dog",
+      "status": "success",
+      "LPIPS": 0.48005226254463196
+    },
+    {
+      "id": "VG/2352799_bear",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2352802_bear",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2352807_car",
+      "status": "success",
+      "LPIPS": 0.19189855456352234
+    },
+    {
+      "id": "VG/2352813_bear",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2352844_drinkcup",
+      "status": "success",
+      "LPIPS": 0.12620127201080322
+    },
+    {
+      "id": "VG/2352854_toilet",
+      "status": "success",
+      "LPIPS": 0.3903065621852875
+    },
+    {
+      "id": "VG/2352863_train",
+      "status": "success",
+      "LPIPS": 0.38599422574043274
+    },
+    {
+      "id": "VG/2352864_building",
+      "status": "success",
+      "LPIPS": 0.5322230458259583
+    },
+    {
+      "id": "VG/2352896_firehydrant",
+      "status": "success",
+      "LPIPS": 0.41789910197257996
+    },
+    {
+      "id": "VG/2352909_bicycle",
+      "status": "success",
+      "LPIPS": 0.40030884742736816
+    },
+    {
+      "id": "VG/2352914_elephant",
+      "status": "success",
+      "LPIPS": 0.14276061952114105
+    },
+    {
+      "id": "VG/2352928_giraffe",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2352939_airplane",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2352952_airplane",
+      "status": "success",
+      "LPIPS": 0.14439545571804047
+    },
+    {
+      "id": "VG/2352953_bicycle",
+      "status": "success",
+      "LPIPS": 0.1560417264699936
+    },
+    {
+      "id": "VG/2352963_bear",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2352992_toilet",
+      "status": "success",
+      "LPIPS": 0.35461336374282837
+    },
+    {
+      "id": "VG/2353014_giraffe",
+      "status": "success",
+      "LPIPS": 0.3054465651512146
+    },
+    {
+      "id": "VG/2353017_microwave",
+      "status": "success",
+      "LPIPS": 0.28069180250167847
+    },
+    {
+      "id": "VG/2353034_dog",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2353043_TV",
+      "status": "success",
+      "LPIPS": 0.43506696820259094
+    },
+    {
+      "id": "VG/2353053_oven",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2353062_dog",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2353068_bathtub",
+      "status": "success",
+      "LPIPS": 0.47597596049308777
+    },
+    {
+      "id": "VG/2353075_truck",
+      "status": "success",
+      "LPIPS": 0.1615654081106186
+    },
+    {
+      "id": "VG/2353075_bluecar",
+      "status": "success",
+      "LPIPS": 0.242646723985672
+    },
+    {
+      "id": "VG/2353081_toilet",
+      "status": "success",
+      "LPIPS": 0.3406635820865631
+    },
+    {
+      "id": "VG/2353082_cake",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2353091_zebra",
+      "status": "success",
+      "LPIPS": 0.5766224265098572
+    },
+    {
+      "id": "VG/2353123_bus",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2353125_cat",
+      "status": "success",
+      "LPIPS": 0.1309770941734314
+    },
+    {
+      "id": "VG/2353141_giraffe",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2353169_giraffe",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2353210_tennisracket",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2353224_elephant",
+      "status": "success",
+      "LPIPS": 0.15933528542518616
+    },
+    {
+      "id": "VG/2353226_airplane",
+      "status": "success",
+      "LPIPS": 0.23237194120883942
+    },
+    {
+      "id": "VG/2353230_fork",
+      "status": "success",
+      "LPIPS": 0.16561685502529144
+    },
+    {
+      "id": "VG/2353235_refrigerator",
+      "status": "success",
+      "LPIPS": 0.1190321147441864
+    },
+    {
+      "id": "VG/2353258_fork",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2353262_bird",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2353280_cat",
+      "status": "success",
+      "LPIPS": 0.5170691013336182
+    },
+    {
+      "id": "VG/2353287_toothbrush",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2353302_giraffe",
+      "status": "success",
+      "LPIPS": 0.45468536019325256
+    },
+    {
+      "id": "VG/2353407_elephant",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2353408_horse",
+      "status": "success",
+      "LPIPS": 0.08623091876506805
+    },
+    {
+      "id": "VG/2353414_motorcycle",
+      "status": "success",
+      "LPIPS": 0.09996426105499268
+    },
+    {
+      "id": "VG/2353417_tennisracket",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2353465_bench",
+      "status": "success",
+      "LPIPS": 0.44170719385147095
+    },
+    {
+      "id": "VG/2353468_dog",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2353470_banana",
+      "status": "success",
+      "LPIPS": 0.038104407489299774
+    },
+    {
+      "id": "VG/2353481_elephant",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2353535_firehydrant",
+      "status": "success",
+      "LPIPS": 0.5872123837471008
+    },
+    {
+      "id": "VG/2353557_stopsign",
+      "status": "success",
+      "LPIPS": 0.2971130311489105
+    },
+    {
+      "id": "VG/2353558_dog",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2353562_stopsign",
+      "status": "success",
+      "LPIPS": 0.170998215675354
+    },
+    {
+      "id": "VG/2353577_remotecontrol",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2353581_dog",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2353596_tennisracket",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2353604_knife",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2353654_sheep",
+      "status": "success",
+      "LPIPS": 0.09922231733798981
+    },
+    {
+      "id": "VG/2353658_motorcycle",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2353680_umbrella",
+      "status": "success",
+      "LPIPS": 0.1730072796344757
+    },
+    {
+      "id": "VG/2353714_bear",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2353722_cat",
+      "status": "success",
+      "LPIPS": 0.11243743449449539
+    },
+    {
+      "id": "VG/2353729_horse",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2353732_keyboard",
+      "status": "success",
+      "LPIPS": 0.28060516715049744
+    },
+    {
+      "id": "VG/2353732_mouse",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2353732_earphone",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2353732_monitor",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2353756_car",
+      "status": "success",
+      "LPIPS": 0.561713457107544
+    },
+    {
+      "id": "VG/2353793_bear",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2353796_microwave",
+      "status": "success",
+      "LPIPS": 0.32079213857650757
+    },
+    {
+      "id": "VG/2353819_airplane",
+      "status": "success",
+      "LPIPS": 0.1645306944847107
+    },
+    {
+      "id": "VG/2353827_motorcycle",
+      "status": "success",
+      "LPIPS": 0.48114532232284546
+    },
+    {
+      "id": "VG/2353835_foodtruck",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2353859_horse",
+      "status": "success",
+      "LPIPS": 0.1332687884569168
+    },
+    {
+      "id": "VG/2353868_horse",
+      "status": "success",
+      "LPIPS": 0.0908740907907486
+    },
+    {
+      "id": "VG/2353874_elephant",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2353879_laptop",
+      "status": "success",
+      "LPIPS": 0.6806585192680359
+    },
+    {
+      "id": "VG/2353901_scissors",
+      "status": "success",
+      "LPIPS": 0.5329298377037048
+    },
+    {
+      "id": "VG/2353908_greenbus",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2353929_toilet",
+      "status": "success",
+      "LPIPS": 0.3602135479450226
+    },
+    {
+      "id": "VG/2353929_bathtub",
+      "status": "success",
+      "LPIPS": 0.4884689450263977
+    },
+    {
+      "id": "VG/2353937_bench",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2353944_elephant",
+      "status": "success",
+      "LPIPS": 0.5964509844779968
+    },
+    {
+      "id": "VG/2353945_giraffe",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2353946_teddydogtoy",
+      "status": "success",
+      "LPIPS": 0.4648688733577728
+    },
+    {
+      "id": "VG/2353948_skateboard",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2353963_airplane",
+      "status": "success",
+      "LPIPS": 0.21881146728992462
+    },
+    {
+      "id": "VG/2353972_bear",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2353975_motorcycle",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2353988_laptop",
+      "status": "success",
+      "LPIPS": 0.17242121696472168
+    },
+    {
+      "id": "VG/2353988_backpack",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2354014_bus",
+      "status": "success",
+      "LPIPS": 0.21480624377727509
+    },
+    {
+      "id": "VG/2354039_zebra",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2354040_giraffe",
+      "status": "ambiguous_target",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2354044_baseballbat",
+      "status": "success",
+      "LPIPS": 0.06355524063110352
+    },
+    {
+      "id": "VG/2354051_yellowplate",
+      "status": "no_completion",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2354060_can",
+      "status": "not_detected",
+      "LPIPS": 1.0
+    },
+    {
+      "id": "VG/2354069_tram",
+      "status": "success",
+      "LPIPS": 0.11243435740470886
+    }
+  ]
+}

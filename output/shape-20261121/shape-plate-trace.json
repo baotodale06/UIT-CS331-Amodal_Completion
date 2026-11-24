@@ -1,0 +1,575 @@
+{
+  "target": "COCOA/COCO_train2014_000000060172_plate",
+  "hidden_pixels": 222997,
+  "record_sha256": "0aaae8bd3f654af0989cde9a72cdaf35dcf7f9cdeebd05e4c194d0310287a744",
+  "manifest_sha256": "f0e0bc47f7f4fdf9fb0cb8f6388826e16c06b6a670fd40a95402e6d091e57a9c",
+  "annotation_sha256": "d2e54eb6b9d37f1726dfa63a3bc8a58fcacd6b5fde1e0a18b4ff636528040e2f",
+  "script_sha256": "0fff877d198eb08511c51a193825042c2dbd0d6c66c083ffa15ed1eb5ea4a65f",
+  "figure_sha256": "350f3a2c6ae8407742038d663d0836ea11e3f19f1071cd2027bfa9d6e6c85683",
+  "passes": [
+    {
+      "iteration": 0,
+      "box_xyxy": [
+        -120,
+        -27,
+        759,
+        852
+      ],
+      "decision_sha256": "82ebc65ba7918453114184f24de986baf851ff7200df485d289bc6492581ab1f",
+      "selected": 6,
+      "highest_iou_index": 0,
+      "shape_scores": [
+        0.2405418245443274,
+        0.6007607099959963,
+        0.5265894587567951,
+        0.5284602440050484,
+        0.2820774177891033,
+        0.6101115918925074,
+        0.6436812630726672,
+        0.4850338922582947
+      ],
+      "candidates": [
+        {
+          "intersection": 163769,
+          "union": 269915,
+          "iou": 0.6067428634940629,
+          "hidden_covered": 124002,
+          "hidden_recall": 0.5560702610349019
+        },
+        {
+          "intersection": 46495,
+          "union": 269821,
+          "iou": 0.1723179441185082,
+          "hidden_covered": 8716,
+          "hidden_recall": 0.03908572761068534
+        },
+        {
+          "intersection": 47524,
+          "union": 269844,
+          "iou": 0.1761165710558693,
+          "hidden_covered": 9708,
+          "hidden_recall": 0.04353421794912039
+        },
+        {
+          "intersection": 51564,
+          "union": 269819,
+          "iou": 0.19110588950370433,
+          "hidden_covered": 16120,
+          "hidden_recall": 0.0722879679995695
+        },
+        {
+          "intersection": 15229,
+          "union": 270104,
+          "iou": 0.056381986197908955,
+          "hidden_covered": 493,
+          "hidden_recall": 0.0022107920734359657
+        },
+        {
+          "intersection": 43244,
+          "union": 269880,
+          "iou": 0.1602341781532533,
+          "hidden_covered": 4694,
+          "hidden_recall": 0.021049610532877124
+        },
+        {
+          "intersection": 43746,
+          "union": 269823,
+          "iou": 0.16212850646534951,
+          "hidden_covered": 6086,
+          "hidden_recall": 0.02729184697551985
+        },
+        {
+          "intersection": 78660,
+          "union": 269888,
+          "iou": 0.29145423286696703,
+          "hidden_covered": 39337,
+          "hidden_recall": 0.17640147625304375
+        }
+      ],
+      "prior": {
+        "intersection": 43814,
+        "union": 269970,
+        "iou": 0.16229210653035522,
+        "hidden_covered": 5247,
+        "hidden_recall": 0.02352946452194424
+      },
+      "available": {
+        "intersection": 49144,
+        "union": 284160,
+        "iou": 0.17294481981981982,
+        "hidden_covered": 9729,
+        "hidden_recall": 0.04362838961959129
+      }
+    },
+    {
+      "iteration": 1,
+      "box_xyxy": [
+        -120,
+        -27,
+        759,
+        852
+      ],
+      "decision_sha256": "5893303e48dce8a04291a9770d80e0c1aaa6fa946050d84d1ed60e97b3774bb1",
+      "selected": 1,
+      "highest_iou_index": 2,
+      "shape_scores": [
+        0.6326656123704094,
+        0.6386190107336506,
+        0.6317444955238326,
+        0.6332251467188333,
+        0.6361203865460737,
+        0.6346767050487157,
+        0.6321423054004547,
+        0.638388360380526
+      ],
+      "candidates": [
+        {
+          "intersection": 46662,
+          "union": 269828,
+          "iou": 0.17293238655736246,
+          "hidden_covered": 7864,
+          "hidden_recall": 0.035265048408722986
+        },
+        {
+          "intersection": 47148,
+          "union": 269822,
+          "iou": 0.1747374194839561,
+          "hidden_covered": 8148,
+          "hidden_recall": 0.03653860814271044
+        },
+        {
+          "intersection": 47192,
+          "union": 269823,
+          "iou": 0.17489984174810894,
+          "hidden_covered": 8588,
+          "hidden_recall": 0.03851172885733889
+        },
+        {
+          "intersection": 45052,
+          "union": 269828,
+          "iou": 0.1669656225447322,
+          "hidden_covered": 6620,
+          "hidden_recall": 0.029686498024637104
+        },
+        {
+          "intersection": 46014,
+          "union": 269825,
+          "iou": 0.17053275271008989,
+          "hidden_covered": 7669,
+          "hidden_recall": 0.03439059718292174
+        },
+        {
+          "intersection": 46251,
+          "union": 269824,
+          "iou": 0.171411735056926,
+          "hidden_covered": 7219,
+          "hidden_recall": 0.032372632815688106
+        },
+        {
+          "intersection": 46110,
+          "union": 269834,
+          "iou": 0.17088283907884105,
+          "hidden_covered": 7619,
+          "hidden_recall": 0.03416637891989578
+        },
+        {
+          "intersection": 45268,
+          "union": 269825,
+          "iou": 0.16776799777633652,
+          "hidden_covered": 7025,
+          "hidden_recall": 0.03150266595514738
+        }
+      ],
+      "prior": {
+        "intersection": 43814,
+        "union": 269970,
+        "iou": 0.16229210653035522,
+        "hidden_covered": 5247,
+        "hidden_recall": 0.02352946452194424
+      },
+      "available": {
+        "intersection": 49144,
+        "union": 284160,
+        "iou": 0.17294481981981982,
+        "hidden_covered": 9729,
+        "hidden_recall": 0.04362838961959129
+      }
+    },
+    {
+      "iteration": 2,
+      "box_xyxy": [
+        -120,
+        -27,
+        759,
+        852
+      ],
+      "decision_sha256": "c6d437c7a336d6468c3d4d21b42f9b4854558cf647eb503d01c9ffb6b678f2b1",
+      "selected": 3,
+      "highest_iou_index": 2,
+      "shape_scores": [
+        0.6289601682660707,
+        0.6155510335225447,
+        0.6217513941821157,
+        0.6310335724028688,
+        0.6251626051513312,
+        0.6170663668014619,
+        0.6265175579826814,
+        0.6166734865289772
+      ],
+      "candidates": [
+        {
+          "intersection": 47746,
+          "union": 269825,
+          "iou": 0.1769517279718336,
+          "hidden_covered": 8499,
+          "hidden_recall": 0.03811262034915268
+        },
+        {
+          "intersection": 48965,
+          "union": 269816,
+          "iou": 0.18147552406084147,
+          "hidden_covered": 10137,
+          "hidden_recall": 0.04545801064588313
+        },
+        {
+          "intersection": 49796,
+          "union": 269813,
+          "iou": 0.18455745275431504,
+          "hidden_covered": 10703,
+          "hidden_recall": 0.047996161383337
+        },
+        {
+          "intersection": 46906,
+          "union": 269821,
+          "iou": 0.17384117618717596,
+          "hidden_covered": 8102,
+          "hidden_recall": 0.036332327340726556
+        },
+        {
+          "intersection": 49040,
+          "union": 269819,
+          "iou": 0.18175147043017725,
+          "hidden_covered": 9896,
+          "hidden_recall": 0.044377278618098
+        },
+        {
+          "intersection": 47776,
+          "union": 269821,
+          "iou": 0.17706553604056022,
+          "hidden_covered": 8656,
+          "hidden_recall": 0.038816665695054195
+        },
+        {
+          "intersection": 48507,
+          "union": 269813,
+          "iou": 0.17978006990026427,
+          "hidden_covered": 9790,
+          "hidden_recall": 0.04390193590048297
+        },
+        {
+          "intersection": 48932,
+          "union": 269819,
+          "iou": 0.18135120210214997,
+          "hidden_covered": 9701,
+          "hidden_recall": 0.04350282739229676
+        }
+      ],
+      "prior": {
+        "intersection": 43814,
+        "union": 269970,
+        "iou": 0.16229210653035522,
+        "hidden_covered": 5247,
+        "hidden_recall": 0.02352946452194424
+      },
+      "available": {
+        "intersection": 49144,
+        "union": 284160,
+        "iou": 0.17294481981981982,
+        "hidden_covered": 9729,
+        "hidden_recall": 0.04362838961959129
+      }
+    },
+    {
+      "iteration": 3,
+      "box_xyxy": [
+        -120,
+        -27,
+        759,
+        852
+      ],
+      "decision_sha256": "f5224e4a5c691e4a2c5a6017888a36351829d417248b5ac802c85702863c7895",
+      "selected": 0,
+      "highest_iou_index": 2,
+      "shape_scores": [
+        0.6270083828152287,
+        0.6109794881646069,
+        0.6087702573879885,
+        0.6213240871166974,
+        0.6161603158256094,
+        0.6149539150658971,
+        0.613015960960641,
+        0.6191656251346809
+      ],
+      "candidates": [
+        {
+          "intersection": 49317,
+          "union": 269809,
+          "iou": 0.18278485891871657,
+          "hidden_covered": 10432,
+          "hidden_recall": 0.04678089839773629
+        },
+        {
+          "intersection": 49779,
+          "union": 269816,
+          "iou": 0.18449239481720878,
+          "hidden_covered": 10940,
+          "hidden_recall": 0.049058955950080044
+        },
+        {
+          "intersection": 51087,
+          "union": 269824,
+          "iou": 0.18933452917457305,
+          "hidden_covered": 12046,
+          "hidden_recall": 0.05401866392821428
+        },
+        {
+          "intersection": 48497,
+          "union": 269825,
+          "iou": 0.17973501343463355,
+          "hidden_covered": 9671,
+          "hidden_recall": 0.04336829643448118
+        },
+        {
+          "intersection": 48960,
+          "union": 269815,
+          "iou": 0.18145766543742936,
+          "hidden_covered": 10185,
+          "hidden_recall": 0.04567326017838805
+        },
+        {
+          "intersection": 49041,
+          "union": 269825,
+          "iou": 0.1817511349949041,
+          "hidden_covered": 9893,
+          "hidden_recall": 0.04436382552231644
+        },
+        {
+          "intersection": 50419,
+          "union": 269818,
+          "iou": 0.18686299653840738,
+          "hidden_covered": 11332,
+          "hidden_recall": 0.05081682713220357
+        },
+        {
+          "intersection": 48922,
+          "union": 269816,
+          "iou": 0.18131615619533312,
+          "hidden_covered": 9991,
+          "hidden_recall": 0.044803293317847326
+        }
+      ],
+      "prior": {
+        "intersection": 43814,
+        "union": 269970,
+        "iou": 0.16229210653035522,
+        "hidden_covered": 5247,
+        "hidden_recall": 0.02352946452194424
+      },
+      "available": {
+        "intersection": 49144,
+        "union": 284160,
+        "iou": 0.17294481981981982,
+        "hidden_covered": 9729,
+        "hidden_recall": 0.04362838961959129
+      }
+    },
+    {
+      "iteration": 4,
+      "box_xyxy": [
+        -120,
+        -27,
+        759,
+        852
+      ],
+      "decision_sha256": "13cf66eb9a490fc47aa3a0f42d189478e6e9e3114ef8bb8763c512f069173a1e",
+      "selected": 3,
+      "highest_iou_index": 7,
+      "shape_scores": [
+        0.5951498332884627,
+        0.5667060444969482,
+        0.5900869493888935,
+        0.6066328686100549,
+        0.591347143857337,
+        0.5913336899716061,
+        0.5753778918247063,
+        0.5696157354165841
+      ],
+      "candidates": [
+        {
+          "intersection": 55564,
+          "union": 269809,
+          "iou": 0.2059382748536928,
+          "hidden_covered": 16635,
+          "hidden_recall": 0.0745974161087369
+        },
+        {
+          "intersection": 56620,
+          "union": 269820,
+          "iou": 0.20984359943666148,
+          "hidden_covered": 17645,
+          "hidden_recall": 0.07912662502186128
+        },
+        {
+          "intersection": 55905,
+          "union": 269811,
+          "iou": 0.20720059597273646,
+          "hidden_covered": 16772,
+          "hidden_recall": 0.07521177414942802
+        },
+        {
+          "intersection": 52856,
+          "union": 269810,
+          "iou": 0.19590081909491866,
+          "hidden_covered": 13953,
+          "hidden_recall": 0.0625703484800244
+        },
+        {
+          "intersection": 56755,
+          "union": 269808,
+          "iou": 0.21035328826424718,
+          "hidden_covered": 17826,
+          "hidden_recall": 0.07993829513401525
+        },
+        {
+          "intersection": 55265,
+          "union": 269808,
+          "iou": 0.20483084267330842,
+          "hidden_covered": 16287,
+          "hidden_recall": 0.0730368569980762
+        },
+        {
+          "intersection": 56100,
+          "union": 269812,
+          "iou": 0.20792255348168354,
+          "hidden_covered": 17214,
+          "hidden_recall": 0.0771938635945775
+        },
+        {
+          "intersection": 58064,
+          "union": 269810,
+          "iou": 0.215203291204922,
+          "hidden_covered": 19193,
+          "hidden_recall": 0.086068422445145
+        }
+      ],
+      "prior": {
+        "intersection": 43814,
+        "union": 269970,
+        "iou": 0.16229210653035522,
+        "hidden_covered": 5247,
+        "hidden_recall": 0.02352946452194424
+      },
+      "available": {
+        "intersection": 49144,
+        "union": 284160,
+        "iou": 0.17294481981981982,
+        "hidden_covered": 9729,
+        "hidden_recall": 0.04362838961959129
+      }
+    },
+    {
+      "iteration": 5,
+      "box_xyxy": [
+        -120,
+        -27,
+        759,
+        852
+      ],
+      "decision_sha256": "9f976159c622176712549bf0a7a4b6a191b17e145816d8a6bb4d16e7475357c8",
+      "selected": 4,
+      "highest_iou_index": 0,
+      "shape_scores": [
+        0.5830644670359774,
+        0.5766868703086742,
+        0.5701961406501002,
+        0.5788422751109318,
+        0.5869323790720632,
+        0.5779191919191919,
+        0.5654207467558315,
+        0.5795086611623765
+      ],
+      "candidates": [
+        {
+          "intersection": 58877,
+          "union": 269812,
+          "iou": 0.21821490519324566,
+          "hidden_covered": 19858,
+          "hidden_recall": 0.08905052534339027
+        },
+        {
+          "intersection": 58504,
+          "union": 269812,
+          "iou": 0.2168324611210769,
+          "hidden_covered": 19516,
+          "hidden_recall": 0.08751687242429271
+        },
+        {
+          "intersection": 58349,
+          "union": 269817,
+          "iou": 0.2162539795491018,
+          "hidden_covered": 19023,
+          "hidden_recall": 0.08530608035085674
+        },
+        {
+          "intersection": 56915,
+          "union": 269807,
+          "iou": 0.21094708439736554,
+          "hidden_covered": 17856,
+          "hidden_recall": 0.08007282609183083
+        },
+        {
+          "intersection": 57390,
+          "union": 269808,
+          "iou": 0.212706813734211,
+          "hidden_covered": 18414,
+          "hidden_recall": 0.08257510190720055
+        },
+        {
+          "intersection": 57615,
+          "union": 269808,
+          "iou": 0.21354074008183596,
+          "hidden_covered": 18434,
+          "hidden_recall": 0.08266478921241092
+        },
+        {
+          "intersection": 57032,
+          "union": 269813,
+          "iou": 0.2113760271002509,
+          "hidden_covered": 18045,
+          "hidden_recall": 0.08092037112606897
+        },
+        {
+          "intersection": 56327,
+          "union": 269813,
+          "iou": 0.2087631062995482,
+          "hidden_covered": 17296,
+          "hidden_recall": 0.07756158154594008
+        }
+      ],
+      "prior": {
+        "intersection": 43814,
+        "union": 269970,
+        "iou": 0.16229210653035522,
+        "hidden_covered": 5247,
+        "hidden_recall": 0.02352946452194424
+      },
+      "available": {
+        "intersection": 49144,
+        "union": 284160,
+        "iou": 0.17294481981981982,
+        "hidden_covered": 9729,
+        "hidden_recall": 0.04362838961959129
+      }
+    }
+  ]
+}

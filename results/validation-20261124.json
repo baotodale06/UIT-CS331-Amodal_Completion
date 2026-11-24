@@ -1,0 +1,37 @@
+{
+  "at": "2026-11-24T16:31:13.767634+00:00",
+  "environment": "Linux/WSL, Python 3.12.12, requirements/build.lock and requirements/cpu.lock",
+  "source_base_commit": "3ec585c6eed9ec5d57d41e668f9779b7cb06a99b",
+  "python_tests": 485,
+  "optional_skips": 20,
+  "python_elapsed_seconds": 116.317,
+  "bash_regressions": 6,
+  "check_script_exit_code": 0,
+  "synthetic_cpu_smoke": "passed",
+  "configuration_contracts": [
+    "baseline",
+    "annotated",
+    "lisa-reference",
+    "smoke"
+  ],
+  "submission_plan": "passed",
+  "source_and_wheel_build": "passed",
+  "results_files": 409,
+  "results_bytes": 94392112,
+  "manifest_sha256": "58e1cf92d53976c1e0424431ffb1d412e824688d02cd01eecda590a0bb9f2e4a",
+  "working_and_staged_evidence_sha256": "all match original files",
+  "verifier_negative_checks": [
+    "corruption rejected",
+    "missing evidence rejected"
+  ],
+  "source_copy_files_compared": 423,
+  "unexpected_source_copy_changes": 0,
+  "credential_pattern_scan": "passed",
+  "staged_whitespace_check": "passed",
+  "initial_check": "One imported timeout test depended on the external dataset. It now reads the existing pinned tests/fixtures annotations; inference and result evidence are unchanged.",
+  "gpu_revalidation_performed": false,
+  "cluster_jobs_submitted_or_changed": false,
+  "full_v2_benchmark_complete": false,
+  "four_metric_goal_achieved": false,
+  "check_log_sha256": "eb8e214253d5375c2308bc50dee200c54681296a8bd9591381ed2ce7af3dafad"
+}

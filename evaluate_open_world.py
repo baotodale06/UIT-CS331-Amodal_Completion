@@ -59,6 +59,13 @@ def parse_args(argv=None):
     p.add_argument("--max-iter", type=int, default=5, help="Released max_iter_id (inclusive, same as upstream)")
     p.add_argument("--sd-model", default=SD_MODEL)
     p.add_argument("--surface-freeze", type=Path, help="Opt-in frozen Surface-PMC progressive selector")
+    p.add_argument("--shape-checkpoint", type=Path, help="Opt-in Shape-Guided PMC prior; add --surface-freeze for joint selection")
+    p.add_argument("--shape-v2-checkpoint", type=Path,
+                   help="Opt-in shape-only v2 validated best.pt; incompatible with legacy Shape and all Surface options")
+    p.add_argument("--shape-constrained-checkpoint", type=Path,
+                   help="Isolated shape-only SAM adaptation best.pt with verified native admission package")
+    p.add_argument("--shape-calibrated-package", type=Path,
+                   help="Isolated shape-only probability correction with complete native GPU admission")
     p.add_argument("--surface-dreamsim-cache", type=Path, help="Pinned DreamSim cache for surface features")
     p.add_argument("--surface-development-review", action="store_true",
                    help="Permit a provisional surface policy only in a limited development smoke")
@@ -76,6 +83,28 @@ def parse_args(argv=None):
     p.add_argument("--worker-index", type=int, help=argparse.SUPPRESS)
     p.add_argument("--worker-count", type=int, default=1, help=argparse.SUPPRESS)
     args = p.parse_args(raw)
+    if args.shape_calibrated_package and (args.shape_constrained_checkpoint or args.shape_v2_checkpoint
+            or args.shape_checkpoint or args.surface_freeze or args.surface_dreamsim_cache
+            or args.surface_development_review):
+        p.error("Calibrated shape is shape-only; other Shape and Surface options are incompatible")
+    if args.shape_calibrated_package and (args.pipeline_profile != "released-sam" or args.config
+            or args.reuse_results_from):
+        p.error("Calibrated shape requires a dedicated released-sam experiment with fresh outputs")
+    if args.shape_constrained_checkpoint and (args.shape_v2_checkpoint or args.shape_checkpoint
+            or args.surface_freeze or args.surface_dreamsim_cache or args.surface_development_review):
+        p.error("Constrained shape is shape-only; other Shape and Surface options are incompatible")
+    if args.shape_constrained_checkpoint and (args.pipeline_profile != "released-sam" or args.config
+            or args.reuse_results_from):
+        p.error("Constrained shape requires a dedicated released-sam experiment with fresh outputs")
+    if args.shape_v2_checkpoint and (args.shape_checkpoint or args.surface_freeze
+                                     or args.surface_dreamsim_cache or args.surface_development_review):
+        p.error("Shape-v2 is shape-only; legacy Shape and Surface options are incompatible")
+    if args.shape_v2_checkpoint and (args.pipeline_profile != "released-sam" or args.config
+                                     or args.reuse_results_from):
+        p.error("Shape-v2 requires a dedicated released-sam experiment with fresh outputs")
+    if args.shape_checkpoint and (args.pipeline_profile != "released-sam" or args.config or
+                                  args.reuse_results_from or args.surface_development_review):
+        p.error("Shape-PMC requires a dedicated released-sam experiment")
     if args.surface_freeze:
         if not args.surface_dreamsim_cache or args.pipeline_profile != "released-sam":
             p.error("Surface-PMC requires --surface-dreamsim-cache and --pipeline-profile released-sam")
@@ -347,6 +376,14 @@ def worker_command(args):
                     "--surface-dreamsim-cache", str(args.surface_dreamsim_cache.resolve())]
         if args.surface_development_review:
             command.append("--surface-development-review")
+    if args.shape_checkpoint:
+        command += ["--shape-checkpoint", str(args.shape_checkpoint.resolve())]
+    if args.shape_v2_checkpoint:
+        command += ["--shape-v2-checkpoint", str(args.shape_v2_checkpoint.resolve())]
+    if args.shape_constrained_checkpoint:
+        command += ["--shape-constrained-checkpoint", str(args.shape_constrained_checkpoint.resolve())]
+    if args.shape_calibrated_package:
+        command += ["--shape-calibrated-package", str(args.shape_calibrated_package.resolve())]
     return command
 
 
@@ -354,6 +391,14 @@ def main(argv=None):
     args = parse_args(argv)
     args.dataset_root = args.dataset_root.resolve()
     args.output_dir = args.output_dir.resolve()
+    if args.shape_checkpoint:
+        args.shape_checkpoint = args.shape_checkpoint.resolve()
+    if args.shape_v2_checkpoint:
+        args.shape_v2_checkpoint = args.shape_v2_checkpoint.resolve()
+    if args.shape_constrained_checkpoint:
+        args.shape_constrained_checkpoint = args.shape_constrained_checkpoint.resolve()
+    if args.shape_calibrated_package:
+        args.shape_calibrated_package = args.shape_calibrated_package.resolve()
     if args.target_manifest:
         args.target_manifest = args.target_manifest.resolve()
     if args.surface_freeze:
@@ -371,6 +416,9 @@ def main(argv=None):
         saved_profile = saved_config.get("pipeline_profile", "benchmark")
         if args.pipeline_profile != saved_profile:
             raise ValueError("--score-only pipeline profile differs from the saved inference run")
+        validate_shape_v2_scoring(args, saved_config)
+        validate_shape_constrained_scoring(args, saved_config)
+        validate_shape_calibrated_scoring(args, saved_config)
         args.target_selection = saved_config["target_selection"]
         args.boundary_check = saved_config.get("boundary_check", "released")
         args.seed = saved_config["seed"]
@@ -404,6 +452,56 @@ def main(argv=None):
             resolved = effective_config(load_config(args.config), args)
         with execution_snapshot(output, args, rows, resolved):
             return evaluate(args, rows, counts, audit)
+
+
+def validate_shape_v2_scoring(args, saved_config):
+    """Scoring needs no checkpoint; if supplied, it must match the saved run."""
+    saved_policy = saved_config.get("shape_policy", {})
+    if saved_policy.get("method") == "shape-v2" and (
+            args.shape_checkpoint or args.surface_freeze or args.surface_dreamsim_cache
+            or getattr(args, "shape_constrained_checkpoint", None)
+            or getattr(args, "shape_calibrated_package", None)):
+        raise ValueError("Shape-v2 score-only cannot substitute a legacy or Surface selector")
+    if args.shape_v2_checkpoint:
+        from amodal_benchmark.shape_v2_runtime import training_receipt
+        receipt = training_receipt(args.shape_v2_checkpoint)
+        if (saved_policy.get("method") != "shape-v2"
+                or saved_policy.get("checkpoint_sha256") != receipt["best_sha256"]
+                or saved_policy.get("training_sha256") != sha256(args.shape_v2_checkpoint.with_name("training.json"))):
+            raise ValueError("Shape-v2 score-only checkpoint differs from the saved inference run")
+
+
+def validate_shape_constrained_scoring(args, saved_config):
+    """A saved run remains scoreable after its training package is moved away."""
+    saved_policy = saved_config.get("shape_policy", {})
+    if saved_policy.get("method") == "shape-sam-constrained" and (
+            args.shape_checkpoint or args.shape_v2_checkpoint or args.surface_freeze
+            or args.surface_dreamsim_cache or args.surface_development_review
+            or getattr(args, "shape_calibrated_package", None)):
+        raise ValueError("Constrained score-only cannot substitute another Shape or Surface selector")
+    if args.shape_constrained_checkpoint:
+        from amodal_benchmark.shape_constrained_runtime import training_receipt
+        checkpoint = args.shape_constrained_checkpoint
+        receipt = training_receipt(checkpoint)
+        if (saved_policy.get("method") != "shape-sam-constrained"
+                or saved_policy.get("checkpoint_sha256") != receipt["best_sha256"]
+                or saved_policy.get("training_sha256") != sha256(checkpoint.with_name("training.json"))
+                or saved_policy.get("admission_sha256") != sha256(checkpoint.with_name("admission.json"))):
+            raise ValueError("Constrained score-only checkpoint differs from the saved inference run")
+
+
+def validate_shape_calibrated_scoring(args, saved_config):
+    """Score saved outputs without weights; reject supplied cross-method substitutions."""
+    saved = saved_config.get("shape_policy", {})
+    if saved.get("method") == "shape-calibrated-probability" and (
+            args.shape_checkpoint or args.shape_v2_checkpoint or args.shape_constrained_checkpoint
+            or args.surface_freeze or args.surface_dreamsim_cache or args.surface_development_review):
+        raise ValueError("Calibrated score-only cannot substitute another selector")
+    if args.shape_calibrated_package:
+        from amodal_benchmark.shape_calibrated_runtime import shape_calibrated_contract
+        policy = shape_calibrated_contract(args.shape_calibrated_package)
+        if saved != policy:
+            raise ValueError("Calibrated score-only package differs from the saved inference run")
 
 
 def evaluate(args, rows, counts, audit):
@@ -452,6 +550,18 @@ def evaluate(args, rows, counts, audit):
             from amodal_benchmark.surface_runtime import surface_contract
             config['surface_policy'] = surface_contract(args.surface_freeze, args.surface_dreamsim_cache,
                                                         args.surface_development_review)
+        if args.shape_checkpoint:
+            from amodal_benchmark.shape_runtime import shape_contract
+            config['shape_policy'] = shape_contract(args.shape_checkpoint, config.pop('surface_policy', None))
+        if args.shape_v2_checkpoint:
+            from amodal_benchmark.shape_v2_runtime import shape_v2_contract
+            config['shape_policy'] = shape_v2_contract(args.shape_v2_checkpoint)
+        if args.shape_constrained_checkpoint:
+            from amodal_benchmark.shape_constrained_runtime import shape_constrained_contract
+            config['shape_policy'] = shape_constrained_contract(args.shape_constrained_checkpoint)
+        if args.shape_calibrated_package:
+            from amodal_benchmark.shape_calibrated_runtime import shape_calibrated_contract
+            config['shape_policy'] = shape_calibrated_contract(args.shape_calibrated_package)
         if args.worker_index is None:
             config["checkpoints"] = {str(p.relative_to(repo)): sha256(p) for p in checkpoints}
             if Path(args.sd_model).is_dir():
@@ -529,7 +639,23 @@ def evaluate(args, rows, counts, audit):
                     str(repo / "Grounded-Segment-Anything/GroundingDINO/groundingdino/config/GroundingDINO_SwinT_OGC.py"),
                     str(checkpoints[0]), str(checkpoints[2]), str(repo / "lama/big-lama/config.yaml"),
                     str(checkpoints[3]), args.mc_timestep)
-                if args.surface_freeze:
+                if args.shape_v2_checkpoint:
+                    from amodal_benchmark.shape_v2_runtime import install_shape_v2
+                    install_shape_v2(upstream, models, checkpoints[1], args.shape_v2_checkpoint)
+                if args.shape_constrained_checkpoint:
+                    from amodal_benchmark.shape_constrained_runtime import install_shape_constrained
+                    install_shape_constrained(upstream, models, checkpoints[1], args.shape_constrained_checkpoint)
+                elif args.shape_calibrated_package:
+                    from amodal_benchmark.shape_calibrated_runtime import install_shape_calibrated
+                    install_shape_calibrated(upstream, models, checkpoints[1], args.shape_calibrated_package)
+                elif args.shape_checkpoint:
+                    from amodal_benchmark.shape_runtime import install_shape
+                    from amodal_benchmark.surface_runtime import SurfaceRuntimeFeatures
+                    surface = config['shape_policy']['surface']
+                    features = SurfaceRuntimeFeatures(args.surface_dreamsim_cache) if surface else None
+                    install_shape(upstream, models, checkpoints[1], args.shape_checkpoint,
+                                  surface['frozen_method'] if surface else None, features)
+                elif args.surface_freeze:
                     from amodal_benchmark.surface_runtime import SurfaceRuntimeFeatures, install_progressive_surface
                     frozen = config['surface_policy']['frozen_method']
                     features = SurfaceRuntimeFeatures(args.surface_dreamsim_cache) if frozen.get('pretrained_visible_features') else None

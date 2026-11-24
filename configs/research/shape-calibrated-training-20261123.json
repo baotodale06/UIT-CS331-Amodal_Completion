@@ -1,0 +1,52 @@
+{
+  "experiment": "shape-calibrated-training-20261123",
+  "scope": "Isolated two-T4 shape-only training. No Surface, appearance loss, RGB correction or combined method.",
+  "seed": 20261126,
+  "training_platform": "Kaggle",
+  "initial_checkpoint_sha256": "3bb1a47ddd952824a960fb82867159c366c1c3e4a53a53bab1e06585adbd64a9",
+  "validation_diagnostic_result_sha256": "72024ef3c9f171209a74ced8e649fff7806c64c72e7315f37431772b8863b21a",
+  "training": {
+    "architecture": "resnet34_unet_5channel",
+    "initialization": "Robust epoch7 with fixed native logit offset -2; freeze its encoder/BatchNorm and train only its decoder.",
+    "world_size": 2,
+    "batch_size": 64,
+    "workers_per_rank": 2,
+    "size": 256,
+    "epochs": 20,
+    "learning_rate": 1e-05,
+    "weight_decay": 0.0001,
+    "precision": "FP16 optimizer with GradScaler; FP32 native validation uses calibrated prior deterministic cuDNN, TF32 disabled, bias after native interpolation.",
+    "selection": "Epoch zero is the calibrated parent, never a new model. Require full/hidden means >= max(training-GPU parent, recorded local parent); maximize hidden then full with stable ties. Quadro admission remains separate.",
+    "input_mix": "75% SAM support, 25% annotated support. Empty training SAM uses annotated branch, counted explicitly.",
+    "augmentation": "50% horizontal flip, 25% extra half-plane occlusion, visible-derived crop padding 1.5-3.0",
+    "loss": "Per-object unweighted BCE(logits - 2, true amodal labels) outside observed input support; support is restored at inference.",
+    "distributed_sampling": "DistributedSampler padding recorded; rank-zero BatchNorm buffers broadcast before native validation and checkpointing",
+    "probability_loss_version": 1
+  },
+  "inference_geometry": {
+    "crop": "Square SAM-support box, padding 2.0",
+    "input": "RGB restricted to SAM support, SAM mask and its complement",
+    "native_probability": "Resize logits to native crop before adding fixed -2 and sigmoid; zero outside crop; input SAM support set to one.",
+    "empty_mask": "Zero prediction",
+    "threshold": 0.5
+  },
+  "evaluation": {
+    "validation": "The existing 1264 objects / 217 images and recovered single-mask SAM diagnostic inputs",
+    "hidden_truth": "True amodal mask minus annotated visible mask, fixed across conditions",
+    "holdout_used": false,
+    "benchmark_used_for_training": false,
+    "status": "Exploratory validation-driven development; no untouched confirmation claim",
+    "success": "The active all-four full-benchmark >=3% goal remains unchanged and unachieved; validation gains alone cannot satisfy it",
+    "rationale": "Original-initialization proper BCE improves full masks but remains below hidden floor through observed epoch13. Start from the existing calibrated robust prior to test whether its hidden-shape representation survives proper-loss decoder adaptation.",
+    "benchmark_diagnostic_seen": "The completed nonrandom 193-target frozen-v2 VG prefix has been observed; this is iterative research. No image-quality score enters training, checkpoint selection, or its validation constraint.",
+    "platform_change": "Separate exploratory protocol: exact same-device pixel repeat is required; cross-device initial differences are recorded, not called equality. Native Quadro admission and full benchmark remain mandatory and unchanged.",
+    "previously_observed": "Prior validation/holdout/prefix metrics and both Boolean mask operations were already observed. This is iterative development, not untouched confirmation."
+  },
+  "parent_training_source_sha256": "0578c14a481346786a9a723020baf9c6ae74a9fa40c943d19abb4569b4be47aa",
+  "schema": 9,
+  "error_mode_result_sha256": "891c470d152d577970cc2c38a93af142a67c46df14e01d41ac6106824a12c42d",
+  "logit_bias": -2.0,
+  "parent_candidate_sha256": "4e65f4a3525db3b1e6f591c5e5bee0061f817d8d39ae1b4d15ba7929f5dc96cf",
+  "parent_training_sha256": "8ac898447852189c4baea96e523bf947620beaf22c49dc28e21527ecfdf056c6",
+  "parent_native_sha256": "558cc83e0d0951604040eac99931d12c9281887d16cebee862dbb9575e366fbe"
+}

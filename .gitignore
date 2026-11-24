@@ -38,3 +38,14 @@ ledger-snapshots/
 .venv*/
 *.pem
 *.key
+
+# Source-only preference viewer; study data and hosting credentials stay external.
+!sites/amodal-preference/dist/
+sites/amodal-preference/dist/*
+!sites/amodal-preference/dist/index.html
+!sites/amodal-preference/dist/style.css
+!sites/amodal-preference/dist/core.js
+!sites/amodal-preference/dist/app.js
+sites/amodal-preference/out/
+sites/amodal-preference/.openai/
+node_modules/

@@ -40,10 +40,10 @@ def environment_snapshot():
             "execution_environment": {key: os.environ[key] for key in allowed if key in os.environ}}
 
 
-def snapshot_source(destination):
+def snapshot_source(destination, extra_files=()):
     package = Path(__file__).resolve().parent
     root = package.parent
-    paths = [*package.glob("*.py"), *(root / name for name in SOURCE_FILES),
+    paths = [*package.glob("*.py"), *(root / name for name in (*SOURCE_FILES, *extra_files)),
              *(root / "configs").glob("*.json")]
     files = {}
     for path in sorted(paths):
@@ -81,7 +81,23 @@ def execution_snapshot(output, args, rows, resolved_config=None):
     identifier = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%S.%fZ") + "-" + uuid.uuid4().hex[:8]
     folder = output / "provenance" / identifier
     folder.mkdir(parents=True, exist_ok=False)
-    source = snapshot_source(folder / "source")
+    extra_files = ()
+    saved_run = output / "run_config.json"
+    saved_shape = (json.loads(saved_run.read_bytes()).get("shape_policy", {})
+                   if saved_run.is_file() else {})
+    if getattr(args, "shape_v2_checkpoint", None) or saved_shape.get("method") == "shape-v2":
+        extra_files = ("scripts/train_shape_v2.py", "configs/research/shape-v2-20261123.json",
+                       "scripts/train_shape_v2_slurm.py", "configs/research/shape-v2-slurm-20261123.json",
+                       "scripts/evaluate_shape_v2_geometry.py", "scripts/freeze_shape_v2.py",
+                       "scripts/audit_shape_v2.py", "scripts/prepare_shape_v2_evaluation.py",
+                       "scripts/run_shape_v2_evaluation.sh")
+    if getattr(args, "shape_constrained_checkpoint", None) or saved_shape.get("method") == "shape-sam-constrained":
+        from .shape_constrained_runtime import admission_sources
+        extra_files = tuple(admission_sources())
+    if getattr(args, "shape_calibrated_package", None) or saved_shape.get("method") == "shape-calibrated-probability":
+        from .shape_calibrated_runtime import admission_sources
+        extra_files = tuple(admission_sources())
+    source = snapshot_source(folder / "source", extra_files)
     write_json(folder / "source.json", source)
     write_json(folder / "environment.json", environment_snapshot())
     if resolved_config is not None:

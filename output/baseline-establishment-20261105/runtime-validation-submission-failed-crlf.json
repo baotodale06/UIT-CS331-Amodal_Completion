@@ -1,0 +1,7 @@
+{
+  "submitted_utc": "2026-11-05T09:49:52.055824+00:00",
+  "command": "cd ~/Vu_Hung/cv_nangcao && sbatch --parsable --partition=debug-gpu --job-name=pdmc-validate --gres=shard:1 --cpus-per-task=4 --mem=12G --time=00:20:00 --output=logs/%x-%j.out",
+  "returncode": 1,
+  "stdout": "",
+  "stderr": "sbatch: error: Batch script contains DOS line breaks (\\r\\n)\nsbatch: error: instead of expected UNIX line breaks (\\n).\n"
+}

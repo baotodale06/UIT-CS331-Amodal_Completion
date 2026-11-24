@@ -1,0 +1,14 @@
+{
+  "created_at": "2026-11-13T19:08:33.646473+00:00",
+  "phase": "full",
+  "metadata_only": true,
+  "members": 16197,
+  "bytes": 23959321,
+  "native_scope": "Final completion/mask, all references and all Surface-PMC pool PNGs; upstream debug rasters remain on server",
+  "archive_sha256": "55f01d52989e89941c1f04305f5074d66cca891c185c2ac61065b01578bfa851",
+  "manifest_sha256": "88dbcec5cd1d5d33bb3735eb190f44e762fdd3487df914041500eab984914358",
+  "completion_gate_sha256": "439ba34b6de4f81d79484d2df9df341cf9b8073ea7c0d520e436606c3a82f2a7",
+  "archive": "output/surface-annotated-20261112-design/surface-annotated-20261112-freshrefs-full-metadata-evidence.tar.gz",
+  "manifest": "output/surface-annotated-20261112-design/surface-annotated-20261112-freshrefs-full-metadata-manifest.json",
+  "source_sha256": "35745baafcc58d78b1e19aac532f4851ce3958275d4eca00599aa387bd4f90d8"
+}

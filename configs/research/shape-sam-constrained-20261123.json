@@ -1,0 +1,43 @@
+{
+  "experiment": "shape-sam-constrained-20261123",
+  "scope": "Isolated shape-only development. Preserve frozen v2 and its benchmark. No Surface ranker, appearance loss, RGB repair or combined method.",
+  "seed": 20261125,
+  "training_platform": "Slurm",
+  "initial_checkpoint_sha256": "f3caa75ac40f901a7595fffa2c199221b83e7fe5a57192f34e2b2317ffe937b7",
+  "validation_diagnostic_result_sha256": "72024ef3c9f171209a74ced8e649fff7806c64c72e7315f37431772b8863b21a",
+  "training": {
+    "architecture": "resnet34_unet_5channel",
+    "initialization": "Completed frozen v2 epoch 47; stem, encoder layers and all encoder BatchNorm buffers fixed; decoder only trained",
+    "world_size": 4,
+    "batch_size": 64,
+    "workers_per_rank": 4,
+    "size": 256,
+    "epochs": 20,
+    "learning_rate": 1e-05,
+    "weight_decay": 0.0001,
+    "precision": "FP16 training with GradScaler and deterministic cuDNN; FP32 native validation with cudnn.deterministic=False and cudnn.benchmark=False to match frozen SAM diagnostic exactly. Restore training flag after validation.",
+    "selection": "Include replayed initial checkpoint as epoch zero. Require native validation full IoU >= initial; among eligible epochs maximize hidden IoU, full IoU tie-break, stable first. If none improves, retain epoch zero and do not promote.",
+    "input_mix": "75% SAM support, 25% annotated support. Empty training SAM uses annotated branch, counted explicitly.",
+    "augmentation": "50% horizontal flip, 25% extra half-plane occlusion, visible-derived crop padding 1.5-3.0",
+    "loss": "BCE + full Dice + hidden Dice + 0.5 hidden positive BCE. True annotated visibility defines hidden supervision; input SAM does not define labels.",
+    "distributed_sampling": "DistributedSampler padding recorded; rank-zero BatchNorm buffers broadcast before native validation and checkpointing"
+  },
+  "inference_geometry": {
+    "crop": "Square SAM-support box, padding 2.0",
+    "input": "RGB restricted to SAM support, SAM mask and its complement",
+    "native_probability": "Resize logits to native crop before sigmoid; zero outside crop; input SAM support set to one. Same geometry policy as frozen v2.",
+    "empty_mask": "Zero prediction",
+    "threshold": 0.5
+  },
+  "evaluation": {
+    "validation": "The existing 1264 objects / 217 images and recovered single-mask SAM diagnostic inputs",
+    "hidden_truth": "True amodal mask minus annotated visible mask, fixed across conditions",
+    "holdout_used": false,
+    "benchmark_used_for_training": false,
+    "status": "Exploratory validation-driven development; no untouched confirmation claim",
+    "success": "The active all-four full-benchmark >=3% goal remains unchanged and unachieved; validation gains alone cannot satisfy it",
+    "rationale": "Previous all-parameter SAM fine-tune improved hidden IoU but degraded full IoU, even after SAM support restoration. Test lower-LR decoder-only adaptation with frozen encoder and an explicit full-IoU retention gate.",
+    "benchmark_diagnostic_seen": "The completed nonrandom 193-target frozen-v2 VG prefix has been observed; this is iterative research. No image-quality score enters training, checkpoint selection, or its validation constraint.",
+    "engineering_repair": "Initial preflight45671 stopped before optimization because deterministic cuDNN changed one thresholded pixel relative to frozen baseline. Diagnostic45676 reproduced zero differences with baseline cuDNN flags and a difference with deterministic=True across79 validation objects. Preserve exact initial-checkpoint replay; no tolerance relaxation."
+  }
+}

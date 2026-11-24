@@ -18,7 +18,8 @@ def main():
     p.add_argument('--metadata-only', action='store_true')
     a = p.parse_args()
     design = ROOT / 'output/surface-annotated-20261112-design'
-    study = ROOT / 'output/surface-annotated-20261112'
+    active = json.loads((design / 'active-study.json').read_text())
+    study = ROOT / active['study']
     if a.phase == 'cohort':
         folders = [study / name for name in ('baseline-cohort', 'surface-cohort', 'cohort-comparison')]
         gate = study / 'cohort-comparison/comparison.json'
@@ -30,7 +31,7 @@ def main():
         gate = study / 'full-comparison/comparison.json'
     if not gate.is_file():
         raise ValueError('Requested evidence is not complete')
-    tag = a.phase + ('-metadata' if a.metadata_only else '-native')
+    tag = study.name + '-' + a.phase + ('-metadata' if a.metadata_only else '-native')
     archive = design / (tag + '-evidence.tar.gz')
     receipt_path = design / (tag + '-receipt.json')
     manifest_path = design / (tag + '-manifest.json')

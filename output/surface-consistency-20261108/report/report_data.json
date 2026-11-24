@@ -1,0 +1,207 @@
+{
+  "conclusion": "The experiment does not establish a reliable full-surface improvement over equal-budget random selection.",
+  "overview": "Frozen pretrained PMC, four candidates per image, 24 development images and 159 held-out image identities: 72 pilot test plus 87 prespecified replication. All selectors share the same seeds and generated images. No diffusion model was trained.",
+  "cohort_results": [
+    "Pilot test, n=72: full-surface MAE 0.1685; gain over all-candidate uniform selection +0.00297, 95% CI [-0.00472, +0.01128].",
+    "Replication, n=87: full-surface MAE 0.1631; gain over all-candidate uniform selection +0.00542, 95% CI [+0.00004, +0.01119]."
+  ],
+  "local_result": "The fixed local-seam variant has pooled gain +0.0072 [+0.0022, +0.0123]. It is an exploratory ablation. The development-selected rule was Texture, so the local rule was not selected by development performance. Intervals are nominal and do not correct for comparisons across the ablation menu. Pilot test local-surface gain: +0.0111 [+0.0033, +0.0194]. Replication local-surface gain: +0.0040 [-0.0021, +0.0097].",
+  "posthoc_explanation": [
+    "Post-hoc exact decomposition: pooled total gain +0.0043 = filter contribution +0.0007 + appearance-ranking contribution +0.0036. Remaining regret relative to the best available candidate is 0.0267, comprising ranking regret 0.0266 and guard-exclusion regret 0.0001.",
+    "Full surface orders pairs of valid candidates correctly with mean per-image concordance 0.532 [0.493, 0.569], n=157. Score ties receive half credit; error ties are omitted. Chance ordering is 0.5. This explanatory statistic never changes selection.",
+    "Local surface orders pairs of valid candidates correctly with mean per-image concordance 0.516 [0.475, 0.556], n=157. Score ties receive half credit; error ties are omitted. Chance ordering is 0.5. This explanatory statistic never changes selection.",
+    "On identical evaluation-only support for the source truth and selected RGB, the selected reconstruction scores more compatible than the actual source in 51/159 cases. This shows that compatibility can prefer a reconstruction with pixel error even after removing the changing-mask confound. It does not identify the visual cause without inspection.",
+    "The exploratory paired local-seam gain over visible-pixel preservation is +0.0016 [-0.0050, +0.0085]. A benefit over random selection alone does not establish superiority to this simpler observable control.",
+    "Directly comparing local and full rules gives paired MAE gain +0.0029 [-0.0024, +0.0085]. The current data do not establish local superiority to full surface. A positive interval for one method and an interval crossing zero for another are not themselves a significant difference between methods."
+  ],
+  "reproducibility": [
+    "Pilot pinned-runtime replay: 384 candidate metrics, 1032 policy decisions and 1440 artifact checks; maximum raw-score difference 0. Preparation was replayed from original source pixels and SAM masks; transport hashes were independently checked.",
+    "Pilot numerical portability audit under NumPy 2.5.4, Pillow 12.3.0: changed decisions {'boundary_color': 1}. Largest raw-term difference 0.04718. Frozen decisions and original reported scores remain unchanged.",
+    "Replication pinned-runtime replay: 348 candidate metrics, 957 policy decisions and 1305 artifact checks; maximum raw-score difference 0. Preparation was replayed from original source pixels and SAM masks; transport hashes were independently checked.",
+    "Replication numerical portability audit under NumPy 2.5.4, Pillow 12.3.0: changed decisions none. Largest raw-term difference 0.03378. Frozen decisions and original reported scores remain unchanged.",
+    "Exact scorer replay used Python 3.10, NumPy 1.23.5 and Pillow 9.5.0. Do not loosen the replay tolerance or replace the frozen results after upgrading numerical packages. The portability audit changes one boundary-plus-color pilot decision; full and local decisions are unchanged in both cohorts. A CPU replay verifies saved generation artifacts; it does not guarantee regeneration on arbitrary hardware."
+  ],
+  "perceptual_cohorts": [
+    "Pilot test LPIPS gains, n=72: Full surface +0.0032 [-0.0139, +0.0207]; Local surface +0.0191 [+0.0036, +0.0355].",
+    "Replication LPIPS gains, n=87: Full surface +0.0137 [+0.0021, +0.0251]; Local surface +0.0184 [+0.0065, +0.0302]."
+  ],
+  "primary_result": "Pooled hidden RGB MAE: uniform selection 0.1699; full surface 0.1655. Paired gain +0.0043 (95% CI -0.0005 to +0.0091), equivalent to +1.10 intensity levels or +2.5% relative error reduction.",
+  "interpretation": "The primary result concerns recovery of artificially hidden, originally observed SAM-supported pixels. It does not prove correct reconstruction of naturally hidden surfaces, human preference, improved amodal shape or end-to-end progressive completion.",
+  "theory": [
+    "Surface consistency is a compatibility prior: visible color, texture and seam continuity may help choose between candidates when they share one material or pattern. It is not hidden ground truth.",
+    "Identifiability limit: identical visible evidence can correspond to different hidden materials or parts. Any observable-only selector can therefore fail on a legitimate hidden transition.",
+    "Constructed examples show that global means/histograms cannot resolve stripe phase; a local seam term can. Both variants prefer an incorrect uniform fill over a true unseen material change. These examples test mechanisms, not natural-image success rates."
+  ],
+  "design": [
+    "The pilot contains 96 image-disjoint cases, 24 per source. Six per source are development and 18 per source are test. Replication excludes all pilot identities and image bytes, with 24 VG, 24 COCOA, 24 free-images and 15 LAION cases. LAION eligibility was exhausted; the amendment was recorded before test errors were inspected.",
+    "Cached visible SAM support defines a square context crop at 512 pixels. A hash-selected half-plane hides approximately 35% of visible target pixels. RGB is removed after resizing. Hidden truth and support are kept in evaluation-only files; generation and scoring consume only observations.",
+    "The pinned Mixed Context sampler uses step 35 of 50 and explicit seeds 11,22,33,44. Grounding DINO plus SAM predict each candidate target mask. This is one shared completion step with known artificial occlusion; ordering, the progressive loop and released occluder dilation are outside this experiment.",
+    "Full surface combines original-visible anchored Lab boundary distance, Lab histogram Hellinger distance and masked gradient texture distance with weights .40/.25/.35. Local surface combines paired seam color and local texture. Positive development medians normalize terms; all settings are frozen before test analysis.",
+    "The separately reported development-selected rule is Texture. It was chosen on 24 development cases from the fixed menu including the fixed-seed control, then held unchanged for both test cohorts.",
+    "Primary MAE is evaluated on all held-out target-core pixels, independent of predicted mask size. Missing generations receive MAE 1. LPIPS masks both images outside that same core. Source-stratified paired bootstrap intervals use 5,000 resamples; ablations are exploratory."
+  ],
+  "cost": "Generated records: {'generated': 732}; 732 candidates. Median candidate time including generation, segmentation and scoring 14.54s; median scorer time 1.402s; summed candidate-processing time 2.96 GPU-worker hours, excluding initial model loading. Peak allocated VRAM 8.90 GiB. Four candidates require four sampling calls; a lower error than K=1 alone cannot isolate the scorer.",
+  "diagnostics": [
+    "Full surface has defined scores for 611/636 held-out candidates. All-invalid pools use the declared fixed-first fallback: laion-009-acb3bbb567 (pizza). Missing terms and rejected masks remain in the tables and their RGB errors remain in evaluation.",
+    "Available oracle gain is 0.0311; full-surface oracle regret is 0.0267. Selection gain equals available gain minus regret. The oracle uses hidden truth and is unavailable during inference.",
+    "Full surface improves on the pool mean in 84/159 cases, ties in 0, and loses in 75. It falls back to seed 11 in 1 pools. These counts include every test case.",
+    "Mean held-out mask recall is 0.731 for full surface versus 0.688 for uniform selection. Visible RGB MAE is 0.0313 versus 0.0315. These diagnostics do not certify full amodal geometry.",
+    "The simple visible-pixel-preservation control has hidden MAE 0.1643. It selects using known visible RGB only, under the same validity guards, and was declared before test errors. It is an additional diagnostic control, outside the frozen development selection menu.",
+    "Uniform selection restricted to exactly the candidates valid for full surface has MAE 0.1691. Full-surface gain beyond these guards alone is +0.0036 [-0.0011, +0.0082]. This separates the mask-validity filter from the appearance-ranking contribution.",
+    "The scatter removes between-image difficulty by centering errors and standardizing scores within candidate pools. Its correlation is descriptive. A low optimized compatibility loss alone is not evidence of better hidden reconstruction."
+  ],
+  "perceptual_text": "Masked spatial LPIPS provides a separate perceptual check on 159 complete pools: full-surface gain +0.0089, 95% CI [-0.0010, +0.0192]; local-surface gain +0.0187 [+0.0093, +0.0288]. Positive is better. This is not a human preference score. Both images are neutral outside the held-out core; spatial AlexNet v0.1 LPIPS is averaged on that core. Mask edges affect receptive fields.",
+  "historical_text": "The exploratory historical audit scores 1347/1390 outputs. For pre-existing assistant hidden-inconsistency labels, full-surface loss has descriptive AUC 0.522 on 1102 assessable scored cases. These are one-candidate historical outputs with assistant labels, not an independent human evaluation or a reranking test.",
+  "table": [
+    {
+      "method": "fixed_seed_11",
+      "mae": 0.16950126080385663,
+      "gain": 0.0003555911944250473,
+      "low": -0.004200830946169328,
+      "high": 0.004745255404960014,
+      "fallbacks": 0,
+      "wins": 90,
+      "losses": 69,
+      "ties": 0
+    },
+    {
+      "method": "uniform_random",
+      "mae": 0.16985685199828165,
+      "gain": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "fallbacks": 0,
+      "wins": 0,
+      "losses": 0,
+      "ties": 159
+    },
+    {
+      "method": "uniform_valid_surface",
+      "mae": 0.16912603905959178,
+      "gain": 0.0007308129386898881,
+      "low": -5.944415118394023e-06,
+      "high": 0.0016006694102288386,
+      "fallbacks": 0,
+      "wins": 13,
+      "losses": 6,
+      "ties": 140
+    },
+    {
+      "method": "visible_preservation",
+      "mae": 0.164304636310542,
+      "gain": 0.005552215687739674,
+      "low": 0.0004986291958193047,
+      "high": 0.010811746814202735,
+      "fallbacks": 1,
+      "wins": 94,
+      "losses": 65,
+      "ties": 0
+    },
+    {
+      "method": "boundary",
+      "mae": 0.16345536657453796,
+      "gain": 0.0064014854237437096,
+      "low": 0.0018813979097195256,
+      "high": 0.011055004076330768,
+      "fallbacks": 1,
+      "wins": 90,
+      "losses": 69,
+      "ties": 0
+    },
+    {
+      "method": "color",
+      "mae": 0.16259019203205335,
+      "gain": 0.007266659966228316,
+      "low": 0.002067258887616697,
+      "high": 0.012511465049161211,
+      "fallbacks": 1,
+      "wins": 96,
+      "losses": 63,
+      "ties": 0
+    },
+    {
+      "method": "texture",
+      "mae": 0.16656480201139878,
+      "gain": 0.0032920499868828966,
+      "low": -0.0014143814538524029,
+      "high": 0.008050495303891719,
+      "fallbacks": 1,
+      "wins": 88,
+      "losses": 71,
+      "ties": 0
+    },
+    {
+      "method": "boundary_color",
+      "mae": 0.1632774438257657,
+      "gain": 0.006579408172515984,
+      "low": 0.0016442948860901398,
+      "high": 0.011367681483009097,
+      "fallbacks": 1,
+      "wins": 90,
+      "losses": 69,
+      "ties": 0
+    },
+    {
+      "method": "boundary_texture",
+      "mae": 0.16405715509959484,
+      "gain": 0.005799696898686838,
+      "low": 0.0011854415951775893,
+      "high": 0.010466613665597594,
+      "fallbacks": 1,
+      "wins": 87,
+      "losses": 72,
+      "ties": 0
+    },
+    {
+      "method": "surface_full",
+      "mae": 0.16554660787429482,
+      "gain": 0.004310244123986858,
+      "low": -0.000512018445688576,
+      "high": 0.009074011894031404,
+      "fallbacks": 1,
+      "wins": 84,
+      "losses": 75,
+      "ties": 0
+    },
+    {
+      "method": "local_surface",
+      "mae": 0.16267033591540167,
+      "gain": 0.007186516082879979,
+      "low": 0.0021826751468691664,
+      "high": 0.012295668875614372,
+      "fallbacks": 1,
+      "wins": 89,
+      "losses": 70,
+      "ties": 0
+    },
+    {
+      "method": "development_selected",
+      "mae": 0.16656480201139878,
+      "gain": 0.0032920499868828966,
+      "low": -0.0014143814538524029,
+      "high": 0.008050495303891719,
+      "fallbacks": 1,
+      "wins": 88,
+      "losses": 71,
+      "ties": 0
+    },
+    {
+      "method": "oracle_hidden_mae",
+      "mae": 0.13879671251603065,
+      "gain": 0.03106013948225102,
+      "low": 0.027695670954617092,
+      "high": 0.03469030058917549,
+      "fallbacks": 0,
+      "wins": 159,
+      "losses": 0,
+      "ties": 0
+    }
+  ],
+  "limitations": [
+    "The experiment uses pseudo-occlusion of observed pixels. Original SAM masks can contain errors; the original target need not be fully visible. Crop construction uses pre-occlusion support. Real hidden appearance remains unobserved.",
+    "Pixel error penalizes plausible alternative geometry and pose. LPIPS is a supporting metric with an explicit masked protocol; no independent human preference ratings were collected. The historical census uses prior assistant judgments.",
+    "Candidate masks vary. Guards reject missing/tiny hidden regions and severe loss of visible support, but do not prevent every mask-based shortcut or semantic error. Error is therefore measured on fixed held-out support.",
+    "These results apply to a fixed four-seed menu and one sampling step. They do not establish a new full benchmark score, full progressive-loop behavior, a trained method or superiority to current research methods.",
+    "Preserve the frozen test sets. Any revised scorer should be tuned on development data and evaluated on a new independent cohort. The next useful question is whether local evidence and an explicit material-change uncertainty model improve generalization without selecting smaller or smoother objects."
+  ]
+}

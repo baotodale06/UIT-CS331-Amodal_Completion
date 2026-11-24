@@ -1,0 +1,20 @@
+{
+  "at": "2026-11-23T10:06:51.485325+00:00",
+  "job_id": "45636",
+  "command": "scontrol update JobId=45636 TimeLimit=02:30:00 TimeMin=01:30:00",
+  "previous_time_limit": "01:30:00",
+  "new_maximum_time_limit": "02:30:00",
+  "minimum_time_limit": "01:30:00",
+  "reason": "Use more time before verified maintenance, while permitting earlier backfill with a shorter allocation.",
+  "scientific_contract_changed": false,
+  "observation_command": [
+    "ssh",
+    "-o",
+    "BatchMode=yes",
+    "-o",
+    "ConnectTimeout=20",
+    "daoqm@slurm.csse.rose-hulman.edu",
+    "TZ=UTC scontrol show job 45636 -o; TZ=UTC scontrol show reservation"
+  ],
+  "observation": "JobId=45636 JobName=shape-v2-full UserId=daoqm(263710875) GroupId=domain users(263600513) MCS_label=N/A Priority=1 Nice=0 Account=(null) QOS=normal JobState=PENDING Reason=Dependency Dependency=afterok:45635(unfulfilled) Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0 RunTime=00:00:00 TimeLimit=02:30:00 TimeMin=01:30:00 SubmitTime=2026-11-23T09:52:19 EligibleTime=Unknown AccrueTime=Unknown StartTime=Unknown EndTime=Unknown Deadline=N/A SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-11-23T09:52:19 Scheduler=Main Partition=debug-gpu AllocNode:Sid=slurm.csse.rose-hulman.edu:3974794 ReqNodeList=(null) ExcNodeList=(null) NodeList= NumNodes=1-1 NumCPUs=16 NumTasks=1 CPUs/Task=16 ReqB:S:C:T=0:0:*:* ReqTRES=cpu=16,mem=96G,node=1,billing=16,gres/gpu=4 AllocTRES=(null) Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=* MinCPUsNode=16 MinMemoryNode=96G MinTmpDiskNode=0 Features=(null) DelayBoot=00:00:00 OverSubscribe=OK Contiguous=0 Licenses=(null) LicensesAlloc=(null) Network=(null) Command=/home/daoqm/Vu_Hung/cv_nangcao/output/shape-v2-slurm-20261123/evaluation-source/scripts/run_shape_v2_evaluation.sh WorkDir=/home/daoqm/Vu_Hung/cv_nangcao/output/shape-v2-slurm-20261123/evaluation-source StdErr=/home/daoqm/Vu_Hung/cv_nangcao/output/shape-v2-slurm-20261123/full-45636.log StdIn=/dev/null StdOut=/home/daoqm/Vu_Hung/cv_nangcao/output/shape-v2-slurm-20261123/full-45636.log KillOInInvalidDependent=Yes TresPerNode=gres/gpu:quadro_rtx_6000:4 TresPerTask=cpu=16 \nReservationName=root_1 StartTime=2026-11-23T13:00:00 EndTime=2026-11-25T13:00:00 Duration=2-00:00:00\n   Nodes=floyd,gauss,gebru,gus,hopper,noether NodeCnt=6 CoreCnt=644 Features=(null) PartitionName=(null) Flags=MAINT,IGNORE_JOBS,SPEC_NODES,ALL_NODES\n   TRES=cpu=1288\n   Users=root Groups=(null) Accounts=(null) Licenses=(null) State=INACTIVE BurstBuffer=(null)\n   MaxStartDelay=(null)\n\n"
+}

@@ -1,0 +1,222 @@
+{
+  "jobs": {
+    "44913": [
+      "COMPLETED",
+      "00:21:04",
+      "0:0"
+    ],
+    "44914": [
+      "COMPLETED",
+      "01:49:53",
+      "0:0"
+    ],
+    "44917": [
+      "COMPLETED",
+      "01:49:59",
+      "0:0"
+    ],
+    "44942": [
+      "COMPLETED",
+      "00:00:15",
+      "0:0"
+    ],
+    "44943": [
+      "COMPLETED",
+      "00:00:36",
+      "0:0"
+    ],
+    "44944": [
+      "COMPLETED",
+      "00:03:36",
+      "0:0"
+    ],
+    "44945": [
+      "COMPLETED",
+      "00:00:01",
+      "0:0"
+    ],
+    "44946": [
+      "TIMEOUT",
+      "1-00:00:18",
+      "0:0"
+    ],
+    "44947": [
+      "COMPLETED",
+      "00:11:54",
+      "0:0"
+    ],
+    "44948": [
+      "TIMEOUT",
+      "06:00:09",
+      "0:0"
+    ],
+    "44949": [
+      "PENDING",
+      "00:00:00",
+      "0:0"
+    ],
+    "44950": [
+      "PENDING",
+      "00:00:00",
+      "0:0"
+    ],
+    "44951": [
+      "COMPLETED",
+      "00:07:56",
+      "0:0"
+    ],
+    "45142": [
+      "COMPLETED",
+      "00:00:07",
+      "0:0"
+    ],
+    "45143": [
+      "COMPLETED",
+      "00:00:03",
+      "0:0"
+    ],
+    "45303": [
+      "COMPLETED",
+      "00:00:21",
+      "0:0"
+    ],
+    "45304": [
+      "PENDING",
+      "00:00:00",
+      "0:0"
+    ],
+    "45320": [
+      "PENDING",
+      "00:00:00",
+      "0:0"
+    ],
+    "45361": [
+      "COMPLETED",
+      "01:33:23",
+      "0:0"
+    ],
+    "45362": [
+      "COMPLETED",
+      "00:00:01",
+      "0:0"
+    ],
+    "45377": [
+      "TIMEOUT",
+      "04:00:15",
+      "0:0"
+    ],
+    "45378": [
+      "COMPLETED",
+      "00:00:05",
+      "0:0"
+    ],
+    "45653": [
+      "TIMEOUT",
+      "00:30:09",
+      "0:0"
+    ],
+    "45654": [
+      "COMPLETED",
+      "00:00:05",
+      "0:0"
+    ],
+    "45666": [
+      "PENDING",
+      "00:00:00",
+      "0:0"
+    ],
+    "45667": [
+      "PENDING",
+      "00:00:00",
+      "0:0"
+    ]
+  },
+  "current_job_ids": [
+    "44913",
+    "44914",
+    "44917",
+    "44942",
+    "44943",
+    "44944",
+    "44945",
+    "44947",
+    "44949",
+    "44950",
+    "44951",
+    "45303",
+    "45304",
+    "45320",
+    "45361",
+    "45362",
+    "45666",
+    "45667"
+  ],
+  "interval_job": "45320",
+  "export_jobs": [
+    "45303",
+    "45304"
+  ],
+  "export_jobs_by_arm": {
+    "shape": "45303",
+    "combined": "45304"
+  },
+  "recovering": [],
+  "hashes": {
+    "progressive-l40s/shape/metric_config.json": "6760f29d7e7868f4a24824623a89851504ff538874b360a05a7eb59b07e25875",
+    "progressive-l40s/combined-cohort/per_target.csv": "2cef97bcac237b30b0b1b94ff5a02c23d747d77b826d5dec15fe7f61755b8905",
+    "progressive-l40s/shape-full-verification.json": "35436f508beb3955b3967ca5fa69c75297c8bfa219d48bc808904394730d6ac0",
+    "progressive-l40s/baseline-cohort-verification.json": "cf008958a1d947d62875259bbdac9f8fb39aa0b56486ecb3ba9c9905c351da72",
+    "progressive-l40s/combined-refs-full-45377.json": "253a8c0bd98da26789e0f42235ac4005fd9df99197174d47576c4446f3a1dd45",
+    "progressive-l40s/shape/execution.json": "8443fd2592601dd9ad5d9f27dd68ebedf2897ce21db8c640720e3a8bccf2b35c",
+    "progressive-l40s/combined-cohort/summary.json": "4057e5d75d0f139b8025a9b2a96167b4b6db0fd94562c3d714854b72237f69e5",
+    "progressive-l40s/shape/per_target.csv": "76ce98cae033814d566e40d397bc4ee1c91b4a886648ce2cc269b1bff0c94b35",
+    "progressive-l40s/shape/summary.json": "320edcd4b51ecd613b54b403c08a284359701d469a6ac87cbb3b83cfbf50276a",
+    "progressive-l40s/combined-timeout-45653.json": "2e16eb5bad124d3ce0b67ce0e9f3be53a3d325feb2dccba97dea1f36fc3565b3",
+    "reference-drift-cohort.json": "8e41b85a06e856a8e8dacc91ee41ea05d12520f38d4da71db5177eabbc4c86cb",
+    "progressive-l40s/combined-cohort-verification.json": "63329e763f33d5c4379db02633f237f87aba6bf94161e581e85f129975912128",
+    "progressive-l40s/shape-refs-cohort.json": "e3316db155bf6b78e02d2feca067c8aea05dde4cfa1ba1a6a4e3d20676609028",
+    "progressive-l40s/combined-timeout-45377.json": "a4acdc71c2fc74836746e3b106206d3153190caa6478af4486c4b11fc4abc661",
+    "progressive-l40s/baseline-cohort/metric_config.json": "6760f29d7e7868f4a24824623a89851504ff538874b360a05a7eb59b07e25875",
+    "progressive-l40s/shape-cohort-verification.json": "bb1f7fb764e5ca41ef9d12deb0f54d59082b40de559c7bb66bd48a44c47b463d",
+    "progressive-l40s/combined-timeout-44948.json": "95e61d427eb390025f4e0718c96e4e0b66110476c7f375f6acb77f665c34ed3f",
+    "progressive-l40s/baseline-cohort/execution.json": "2d3f866143b09acfa3ee70ad7d9803d5034ec2f3dce3470c1ea5a4dfa6e92975",
+    "progressive-l40s/combined-cohort/execution.json": "5d5b48014c35efd36a4e68c11f0cc3f6a999e104c4cfe258dd165f5d77a79f4e",
+    "shape-full-pairs.json": "f536ada9766caa7520ff0cce32f9560059bcce43bbe84c19881db331a133b943",
+    "combined-cohort-vs-pmc-summary.json": "1bdaa53dc3381104754d97d787066d56d5b05750a1b0ce01a32811c5f85b2c09",
+    "progressive-l40s/combined-refs-full-45653.json": "03f6399389d700ae1a049b97fdf9634ed14e36e4f574112b87e40cbfc8caa5e0",
+    "controlled-audit.json": "bcd6f973e4781dfcb89c226fb802adf756b366eaf8fc41810533e2459c6615a3",
+    "progressive-l40s/report-jobs.txt": "133b3f140e322260852989cb25bb9f510497c38cfe35dfd0bc3110258e00a036",
+    "progressive-l40s/shape-cohort/summary.json": "84addff4e98646b0c3d5c96ead2e9748a01854fe866f14eec6f7d21ead2ddfcf",
+    "progressive-l40s/shape-cohort/per_target.csv": "d43739dec2ee8ff63cea3e404eba7e892d4c1cfdee70f367d421aefafeeb781f",
+    "progressive-l40s/baseline-cohort/per_target.csv": "b1e33a774c42abadffcec7c3ce14b8cc91f78d3ac8d40e3c87a0e98278a889f1",
+    "progressive-l40s/shape/run_config.json": "d7b3bf3f6dc89dc20181d4589c97965a30e9b321ceb6c5434523b5d2c66149ee",
+    "combined-cohort-vs-pmc-pairs.json": "a77bb86a950f3120631482b4eb8ac10fbfe67b1908478612e3447c400aa55633",
+    "progressive-l40s/submissions.tsv": "b546141f97910d5c8377316ce0bfde3bc1216d725a501390f411387edbfddb22",
+    "progressive-l40s/baseline-cohort/summary.json": "398a59fecc2e54eba17db9785b48c76d8fc7caddd73b03a62faaa09658451df1",
+    "progressive-l40s/combined-cohort/metric_config.json": "6760f29d7e7868f4a24824623a89851504ff538874b360a05a7eb59b07e25875",
+    "progressive-l40s/shape-timeout-44946.json": "9a5fbb8b89ea427ffa8ad99ef454b06f5d8e4989e8ec3132ff9ada2a2754fa82",
+    "progressive-l40s/combined-refs-full-44948.json": "1e09e14210af1ed89c0076fce4ab00af666c0c155b8d4c0671ffc0edfaec330c",
+    "REPORT.md": "986828aa23c21e345b7399a78daf7662bc29f37378f62f8d26da7ae5236d76b1",
+    "progressive-l40s/combined-cohort/run_config.json": "c4fa8d12316075af03a9cd9311960d238a7a90f93501a8026ab2aa51a65db890",
+    "progressive-l40s/shape-registry.csv": "d75928a154aedcd8e87a87c3b06ecd69d524e04a8b6d531204eee913b1ac15e8",
+    "shape-cohort-vs-pmc-pairs.json": "d86e7e0eb46bda94468e49edd8eb8ce19782b4a6db09b0e3b7abb42878808f36",
+    "progressive-l40s/shape-cohort/metric_config.json": "6760f29d7e7868f4a24824623a89851504ff538874b360a05a7eb59b07e25875",
+    "progressive-l40s/shape-cohort/execution.json": "0e830d44c12f6dc71e268842ccbb56f4bdfacea5281a99c8b5420b55268aa1fc",
+    "progressive-l40s/combined-refs-cohort.json": "2a89fad1f6111ad47915cb9ab91529fd387307f5e17fb73d41b4fddec4687ce2",
+    "progressive-l40s/baseline-cohort/run_config.json": "d9cdf7f7469f13f325896fea108b8e6599646f0959f1cb5fddbf19ed273a55b8",
+    "shape-cohort-vs-pmc-summary.json": "a60aa6465ac38a67d778b88eb0524597307832ff8a8d0793c75714c1df372a31",
+    "shape-full-summary.json": "9edf91ca27f3e7b2c94a7d4bd3b93b2b2314398cd2db72283193f9a00e18bb74",
+    "progressive-l40s/shape-cohort/run_config.json": "d7b3bf3f6dc89dc20181d4589c97965a30e9b321ceb6c5434523b5d2c66149ee",
+    "progressive-l40s/metadata-export-jobs.tsv": "c05652f666ca955764028db46b6c2ef975ae42b5ef12ed3eeeaa5ac3329da1d2",
+    "progressive-l40s/shape-export-45303.log": "00a67a043b962caf6318cc7d6dfe4a26086d4e7f119c1c4494a72a9c9dc92060",
+    "progressive-l40s/shape-full-metadata.tar.gz": "59d16364d3b740d50c93fb5021e746daf3d926b4fd277bb2650c8e4801e97c7e"
+  },
+  "full_report_job": "44950",
+  "counts": {
+    "baseline": 204,
+    "shape": 2565,
+    "surface": 0,
+    "combined": 1128
+  },
+  "observed_at": "2026-11-24T12:37:10.007236+00:00"
+}

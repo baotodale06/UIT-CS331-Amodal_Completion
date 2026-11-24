@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "at": "2026-11-23T12:42:41.123614+00:00",
+  "split": "validation",
+  "objects": 1264,
+  "images": 217,
+  "training_receipt_sha256": "8ac898447852189c4baea96e523bf947620beaf22c49dc28e21527ecfdf056c6",
+  "checkpoint_sha256": "3bb1a47ddd952824a960fb82867159c366c1c3e4a53a53bab1e06585adbd64a9",
+  "selected_epoch": 7,
+  "data_manifest_sha256": "ab2f4d1112c52bcd1b675e0f213ed8ee387fbc2601a3596f8f2b5e933ea7d13e",
+  "baseline_result_sha256": "72024ef3c9f171209a74ced8e649fff7806c64c72e7315f37431772b8863b21a",
+  "source_sha256": "fa98a9478b40d581edc15a62e3fb215f230e0200212fd32ea1823063b92f934c",
+  "geometry_policy": {
+    "crop": "Square SAM-support box, padding 2.0",
+    "input": "RGB restricted to SAM support, SAM mask and its complement",
+    "native_probability": "Resize logits to native crop before sigmoid; zero outside crop; no hard support restoration",
+    "empty_mask": "Zero prediction",
+    "threshold": 0.5
+  },
+  "job_id": "45664",
+  "gpu": "Quadro RTX 6000",
+  "torch": "1.13.1",
+  "cuda": "11.7",
+  "cuda_fft_round_trip": true,
+  "holdout_access": false,
+  "benchmark_access": false,
+  "interpretation": "Validation-selected exploratory result, not untouched confirmation or benchmark improvement"
+}

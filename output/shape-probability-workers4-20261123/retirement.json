@@ -1,0 +1,62 @@
+{
+  "at": "2026-11-23T17:07:36.129261+00:00",
+  "kind": "observer_retirement_fence",
+  "disposition": "superseded_before_launch",
+  "training_launched": false,
+  "benchmark_success": false,
+  "old_observer": {
+    "ProcessId": 21512,
+    "CreationDate": "/Date(1795451408602)/"
+  },
+  "replacement_observer_pid": 3532,
+  "replacement_study": "output/shape-probability-workers4-20261123",
+  "operational_manifest_sha256": "9a531b2d0b9ddc938518db4a0ac0ff3cffc694f814eb8fc030bea22a9cfb56fe",
+  "old_status": {
+    "at": "2026-11-23T17:06:38.044929+00:00",
+    "active_processes": [
+      {
+        "pid": 328,
+        "args": [
+          "python3",
+          "-u",
+          "/mnt/c/Users/daovu/Documents/Project/cv_nangcao/output/shape-local-20261123/launch_local.py",
+          ""
+        ]
+      },
+      {
+        "pid": 495,
+        "args": [
+          "/home/hungvudao/.cache/shape-local-gpu-20261123/env/bin/python",
+          "-u",
+          "/home/hungvudao/.cache/shape-local-gpu-20261123/training-source-v2/scripts/train_shape_local.py",
+          "--data",
+          "/home/hungvudao/.cache/shape-local-gpu-20261123/inputs/data",
+          "--sam-training",
+          "/home/hungvudao/.cache/shape-local-gpu-20261123/inputs/sam-training",
+          "--sam-validation",
+          "/home/hungvudao/.cache/shape-local-gpu-20261123/inputs/sam-validation",
+          "--initial-checkpoint",
+          "/home/hungvudao/.cache/shape-local-gpu-20261123/inputs/initial/best.pt",
+          "--study",
+          "/mnt/c/Users/daovu/Documents/Project/cv_nangcao/output/shape-local-20261123/run-v2",
+          "--mode",
+          "train",
+          ""
+        ]
+      }
+    ],
+    "predecessor_complete": false,
+    "benchmark_success": false,
+    "disposition": "waiting_predecessor"
+  },
+  "source_sha256": "86212704c7c5021c34f012a28db01c48ce3ccafc2be1d03f09c57cfb3ab509be",
+  "command": [
+    "powershell",
+    "-NoProfile",
+    "-Command",
+    "$replacement = Get-CimInstance Win32_Process -Filter 'ProcessId = 3532'; if ($null -eq $replacement -or $replacement.CommandLine -notlike '*queue_shape_probability_workers4.py*') { throw 'Replacement is not live' }; $original = Get-CimInstance Win32_Process -Filter 'ProcessId = 21512'; if ($null -eq $original -or $original.CommandLine -notlike '*queue_shape_probability_local.py*') { throw 'Original identity changed' }; Stop-Process -Id 21512 -ErrorAction Stop"
+  ],
+  "reason": "Separately frozen four-worker package passed CPU checks and measured tensor/optimizer equivalence; original training is still alive",
+  "retired_at": "2026-11-23T17:07:38.661598+00:00",
+  "exit_code": 0
+}

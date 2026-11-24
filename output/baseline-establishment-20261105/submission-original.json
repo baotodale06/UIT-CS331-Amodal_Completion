@@ -1,0 +1,8 @@
+{
+  "submitted_utc": "2026-11-05T09:48:18.484920+00:00",
+  "command": "cd ~/Vu_Hung/cv_nangcao && sbatch --parsable --partition=debug-gpu --job-name=pdmc-baseline --gres=gpu:4 --cpus-per-task=16 --mem=64G --time=24:00:00 --output=logs/%x-%j.out scripts/run_baseline_slurm.sh --cache-dir /dev/shm/daoqm/amodal-cache --output-dir output/pdmc-baseline-provenance-20261105 --benchmark-workers 4",
+  "returncode": 0,
+  "stdout": "30423\n",
+  "stderr": "",
+  "job_id": "30423"
+}

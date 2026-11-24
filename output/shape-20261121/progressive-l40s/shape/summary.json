@@ -1,0 +1,285 @@
+{
+  "selected_targets": 2565,
+  "paper_targets": 2565,
+  "full_image_coverage": true,
+  "evaluation_performed": true,
+  "exact_table_reproduction": false,
+  "boundary_check": "released",
+  "target_selection": "label-semantic",
+  "metric_alignment": "released",
+  "protocol_notes": [
+    "Released PD-MC Grounding DINO + SAM segmentation, InstaOrder, LaMa and Mixed Context diffusion.",
+    "Released boundary behavior is retained; undersized backdrops are enlarged when required.",
+    "Target identity uses versioned class aliases and exact-mask deduplication; distinct instances remain ambiguous.",
+    "Appearance references use the selected initial SAM mask with 5x5 erosion and first-crop preprocessing.",
+    "SAM references differ from the OpenWorld paper's LISA references; appearance scores are a separate protocol.",
+    "Failed completions receive LPIPS=1, VGG=0, SSIM=0, including failed target detections.",
+    "Successful completions with empty eroded references receive CLIP only; inspect all metric denominators.",
+    "CLIP is raw ViT-B/32 logits on successful completions only; visible masks are not hidden-pixel ground truth.",
+    "Annotation-guided vocabulary experiment: scene categories plus separate queries for missing categories annotated in each image; the same queries run during completion checks.",
+    "Success denotes a saved output; completed_outputs and iteration_limited_outputs report its stop state separately."
+  ],
+  "source_counts_in_paper": {
+    "VG": {
+      "images": 1234,
+      "instances": 1294,
+      "classes": 269
+    },
+    "COCOA": {
+      "images": 751,
+      "instances": 845,
+      "classes": 256
+    },
+    "free_images": {
+      "images": 228,
+      "instances": 249,
+      "classes": 147
+    },
+    "laion": {
+      "images": 166,
+      "instances": 177,
+      "classes": 97
+    }
+  },
+  "statistics": {
+    "VG": {
+      "targets": 1294,
+      "successes": 724,
+      "failures": 570,
+      "reference_failures": 0,
+      "missing_images": 0,
+      "failure_rate": 0.44049459041731065,
+      "status_counts": {
+        "no_completion": 285,
+        "ambiguous_target": 158,
+        "not_detected": 127,
+        "success": 724
+      },
+      "failure_reasons": {
+        "query_mask_too_small": 51,
+        "multiple_distinct_instances": 158,
+        "no_occlusion_detected": 227,
+        "label_not_matched": 126,
+        "no_detections": 1,
+        "completion_not_detected": 7
+      },
+      "completed_outputs": 617,
+      "iteration_limited_outputs": 107,
+      "completion_state_unknown": 0,
+      "failure_stage_counts": {
+        "query_filter": 51,
+        "target_selection": 284,
+        "occlusion_check": 227,
+        "initial_segmentation": 1,
+        "completion_segmentation": 7
+      },
+      "target_selection_failures": 284,
+      "initial_segmentation_failures": 1,
+      "pdmc_failures": 285,
+      "CLIP": 28.57198189635303,
+      "CLIP_n": 724,
+      "LPIPS": 0.5983691008493788,
+      "LPIPS_n": 1294,
+      "Feature Similarity": 0.3670277298533198,
+      "Feature Similarity_n": 1294,
+      "SSIM": 0.46003426028660027,
+      "SSIM_n": 1294
+    },
+    "COCOA": {
+      "targets": 845,
+      "successes": 443,
+      "failures": 402,
+      "reference_failures": 0,
+      "missing_images": 0,
+      "failure_rate": 0.4757396449704142,
+      "status_counts": {
+        "no_completion": 182,
+        "not_detected": 88,
+        "success": 443,
+        "ambiguous_target": 132
+      },
+      "failure_reasons": {
+        "no_occlusion_detected": 143,
+        "label_not_matched": 88,
+        "query_mask_too_small": 31,
+        "multiple_distinct_instances": 132,
+        "completion_not_detected": 8
+      },
+      "completed_outputs": 357,
+      "iteration_limited_outputs": 86,
+      "completion_state_unknown": 0,
+      "failure_stage_counts": {
+        "occlusion_check": 143,
+        "target_selection": 220,
+        "query_filter": 31,
+        "completion_segmentation": 8
+      },
+      "target_selection_failures": 220,
+      "initial_segmentation_failures": 0,
+      "pdmc_failures": 182,
+      "CLIP": 27.729204375910705,
+      "CLIP_n": 443,
+      "LPIPS": 0.6509867212343851,
+      "LPIPS_n": 845,
+      "Feature Similarity": 0.30759248467239403,
+      "Feature Similarity_n": 845,
+      "SSIM": 0.41947673621426956,
+      "SSIM_n": 845
+    },
+    "free_images": {
+      "targets": 249,
+      "successes": 131,
+      "failures": 118,
+      "reference_failures": 0,
+      "missing_images": 0,
+      "failure_rate": 0.4738955823293173,
+      "status_counts": {
+        "success": 131,
+        "ambiguous_target": 19,
+        "no_completion": 90,
+        "not_detected": 9
+      },
+      "failure_reasons": {
+        "multiple_distinct_instances": 19,
+        "no_occlusion_detected": 77,
+        "label_not_matched": 9,
+        "query_mask_too_small": 12,
+        "completion_not_detected": 1
+      },
+      "completed_outputs": 107,
+      "iteration_limited_outputs": 24,
+      "completion_state_unknown": 0,
+      "failure_stage_counts": {
+        "target_selection": 28,
+        "occlusion_check": 77,
+        "query_filter": 12,
+        "completion_segmentation": 1
+      },
+      "target_selection_failures": 28,
+      "initial_segmentation_failures": 0,
+      "pdmc_failures": 90,
+      "CLIP": 28.55601502920835,
+      "CLIP_n": 131,
+      "LPIPS": 0.628567389291094,
+      "LPIPS_n": 249,
+      "Feature Similarity": 0.3463437570984584,
+      "Feature Similarity_n": 249,
+      "SSIM": 0.4201353633963324,
+      "SSIM_n": 249
+    },
+    "laion": {
+      "targets": 177,
+      "successes": 95,
+      "failures": 82,
+      "reference_failures": 0,
+      "missing_images": 0,
+      "failure_rate": 0.4632768361581921,
+      "status_counts": {
+        "success": 95,
+        "no_completion": 53,
+        "ambiguous_target": 19,
+        "not_detected": 10
+      },
+      "failure_reasons": {
+        "no_occlusion_detected": 38,
+        "query_mask_too_small": 14,
+        "multiple_distinct_instances": 19,
+        "label_not_matched": 9,
+        "no_detections": 1,
+        "completion_not_detected": 1
+      },
+      "completed_outputs": 87,
+      "iteration_limited_outputs": 8,
+      "completion_state_unknown": 0,
+      "failure_stage_counts": {
+        "occlusion_check": 38,
+        "query_filter": 14,
+        "target_selection": 28,
+        "initial_segmentation": 1,
+        "completion_segmentation": 1
+      },
+      "target_selection_failures": 28,
+      "initial_segmentation_failures": 1,
+      "pdmc_failures": 53,
+      "CLIP": 28.13340701053017,
+      "CLIP_n": 95,
+      "LPIPS": 0.5984597320610521,
+      "LPIPS_n": 177,
+      "Feature Similarity": 0.36477244674822706,
+      "Feature Similarity_n": 177,
+      "SSIM": 0.4610705329719224,
+      "SSIM_n": 177
+    },
+    "Overall": {
+      "targets": 2565,
+      "successes": 1393,
+      "failures": 1172,
+      "reference_failures": 0,
+      "missing_images": 0,
+      "failure_rate": 0.45692007797270956,
+      "status_counts": {
+        "no_completion": 610,
+        "ambiguous_target": 328,
+        "not_detected": 234,
+        "success": 1393
+      },
+      "failure_reasons": {
+        "query_mask_too_small": 108,
+        "multiple_distinct_instances": 328,
+        "no_occlusion_detected": 485,
+        "label_not_matched": 232,
+        "no_detections": 2,
+        "completion_not_detected": 17
+      },
+      "completed_outputs": 1168,
+      "iteration_limited_outputs": 225,
+      "completion_state_unknown": 0,
+      "failure_stage_counts": {
+        "query_filter": 108,
+        "target_selection": 560,
+        "occlusion_check": 485,
+        "initial_segmentation": 2,
+        "completion_segmentation": 17
+      },
+      "target_selection_failures": 560,
+      "initial_segmentation_failures": 2,
+      "pdmc_failures": 610,
+      "CLIP": 28.272551375674585,
+      "CLIP_n": 1393,
+      "LPIPS": 0.6186409545615751,
+      "LPIPS_n": 2565,
+      "Feature Similarity": 0.345284152269131,
+      "Feature Similarity_n": 2565,
+      "SSIM": 0.4428714872255885,
+      "SSIM_n": 2565
+    }
+  },
+  "data_identity": {
+    "targets_sha256": "4039000cb0b90322b087d57534daeeea7b604dc6a1a06a695009751e61a05f16",
+    "inputs_sha256": "2b2646b675f699f4789b391bb7ea544e3a72a30deea57db4356db9f6e5566b4d",
+    "references_sha256": "08861e08810913e8bc4e235a1e890d1074c582f976a30bfcd948e76bc1976d16"
+  },
+  "pipeline_profile": "released-sam",
+  "reference_backend": "grounded-sam",
+  "resize_background": true,
+  "label_matching": {
+    "version": 2,
+    "aliases_sha256": "312fbdd25431183cbfc3c06ec98515301ff653380ce6f2d1f69dd066e775781e",
+    "annotation_rule": "longest-object-suffix-before-spatial-description-v1",
+    "deduplication": "exact-binary-mask",
+    "duplicate_representative": "highest-detector-score/stable-first-index",
+    "implementation_sha256": "0e60f36d26f9a962ce4f8a933a7a8cafd56452b3e59d461ab5c4c9ec54845c07"
+  },
+  "detector_vocabulary": {
+    "version": 1,
+    "mode": "annotated",
+    "queries": "base-scene-vocabulary-plus-per-image-missing-annotation-categories",
+    "base_chunking": "tokenizer-budget-preserve-order-v1",
+    "extra_chunking": "one-category-per-query",
+    "max_text_tokens": 256,
+    "query_gate": "base-plus-added-categories-and-their-returned-phrases",
+    "deduplication": "semantic-matcher-exact-masks-only",
+    "image_queries_sha256": "fb5a6fbd4c96bef88d04d4b3b6a1381791e9fdb41a02a4c27500824c8526607c",
+    "implementation_sha256": "1e38eedf7bddb16c2dbee8f8934aa77d60026698d55577ba90fa7d8aef8b0bea"
+  }
+}

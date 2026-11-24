@@ -1,0 +1,122 @@
+{
+  "verified": true,
+  "recovered_at": "2026-11-14T04:52:21.590419+00:00",
+  "members": {
+    "output/surface-annotated-20261112-design/freshrefs-experiments.csv": {
+      "sha256": "97ccf0c59f13b4b33c8d718297f636204fecd6815432a0e825a0ff0793a482ed",
+      "bytes": 1571
+    },
+    "output/surface-annotated-20261112-design/experiment_report.md": {
+      "sha256": "989d533c064978988a8bf7244ee5ec3653d8da0f4d48e5773d0c112ae9c30e57",
+      "bytes": 859
+    },
+    "output/surface-annotated-20261112-design/freshrefs-baseline-full-verification.json": {
+      "sha256": "6e87abdeba39bae1f55e0085797fa7029ba970da6cbddfda7ef297bef063926f",
+      "bytes": 7178
+    },
+    "output/surface-annotated-20261112-design/freshrefs-surface-full-verification.json": {
+      "sha256": "de3b7c859385187d2e32da89405096e19fc03da1c8d96746b7ccc37aefde4461",
+      "bytes": 7175
+    },
+    "output/surface-annotated-20261112-design/freshrefs-full-reference-copy-39490.json": {
+      "sha256": "52d30110d410785d64e7371aedc54133d4f6956c90213a5564e05e3c1d5e4f7c",
+      "bytes": 1162545
+    },
+    "output/surface-annotated-20261112-design/freshrefs-full-reference-copy-39491.json": {
+      "sha256": "8c6f066a07a46bcd41536cfcf9fecaf6c13c707597372f7fed95fed05da4f8ee",
+      "bytes": 1162542
+    },
+    "output/surface-annotated-20261112-design/ann-control-cohort-39473.log": {
+      "sha256": "9129bf932e4add2b3ed4ac30f04689148ec9927e7775f803d501a0a03b4a034d",
+      "bytes": 8907
+    },
+    "output/surface-annotated-20261112-design/ann-control-retry-39484.log": {
+      "sha256": "f302e4d0f17c0a0af66832cfee9d27b809ac22c4bde1aee77ccbd8f457e8240a",
+      "bytes": 3990
+    },
+    "output/surface-annotated-20261112-design/ann-export-cohort-39493.log": {
+      "sha256": "8f1950a0b7b5732c286b54bfb326f7d39c554efe56caf2018d095691889c18d3",
+      "bytes": 1762
+    },
+    "output/surface-annotated-20261112-design/ann-export-full-39495.log": {
+      "sha256": "07a22e33ca44eb85142113a7934325d6ed4c2e0d99312a484bc8762a4b7d7357",
+      "bytes": 877
+    },
+    "output/surface-annotated-20261112-design/ann-export-pool-39494.log": {
+      "sha256": "9936971f3af27c18708c02a03ccfb242185b5fb7073af667d840aca026c5fab8",
+      "bytes": 873
+    },
+    "output/surface-annotated-20261112-design/ann-fresh-baseline-cohort-39486.log": {
+      "sha256": "66d140f2ef6f251d86c336a4ae70ab0be86dd0abc050ae15b51ea67fc70dc376",
+      "bytes": 23246
+    },
+    "output/surface-annotated-20261112-design/ann-fresh-baseline-full-39488.log": {
+      "sha256": "52c420edb7f5dfdbe8a539d43455297dec71eead3149c01a475959e7e1a1e6df",
+      "bytes": 273163
+    },
+    "output/surface-annotated-20261112-design/ann-fresh-finalize-39492.log": {
+      "sha256": "b4c3679200cc33eab88d7f4520ab721a96862323846905ff0645e86586f846d9",
+      "bytes": 2487
+    },
+    "output/surface-annotated-20261112-design/ann-fresh-pool-39489.log": {
+      "sha256": "f5a1d5620eca00de91e465bc13d14071216389ed7d972d6ca4c767293897b12c",
+      "bytes": 355
+    },
+    "output/surface-annotated-20261112-design/ann-fresh-smoke-39496.log": {
+      "sha256": "d3e4b4cbd65becb34d096f50ccb8282783a34f4d77c6dba901ba689e8e613e21",
+      "bytes": 4306
+    },
+    "output/surface-annotated-20261112-design/ann-fresh-surface-cohort-39487.log": {
+      "sha256": "3d2fba6d3a69be03c42074ce4617528fec7d3a1f5663af46c88b44b3482318af",
+      "bytes": 52209
+    },
+    "output/surface-annotated-20261112-design/ann-fresh-surface-full-39490.log": {
+      "sha256": "2e02877e0a09f92d3b8b70d01b0eac48a084e4d0f30754baf8b41cceca60e713",
+      "bytes": 453346
+    },
+    "output/surface-annotated-20261112-design/ann-fresh-surface-resume-39491.log": {
+      "sha256": "8cccaf6fd06d6a51ac3e7e59c94d2d19e821c8c58a9fe0c98de3818daaab5d50",
+      "bytes": 224188
+    },
+    "output/surface-annotated-20261112-design/ann-full-audit-39497.log": {
+      "sha256": "815c3fdfca399c7c414aaeeb9b8b00cb06b5139fb34a557c01464f711e562999",
+      "bytes": 2075
+    },
+    "output/surface-annotated-20261112-design/ann-native-audit-cohort-39498.log": {
+      "sha256": "65fe298cd3b667f28d98095a07d75576f23a2cef2a0336415b2c031acf6de571",
+      "bytes": 2591
+    },
+    "output/surface-annotated-20261112-design/ann-native-audit-pool-39499.log": {
+      "sha256": "8bb1b62ce14f4fa130f70f5ba41c1999e328d30988a036ed0f744bd4cafd8a6a",
+      "bytes": 187
+    },
+    "output/surface-annotated-20261112-design/ann-reference-probe-39485.log": {
+      "sha256": "4e9c1d053716a4b0ec2b41343abefb18251c9cace0f56db6ef7e6b4f90b46f0f",
+      "bytes": 11626
+    }
+  },
+  "source_sha256": "7d437653257015e3154166a288413758ce3b3d8a0da0061c58a5c9a958471d92",
+  "ssh_command": [
+    "ssh",
+    "-o",
+    "BatchMode=yes",
+    "-o",
+    "ConnectTimeout=15",
+    "-o",
+    "ServerAliveInterval=30",
+    "daoqm@slurm.csse.rose-hulman.edu",
+    "python3 -"
+  ],
+  "remote_program": "\nfrom pathlib import Path\nfrom datetime import datetime, timezone\nimport base64, hashlib, json, subprocess\nroot=Path.home()/'Vu_Hung/cv_nangcao'\ndesign=root/'output/surface-annotated-20261112-design'\nnames=['freshrefs-experiments.csv', 'experiment_report.md',\n       'freshrefs-baseline-full-verification.json',\n       'freshrefs-surface-full-verification.json',\n       'freshrefs-full-reference-copy-39490.json',\n       'freshrefs-full-reference-copy-39491.json']\npaths=[design/name for name in names]\npaths += sorted(design.glob('ann-*-394*.log'))\nfiles={}\nfor path in paths:\n    data=path.read_bytes()\n    files[path.relative_to(root).as_posix()]=dict(\n        sha256=hashlib.sha256(data).hexdigest(), bytes=len(data),\n        base64=base64.b64encode(data).decode())\ncommand=['sacct','-j',','.join(str(i) for i in range(39486,39500)),\n         '-X','-n','-P','--format=JobIDRaw,JobName%60,Partition,State,ElapsedRaw,Start,End,ExitCode,AllocTRES%120,NodeList']\naccounting=subprocess.check_output(command,text=True)\nprint(json.dumps(dict(at=datetime.now(timezone.utc).isoformat(),\n    files=files, accounting=accounting, accounting_command=command)))\n",
+  "at": "2026-11-14T04:51:51.307254+00:00",
+  "accounting": "39486|ann-fresh-baseline-cohort|debug-gpu|COMPLETED|1440|2026-11-12T02:34:21|2026-11-12T02:58:21|0:0|billing=16,cpu=16,gres/gpu=4,mem=64G,node=1|gebru\n39487|ann-fresh-surface-cohort|debug-gpu|COMPLETED|6574|2026-11-12T03:03:35|2026-11-12T04:53:09|0:0|billing=16,cpu=16,gres/gpu=4,mem=64G,node=1|gebru\n39488|ann-fresh-baseline-full|debug-gpu|COMPLETED|20697|2026-11-12T04:56:41|2026-11-12T10:41:38|0:0|billing=16,cpu=16,gres/gpu=4,mem=64G,node=1|gebru\n39489|ann-fresh-pool|debug-gpu|COMPLETED|211|2026-11-12T04:53:09|2026-11-12T04:56:40|0:0|billing=16,cpu=16,gres/gpu=4,mem=64G,node=1|gebru\n39490|ann-fresh-surface-full|debug-gpu|TIMEOUT|86419|2026-11-12T10:41:38|2026-11-13T10:41:57|0:0|billing=16,cpu=16,gres/gpu=4,mem=64G,node=1|gebru\n39491|ann-fresh-surface-resume|debug-gpu|COMPLETED|11772|2026-11-13T10:41:58|2026-11-13T13:58:10|0:0|billing=16,cpu=16,gres/gpu=4,mem=64G,node=1|gebru\n39492|ann-fresh-finalize|debug-cpu|COMPLETED|489|2026-11-13T13:58:10|2026-11-13T14:06:19|0:0|billing=4,cpu=4,mem=12G,node=1|floyd\n39493|ann-export-cohort|debug-cpu|COMPLETED|88|2026-11-12T04:53:09|2026-11-12T04:54:37|0:0|billing=2,cpu=2,mem=8G,node=1|floyd\n39494|ann-export-pool|debug-cpu|COMPLETED|1|2026-11-12T04:56:41|2026-11-12T04:56:42|0:0|billing=2,cpu=2,mem=8G,node=1|floyd\n39495|ann-export-full|debug-cpu|COMPLETED|114|2026-11-13T14:06:39|2026-11-13T14:08:33|0:0|billing=2,cpu=2,mem=8G,node=1|floyd\n39496|ann-fresh-smoke|debug-gpu|COMPLETED|314|2026-11-12T02:58:21|2026-11-12T03:03:35|0:0|billing=16,cpu=16,gres/gpu=4,mem=64G,node=1|gebru\n39497|ann-full-audit|debug-cpu|COMPLETED|20|2026-11-13T14:06:19|2026-11-13T14:06:39|0:0|billing=4,cpu=4,mem=12G,node=1|floyd\n39498|ann-native-audit-cohort|debug-cpu|COMPLETED|209|2026-11-12T04:53:09|2026-11-12T04:56:38|0:0|billing=4,cpu=4,mem=12G,node=1|floyd\n39499|ann-native-audit-pool|debug-cpu|COMPLETED|191|2026-11-12T04:56:41|2026-11-12T04:59:52|0:0|billing=4,cpu=4,mem=12G,node=1|floyd\n",
+  "accounting_command": [
+    "sacct",
+    "-j",
+    "39486,39487,39488,39489,39490,39491,39492,39493,39494,39495,39496,39497,39498,39499",
+    "-X",
+    "-n",
+    "-P",
+    "--format=JobIDRaw,JobName%60,Partition,State,ElapsedRaw,Start,End,ExitCode,AllocTRES%120,NodeList"
+  ]
+}

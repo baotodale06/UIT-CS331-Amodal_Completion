@@ -1,0 +1,757 @@
+{
+  "scope": "Supplemental natural COCOA hidden-region geometry on the frozen 204-target cohort",
+  "measure": "On the original image grid subtract the COCOA visible mask from the predicted and annotated amodal masks. Score their intersection divided by their union on each target with at least one annotated hidden pixel. An absent completion has zero overlap.",
+  "native_replay_sha256": "1c2c8e823cf7e53b23d5b28c90717ca009dd80f932076c944585a6754b254d75",
+  "geometry_sha256": "f0e0bc47f7f4fdf9fb0cb8f6388826e16c06b6a670fd40a95402e6d091e57a9c",
+  "eligible": 15,
+  "images": 13,
+  "comparisons": {
+    "shape-vs-baseline": {
+      "n": 15,
+      "images": 13,
+      "baseline": 0.1813443649846776,
+      "method": 0.22457338297675275,
+      "absolute_gain": 0.043229017992075125,
+      "relative_gain_percent": 23.838081759930997,
+      "absolute_ci": [
+        0.006416984649147921,
+        0.09277497493014712
+      ],
+      "relative_ci_percent": [
+        null,
+        null
+      ],
+      "undefined_relative_bootstrap_samples": 11
+    },
+    "shape-vs-surface": {
+      "n": 15,
+      "images": 13,
+      "baseline": 0.2103668266037846,
+      "method": 0.22457338297675275,
+      "absolute_gain": 0.014206556372968105,
+      "relative_gain_percent": 6.753230346401262,
+      "absolute_ci": [
+        -0.011433850525371115,
+        0.060189898927582274
+      ],
+      "relative_ci_percent": [
+        null,
+        null
+      ],
+      "undefined_relative_bootstrap_samples": 1
+    },
+    "combined-vs-baseline": {
+      "n": 15,
+      "images": 13,
+      "baseline": 0.1813443649846776,
+      "method": 0.21969341664287265,
+      "absolute_gain": 0.03834905165819502,
+      "relative_gain_percent": 21.14708756538162,
+      "absolute_ci": [
+        0.0061620568481017745,
+        0.08251998044728398
+      ],
+      "relative_ci_percent": [
+        null,
+        null
+      ],
+      "undefined_relative_bootstrap_samples": 11
+    },
+    "combined-vs-surface": {
+      "n": 15,
+      "images": 13,
+      "baseline": 0.2103668266037846,
+      "method": 0.21969341664287265,
+      "absolute_gain": 0.009326590039087998,
+      "relative_gain_percent": 4.43348896290296,
+      "absolute_ci": [
+        -0.014946860778503572,
+        0.055476209360305444
+      ],
+      "relative_ci_percent": [
+        null,
+        null
+      ],
+      "undefined_relative_bootstrap_samples": 1
+    },
+    "combined-vs-shape": {
+      "n": 15,
+      "images": 13,
+      "baseline": 0.22457338297675275,
+      "method": 0.21969341664287265,
+      "absolute_gain": -0.004879966333880107,
+      "relative_gain_percent": -2.172994087364872,
+      "absolute_ci": [
+        -0.01458342774816654,
+        0.00010188700121568147
+      ],
+      "relative_ci_percent": [
+        null,
+        null
+      ],
+      "undefined_relative_bootstrap_samples": 1
+    }
+  },
+  "rows": [
+    {
+      "id": "COCOA/COCO_train2014_000000009199_bed",
+      "image_identity": "COCOA/COCO_train2014_000000009199",
+      "annotated_hidden": 25683,
+      "source": "COCOA",
+      "baseline": {
+        "status": "success",
+        "intersection": 1,
+        "union": 25741,
+        "hidden_iou": 3.884852958315528e-05
+      },
+      "shape": {
+        "status": "success",
+        "intersection": 31,
+        "union": 25729,
+        "hidden_iou": 0.001204866104395818
+      },
+      "combined": {
+        "status": "success",
+        "intersection": 30,
+        "union": 25685,
+        "hidden_iou": 0.0011679968853416391
+      },
+      "surface": {
+        "status": "success",
+        "intersection": 23,
+        "union": 25687,
+        "hidden_iou": 0.000895394557558298
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000024086_plate",
+      "image_identity": "COCOA/COCO_train2014_000000024086",
+      "annotated_hidden": 6797,
+      "source": "COCOA",
+      "baseline": {
+        "status": "no_completion",
+        "intersection": 0,
+        "union": 6797,
+        "hidden_iou": 0.0
+      },
+      "shape": {
+        "status": "no_completion",
+        "intersection": 0,
+        "union": 6797,
+        "hidden_iou": 0.0
+      },
+      "combined": {
+        "status": "no_completion",
+        "intersection": 0,
+        "union": 6797,
+        "hidden_iou": 0.0
+      },
+      "surface": {
+        "status": "no_completion",
+        "intersection": 0,
+        "union": 6797,
+        "hidden_iou": 0.0
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000064111_toilet",
+      "image_identity": "COCOA/COCO_train2014_000000064111",
+      "annotated_hidden": 15638,
+      "source": "COCOA",
+      "baseline": {
+        "status": "success",
+        "intersection": 6309,
+        "union": 15840,
+        "hidden_iou": 0.39829545454545456
+      },
+      "shape": {
+        "status": "success",
+        "intersection": 7772,
+        "union": 16027,
+        "hidden_iou": 0.4849316777937231
+      },
+      "combined": {
+        "status": "success",
+        "intersection": 7651,
+        "union": 16030,
+        "hidden_iou": 0.47729257641921397
+      },
+      "surface": {
+        "status": "success",
+        "intersection": 7765,
+        "union": 16030,
+        "hidden_iou": 0.48440424204616345
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000096378_sheep",
+      "image_identity": "COCOA/COCO_train2014_000000096378",
+      "annotated_hidden": 0,
+      "source": "COCOA",
+      "baseline": {
+        "status": "not_detected",
+        "intersection": 0,
+        "union": 0,
+        "hidden_iou": null
+      },
+      "shape": {
+        "status": "not_detected",
+        "intersection": 0,
+        "union": 0,
+        "hidden_iou": null
+      },
+      "combined": {
+        "status": "not_detected",
+        "intersection": 0,
+        "union": 0,
+        "hidden_iou": null
+      },
+      "surface": {
+        "status": "not_detected",
+        "intersection": 0,
+        "union": 0,
+        "hidden_iou": null
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000108113_dog",
+      "image_identity": "COCOA/COCO_train2014_000000108113",
+      "annotated_hidden": 29332,
+      "source": "COCOA",
+      "baseline": {
+        "status": "no_completion",
+        "intersection": 0,
+        "union": 29332,
+        "hidden_iou": 0.0
+      },
+      "shape": {
+        "status": "success",
+        "intersection": 29269,
+        "union": 104864,
+        "hidden_iou": 0.27911389990845287
+      },
+      "combined": {
+        "status": "success",
+        "intersection": 28182,
+        "union": 103442,
+        "hidden_iou": 0.27244252818004294
+      },
+      "surface": {
+        "status": "success",
+        "intersection": 866,
+        "union": 29743,
+        "hidden_iou": 0.029116094543253875
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000182020_cat",
+      "image_identity": "COCOA/COCO_train2014_000000182020",
+      "annotated_hidden": 0,
+      "source": "COCOA",
+      "baseline": {
+        "status": "no_completion",
+        "intersection": 0,
+        "union": 0,
+        "hidden_iou": null
+      },
+      "shape": {
+        "status": "no_completion",
+        "intersection": 0,
+        "union": 0,
+        "hidden_iou": null
+      },
+      "combined": {
+        "status": "no_completion",
+        "intersection": 0,
+        "union": 0,
+        "hidden_iou": null
+      },
+      "surface": {
+        "status": "no_completion",
+        "intersection": 0,
+        "union": 0,
+        "hidden_iou": null
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000403687_dog",
+      "image_identity": "COCOA/COCO_train2014_000000403687",
+      "annotated_hidden": 0,
+      "source": "COCOA",
+      "baseline": {
+        "status": "not_detected",
+        "intersection": 0,
+        "union": 0,
+        "hidden_iou": null
+      },
+      "shape": {
+        "status": "not_detected",
+        "intersection": 0,
+        "union": 0,
+        "hidden_iou": null
+      },
+      "combined": {
+        "status": "not_detected",
+        "intersection": 0,
+        "union": 0,
+        "hidden_iou": null
+      },
+      "surface": {
+        "status": "not_detected",
+        "intersection": 0,
+        "union": 0,
+        "hidden_iou": null
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000430753_knife",
+      "image_identity": "COCOA/COCO_train2014_000000430753",
+      "annotated_hidden": 98,
+      "source": "COCOA",
+      "baseline": {
+        "status": "no_completion",
+        "intersection": 0,
+        "union": 98,
+        "hidden_iou": 0.0
+      },
+      "shape": {
+        "status": "no_completion",
+        "intersection": 0,
+        "union": 98,
+        "hidden_iou": 0.0
+      },
+      "combined": {
+        "status": "no_completion",
+        "intersection": 0,
+        "union": 98,
+        "hidden_iou": 0.0
+      },
+      "surface": {
+        "status": "no_completion",
+        "intersection": 0,
+        "union": 98,
+        "hidden_iou": 0.0
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000474446_dog",
+      "image_identity": "COCOA/COCO_train2014_000000474446",
+      "annotated_hidden": 0,
+      "source": "COCOA",
+      "baseline": {
+        "status": "not_detected",
+        "intersection": 0,
+        "union": 0,
+        "hidden_iou": null
+      },
+      "shape": {
+        "status": "not_detected",
+        "intersection": 0,
+        "union": 0,
+        "hidden_iou": null
+      },
+      "combined": {
+        "status": "not_detected",
+        "intersection": 0,
+        "union": 0,
+        "hidden_iou": null
+      },
+      "surface": {
+        "status": "not_detected",
+        "intersection": 0,
+        "union": 0,
+        "hidden_iou": null
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000561565_zebra",
+      "image_identity": "COCOA/COCO_train2014_000000561565",
+      "annotated_hidden": 345,
+      "source": "COCOA",
+      "baseline": {
+        "status": "no_completion",
+        "intersection": 0,
+        "union": 345,
+        "hidden_iou": 0.0
+      },
+      "shape": {
+        "status": "no_completion",
+        "intersection": 0,
+        "union": 345,
+        "hidden_iou": 0.0
+      },
+      "combined": {
+        "status": "no_completion",
+        "intersection": 0,
+        "union": 345,
+        "hidden_iou": 0.0
+      },
+      "surface": {
+        "status": "no_completion",
+        "intersection": 0,
+        "union": 345,
+        "hidden_iou": 0.0
+      }
+    },
+    {
+      "id": "COCOA/COCO_test2014_000000260571_cat",
+      "image_identity": "COCOA/COCO_test2014_000000260571",
+      "annotated_hidden": 0,
+      "source": "COCOA",
+      "baseline": {
+        "status": "no_completion",
+        "intersection": 0,
+        "union": 0,
+        "hidden_iou": null
+      },
+      "shape": {
+        "status": "no_completion",
+        "intersection": 0,
+        "union": 0,
+        "hidden_iou": null
+      },
+      "combined": {
+        "status": "no_completion",
+        "intersection": 0,
+        "union": 0,
+        "hidden_iou": null
+      },
+      "surface": {
+        "status": "no_completion",
+        "intersection": 0,
+        "union": 0,
+        "hidden_iou": null
+      }
+    },
+    {
+      "id": "COCOA/COCO_test2014_000000296835_book",
+      "image_identity": "COCOA/COCO_test2014_000000296835",
+      "annotated_hidden": 17986,
+      "source": "COCOA",
+      "baseline": {
+        "status": "success",
+        "intersection": 9187,
+        "union": 18206,
+        "hidden_iou": 0.5046138635614632
+      },
+      "shape": {
+        "status": "success",
+        "intersection": 14841,
+        "union": 20783,
+        "hidden_iou": 0.7140932492902853
+      },
+      "combined": {
+        "status": "success",
+        "intersection": 12003,
+        "union": 18349,
+        "hidden_iou": 0.6541500899231566
+      },
+      "surface": {
+        "status": "success",
+        "intersection": 12005,
+        "union": 18350,
+        "hidden_iou": 0.6542234332425068
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000058797_toilet",
+      "image_identity": "COCOA/COCO_val2014_000000058797",
+      "annotated_hidden": 2125,
+      "source": "COCOA",
+      "baseline": {
+        "status": "success",
+        "intersection": 2125,
+        "union": 2138,
+        "hidden_iou": 0.9939195509822264
+      },
+      "shape": {
+        "status": "success",
+        "intersection": 2125,
+        "union": 2150,
+        "hidden_iou": 0.9883720930232558
+      },
+      "combined": {
+        "status": "success",
+        "intersection": 2117,
+        "union": 2132,
+        "hidden_iou": 0.9929643527204502
+      },
+      "surface": {
+        "status": "success",
+        "intersection": 2121,
+        "union": 2132,
+        "hidden_iou": 0.9948405253283302
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000065433_dog",
+      "image_identity": "COCOA/COCO_val2014_000000065433",
+      "annotated_hidden": 0,
+      "source": "COCOA",
+      "baseline": {
+        "status": "not_detected",
+        "intersection": 0,
+        "union": 0,
+        "hidden_iou": null
+      },
+      "shape": {
+        "status": "not_detected",
+        "intersection": 0,
+        "union": 0,
+        "hidden_iou": null
+      },
+      "combined": {
+        "status": "not_detected",
+        "intersection": 0,
+        "union": 0,
+        "hidden_iou": null
+      },
+      "surface": {
+        "status": "not_detected",
+        "intersection": 0,
+        "union": 0,
+        "hidden_iou": null
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000143450_plate",
+      "image_identity": "COCOA/COCO_val2014_000000143450",
+      "annotated_hidden": 117809,
+      "source": "COCOA",
+      "baseline": {
+        "status": "success",
+        "intersection": 97052,
+        "union": 118306,
+        "hidden_iou": 0.8203472351360033
+      },
+      "shape": {
+        "status": "success",
+        "intersection": 105375,
+        "union": 118251,
+        "hidden_iou": 0.8911129715604942
+      },
+      "combined": {
+        "status": "success",
+        "intersection": 105620,
+        "union": 118216,
+        "hidden_iou": 0.8934492792853759
+      },
+      "surface": {
+        "status": "success",
+        "intersection": 117510,
+        "union": 118926,
+        "hidden_iou": 0.9880934362544775
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000143450_cake",
+      "image_identity": "COCOA/COCO_val2014_000000143450",
+      "annotated_hidden": 4020,
+      "source": "COCOA",
+      "baseline": {
+        "status": "success",
+        "intersection": 13,
+        "union": 4406,
+        "hidden_iou": 0.0029505220154334997
+      },
+      "shape": {
+        "status": "success",
+        "intersection": 81,
+        "union": 8289,
+        "hidden_iou": 0.009771986970684038
+      },
+      "combined": {
+        "status": "success",
+        "intersection": 18,
+        "union": 4575,
+        "hidden_iou": 0.003934426229508197
+      },
+      "surface": {
+        "status": "success",
+        "intersection": 18,
+        "union": 4581,
+        "hidden_iou": 0.003929273084479371
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000143450_spoon",
+      "image_identity": "COCOA/COCO_val2014_000000143450",
+      "annotated_hidden": 1675,
+      "source": "COCOA",
+      "baseline": {
+        "status": "no_completion",
+        "intersection": 0,
+        "union": 1675,
+        "hidden_iou": 0.0
+      },
+      "shape": {
+        "status": "no_completion",
+        "intersection": 0,
+        "union": 1675,
+        "hidden_iou": 0.0
+      },
+      "combined": {
+        "status": "no_completion",
+        "intersection": 0,
+        "union": 1675,
+        "hidden_iou": 0.0
+      },
+      "surface": {
+        "status": "no_completion",
+        "intersection": 0,
+        "union": 1675,
+        "hidden_iou": 0.0
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000222317_dog",
+      "image_identity": "COCOA/COCO_val2014_000000222317",
+      "annotated_hidden": 4524,
+      "source": "COCOA",
+      "baseline": {
+        "status": "not_detected",
+        "intersection": 0,
+        "union": 4524,
+        "hidden_iou": 0.0
+      },
+      "shape": {
+        "status": "not_detected",
+        "intersection": 0,
+        "union": 4524,
+        "hidden_iou": 0.0
+      },
+      "combined": {
+        "status": "not_detected",
+        "intersection": 0,
+        "union": 4524,
+        "hidden_iou": 0.0
+      },
+      "surface": {
+        "status": "not_detected",
+        "intersection": 0,
+        "union": 4524,
+        "hidden_iou": 0.0
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000229255_wateringcan",
+      "image_identity": "COCOA/COCO_val2014_000000229255",
+      "annotated_hidden": 19924,
+      "source": "COCOA",
+      "baseline": {
+        "status": "not_detected",
+        "intersection": 0,
+        "union": 19924,
+        "hidden_iou": 0.0
+      },
+      "shape": {
+        "status": "not_detected",
+        "intersection": 0,
+        "union": 19924,
+        "hidden_iou": 0.0
+      },
+      "combined": {
+        "status": "not_detected",
+        "intersection": 0,
+        "union": 19924,
+        "hidden_iou": 0.0
+      },
+      "surface": {
+        "status": "not_detected",
+        "intersection": 0,
+        "union": 19924,
+        "hidden_iou": 0.0
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000285894_giraffe",
+      "image_identity": "COCOA/COCO_val2014_000000285894",
+      "annotated_hidden": 4808,
+      "source": "COCOA",
+      "baseline": {
+        "status": "ambiguous_target",
+        "intersection": 0,
+        "union": 4808,
+        "hidden_iou": 0.0
+      },
+      "shape": {
+        "status": "ambiguous_target",
+        "intersection": 0,
+        "union": 4808,
+        "hidden_iou": 0.0
+      },
+      "combined": {
+        "status": "ambiguous_target",
+        "intersection": 0,
+        "union": 4808,
+        "hidden_iou": 0.0
+      },
+      "surface": {
+        "status": "ambiguous_target",
+        "intersection": 0,
+        "union": 4808,
+        "hidden_iou": 0.0
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000559277_dog",
+      "image_identity": "COCOA/COCO_val2014_000000559277",
+      "annotated_hidden": 0,
+      "source": "COCOA",
+      "baseline": {
+        "status": "not_detected",
+        "intersection": 0,
+        "union": 0,
+        "hidden_iou": null
+      },
+      "shape": {
+        "status": "not_detected",
+        "intersection": 0,
+        "union": 0,
+        "hidden_iou": null
+      },
+      "combined": {
+        "status": "not_detected",
+        "intersection": 0,
+        "union": 0,
+        "hidden_iou": null
+      },
+      "surface": {
+        "status": "not_detected",
+        "intersection": 0,
+        "union": 0,
+        "hidden_iou": null
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000579593_giraffe",
+      "image_identity": "COCOA/COCO_val2014_000000579593",
+      "annotated_hidden": 19025,
+      "source": "COCOA",
+      "baseline": {
+        "status": "ambiguous_target",
+        "intersection": 0,
+        "union": 19025,
+        "hidden_iou": 0.0
+      },
+      "shape": {
+        "status": "ambiguous_target",
+        "intersection": 0,
+        "union": 19025,
+        "hidden_iou": 0.0
+      },
+      "combined": {
+        "status": "ambiguous_target",
+        "intersection": 0,
+        "union": 19025,
+        "hidden_iou": 0.0
+      },
+      "surface": {
+        "status": "ambiguous_target",
+        "intersection": 0,
+        "union": 19025,
+        "hidden_iou": 0.0
+      }
+    }
+  ]
+}

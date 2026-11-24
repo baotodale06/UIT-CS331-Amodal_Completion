@@ -1,0 +1,19 @@
+{
+  "at": "2026-11-23T10:19:45.087926+00:00",
+  "training": "45632",
+  "state": "COMPLETED",
+  "epochs": 60,
+  "selected_epoch": 47,
+  "watcher_exec_session": 28679,
+  "watcher_process_id": 37252,
+  "watcher_state": "completed successfully; do not restart",
+  "geometry": "45634",
+  "geometry_state": "COMPLETED",
+  "smoke": "45635",
+  "smoke_state": "RUNNING",
+  "full": "45636",
+  "full_state": "PENDING",
+  "controller": "45637",
+  "controller_state": "PENDING",
+  "goal_achieved": false
+}

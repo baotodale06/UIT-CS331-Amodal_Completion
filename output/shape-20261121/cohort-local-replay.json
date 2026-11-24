@@ -1,0 +1,103 @@
+{
+  "targets": 204,
+  "pairs_sha256": {
+    "shape-cohort-vs-pmc-pairs.json": "d86e7e0eb46bda94468e49edd8eb8ce19782b4a6db09b0e3b7abb42878808f36",
+    "combined-cohort-vs-pmc-pairs.json": "a77bb86a950f3120631482b4eb8ac10fbfe67b1908478612e3447c400aa55633"
+  },
+  "bootstrap_draws": 5000,
+  "seed": 20261110,
+  "sampling": "Image-cluster resampling within source strata. Target means reconstructed from image multiplicities.",
+  "same_device_combined_vs_shape": {
+    "LPIPS": {
+      "n": 204,
+      "images": 192,
+      "baseline": 0.6973806900319224,
+      "method": 0.6838414316412573,
+      "absolute_gain": 0.013539258390665054,
+      "relative_gain_percent": 1.9414444053570366,
+      "absolute_ci": [
+        0.005661447691331237,
+        0.02460092015205614
+      ],
+      "relative_ci_percent": [
+        0.8068598719009137,
+        3.567901310441783
+      ],
+      "undefined_relative_bootstrap_samples": 0
+    },
+    "SSIM": {
+      "n": 204,
+      "images": 192,
+      "baseline": 0.3446757623802904,
+      "method": 0.3559807966983459,
+      "absolute_gain": 0.011305034318055525,
+      "relative_gain_percent": 3.2799040582326655,
+      "absolute_ci": [
+        0.0038324778742719334,
+        0.022444440698428804
+      ],
+      "relative_ci_percent": [
+        1.1182105332688055,
+        6.653356568013714
+      ],
+      "undefined_relative_bootstrap_samples": 0
+    },
+    "CLIP": {
+      "n": 86,
+      "images": 83,
+      "baseline": 28.28562947206719,
+      "method": 28.25162175644276,
+      "absolute_gain": -0.03400771562443223,
+      "relative_gain_percent": -0.12022965816622802,
+      "absolute_ci": [
+        -0.26408446629842064,
+        0.1945286933383453
+      ],
+      "relative_ci_percent": [
+        -0.9266764763552402,
+        0.6915426306060329
+      ],
+      "undefined_relative_bootstrap_samples": 0
+    },
+    "Feature Similarity": {
+      "n": 204,
+      "images": 192,
+      "baseline": 0.27255143429718764,
+      "method": 0.2852010905158286,
+      "absolute_gain": 0.012649656218640944,
+      "relative_gain_percent": 4.641199651456565,
+      "absolute_ci": [
+        0.005549850642903516,
+        0.022688181845833096
+      ],
+      "relative_ci_percent": [
+        2.077920000544687,
+        8.472184470452353
+      ],
+      "undefined_relative_bootstrap_samples": 0
+    },
+    "amodal_iou": {
+      "n": 22,
+      "images": 20,
+      "baseline": 0.26312102306089213,
+      "method": 0.24816440178180824,
+      "absolute_gain": -0.014956621279083877,
+      "relative_gain_percent": -5.684312528544167,
+      "absolute_ci": [
+        -0.04588472561454614,
+        0.0019594486468116476
+      ],
+      "relative_ci_percent": [
+        null,
+        null
+      ],
+      "undefined_relative_bootstrap_samples": 6
+    }
+  },
+  "reference_identical_to_historical": 166,
+  "first_pass_comparison": {
+    "neither_sampled": 117,
+    "changed_slot": 49,
+    "same_slot": 38
+  }
+}

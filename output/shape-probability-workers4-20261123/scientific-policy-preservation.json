@@ -1,0 +1,16 @@
+{
+  "verified": true,
+  "identical_training_functions": [
+    "read",
+    "encoder_state",
+    "check_encoder",
+    "train_epoch"
+  ],
+  "only_training_setting_change": {
+    "workers_per_rank": [
+      2,
+      4
+    ]
+  },
+  "benchmark_success": false
+}

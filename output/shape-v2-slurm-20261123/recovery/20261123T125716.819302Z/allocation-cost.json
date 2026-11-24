@@ -1,0 +1,183 @@
+{
+  "jobs": {
+    "45631": {
+      "role": "preflight",
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "seconds": 68,
+      "gpus": 4,
+      "reserved_gpu_hours": 0.07555555555555556,
+      "nodes": "gebru",
+      "start": "2026-11-23T09:36:20",
+      "end": "2026-11-23T09:37:28"
+    },
+    "45632": {
+      "role": "training",
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "seconds": 2396,
+      "gpus": 4,
+      "reserved_gpu_hours": 2.6622222222222223,
+      "nodes": "gebru",
+      "start": "2026-11-23T09:37:28",
+      "end": "2026-11-23T10:17:24"
+    },
+    "45633": {
+      "role": "runtime_check",
+      "state": "FAILED",
+      "exit_code": "1:0",
+      "seconds": 173,
+      "gpus": 1,
+      "reserved_gpu_hours": 0.04805555555555555,
+      "nodes": "gebru",
+      "start": "2026-11-23T09:40:42",
+      "end": "2026-11-23T09:43:35"
+    },
+    "45634": {
+      "role": "geometry",
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "seconds": 99,
+      "gpus": 1,
+      "reserved_gpu_hours": 0.0275,
+      "nodes": "gebru",
+      "start": "2026-11-23T10:17:24",
+      "end": "2026-11-23T10:19:03"
+    },
+    "45635": {
+      "role": "smoke",
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "seconds": 1109,
+      "gpus": 4,
+      "reserved_gpu_hours": 1.2322222222222223,
+      "nodes": "gebru",
+      "start": "2026-11-23T10:19:03",
+      "end": "2026-11-23T10:37:32"
+    },
+    "45636": {
+      "role": "full",
+      "state": "TIMEOUT",
+      "exit_code": "0:0",
+      "seconds": 5425,
+      "gpus": 4,
+      "reserved_gpu_hours": 6.027777777777778,
+      "nodes": "gebru",
+      "start": "2026-11-23T10:37:34",
+      "end": "2026-11-23T12:07:59"
+    },
+    "45637": {
+      "role": "controller",
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "seconds": 2,
+      "gpus": 0,
+      "reserved_gpu_hours": 0.0,
+      "nodes": "floyd",
+      "start": "2026-11-23T12:08:00",
+      "end": "2026-11-23T12:08:02"
+    },
+    "45642": {
+      "role": "finalization",
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "seconds": 1,
+      "gpus": 0,
+      "reserved_gpu_hours": 0.0,
+      "nodes": "floyd",
+      "start": "2026-11-23T12:08:02",
+      "end": "2026-11-23T12:08:03"
+    },
+    "45643": {
+      "role": "backfill_amendment",
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "seconds": 0,
+      "gpus": 0,
+      "reserved_gpu_hours": 0.0,
+      "nodes": "floyd",
+      "start": "2026-11-23T12:08:03",
+      "end": "2026-11-23T12:08:03"
+    },
+    "45658": {
+      "role": "full",
+      "state": "TIMEOUT",
+      "exit_code": "0:0",
+      "seconds": 2905,
+      "gpus": 4,
+      "reserved_gpu_hours": 3.227777777777778,
+      "nodes": "gebru",
+      "start": "2026-11-23T12:08:05",
+      "end": "2026-11-23T12:56:30"
+    },
+    "45659": {
+      "role": "controller",
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "seconds": 2,
+      "gpus": 0,
+      "reserved_gpu_hours": 0.0,
+      "nodes": "floyd",
+      "start": "2026-11-23T12:56:32",
+      "end": "2026-11-23T12:56:34"
+    },
+    "45660": {
+      "role": "finalization",
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "seconds": 0,
+      "gpus": 0,
+      "reserved_gpu_hours": 0.0,
+      "nodes": "floyd",
+      "start": "2026-11-23T12:56:36",
+      "end": "2026-11-23T12:56:36"
+    },
+    "45673": {
+      "role": "full",
+      "state": "PENDING",
+      "exit_code": "0:0",
+      "seconds": 0,
+      "gpus": 0,
+      "reserved_gpu_hours": 0.0,
+      "nodes": "None assigned",
+      "start": "Unknown",
+      "end": "Unknown"
+    },
+    "45674": {
+      "role": "controller",
+      "state": "PENDING",
+      "exit_code": "0:0",
+      "seconds": 0,
+      "gpus": 0,
+      "reserved_gpu_hours": 0.0,
+      "nodes": "None assigned",
+      "start": "Unknown",
+      "end": "Unknown"
+    },
+    "45675": {
+      "role": "finalization",
+      "state": "PENDING",
+      "exit_code": "0:0",
+      "seconds": 0,
+      "gpus": 0,
+      "reserved_gpu_hours": 0.0,
+      "nodes": "None assigned",
+      "start": "Unknown",
+      "end": "Unknown"
+    }
+  },
+  "reserved_gpu_hours_by_role": {
+    "preflight": 0.07555555555555556,
+    "training": 2.6622222222222223,
+    "runtime_check": 0.04805555555555555,
+    "geometry": 0.0275,
+    "smoke": 1.2322222222222223,
+    "full": 9.255555555555556,
+    "controller": 0.0,
+    "finalization": 0.0,
+    "backfill_amendment": 0.0
+  },
+  "total_reserved_gpu_hours": 13.301111111111112,
+  "final": false,
+  "scope": "Elapsed allocated GPU-hours, including failures and interruptions; not GPU utilization. Running totals are provisional."
+}

@@ -1,0 +1,16 @@
+{
+  "expected_files": 16814,
+  "potential_reused_files": 11754,
+  "potential_reused_bytes": 2494657306,
+  "unmatched_files": 5060,
+  "unmatched_bytes": 465913733,
+  "unmatched_suffix_counts": {
+    ".md": 3,
+    ".csv": 2,
+    ".out": 1,
+    ".json": 2132,
+    ".jpg": 950,
+    ".png": 1965,
+    ".log": 7
+  }
+}

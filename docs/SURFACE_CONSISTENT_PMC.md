@@ -1,7 +1,26 @@
 # Surface-Consistent PMC: durable research reference
 
+**2026-11-14 completed annotated benchmark:** both full runs are verified and
+registered. LPIPS improves 1.191% [0.749%, 1.641%], paired CLIP 1.323%, VGG 2.360%,
+and SSIM 1.384%; all point gains remain below the earlier 3% goal. The frozen
+unseen subset has LPIPS +0.801% [0.396%, 1.179%]. Coverage is 1,394 versus 1,399
+saved outputs, at 4.733× allocation time. The original 204-target primary cohort
+remains inconclusive. No new training or tuning occurred. Read the
+[completed full results](SURFACE_ANNOTATED_FULL_RESULTS_20261114.md); all pending
+statuses in the dated historical updates below are superseded by this completion.
+
 Recorded 2026-11-05 at the user's request. This note preserves the idea for future
 questions without depending on conversational recall or rereading the HTML.
+
+**2026-11-12 annotated-vocabulary update:** the team now uses annotated vocabulary
+as its baseline. The unchanged transferred method has completed a frozen 204-target
+cohort: primary failure-inclusive LPIPS +0.250% [-0.269%, +0.810%], inconclusive;
+secondary CLIP +1.333%. Both arms save the same 87 outputs. The frozen final-pool
+diagnostic shows no clear LPIPS selector gain, with an LPIPS/CLIP tradeoff from final
+RGB correction. No new training occurred. Read the
+[measured results](SURFACE_ANNOTATED_RESULTS_20261112.md) and
+[full-run continuation](SURFACE_ANNOTATED_CONTINUATION_20261112.md).
+The full annotated benchmark is still pending; previous protocols remain separate.
 
 **2026-11-11 measured update:** the independent
 [128-image confirmation](SURFACE_CONFIRMATION_20261110.md) now establishes a

@@ -1,0 +1,175 @@
+{
+  "passed": true,
+  "at": "2026-11-13T19:06:39.530175+00:00",
+  "targets": 2565,
+  "statistics_scope": "Full operational benchmark, including training/development overlap",
+  "metrics": {
+    "CLIP": {
+      "n": 1387,
+      "images": 1317,
+      "baseline": 28.168627441230228,
+      "method": 28.541179137171476,
+      "absolute_gain": 0.3725516959412457,
+      "relative_gain_percent": 1.3225766740623803,
+      "absolute_ci": [
+        0.284030017581858,
+        0.46129621864109854
+      ],
+      "relative_ci_percent": [
+        1.0067643561663198,
+        1.641338656452276
+      ],
+      "undefined_relative_bootstrap_samples": 0
+    },
+    "LPIPS": {
+      "n": 2565,
+      "images": 2379,
+      "baseline": 0.6144084983053263,
+      "method": 0.6070883523912458,
+      "absolute_gain": 0.0073201459140805475,
+      "relative_gain_percent": 1.1914135195510998,
+      "absolute_ci": [
+        0.004622879365662854,
+        0.0101053932863979
+      ],
+      "relative_ci_percent": [
+        0.7493683686125686,
+        1.6411362730789947
+      ],
+      "undefined_relative_bootstrap_samples": 0
+    },
+    "Feature Similarity": {
+      "n": 2565,
+      "images": 2379,
+      "baseline": 0.3496083703538363,
+      "method": 0.3578593586155778,
+      "absolute_gain": 0.008250988261741504,
+      "relative_gain_percent": 2.3600659942411375,
+      "absolute_ci": [
+        0.005749076297420311,
+        0.010831202008512718
+      ],
+      "relative_ci_percent": [
+        1.6435998025371956,
+        3.0998897766005737
+      ],
+      "undefined_relative_bootstrap_samples": 0
+    },
+    "SSIM": {
+      "n": 2565,
+      "images": 2379,
+      "baseline": 0.44562376843817736,
+      "method": 0.45179261583260805,
+      "absolute_gain": 0.006168847394430775,
+      "relative_gain_percent": 1.3843174065987005,
+      "absolute_ci": [
+        0.0033068165592231025,
+        0.009165824748464965
+      ],
+      "relative_ci_percent": [
+        0.7441206319547986,
+        2.0610210658880384
+      ],
+      "undefined_relative_bootstrap_samples": 0
+    }
+  },
+  "status_counts": {
+    "baseline": {
+      "no_completion": 608,
+      "ambiguous_target": 329,
+      "not_detected": 234,
+      "success": 1394
+    },
+    "surface": {
+      "no_completion": 603,
+      "ambiguous_target": 329,
+      "not_detected": 234,
+      "success": 1399
+    }
+  },
+  "transitions": {
+    "no_completion -> no_completion": 596,
+    "ambiguous_target -> ambiguous_target": 329,
+    "not_detected -> not_detected": 234,
+    "success -> success": 1387,
+    "no_completion -> success": 12,
+    "success -> no_completion": 7
+  },
+  "unseen_targets": 2017,
+  "unseen_images": 1900,
+  "unseen_metrics": {
+    "CLIP": {
+      "n": 1011,
+      "images": 972,
+      "baseline": 28.161953296906635,
+      "method": 28.538611043218808,
+      "absolute_gain": 0.3766577463121725,
+      "relative_gain_percent": 1.3374702469716309,
+      "absolute_ci": [
+        0.27523790238492585,
+        0.478016806801636
+      ],
+      "relative_ci_percent": [
+        0.9749724606091685,
+        1.7023581052972245
+      ],
+      "undefined_relative_bootstrap_samples": 0
+    },
+    "LPIPS": {
+      "n": 2017,
+      "images": 1900,
+      "baseline": 0.642323846997574,
+      "method": 0.6371766506838781,
+      "absolute_gain": 0.005147196313695973,
+      "relative_gain_percent": 0.8013397506188826,
+      "absolute_ci": [
+        0.0025597221612306204,
+        0.007587578581626213
+      ],
+      "relative_ci_percent": [
+        0.3962796907703645,
+        1.1794104885476318
+      ],
+      "undefined_relative_bootstrap_samples": 0
+    },
+    "Feature Similarity": {
+      "n": 2017,
+      "images": 1900,
+      "baseline": 0.32246654973091554,
+      "method": 0.32859682474593804,
+      "absolute_gain": 0.006130275015022475,
+      "relative_gain_percent": 1.9010576508285668,
+      "absolute_ci": [
+        0.0036541390809741617,
+        0.00841337583399053
+      ],
+      "relative_ci_percent": [
+        1.1336465155116418,
+        2.6035507956940487
+      ],
+      "undefined_relative_bootstrap_samples": 0
+    },
+    "SSIM": {
+      "n": 2017,
+      "images": 1900,
+      "baseline": 0.4139410871160934,
+      "method": 0.41782504314763663,
+      "absolute_gain": 0.003883956031543186,
+      "relative_gain_percent": 0.9382871506190678,
+      "absolute_ci": [
+        0.0013888753742892798,
+        0.006277544052909072
+      ],
+      "relative_ci_percent": [
+        0.33125415513572565,
+        1.5210297681591973
+      ],
+      "undefined_relative_bootstrap_samples": 0
+    }
+  },
+  "unseen_inventory_sha256": "393dbc2d9ab38f568e93a2ae773315d0aec09327e27cf4cff8b96cad862eb437",
+  "unseen_limitation": "Identity/source-byte exclusions only; near-copy screen was exhaustive only for the primary cohort.",
+  "local_neural_metrics_rerun": false,
+  "source_sha256": "eae716a4c503ea4a26f27bbec35bee8dddd098c8c72a1d247b902c086f14a218",
+  "estimate_source_sha256": "94a9d68dfb8756e6d2b0a6e60c49e105268a21e0a5b8a67fe7de1bcd37e1dfc8"
+}

@@ -1,0 +1,65 @@
+{
+  "jobs": {
+    "45632": [
+      "COMPLETED",
+      "0:0"
+    ],
+    "45634": [
+      "COMPLETED",
+      "0:0"
+    ],
+    "45635": [
+      "COMPLETED",
+      "0:0"
+    ],
+    "45636": [
+      "TIMEOUT",
+      "0:0"
+    ],
+    "45637": [
+      "COMPLETED",
+      "0:0"
+    ],
+    "45642": [
+      "COMPLETED",
+      "0:0"
+    ],
+    "45643": [
+      "COMPLETED",
+      "0:0"
+    ],
+    "45658": [
+      "TIMEOUT",
+      "0:0"
+    ],
+    "45659": [
+      "COMPLETED",
+      "0:0"
+    ],
+    "45660": [
+      "COMPLETED",
+      "0:0"
+    ],
+    "45673": [
+      "PENDING",
+      "0:0"
+    ],
+    "45674": [
+      "PENDING",
+      "0:0"
+    ],
+    "45675": [
+      "PENDING",
+      "0:0"
+    ]
+  },
+  "counts": {
+    "ambiguous_target": 57,
+    "no_completion": 38,
+    "success": 112,
+    "not_detected": 15
+  },
+  "export_ready": false,
+  "at": "2026-11-24T12:38:07.772514+00:00",
+  "disposition": "waiting"
+}

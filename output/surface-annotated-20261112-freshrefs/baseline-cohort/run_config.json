@@ -1,0 +1,49 @@
+{
+  "schema": 1,
+  "adapter_version": 7,
+  "upstream_commit": "bfbfcdec581484586774d9ca53f5c603c97c725b",
+  "upstream_main_sha256": "eed6b9eefe6c8aff9ad3d14046c5df8c04b5bc79cfd8ef586e97e51456331c8e",
+  "sd_model": "sd2-community/stable-diffusion-2-inpainting",
+  "sd_revision": "5f74973cbb64c8568780732c17f43eb269d63a0d",
+  "mc_timestep": 35,
+  "max_iter_id": 5,
+  "seed": 0,
+  "target_selection": "label-semantic",
+  "vocabulary_sha256": "94955474fbb1704c6a1ebf5360d5f8996aee43114bd4cea82ca64204412ad97f",
+  "annotation_sha256": {
+    "VG": "ae34ea4799229aef0581899147acb807835f763bca65f9bd3cbbd822d57d9cf1",
+    "COCOA": "b6b83727442f5c6f5f544821910ee10a23e65e0f67330b22df6b3ebf5d12fa89",
+    "free_images": "391870fd203c02ae7500a41b4cf360d6d06414187018437eb4b4dfe27cdf1ff6",
+    "laion": "dbb0f7512256e2988bb9fb1c5253b111f9e6db503b4e6ca5b6134bcdd9bdd935"
+  },
+  "pipeline_profile": "released-sam",
+  "boundary_check": "released",
+  "reference_backend": "grounded-sam",
+  "resize_background": true,
+  "label_matching": {
+    "version": 2,
+    "aliases_sha256": "312fbdd25431183cbfc3c06ec98515301ff653380ce6f2d1f69dd066e775781e",
+    "annotation_rule": "longest-object-suffix-before-spatial-description-v1",
+    "deduplication": "exact-binary-mask",
+    "duplicate_representative": "highest-detector-score/stable-first-index",
+    "implementation_sha256": "0e60f36d26f9a962ce4f8a933a7a8cafd56452b3e59d461ab5c4c9ec54845c07"
+  },
+  "detector_vocabulary": {
+    "version": 1,
+    "mode": "annotated",
+    "queries": "base-scene-vocabulary-plus-per-image-missing-annotation-categories",
+    "base_chunking": "tokenizer-budget-preserve-order-v1",
+    "extra_chunking": "one-category-per-query",
+    "max_text_tokens": 256,
+    "query_gate": "base-plus-added-categories-and-their-returned-phrases",
+    "deduplication": "semantic-matcher-exact-masks-only",
+    "image_queries_sha256": "fb5a6fbd4c96bef88d04d4b3b6a1381791e9fdb41a02a4c27500824c8526607c",
+    "implementation_sha256": "1e38eedf7bddb16c2dbee8f8934aa77d60026698d55577ba90fa7d8aef8b0bea"
+  },
+  "checkpoints": {
+    "Grounded-Segment-Anything/groundingdino_swint_ogc.pth": "3b3ca2563c77c69f651d7bd133e97139c186df06231157a64c507099c52bc799",
+    "Grounded-Segment-Anything/sam_vit_h_4b8939.pth": "a7bf3b02f3ebf1267aba913ff637d9a2d5c33d3173bb679e46d9f338c26f262e",
+    "InstaOrder/InstaOrder_ckpt/InstaOrder_InstaOrderNet_od.pth.tar": "ffe72d3aad43704b11219cb75c029dc604de110d967c9fe901d03f51ff36cfc7",
+    "lama/big-lama/models/best.ckpt": "fccb7adffd53ec0974ee5503c3731c2c2f1e7e07856fd9228cdcc0b46fd5d423"
+  }
+}

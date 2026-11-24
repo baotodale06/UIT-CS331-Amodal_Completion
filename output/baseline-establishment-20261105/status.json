@@ -1,0 +1,301 @@
+{
+  "created_utc": "2026-11-05T07:19:18.582802+00:00",
+  "status": "full_baseline_accepted",
+  "baseline_config": "configs/baseline.json",
+  "full_output": "output/pdmc-baseline-provenance-20261105",
+  "smoke_config": "configs/baseline-gpu-smoke.json",
+  "workers": 4,
+  "source_upload_files": 88,
+  "local_tests": {
+    "python": 155,
+    "python_failures": 0,
+    "python_skips": 0,
+    "bash_regressions": 5,
+    "synthetic_smoke": "passed"
+  },
+  "source_image_preflight": {
+    "selected_targets": 2565,
+    "missing_images": 0
+  },
+  "gpu_runtime_validation": "passed_on_all_four_allocated_quadro_gpus_including_fft",
+  "gpu_smoke": "four_worker_scored_smoke_passed_with_provenance",
+  "full_evaluation": "complete_verified_and_registered",
+  "experiment_registered": true,
+  "remote_changes": true,
+  "launch_guide": "LAUNCH.md",
+  "authorization": "User authorized agents to execute remote transfers/submissions and requested AGENTS.md updated on 2026-11-05.",
+  "job_id": "31548",
+  "updated_utc": "2026-11-06T10:01:49.705252+00:00",
+  "runtime_job_id": "31548",
+  "runtime_smoke_job_id": "31548",
+  "cache_dir": "/home/daoqm/Vu_Hung/cv_nangcao/.amodal-cache",
+  "dependency_chain": [],
+  "job_history": [
+    {
+      "job_id": "30423",
+      "status": "cancelled_while_pending",
+      "reason": "Replace volatile missing cache with persistent cache and gated runtime preparation"
+    },
+    {
+      "job_id": "30424",
+      "status": "failed",
+      "reason": "Configured /dev/shm Python environment not executable; no inference ran"
+    },
+    {
+      "job_id": "30425",
+      "status": "completed",
+      "reason": "Pinned environment repair and CUDA/import validation passed"
+    },
+    {
+      "job_id": "30428",
+      "status": "failed",
+      "reason": "Scored smoke failed in cuFFT on L40S after seven selection failures; preserved execution and artifacts"
+    },
+    {
+      "job_id": "30440",
+      "status": "failed_as_expected",
+      "reason": "Isolated FFT reproduced CUFFT_INTERNAL_ERROR on L40S with the same pinned runtime"
+    },
+    {
+      "job_id": "30436",
+      "status": "completed",
+      "reason": "Scored Quadro smoke verified with provenance; one completion and seven selection failures"
+    },
+    {
+      "job_id": "30426",
+      "status": "failed",
+      "reason": "Launcher combined --run-only and --setup-only; no inference ran"
+    }
+  ],
+  "runtime_validation_evidence": "runtime-evidence-31548/",
+  "partition": "debug-gpu",
+  "launcher_repair": "launcher-repair-20261106T052337Z.json",
+  "submission_receipt": "submission-repaired-20261106.json",
+  "workflow_id": "20261106T052433Z-c6cfb8b1",
+  "watcher_status": "watcher-status.json",
+  "watcher_process": "watcher-process.json",
+  "acceptance_report": "REPORT.md",
+  "full_started_utc": "2026-11-06T05:30:38.530839+00:00",
+  "local_independent_verification": true,
+  "job_state": "COMPLETED",
+  "job_elapsed": "04:02:38",
+  "statistics": {
+    "VG": {
+      "targets": 1294,
+      "successes": 588,
+      "failures": 706,
+      "reference_failures": 0,
+      "missing_images": 0,
+      "failure_rate": 0.5455950540958269,
+      "status_counts": {
+        "not_detected": 328,
+        "ambiguous_target": 136,
+        "success": 588,
+        "no_completion": 242
+      },
+      "failure_reasons": {
+        "label_not_matched": 324,
+        "multiple_distinct_instances": 136,
+        "no_occlusion_detected": 197,
+        "no_detections": 4,
+        "query_mask_too_small": 40,
+        "completion_not_detected": 4,
+        "unknown_detected_class": 1
+      },
+      "completed_outputs": 502,
+      "iteration_limited_outputs": 86,
+      "completion_state_unknown": 0,
+      "failure_stage_counts": {
+        "target_selection": 460,
+        "occlusion_check": 197,
+        "initial_segmentation": 4,
+        "query_filter": 41,
+        "completion_segmentation": 4
+      },
+      "target_selection_failures": 460,
+      "initial_segmentation_failures": 4,
+      "pdmc_failures": 242,
+      "CLIP": 28.66650946610639,
+      "CLIP_n": 588,
+      "LPIPS": 0.6689102531625232,
+      "LPIPS_n": 1294,
+      "Feature Similarity": 0.3049719695353066,
+      "Feature Similarity_n": 1294,
+      "SSIM": 0.37427378376775866,
+      "SSIM_n": 1294
+    },
+    "COCOA": {
+      "targets": 845,
+      "successes": 249,
+      "failures": 596,
+      "reference_failures": 0,
+      "missing_images": 0,
+      "failure_rate": 0.7053254437869823,
+      "status_counts": {
+        "not_detected": 353,
+        "no_completion": 140,
+        "success": 249,
+        "ambiguous_target": 103
+      },
+      "failure_reasons": {
+        "label_not_matched": 348,
+        "completion_not_detected": 10,
+        "multiple_distinct_instances": 103,
+        "query_mask_too_small": 21,
+        "no_occlusion_detected": 109,
+        "no_detections": 5
+      },
+      "completed_outputs": 205,
+      "iteration_limited_outputs": 44,
+      "completion_state_unknown": 0,
+      "failure_stage_counts": {
+        "target_selection": 451,
+        "completion_segmentation": 10,
+        "query_filter": 21,
+        "occlusion_check": 109,
+        "initial_segmentation": 5
+      },
+      "target_selection_failures": 451,
+      "initial_segmentation_failures": 5,
+      "pdmc_failures": 140,
+      "CLIP": 28.00024005782652,
+      "CLIP_n": 249,
+      "LPIPS": 0.8015418890224406,
+      "LPIPS_n": 845,
+      "Feature Similarity": 0.17777057438207097,
+      "Feature Similarity_n": 845,
+      "SSIM": 0.2352672199859566,
+      "SSIM_n": 845
+    },
+    "free_images": {
+      "targets": 249,
+      "successes": 62,
+      "failures": 187,
+      "reference_failures": 0,
+      "missing_images": 0,
+      "failure_rate": 0.751004016064257,
+      "status_counts": {
+        "success": 62,
+        "not_detected": 153,
+        "no_completion": 28,
+        "ambiguous_target": 6
+      },
+      "failure_reasons": {
+        "no_detections": 21,
+        "label_not_matched": 132,
+        "no_occlusion_detected": 25,
+        "query_mask_too_small": 3,
+        "multiple_distinct_instances": 6
+      },
+      "completed_outputs": 45,
+      "iteration_limited_outputs": 17,
+      "completion_state_unknown": 0,
+      "failure_stage_counts": {
+        "initial_segmentation": 21,
+        "target_selection": 138,
+        "occlusion_check": 25,
+        "query_filter": 3
+      },
+      "target_selection_failures": 138,
+      "initial_segmentation_failures": 21,
+      "pdmc_failures": 28,
+      "CLIP": 27.90451046728319,
+      "CLIP_n": 62,
+      "LPIPS": 0.824482657898023,
+      "LPIPS_n": 249,
+      "Feature Similarity": 0.16747582868399868,
+      "Feature Similarity_n": 249,
+      "SSIM": 0.20043601156231317,
+      "SSIM_n": 249
+    },
+    "laion": {
+      "targets": 177,
+      "successes": 52,
+      "failures": 125,
+      "reference_failures": 0,
+      "missing_images": 0,
+      "failure_rate": 0.7062146892655368,
+      "status_counts": {
+        "not_detected": 100,
+        "success": 52,
+        "no_completion": 19,
+        "ambiguous_target": 6
+      },
+      "failure_reasons": {
+        "no_detections": 27,
+        "label_not_matched": 73,
+        "no_occlusion_detected": 13,
+        "multiple_distinct_instances": 6,
+        "completion_not_detected": 1,
+        "query_mask_too_small": 5
+      },
+      "completed_outputs": 44,
+      "iteration_limited_outputs": 8,
+      "completion_state_unknown": 0,
+      "failure_stage_counts": {
+        "initial_segmentation": 27,
+        "target_selection": 79,
+        "occlusion_check": 13,
+        "completion_segmentation": 1,
+        "query_filter": 5
+      },
+      "target_selection_failures": 79,
+      "initial_segmentation_failures": 27,
+      "pdmc_failures": 19,
+      "CLIP": 27.765186126415546,
+      "CLIP_n": 52,
+      "LPIPS": 0.7747408686637205,
+      "LPIPS_n": 177,
+      "Feature Similarity": 0.20231415373457354,
+      "Feature Similarity_n": 177,
+      "SSIM": 0.25533266559505097,
+      "SSIM_n": 177
+    },
+    "Overall": {
+      "targets": 2565,
+      "successes": 951,
+      "failures": 1614,
+      "reference_failures": 0,
+      "missing_images": 0,
+      "failure_rate": 0.6292397660818714,
+      "status_counts": {
+        "not_detected": 934,
+        "ambiguous_target": 251,
+        "success": 951,
+        "no_completion": 429
+      },
+      "failure_reasons": {
+        "label_not_matched": 877,
+        "multiple_distinct_instances": 251,
+        "no_occlusion_detected": 344,
+        "no_detections": 57,
+        "query_mask_too_small": 69,
+        "completion_not_detected": 15,
+        "unknown_detected_class": 1
+      },
+      "completed_outputs": 796,
+      "iteration_limited_outputs": 155,
+      "completion_state_unknown": 0,
+      "failure_stage_counts": {
+        "target_selection": 1128,
+        "occlusion_check": 344,
+        "initial_segmentation": 57,
+        "query_filter": 70,
+        "completion_segmentation": 15
+      },
+      "target_selection_failures": 1128,
+      "initial_segmentation_failures": 57,
+      "pdmc_failures": 429,
+      "CLIP": 28.39309849423189,
+      "CLIP_n": 951,
+      "LPIPS": 0.7350089978114439,
+      "LPIPS_n": 2565,
+      "Feature Similarity": 0.24263584814225023,
+      "Feature Similarity_n": 2565,
+      "SSIM": 0.3033970860713267,
+      "SSIM_n": 2565
+    }
+  },
+  "registry_entry_id": "ec823094e31f226957ef0442f0480cf14ae2db91c79550a9701a9e0aef99b07c",
+  "recovered_run": "C:\\Users\\daovu\\Documents\\Project\\cv_nangcao\\output\\baseline-31548\\output\\pdmc-baseline-provenance-20261105"
+}

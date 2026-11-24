@@ -1,0 +1,21 @@
+{
+  "local_distinct_tests": 12,
+  "local_optional_skips": 0,
+  "cluster_finalization_tests": 5,
+  "cluster_optional_skips": 0,
+  "cluster_test_log_sha256": "a30b5db07a94643d4da5ed9349ac8b68523ffff14b0173f8f80e3075148256ee",
+  "bash_syntax_checks": [
+    "scripts/run_shape_v2_finalization.sh",
+    "amend_backfill.sh"
+  ],
+  "files": {
+    "scripts/collect_shape_v2.py": "031ea40cf482b9f98defde43e13808b76dae6b7c53d8bce323f49c067df4359c",
+    "scripts/recover_shape_v2.py": "148607135793319b443538f35516d2f803aa9cef7c90e6ce4aa5edf89856c171",
+    "scripts/finalize_shape_v2.py": "84b56493164e7cf0c0821a663ce30c3210b7ff287c661089d496a7d9a115a8bc",
+    "scripts/run_shape_v2_finalization.sh": "66a5dd8bc41afabea41e6ffb62d2b9bda8f65b4c72e3d13e47fc47b097369be5",
+    "tests/test_shape_v2_collection.py": "052c5a333b026a16ce1b0337d5bfddafa8a69f9c9474d22db946ae9b65dfcb26",
+    "tests/test_shape_v2_finalization.py": "3ac8ffbbb2bbf23edf50a52a268128c8b4656fbc50bafd8f701bb895dd2de1cb",
+    "tests/test_shape_v2_recovery.py": "b2c31e88c572451f33a3a055bded9973a8d235c15d046060f99437df5b165523"
+  },
+  "scope": "Operational export/recovery changes; frozen training/inference sources unchanged. Native smoke replay separately verified."
+}

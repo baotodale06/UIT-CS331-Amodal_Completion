@@ -1,0 +1,445 @@
+{
+  "created_utc": "2026-11-05T09:48:11.826118+00:00",
+  "files": [
+    {
+      "path": "amodal_benchmark/__init__.py",
+      "bytes": 84,
+      "sha256": "834ad15d00bb81069fab4cfaa2b5da8dc1e987eb119b64a3c57d2dfb3b3a9aaf"
+    },
+    {
+      "path": "amodal_benchmark/__main__.py",
+      "bytes": 48,
+      "sha256": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d"
+    },
+    {
+      "path": "amodal_benchmark/cli.py",
+      "bytes": 5286,
+      "sha256": "38d36893831315dd5fb20dc44035c6f52535a6c25b33f87b954fd1844c0ffcaf"
+    },
+    {
+      "path": "amodal_benchmark/config.py",
+      "bytes": 8792,
+      "sha256": "4ab69c6cf914c3eda39bf0e4f8897d373557eceae9026761f4d41ba125e4a596"
+    },
+    {
+      "path": "amodal_benchmark/dataset.py",
+      "bytes": 5969,
+      "sha256": "f4ff471c26f6d51f6234f5ffeed2d580320ca0777a38801acd0036e96a38ddf9"
+    },
+    {
+      "path": "amodal_benchmark/detection.py",
+      "bytes": 4831,
+      "sha256": "1e38eedf7bddb16c2dbee8f8934aa77d60026698d55577ba90fa7d8aef8b0bea"
+    },
+    {
+      "path": "amodal_benchmark/inference.py",
+      "bytes": 11336,
+      "sha256": "602c9d4a0d9fb18fe5fc0602cf61804245dbd0ae5e251ba834904712922415bf"
+    },
+    {
+      "path": "amodal_benchmark/knowledge.py",
+      "bytes": 1342,
+      "sha256": "de79ef90890e1960dd3240064e7ddd9e7a015f280293b2ed16393f2a19a5f369"
+    },
+    {
+      "path": "amodal_benchmark/matching.py",
+      "bytes": 6634,
+      "sha256": "0e60f36d26f9a962ce4f8a933a7a8cafd56452b3e59d461ab5c4c9ec54845c07"
+    },
+    {
+      "path": "amodal_benchmark/metrics.py",
+      "bytes": 4941,
+      "sha256": "3a9c2555b6f14b5ccab6a42ba5b0927f10669821b2ae1fa0e86c2bc1d890ad96"
+    },
+    {
+      "path": "amodal_benchmark/parallel.py",
+      "bytes": 6280,
+      "sha256": "4bf7eab792391b99b036b868eae63f0c02d6029e7310c2d2bcd6b22c3c738803"
+    },
+    {
+      "path": "amodal_benchmark/placement.py",
+      "bytes": 5569,
+      "sha256": "ae0e5bb3e9e63cb4fbd098aec1a1bb9cca7980e9caab7d7d553bef8f3b5be779"
+    },
+    {
+      "path": "amodal_benchmark/planning.py",
+      "bytes": 2014,
+      "sha256": "3352b560a10e95e4a2aa0c15784e67c819dd0023172ff326166a6e47e07eab14"
+    },
+    {
+      "path": "amodal_benchmark/protocol.py",
+      "bytes": 9184,
+      "sha256": "f5f680a99c213da5f5ec8b3eb215922aa222072ac37b803724d6a0645882cffa"
+    },
+    {
+      "path": "amodal_benchmark/provenance.py",
+      "bytes": 8884,
+      "sha256": "b466fbecb0044c605be02cbaf4e5c7917febaf222fc5e1303dea119bd5ef0f8b"
+    },
+    {
+      "path": "amodal_benchmark/references.py",
+      "bytes": 10841,
+      "sha256": "8edd572daf8d28a965c93c0bd3b19f811aa456ca31b5767b86187b8aa8ea3fe2"
+    },
+    {
+      "path": "amodal_benchmark/registry.py",
+      "bytes": 10971,
+      "sha256": "b3ab83f21ff1a6e71eff2321f7af0290a05d496d33f6ab7e5bb53985c043601d"
+    },
+    {
+      "path": "amodal_benchmark/reproduction.py",
+      "bytes": 13659,
+      "sha256": "ce58e7bbf3fa03a974da652156ab956dce057963415edff254780a125f6b424a"
+    },
+    {
+      "path": "amodal_benchmark/reuse.py",
+      "bytes": 6284,
+      "sha256": "a6af9da7915299f1f5ccc33df7df78d3151304d97720894f1b568a4976eccb24"
+    },
+    {
+      "path": "amodal_benchmark/smoke.py",
+      "bytes": 6431,
+      "sha256": "55ed67e55e60d99ae6d675513e28f82ff1fe5c9b22078dde724884eed5ecf432"
+    },
+    {
+      "path": "amodal_benchmark/verify.py",
+      "bytes": 15520,
+      "sha256": "7f9f39133898c36dd18c02f50595c7ce8dba38a00ca16275b2bdd78e4e94d9a7"
+    },
+    {
+      "path": "configs/annotated.json",
+      "bytes": 264,
+      "sha256": "0f90f08b13c7b3eddc48342355c7e3d22d2456297d58cab83642a4c6bf9b471a"
+    },
+    {
+      "path": "configs/baseline-gpu-smoke.json",
+      "bytes": 352,
+      "sha256": "2274016ec70a0dc5b1a8e491774c4b00d8d808a723f3bd78676676e75906c7ce"
+    },
+    {
+      "path": "configs/baseline.json",
+      "bytes": 873,
+      "sha256": "af77625021de2bbfc4534ed523b307f1418a0b772025ba12140b85f82f1476d4"
+    },
+    {
+      "path": "configs/lisa-reference.json",
+      "bytes": 329,
+      "sha256": "12cc9fa291f72a4a46d72e0633ad141c0083231e26e08a9b3deb3b145f03886c"
+    },
+    {
+      "path": "configs/smoke.json",
+      "bytes": 256,
+      "sha256": "d3263686c9baa9c639d40c92a9f8e0d09b27f84e2c3409a2ff01ad2a06a1ce5a"
+    },
+    {
+      "path": "scripts/check.sh",
+      "bytes": 323,
+      "sha256": "9905d27a65e5a0414ce27bbae1e89d93271b6abb1ac23e7b7ad65100a1e60d4c"
+    },
+    {
+      "path": "scripts/pull.ps1",
+      "bytes": 2193,
+      "sha256": "cf901180d7cc52cc8aef72e811e315a6265dee3b94e9b6df793e6bab027be1fc"
+    },
+    {
+      "path": "scripts/push.ps1",
+      "bytes": 3599,
+      "sha256": "1447e275d9bb113098623ce6aeaa400ebb2a8a9cfc4c1bcc9b6e7077b4e78ade"
+    },
+    {
+      "path": "scripts/run_baseline_slurm.sh",
+      "bytes": 418,
+      "sha256": "b4fe6fc9d5f15109b92b5a222b200b5ed0b786226cdc8d70128d15365282a7ad"
+    },
+    {
+      "path": "scripts/run_baseline_workflow.py",
+      "bytes": 9966,
+      "sha256": "b2308b2b768318502abc0efa88cd037642a768e3444a070f30bcc25e49405ea7"
+    },
+    {
+      "path": "scripts/smoke_check.py",
+      "bytes": 239,
+      "sha256": "a01ead2629f38e4d90143c99ac12dc2f5c65ad9a942f71c11649d275e07f2f0c"
+    },
+    {
+      "path": "tests/fixtures/official/COCOA/cocoa_annotation.json",
+      "bytes": 129982,
+      "sha256": "b6b83727442f5c6f5f544821910ee10a23e65e0f67330b22df6b3ebf5d12fa89"
+    },
+    {
+      "path": "tests/fixtures/official/free_images/website_annotations.json",
+      "bytes": 39183,
+      "sha256": "391870fd203c02ae7500a41b4cf360d6d06414187018437eb4b4dfe27cdf1ff6"
+    },
+    {
+      "path": "tests/fixtures/official/laion/laion_00000_annotation.json",
+      "bytes": 25761,
+      "sha256": "dbb0f7512256e2988bb9fb1c5253b111f9e6db503b4e6ca5b6134bcdd9bdd935"
+    },
+    {
+      "path": "tests/fixtures/official/VG/VG_annotation.json",
+      "bytes": 174767,
+      "sha256": "ae34ea4799229aef0581899147acb807835f763bca65f9bd3cbbd822d57d9cf1"
+    },
+    {
+      "path": "tests/fixtures/pdmc_main.py",
+      "bytes": 29889,
+      "sha256": "eed6b9eefe6c8aff9ad3d14046c5df8c04b5bc79cfd8ef586e97e51456331c8e"
+    },
+    {
+      "path": "tests/fixtures/README.md",
+      "bytes": 1088,
+      "sha256": "96a729d84b9dd8dca398184a7bd8f7630c00eba0d82ae83163e86b8c76334aa3"
+    },
+    {
+      "path": "tests/README.md",
+      "bytes": 2219,
+      "sha256": "5a730e3154a33a9c8288867f74b2822bfa638dc3af9c758801bad46140617b91"
+    },
+    {
+      "path": "tests/test_amodal_import_paths.py",
+      "bytes": 3948,
+      "sha256": "a2cf57c7d3e2548f03954506026cc30f1fa16bcfa4b18ffa3a142ba9754684fe"
+    },
+    {
+      "path": "tests/test_amodal_model_source.py",
+      "bytes": 5635,
+      "sha256": "c4c2b0d4fe922f93e0a84cac09a50a13d5c2ac1f47ecbc866591874213e58970"
+    },
+    {
+      "path": "tests/test_baseline_workflow.py",
+      "bytes": 6370,
+      "sha256": "74828b590707a40d58931317e5b096c8d4356acb4397d363eb413a97ba233a05"
+    },
+    {
+      "path": "tests/test_detection_vocabulary.py",
+      "bytes": 4725,
+      "sha256": "868843f8ce2749ba0c4c6bda47a8dcc1ec0d9b781fbd89cadf1878843f332acf"
+    },
+    {
+      "path": "tests/test_inference_protocol.py",
+      "bytes": 11677,
+      "sha256": "af3958835596bc46040201d9344e02a35267d2692dfd8cfa5d1c5126cdd813e1"
+    },
+    {
+      "path": "tests/test_lisa_placement.py",
+      "bytes": 2723,
+      "sha256": "7261362d4a99b82bb7d8991d6f170442e75e8e45de127f27bd4cffaa69200795"
+    },
+    {
+      "path": "tests/test_mixed_context_background.py",
+      "bytes": 5256,
+      "sha256": "ee086138d82ae2f7f82dbca0ee3255638af02f435cfcc11196fcd4f22d8b4c3c"
+    },
+    {
+      "path": "tests/test_open_world_benchmark.py",
+      "bytes": 16598,
+      "sha256": "468182be29491ceb44f233b84219f85158df912daf1d4efc85fccc475e5b30c0"
+    },
+    {
+      "path": "tests/test_open_world_slurm.sh",
+      "bytes": 3778,
+      "sha256": "59c0e63311adc53713735f01a74a9772590689d73d50b17f86bb8c024c07b1dc"
+    },
+    {
+      "path": "tests/test_parallel_benchmark.py",
+      "bytes": 7637,
+      "sha256": "01aa5766fed8f6e6d3098d00043aec45da7ea3def4ffd347ffc2a69bda2e7617"
+    },
+    {
+      "path": "tests/test_parallel_evaluation.py",
+      "bytes": 58713,
+      "sha256": "d2bc5c5e5bd4691ed6a402cdc1b0a5ed651eaf76dc2c3b610a55478852f6138e"
+    },
+    {
+      "path": "tests/test_pdmc_open_world_slurm.sh",
+      "bytes": 5857,
+      "sha256": "cbc98c8d13adaf0f5354c677df6c724f698ec536dd94c2f7bbf5b7fb84479482"
+    },
+    {
+      "path": "tests/test_project_workflow.py",
+      "bytes": 17615,
+      "sha256": "804f6496b6094217877c4661dbf7a1071efbc039d8a92afd1e700da03f2803dd"
+    },
+    {
+      "path": "tests/test_reproduction.py",
+      "bytes": 16395,
+      "sha256": "ec7dcd46f440d313c6267fdfc4e2cbaa27a8623b18d19f8bd4700d8f1feea68e"
+    },
+    {
+      "path": "tests/test_run_amodal_slurm.sh",
+      "bytes": 13221,
+      "sha256": "9df188edabf91df419dfcefec64534edb90011179d2b1788379cfd1b05c4a00f"
+    },
+    {
+      "path": "tests/test_run_modes.sh",
+      "bytes": 1404,
+      "sha256": "c005c27f9b1b455a742026f5f15e3a55dfa5959b0a8ba9d23d8a7bf93c387282"
+    },
+    {
+      "path": "tests/test_script_directory.sh",
+      "bytes": 1926,
+      "sha256": "0b447a30aafa565e538b774c0ead20e4d1e4d3c27dd63be4ef5eba9099bc2f0d"
+    },
+    {
+      "path": "tests/test_semantic_matching.py",
+      "bytes": 6417,
+      "sha256": "4ee2b95c5dcc364e6da67f3bfbbc42539682406554103c604cfa79fd2fc2a7be"
+    },
+    {
+      "path": "tests/test_visible_references.py",
+      "bytes": 6787,
+      "sha256": "01dc4b793b9f23b4f95b94319e96e8b235793f3a59b7772132ffdf19afc218ba"
+    },
+    {
+      "path": "tests/validate_cuda_extension.sh",
+      "bytes": 2409,
+      "sha256": "84e26f4486da4a68260ca91651f31972fe0a2714b82e38dfaadb3ddea88f6492"
+    },
+    {
+      "path": "tests/validate_pipeline_imports.sh",
+      "bytes": 1599,
+      "sha256": "ffca8a3860a2ae358ae8395b0f40d7e5ce8d461cd408f51ebc9bf9be11bd9a2d"
+    },
+    {
+      "path": "cookbooks/cluster-recovery.md",
+      "bytes": 2156,
+      "sha256": "c4e34eae1cbce75e562033f0ac3a3f0f912be89cbbb364af8504940eee252bd5"
+    },
+    {
+      "path": "cookbooks/reproducible-evaluation.md",
+      "bytes": 2028,
+      "sha256": "d21d608965e72ef05d41f931c02ea1eff56565dc9b3634fe2760233750bb1d12"
+    },
+    {
+      "path": "docs/archive/plans/2026-10-16-multi-gpu-pdmc.md",
+      "bytes": 4564,
+      "sha256": "c269ca04d4a3ab6366f5a95fc9175636851feb97eaccb14bcc8021c966d0e402"
+    },
+    {
+      "path": "docs/archive/plans/2026-10-24-fix-sam-evaluation-wrapper.md",
+      "bytes": 4667,
+      "sha256": "b3c4feadd8eb1f1a655c66ef835daf9ff239faccc480d013cf0a982cea3a949a"
+    },
+    {
+      "path": "docs/archive/README.md",
+      "bytes": 804,
+      "sha256": "c85f9e10b25867cc6d865986f74c8d14d9e5ead2df869b8421e3909174c7c8fb"
+    },
+    {
+      "path": "docs/CODEBASE.md",
+      "bytes": 5852,
+      "sha256": "9fd8b596090a28684adbddebb9c45dccc50645a3b7effc80606a8ed7fa32abbe"
+    },
+    {
+      "path": "docs/PAPER_CODE_MAP.md",
+      "bytes": 36170,
+      "sha256": "a4a164a1bdbf94b19e536d282065d11ab9fef9d0a999cfefbf632c8069bb5935"
+    },
+    {
+      "path": "docs/PAPER_SUMMARY.md",
+      "bytes": 23378,
+      "sha256": "303a73498e6b054ebb6e98b94655ce7295e38564aa865094e1b7ed301f9573f0"
+    },
+    {
+      "path": "docs/README.md",
+      "bytes": 2003,
+      "sha256": "7256e5d3b0faa6079dacba24d0cfcb9919cec7f38ef0c91db02f96b6d1f4b953"
+    },
+    {
+      "path": "docs/research/SURFACE_CONSISTENT_PMC_SOURCE.md",
+      "bytes": 26395,
+      "sha256": "4973d72228bbbbf1f9ff6c5b8875eea183a55328e548480b9b1eb670d420c55a"
+    },
+    {
+      "path": "docs/SURFACE_CONSISTENT_PMC.md",
+      "bytes": 24809,
+      "sha256": "5095bc595d44267032bc4ef726008fc9eb1a866a94e79f7b9abc50a5f6a4cc1e"
+    },
+    {
+      "path": "evaluate_open_world.py",
+      "bytes": 41282,
+      "sha256": "273dd9f393a7738be07c56dc18e0d13670f22e33c3275c0854e426e0fdeda42b"
+    },
+    {
+      "path": "evaluate_pdmc_open_world.py",
+      "bytes": 757,
+      "sha256": "ae3aa83f57bab7fb604e6285385374a665be5442d0774146b89de9b811d4d739"
+    },
+    {
+      "path": "prepare_open_world.py",
+      "bytes": 9891,
+      "sha256": "b7d358932aa4ef9a3c7976dd50f8109f2232a16e805c762f17148bc7868ab19c"
+    },
+    {
+      "path": "prepare_visible_references.py",
+      "bytes": 6727,
+      "sha256": "dcdc0457f6608f1b24a21c42a60087428b6df9e2bf6b0486d0a4ef895e71ceb2"
+    },
+    {
+      "path": "compare_open_world.py",
+      "bytes": 1613,
+      "sha256": "415e9d73c18ae7e6a4d422e2726087cd8974b6d63278228f24c97d22d4c07c3e"
+    },
+    {
+      "path": "run_open_world_controls.py",
+      "bytes": 9295,
+      "sha256": "8a4f49c77186b27e621051142c92acd9d8ef1202abab80fde3136646bab13f66"
+    },
+    {
+      "path": "run_amodal_slurm.sh",
+      "bytes": 61609,
+      "sha256": "1c555a93fe65d7bbbb46b1349691740be585e98f488c6c2f163d024115295bfe"
+    },
+    {
+      "path": "run_pdmc_open_world.sh",
+      "bytes": 2630,
+      "sha256": "d122b786408ecbe13e9dc086945b03413e34eb3fab69549fc878c92fa4ae40de"
+    },
+    {
+      "path": "pyproject.toml",
+      "bytes": 662,
+      "sha256": "e6b644f2f7ff4315d0e46eb1ec4378d5a7b6980790cf1f457d57e92f5030cb07"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 192,
+      "sha256": "e8512ee1dcadb6e98f4b5c5c42b8fd1ae4022c089ada50fdffcc84e4e0524be7"
+    },
+    {
+      "path": "MANIFEST.in",
+      "bytes": 424,
+      "sha256": "d5dd2aba80f9104a76c4e803fda3b08098494ec530b59876877ea3fa25441062"
+    },
+    {
+      "path": "README.md",
+      "bytes": 14651,
+      "sha256": "8944ebd4c54add5265f09413216cfdc062a2fb22b6d0860c37dfa02d9ce38f8e"
+    },
+    {
+      "path": "SETUP_NEW_COMPETITION.md",
+      "bytes": 8836,
+      "sha256": "c65d0b9a1c30fbaa27a512cfe9b1c3af971ca638863abb8365b280efc17da8e1"
+    },
+    {
+      "path": "OPEN_WORLD_REPRODUCTION.md",
+      "bytes": 53002,
+      "sha256": "7f4b2a90aba35cbd2d3b58e6213039a399e432a1ce19a6716ba9a45c09f609dc"
+    },
+    {
+      "path": "AMODAL_SLURM.md",
+      "bytes": 15221,
+      "sha256": "be4dfe43c546fb490f867e511eb922eb537ac536772a3a79f4f4eeaa528a2a1d"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 301,
+      "sha256": "7c61b93b553ad6c968a703d7e616890863fc1b0c9bf7bcd37fc7325ea63d2e16"
+    },
+    {
+      "path": ".gitattributes",
+      "bytes": 179,
+      "sha256": "37466c8cfdcf578e96fd32e8e4cd4b13a83d25ef481660e6ea090a315f50ba2d"
+    }
+  ]
+}

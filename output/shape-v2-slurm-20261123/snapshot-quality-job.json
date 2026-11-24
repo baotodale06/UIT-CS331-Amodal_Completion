@@ -1,0 +1,18 @@
+{
+  "job_id": "45668",
+  "command": [
+    "sbatch",
+    "--parsable",
+    "--partition=debug-gpu",
+    "--gres=gpu:quadro_rtx_6000:1",
+    "--cpus-per-task=4",
+    "--mem=20G",
+    "--time=00:08:00",
+    "--job-name=shape-v2-prefix-score",
+    "--output=/home/daoqm/Vu_Hung/cv_nangcao/output/shape-v2-slurm-20261123/snapshot-quality-%j.log",
+    "/home/daoqm/Vu_Hung/cv_nangcao/output/shape-v2-slurm-20261123/run_snapshot_quality.sh"
+  ],
+  "source_sha256": "b3718dd1f68678de5d3496296f4a50f967516a447d1d8d61e3ed1d536ff44907",
+  "scope": "Read-only, fixed 193-target VG snapshot. No full gate or policy tuning.",
+  "observed_at": "2026-11-23T12:49:38.490307+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "at": "2026-11-12T10:50:39.890727+00:00",
+  "targets": 204,
+  "gallery_panels": 582,
+  "ranker_parameters": 22,
+  "pdf_pages": 10,
+  "rendered_pages": 10,
+  "all_links_exist": true,
+  "all_csv_values_equal_audit": true,
+  "source_sha256": {
+    "scripts\\build_annotated_surface_report.py": "c91fded764730bea1b17dd65e9c6e82fe8ad642d0ea8de697271b055e39996e4",
+    "scripts\\validate_annotated_surface_report.py": "2edd8c38b5f981f57a35c1fd8c853f17f8c3c2d3988eef897f83f282e38179b8",
+    "scripts\\audit_annotated_surface.py": "478065b1873872d0f9248ca4fc97af4547efb689daae818988a145c39a44e570",
+    "scripts\\audit_annotated_surface_pools.py": "fa5a7aabde777f38a0591356b6e87beee14361f4c632052879fcb97fafb95b4d"
+  },
+  "human_or_browser_visual_review": "Separate from automated checks; see visual-review.json if present."
+}

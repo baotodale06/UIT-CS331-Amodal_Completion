@@ -1,0 +1,94 @@
+{
+  "inventory_sha256": "393dbc2d9ab38f568e93a2ae773315d0aec09327e27cf4cff8b96cad862eb437",
+  "training_sha256": "0d75bbf5af5be2b5265618cdb64d8bb684b66128c1a3fbe32f4961d9eb5f63ee",
+  "previous_manifest_hashes": {
+    "output\\surface-consistency-20261108\\cases.json": "ac53ccc73ccc4e5934c95a30856f7d4dfa39496af92cdc1bcd1be519c12541e1",
+    "output\\surface-consistency-replication87-20261108\\cases.json": "5cf95333d8e5d04c357d1cbd4de7d15456ca0080640162562dbc8c8faaf65ada",
+    "output\\surface-followup-20261110\\cases.json": "c14551a066f25dcf8840d5c9bafb6295e312567745413d93c878b5c6f5040923",
+    "output\\surface-confirmation128-20261110\\cases.json": "34340e97dfe65f69f7d35fcb2cb939bed5299d9a0445b86a44c9a8a39b107209"
+  },
+  "previous_images": 477,
+  "training_images": 183,
+  "full_training_overlap_targets": 211,
+  "targets": 2017,
+  "image_identities": 1900,
+  "source_files": 1910,
+  "shared_identities": [],
+  "shared_file_hashes": [],
+  "within_subset_identical_pairs_across_ids": [
+    [
+      "laion/000012449",
+      "laion/000002103"
+    ]
+  ],
+  "cross_study_flagged_targets": [],
+  "shape_training_flagged_targets": [],
+  "decoded_and_thumbnail_screen": {
+    "previous_images": 477,
+    "fresh_images": 1910,
+    "exact_cross": [],
+    "near_cross": [],
+    "exact_within": [
+      [
+        "images/free_images/pexels-erika-andrade-1358382831-28347061_plate.jpg",
+        "images/free_images/pexels-erika-andrade-1358382831-28347061_spoon.jpg"
+      ],
+      [
+        "images/free_images/pexels-erika-andrade-1358382831-28347061_magazine.jpg",
+        "images/free_images/pexels-erika-andrade-1358382831-28347061_spoon.jpg"
+      ],
+      [
+        "images/free_images/pexels-erika-andrade-1358382831-28347061_magazine.jpg",
+        "images/free_images/pexels-erika-andrade-1358382831-28347061_plate.jpg"
+      ],
+      [
+        "images/free_images/pexels-olga-helmel-1619670895-27548513_greenchair.jpg",
+        "images/free_images/pexels-olga-helmel-1619670895-27548513_magazine.jpg"
+      ],
+      [
+        "images/free_images/pexels-olga-helmel-1619670895-27548513_bag.jpg",
+        "images/free_images/pexels-olga-helmel-1619670895-27548513_magazine.jpg"
+      ],
+      [
+        "images/free_images/pexels-olga-helmel-1619670895-27548513_bag.jpg",
+        "images/free_images/pexels-olga-helmel-1619670895-27548513_greenchair.jpg"
+      ],
+      [
+        "images/free_images/pexels-rahimegul-26926769_choppingboard.jpg",
+        "images/free_images/pexels-rahimegul-26926769_leaf.jpg"
+      ],
+      [
+        "images/free_images/pexels-rahimegul-26926769_basket.jpg",
+        "images/free_images/pexels-rahimegul-26926769_leaf.jpg"
+      ],
+      [
+        "images/free_images/pexels-rahimegul-26926769_basket.jpg",
+        "images/free_images/pexels-rahimegul-26926769_choppingboard.jpg"
+      ],
+      [
+        "images/free_images/pumpkin-1768857_640_pumpkin.jpg",
+        "images/free_images/pumpkin-1768857_640_basket.jpg"
+      ],
+      [
+        "images/free_images/credit-card-machine-4577769_640_POSmachine.jpg",
+        "images/free_images/credit-card-machine-4577769_640_creditcard.jpg"
+      ],
+      [
+        "images/free_images/woman-7381889_640_blackcar.jpg",
+        "images/free_images/woman-7381889_640_scooter.jpg"
+      ],
+      [
+        "images/free_images/coins-1015125_640_calculator.jpg",
+        "images/free_images/coins-1015125_640_potato.jpg"
+      ],
+      [
+        "images/laion/000012449.jpg",
+        "images/laion/000002103.jpg"
+      ]
+    ],
+    "minimum_aligned_thumbnail_mae": 0.10154526680707932,
+    "near_rule": "Aspect within1%; 64x64 BOX RGB MAE <=0.005",
+    "limitation": "Does not rule out transformed or cropped duplicates.",
+    "passed": false
+  }
+}

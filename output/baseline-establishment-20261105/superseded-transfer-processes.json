@@ -1,0 +1,20 @@
+﻿[
+    {
+        "ProcessId":  41428,
+        "ParentProcessId":  55516,
+        "Name":  "python.exe",
+        "CommandLine":  "\"C:\\Python314\\python.exe\" -u C:\\Users\\daovu\\Documents\\Project\\cv_nangcao\\output\\baseline-establishment-20261105\\watch_baseline.py "
+    },
+    {
+        "ProcessId":  60712,
+        "ParentProcessId":  41428,
+        "Name":  "python.exe",
+        "CommandLine":  "C:\\Python314\\python.exe C:\\Users\\daovu\\Documents\\Project\\cv_nangcao\\output\\baseline-establishment-20261105\\collect_completed_baseline.py"
+    },
+    {
+        "ProcessId":  8972,
+        "ParentProcessId":  60712,
+        "Name":  "ssh.exe",
+        "CommandLine":  "ssh -o BatchMode=yes daoqm@slurm.csse.rose-hulman.edu \"cd /home/daoqm/Vu_Hung/cv_nangcao \u0026\u0026 python3 -\""
+    }
+]

@@ -1,0 +1,53 @@
+{
+  "verified": true,
+  "objects": 1264,
+  "images": 217,
+  "geometry": {
+    "full_iou": {
+      "images": 217,
+      "objects": 1264,
+      "annotated_input": 0.8887311603237202,
+      "sam_input": 0.811373590207884,
+      "sam_minus_annotated": -0.07735757011583627,
+      "absolute_ci": [
+        -0.08783714976567103,
+        -0.06744427514126225
+      ]
+    },
+    "hidden_iou": {
+      "images": 177,
+      "objects": 680,
+      "annotated_input": 0.4366466431941758,
+      "sam_input": 0.3703334756537925,
+      "sam_minus_annotated": -0.06631316754038333,
+      "absolute_ci": [
+        -0.09039734580046027,
+        -0.04315422637476528
+      ]
+    }
+  },
+  "input_mask_iou_image_mean": 0.8413470673110404,
+  "empty_sam_masks": 0,
+  "original_validation_max_difference": 0.0,
+  "result_sha256": "72024ef3c9f171209a74ced8e649fff7806c64c72e7315f37431772b8863b21a",
+  "freeze_sha256": "6078e500c236095a537000d2d3f90838253ab7542d39c69d0fafe67db150523b",
+  "verification_source_sha256": "86b931ba0d92b3aa6aa57b33982753c894c8cd82304a50ab9407b560a43e77d1",
+  "benchmark_success": false,
+  "limitation": "Validation box prompts use annotated visible support; this is not GroundingDINO matching or a benchmark gain. Model predictions are replayed, not rerun locally.",
+  "export": {
+    "sha256": "07b5da85957043523a6c3490e2211cc840617004689e88164fce56e4f8e4e8f3",
+    "bytes": 4204111,
+    "files": 5063,
+    "accounting": [
+      "45645",
+      "COMPLETED",
+      "0:0",
+      "280",
+      "billing=4,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "2026-11-23T10:58:28",
+      "2026-11-23T11:03:08"
+    ],
+    "result_sha256": "72024ef3c9f171209a74ced8e649fff7806c64c72e7315f37431772b8863b21a"
+  },
+  "allocated_gpu_hours": 0.07777777777777778
+}

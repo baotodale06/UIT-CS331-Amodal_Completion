@@ -1,0 +1,12 @@
+{
+  "at": "2026-11-23T12:23:59.922974+00:00",
+  "scope": "Separate shape-only fine-tuning after validation SAM diagnostic; no v2 source/checkpoint/benchmark change, no holdout evaluation",
+  "files": {
+    "scripts/train_shape_robust_slurm.py": "33fb00be2099ac3875a5d35c44070eaf445b641889a11d44f99ca12de208cd27",
+    "scripts/shape_robust_data.py": "930160a70e8b479484fb7c3cbb7055da24b12505373ce2335df4e6c951645af1",
+    "scripts/run_shape_robust_training.sh": "70c2a1e2f6b96d81fa67d3351ca9fca3b6bd22f4ae372d2f959e2911c9089fd2",
+    "configs/research/shape-sam-robustness-20261123.json": "ef1418166ca14e3fd35402a6fee7da3b222df6ae508a8ca57b4c8bf002982584",
+    "tests/test_shape_robust_data.py": "4cb9cc72e57f6f955bd8cd719e076b731fead338befe51b89a883396e74a2359"
+  },
+  "zip_sha256": "46c38dff0802bb1f9246cf225a1b0edf6a2f337db87f8dd88d78cffe7b75a8ba"
+}

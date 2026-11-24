@@ -1,0 +1,11 @@
+{
+  "sha256": "f7a9ed257d980a0acf6194ce25f8b5928cdc522ca73cd9456c20f98cc652bb62",
+  "bytes": 12255272,
+  "files": 12053,
+  "training_sha256": "8ac898447852189c4baea96e523bf947620beaf22c49dc28e21527ecfdf056c6",
+  "result_sha256": "caf0147f370d64825e576869ec6a0e0747ef62141fe9c79ce28aaeafe74742b9",
+  "checkpoint": {
+    "sha256": "3bb1a47ddd952824a960fb82867159c366c1c3e4a53a53bab1e06585adbd64a9",
+    "bytes": 98255971
+  }
+}

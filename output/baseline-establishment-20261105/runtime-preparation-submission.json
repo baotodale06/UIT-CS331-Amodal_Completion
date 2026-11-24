@@ -1,0 +1,8 @@
+{
+  "submitted_utc": "2026-11-05T09:53:51.250628+00:00",
+  "command": "cd ~/Vu_Hung/cv_nangcao && sbatch --parsable --partition=debug-gpu --job-name=pdmc-runtime --gres=shard:1 --cpus-per-task=4 --mem=16G --time=01:00:00 --output=logs/%x-%j.out",
+  "returncode": 0,
+  "stdout": "30425\n",
+  "stderr": "",
+  "job_id": "30425"
+}

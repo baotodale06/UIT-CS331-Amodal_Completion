@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "devices": [
+    {
+      "rank": 0,
+      "gpu": "Quadro RTX 6000",
+      "cuda_fft_round_trip": true
+    },
+    {
+      "rank": 1,
+      "gpu": "Quadro RTX 6000",
+      "cuda_fft_round_trip": true
+    },
+    {
+      "rank": 2,
+      "gpu": "Quadro RTX 6000",
+      "cuda_fft_round_trip": true
+    },
+    {
+      "rank": 3,
+      "gpu": "Quadro RTX 6000",
+      "cuda_fft_round_trip": true
+    }
+  ],
+  "contract": {
+    "config_sha256": "3233fbfa7a91ed4ba29e97dba491b5dd348a0ca265623610ee8d70afba50d245",
+    "data_sha256": "ab2f4d1112c52bcd1b675e0f213ed8ee387fbc2601a3596f8f2b5e933ea7d13e",
+    "sources": {
+      "scripts/train_shape_v2_slurm.py": "e4fe2199670428180ca313bcf40106d452375c0a882c204f9d4e1c206e88a7a7",
+      "scripts/train_shape_v2.py": "dc41b22d68c86868c3b3aa46cb0a5ad4eb5b646368fe1bd8992f000df4e8aa04",
+      "amodal_benchmark/shape_v2.py": "5f87899b18aaa13901c41dd88f928ea341288d828c1e6d7509cd5b0ee0d833d3"
+    }
+  },
+  "checkpoint_roundtrip": true,
+  "real_training_steps": 2,
+  "benchmark_used": false,
+  "holdout_used": false
+}

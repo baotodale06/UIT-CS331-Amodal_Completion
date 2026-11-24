@@ -1,0 +1,1010 @@
+[
+  {
+    "id": "VG/61549_elephant",
+    "iteration": 0,
+    "selected": 7,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "VG/107970_bicycle",
+    "iteration": 0,
+    "selected": 1,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "VG/150407_whiteplate",
+    "iteration": 0,
+    "selected": 0,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "VG/285758_cat",
+    "iteration": 0,
+    "selected": 2,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "VG/498191_keyboard",
+    "iteration": 0,
+    "selected": 6,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "VG/498191_keyboard",
+    "iteration": 1,
+    "selected": 0,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "VG/713392_redbus",
+    "iteration": 0,
+    "selected": 7,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "VG/713392_redbus",
+    "iteration": 1,
+    "selected": 1,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "VG/713796_desk",
+    "iteration": 0,
+    "selected": 1,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "VG/1159278_whitehouse",
+    "iteration": 0,
+    "selected": 1,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "VG/1159278_whitehouse",
+    "iteration": 1,
+    "selected": 1,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "VG/1159293_table",
+    "iteration": 0,
+    "selected": 4,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "VG/1159293_table",
+    "iteration": 1,
+    "selected": 5,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "VG/1159606_bicycle",
+    "iteration": 0,
+    "selected": 2,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "VG/1159855_redcurtain",
+    "iteration": 0,
+    "selected": 3,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "VG/1159934_sofa",
+    "iteration": 0,
+    "selected": 7,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "VG/1159934_sofa",
+    "iteration": 1,
+    "selected": 1,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "VG/1160167_greenvan",
+    "iteration": 0,
+    "selected": 5,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "VG/1591864_browntable",
+    "iteration": 0,
+    "selected": 4,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "VG/1591880_blacksofa",
+    "iteration": 0,
+    "selected": 1,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "VG/1591880_blacksofa",
+    "iteration": 1,
+    "selected": 3,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "VG/1591880_blacksofa",
+    "iteration": 2,
+    "selected": 5,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "VG/1592866_motorbike",
+    "iteration": 0,
+    "selected": 7,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "VG/2315747_fork",
+    "iteration": 0,
+    "selected": 2,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "VG/2315747_fork",
+    "iteration": 1,
+    "selected": 7,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "VG/2315747_fork",
+    "iteration": 2,
+    "selected": 2,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "VG/2315747_fork",
+    "iteration": 3,
+    "selected": 3,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "VG/2315747_fork",
+    "iteration": 4,
+    "selected": 4,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "VG/2315747_fork",
+    "iteration": 5,
+    "selected": 0,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "VG/2315757_motorbike",
+    "iteration": 0,
+    "selected": 5,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "VG/2315974_pinkteddybear",
+    "iteration": 0,
+    "selected": 7,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "VG/2316036_bench",
+    "iteration": 0,
+    "selected": 7,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "VG/2316204_horse",
+    "iteration": 0,
+    "selected": 5,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "VG/2316204_horse",
+    "iteration": 1,
+    "selected": 7,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "VG/2316349_dog",
+    "iteration": 0,
+    "selected": 6,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "VG/2316448_plate",
+    "iteration": 0,
+    "selected": 0,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "VG/2316470_bus",
+    "iteration": 0,
+    "selected": 3,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "VG/2316957_umbrella",
+    "iteration": 0,
+    "selected": 7,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "VG/2317090_car",
+    "iteration": 0,
+    "selected": 1,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "VG/2317264_stopsign",
+    "iteration": 0,
+    "selected": 5,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "VG/2317450_surfingboard",
+    "iteration": 0,
+    "selected": 0,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "VG/2317861_newspaper",
+    "iteration": 0,
+    "selected": 5,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "VG/2318217_surfingboard",
+    "iteration": 0,
+    "selected": 3,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "VG/2318432_cabinet",
+    "iteration": 0,
+    "selected": 7,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "VG/2320362_snowboard",
+    "iteration": 0,
+    "selected": 7,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "VG/2320716_zebra",
+    "iteration": 0,
+    "selected": 4,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "VG/2321128_bus",
+    "iteration": 0,
+    "selected": 4,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "VG/2321446_banana",
+    "iteration": 0,
+    "selected": 0,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "VG/2322049_fryingpan",
+    "iteration": 0,
+    "selected": 4,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "VG/2322049_fryingpan",
+    "iteration": 1,
+    "selected": 5,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "VG/2322146_television",
+    "iteration": 0,
+    "selected": 0,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "VG/2322171_bed",
+    "iteration": 0,
+    "selected": 7,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "VG/2322171_bed",
+    "iteration": 1,
+    "selected": 4,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "VG/2322171_bed",
+    "iteration": 2,
+    "selected": 5,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "VG/2322171_bed",
+    "iteration": 3,
+    "selected": 3,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "VG/2322171_bed",
+    "iteration": 4,
+    "selected": 3,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "VG/2322171_bed",
+    "iteration": 5,
+    "selected": 1,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "VG/2350312_motorcycle",
+    "iteration": 0,
+    "selected": 0,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "VG/2350736_phone",
+    "iteration": 0,
+    "selected": 0,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "VG/2350963_motorcycle",
+    "iteration": 0,
+    "selected": 5,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "VG/2351033_fork",
+    "iteration": 0,
+    "selected": 6,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "VG/2351033_fork",
+    "iteration": 1,
+    "selected": 1,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "VG/2351033_fork",
+    "iteration": 2,
+    "selected": 6,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "VG/2351033_fork",
+    "iteration": 3,
+    "selected": 3,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "VG/2351033_fork",
+    "iteration": 4,
+    "selected": 1,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "VG/2351033_fork",
+    "iteration": 5,
+    "selected": 4,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "VG/2351594_airplane",
+    "iteration": 0,
+    "selected": 2,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "VG/2351594_airplane",
+    "iteration": 1,
+    "selected": 0,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "VG/2351594_airplane",
+    "iteration": 2,
+    "selected": 0,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "VG/2351594_airplane",
+    "iteration": 3,
+    "selected": 1,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "VG/2351594_airplane",
+    "iteration": 4,
+    "selected": 1,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "VG/2351594_airplane",
+    "iteration": 5,
+    "selected": 2,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "VG/2351613_phone",
+    "iteration": 0,
+    "selected": 6,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "VG/2351866_banana",
+    "iteration": 0,
+    "selected": 0,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "VG/2352236_horse",
+    "iteration": 0,
+    "selected": 5,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "VG/2352661_airplane",
+    "iteration": 0,
+    "selected": 4,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "VG/2353014_giraffe",
+    "iteration": 0,
+    "selected": 4,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "VG/2353868_horse",
+    "iteration": 0,
+    "selected": 6,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "COCOA/COCO_train2014_000000008405_flower",
+    "iteration": 0,
+    "selected": 4,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "COCOA/COCO_train2014_000000008405_flower",
+    "iteration": 1,
+    "selected": 2,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "COCOA/COCO_train2014_000000008405_flower",
+    "iteration": 2,
+    "selected": 0,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "COCOA/COCO_train2014_000000008405_flower",
+    "iteration": 3,
+    "selected": 0,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "COCOA/COCO_train2014_000000008405_flower",
+    "iteration": 4,
+    "selected": 5,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "COCOA/COCO_train2014_000000008405_flower",
+    "iteration": 5,
+    "selected": 1,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "COCOA/COCO_train2014_000000009199_bed",
+    "iteration": 0,
+    "selected": 0,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "COCOA/COCO_train2014_000000018377_bakingtray",
+    "iteration": 0,
+    "selected": 0,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "COCOA/COCO_train2014_000000018584_BigBen",
+    "iteration": 0,
+    "selected": 6,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "COCOA/COCO_train2014_000000018584_BigBen",
+    "iteration": 1,
+    "selected": 3,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "COCOA/COCO_train2014_000000018584_BigBen",
+    "iteration": 2,
+    "selected": 4,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "COCOA/COCO_train2014_000000021268_whiteplate",
+    "iteration": 0,
+    "selected": 5,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "COCOA/COCO_train2014_000000023444_microwave",
+    "iteration": 0,
+    "selected": 1,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "COCOA/COCO_train2014_000000040068_refrigerator",
+    "iteration": 0,
+    "selected": 0,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "COCOA/COCO_train2014_000000064111_toilet",
+    "iteration": 0,
+    "selected": 2,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "COCOA/COCO_train2014_000000108113_dog",
+    "iteration": 0,
+    "selected": 2,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "COCOA/COCO_train2014_000000155108_Christmastree",
+    "iteration": 0,
+    "selected": 6,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "COCOA/COCO_train2014_000000182020_grayscarfontheleft",
+    "iteration": 0,
+    "selected": 3,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "COCOA/COCO_train2014_000000201115_sprinkler",
+    "iteration": 0,
+    "selected": 7,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "COCOA/COCO_train2014_000000317896_fryingpan",
+    "iteration": 0,
+    "selected": 6,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "COCOA/COCO_train2014_000000387318_woodentray",
+    "iteration": 0,
+    "selected": 1,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "COCOA/COCO_train2014_000000387318_woodentray",
+    "iteration": 1,
+    "selected": 4,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "COCOA/COCO_train2014_000000486609_plate",
+    "iteration": 0,
+    "selected": 1,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "COCOA/COCO_train2014_000000486609_plate",
+    "iteration": 1,
+    "selected": 2,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "COCOA/COCO_test2014_000000296835_toothbrush",
+    "iteration": 0,
+    "selected": 0,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "COCOA/COCO_test2014_000000296835_book",
+    "iteration": 0,
+    "selected": 4,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "COCOA/COCO_val2014_000000058797_toilet",
+    "iteration": 0,
+    "selected": 4,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "COCOA/COCO_val2014_000000090707_whiteplate",
+    "iteration": 0,
+    "selected": 3,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "COCOA/COCO_val2014_000000143450_plate",
+    "iteration": 0,
+    "selected": 5,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "COCOA/COCO_val2014_000000143450_cake",
+    "iteration": 0,
+    "selected": 2,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "COCOA/COCO_val2014_000000185941_phonebooth",
+    "iteration": 0,
+    "selected": 0,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "COCOA/COCO_val2014_000000185941_redcoach",
+    "iteration": 0,
+    "selected": 6,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "COCOA/COCO_val2014_000000195542_mousepad",
+    "iteration": 0,
+    "selected": 2,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "COCOA/COCO_val2014_000000222317_sofa",
+    "iteration": 0,
+    "selected": 2,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "COCOA/COCO_val2014_000000222317_sofa",
+    "iteration": 1,
+    "selected": 3,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "COCOA/COCO_val2014_000000222317_sofa",
+    "iteration": 2,
+    "selected": 3,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "COCOA/COCO_val2014_000000222317_sofa",
+    "iteration": 3,
+    "selected": 7,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "COCOA/COCO_val2014_000000222317_sofa",
+    "iteration": 4,
+    "selected": 3,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "COCOA/COCO_val2014_000000281533_displayscreen",
+    "iteration": 0,
+    "selected": 2,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "COCOA/COCO_val2014_000000577385_thickcuttingboard",
+    "iteration": 0,
+    "selected": 4,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "COCOA/COCO_val2014_000000577385_thickcuttingboard",
+    "iteration": 1,
+    "selected": 1,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "COCOA/COCO_val2014_000000580555_whiteplate",
+    "iteration": 0,
+    "selected": 2,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "free_images/pexels-dejiprince-28231061_ladder",
+    "iteration": 0,
+    "selected": 4,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "free_images/pexels-kelly-1179532-28287998_electricguitar",
+    "iteration": 0,
+    "selected": 6,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "free_images/pexels-kelly-1179532-28287998_electricguitar",
+    "iteration": 1,
+    "selected": 5,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "free_images/pexels-kelly-1179532-28287998_electricguitar",
+    "iteration": 2,
+    "selected": 1,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "free_images/pexels-kelly-1179532-28287998_electricguitar",
+    "iteration": 3,
+    "selected": 4,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "free_images/pexels-kelly-1179532-28287998_electricguitar",
+    "iteration": 4,
+    "selected": 7,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "free_images/pexels-kelly-1179532-28287998_electricguitar",
+    "iteration": 5,
+    "selected": 0,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "free_images/deer-9018759_640_deer",
+    "iteration": 0,
+    "selected": 1,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "free_images/butterfly-8422900_640_flower",
+    "iteration": 0,
+    "selected": 6,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "free_images/violin-8405558_640_violin",
+    "iteration": 0,
+    "selected": 3,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "free_images/violin-8405558_640_violin",
+    "iteration": 1,
+    "selected": 6,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "free_images/violin-8405558_640_violin",
+    "iteration": 2,
+    "selected": 0,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "free_images/violin-8405558_640_violin",
+    "iteration": 3,
+    "selected": 2,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "free_images/violin-8405558_640_violin",
+    "iteration": 4,
+    "selected": 6,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "free_images/violin-8405558_640_violin",
+    "iteration": 5,
+    "selected": 7,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "free_images/bee-7957348_640_bee",
+    "iteration": 0,
+    "selected": 4,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "free_images/bee-7957348_640_bee",
+    "iteration": 1,
+    "selected": 5,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "free_images/bee-7957348_640_bee",
+    "iteration": 2,
+    "selected": 5,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "laion/000008955_gorilla",
+    "iteration": 0,
+    "selected": 2,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "laion/000012713_saxophone",
+    "iteration": 0,
+    "selected": 7,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "laion/000012713_saxophone",
+    "iteration": 1,
+    "selected": 7,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "laion/000013564_cup",
+    "iteration": 0,
+    "selected": 0,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "laion/000014853_box",
+    "iteration": 0,
+    "selected": 0,
+    "fallback": false,
+    "exact_rgb_replay": true
+  },
+  {
+    "id": "laion/000014853_box",
+    "iteration": 1,
+    "selected": 6,
+    "fallback": false,
+    "exact_rgb_replay": true
+  }
+]

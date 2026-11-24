@@ -1,0 +1,11 @@
+{
+  "native_replay_sha256": "634353a365503db781f028e2012f2588a840955184b730b2dd36a9f761ba8f45",
+  "allocation_sha256": "a2c7805760619526b55fe0d5a633887bb7e6e3e51bd5adf39d5eae2000aa1d46",
+  "source_sha256": "30faa56d92cbe09b5e4e6887558459146cfd099efa83620b63a58429db730fc6",
+  "files": {
+    "REPORT.md": "a11cfaa25ea030c75de9b6c8e8b6ed1ce9a5407f82eb3b769d1990088b69bf75",
+    "training.png": "f5b4046d3d56aa9da91f3c0d78269ad93783e0eecc7049e98b90168782bc5f97",
+    "training.svg": "394356495c3a9552087bb79143340b3bcee8b7d1190738b0218aecdc54a05c49"
+  },
+  "benchmark_success": false
+}

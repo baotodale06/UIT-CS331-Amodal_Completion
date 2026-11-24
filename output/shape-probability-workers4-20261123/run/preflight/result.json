@@ -1,0 +1,62 @@
+{
+  "passed": true,
+  "contract": {
+    "config_sha256": "a05167e3e0681eab00b8f36bc3a7d95a333b1ed3da0baaae6215394cccc34523",
+    "sources": {
+      "scripts/train_shape_probability_workers4.py": "b6ca83998d75faa4792926d03e991700d015f7621ca1223f12f3e81bcc09228f",
+      "scripts/shape_probability_loss.py": "3f6b8430b08a035db43293c6ca9b957a4ae893e3008001b1c192f1a5a1f2bfec",
+      "scripts/shape_local_data.py": "05e2e1db417139807a8005f2e95faf398b80e4f8c660a8b6094e97553408259e",
+      "scripts/shape_robust_data.py": "930160a70e8b479484fb7c3cbb7055da24b12505373ce2335df4e6c951645af1",
+      "scripts/shape_constrained_data.py": "7cd07bc189b344797e20e067b91ec52bd2ad3ce8b2ea5ba2999ecfa80d66cdc3",
+      "scripts/train_shape_kaggle.py": "028f27c52610a5dd436382c55d2ce408dc55bb49e6f6f13553b9c6bd586e2343",
+      "scripts/train_shape_v2.py": "dc41b22d68c86868c3b3aa46cb0a5ad4eb5b646368fe1bd8992f000df4e8aa04",
+      "scripts/train_shape_v2_slurm.py": "e4fe2199670428180ca313bcf40106d452375c0a882c204f9d4e1c206e88a7a7",
+      "amodal_benchmark/__init__.py": "834ad15d00bb81069fab4cfaa2b5da8dc1e987eb119b64a3c57d2dfb3b3a9aaf",
+      "amodal_benchmark/dataset.py": "f4ff471c26f6d51f6234f5ffeed2d580320ca0777a38801acd0036e96a38ddf9",
+      "amodal_benchmark/shape_v2.py": "5f87899b18aaa13901c41dd88f928ea341288d828c1e6d7509cd5b0ee0d833d3",
+      "amodal_benchmark/shape_v2_runtime.py": "ce1276390135e61bf68375c82e9170107fa9741538e33317092ab27f2819f9ed",
+      "configs/research/shape-v2-20261123.json": "1e9cdabc7f2737ce3c7cdc602d06120ea0eec80ad12252a2c77b2b133889ef51",
+      "configs/research/shape-v2-slurm-20261123.json": "3233fbfa7a91ed4ba29e97dba491b5dd348a0ca265623610ee8d70afba50d245"
+    },
+    "data_sha256": "ab2f4d1112c52bcd1b675e0f213ed8ee387fbc2601a3596f8f2b5e933ea7d13e",
+    "initial_checkpoint_sha256": "f3caa75ac40f901a7595fffa2c199221b83e7fe5a57192f34e2b2317ffe937b7",
+    "inherited_training_contract": {
+      "config_sha256": "3233fbfa7a91ed4ba29e97dba491b5dd348a0ca265623610ee8d70afba50d245",
+      "data_sha256": "ab2f4d1112c52bcd1b675e0f213ed8ee387fbc2601a3596f8f2b5e933ea7d13e",
+      "sources": {
+        "scripts/train_shape_v2_slurm.py": "e4fe2199670428180ca313bcf40106d452375c0a882c204f9d4e1c206e88a7a7",
+        "scripts/train_shape_v2.py": "dc41b22d68c86868c3b3aa46cb0a5ad4eb5b646368fe1bd8992f000df4e8aa04",
+        "amodal_benchmark/shape_v2.py": "5f87899b18aaa13901c41dd88f928ea341288d828c1e6d7509cd5b0ee0d833d3"
+      }
+    },
+    "sam_training_manifest_sha256": "77d75e18fd160c3113ff5813c35b83eb65c9181d8070713908183a64e5c134a7",
+    "validation_sam_result_sha256": "72024ef3c9f171209a74ced8e649fff7806c64c72e7315f37431772b8863b21a",
+    "calibration_sha256": "c1eb659d76e6a686188a44e5542c95af547ac792e3e71dafba887eadb7379487"
+  },
+  "runtime": {
+    "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU",
+    "torch": "1.13.1",
+    "cuda": "11.7",
+    "cudnn": 8500,
+    "cuda_fft_round_trip": true,
+    "memory_fraction": 0.75
+  },
+  "training": {
+    "loss": 0.11281466134823859,
+    "sampled_training_objects": 128,
+    "optimizer_steps": 2,
+    "skipped_optimizer_steps": 0,
+    "training_seconds": 9.709547796999686
+  },
+  "native": {
+    "images": 3,
+    "objects": 24,
+    "full_iou": 0.660681505334086,
+    "full_iou_images": 3,
+    "hidden_iou": 0.28537848053895537,
+    "hidden_iou_images": 3
+  },
+  "checkpoint_pixel_replay": true,
+  "max_reserved_gpu_mib": 1240.0,
+  "benchmark_success": false
+}

@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "at": "2026-11-14T04:59:53.316878+00:00",
+  "targets": 2565,
+  "csv_metric_checks": 20520,
+  "report_links": 9,
+  "pdf_pages": 4,
+  "pdf_character_bounds_checks": 10149,
+  "all_metric_tables_match_audit": true,
+  "report_sha256": "205f0749a1551ca5367efb109884069d68a4c9207a65b24cb93fb7b814cfdd2e",
+  "pdf_sha256": "2b83440080a87c011dd0e32b288d943e0c582eee7a84c912982ab46be4a371a6",
+  "source_sha256": "33def47f4c78f688b8cd3c91cc2eec93b4cc27b8250f80a6269b4f25f1429847",
+  "visual_review": "Separate; see visual-review.json"
+}

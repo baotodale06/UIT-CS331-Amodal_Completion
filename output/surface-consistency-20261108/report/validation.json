@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "verified_at": "2026-11-08T09:20:16.024380+00:00",
+  "test_cases": 159,
+  "candidate_table_rows": 636,
+  "perceptual_input_identity_checks": 732,
+  "gallery_image_checks": 318,
+  "report_link_checks": 20,
+  "pdf_pages": 13,
+  "numerical_summaries": "Pooled and separate cohort methods, intervals and perceptual summaries recomputed",
+  "learned_metric_limit": "Input identities and saved values checked; the neural model is not recomputed by this CPU validator",
+  "report_sha256": "4c00d3ced9c00fa1935075e0cbd30e8a8bb4caed36051b9aabd7f2844d7d3872",
+  "pdf_sha256": "daeb4a0656d01cab4c7ab5e54b3ca493af950ad20c6c545d206480ebb8d54664",
+  "validator_sha256": "1af8969ce0efa980626d2f76ecb1cef1d1500b6610bf05f1662de38266fe3356"
+}

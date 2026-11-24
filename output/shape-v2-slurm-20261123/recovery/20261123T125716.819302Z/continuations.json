@@ -1,0 +1,101 @@
+{
+  "schema": 1,
+  "events": [
+    {
+      "at": "2026-11-23T12:08:00.959446+00:00",
+      "previous": {
+        "job_id": "45636",
+        "state": "TIMEOUT",
+        "exit_code": "0:0",
+        "elapsed": "01:30:25",
+        "allocation": "billing=16,cpu=16,gres/gpu=4,mem=96G,node=1"
+      },
+      "action": "resumed",
+      "next_job_id": "45658",
+      "command": [
+        "sbatch",
+        "--parsable",
+        "--partition=debug-gpu",
+        "--gres=gpu:quadro_rtx_6000:4",
+        "--cpus-per-task=16",
+        "--mem=96G",
+        "--time=24:00:00",
+        "--job-name=shape-v2-full",
+        "--output=/home/daoqm/Vu_Hung/cv_nangcao/output/shape-v2-slurm-20261123/full-%j.log",
+        "scripts/run_shape_v2_evaluation.sh",
+        "--benchmark-workers",
+        "4",
+        "full"
+      ],
+      "preserved_inventory_sha256": "d5b98e50cab01a85f2662cf107e0e0687acdbe1644a6742410ecf4b7e9ae2c9b",
+      "retained_records": 166,
+      "controller_command": [
+        "sbatch",
+        "--parsable",
+        "--partition=debug-cpu",
+        "--cpus-per-task=2",
+        "--mem=8G",
+        "--time=00:10:00",
+        "--job-name=shape-v2-resume",
+        "--dependency=afterany:45658",
+        "--output=/home/daoqm/Vu_Hung/cv_nangcao/output/shape-v2-slurm-20261123/continuation-%j.log",
+        "scripts/run_shape_v2_continuation.sh",
+        "--study",
+        "/home/daoqm/Vu_Hung/cv_nangcao/output/shape-v2-slurm-20261123",
+        "--job-id",
+        "45658",
+        "--max-resumes",
+        "4"
+      ],
+      "controller_job_id": "45659"
+    },
+    {
+      "at": "2026-11-23T12:56:32.925707+00:00",
+      "previous": {
+        "job_id": "45658",
+        "state": "TIMEOUT",
+        "exit_code": "0:0",
+        "elapsed": "00:48:25",
+        "allocation": "billing=16,cpu=16,gres/gpu=4,mem=96G,node=1"
+      },
+      "action": "resumed",
+      "next_job_id": "45673",
+      "command": [
+        "sbatch",
+        "--parsable",
+        "--partition=debug-gpu",
+        "--gres=gpu:quadro_rtx_6000:4",
+        "--cpus-per-task=16",
+        "--mem=96G",
+        "--time=24:00:00",
+        "--job-name=shape-v2-full",
+        "--output=/home/daoqm/Vu_Hung/cv_nangcao/output/shape-v2-slurm-20261123/full-%j.log",
+        "scripts/run_shape_v2_evaluation.sh",
+        "--benchmark-workers",
+        "4",
+        "full"
+      ],
+      "preserved_inventory_sha256": "cab21ae9385a0a91a035c814b3c6e2c06a0848d1280072f1006836592f75e97c",
+      "retained_records": 222,
+      "controller_command": [
+        "sbatch",
+        "--parsable",
+        "--partition=debug-cpu",
+        "--cpus-per-task=2",
+        "--mem=8G",
+        "--time=00:10:00",
+        "--job-name=shape-v2-resume",
+        "--dependency=afterany:45673",
+        "--output=/home/daoqm/Vu_Hung/cv_nangcao/output/shape-v2-slurm-20261123/continuation-%j.log",
+        "scripts/run_shape_v2_continuation.sh",
+        "--study",
+        "/home/daoqm/Vu_Hung/cv_nangcao/output/shape-v2-slurm-20261123",
+        "--job-id",
+        "45673",
+        "--max-resumes",
+        "4"
+      ],
+      "controller_job_id": "45674"
+    }
+  ]
+}

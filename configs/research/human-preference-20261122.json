@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "round": "surface-full-v1",
+  "title": "Full Surface comparison",
+  "seed": 20261122,
+  "expected_targets": 2565,
+  "dataset_root": "datasets/open_world_amodal",
+  "methods": [
+    {"id": "pdmc_annotated", "name": "PD-MC · annotated vocabulary", "run": "output/surface-annotated-20261112-freshrefs/baseline"},
+    {"id": "surface", "name": "Surface-aware", "run": "output/surface-annotated-20261112-freshrefs/surface"}
+  ],
+  "pending": [
+    {"name": "Shape-aware comparison", "reason": "Waiting for the completed, verified full Shape-aware run."},
+    {"name": "Surface + Shape comparison", "reason": "Reserved for a later scoring round."}
+  ]
+}

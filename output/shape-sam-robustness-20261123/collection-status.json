@@ -1,0 +1,52 @@
+{
+  "jobs": {
+    "45661": [
+      "COMPLETED",
+      "0:0"
+    ],
+    "45662": [
+      "COMPLETED",
+      "0:0"
+    ],
+    "45663": [
+      "COMPLETED",
+      "0:0"
+    ],
+    "45664": [
+      "COMPLETED",
+      "0:0"
+    ]
+  },
+  "roles": {
+    "45661": "training_masks",
+    "45662": "preflight",
+    "45663": "training",
+    "45664": "native_validation"
+  },
+  "accounting": "JobIDRaw|State|ExitCode|ElapsedRaw|AllocTRES|NodeList|Start|End\n45661|COMPLETED|0:0|358|billing=16,cpu=16,gres/gpu=4,mem=64G,node=1|gebru|2026-11-23T12:20:02|2026-11-23T12:26:00\n45662|COMPLETED|0:0|74|billing=24,cpu=24,gres/gpu=4,mem=80G,node=1|gebru|2026-11-23T12:26:00|2026-11-23T12:27:14\n45663|COMPLETED|0:0|920|billing=24,cpu=24,gres/gpu=4,mem=80G,node=1|gebru|2026-11-23T12:27:14|2026-11-23T12:42:34\n45664|COMPLETED|0:0|68|billing=4,cpu=4,gres/gpu=1,mem=20G,node=1|gebru|2026-11-23T12:42:34|2026-11-23T12:43:42\n",
+  "training": {
+    "epochs_completed": 20,
+    "complete": true,
+    "latest": {
+      "epoch": 20,
+      "loss": 1.1061373570684434,
+      "validation": {
+        "images": 217,
+        "objects": 1264,
+        "full_iou": 0.7903791143485405,
+        "full_iou_images": 217,
+        "hidden_iou": 0.37600702235471556,
+        "hidden_iou_images": 177
+      },
+      "seconds": 39.49301591515541,
+      "sampled_training_objects": 9496
+    }
+  },
+  "native": {
+    "images": 217,
+    "objects": 1264,
+    "status": "complete"
+  },
+  "at": "2026-11-23T12:44:05.779159+00:00",
+  "disposition": "ready"
+}

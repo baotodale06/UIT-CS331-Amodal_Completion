@@ -1,0 +1,816 @@
+{
+  "scope": "Natural COCOA polygons in the frozen 204-target cohort. Binary completion alpha placed at the native offset in the original frame. Every failed target receives zero IoU.",
+  "acquisition_cpu_job": "45306",
+  "inventory_sha256": "f0e0bc47f7f4fdf9fb0cb8f6388826e16c06b6a670fd40a95402e6d091e57a9c",
+  "executions": {
+    "baseline": "2d3f866143b09acfa3ee70ad7d9803d5034ec2f3dce3470c1ea5a4dfa6e92975",
+    "shape": "0e830d44c12f6dc71e268842ccbb56f4bdfacea5281a99c8b5420b55268aa1fc",
+    "combined": "5d5b48014c35efd36a4e68c11f0cc3f6a999e104c4cfe258dd165f5d77a79f4e",
+    "surface": "6139148d949f6dccbd48a574b122ba95c193f5fb25968930dce0687b5277821e"
+  },
+  "native_directories": {
+    "baseline": "output/shape-20261121/progressive-l40s/baseline-cohort",
+    "shape": "output/shape-20261121/progressive-l40s/shape-cohort",
+    "combined": "output/shape-20261121/progressive-l40s/combined-cohort",
+    "surface": "output/surface-annotated-20261112-freshrefs/surface-cohort"
+  },
+  "targets": 22,
+  "images": 20,
+  "methods": {
+    "baseline": {
+      "saved": 6,
+      "mean_amodal_iou": 0.2302083786574655
+    },
+    "shape": {
+      "saved": 7,
+      "mean_amodal_iou": 0.26312102306089213
+    },
+    "combined": {
+      "saved": 7,
+      "mean_amodal_iou": 0.24816440178180824
+    },
+    "surface": {
+      "saved": 7,
+      "mean_amodal_iou": 0.2676059215814407
+    }
+  },
+  "combined_minus_shape": {
+    "shared_successes": 7,
+    "improved": 3,
+    "lower": 4,
+    "equal": 15,
+    "mean": -0.014956621279083877,
+    "nominal_95_percent_image_bootstrap": [
+      -0.04588472561454612,
+      0.0019594486468116875
+    ],
+    "bootstrap_draws": 5000,
+    "seed": 20261110,
+    "dog_target": "COCOA/COCO_train2014_000000108113_dog",
+    "dog_contribution_to_mean": -0.012647989892845862,
+    "dog_fraction_of_net_difference": 0.8456448590119395
+  },
+  "sources": {
+    "shape-cohort-vs-pmc-pairs.json": "d86e7e0eb46bda94468e49edd8eb8ce19782b4a6db09b0e3b7abb42878808f36",
+    "combined-cohort-vs-pmc-pairs.json": "a77bb86a950f3120631482b4eb8ac10fbfe67b1908478612e3447c400aa55633",
+    "cocoa-historical-controls.json": "bc450f0f0de6d64b1053ba304985474413f702c3d71abf366c1d31f8d7bcfe3a"
+  },
+  "rows": [
+    {
+      "id": "COCOA/COCO_train2014_000000009199_bed",
+      "annotation_sha256": "7cf84797b15832d47fa31173300b113ade65969bfa7c0fca48db273e233af40f",
+      "image_identity": "COCOA/COCO_train2014_000000009199",
+      "methods": {
+        "baseline": {
+          "status": "success",
+          "amodal_iou": 0.6326016499705363,
+          "result_sha256": "95a8a1d72c0974b27fbdd067600f4c5fa2082007ac15dc15b56e20c1ef61028f",
+          "completion_sha256": "33f2e428afeff23e5601ffa10b28f593f14349d0a0722e8f0921a44436d78940",
+          "mask_sha256": "39f34bb15dc278a25358fc857fc9d665ccb5ba1e3e20db40aee86361df00e94f",
+          "offset_rc": [
+            -61,
+            -120
+          ]
+        },
+        "shape": {
+          "status": "success",
+          "amodal_iou": 0.7605121254088458,
+          "result_sha256": "fdcf76fa6278ce84c58ce35f872e956e3df444ede5778010afc53444c02e9650",
+          "completion_sha256": "1921ab5e775f1eaec057796653a226ec5be3a40b9a6f73497fd093259cfdfe63",
+          "mask_sha256": "224a6d29fe37cc5bc426cef1c484175442ffd42e24964c3deb4a79c7de09afcb",
+          "offset_rc": [
+            -61,
+            -120
+          ]
+        },
+        "combined": {
+          "status": "success",
+          "amodal_iou": 0.6940326003655014,
+          "result_sha256": "95a49040162afa45655e5cd414357ad0b6bf23643022d22e92dc914273345692",
+          "completion_sha256": "3bf568ad70a76d306d5a90e60e635b7c6a305240e0129944eb95c099b6112e78",
+          "mask_sha256": "b93e8c40a44ef0a0586c47cf77204fc6fd7b496bcbf807881960b44ab91575b2",
+          "offset_rc": [
+            -61,
+            -120
+          ]
+        },
+        "surface": {
+          "status": "success",
+          "amodal_iou": 0.7022828762177059,
+          "result_sha256": "7f2a914573bb2b2f710dca2250c72498d85d38cfb6f5c7a8f3da283150b6e03c",
+          "completion_sha256": "dd5db59d772fb354a3b8a171d8843186fbb8cde01bf35c6799e0d8881507bb8e",
+          "mask_sha256": "9b37374a26d33c5a236dc39d94921662450ad8b2255be6632a9164ac897c6d5c",
+          "offset_rc": [
+            -61,
+            -120
+          ]
+        }
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000024086_plate",
+      "annotation_sha256": "b343e5dca6a049fbe9d780b255fc026739e48e3ba9a8e2fc15007e72567f891b",
+      "image_identity": "COCOA/COCO_train2014_000000024086",
+      "methods": {
+        "baseline": {
+          "status": "no_completion",
+          "amodal_iou": 0.0,
+          "result_sha256": "25e0aed06a05716e3e090a2ddf806d802ee3a3eae0692dd50fd07a321e61a638"
+        },
+        "shape": {
+          "status": "no_completion",
+          "amodal_iou": 0.0,
+          "result_sha256": "25e0aed06a05716e3e090a2ddf806d802ee3a3eae0692dd50fd07a321e61a638"
+        },
+        "combined": {
+          "status": "no_completion",
+          "amodal_iou": 0.0,
+          "result_sha256": "25e0aed06a05716e3e090a2ddf806d802ee3a3eae0692dd50fd07a321e61a638"
+        },
+        "surface": {
+          "status": "no_completion",
+          "amodal_iou": 0.0,
+          "result_sha256": "6f858380689ecab0346043e301d8ebe8826073819e40fbff4dbab9efb6ca282b"
+        }
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000064111_toilet",
+      "annotation_sha256": "a3f795c16aea60b555836e880cad91afc7a2bf10cef08cf788f4bbed75719947",
+      "image_identity": "COCOA/COCO_train2014_000000064111",
+      "methods": {
+        "baseline": {
+          "status": "success",
+          "amodal_iou": 0.8034794261026269,
+          "result_sha256": "09e39aa1501143bfa3699be63618585a9c2f2196a372fcf61d8680545e6c29f6",
+          "completion_sha256": "31bf27df403e511c0419e5aa5bc01c5524256f71eb3ce1344dd8339a448ba14c",
+          "mask_sha256": "6f9454cae767087f6355d434916f14b7634b389a38acfac01876ad02d18b86d6",
+          "offset_rc": [
+            -60,
+            -22
+          ]
+        },
+        "shape": {
+          "status": "success",
+          "amodal_iou": 0.8648000645510818,
+          "result_sha256": "20854492d1c122e3a2effdbb6f1c4a83c925e5f322822f4fb0f7127ada5f3795",
+          "completion_sha256": "d306017f59f5c8a0ddbafb70b1a09a488877d0ee35ce8feeff0f5eb749431a30",
+          "mask_sha256": "a83caeebded9dc217d4a7fd30621f86586f7420b832534e050634f11779c96d9",
+          "offset_rc": [
+            -60,
+            -22
+          ]
+        },
+        "combined": {
+          "status": "success",
+          "amodal_iou": 0.8550071464797824,
+          "result_sha256": "81db05310d3911b7b37694f293895aed6aa196b5f37ac67408d1a677943b3c17",
+          "completion_sha256": "733446777781406dc0ea981ab32f1b0546cce4db92aa25ee97e205f15d2b4c84",
+          "mask_sha256": "fd473c9f535a475ca8ea2efc8964f1f64f372df51766eab9836cfbe8a3e105ca",
+          "offset_rc": [
+            -60,
+            -22
+          ]
+        },
+        "surface": {
+          "status": "success",
+          "amodal_iou": 0.8565862879800821,
+          "result_sha256": "11bfe2712d5ad69de4156df1f28edf70baee49f4d06699e893012ca4a0b1faa6",
+          "completion_sha256": "7a926221cb8a31c5cb8f5613dd6dc0c6316d7cc56128bdebc6ceb2df641cc37c",
+          "mask_sha256": "ca7faa54895ea85e405936d57a8d5892509c766285cac0467847b142757116c1",
+          "offset_rc": [
+            -60,
+            -22
+          ]
+        }
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000096378_sheep",
+      "annotation_sha256": "fd83eb100bfb9626fcb75e8624f384500d1aa30a0de1d87cc631cf5bedbb50c3",
+      "image_identity": "COCOA/COCO_train2014_000000096378",
+      "methods": {
+        "baseline": {
+          "status": "not_detected",
+          "amodal_iou": 0.0,
+          "result_sha256": "998473f79aa22cf2646f7ad33d7100056c46e62b2f8a8733254973145e59874e"
+        },
+        "shape": {
+          "status": "not_detected",
+          "amodal_iou": 0.0,
+          "result_sha256": "998473f79aa22cf2646f7ad33d7100056c46e62b2f8a8733254973145e59874e"
+        },
+        "combined": {
+          "status": "not_detected",
+          "amodal_iou": 0.0,
+          "result_sha256": "998473f79aa22cf2646f7ad33d7100056c46e62b2f8a8733254973145e59874e"
+        },
+        "surface": {
+          "status": "not_detected",
+          "amodal_iou": 0.0,
+          "result_sha256": "9b76ca951906027b5be40a7efbb656a1e8b1802fff0d51dc8de1000970b4af8c"
+        }
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000108113_dog",
+      "annotation_sha256": "925b655c76db594ba041ee91afb1ece0966fa93f5f5fd44af4513b7d453feba1",
+      "image_identity": "COCOA/COCO_train2014_000000108113",
+      "methods": {
+        "baseline": {
+          "status": "no_completion",
+          "amodal_iou": 0.0,
+          "result_sha256": "b56a9b26f14b62943d3394731192b2af861956082c46ec14bb59b860b3b92e20"
+        },
+        "shape": {
+          "status": "success",
+          "amodal_iou": 0.47179884787768733,
+          "result_sha256": "62c941eaf4b2af880506dc71fb3d6e29cf7148570f9e7b711b0419b9720662f2",
+          "completion_sha256": "55d6a4a28876463c888444c03f6ad88a1886c53855dbdf45163c7c31f158fbf7",
+          "mask_sha256": "f73cb291946771be24aeef9b635491a3fc551e040611fb0deb56d53d95fd76cb",
+          "offset_rc": [
+            -159,
+            -46
+          ]
+        },
+        "combined": {
+          "status": "success",
+          "amodal_iou": 0.19354307023507838,
+          "result_sha256": "f2f85cb45480c5ac92df8428f1e1eef50a2a4d82942627801512a66af36118c2",
+          "completion_sha256": "3664b02db8ae3cc65f4892b74b0ea90711f4ba931567f9e516c588027dd37f92",
+          "mask_sha256": "7d56e4061529c5997b3e3c3a3540751ba063ad3dd72597b22d32dd99a43b4de9",
+          "offset_rc": [
+            -159,
+            -46
+          ]
+        },
+        "surface": {
+          "status": "success",
+          "amodal_iou": 0.5684586717098676,
+          "result_sha256": "f47f598e2bf28f21b5fc4bc4f3eb8a9d2b2f860f68b9e972c91e2baa024ae232",
+          "completion_sha256": "bcb485eb0b548c76a803051f1c55fcb90fbd71822316fd726b2d003f03de437f",
+          "mask_sha256": "2f9291f2efd2641354de3c7aaeb68a8cd17b652c16796c4448ebac3e6b00f3ec",
+          "offset_rc": [
+            -159,
+            -46
+          ]
+        }
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000182020_cat",
+      "annotation_sha256": "cf0ef5e30c893570393bdb1326dc82e14f42d60f13634274d10c60044bfd25dc",
+      "image_identity": "COCOA/COCO_train2014_000000182020",
+      "methods": {
+        "baseline": {
+          "status": "no_completion",
+          "amodal_iou": 0.0,
+          "result_sha256": "1718b7fdfa5f1b9109747c6e953de7e6c7265e1d1c07ad02c45f094bcdd7d6e0"
+        },
+        "shape": {
+          "status": "no_completion",
+          "amodal_iou": 0.0,
+          "result_sha256": "1718b7fdfa5f1b9109747c6e953de7e6c7265e1d1c07ad02c45f094bcdd7d6e0"
+        },
+        "combined": {
+          "status": "no_completion",
+          "amodal_iou": 0.0,
+          "result_sha256": "1718b7fdfa5f1b9109747c6e953de7e6c7265e1d1c07ad02c45f094bcdd7d6e0"
+        },
+        "surface": {
+          "status": "no_completion",
+          "amodal_iou": 0.0,
+          "result_sha256": "d72bab7463d1dbb620d054d3bd9fb024cdc687316fc0f8e112054cb98b684467"
+        }
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000403687_dog",
+      "annotation_sha256": "6058a20c7fb66aa68777a4c808a1d28ad8d98a9432b578f161812840056b1608",
+      "image_identity": "COCOA/COCO_train2014_000000403687",
+      "methods": {
+        "baseline": {
+          "status": "not_detected",
+          "amodal_iou": 0.0,
+          "result_sha256": "ab83415de5ce9aa274d4638d1552c19c02d647478eebeb9d084ff2efdfd7c3bb"
+        },
+        "shape": {
+          "status": "not_detected",
+          "amodal_iou": 0.0,
+          "result_sha256": "ab83415de5ce9aa274d4638d1552c19c02d647478eebeb9d084ff2efdfd7c3bb"
+        },
+        "combined": {
+          "status": "not_detected",
+          "amodal_iou": 0.0,
+          "result_sha256": "ab83415de5ce9aa274d4638d1552c19c02d647478eebeb9d084ff2efdfd7c3bb"
+        },
+        "surface": {
+          "status": "not_detected",
+          "amodal_iou": 0.0,
+          "result_sha256": "ab83415de5ce9aa274d4638d1552c19c02d647478eebeb9d084ff2efdfd7c3bb"
+        }
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000430753_knife",
+      "annotation_sha256": "0d4fd084b4fde06b142e37a3e227a395efa769d871ba23c8e8391666f0f9a00a",
+      "image_identity": "COCOA/COCO_train2014_000000430753",
+      "methods": {
+        "baseline": {
+          "status": "no_completion",
+          "amodal_iou": 0.0,
+          "result_sha256": "d1d40e289a22f3957d35fd280dc7a2fa6118d2d27b91f65ade4ee03d6d9b44fd"
+        },
+        "shape": {
+          "status": "no_completion",
+          "amodal_iou": 0.0,
+          "result_sha256": "d1d40e289a22f3957d35fd280dc7a2fa6118d2d27b91f65ade4ee03d6d9b44fd"
+        },
+        "combined": {
+          "status": "no_completion",
+          "amodal_iou": 0.0,
+          "result_sha256": "d1d40e289a22f3957d35fd280dc7a2fa6118d2d27b91f65ade4ee03d6d9b44fd"
+        },
+        "surface": {
+          "status": "no_completion",
+          "amodal_iou": 0.0,
+          "result_sha256": "d1d40e289a22f3957d35fd280dc7a2fa6118d2d27b91f65ade4ee03d6d9b44fd"
+        }
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000474446_dog",
+      "annotation_sha256": "527d7d621bb93efb6f02fa242c0144fb41253a20295c2c9d19e8cec2f18b0ae3",
+      "image_identity": "COCOA/COCO_train2014_000000474446",
+      "methods": {
+        "baseline": {
+          "status": "not_detected",
+          "amodal_iou": 0.0,
+          "result_sha256": "1c264448ffd200c3c27bcfadbc981e44cc65eaf3ee016a76317e502c32a291c2"
+        },
+        "shape": {
+          "status": "not_detected",
+          "amodal_iou": 0.0,
+          "result_sha256": "1c264448ffd200c3c27bcfadbc981e44cc65eaf3ee016a76317e502c32a291c2"
+        },
+        "combined": {
+          "status": "not_detected",
+          "amodal_iou": 0.0,
+          "result_sha256": "1c264448ffd200c3c27bcfadbc981e44cc65eaf3ee016a76317e502c32a291c2"
+        },
+        "surface": {
+          "status": "not_detected",
+          "amodal_iou": 0.0,
+          "result_sha256": "35b23cd6e732175e4a728207fbbf3c247c697afb1496addf2cfa619bf13358c3"
+        }
+      }
+    },
+    {
+      "id": "COCOA/COCO_train2014_000000561565_zebra",
+      "annotation_sha256": "a9356a3e5942f7f3bf056fdebf53f235d437da600dc71f83cfb794517f2b3ea3",
+      "image_identity": "COCOA/COCO_train2014_000000561565",
+      "methods": {
+        "baseline": {
+          "status": "no_completion",
+          "amodal_iou": 0.0,
+          "result_sha256": "b505a634bb094672aa7f42de2e2f19e45394517bcb96f2b15a2ff24298f6701a"
+        },
+        "shape": {
+          "status": "no_completion",
+          "amodal_iou": 0.0,
+          "result_sha256": "b505a634bb094672aa7f42de2e2f19e45394517bcb96f2b15a2ff24298f6701a"
+        },
+        "combined": {
+          "status": "no_completion",
+          "amodal_iou": 0.0,
+          "result_sha256": "b505a634bb094672aa7f42de2e2f19e45394517bcb96f2b15a2ff24298f6701a"
+        },
+        "surface": {
+          "status": "no_completion",
+          "amodal_iou": 0.0,
+          "result_sha256": "b505a634bb094672aa7f42de2e2f19e45394517bcb96f2b15a2ff24298f6701a"
+        }
+      }
+    },
+    {
+      "id": "COCOA/COCO_test2014_000000260571_cat",
+      "annotation_sha256": "e7badccdd71afb26a77f1b9a1cc8d3807b652d6cec26c00ae88162369345251a",
+      "image_identity": "COCOA/COCO_test2014_000000260571",
+      "methods": {
+        "baseline": {
+          "status": "no_completion",
+          "amodal_iou": 0.0,
+          "result_sha256": "6ac41153b596b6837ef44df8e751e5f41ae5d465883820aaa0d2303082a0156f"
+        },
+        "shape": {
+          "status": "no_completion",
+          "amodal_iou": 0.0,
+          "result_sha256": "6ac41153b596b6837ef44df8e751e5f41ae5d465883820aaa0d2303082a0156f"
+        },
+        "combined": {
+          "status": "no_completion",
+          "amodal_iou": 0.0,
+          "result_sha256": "6ac41153b596b6837ef44df8e751e5f41ae5d465883820aaa0d2303082a0156f"
+        },
+        "surface": {
+          "status": "no_completion",
+          "amodal_iou": 0.0,
+          "result_sha256": "3f4c1d97913518444f18b718f4e951571aa331ff20bad97484c99c7a2cccd3df"
+        }
+      }
+    },
+    {
+      "id": "COCOA/COCO_test2014_000000296835_book",
+      "annotation_sha256": "7a4fdf6bbe4df89a320688d93a05794356d0160cb2b381decb53bb7b852b59ed",
+      "image_identity": "COCOA/COCO_test2014_000000296835",
+      "methods": {
+        "baseline": {
+          "status": "success",
+          "amodal_iou": 0.8645476952507082,
+          "result_sha256": "df11e27b5e06388a3e6537ebfd24519de5da810de936704af9a7aea924e53704",
+          "completion_sha256": "d22228df9019cdd08f531c9b12f95ea6dc900e0f318f650e7edb510488d079e8",
+          "mask_sha256": "eb295720a2e91e1365bc3ccccffe1f32a9f285583d639fec989de75baf1d0da5",
+          "offset_rc": [
+            -130,
+            -14
+          ]
+        },
+        "shape": {
+          "status": "success",
+          "amodal_iou": 0.9063666405154174,
+          "result_sha256": "52007e87a1ee01c3bcb3cf7723f67bc4f9d4618851dd1b7356950fccc25a1429",
+          "completion_sha256": "8002aeda45f217d10a850bac33c0cd721d4a5a96ecfbb9c1c96c4ff6aff3203b",
+          "mask_sha256": "b39b5e9966c93f39cccb58b9817a57511ccf9c475ca5d734c1a54c71a51ee328",
+          "offset_rc": [
+            -130,
+            -14
+          ]
+        },
+        "combined": {
+          "status": "success",
+          "amodal_iou": 0.8989129902560838,
+          "result_sha256": "9efeca88cf5743dc42168647d5ded6824343d4390ec6c547ad72e49e2142a7df",
+          "completion_sha256": "02f2795769306ccd542f631297f52a1fab9cfe067a0661ae32dc9c72ba93e87c",
+          "mask_sha256": "113f0eb4451d24029e70c788a1038448ef587d0eb443aeec300132f3e62aaf61",
+          "offset_rc": [
+            -130,
+            -14
+          ]
+        },
+        "surface": {
+          "status": "success",
+          "amodal_iou": 0.8988407819519421,
+          "result_sha256": "5be57f7d49b87080c0481b96de7e8c80630add29569f4a90f40a03c6dc088797",
+          "completion_sha256": "54ed15f623eaa303c56b21233c1e48627fa185799a8a672d0ef7ea0fc717c904",
+          "mask_sha256": "c24aa168686d87b00aefe239775af2d49a5fe3fc497f4dc52420ef89e9698e10",
+          "offset_rc": [
+            -130,
+            -14
+          ]
+        }
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000058797_toilet",
+      "annotation_sha256": "c720e0ddf8a85ad5640c5731d71fb92fd53c8612fad7886b46e7b80b64e0a0ae",
+      "image_identity": "COCOA/COCO_val2014_000000058797",
+      "methods": {
+        "baseline": {
+          "status": "success",
+          "amodal_iou": 0.9814285233657437,
+          "result_sha256": "c6ddcd8c797615ea24c0ba4a1d2b0d94ee937cdebb2df9787b7817df1c4a5f51",
+          "completion_sha256": "ca3b57d8775e93e94fce3d5ab99b6cb269117f89c99f31b334489dff5124bace",
+          "mask_sha256": "b20329e2ba1663086f549ff8fd4bb11e39e52f9737b84bed0ded243ced411509",
+          "offset_rc": [
+            34,
+            -120
+          ]
+        },
+        "shape": {
+          "status": "success",
+          "amodal_iou": 0.9879266857238944,
+          "result_sha256": "c520ec739370194a8ce14ac0a3ca8205f4ea1df1209cb7da7453887d8b2567aa",
+          "completion_sha256": "137747319454e21e7e79cfd6fcc99d212d4a425b41597dbcb66e9fef93a395eb",
+          "mask_sha256": "9e426a5af5b4b1b98b69faafaa62c0bd1aeeb9dd91912bc73d32e66a45bcccb0",
+          "offset_rc": [
+            34,
+            -120
+          ]
+        },
+        "combined": {
+          "status": "success",
+          "amodal_iou": 0.98872699128445,
+          "result_sha256": "879e282a458a867422178bca0c7c1de1b2ce64cb48e051429e73d9780fed1f36",
+          "completion_sha256": "6a33ba2d4b7bd8291ca715ddc9d65539aadeb31cb794b601a066d601a9223c20",
+          "mask_sha256": "b070c48ee2a933bfb8a10dddc79866f13f3eccc0f2226f9b500cb71c8b3bafdb",
+          "offset_rc": [
+            34,
+            -120
+          ]
+        },
+        "surface": {
+          "status": "success",
+          "amodal_iou": 0.9796412827674396,
+          "result_sha256": "d82e125d27d6f41799fc648198a1926fd82e5caff3fd34ff13dcf7a7e11378f2",
+          "completion_sha256": "221f13dd25a83bfaa813d1a515eeb266cfd2574dabb4f9e54bccddbcd8b0b08a",
+          "mask_sha256": "c45a5f3db07e82ee5b03b442dbf680cb512cb17c3473b28aa4a78a261d76ea21",
+          "offset_rc": [
+            34,
+            -120
+          ]
+        }
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000065433_dog",
+      "annotation_sha256": "5ee9824d4bf6351597e257570825080b3bd5a0a1f0ccdde093618758fe5b0346",
+      "image_identity": "COCOA/COCO_val2014_000000065433",
+      "methods": {
+        "baseline": {
+          "status": "not_detected",
+          "amodal_iou": 0.0,
+          "result_sha256": "a67a77cb879664f28f96c454e43784c6798c6b14c13fcb6cf886c7cacccfca8c"
+        },
+        "shape": {
+          "status": "not_detected",
+          "amodal_iou": 0.0,
+          "result_sha256": "a67a77cb879664f28f96c454e43784c6798c6b14c13fcb6cf886c7cacccfca8c"
+        },
+        "combined": {
+          "status": "not_detected",
+          "amodal_iou": 0.0,
+          "result_sha256": "a67a77cb879664f28f96c454e43784c6798c6b14c13fcb6cf886c7cacccfca8c"
+        },
+        "surface": {
+          "status": "not_detected",
+          "amodal_iou": 0.0,
+          "result_sha256": "8a1342c436ed1b5ba26e4ab757fa3cc2e9db91d76206981e9b8007cceff76cd8"
+        }
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000143450_plate",
+      "annotation_sha256": "565e45f5d5bf8739e8b9aa593e4d2d3f7906d6e8ad41c7e6e6974c2edbf63a48",
+      "image_identity": "COCOA/COCO_val2014_000000143450",
+      "methods": {
+        "baseline": {
+          "status": "success",
+          "amodal_iou": 0.8897705999049987,
+          "result_sha256": "c226d7671888d5aa2fdc605bd87fff3a0db595e407aa1349804068beb9f6fdae",
+          "completion_sha256": "bdc6c4f99d3eb2c690d01c30e8ccf08b730226345242497f6d4eb00b94946b54",
+          "mask_sha256": "b3fe6719d7d44dc51e9b6a42d4dfeb35cedd804ca5ece3482085481a5d4a027b",
+          "offset_rc": [
+            -208,
+            -120
+          ]
+        },
+        "shape": {
+          "status": "success",
+          "amodal_iou": 0.9295413151728861,
+          "result_sha256": "0d14bdd0a4171961f4d000f4f0e43c0b25f998aaabfcc6a09e6e3b1f4160ccd6",
+          "completion_sha256": "55e4228c94afdcd5c29b42ea767e8d35e196b29488e76b5d6745f9b84591196f",
+          "mask_sha256": "7faf8985cb4e903ba14fa86c6564772a5f7bce2b453a3cea59e5659445b23ba7",
+          "offset_rc": [
+            -208,
+            -120
+          ]
+        },
+        "combined": {
+          "status": "success",
+          "amodal_iou": 0.9305175080598572,
+          "result_sha256": "49c8b869d07c9e7fdefa83a0aa3e2dcf44321f39a62a3922a2cd6394454705dc",
+          "completion_sha256": "fa954289d9742247654ddd4aa5877dcbd631c171319ca079229fd22207e6dece",
+          "mask_sha256": "42aac5a5285df0f5b1dd9d7cd53fdb657c4c402ed3fd108d94b8882b00fd72cf",
+          "offset_rc": [
+            -208,
+            -120
+          ]
+        },
+        "surface": {
+          "status": "success",
+          "amodal_iou": 0.9834458612331324,
+          "result_sha256": "df949656b9158582a43070924873381a30de01aa7001924d718c77879f729368",
+          "completion_sha256": "8b54f7c1f2899d0ce8a548961807ccfa72cd2608e627bcc013647475801e4a7a",
+          "mask_sha256": "4e570c8143206444911bd81f6c551064f2b694c1e701692699f986715f20904f",
+          "offset_rc": [
+            -208,
+            -120
+          ]
+        }
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000143450_cake",
+      "annotation_sha256": "34d65e0f02d7df5ae632dbc542b8b34fe93542c49f6157cdc1e5865623f37785",
+      "image_identity": "COCOA/COCO_val2014_000000143450",
+      "methods": {
+        "baseline": {
+          "status": "success",
+          "amodal_iou": 0.8927564358696273,
+          "result_sha256": "695c8153f5eb602fe4670bdf912b52df2f883a6d0868c8746296f6818860655c",
+          "completion_sha256": "aa69dd83f57fa6eed5965ce86f26913a4aea1e49fd5d4c3ff08206a7eda60920",
+          "mask_sha256": "d17ff3ce858a1a2d85754d9eca0b0fff4c6110a60e680b4af6deb52f9cf8ea38",
+          "offset_rc": [
+            15,
+            31
+          ]
+        },
+        "shape": {
+          "status": "success",
+          "amodal_iou": 0.867716828089814,
+          "result_sha256": "685e427429907cd8fbde52bcdca4fb9476bf2a17cef8e3bef9b2c1f22b2fc8e3",
+          "completion_sha256": "e2ce97e4018b44ae868de79da5b6c95ddc53da0478be2276d6d04166090755cc",
+          "mask_sha256": "26ea1daba7e13d6dc69b61bc1c54b385984fa2f16d2f98dd77e1abd4e77b627e",
+          "offset_rc": [
+            15,
+            31
+          ]
+        },
+        "combined": {
+          "status": "success",
+          "amodal_iou": 0.8988765325190283,
+          "result_sha256": "61bc4023c2f4d75f54b8a63a95e790b16475ac541f6db4cfc698008f29a56ebb",
+          "completion_sha256": "625245fbc2885f3f32d196b40f7d59c19761c534f3f1d2db3a8dfb2da81b0db9",
+          "mask_sha256": "c3f903fb95846318eaf5441e51489f688047a16b3ff300c036d91ad529fef925",
+          "offset_rc": [
+            15,
+            31
+          ]
+        },
+        "surface": {
+          "status": "success",
+          "amodal_iou": 0.8980745129315256,
+          "result_sha256": "fb12662ca68d11f17e21ad2bc1ee0edd75610eb47dd73fc680db3791af56c91c",
+          "completion_sha256": "f23795f74f62eb7a5a98831ad46a106fab86d079c5778f71969f5f72b89eb94d",
+          "mask_sha256": "e2273bf15ec4a07e9f172de9191c6574b4ed794f4cf0fc1075b5416dfc8d6075",
+          "offset_rc": [
+            15,
+            31
+          ]
+        }
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000143450_spoon",
+      "annotation_sha256": "4558899c835fa792bc49d609291dd7aab6dd5f07700632253a1b3c522aa2d42b",
+      "image_identity": "COCOA/COCO_val2014_000000143450",
+      "methods": {
+        "baseline": {
+          "status": "no_completion",
+          "amodal_iou": 0.0,
+          "result_sha256": "5b2731ac4a8cbe05b8018e8e86f2994ea9d749659b78205fb49920ef6e3560b5"
+        },
+        "shape": {
+          "status": "no_completion",
+          "amodal_iou": 0.0,
+          "result_sha256": "5b2731ac4a8cbe05b8018e8e86f2994ea9d749659b78205fb49920ef6e3560b5"
+        },
+        "combined": {
+          "status": "no_completion",
+          "amodal_iou": 0.0,
+          "result_sha256": "5b2731ac4a8cbe05b8018e8e86f2994ea9d749659b78205fb49920ef6e3560b5"
+        },
+        "surface": {
+          "status": "no_completion",
+          "amodal_iou": 0.0,
+          "result_sha256": "20c645355f1d804c98d1da55479ce39432168f95399666a8f97ac44956d98259"
+        }
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000222317_dog",
+      "annotation_sha256": "6dbbe361ba8c243c76087165960378d3573ab1124b9bc447a0b056f49f88fc60",
+      "image_identity": "COCOA/COCO_val2014_000000222317",
+      "methods": {
+        "baseline": {
+          "status": "not_detected",
+          "amodal_iou": 0.0,
+          "result_sha256": "8c1687cdf9d3b9c9c4e9a41f67c4a81f64080f54464936e43d4104f1456cbfdd"
+        },
+        "shape": {
+          "status": "not_detected",
+          "amodal_iou": 0.0,
+          "result_sha256": "8c1687cdf9d3b9c9c4e9a41f67c4a81f64080f54464936e43d4104f1456cbfdd"
+        },
+        "combined": {
+          "status": "not_detected",
+          "amodal_iou": 0.0,
+          "result_sha256": "8c1687cdf9d3b9c9c4e9a41f67c4a81f64080f54464936e43d4104f1456cbfdd"
+        },
+        "surface": {
+          "status": "not_detected",
+          "amodal_iou": 0.0,
+          "result_sha256": "8c1687cdf9d3b9c9c4e9a41f67c4a81f64080f54464936e43d4104f1456cbfdd"
+        }
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000229255_wateringcan",
+      "annotation_sha256": "515305250c65102b4519b06c37f1832012bc04103890c595380902e5aaaeb0aa",
+      "image_identity": "COCOA/COCO_val2014_000000229255",
+      "methods": {
+        "baseline": {
+          "status": "not_detected",
+          "amodal_iou": 0.0,
+          "result_sha256": "bfefd15dd06919bca7337484f72332783c4fbf66f75d276ddb3be4e878c57d1e"
+        },
+        "shape": {
+          "status": "not_detected",
+          "amodal_iou": 0.0,
+          "result_sha256": "bfefd15dd06919bca7337484f72332783c4fbf66f75d276ddb3be4e878c57d1e"
+        },
+        "combined": {
+          "status": "not_detected",
+          "amodal_iou": 0.0,
+          "result_sha256": "bfefd15dd06919bca7337484f72332783c4fbf66f75d276ddb3be4e878c57d1e"
+        },
+        "surface": {
+          "status": "not_detected",
+          "amodal_iou": 0.0,
+          "result_sha256": "f46b86545352cc0a4cd68012df9b30dcba27c5a6d2fcbd00faa8d7b2e1f2dc14"
+        }
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000285894_giraffe",
+      "annotation_sha256": "d9f51021931f21007afbbfa65eb8132faf6846fe2c3f5f610c69fe6a361ff022",
+      "image_identity": "COCOA/COCO_val2014_000000285894",
+      "methods": {
+        "baseline": {
+          "status": "ambiguous_target",
+          "amodal_iou": 0.0,
+          "result_sha256": "52cdc5c81482d0283c9d383fe45fcae71be17b512028e340014ebf00ec016635"
+        },
+        "shape": {
+          "status": "ambiguous_target",
+          "amodal_iou": 0.0,
+          "result_sha256": "52cdc5c81482d0283c9d383fe45fcae71be17b512028e340014ebf00ec016635"
+        },
+        "combined": {
+          "status": "ambiguous_target",
+          "amodal_iou": 0.0,
+          "result_sha256": "52cdc5c81482d0283c9d383fe45fcae71be17b512028e340014ebf00ec016635"
+        },
+        "surface": {
+          "status": "ambiguous_target",
+          "amodal_iou": 0.0,
+          "result_sha256": "52cdc5c81482d0283c9d383fe45fcae71be17b512028e340014ebf00ec016635"
+        }
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000559277_dog",
+      "annotation_sha256": "678a319aefa74fb742dc440785d8cd0250b732e6e71475db6f6c0aed66c70253",
+      "image_identity": "COCOA/COCO_val2014_000000559277",
+      "methods": {
+        "baseline": {
+          "status": "not_detected",
+          "amodal_iou": 0.0,
+          "result_sha256": "2ae55846f30b17dc0afd5a562cb4287b66a2a6faa5e8e2fb322057bae2d35931"
+        },
+        "shape": {
+          "status": "not_detected",
+          "amodal_iou": 0.0,
+          "result_sha256": "2ae55846f30b17dc0afd5a562cb4287b66a2a6faa5e8e2fb322057bae2d35931"
+        },
+        "combined": {
+          "status": "not_detected",
+          "amodal_iou": 0.0,
+          "result_sha256": "2ae55846f30b17dc0afd5a562cb4287b66a2a6faa5e8e2fb322057bae2d35931"
+        },
+        "surface": {
+          "status": "not_detected",
+          "amodal_iou": 0.0,
+          "result_sha256": "65884fcccffa9373c39ef74e5ed7ea00338efd51bf85f501a021ce3603e222e9"
+        }
+      }
+    },
+    {
+      "id": "COCOA/COCO_val2014_000000579593_giraffe",
+      "annotation_sha256": "51dbb90b413fc24e00f178e4ddfb36321b634ff03b0254d3ce208198f374473a",
+      "image_identity": "COCOA/COCO_val2014_000000579593",
+      "methods": {
+        "baseline": {
+          "status": "ambiguous_target",
+          "amodal_iou": 0.0,
+          "result_sha256": "9ef098343d0b84616044710169b0df8114bfae2e00d94dbd7608113291973512"
+        },
+        "shape": {
+          "status": "ambiguous_target",
+          "amodal_iou": 0.0,
+          "result_sha256": "9ef098343d0b84616044710169b0df8114bfae2e00d94dbd7608113291973512"
+        },
+        "combined": {
+          "status": "ambiguous_target",
+          "amodal_iou": 0.0,
+          "result_sha256": "9ef098343d0b84616044710169b0df8114bfae2e00d94dbd7608113291973512"
+        },
+        "surface": {
+          "status": "ambiguous_target",
+          "amodal_iou": 0.0,
+          "result_sha256": "c3c663a969e682853aef91d13bd6bb0938d22f68193316abd21236b8b787feac"
+        }
+      }
+    }
+  ]
+}

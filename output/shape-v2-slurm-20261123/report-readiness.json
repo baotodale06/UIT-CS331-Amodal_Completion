@@ -1,0 +1,41 @@
+{
+  "at": "2026-11-23T10:49:34.247124+00:00",
+  "snapshot": "recovery/20261123T104847.176010Z",
+  "progress": {
+    "smoke": {
+      "records": 4,
+      "statuses": {
+        "success": 4
+      }
+    },
+    "benchmark": {
+      "records": 34,
+      "statuses": {
+        "no_completion": 9,
+        "ambiguous_target": 10,
+        "not_detected": 5,
+        "success": 10
+      }
+    }
+  },
+  "previous_goal_turn": "progress",
+  "current_work": "Prepared and tested final reporting; verified live benchmark/collector wait",
+  "tests": {
+    "command": "python -m unittest tests.test_shape_v2_report -v",
+    "passed": 2,
+    "skipped": 0,
+    "real_incomplete_study_rejected": true,
+    "report_published": false
+  },
+  "files": {
+    "scripts/build_shape_v2_report.py": "f453df9073959f82c8831117574883768f483cca3ec0fdc1b371d23dfc8dd9d5",
+    "tests/test_shape_v2_report.py": "b2943aa0dec5cbaeb796a2492c16d85ba1c84221d1e31fdc2e421541922084eb"
+  },
+  "inspected_no_completion": {
+    "records": 9,
+    "no_occlusion_detected": 6,
+    "query_mask_too_small": 3,
+    "error_fields_present": 0
+  },
+  "goal_achieved": false
+}

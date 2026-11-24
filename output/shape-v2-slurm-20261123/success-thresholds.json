@@ -1,0 +1,32 @@
+{
+  "control_scores_sha256": "ceb0da09942d105e034efe1948054161120959f3be76046111083fbe5a460a1b",
+  "targets": 2565,
+  "metrics": {
+    "CLIP": {
+      "control": 28.15974118275143,
+      "required_method_bound": 29.004533418233972,
+      "comparison": ">=",
+      "control_n": 1394
+    },
+    "LPIPS": {
+      "control": 0.6144084983053263,
+      "required_method_bound": 0.5959762433561665,
+      "comparison": "<=",
+      "control_n": 2565
+    },
+    "Feature Similarity": {
+      "control": 0.3496083703538363,
+      "required_method_bound": 0.36009662146445137,
+      "comparison": ">=",
+      "control_n": 2565
+    },
+    "SSIM": {
+      "control": 0.44562376843817725,
+      "required_method_bound": 0.4589924814913226,
+      "comparison": ">=",
+      "control_n": 2565
+    }
+  },
+  "minimum_clip_coverage": 1394,
+  "benchmark_result": false
+}

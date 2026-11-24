@@ -1,0 +1,22 @@
+{
+  "at": "2026-11-23T10:24:24.872591+00:00",
+  "classification": "progress: completed training and native geometry recovered; current verified wait is smoke job 45635",
+  "queue": "45637|PENDING|0:00|10:00|(Dependency)\n45636|PENDING|0:00|2:30:00|(Dependency)\n45635|RUNNING|5:21|30:00|gebru\n",
+  "progress": {
+    "smoke": {
+      "records": 0,
+      "statuses": {}
+    },
+    "benchmark": {
+      "records": 0,
+      "statuses": {}
+    }
+  },
+  "snapshot": "recovery/20261123T102426.193391Z",
+  "training_recovery_verified": true,
+  "geometry_recovery_verified": true,
+  "model_selected_epoch": 47,
+  "local_observer_finished": true,
+  "goal_achieved": false,
+  "next_action": "Inspect smoke 45635 and dependent full 45636/controller 45637; do not duplicate jobs or edit frozen inference source."
+}

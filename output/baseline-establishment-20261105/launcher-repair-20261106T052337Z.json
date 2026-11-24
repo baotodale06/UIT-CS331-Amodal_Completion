@@ -1,0 +1,71 @@
+{
+  "created_utc": "2026-11-06T05:23:37.844488+00:00",
+  "files": {
+    "scripts/run_baseline_workflow.py": "4e6d16fb159ed4ccb4ed956fd1cf24e8ef57f434593af1f34116b06ec0ff9767",
+    "tests/test_baseline_workflow.py": "c498d5eb6df693a339e3a846472ee58a1cf9b0dba180a59960ea723ee6a1c991"
+  },
+  "commands": [
+    {
+      "argv": [
+        "ssh",
+        "-o",
+        "BatchMode=yes",
+        "daoqm@slurm.csse.rose-hulman.edu",
+        "cd /home/daoqm/Vu_Hung/cv_nangcao && tar -czf .deployment-backups/launcher-before-repair-20261106T052337Z.tar.gz scripts/run_baseline_workflow.py tests/test_baseline_workflow.py && sha256sum .deployment-backups/launcher-before-repair-20261106T052337Z.tar.gz"
+      ],
+      "returncode": 0,
+      "stdout": "1199e1f4d0bc88f5fd75a81c086dc3513e8305df672966e43e4d48b3daa9441e  .deployment-backups/launcher-before-repair-20261106T052337Z.tar.gz\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "scp",
+        "-o",
+        "BatchMode=yes",
+        "C:\\Users\\daovu\\Documents\\Project\\cv_nangcao\\scripts\\run_baseline_workflow.py",
+        "daoqm@slurm.csse.rose-hulman.edu:/home/daoqm/Vu_Hung/cv_nangcao/scripts/run_baseline_workflow.py"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "scp",
+        "-o",
+        "BatchMode=yes",
+        "C:\\Users\\daovu\\Documents\\Project\\cv_nangcao\\tests\\test_baseline_workflow.py",
+        "daoqm@slurm.csse.rose-hulman.edu:/home/daoqm/Vu_Hung/cv_nangcao/tests/test_baseline_workflow.py"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "ssh",
+        "-o",
+        "BatchMode=yes",
+        "daoqm@slurm.csse.rose-hulman.edu",
+        "cd /home/daoqm/Vu_Hung/cv_nangcao && sha256sum scripts/run_baseline_workflow.py tests/test_baseline_workflow.py"
+      ],
+      "returncode": 0,
+      "stdout": "4e6d16fb159ed4ccb4ed956fd1cf24e8ef57f434593af1f34116b06ec0ff9767  scripts/run_baseline_workflow.py\nc498d5eb6df693a339e3a846472ee58a1cf9b0dba180a59960ea723ee6a1c991  tests/test_baseline_workflow.py\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "ssh",
+        "-o",
+        "BatchMode=yes",
+        "daoqm@slurm.csse.rose-hulman.edu",
+        "cd /home/daoqm/Vu_Hung/cv_nangcao && PYTHONNOUSERSITE=1 /home/daoqm/Vu_Hung/cv_nangcao/.amodal-cache/conda-env/bin/python -m unittest discover -s tests -p test_baseline_workflow.py -v"
+      ],
+      "returncode": 0,
+      "stdout": "Full baseline verified and registered: /tmp/tmpt4ese9o5/full; workflow evidence: /tmp/tmpt4ese9o5/full/workflow/20261106T052359Z-3b00204d\n",
+      "stderr": "test_failed_full_verification_never_registers (test_baseline_workflow.BaselineWorkflowTests) ... ok\ntest_failed_gpu_validation_never_starts_inference (test_baseline_workflow.BaselineWorkflowTests) ... ok\ntest_full_and_smoke_expand_the_declared_contract_and_four_workers (test_baseline_workflow.BaselineWorkflowTests) ... ok\ntest_generated_commands_pass_real_runner_parser_for_both_cache_modes (test_baseline_workflow.BaselineWorkflowTests) ... ok\ntest_no_success_smoke_prevents_full_run (test_baseline_workflow.BaselineWorkflowTests) ... ok\ntest_run_only_starts_with_gpu_validation_without_provisioning (test_baseline_workflow.BaselineWorkflowTests) ... ok\ntest_smoke_requires_generated_completion_and_all_four_metrics (test_baseline_workflow.BaselineWorkflowTests) ... ok\ntest_success_preserves_stage_evidence_and_registers_last (test_baseline_workflow.BaselineWorkflowTests) ... ok\n\n----------------------------------------------------------------------\nRan 8 tests in 0.144s\n\nOK\n"
+    }
+  ],
+  "verified": true,
+  "remote_regressions": "8 passed including real Bash parser"
+}

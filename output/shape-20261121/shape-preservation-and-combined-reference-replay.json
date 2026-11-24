@@ -1,0 +1,17 @@
+{
+  "observed_at": "2026-11-22T18:00:06.014740+00:00",
+  "preserved_cohort_records": 204,
+  "preserved_cohort_score_rows": 204,
+  "preserved_timeout_records": 2516,
+  "preserved_timeout_score_caches": 86,
+  "combined_reference_targets": 2565,
+  "combined_reference_files": 10261,
+  "combined_new_files": 9444,
+  "hashes": {
+    "progressive-l40s\\shape\\execution.json": "8443fd2592601dd9ad5d9f27dd68ebedf2897ce21db8c640720e3a8bccf2b35c",
+    "progressive-l40s\\shape-cohort\\execution.json": "0e830d44c12f6dc71e268842ccbb56f4bdfacea5281a99c8b5420b55268aa1fc",
+    "progressive-l40s\\shape-timeout-44946.json": "9a5fbb8b89ea427ffa8ad99ef454b06f5d8e4989e8ec3132ff9ada2a2754fa82",
+    "progressive-l40s\\combined-refs-full-44948.json": "1e09e14210af1ed89c0076fce4ab00af666c0c155b8d4c0671ffc0edfaec330c",
+    "shape-full-pairs.json": "f536ada9766caa7520ff0cce32f9560059bcce43bbe84c19881db331a133b943"
+  }
+}

@@ -28,7 +28,8 @@ def require(value, message):
 
 def main():
     design = ROOT / 'output/surface-annotated-20261112-design'
-    study = ROOT / 'output/surface-annotated-20261112'
+    active = json.loads((design / 'active-study.json').read_text())
+    study = ROOT / active['study']
     output = study / 'report'
     freeze = json.loads((design / 'method-freeze.json').read_text())
     parent = ROOT / 'output/surface-followup-20261110-design/final-method-freeze.json'
@@ -106,6 +107,8 @@ def main():
             baseline_status=records['baseline']['status'], surface_status=surface['status'],
             baseline_reason=records['baseline'].get('failure_reason'), surface_reason=surface.get('failure_reason'),
             baseline_iterations=records['baseline'].get('iterations'), surface_iterations=surface.get('iterations'),
+            baseline_capped=records['baseline'].get('iteration_limit_reached', False),
+            surface_capped=surface.get('iteration_limit_reached', False),
             surface_passes=len(traces)))
     remote = json.loads((study / 'cohort-comparison/comparison.json').read_text())
     require(len(decisions) == sum(1 for _ in folders['surface'].glob('targets/*/*/surface/*/decision.json')),
@@ -127,15 +130,37 @@ def main():
     per_source = {source: {metric: estimate([row for row in pairs if row['source'] == source], metric)
                            for metric in METRICS} for source in sorted({row['source'] for row in pairs})}
     shared = [row for row in pairs if row['baseline_status'] == row['surface_status'] == 'success']
+    smoke = json.loads((design / 'freshrefs-smoke-verification.json').read_text())
+    require(smoke['verified'] and smoke['targets'] == 8, 'Missing real annotated GPU smoke verification')
+    smoke_matches, smoke_differences = 0, []
+    for identity, prior in smoke['records'].items():
+        target = folders['surface'] / 'targets' / identity
+        current = json.loads((target / 'result.json').read_text())
+        require(current['seed'] == prior['seed'] and
+                current['evaluation_reference_artifacts'] == prior['reference_artifacts'],
+                'Smoke/main target inputs differ')
+        differences = []
+        if current['status'] != prior['status']:
+            differences.append('status')
+        for name, expected in prior['native_artifacts'].items():
+            if not (target / name).is_file() or sha256(target / name) != expected:
+                differences.append(name)
+            else:
+                smoke_matches += 1
+        if differences:
+            smoke_differences.append(dict(id=identity, differences=differences))
     result = dict(passed=True, audited_at=datetime.now(timezone.utc).isoformat(),
         targets=len(pairs), images=len(cohort['cases']), metrics=comparisons, per_source=per_source,
         shared_success_metrics={metric: estimate(shared, metric) for metric in METRICS},
         baseline_statistics=verification['baseline']['statistics'], surface_statistics=verification['surface']['statistics'],
         transitions=dict(transitions), lpips_gain_decomposition=dict(decomposition),
+        capped_successes={side: sum(row[side + '_status'] == 'success' and row[side + '_capped']
+                                   for row in pairs) for side in ('baseline', 'surface')},
         surface_pass_histogram=dict(passes), no_surface_sampling_reasons=dict(reasons),
         decisions_replayed=len(decisions), generated_candidates=8 * len(decisions), pool_image_hashes_checked=checked_images,
         fallback_decisions=sum(row['fallback'] for row in decisions),
         method_parameters_unchanged=True, selected_rgb_exact_replay=True, local_neural_metrics_rerun=False,
+        repeated_smoke=dict(targets=8, exact_native_artifact_matches=smoke_matches, differences=smoke_differences),
         limitation='Selection replay uses logged observable features; pretrained feature extraction is not rerun locally. '
                    'RGB correction replay is exact at the saved candidate resolution, before native JPEG serialization.',
         sources={str(Path(__file__).relative_to(ROOT)): sha256(Path(__file__)),

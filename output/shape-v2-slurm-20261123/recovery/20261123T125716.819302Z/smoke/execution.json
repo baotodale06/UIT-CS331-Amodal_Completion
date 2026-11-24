@@ -1,0 +1,66 @@
+{
+  "schema": 1,
+  "id": "20261123T102405.653522Z-7a819e8c",
+  "status": "complete",
+  "started_utc": "2026-11-23T10:24:06.676229+00:00",
+  "arguments": {
+    "config": null,
+    "dataset_root": "/home/daoqm/Vu_Hung/cv_nangcao/datasets/open_world_amodal",
+    "output_dir": "/home/daoqm/Vu_Hung/cv_nangcao/output/shape-v2-slurm-20261123/smoke",
+    "repo_dir": "/home/daoqm/Vu_Hung/cv_nangcao/.amodal-cache/amodal",
+    "reference_dir": "/home/daoqm/Vu_Hung/cv_nangcao/output/shape-v2-slurm-20261123/benchmark/visible_references",
+    "pipeline_profile": "released-sam",
+    "background_sizing": "auto",
+    "reuse_results_from": null,
+    "classes_file": null,
+    "detector_vocabulary": "annotated",
+    "sources": "VG,COCOA,free_images,laion",
+    "limit": null,
+    "target_manifest": "/home/daoqm/Vu_Hung/cv_nangcao/output/shape-v2-slurm-20261123/smoke-manifest.json",
+    "seed": 0,
+    "mc_timestep": 35,
+    "max_iter": 5,
+    "sd_model": "sd2-community/stable-diffusion-2-inpainting",
+    "surface_freeze": null,
+    "shape_checkpoint": null,
+    "shape_v2_checkpoint": "/home/daoqm/Vu_Hung/cv_nangcao/output/shape-v2-slurm-20261123/training/best.pt",
+    "surface_dreamsim_cache": null,
+    "surface_development_review": false,
+    "target_selection": "label-semantic",
+    "boundary_check": "released",
+    "metric_alignment": "released",
+    "inference_only": true,
+    "score_only": false,
+    "allow_incomplete": false,
+    "check_only": false,
+    "workers": "4",
+    "worker_index": null,
+    "worker_count": 1
+  },
+  "target_ids": [
+    "VG/43_television",
+    "COCOA/COCO_train2014_000000004719_greentablecloth",
+    "free_images/dairy-cattle-9018750_640_cow",
+    "laion/000000115_violin"
+  ],
+  "source_sha256": "8a45da47f67ed9bb502cc7298172c4c98839822e64c879cc8402645e9d984f17",
+  "environment_sha256": "96f698079825cca185f98a0483c0bd43336a03d34dc8da17ac8241d2b2aa9a64",
+  "finished_utc": "2026-11-23T10:36:37.858320+00:00",
+  "result_artifacts": {
+    "VG/43_television": "3cb8c11cddc5de5f3993037f634761440f8401d4736cf13c2bf18ef73f2a079a",
+    "COCOA/COCO_train2014_000000004719_greentablecloth": "c98d74e5a43007f6cfa26076435a489901d5f3bf673bf70cdc7e56b7f62a8942",
+    "free_images/dairy-cattle-9018750_640_cow": "f2cbc68f750a91499dfcd3d0b7dcdb106e75410a24d1f353cb4805101f68e1f1",
+    "laion/000000115_violin": "5c1741301fda99ecff5fb5728a135d0a68582fc717fa3cb7df7ad1647b94acf9"
+  },
+  "new_or_updated_target_ids": [
+    "VG/43_television",
+    "COCOA/COCO_train2014_000000004719_greentablecloth",
+    "free_images/dairy-cattle-9018750_640_cow",
+    "laion/000000115_violin"
+  ],
+  "artifacts": {
+    "run_config.json": "eff93b6901cd2b3633e6a271abe77a3d632f8039a94a3bd5ea636392bc702275",
+    "summary.json": "a8473c9d4544006fa440f5c8c7364a3f2366209142a8784fabfecf7aead1baba",
+    "per_target.csv": "8e49c615ab58a3ee685462a94e447ea1b265235d3c4639d04addf7c630ae65b6"
+  }
+}

@@ -1,0 +1,205 @@
+id,source,label,status,failure_reason,failure_stage,reference_status,seed,target_selection,selected_iou,detected_class,detector_score,iterations,iteration_limit_reached,CLIP,LPIPS,Feature Similarity,SSIM
+VG/4_blackfloorlamp,VG,black floor lamp,no_completion,query_mask_too_small,query_filter,ready,549913395,semantic_label_match,,floor lamp,0.77,0,,,1.0,0.0,0.0
+VG/16_whitecar,VG,white car,ambiguous_target,multiple_distinct_instances,target_selection,empty_mask,34423604,ambiguous_target,,,,,,,1.0,0.0,0.0
+VG/33_browntable,VG,brown table,not_detected,label_not_matched,target_selection,empty_mask,305650795,not_detected,,,,,,,1.0,0.0,0.0
+VG/61549_elephant,VG,elephant,success,,,ready,3745334478,semantic_label_match,,elephant,0.83,1,False,30.515045166015625,0.05285480618476868,0.938805878162384,0.9553303983457666
+VG/61567_stopsign,VG,stop sign,no_completion,no_occlusion_detected,occlusion_check,ready,803095897,semantic_label_match,,stop sign,0.64,0,,,1.0,0.0,0.0
+VG/61606_whitesofa,VG,white sofa,ambiguous_target,multiple_distinct_instances,target_selection,empty_mask,1707316711,ambiguous_target,,,,,,,1.0,0.0,0.0
+VG/107932_sofa,VG,sofa,no_completion,no_occlusion_detected,occlusion_check,ready,1110784607,semantic_label_match,,couch,0.69,0,,,1.0,0.0,0.0
+VG/107970_bicycle,VG,bicycle,success,,,ready,1165669902,semantic_label_match,,bicycle,0.73,1,False,27.798086166381836,0.516898512840271,0.5582163333892822,0.5394059782360822
+VG/150407_whiteplate,VG,white plate,success,,,ready,3291265820,semantic_label_match,,white plate,0.74,1,False,27.13863182067871,0.07521666586399078,0.8216111660003662,0.9540299302112857
+VG/150469_redsofa,VG,red sofa,ambiguous_target,multiple_distinct_instances,target_selection,empty_mask,1542283949,ambiguous_target,,,,,,,1.0,0.0,0.0
+VG/285758_cat,VG,cat,success,,,ready,2342753623,semantic_label_match,,cat,0.74,1,False,28.269258499145508,0.05764249712228775,0.9420499801635742,0.9409308528888153
+VG/498179_redcar,VG,red car,ambiguous_target,multiple_distinct_instances,target_selection,empty_mask,1537685579,ambiguous_target,,,,,,,1.0,0.0,0.0
+VG/498191_keyboard,VG,keyboard,success,,,ready,1641729250,semantic_label_match,,keyboard,0.8,2,False,30.65259552001953,0.13424542546272278,0.7083380222320557,0.8914662657516996
+VG/713373_table,VG,table,ambiguous_target,multiple_distinct_instances,target_selection,empty_mask,3178990,ambiguous_target,,,,,,,1.0,0.0,0.0
+VG/713392_redbus,VG,red bus,success,,,ready,1066892253,semantic_label_match,,bus,0.8,2,False,29.491107940673828,0.5633702278137207,0.3439425826072693,0.5890610645270447
+VG/713407_policecar,VG,police car,ambiguous_target,multiple_distinct_instances,target_selection,empty_mask,497355302,ambiguous_target,,,,,,,1.0,0.0,0.0
+VG/713467_cow,VG,cow,ambiguous_target,multiple_distinct_instances,target_selection,empty_mask,2224970874,ambiguous_target,,,,,,,1.0,0.0,0.0
+VG/713796_desk,VG,desk,success,,,ready,1645101257,semantic_label_match,,desk,0.74,1,False,27.253828048706055,0.5850900411605835,0.16172656416893005,0.7286812885771804
+VG/713812_bus,VG,bus,ambiguous_target,multiple_distinct_instances,target_selection,empty_mask,422908624,ambiguous_target,,,,,,,1.0,0.0,0.0
+VG/1159278_whitehouse,VG,white house,success,,,ready,2963756914,semantic_label_match,,white house,0.87,2,False,20.73030662536621,0.14837747812271118,0.8146632313728333,0.910536863656739
+VG/1159289_bookshelf,VG,bookshelf,ambiguous_target,multiple_distinct_instances,target_selection,empty_mask,680364179,ambiguous_target,,,,,,,1.0,0.0,0.0
+VG/1159293_table,VG,table,success,,,ready,1657061068,semantic_label_match,,dining table,0.47,2,False,25.945446014404297,0.4441187381744385,0.4646598696708679,0.7708686622400269
+VG/1159293_curtain,VG,curtain,ambiguous_target,multiple_distinct_instances,target_selection,empty_mask,3582705491,ambiguous_target,,,,,,,1.0,0.0,0.0
+VG/1159606_bicycle,VG,bicycle,success,,,ready,3573408048,semantic_label_match,,bicycle,0.8,1,False,29.069477081298828,0.22342821955680847,0.631313145160675,0.8598339598096337
+VG/1159619_whitebus,VG,white bus,ambiguous_target,multiple_distinct_instances,target_selection,empty_mask,3765071410,ambiguous_target,,,,,,,1.0,0.0,0.0
+VG/1159720_cow,VG,cow,ambiguous_target,multiple_distinct_instances,target_selection,empty_mask,3559700900,ambiguous_target,,,,,,,1.0,0.0,0.0
+VG/1159855_redcurtain,VG,red curtain,success,,,ready,994330880,semantic_label_match,,red curtain,0.75,1,False,30.902507781982422,0.49865850806236267,0.5393862128257751,0.7005496086827815
+VG/1159856_bed,VG,bed,ambiguous_target,multiple_distinct_instances,target_selection,empty_mask,684725914,ambiguous_target,,,,,,,1.0,0.0,0.0
+VG/1159934_sofa,VG,sofa,success,,,ready,2016243691,semantic_label_match,,couch,0.81,2,False,29.27640724182129,0.5178623199462891,0.6197474002838135,0.8041905632650658
+VG/1160167_greenvan,VG,green van,success,,,ready,1367798380,semantic_label_match,,green van,0.92,1,False,34.37192153930664,0.22091977298259735,0.8154762387275696,0.8348528411548397
+VG/1591864_browntable,VG,brown table,success,,,ready,2738251713,semantic_label_match,,dining table,0.38,1,False,31.223737716674805,0.09509090334177017,0.7954262495040894,0.9473267308904646
+VG/1591880_blacksofa,VG,black sofa,success,,,ready,1151828645,semantic_label_match,,couch,0.77,3,False,29.314952850341797,0.12776270508766174,0.8375672101974487,0.9124635924216102
+VG/1592010_redsofa,VG,red sofa,ambiguous_target,multiple_distinct_instances,target_selection,empty_mask,2764948402,ambiguous_target,,,,,,,1.0,0.0,0.0
+VG/1592064_bench,VG,bench,ambiguous_target,multiple_distinct_instances,target_selection,empty_mask,395976379,ambiguous_target,,,,,,,1.0,0.0,0.0
+VG/1592549_boat,VG,boat,ambiguous_target,multiple_distinct_instances,target_selection,empty_mask,1072268896,ambiguous_target,,,,,,,1.0,0.0,0.0
+VG/1592770_laptop,VG,laptop,ambiguous_target,multiple_distinct_instances,target_selection,empty_mask,404956187,ambiguous_target,,,,,,,1.0,0.0,0.0
+VG/1592866_motorbike,VG,motorbike,success,,,ready,1848887777,semantic_label_match,,motorcycle,0.74,1,False,27.982711791992188,0.2002834975719452,0.8553637862205505,0.7965151066571687
+VG/1593220_dog,VG,dog,no_completion,no_occlusion_detected,occlusion_check,ready,4142164746,semantic_label_match,,dog,0.64,0,,,1.0,0.0,0.0
+VG/1593257_banana,VG,banana,ambiguous_target,multiple_distinct_instances,target_selection,empty_mask,4059628670,ambiguous_target,,,,,,,1.0,0.0,0.0
+VG/2315395_TVstand,VG,TV stand,no_completion,query_mask_too_small,query_filter,ready,1651764308,semantic_label_match,,tv stand,0.5,0,,,1.0,0.0,0.0
+VG/2315469_bus,VG,bus,no_completion,no_occlusion_detected,occlusion_check,ready,2484233441,semantic_label_match,,bus,0.74,0,,,1.0,0.0,0.0
+VG/2315561_horse,VG,horse,ambiguous_target,multiple_distinct_instances,target_selection,empty_mask,428228118,ambiguous_target,,,,,,,1.0,0.0,0.0
+VG/2315747_fork,VG,fork,success,,,ready,3105093446,semantic_label_match,,fork,0.75,6,True,30.30907440185547,0.10136938095092773,0.733208179473877,0.9527073696959879
+VG/2315757_motorbike,VG,motorbike,success,,,ready,3756242153,semantic_label_match,,motorcycle,0.84,1,False,26.89341926574707,0.08715807646512985,0.9173662662506104,0.9186256851181654
+VG/2315812_whiteplate,VG,white plate,no_completion,no_occlusion_detected,occlusion_check,ready,3988715607,semantic_label_match,,white plate,0.79,0,,,1.0,0.0,0.0
+VG/2315974_pinkteddybear,VG,pink teddy bear,success,,,ready,45007479,semantic_label_match,,teddy bear,0.77,1,False,32.146751403808594,0.22657345235347748,0.7830290198326111,0.8461213144812292
+VG/2316036_bench,VG,bench,success,,,ready,4286001211,semantic_label_match,,bench,0.6,1,False,31.255718231201172,0.08525535464286804,0.8799494504928589,0.9083643479503931
+VG/2316204_horse,VG,horse,success,,,ready,3528675230,semantic_label_match,,horse,0.89,2,False,29.31324005126953,0.09568589925765991,0.8518633246421814,0.9050031964843517
+VG/2316349_dog,VG,dog,success,,,ready,1534506478,semantic_label_match,,dog,0.78,1,False,25.474458694458008,0.39830514788627625,0.6132240295410156,0.6713210490999336
+VG/2316391_tennisracket,VG,tennis racket,not_detected,label_not_matched,target_selection,empty_mask,2449002751,not_detected,,,,,,,1.0,0.0,0.0
+VG/2316448_plate,VG,plate,success,,,ready,1114361462,semantic_label_match,,plate,0.9,1,False,25.29718589782715,0.4551747441291809,0.3911444842815399,0.7273019002526352
+VG/2316448_fork,VG,fork,not_detected,label_not_matched,target_selection,empty_mask,1761679979,not_detected,,,,,,,1.0,0.0,0.0
+VG/2316454_giraffe,VG,giraffe,ambiguous_target,multiple_distinct_instances,target_selection,empty_mask,1671634254,ambiguous_target,,,,,,,1.0,0.0,0.0
+VG/2316470_bus,VG,bus,success,,,ready,882758145,semantic_label_match,,bus,0.77,1,False,31.156545639038086,0.23869270086288452,0.7641491889953613,0.8263589058825339
+VG/2316957_umbrella,VG,umbrella,success,,,ready,294386787,semantic_label_match,,umbrella,0.55,1,False,28.55229377746582,0.19449640810489655,0.7307627201080322,0.8467872183246166
+VG/2317003_dog,VG,dog,not_detected,label_not_matched,target_selection,empty_mask,1128497981,not_detected,,,,,,,1.0,0.0,0.0
+VG/2317090_car,VG,car,success,,,ready,2711264502,semantic_label_match,,car,0.7,1,False,24.524524688720703,0.047216787934303284,0.9396265745162964,0.9506998726756825
+VG/2317127_chair,VG,chair,ambiguous_target,multiple_distinct_instances,target_selection,empty_mask,2658359045,ambiguous_target,,,,,,,1.0,0.0,0.0
+VG/2317264_stopsign,VG,stop sign,success,,,ready,3800081558,semantic_label_match,,stop sign,0.74,1,False,33.78621292114258,0.35695114731788635,0.5838017463684082,0.770876910579691
+VG/2317450_surfingboard,VG,surfing board,success,,,ready,2142701083,semantic_label_match,,surfboard,0.79,1,False,28.379621505737305,0.0615788958966732,0.9166049957275391,0.951397922716879
+VG/2317553_redbus,VG,red bus,ambiguous_target,multiple_distinct_instances,target_selection,empty_mask,1223513825,ambiguous_target,,,,,,,1.0,0.0,0.0
+VG/2317861_newspaper,VG,newspaper,success,,,ready,3458000308,semantic_label_match,,newspaper,0.51,1,False,29.037567138671875,0.37245190143585205,0.5678328275680542,0.7373590946762496
+VG/2317871_umbrella,VG,umbrella,ambiguous_target,multiple_distinct_instances,target_selection,empty_mask,210864821,ambiguous_target,,,,,,,1.0,0.0,0.0
+VG/2318217_surfingboard,VG,surfing board,success,,,ready,4260895209,semantic_label_match,,surfboard,0.86,1,False,30.664657592773438,0.07986666262149811,0.8883328437805176,0.9272600201272133
+VG/2318432_cabinet,VG,cabinet,success,,,ready,1892295945,semantic_label_match,,cabinet,0.68,1,False,26.037879943847656,0.18419650197029114,0.7776057720184326,0.8674442917377595
+VG/2318575_ship,VG,ship,no_completion,no_occlusion_detected,occlusion_check,ready,2759774690,semantic_label_match,,ship,0.88,0,,,1.0,0.0,0.0
+VG/2319055_dog,VG,dog,not_detected,label_not_matched,target_selection,empty_mask,1575334887,not_detected,,,,,,,1.0,0.0,0.0
+VG/2319494_refrigerator,VG,refrigerator,no_completion,no_occlusion_detected,occlusion_check,ready,3983374180,semantic_label_match,,refrigerator,0.73,0,,,1.0,0.0,0.0
+VG/2319875_blacktruck,VG,black truck,not_detected,label_not_matched,target_selection,empty_mask,154592786,not_detected,,,,,,,1.0,0.0,0.0
+VG/2320294_table,VG,table,not_detected,label_not_matched,target_selection,empty_mask,2245795080,not_detected,,,,,,,1.0,0.0,0.0
+VG/2320362_snowboard,VG,snow board,success,,,ready,2272471914,semantic_label_match,,snowboard,0.73,1,False,26.847923278808594,0.09730947017669678,0.8118686676025391,0.9438497587785153
+VG/2320380_bed,VG,bed,no_completion,no_occlusion_detected,occlusion_check,ready,833501510,semantic_label_match,,bed,0.46,0,,,1.0,0.0,0.0
+VG/2320543_chair,VG,chair,not_detected,label_not_matched,target_selection,empty_mask,2502787454,not_detected,,,,,,,1.0,0.0,0.0
+VG/2320691_firehydrant,VG,fire hydrant,no_completion,no_occlusion_detected,occlusion_check,ready,580505132,semantic_label_match,,fire hydrant,0.87,0,,,1.0,0.0,0.0
+VG/2320716_zebra,VG,zebra,success,,,ready,3726058526,semantic_label_match,,zebra,0.76,1,False,33.08922576904297,0.2411690056324005,0.8166165947914124,0.805106097502413
+VG/2320733_tennisracket,VG,tennis racket,not_detected,label_not_matched,target_selection,empty_mask,722124989,not_detected,,,,,,,1.0,0.0,0.0
+VG/2320799_toilet,VG,toilet,no_completion,no_occlusion_detected,occlusion_check,ready,3928979565,semantic_label_match,,toilet,0.82,0,,,1.0,0.0,0.0
+VG/2320860_browndoor,VG,brown door,no_completion,no_occlusion_detected,occlusion_check,ready,1310253868,semantic_label_match,,brown door,0.87,0,,,1.0,0.0,0.0
+VG/2320946_sofa,VG,sofa,not_detected,label_not_matched,target_selection,empty_mask,712505633,not_detected,,,,,,,1.0,0.0,0.0
+VG/2321128_bus,VG,bus,success,,,ready,2057601465,semantic_label_match,,bus,0.86,1,False,30.942075729370117,0.1323453187942505,0.7853761911392212,0.9004859422089773
+VG/2321211_beerbottle,VG,beer bottle,ambiguous_target,multiple_distinct_instances,target_selection,empty_mask,577805781,ambiguous_target,,,,,,,1.0,0.0,0.0
+VG/2321446_banana,VG,banana,success,,,ready,3332850868,semantic_label_match,,banana,0.66,1,False,32.5565299987793,0.24296334385871887,0.7128759026527405,0.90786024540124
+VG/2321453_elephant,VG,elephant,no_completion,no_occlusion_detected,occlusion_check,ready,2250094086,semantic_label_match,,elephant,0.79,0,,,1.0,0.0,0.0
+VG/2322049_fryingpan,VG,frying pan,success,,,ready,4056211391,semantic_label_match,,frying pan,0.73,2,False,25.822622299194336,0.16573894023895264,0.7077705264091492,0.8581208384408886
+VG/2322146_television,VG,television,success,,,ready,60293163,semantic_label_match,,tv,0.7,1,False,27.527328491210938,0.5806030631065369,0.35603511333465576,0.6239500900301378
+VG/2322171_bed,VG,bed,success,,,ready,1480246041,semantic_label_match,,bed,0.84,6,True,25.414939880371094,0.2810964286327362,0.582850992679596,0.8597176644060448
+VG/2322304_sofa,VG,sofa,no_completion,no_occlusion_detected,occlusion_check,ready,3039689112,semantic_label_match,,couch,0.76,0,,,1.0,0.0,0.0
+VG/2322354_dog,VG,dog,not_detected,label_not_matched,target_selection,empty_mask,3312447714,not_detected,,,,,,,1.0,0.0,0.0
+VG/2322508_beerbottle,VG,beer bottle,no_completion,query_mask_too_small,query_filter,ready,2353419510,semantic_label_match,,bottle,0.84,0,,,1.0,0.0,0.0
+VG/2322864_dog,VG,dog,not_detected,label_not_matched,target_selection,empty_mask,3475504017,not_detected,,,,,,,1.0,0.0,0.0
+VG/2350264_baseballbat,VG,baseball bat,no_completion,query_mask_too_small,query_filter,ready,108583139,semantic_label_match,,baseball bat,0.73,0,,,1.0,0.0,0.0
+VG/2350312_motorcycle,VG,motorcycle,success,,,ready,119941239,semantic_label_match,,motorcycle,0.83,1,False,28.377946853637695,0.14670100808143616,0.8515558838844299,0.8862259988184914
+VG/2350700_cat,VG,cat,no_completion,no_occlusion_detected,occlusion_check,ready,1981761124,semantic_label_match,,cat,0.84,0,,,1.0,0.0,0.0
+VG/2350736_phone,VG,phone,success,,,ready,3999515800,semantic_label_match,,cell phone,0.84,1,False,27.703386306762695,0.23494473099708557,0.6633738279342651,0.8552775828867164
+VG/2350963_motorcycle,VG,motorcycle,success,,,ready,420643728,semantic_label_match,,motorcycle,0.74,1,False,27.805959701538086,0.4056294560432434,0.2630730867385864,0.7508963019694003
+VG/2351033_fork,VG,fork,success,,,ready,530834724,semantic_label_match,,fork,0.76,6,True,33.632328033447266,0.26405978202819824,0.46609577536582947,0.8900913273667447
+VG/2351049_tennisracket,VG,tennis racket,not_detected,label_not_matched,target_selection,empty_mask,346214053,not_detected,,,,,,,1.0,0.0,0.0
+VG/2351235_cat,VG,cat,no_completion,no_occlusion_detected,occlusion_check,ready,2097435401,semantic_label_match,,cat,0.85,0,,,1.0,0.0,0.0
+VG/2351594_airplane,VG,airplane,success,,,ready,3376043313,semantic_label_match,,airplane,0.76,6,True,24.487913131713867,0.17683935165405273,0.8284391760826111,0.8459306129645509
+VG/2351613_phone,VG,phone,success,,,ready,1827503617,semantic_label_match,,cell phone,0.78,1,False,27.539947509765625,0.10972486436367035,0.8852939009666443,0.9286835658923326
+VG/2351866_banana,VG,banana,success,,,ready,1092572652,semantic_label_match,,banana,0.42,1,False,33.604557037353516,0.12039661407470703,0.7890965938568115,0.9164577144215859
+VG/2352236_horse,VG,horse,success,,,ready,174779995,semantic_label_match,,horse,0.82,1,False,29.14487075805664,0.07087773084640503,0.937709629535675,0.9301837514279626
+VG/2352547_dog,VG,dog,not_detected,label_not_matched,target_selection,empty_mask,1069724645,not_detected,,,,,,,1.0,0.0,0.0
+VG/2352661_airplane,VG,airplane,success,,,ready,281892138,semantic_label_match,,airplane,0.75,1,False,25.96369743347168,0.09082472324371338,0.7919250726699829,0.9389474348664107
+VG/2352928_giraffe,VG,giraffe,no_completion,no_occlusion_detected,occlusion_check,ready,4105186827,semantic_label_match,,giraffe,0.88,0,,,1.0,0.0,0.0
+VG/2353014_giraffe,VG,giraffe,success,,,ready,2341056762,semantic_label_match,,giraffe,0.93,1,False,32.239349365234375,0.34006965160369873,0.48203572630882263,0.7769450368164724
+VG/2353034_dog,VG,dog,not_detected,label_not_matched,target_selection,empty_mask,2148599196,not_detected,,,,,,,1.0,0.0,0.0
+VG/2353468_dog,VG,dog,ambiguous_target,multiple_distinct_instances,target_selection,empty_mask,3028423728,ambiguous_target,,,,,,,1.0,0.0,0.0
+VG/2353868_horse,VG,horse,success,,,ready,3472209487,semantic_label_match,,horse,0.8,1,False,27.740310668945312,0.07923723012208939,0.9047724604606628,0.9124677999715919
+COCOA/COCO_train2014_000000005435_chair,COCOA,chair,not_detected,label_not_matched,target_selection,empty_mask,4284598657,not_detected,,,,,,,1.0,0.0,0.0
+COCOA/COCO_train2014_000000008405_flower,COCOA,flower,success,,,ready,1594205000,semantic_label_match,,flower,0.43,6,True,23.88430404663086,0.2011837512254715,0.7091711759567261,0.8394461170464033
+COCOA/COCO_train2014_000000009199_bed,COCOA,bed,success,,,ready,657350844,semantic_label_match,,bed,0.77,1,False,25.601036071777344,0.4551558196544647,0.44058334827423096,0.7893771982305653
+COCOA/COCO_train2014_000000018377_bakingtray,COCOA,baking tray,success,,,ready,794909236,semantic_label_match,,tray,0.8,1,False,27.89060401916504,0.11944567412137985,0.7725382447242737,0.8796242378404623
+COCOA/COCO_train2014_000000018584_BigBen,COCOA,Big Ben,success,,,ready,1677867294,semantic_label_match,,big ben,0.82,3,False,32.71398162841797,0.10687574744224548,0.8260831832885742,0.9466402293676888
+COCOA/COCO_train2014_000000021268_whiteplate,COCOA,white plate,success,,,ready,3714910028,semantic_label_match,,white plate,0.83,1,False,28.589784622192383,0.06420910358428955,0.8583760261535645,0.947120014809211
+COCOA/COCO_train2014_000000023444_microwave,COCOA,microwave,success,,,ready,3261803506,semantic_label_match,,microwave,0.37,1,False,27.053632736206055,0.4641467332839966,0.3688215911388397,0.6896814105682947
+COCOA/COCO_train2014_000000024086_plate,COCOA,plate,no_completion,query_mask_too_small,query_filter,ready,1205025347,semantic_label_match,,plate,0.78,0,,,1.0,0.0,0.0
+COCOA/COCO_train2014_000000024672_sofa,COCOA,sofa,ambiguous_target,multiple_distinct_instances,target_selection,empty_mask,3791401720,ambiguous_target,,,,,,,1.0,0.0,0.0
+COCOA/COCO_train2014_000000024672_whitecabinet,COCOA,white cabinet,ambiguous_target,multiple_distinct_instances,target_selection,empty_mask,2865898031,ambiguous_target,,,,,,,1.0,0.0,0.0
+COCOA/COCO_train2014_000000040068_refrigerator,COCOA,refrigerator,success,,,ready,2791221846,semantic_label_match,,refrigerator,0.7,1,False,28.49898338317871,0.4612371623516083,0.46858951449394226,0.8461558185938548
+COCOA/COCO_train2014_000000064111_toilet,COCOA,toilet,success,,,ready,517860866,semantic_label_match,,toilet,0.75,1,False,31.481855392456055,0.3205016851425171,0.6547254920005798,0.8587092259845712
+COCOA/COCO_train2014_000000095111_elephant,COCOA,elephant,ambiguous_target,multiple_distinct_instances,target_selection,empty_mask,3875604018,ambiguous_target,,,,,,,1.0,0.0,0.0
+COCOA/COCO_train2014_000000096378_sheep,COCOA,sheep,not_detected,label_not_matched,target_selection,empty_mask,2991854825,not_detected,,,,,,,1.0,0.0,0.0
+COCOA/COCO_train2014_000000108113_dog,COCOA,dog,success,,,ready,4249047693,semantic_label_match,,dog,0.36,1,False,28.473979949951172,0.2071840465068817,0.6291321516036987,0.845461140555842
+COCOA/COCO_train2014_000000145259_elephant,COCOA,elephant,no_completion,no_occlusion_detected,occlusion_check,ready,1581221799,semantic_label_match,,elephant,0.82,0,,,1.0,0.0,0.0
+COCOA/COCO_train2014_000000155108_Christmastree,COCOA,Christmas tree,success,,,ready,3113475991,semantic_label_match,,christmas tree,0.8,1,False,29.377582550048828,0.46827128529548645,0.4033673405647278,0.6311053331023143
+COCOA/COCO_train2014_000000169878_redbucket,COCOA,red bucket,no_completion,no_occlusion_detected,occlusion_check,ready,78276404,semantic_label_match,,red bucket,0.93,0,,,1.0,0.0,0.0
+COCOA/COCO_train2014_000000182020_grayscarfontheleft,COCOA,gray scarf on the left,success,,,ready,3612736018,semantic_label_match,,gray scarf,0.82,1,False,23.21449089050293,0.21446216106414795,0.8271192312240601,0.7766678704115298
+COCOA/COCO_train2014_000000182020_cat,COCOA,cat,no_completion,no_occlusion_detected,occlusion_check,ready,1739980160,semantic_label_match,,cat,0.83,0,,,1.0,0.0,0.0
+COCOA/COCO_train2014_000000201115_sprinkler,COCOA,sprinkler,success,,,ready,3513145826,semantic_label_match,,sprinkler,0.46,1,False,24.849496841430664,0.3824385702610016,0.45711612701416016,0.7728141791796087
+COCOA/COCO_train2014_000000205963_bluesuitcase,COCOA,blue suitcase,ambiguous_target,multiple_distinct_instances,target_selection,empty_mask,1712241941,ambiguous_target,,,,,,,1.0,0.0,0.0
+COCOA/COCO_train2014_000000230515_elephant,COCOA,elephant,ambiguous_target,multiple_distinct_instances,target_selection,empty_mask,1170539661,ambiguous_target,,,,,,,1.0,0.0,0.0
+COCOA/COCO_train2014_000000238843_giraffe,COCOA,giraffe,no_completion,no_occlusion_detected,occlusion_check,ready,1237720586,semantic_label_match,,giraffe,0.84,0,,,1.0,0.0,0.0
+COCOA/COCO_train2014_000000283624_dog,COCOA,dog,ambiguous_target,multiple_distinct_instances,target_selection,empty_mask,524319838,ambiguous_target,,,,,,,1.0,0.0,0.0
+COCOA/COCO_train2014_000000317896_fryingpan,COCOA,frying pan,success,,,ready,1039100679,semantic_label_match,,frying pan,0.74,1,False,31.332218170166016,0.20296034216880798,0.6315367817878723,0.84615383525131
+COCOA/COCO_train2014_000000387318_woodentray,COCOA,wooden tray,success,,,ready,1748920652,semantic_label_match,,wooden tray,0.74,2,False,28.513032913208008,0.40218958258628845,0.3447277247905731,0.8049700477188466
+COCOA/COCO_train2014_000000403687_dog,COCOA,dog,not_detected,label_not_matched,target_selection,empty_mask,2776004696,not_detected,,,,,,,1.0,0.0,0.0
+COCOA/COCO_train2014_000000430753_knife,COCOA,knife,no_completion,no_occlusion_detected,occlusion_check,ready,63447999,semantic_label_match,,knife,0.78,0,,,1.0,0.0,0.0
+COCOA/COCO_train2014_000000432892_television,COCOA,television,no_completion,no_occlusion_detected,occlusion_check,ready,949405965,semantic_label_match,,tv,0.83,0,,,1.0,0.0,0.0
+COCOA/COCO_train2014_000000453260_toilet,COCOA,toilet,no_completion,no_occlusion_detected,occlusion_check,ready,2244181939,semantic_label_match,,toilet,0.8,0,,,1.0,0.0,0.0
+COCOA/COCO_train2014_000000474446_dog,COCOA,dog,not_detected,label_not_matched,target_selection,empty_mask,806711013,not_detected,,,,,,,1.0,0.0,0.0
+COCOA/COCO_train2014_000000474446_keyboard,COCOA,keyboard,ambiguous_target,multiple_distinct_instances,target_selection,empty_mask,2606632577,ambiguous_target,,,,,,,1.0,0.0,0.0
+COCOA/COCO_train2014_000000486609_plate,COCOA,plate,success,,,ready,3143038657,semantic_label_match,,plate,0.89,2,False,28.337797164916992,0.42266881465911865,0.4662044048309326,0.8294712034200574
+COCOA/COCO_train2014_000000502140_surfboard,COCOA,surfboard,ambiguous_target,multiple_distinct_instances,target_selection,empty_mask,4128232263,ambiguous_target,,,,,,,1.0,0.0,0.0
+COCOA/COCO_train2014_000000526029_greensuitcase,COCOA,green suitcase,ambiguous_target,multiple_distinct_instances,target_selection,empty_mask,1474366585,ambiguous_target,,,,,,,1.0,0.0,0.0
+COCOA/COCO_train2014_000000526029_blacksuitcase,COCOA,black suitcase,ambiguous_target,multiple_distinct_instances,target_selection,empty_mask,2132177329,ambiguous_target,,,,,,,1.0,0.0,0.0
+COCOA/COCO_train2014_000000561565_zebra,COCOA,zebra,no_completion,no_occlusion_detected,occlusion_check,ready,3286565632,semantic_label_match,,zebra,0.49,0,,,1.0,0.0,0.0
+COCOA/COCO_train2014_000000564978_displayscreen,COCOA,display screen,ambiguous_target,multiple_distinct_instances,target_selection,empty_mask,1220778700,ambiguous_target,,,,,,,1.0,0.0,0.0
+COCOA/COCO_test2014_000000061511_bench,COCOA,bench,no_completion,query_mask_too_small,query_filter,ready,3429015852,semantic_label_match,,bench,0.78,0,,,1.0,0.0,0.0
+COCOA/COCO_test2014_000000260571_cat,COCOA,cat,no_completion,no_occlusion_detected,occlusion_check,ready,1226540892,semantic_label_match,,cat,0.79,0,,,1.0,0.0,0.0
+COCOA/COCO_test2014_000000267439_suitcase,COCOA,suitcase,no_completion,no_occlusion_detected,occlusion_check,ready,2759499876,semantic_label_match,,suitcase,0.78,0,,,1.0,0.0,0.0
+COCOA/COCO_test2014_000000296835_toothbrush,COCOA,toothbrush,success,,,ready,1224958093,semantic_label_match,,tooth brush,0.46,1,False,28.521650314331055,0.09935176372528076,0.7335294485092163,0.9381254865043432
+COCOA/COCO_test2014_000000296835_book,COCOA,book,success,,,ready,3722016342,semantic_label_match,,book,0.65,1,False,21.013072967529297,0.14263224601745605,0.7970111966133118,0.8943608392836824
+COCOA/COCO_val2014_000000058797_toilet,COCOA,toilet,success,,,ready,3471908969,semantic_label_match,,toilet,0.75,1,False,21.3508358001709,0.31939396262168884,0.47728386521339417,0.8889220774536484
+COCOA/COCO_val2014_000000065433_dog,COCOA,dog,not_detected,label_not_matched,target_selection,empty_mask,1136327992,not_detected,,,,,,,1.0,0.0,0.0
+COCOA/COCO_val2014_000000088250_elephant,COCOA,elephant,ambiguous_target,multiple_distinct_instances,target_selection,empty_mask,1887559712,ambiguous_target,,,,,,,1.0,0.0,0.0
+COCOA/COCO_val2014_000000090707_whiteplate,COCOA,white plate,success,,,ready,2526912812,semantic_label_match,,white plate,0.85,1,False,30.727922439575195,0.16069135069847107,0.6519434452056885,0.9498987425912082
+COCOA/COCO_val2014_000000143450_plate,COCOA,plate,success,,,ready,823861614,semantic_label_match,,plate,0.82,1,False,24.520841598510742,0.5194483995437622,0.31549036502838135,0.7650545875674281
+COCOA/COCO_val2014_000000143450_cake,COCOA,cake,success,,,ready,4276128022,semantic_label_match,,cake,0.44,1,False,26.577775955200195,0.4593166410923004,0.6311588287353516,0.6701421389466219
+COCOA/COCO_val2014_000000143450_spoon,COCOA,spoon,no_completion,no_occlusion_detected,occlusion_check,ready,4074833148,semantic_label_match,,spoon,0.36,0,,,1.0,0.0,0.0
+COCOA/COCO_val2014_000000185941_phonebooth,COCOA,phone booth,success,,,ready,2831109730,semantic_label_match,,phone booth,0.6,1,False,30.59588623046875,0.766870379447937,0.27956634759902954,0.4081428622546614
+COCOA/COCO_val2014_000000185941_redcoach,COCOA,red coach,success,,,ready,383738232,semantic_label_match,,red coach,0.79,1,False,29.79520034790039,0.5367997288703918,0.43747469782829285,0.5587984154389335
+COCOA/COCO_val2014_000000195542_mousepad,COCOA,mouse pad,success,,,ready,1538689897,semantic_label_match,,mouse pad,0.87,1,False,31.090604782104492,0.0665837824344635,0.8851015567779541,0.9371421807254053
+COCOA/COCO_val2014_000000210467_trashcan,COCOA,trash can,not_detected,label_not_matched,target_selection,empty_mask,75810127,not_detected,,,,,,,1.0,0.0,0.0
+COCOA/COCO_val2014_000000222317_dog,COCOA,dog,not_detected,label_not_matched,target_selection,empty_mask,3498168814,not_detected,,,,,,,1.0,0.0,0.0
+COCOA/COCO_val2014_000000222317_sofa,COCOA,sofa,success,,,ready,1780576707,semantic_label_match,,couch,0.72,5,False,26.427263259887695,0.5176050066947937,0.4291072189807892,0.7962020834172147
+COCOA/COCO_val2014_000000229255_wateringcan,COCOA,watering can,not_detected,label_not_matched,target_selection,empty_mask,345019953,not_detected,,,,,,,1.0,0.0,0.0
+COCOA/COCO_val2014_000000238459_cow,COCOA,cow,ambiguous_target,multiple_distinct_instances,target_selection,empty_mask,3531972661,ambiguous_target,,,,,,,1.0,0.0,0.0
+COCOA/COCO_val2014_000000281533_displayscreen,COCOA,display screen,success,,,ready,408111576,semantic_label_match,,display screen,0.81,1,False,27.609752655029297,0.1454153060913086,0.7854587435722351,0.897649113080936
+COCOA/COCO_val2014_000000285894_giraffe,COCOA,giraffe,ambiguous_target,multiple_distinct_instances,target_selection,empty_mask,230743073,ambiguous_target,,,,,,,1.0,0.0,0.0
+COCOA/COCO_val2014_000000367386_blacksofa,COCOA,black sofa,ambiguous_target,multiple_distinct_instances,target_selection,empty_mask,3395781257,ambiguous_target,,,,,,,1.0,0.0,0.0
+COCOA/COCO_val2014_000000473888_doghouse,COCOA,doghouse,no_completion,no_occlusion_detected,occlusion_check,ready,837476376,semantic_label_match,,doghouse,0.47,0,,,1.0,0.0,0.0
+COCOA/COCO_val2014_000000559277_dog,COCOA,dog,not_detected,label_not_matched,target_selection,empty_mask,3645127363,not_detected,,,,,,,1.0,0.0,0.0
+COCOA/COCO_val2014_000000577385_thickcuttingboard,COCOA,thick cutting board,success,,,ready,3385412184,semantic_label_match,,thick cutting board,0.55,2,False,26.73650360107422,0.15097005665302277,0.7366597056388855,0.9196521182368286
+COCOA/COCO_val2014_000000579593_giraffe,COCOA,giraffe,ambiguous_target,multiple_distinct_instances,target_selection,empty_mask,484874258,ambiguous_target,,,,,,,1.0,0.0,0.0
+COCOA/COCO_val2014_000000580555_whiteplate,COCOA,white plate,success,,,ready,996655692,semantic_label_match,,white plate,0.59,1,False,26.079917907714844,0.15962307155132294,0.7598481178283691,0.9311714127251882
+free_images/pexels-ilia-bronskiy-1137858493-25347405_goblet,free_images,goblet,ambiguous_target,multiple_distinct_instances,target_selection,empty_mask,3033027490,ambiguous_target,,,,,,,1.0,0.0,0.0
+free_images/sparrow-8937767_640_eagle,free_images,eagle,no_completion,no_occlusion_detected,occlusion_check,ready,1582424958,semantic_label_match,,eagle,0.94,0,,,1.0,0.0,0.0
+free_images/pexels-koolshooters-6076013_basketball,free_images,basketball,no_completion,query_mask_too_small,query_filter,ready,2114635105,semantic_label_match,,basketball,0.9,0,,,1.0,0.0,0.0
+free_images/pexels-dejiprince-28231061_ladder,free_images,ladder,success,,,ready,2099507110,semantic_label_match,,ladder,0.58,1,False,23.09372329711914,0.13682979345321655,0.5205100774765015,0.956901709739892
+free_images/pexels-kelly-1179532-28287998_electricguitar,free_images,electric guitar,success,,,ready,2047189676,semantic_label_match,,electric guitar,0.94,6,True,29.689193725585938,0.731275200843811,0.20319165289402008,0.505181416187691
+free_images/pexels-oliver-dohrn-706160180-26698092_kangaroo,free_images,kangaroo,ambiguous_target,multiple_distinct_instances,target_selection,empty_mask,3745346938,ambiguous_target,,,,,,,1.0,0.0,0.0
+free_images/toa-heftiba-fqSEh-iPRok-unsplash_cup,free_images,cup,not_detected,label_not_matched,target_selection,empty_mask,3090917741,not_detected,,,,,,,1.0,0.0,0.0
+free_images/rafael-hoyos-weht-mRgrF98emKY-unsplash_car,free_images,car,ambiguous_target,multiple_distinct_instances,target_selection,empty_mask,1169293910,ambiguous_target,,,,,,,1.0,0.0,0.0
+free_images/deer-9018759_640_deer,free_images,deer,success,,,ready,346928167,semantic_label_match,,deer,0.82,1,False,30.95981216430664,0.05789776146411896,0.9269669055938721,0.954648586438477
+free_images/butterfly-8422900_640_flower,free_images,flower,success,,,ready,3673299031,semantic_label_match,,flower,0.66,1,False,27.346294403076172,0.1428636908531189,0.74405837059021,0.9102787983954513
+free_images/violin-8405558_640_violin,free_images,violin,success,,,ready,622129692,semantic_label_match,,violin,0.43,6,True,32.73124694824219,0.19005648791790009,0.663225531578064,0.8968141036012516
+free_images/halloween-7553022_640_bone,free_images,bone,no_completion,query_mask_too_small,query_filter,ready,3165175991,semantic_label_match,,bone,0.61,0,,,1.0,0.0,0.0
+free_images/squirrel-8044947_640_squirrel,free_images,squirrel,no_completion,no_occlusion_detected,occlusion_check,ready,3380018040,semantic_label_match,,squirrel,0.66,0,,,1.0,0.0,0.0
+free_images/bee-7957348_640_bee,free_images,bee,success,,,ready,3325160282,semantic_label_match,,bee,0.95,3,False,31.532499313354492,0.27251583337783813,0.6692332029342651,0.80532888483694
+laion/000000878_microphone,laion,microphone,no_completion,query_mask_too_small,query_filter,ready,3768540103,semantic_label_match,,microphone,0.86,0,,,1.0,0.0,0.0
+laion/000004773_book,laion,book,ambiguous_target,multiple_distinct_instances,target_selection,empty_mask,2546969862,ambiguous_target,,,,,,,1.0,0.0,0.0
+laion/000006623_backpack,laion,backpack,not_detected,label_not_matched,target_selection,empty_mask,784426155,not_detected,,,,,,,1.0,0.0,0.0
+laion/000006776_guitar,laion,guitar,no_completion,no_occlusion_detected,occlusion_check,ready,318400311,semantic_label_match,,guitar,0.91,0,,,1.0,0.0,0.0
+laion/000008816_pants,laion,pants,ambiguous_target,multiple_distinct_instances,target_selection,empty_mask,568321675,ambiguous_target,,,,,,,1.0,0.0,0.0
+laion/000008955_gorilla,laion,gorilla,success,,,ready,2729555945,semantic_label_match,,gorilla,0.86,1,False,29.04214859008789,0.23040162026882172,0.8371745347976685,0.8208579661136916
+laion/000012713_saxophone,laion,saxophone,success,,,ready,2864822407,semantic_label_match,,saxophone,0.51,2,False,32.307640075683594,0.17797884345054626,0.7365809082984924,0.916576275579855
+laion/000012714_box,laion,box,no_completion,no_occlusion_detected,occlusion_check,ready,3116232436,semantic_label_match,,box,0.83,0,,,1.0,0.0,0.0
+laion/000012982_umbrella,laion,umbrella,ambiguous_target,multiple_distinct_instances,target_selection,empty_mask,2992904878,ambiguous_target,,,,,,,1.0,0.0,0.0
+laion/000013564_plate,laion,plate,no_completion,no_occlusion_detected,occlusion_check,ready,2229987415,semantic_label_match,,plate,0.89,0,,,1.0,0.0,0.0
+laion/000013564_cup,laion,cup,success,,,ready,1034247679,semantic_label_match,,cup,0.51,1,False,30.495088577270508,0.2908792793750763,0.6202278137207031,0.8740631457349287
+laion/000013936_tennisracket,laion,tennis racket,not_detected,label_not_matched,target_selection,empty_mask,3836324910,not_detected,,,,,,,1.0,0.0,0.0
+laion/000014853_box,laion,box,success,,,ready,118846959,semantic_label_match,,box,0.7,2,False,23.60503387451172,0.4513261914253235,0.46927493810653687,0.737634201010458
+laion/000015451_carpet,laion,carpet,no_completion,no_occlusion_detected,occlusion_check,ready,2278332941,semantic_label_match,,carpet,0.84,0,,,1.0,0.0,0.0

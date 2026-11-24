@@ -1,0 +1,5 @@
+id,source,label,status,failure_reason,failure_stage,reference_status,seed,target_selection,selected_iou,detected_class,detector_score,iterations,iteration_limit_reached,CLIP,LPIPS,Feature Similarity,SSIM
+VG/43_television,VG,television,success,,,,956671859,semantic_label_match,,tv,0.63,1,False,,,,
+COCOA/COCO_train2014_000000004719_greentablecloth,COCOA,green tablecloth,success,,,,2729185758,semantic_label_match,,green tablecloth,0.76,6,True,,,,
+free_images/dairy-cattle-9018750_640_cow,free_images,cow,success,,,,961252769,semantic_label_match,,cow,0.63,1,False,,,,
+laion/000000115_violin,laion,violin,success,,,,1910800868,semantic_label_match,,violin,0.35,1,False,,,,

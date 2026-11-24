@@ -1,0 +1,7 @@
+{
+  "source": "output/surface-annotated-20261112-freshrefs/baseline",
+  "cohort_sha256": "1e36d28bf6e52c0298f8e2b768822fdff8f0bfd421aae15ff1b2603f726ec141",
+  "source_execution_sha256": "b948a17bb4f3a11784dcaae01237fa4d381859b40115790f1f174872cde2614d",
+  "verified": true,
+  "targets": 204
+}

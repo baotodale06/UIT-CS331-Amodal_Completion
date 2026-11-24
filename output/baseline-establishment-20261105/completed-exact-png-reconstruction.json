@@ -1,0 +1,2829 @@
+{
+  "pillow": "9.5.0",
+  "numpy": "1.23.5",
+  "attempted_files": 470,
+  "exact_matches": 470,
+  "events": [
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/visible_references/VG/150331_bus.png",
+      "sha256": "0e3eaf67c6b382116819a68ac242a477fbda47046d6b29b829763c1b81a0647c",
+      "expected_sha256": "0e3eaf67c6b382116819a68ac242a477fbda47046d6b29b829763c1b81a0647c",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/visible_references/VG/285877_oven.png",
+      "sha256": "40cfeec79030fd168d552ff921b2ba2a43abb9495db61cc95bbb04b60c3f3370",
+      "expected_sha256": "40cfeec79030fd168d552ff921b2ba2a43abb9495db61cc95bbb04b60c3f3370",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/visible_references/VG/713868_whitebus.png",
+      "sha256": "523cca770a6a9f3e458a85487a6e4ed59d60efbb9eb55f96c5d2767c957aa7d3",
+      "expected_sha256": "523cca770a6a9f3e458a85487a6e4ed59d60efbb9eb55f96c5d2767c957aa7d3",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/visible_references/crops/VG/150331_bus.png",
+      "sha256": "9604897a751dba2c42f19641c09ff33d44361446864717c9b9e9cd17fc2f0b57",
+      "expected_sha256": "9604897a751dba2c42f19641c09ff33d44361446864717c9b9e9cd17fc2f0b57",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/visible_references/crops/VG/285877_oven.png",
+      "sha256": "53178c016dda82d44cb2adb85ef6e23bdd1c4d4e820e1b7c708127c921662d69",
+      "expected_sha256": "53178c016dda82d44cb2adb85ef6e23bdd1c4d4e820e1b7c708127c921662d69",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/visible_references/VG/1159767_weddingcake.png",
+      "sha256": "a4ea590417591430c49f00ef747ca5ef16e401cf64f0fdb7b109cd770ca8c212",
+      "expected_sha256": "a4ea590417591430c49f00ef747ca5ef16e401cf64f0fdb7b109cd770ca8c212",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/visible_references/VG/1159924_umbrella.png",
+      "sha256": "62a0f9ce220bd2b8a4a938e16e5a3ce71ee0eedc544c9a758067d4251f990932",
+      "expected_sha256": "62a0f9ce220bd2b8a4a938e16e5a3ce71ee0eedc544c9a758067d4251f990932",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/visible_references/crops/VG/1159767_weddingcake.png",
+      "sha256": "74cc4d335df08c7ab3df1997d4be952cb4a035b709088e9335aef779bbe23542",
+      "expected_sha256": "74cc4d335df08c7ab3df1997d4be952cb4a035b709088e9335aef779bbe23542",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/visible_references/crops/VG/713868_whitebus.png",
+      "sha256": "e58914f54897da57a59ef9fe6333ea4976e81944b2085d94335d83c64474e998",
+      "expected_sha256": "e58914f54897da57a59ef9fe6333ea4976e81944b2085d94335d83c64474e998",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/visible_references/VG/2315382_brownhorse.png",
+      "sha256": "36d553ac2eb0a6be39a19f070cbe25b8773d115e62d6b00189d2da1667201a49",
+      "expected_sha256": "36d553ac2eb0a6be39a19f070cbe25b8773d115e62d6b00189d2da1667201a49",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/visible_references/crops/VG/2315382_brownhorse.png",
+      "sha256": "09c9a8d60fdf5d800d8a4ba8b6012b486d53f1673a6a284bbd5241197abd9e53",
+      "expected_sha256": "09c9a8d60fdf5d800d8a4ba8b6012b486d53f1673a6a284bbd5241197abd9e53",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/visible_references/crops/VG/1159924_umbrella.png",
+      "sha256": "7e4ec8650fc2cdd33cd10e5cdb45c6af308b42436efb93acc4d1663ed7f1cf00",
+      "expected_sha256": "7e4ec8650fc2cdd33cd10e5cdb45c6af308b42436efb93acc4d1663ed7f1cf00",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/visible_references/VG/2317288_cat.png",
+      "sha256": "0e208b4cb135ff53824f210c1b83ab242f3595771243846948421b6e3fc8a23c",
+      "expected_sha256": "0e208b4cb135ff53824f210c1b83ab242f3595771243846948421b6e3fc8a23c",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/visible_references/VG/2318723_laptop.png",
+      "sha256": "d5984b33755650c50671115ba05a909694961d2f5cc452fde0c855632e9bf76e",
+      "expected_sha256": "d5984b33755650c50671115ba05a909694961d2f5cc452fde0c855632e9bf76e",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/visible_references/VG/2319298_bus.png",
+      "sha256": "c653c7bb699aa88cb303e7f41ccb4888fb0ae67e839366dc455b56eee38d062e",
+      "expected_sha256": "c653c7bb699aa88cb303e7f41ccb4888fb0ae67e839366dc455b56eee38d062e",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/visible_references/crops/VG/2317288_cat.png",
+      "sha256": "114618979bf4712c81329298b186ca9191d86a2769c68c033094c5e7dc2cd82b",
+      "expected_sha256": "114618979bf4712c81329298b186ca9191d86a2769c68c033094c5e7dc2cd82b",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/visible_references/crops/VG/2319298_bus.png",
+      "sha256": "306621e6d44d3352eec57f729acc084cc1af2a726c2d2a2f70ccae60d40849e1",
+      "expected_sha256": "306621e6d44d3352eec57f729acc084cc1af2a726c2d2a2f70ccae60d40849e1",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/visible_references/crops/VG/2318723_laptop.png",
+      "sha256": "acd61f6cdc2a5efdafbad9f9fbb5c3eb042b84c520dd5f2cb47f997e12b32cfe",
+      "expected_sha256": "acd61f6cdc2a5efdafbad9f9fbb5c3eb042b84c520dd5f2cb47f997e12b32cfe",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/visible_references/VG/2320723_laptop.png",
+      "sha256": "25a8de1499b82459b610cf5e499af5ac8ffc4bf2df5360083579f03fed72e204",
+      "expected_sha256": "25a8de1499b82459b610cf5e499af5ac8ffc4bf2df5360083579f03fed72e204",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/visible_references/VG/2320873_motorbike.png",
+      "sha256": "ecf0fae9be71514a524a9b14e5cffe46100f581edd10a1f57491c98b9a87423c",
+      "expected_sha256": "ecf0fae9be71514a524a9b14e5cffe46100f581edd10a1f57491c98b9a87423c",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/visible_references/crops/VG/2320723_laptop.png",
+      "sha256": "6a776c7d5ce7c67fa2eb063cb11c47104c971d36618133a573462f6c026868be",
+      "expected_sha256": "6a776c7d5ce7c67fa2eb063cb11c47104c971d36618133a573462f6c026868be",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/visible_references/crops/VG/2320873_motorbike.png",
+      "sha256": "4339d969a526ef864e10e126e25b012625499576b41349f23db44476cd1c11f3",
+      "expected_sha256": "4339d969a526ef864e10e126e25b012625499576b41349f23db44476cd1c11f3",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/visible_references/VG/2352631_sink.png",
+      "sha256": "0b9d0bf97d852ebe8cadeb4cd821c2926bce133ac643cec22c9689ae1dbf1510",
+      "expected_sha256": "0b9d0bf97d852ebe8cadeb4cd821c2926bce133ac643cec22c9689ae1dbf1510",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/visible_references/crops/VG/2352631_sink.png",
+      "sha256": "49b2769c6789eab9299d7fa3cccf485cd02b5e2f522d7ac9920e06735fdba493",
+      "expected_sha256": "49b2769c6789eab9299d7fa3cccf485cd02b5e2f522d7ac9920e06735fdba493",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/visible_references/COCOA/COCO_train2014_000000020031_bluetoilet.png",
+      "sha256": "485e5a9e816228c0154baa82ecb1fb70a71953eaa5843943c758fcf7073b39ea",
+      "expected_sha256": "485e5a9e816228c0154baa82ecb1fb70a71953eaa5843943c758fcf7073b39ea",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/visible_references/COCOA/COCO_train2014_000000111624_yellowboat.png",
+      "sha256": "003743471bcdfc728e3f0fd656bd1f2ab8065c20e22b47a558058df1ac69ee4e",
+      "expected_sha256": "003743471bcdfc728e3f0fd656bd1f2ab8065c20e22b47a558058df1ac69ee4e",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/visible_references/COCOA/COCO_train2014_000000160463_laptop.png",
+      "sha256": "ed21553b9f5b0210b333a8ac1e9d15d8c845a2e2e7fec048e399c00a690d01a1",
+      "expected_sha256": "ed21553b9f5b0210b333a8ac1e9d15d8c845a2e2e7fec048e399c00a690d01a1",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/visible_references/crops/COCOA/COCO_train2014_000000020031_bluetoilet.png",
+      "sha256": "1bdc9744c22667b91eddf370b7b4b6f650eedcf4c0f780c4fdf7c8c809f1733b",
+      "expected_sha256": "1bdc9744c22667b91eddf370b7b4b6f650eedcf4c0f780c4fdf7c8c809f1733b",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/visible_references/COCOA/COCO_train2014_000000147392_bed.png",
+      "sha256": "530f04ddd17b7d6a5f51df68f2611c2d77b85e3786becedcd76ad634831048fc",
+      "expected_sha256": "530f04ddd17b7d6a5f51df68f2611c2d77b85e3786becedcd76ad634831048fc",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/visible_references/crops/COCOA/COCO_train2014_000000111624_yellowboat.png",
+      "sha256": "403571c2221716431b6ed426e47f7cf0e54780132564ae0b87c753147b0d731a",
+      "expected_sha256": "403571c2221716431b6ed426e47f7cf0e54780132564ae0b87c753147b0d731a",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/visible_references/crops/COCOA/COCO_train2014_000000160463_laptop.png",
+      "sha256": "a36c67021625c9cccbc4197eccb62ffbd080a6e35abeaf56ae6b748386961585",
+      "expected_sha256": "a36c67021625c9cccbc4197eccb62ffbd080a6e35abeaf56ae6b748386961585",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/visible_references/crops/COCOA/COCO_train2014_000000147392_bed.png",
+      "sha256": "65eeb74d2bca8709c03ddeb0a66ae27b4f5c6f9092a69eecd79e25932d9edefd",
+      "expected_sha256": "65eeb74d2bca8709c03ddeb0a66ae27b4f5c6f9092a69eecd79e25932d9edefd",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/visible_references/COCOA/COCO_val2014_000000317480_chair.png",
+      "sha256": "43adb96f609f91d77e849bd6261860e80e78db95e95ccea76e617b490aca6be9",
+      "expected_sha256": "43adb96f609f91d77e849bd6261860e80e78db95e95ccea76e617b490aca6be9",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/visible_references/crops/COCOA/COCO_val2014_000000317480_chair.png",
+      "sha256": "1350d4c82d39bc32cf10222103da7f2e175a8ffd9cfc67247b7c738b4b8b5dd1",
+      "expected_sha256": "1350d4c82d39bc32cf10222103da7f2e175a8ffd9cfc67247b7c738b4b8b5dd1",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/visible_references/free_images/clay-banks-QB5IPPxIOyY-unsplash_bed.png",
+      "sha256": "68f1e4d3cd2a2bb1b0c44905042013600a1df62b806185908ea3f4678204ba1b",
+      "expected_sha256": "68f1e4d3cd2a2bb1b0c44905042013600a1df62b806185908ea3f4678204ba1b",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/visible_references/free_images/jose-figueroa-kwV8FbXF7Bo-unsplash_bus.png",
+      "sha256": "32c06372bdea27121e51f26ab2a1fda3dda2bb96310a7384986395857654fc27",
+      "expected_sha256": "32c06372bdea27121e51f26ab2a1fda3dda2bb96310a7384986395857654fc27",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/visible_references/crops/free_images/clay-banks-QB5IPPxIOyY-unsplash_bed.png",
+      "sha256": "6712857361fcae8a21f76f88095eebef95caf32fd16a5463a78774d1eff698c8",
+      "expected_sha256": "6712857361fcae8a21f76f88095eebef95caf32fd16a5463a78774d1eff698c8",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/visible_references/crops/free_images/jose-figueroa-kwV8FbXF7Bo-unsplash_bus.png",
+      "sha256": "cd494ba7e4c298d6bcba12934bca52f360854378635e727c564bc92a5d4323cf",
+      "expected_sha256": "cd494ba7e4c298d6bcba12934bca52f360854378635e727c564bc92a5d4323cf",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/free_images/cat-8446390_640_cat/completion.png",
+      "sha256": "0d90f5ed1e7a3fee6107f315774ab6a23440d9457a8f0da86624f13fb085b747",
+      "expected_sha256": "0d90f5ed1e7a3fee6107f315774ab6a23440d9457a8f0da86624f13fb085b747",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/free_images/bird-8951872_640_bird/completion.png",
+      "sha256": "d1f24beee29364f63ea921e1b2da237eb0bc57df8b83f3186269ad468b5b80fa",
+      "expected_sha256": "d1f24beee29364f63ea921e1b2da237eb0bc57df8b83f3186269ad468b5b80fa",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/free_images/clay-banks-QB5IPPxIOyY-unsplash_bed/completion.png",
+      "sha256": "40cd6da2ffa071571f82b8da7bd8d21c589910941ecb16af1cacf1947127d626",
+      "expected_sha256": "40cd6da2ffa071571f82b8da7bd8d21c589910941ecb16af1cacf1947127d626",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/free_images/computer-5837248_640_cup/completion.png",
+      "sha256": "06134e2a320a26df1448fc45d3ac065943e9975b6afc6054adf804404636446d",
+      "expected_sha256": "06134e2a320a26df1448fc45d3ac065943e9975b6afc6054adf804404636446d",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/free_images/cat-8031938_640_cat/completion.png",
+      "sha256": "81f146278703bfc97f5ff6e0955fefa10d25018dc1665dac1a07b2eac28d850d",
+      "expected_sha256": "81f146278703bfc97f5ff6e0955fefa10d25018dc1665dac1a07b2eac28d850d",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/free_images/bear-8845470_640_bear/completion.png",
+      "sha256": "0cda695d569d8171b31c4679a15b2971d534a87dceddcff986df0db336f77d67",
+      "expected_sha256": "0cda695d569d8171b31c4679a15b2971d534a87dceddcff986df0db336f77d67",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/free_images/african-american-7481724_640_horse/completion.png",
+      "sha256": "0f667ada9d1b8012232118f0f72dcbc7af5e9acdbf1e12e8ef68bcb92e077c37",
+      "expected_sha256": "0f667ada9d1b8012232118f0f72dcbc7af5e9acdbf1e12e8ef68bcb92e077c37",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/free_images/computer-5837248_640_laptop/completion.png",
+      "sha256": "13af4164db40f6d5a0030fa536ca340ef6307ff367a75493d243b69dc10cd41e",
+      "expected_sha256": "13af4164db40f6d5a0030fa536ca340ef6307ff367a75493d243b69dc10cd41e",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/free_images/flowers-8991384_640_vase/completion.png",
+      "sha256": "c3409a42af284c2916454b2ba74c653a7224987885540957657fc9ba22dedef6",
+      "expected_sha256": "c3409a42af284c2916454b2ba74c653a7224987885540957657fc9ba22dedef6",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/free_images/dairy-cattle-9018750_640_cow/completion.png",
+      "sha256": "8c8c463059b374c3f0c118deb2446ffb97a920181361c25041385538dfff4b6e",
+      "expected_sha256": "8c8c463059b374c3f0c118deb2446ffb97a920181361c25041385538dfff4b6e",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/free_images/horse-1006570_640_horse/completion.png",
+      "sha256": "d7666548e47c51738e125726a9f3edcce515f9e523cc37383d761faa5375339c",
+      "expected_sha256": "d7666548e47c51738e125726a9f3edcce515f9e523cc37383d761faa5375339c",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/free_images/ekaterina-bogdan-vKN3F8zHQkY-unsplash_car/completion.png",
+      "sha256": "d32d960e373803c2289ebee397a8ad7795b366a2794d734e3aba224b533a56c7",
+      "expected_sha256": "d32d960e373803c2289ebee397a8ad7795b366a2794d734e3aba224b533a56c7",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/free_images/horse-6577968_640_horse/completion.png",
+      "sha256": "4e1fcd949bd9c1b3b2c687e0144a0619e5e2de1d97dbf18ff8815f85e005d447",
+      "expected_sha256": "4e1fcd949bd9c1b3b2c687e0144a0619e5e2de1d97dbf18ff8815f85e005d447",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/free_images/european-shorthair-8136129_640_cat/completion.png",
+      "sha256": "650d4d42b1cdaef8bd8d15cdb4981a00c041f72c4e29feb3f166bcec4b0deb4f",
+      "expected_sha256": "650d4d42b1cdaef8bd8d15cdb4981a00c041f72c4e29feb3f166bcec4b0deb4f",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/free_images/hoai-thanh-c9rcpauXrPs-unsplash_sofa/completion.png",
+      "sha256": "27a6425b59869566569dabc09fde9d0cbc60ea64f6820fb620f06cc30029235d",
+      "expected_sha256": "27a6425b59869566569dabc09fde9d0cbc60ea64f6820fb620f06cc30029235d",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/free_images/horses-8026521_640_whitehorse/completion.png",
+      "sha256": "9b543d4784ac1004221a34ec73d3d24052d2a3d543f0e4026089b2a4b6b51f46",
+      "expected_sha256": "9b543d4784ac1004221a34ec73d3d24052d2a3d543f0e4026089b2a4b6b51f46",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/free_images/horse-8193368_640_horse/completion.png",
+      "sha256": "aefb7fa6c2ca39b557f0e1fbb6e2c3867738ca39d2af2f2d1846491df1925bc3",
+      "expected_sha256": "aefb7fa6c2ca39b557f0e1fbb6e2c3867738ca39d2af2f2d1846491df1925bc3",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/free_images/kateryna-hliznitsova-3302w_-8lcM-unsplash_book/completion.png",
+      "sha256": "73dc0477120f2ebbfc62ede59813eeb52b70dbf4bea0ce3770a0bf6e66efe648",
+      "expected_sha256": "73dc0477120f2ebbfc62ede59813eeb52b70dbf4bea0ce3770a0bf6e66efe648",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/free_images/living-room-9061302_640_sofa/completion.png",
+      "sha256": "480e9bb36a8b4677f82537128876d227f3973111ed3207b7522e1535ab8c0492",
+      "expected_sha256": "480e9bb36a8b4677f82537128876d227f3973111ed3207b7522e1535ab8c0492",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/free_images/jose-figueroa-kwV8FbXF7Bo-unsplash_bus/completion.png",
+      "sha256": "a8cc0044e0361eff51fd34b4873cee777eab931800a875b3a10cf41ddef36424",
+      "expected_sha256": "a8cc0044e0361eff51fd34b4873cee777eab931800a875b3a10cf41ddef36424",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/free_images/khanh-do-gua8iB-f0FM-unsplash_bicycle/completion.png",
+      "sha256": "f8f2544f4e752d01db0e3c0a81e0b80f563bc237b594860f6a52e6ab929aa00f",
+      "expected_sha256": "f8f2544f4e752d01db0e3c0a81e0b80f563bc237b594860f6a52e6ab929aa00f",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/free_images/mahdi-chaghari-I_BMWfKygmY-unsplash_chair/completion.png",
+      "sha256": "6ac0f79f1b3b6ad205635015878405e749607cc3b5fea5ff7a02380db3dad0e3",
+      "expected_sha256": "6ac0f79f1b3b6ad205635015878405e749607cc3b5fea5ff7a02380db3dad0e3",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/free_images/man-8493244_640_car/completion.png",
+      "sha256": "f33436ec41a8d12ee4d5aeb44378f2ec2f734096e9629cee95def68f2fcc373a",
+      "expected_sha256": "f33436ec41a8d12ee4d5aeb44378f2ec2f734096e9629cee95def68f2fcc373a",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/free_images/office-925806_640_cup/completion.png",
+      "sha256": "878742feab1010d2835e36994d4a04f817b6d723d7dd470beb2d4dc9b5267602",
+      "expected_sha256": "878742feab1010d2835e36994d4a04f817b6d723d7dd470beb2d4dc9b5267602",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/free_images/pexels-21zere-1690606874-28074114_chair/completion.png",
+      "sha256": "a90644d76a9f52fcba1043f093334f944899180aed81c229892892dcef064596",
+      "expected_sha256": "a90644d76a9f52fcba1043f093334f944899180aed81c229892892dcef064596",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/free_images/office-925806_640_laptop/completion.png",
+      "sha256": "598f024b5e7d770b339525f5bb74bb3075fb41b164b1ff1dcbeefdd41a94a2f2",
+      "expected_sha256": "598f024b5e7d770b339525f5bb74bb3075fb41b164b1ff1dcbeefdd41a94a2f2",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/free_images/pavel-moiseev-QrwFxzmvsYc-unsplash_motorcycle/completion.png",
+      "sha256": "cb95683d90cbdb7ebae61425778de28b8044372324c0b31e5d96b6255097fda5",
+      "expected_sha256": "cb95683d90cbdb7ebae61425778de28b8044372324c0b31e5d96b6255097fda5",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/free_images/pexels-betul-1793145775-28318918_book/completion.png",
+      "sha256": "eae99e27c621f90c93f6f15a598a23665409a08984a03d88246ac573f20a1135",
+      "expected_sha256": "eae99e27c621f90c93f6f15a598a23665409a08984a03d88246ac573f20a1135",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/free_images/pet-9040516_640_cat/completion.png",
+      "sha256": "18b898e5801003668ee76d20893665f0c54e72029685d15c0c6e9bf4d9f04ee1",
+      "expected_sha256": "18b898e5801003668ee76d20893665f0c54e72029685d15c0c6e9bf4d9f04ee1",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/free_images/pexels-ekrulila-20123614_coffeecup/completion.png",
+      "sha256": "6fe32de18a405523d20a528b3f087baec3a8a17c6babe6146341ba5f07b074d8",
+      "expected_sha256": "6fe32de18a405523d20a528b3f087baec3a8a17c6babe6146341ba5f07b074d8",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/free_images/pexels-alimuart-27788841_bench/completion.png",
+      "sha256": "a59f85a1af0241d29d8530d7466336511f22dc56f8911c7a4a2667a5624bba94",
+      "expected_sha256": "a59f85a1af0241d29d8530d7466336511f22dc56f8911c7a4a2667a5624bba94",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/free_images/pexels-centre-for-ageing-better-55954677-17153156_chair/completion.png",
+      "sha256": "497cdbce53be01d8e0a855493fd1a2a53070e119c59877d44a4458a449e06ae2",
+      "expected_sha256": "497cdbce53be01d8e0a855493fd1a2a53070e119c59877d44a4458a449e06ae2",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/free_images/pexels-jonathanborba-28407210_cup/completion.png",
+      "sha256": "60c05a4161602c42e7acbcbfdb3b434711f5821a26a7d7806053b66721b00712",
+      "expected_sha256": "60c05a4161602c42e7acbcbfdb3b434711f5821a26a7d7806053b66721b00712",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/free_images/pexels-homnaychupgi-28220699_book/completion.png",
+      "sha256": "d53341d322b7bf4edb74f84678ee8fadb2f97517030782bcaf55dcd771e20136",
+      "expected_sha256": "d53341d322b7bf4edb74f84678ee8fadb2f97517030782bcaf55dcd771e20136",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/free_images/pexels-erika-andrade-1358382831-28347063_laptop/completion.png",
+      "sha256": "2cc40fe584d2702f317a64be3ef41355fec4c372a36854ffd4cac59d967a0517",
+      "expected_sha256": "2cc40fe584d2702f317a64be3ef41355fec4c372a36854ffd4cac59d967a0517",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/free_images/pexels-njeromin-20177407_phone/completion.png",
+      "sha256": "2be9f6808ac0fb725033cf0aa0890414b8d202a1b858ee668979dd66a5eb7b40",
+      "expected_sha256": "2be9f6808ac0fb725033cf0aa0890414b8d202a1b858ee668979dd66a5eb7b40",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/free_images/pexels-raymond-petrik-1448389535-27025478_book/completion.png",
+      "sha256": "43d96ee0177487f77d656064700f045a5a1779bf26b988f2f08079f79bbbd7d9",
+      "expected_sha256": "43d96ee0177487f77d656064700f045a5a1779bf26b988f2f08079f79bbbd7d9",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/free_images/pexels-houssam-benamara-542776584-18313465_umbrella/completion.png",
+      "sha256": "66119681d01a6e3c8501044dc124b5274f6d139af17882ac0211a4c7741b0f34",
+      "expected_sha256": "66119681d01a6e3c8501044dc124b5274f6d139af17882ac0211a4c7741b0f34",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/free_images/pexels-passengerslover-27412350_sofa/completion.png",
+      "sha256": "9be834457ba5e39136fecd5970e221faf854d74d246917257d87bf54935283ad",
+      "expected_sha256": "9be834457ba5e39136fecd5970e221faf854d74d246917257d87bf54935283ad",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/free_images/pexels-necip-duman-3299706-26694146_laptop/completion.png",
+      "sha256": "d3ba1bcb4b46582fecf08963862da96115f242bfd3220ab66a27ef1ebb445c71",
+      "expected_sha256": "d3ba1bcb4b46582fecf08963862da96115f242bfd3220ab66a27ef1ebb445c71",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/free_images/pexels-polina-1620494681-27540341_horse/completion.png",
+      "sha256": "5cf68d078bbb3f744d513f9cd30703668c811784523763e7ee47bffdc8613447",
+      "expected_sha256": "5cf68d078bbb3f744d513f9cd30703668c811784523763e7ee47bffdc8613447",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/free_images/pexels-rahimegul-18361797_motorcycle/completion.png",
+      "sha256": "e4ad4374d896b74745dc9e03c94f5cad949c6edceda91916a7679bed8727fcf7",
+      "expected_sha256": "e4ad4374d896b74745dc9e03c94f5cad949c6edceda91916a7679bed8727fcf7",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/free_images/pexels-tobiandchris-28005837_bicycle/completion.png",
+      "sha256": "f832330f5ee1b3cfdcb32f6ec5dfdf9b981b1464a53e361ec81b7c40f69274dd",
+      "expected_sha256": "f832330f5ee1b3cfdcb32f6ec5dfdf9b981b1464a53e361ec81b7c40f69274dd",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/free_images/pexels-valeriya-27546062_winebottle/completion.png",
+      "sha256": "ce9878d94a8f84e9b36c4ce3656459cf0a6bc45d1d8aec7a7f93bb3e796e5565",
+      "expected_sha256": "ce9878d94a8f84e9b36c4ce3656459cf0a6bc45d1d8aec7a7f93bb3e796e5565",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/free_images/pexels-valeriya-18920421_sofa/completion.png",
+      "sha256": "3763e858417143a8e5d6e6f84a1be33e8038112339dfa1b49a8c3634c5cab542",
+      "expected_sha256": "3763e858417143a8e5d6e6f84a1be33e8038112339dfa1b49a8c3634c5cab542",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/free_images/plant-4243898_640_table/completion.png",
+      "sha256": "8a7f475ab5f21a46216479d0432ae9bf93acc2e6f3c1d750272056ec0e4da316",
+      "expected_sha256": "8a7f475ab5f21a46216479d0432ae9bf93acc2e6f3c1d750272056ec0e4da316",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/free_images/pexels-rlldied-11859805_chair/completion.png",
+      "sha256": "3e3f69f4b7583c36f79aaa877d01e793c0cb31f64288be9a33ea66f7352488ea",
+      "expected_sha256": "3e3f69f4b7583c36f79aaa877d01e793c0cb31f64288be9a33ea66f7352488ea",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/free_images/pizza-4952534_640_pizza/completion.png",
+      "sha256": "046206c8c75fc1a6e55ad7a8d046bbe5ffdc919add6745cde315062638c7ef20",
+      "expected_sha256": "046206c8c75fc1a6e55ad7a8d046bbe5ffdc919add6745cde315062638c7ef20",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/free_images/pexels-umutart-18241047_car/completion.png",
+      "sha256": "34dacfc05d032f785ae33a42d44f4c8adf170c5f41577f83e04282fef909842f",
+      "expected_sha256": "34dacfc05d032f785ae33a42d44f4c8adf170c5f41577f83e04282fef909842f",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/free_images/reader-8211917_640_book/completion.png",
+      "sha256": "d5ce1d543d8eb40f8db923275fad9d32aa7ac0166d910b2243098b5944bc0a8e",
+      "expected_sha256": "d5ce1d543d8eb40f8db923275fad9d32aa7ac0166d910b2243098b5944bc0a8e",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/free_images/samsung-memory-zoiIncvoQtE-unsplash_phone/completion.png",
+      "sha256": "adf2805d9243fe81e6477cb5b8b5cfd78af38c948d2f9ca8efd1f89d90ea9f24",
+      "expected_sha256": "adf2805d9243fe81e6477cb5b8b5cfd78af38c948d2f9ca8efd1f89d90ea9f24",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/free_images/samsung-memory-pz67hBsfbJ4-unsplash_laptop/completion.png",
+      "sha256": "3d52c90f6b48e21aa9eeca359607cea7e38853fd28fe743babbe3fcab73d5077",
+      "expected_sha256": "3d52c90f6b48e21aa9eeca359607cea7e38853fd28fe743babbe3fcab73d5077",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/free_images/stray-8933778_640_dog/completion.png",
+      "sha256": "933cbf4191a5b43a2bdd46c0108002ed6bbade2bd69208ce9fbf9874c609c083",
+      "expected_sha256": "933cbf4191a5b43a2bdd46c0108002ed6bbade2bd69208ce9fbf9874c609c083",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/free_images/pexels-witheline-27442491_cow/completion.png",
+      "sha256": "5c20ad066bf1f975d2a7b63df4ee339c8e6137b76c9e7183a233cead3de1a1a2",
+      "expected_sha256": "5c20ad066bf1f975d2a7b63df4ee339c8e6137b76c9e7183a233cead3de1a1a2",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/free_images/tv-set-4308537_640_TV/completion.png",
+      "sha256": "463f5b6c05c76e06dae260b27bdcd69fa7921b52e7f9e7aea9620fa747d89943",
+      "expected_sha256": "463f5b6c05c76e06dae260b27bdcd69fa7921b52e7f9e7aea9620fa747d89943",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/free_images/sheng-hu-DvBDP1K_Jfo-unsplash_bench/completion.png",
+      "sha256": "1496b9b553aa03694f59ea6fe4889757f05ece433efa471ebf2f12e576701dbf",
+      "expected_sha256": "1496b9b553aa03694f59ea6fe4889757f05ece433efa471ebf2f12e576701dbf",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/free_images/samsung-memory-l_p4pay8CTM-unsplash_laptop/completion.png",
+      "sha256": "68b8689731e7cd6885f88473ce8e58326460e0cb9e835e095d8b8c3c2275b6a9",
+      "expected_sha256": "68b8689731e7cd6885f88473ce8e58326460e0cb9e835e095d8b8c3c2275b6a9",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/free_images/time-5193038_640_cup/completion.png",
+      "sha256": "81831cfbc98c154e51bf962f10092cdbb3e338f154335767a8df44c8c30771b7",
+      "expected_sha256": "81831cfbc98c154e51bf962f10092cdbb3e338f154335767a8df44c8c30771b7",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/free_images/winter-7506621_640_cup/completion.png",
+      "sha256": "3831084d8ed402d66a4cc9e4a09495438855b84272ce12206fa059190b60dae8",
+      "expected_sha256": "3831084d8ed402d66a4cc9e4a09495438855b84272ce12206fa059190b60dae8",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/free_images/violin-1617972_640_chair/completion.png",
+      "sha256": "f9b013582e60bab1616fbbca1648352917825fbb0745c1958f2450838660dcc2",
+      "expected_sha256": "f9b013582e60bab1616fbbca1648352917825fbb0745c1958f2450838660dcc2",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/laion/000000636_car/completion.png",
+      "sha256": "2bf636c1a3d84f27ab244eea4d169118414012904c3013216f64988b1f504153",
+      "expected_sha256": "2bf636c1a3d84f27ab244eea4d169118414012904c3013216f64988b1f504153",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/free_images/woman-2564660_640_backpack/completion.png",
+      "sha256": "852013d373369340e70a1e5c6871715ff8832934e124d0ae63416105033e9c49",
+      "expected_sha256": "852013d373369340e70a1e5c6871715ff8832934e124d0ae63416105033e9c49",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/laion/000000390_sofa/completion.png",
+      "sha256": "4d2f9e5ff6657aeb77785db43cc750575f17ef07171c41f4cf2ed120695ad880",
+      "expected_sha256": "4d2f9e5ff6657aeb77785db43cc750575f17ef07171c41f4cf2ed120695ad880",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/laion/000003454_chair/completion.png",
+      "sha256": "1297b63c093676bf782dbad073de1472b800b32dc7d8fea5dec17b7f20549dfe",
+      "expected_sha256": "1297b63c093676bf782dbad073de1472b800b32dc7d8fea5dec17b7f20549dfe",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/laion/000003454_table/completion.png",
+      "sha256": "7e89e5f5b2f80d520c76072d3979934a56764afaca0d85a60c40efa694306862",
+      "expected_sha256": "7e89e5f5b2f80d520c76072d3979934a56764afaca0d85a60c40efa694306862",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/laion/000001117_table/completion.png",
+      "sha256": "2f3bec23caa71ebbad20d54a3db423981bd04612bbed43906686060b07738b4c",
+      "expected_sha256": "2f3bec23caa71ebbad20d54a3db423981bd04612bbed43906686060b07738b4c",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/laion/000001896_motorcycle/completion.png",
+      "sha256": "89b62fa7808475dad244444c91e9002897c832df8338d6f9c65f614a4d6e801a",
+      "expected_sha256": "89b62fa7808475dad244444c91e9002897c832df8338d6f9c65f614a4d6e801a",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/laion/000004416_whitehorse/completion.png",
+      "sha256": "2a1d93f297fc708d42a2c9cbfecae2efcfac21fa58003882dff243fe2ba601df",
+      "expected_sha256": "2a1d93f297fc708d42a2c9cbfecae2efcfac21fa58003882dff243fe2ba601df",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/free_images/zhao-yangyang-yDejQyuR63Q-unsplash_sofa/completion.png",
+      "sha256": "39c608a8de09cc0e29a4e1dbf36609879982bf43ac5ab00d11711f6efff1de8b",
+      "expected_sha256": "39c608a8de09cc0e29a4e1dbf36609879982bf43ac5ab00d11711f6efff1de8b",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/laion/000005546_disposablecup/completion.png",
+      "sha256": "d596b26322fd4297e3d106fc762c19e9385810d24224fee1e1964cc7b8bd4106",
+      "expected_sha256": "d596b26322fd4297e3d106fc762c19e9385810d24224fee1e1964cc7b8bd4106",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/laion/000004612_car/completion.png",
+      "sha256": "64220a61150ff3e209d2b9c7fbd115ddb470bea382915e873010047567fe629e",
+      "expected_sha256": "64220a61150ff3e209d2b9c7fbd115ddb470bea382915e873010047567fe629e",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/laion/000005976_laptop/completion.png",
+      "sha256": "cac76e863df299c3f6e64e334abaae6a46280bc19ab7095a6322005bc220a926",
+      "expected_sha256": "cac76e863df299c3f6e64e334abaae6a46280bc19ab7095a6322005bc220a926",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/laion/000005614_chair/completion.png",
+      "sha256": "c59a899eab31d5f7a267343d69a187771198a396873fdc45aefec78c94a9ce09",
+      "expected_sha256": "c59a899eab31d5f7a267343d69a187771198a396873fdc45aefec78c94a9ce09",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/laion/000005768_car/completion.png",
+      "sha256": "247f36b7db895b10ddbe6c844b0d3157e8b8a4202b478a57f3c34b300b2befc0",
+      "expected_sha256": "247f36b7db895b10ddbe6c844b0d3157e8b8a4202b478a57f3c34b300b2befc0",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/laion/000006554_bowl/completion.png",
+      "sha256": "9a82580e0c06848f33f4270684e96da96164006dd4f82e545d72e744eb27fc36",
+      "expected_sha256": "9a82580e0c06848f33f4270684e96da96164006dd4f82e545d72e744eb27fc36",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/laion/000003457_woodentable/completion.png",
+      "sha256": "9dbc700b9ae73b6e2e3c005cf25a7a0ca67753cffd4a2464a4ecc287b81d6c57",
+      "expected_sha256": "9dbc700b9ae73b6e2e3c005cf25a7a0ca67753cffd4a2464a4ecc287b81d6c57",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/laion/000007980_chair/completion.png",
+      "sha256": "c48c39c49024f5b4e6366e6a8467a636bc776c550ff3608b15e6eefa8e79607e",
+      "expected_sha256": "c48c39c49024f5b4e6366e6a8467a636bc776c550ff3608b15e6eefa8e79607e",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/laion/000009650_cat/completion.png",
+      "sha256": "8fba4391b47070114b3e9b19ab977a908537d12e117c68d8d8ea7d6e59b77915",
+      "expected_sha256": "8fba4391b47070114b3e9b19ab977a908537d12e117c68d8d8ea7d6e59b77915",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/laion/000009705_truck/completion.png",
+      "sha256": "0c0f149c060a198002e985a411d2743f3a9b41b18177665a66115043f3094045",
+      "expected_sha256": "0c0f149c060a198002e985a411d2743f3a9b41b18177665a66115043f3094045",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/laion/000009685_chair/completion.png",
+      "sha256": "4a1b62288ba3d0fc0b2f6912937c670444d76b2626c6358c1f51d023038e078a",
+      "expected_sha256": "4a1b62288ba3d0fc0b2f6912937c670444d76b2626c6358c1f51d023038e078a",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/laion/000008818_bed/completion.png",
+      "sha256": "cebb17bec5f8fc5d161a2b40cad78d92e989c87cfd530a19adfbb6be894cefdf",
+      "expected_sha256": "cebb17bec5f8fc5d161a2b40cad78d92e989c87cfd530a19adfbb6be894cefdf",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/laion/000007254_bed/completion.png",
+      "sha256": "ba62178d2d434b805c9ca35f9ab65becac630aff870bc050318e8b6ce005da16",
+      "expected_sha256": "ba62178d2d434b805c9ca35f9ab65becac630aff870bc050318e8b6ce005da16",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/laion/000011234_chair/completion.png",
+      "sha256": "d125657b9a01b93501cd05a9b2658956f6a75e315744320cdb085f2c3117c90b",
+      "expected_sha256": "d125657b9a01b93501cd05a9b2658956f6a75e315744320cdb085f2c3117c90b",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/laion/000011786_motorcycle/completion.png",
+      "sha256": "fd3154f62e4779c03124c5d8649166335079beb5a4a780e30f2223a8ba7f11cb",
+      "expected_sha256": "fd3154f62e4779c03124c5d8649166335079beb5a4a780e30f2223a8ba7f11cb",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/laion/000010017_chair/completion.png",
+      "sha256": "fa35e21fc8b74e116495a6f9d21b1edd315de092d753681d7f257f050b85781c",
+      "expected_sha256": "fa35e21fc8b74e116495a6f9d21b1edd315de092d753681d7f257f050b85781c",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/laion/000011196_car/completion.png",
+      "sha256": "57d8b947088a8873f657b165e3ed170f5eee09676d99caca1c790d8fe9e5ec57",
+      "expected_sha256": "57d8b947088a8873f657b165e3ed170f5eee09676d99caca1c790d8fe9e5ec57",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/laion/000011973_winebottle/completion.png",
+      "sha256": "71b3329e67855d96d9340c5ac7e874dd4911171d92e623dbe39132f01bf7e044",
+      "expected_sha256": "71b3329e67855d96d9340c5ac7e874dd4911171d92e623dbe39132f01bf7e044",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/laion/000010657_car/completion.png",
+      "sha256": "fff4280b7f02104318fc60f601d2b36ee66751753b3e521acd4e622ff8db4c87",
+      "expected_sha256": "fff4280b7f02104318fc60f601d2b36ee66751753b3e521acd4e622ff8db4c87",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/laion/000011964_sofa/completion.png",
+      "sha256": "3003acf456a95c55e84260e5039295ea9e3595d0411b4393c3b9e8709b8879d6",
+      "expected_sha256": "3003acf456a95c55e84260e5039295ea9e3595d0411b4393c3b9e8709b8879d6",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/laion/000012326_car/completion.png",
+      "sha256": "5a2236ac08e61f2ec9f6ba57af1b1405b5adcb375b2f293c52234a9d450bc7e8",
+      "expected_sha256": "5a2236ac08e61f2ec9f6ba57af1b1405b5adcb375b2f293c52234a9d450bc7e8",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/laion/000013059_laptop/completion.png",
+      "sha256": "6a3c0470b9238457fe3653e1ebdc49b2fd086018520856e2b27236ff4b53ed12",
+      "expected_sha256": "6a3c0470b9238457fe3653e1ebdc49b2fd086018520856e2b27236ff4b53ed12",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/laion/000012279_car/completion.png",
+      "sha256": "f1cfe9a3c255633714120979a64538116d7eb10ea3faa71f486f7b3341e751ef",
+      "expected_sha256": "f1cfe9a3c255633714120979a64538116d7eb10ea3faa71f486f7b3341e751ef",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/laion/000012067_car/completion.png",
+      "sha256": "cc5dae13b9bbf729d7edd47f32769e5c63d19524b20855616bc5250aba9cf064",
+      "expected_sha256": "cc5dae13b9bbf729d7edd47f32769e5c63d19524b20855616bc5250aba9cf064",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/laion/000012631_sofa/completion.png",
+      "sha256": "8acdc0f6189ac89940d80283399e5cde9b3403df5ccb7239902afb315de637cb",
+      "expected_sha256": "8acdc0f6189ac89940d80283399e5cde9b3403df5ccb7239902afb315de637cb",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/laion/000012633_car/completion.png",
+      "sha256": "7f28821bb8843a9ebee8485c15d4dacd55a9227a6b173d9176584055068203da",
+      "expected_sha256": "7f28821bb8843a9ebee8485c15d4dacd55a9227a6b173d9176584055068203da",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/laion/000013792_motorcycle/completion.png",
+      "sha256": "e99333242138b6db05b96ac30d78de4b996989adfa44bac5b72893de422ee1c7",
+      "expected_sha256": "e99333242138b6db05b96ac30d78de4b996989adfa44bac5b72893de422ee1c7",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/laion/000013580_woodentable/completion.png",
+      "sha256": "6332b06912a4dcaef260a9134cf7f4056395a01bec0eba3dc3f17df29794de40",
+      "expected_sha256": "6332b06912a4dcaef260a9134cf7f4056395a01bec0eba3dc3f17df29794de40",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/laion/000013230_bicycle/completion.png",
+      "sha256": "f69d16cf63c67a53b5c15c19068b4a995b772e761ccd1b564b2cc53d2ae2d34b",
+      "expected_sha256": "f69d16cf63c67a53b5c15c19068b4a995b772e761ccd1b564b2cc53d2ae2d34b",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/laion/000013832_bed/completion.png",
+      "sha256": "9642d555d2b2f09f6bcf2fc09f6bb2d0e1be2019645c5bb13504b723903c8335",
+      "expected_sha256": "9642d555d2b2f09f6bcf2fc09f6bb2d0e1be2019645c5bb13504b723903c8335",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/laion/000014215_refrigerator/completion.png",
+      "sha256": "f1be796480dfaf5bc3d36f46067e236fcbcb69a387650d42e139a54ef5ec0080",
+      "expected_sha256": "f1be796480dfaf5bc3d36f46067e236fcbcb69a387650d42e139a54ef5ec0080",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/laion/000014149_elephant/completion.png",
+      "sha256": "f01a80549a6deaced9b71eef86e5207a028b35aa09fee63a480f76a41e750c85",
+      "expected_sha256": "f01a80549a6deaced9b71eef86e5207a028b35aa09fee63a480f76a41e750c85",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/laion/000014993_sofa/completion.png",
+      "sha256": "e55009a86f5e4a47ef0c14f304faee37fffcff3b9e33c46c729ae79b444357df",
+      "expected_sha256": "e55009a86f5e4a47ef0c14f304faee37fffcff3b9e33c46c729ae79b444357df",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/laion/000014021_coffeecup/completion.png",
+      "sha256": "fb110ef23a645c46427cc20111633dfc4022bb9de45b6b9cf279b86df84ed405",
+      "expected_sha256": "fb110ef23a645c46427cc20111633dfc4022bb9de45b6b9cf279b86df84ed405",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/laion/000015608_fork/completion.png",
+      "sha256": "d9f1279d83f3685f4e4532e40f5377a3cbdefee03d513cde7edc14b30b3ca2bd",
+      "expected_sha256": "d9f1279d83f3685f4e4532e40f5377a3cbdefee03d513cde7edc14b30b3ca2bd",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/laion/000016025_bicycle/completion.png",
+      "sha256": "17f5865c47daaada0419a1cfd0704e481ec31abe2e80ab294336e3c1adb16d29",
+      "expected_sha256": "17f5865c47daaada0419a1cfd0704e481ec31abe2e80ab294336e3c1adb16d29",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/laion/000015855_truck/completion.png",
+      "sha256": "a496428a45b07a4f1960795381796c2856dfcdf3b04f231cf9dc85fb35bb83dd",
+      "expected_sha256": "a496428a45b07a4f1960795381796c2856dfcdf3b04f231cf9dc85fb35bb83dd",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/laion/000016434_knife/completion.png",
+      "sha256": "9d3f86924130969d7d0e583250a9cadbfa5d211398312a1a9abdd6f37a72d704",
+      "expected_sha256": "9d3f86924130969d7d0e583250a9cadbfa5d211398312a1a9abdd6f37a72d704",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/laion/000016521_sofa/completion.png",
+      "sha256": "c1603eb65c6475831f1f6567e210b4efcb708de7dc6fb50d8548293f3df84b2c",
+      "expected_sha256": "c1603eb65c6475831f1f6567e210b4efcb708de7dc6fb50d8548293f3df84b2c",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/laion/000016615_car/completion.png",
+      "sha256": "734b9cd933d163d816a0924ac033e8b9e744c5b1c1728750198a5d4b3a7696d7",
+      "expected_sha256": "734b9cd933d163d816a0924ac033e8b9e744c5b1c1728750198a5d4b3a7696d7",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/laion/000017927_bed/completion.png",
+      "sha256": "dbc60a9813a3f19647f4d85cde51f1be359f190b71427f702b3ec2dea4875100",
+      "expected_sha256": "dbc60a9813a3f19647f4d85cde51f1be359f190b71427f702b3ec2dea4875100",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/laion/000019713_book/completion.png",
+      "sha256": "80105eaef1cd98c74f4b2d446815fb3dbd3ede4dd42ac5abd0516d958bdb3701",
+      "expected_sha256": "80105eaef1cd98c74f4b2d446815fb3dbd3ede4dd42ac5abd0516d958bdb3701",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/laion/000019718_dog/completion.png",
+      "sha256": "af0dc286617f83bf3a86e5381d5460e89ce00509139f7a27ef0bb0a1bb2510e2",
+      "expected_sha256": "af0dc286617f83bf3a86e5381d5460e89ce00509139f7a27ef0bb0a1bb2510e2",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/laion/000018182_bed/completion.png",
+      "sha256": "a3a8a72ce69c94a58989f1e66e0087ac482ba7854dea44b83bfcb9ed773a131d",
+      "expected_sha256": "a3a8a72ce69c94a58989f1e66e0087ac482ba7854dea44b83bfcb9ed773a131d",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/laion/000016771_pizza/completion.png",
+      "sha256": "f047b409fa4bb496ba47640cb0ef203a8ac3d8e9902805682e6837598078592f",
+      "expected_sha256": "f047b409fa4bb496ba47640cb0ef203a8ac3d8e9902805682e6837598078592f",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2320318_horse/completion.png",
+      "sha256": "50c92e004b1f683767b5b532b0d63ebd409c4611a5470de621afb601f3b6cf6a",
+      "expected_sha256": "50c92e004b1f683767b5b532b0d63ebd409c4611a5470de621afb601f3b6cf6a",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2320237_bench/completion.png",
+      "sha256": "8f14b18ac949f598efe14a5e69c4ac9e652970a8ac5ea79131c5d0af89331051",
+      "expected_sha256": "8f14b18ac949f598efe14a5e69c4ac9e652970a8ac5ea79131c5d0af89331051",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2320229_cat/completion.png",
+      "sha256": "c04b760c5f4056fc6712331a1f1d3f1dc3eb73783e75c8770903fc57abc0c54f",
+      "expected_sha256": "c04b760c5f4056fc6712331a1f1d3f1dc3eb73783e75c8770903fc57abc0c54f",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2320298_surfingboard/completion.png",
+      "sha256": "0f4cd7ab5c289ec2032826a42ced3e3fc087e3d54edcdd1680f3fb38dbf3dd8e",
+      "expected_sha256": "0f4cd7ab5c289ec2032826a42ced3e3fc087e3d54edcdd1680f3fb38dbf3dd8e",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2320305_cat/completion.png",
+      "sha256": "70493cd71a2e96f850cd3fadc4e0b2eadd9f10064cb7bbca79c7d86426a45924",
+      "expected_sha256": "70493cd71a2e96f850cd3fadc4e0b2eadd9f10064cb7bbca79c7d86426a45924",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2320324_brownhorse/completion.png",
+      "sha256": "1e8e66ff5a6047c6ca467daa69797d55e67cfa6d32c7543586fd840e76bd7f93",
+      "expected_sha256": "1e8e66ff5a6047c6ca467daa69797d55e67cfa6d32c7543586fd840e76bd7f93",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2320327_greencar/completion.png",
+      "sha256": "989a153a4f1947fbd894241344be13840406fc0fbae23f8ab00e0e67999e90e1",
+      "expected_sha256": "989a153a4f1947fbd894241344be13840406fc0fbae23f8ab00e0e67999e90e1",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2320359_television/completion.png",
+      "sha256": "f727c50be60ff16d27a01723eedcf89080eeb2ac1afc58ee4e055f0fb8917c01",
+      "expected_sha256": "f727c50be60ff16d27a01723eedcf89080eeb2ac1afc58ee4e055f0fb8917c01",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2320349_brownsuitcase/completion.png",
+      "sha256": "302d51f10dced1ecbeb91f5e9e77bdd3d3921dd7bd257c6d48da79e2341add4c",
+      "expected_sha256": "302d51f10dced1ecbeb91f5e9e77bdd3d3921dd7bd257c6d48da79e2341add4c",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2320317_bus/completion.png",
+      "sha256": "e5e45881b13f1d12fec82932abadfa73dffd5525672d7bffb1723cc397539b70",
+      "expected_sha256": "e5e45881b13f1d12fec82932abadfa73dffd5525672d7bffb1723cc397539b70",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2320329_whitetable/completion.png",
+      "sha256": "8d1c042cb106a5ccdc19c8884d77ff30266c62f24c5985bed1e139bd75660774",
+      "expected_sha256": "8d1c042cb106a5ccdc19c8884d77ff30266c62f24c5985bed1e139bd75660774",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2320362_snowboard/completion.png",
+      "sha256": "c6f28a54e5bb51294165fe4c94844e158b25d139fb3698fa614bee8849b6037a",
+      "expected_sha256": "c6f28a54e5bb51294165fe4c94844e158b25d139fb3698fa614bee8849b6037a",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2320374_umbrella/completion.png",
+      "sha256": "98b6b29741e8610db09f92ea01df1946bb4ba9900758beea9eadc9675f0ed0d4",
+      "expected_sha256": "98b6b29741e8610db09f92ea01df1946bb4ba9900758beea9eadc9675f0ed0d4",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2320468_surfingboard/completion.png",
+      "sha256": "b9724da6a81dfb779bc5d41fe5d8ab89464482376147a501d16da76ca957b284",
+      "expected_sha256": "b9724da6a81dfb779bc5d41fe5d8ab89464482376147a501d16da76ca957b284",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2320373_bluebowl/completion.png",
+      "sha256": "5d50105828b9b88aa6424c39463659d7146c50e98f9a25ccbcbb1b3a4b2534f4",
+      "expected_sha256": "5d50105828b9b88aa6424c39463659d7146c50e98f9a25ccbcbb1b3a4b2534f4",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2320498_boat/completion.png",
+      "sha256": "dbb9c602223193fb46d2aeefc9103483326e8fb56ab8aa9d3928933484976fb3",
+      "expected_sha256": "dbb9c602223193fb46d2aeefc9103483326e8fb56ab8aa9d3928933484976fb3",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2320407_surfingboard/completion.png",
+      "sha256": "2d7a06da461965b500b11432189f57ce5bfcb631aa1f47dbc70258d9512f3a13",
+      "expected_sha256": "2d7a06da461965b500b11432189f57ce5bfcb631aa1f47dbc70258d9512f3a13",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2320443_motorbike/completion.png",
+      "sha256": "bab871a2bf375d50b5f13e9e93e14ee2c7551343cde7dc62d9ec0d9fea13759c",
+      "expected_sha256": "bab871a2bf375d50b5f13e9e93e14ee2c7551343cde7dc62d9ec0d9fea13759c",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2320542_bench/completion.png",
+      "sha256": "e6148701ab975c06d8d2544c6f78520959377e74fa7a9adc8f816b7c1fdb96fd",
+      "expected_sha256": "e6148701ab975c06d8d2544c6f78520959377e74fa7a9adc8f816b7c1fdb96fd",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2320527_cat/completion.png",
+      "sha256": "4cb73f2bfa8200a93b4ecb5574e214611271ef7b15f2ac20045e711b1eee8d98",
+      "expected_sha256": "4cb73f2bfa8200a93b4ecb5574e214611271ef7b15f2ac20045e711b1eee8d98",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2320604_bus/completion.png",
+      "sha256": "746cd46d5156a2595504223d7ea6ec8f7161119e5777ee2d177d5b8521c3aa9d",
+      "expected_sha256": "746cd46d5156a2595504223d7ea6ec8f7161119e5777ee2d177d5b8521c3aa9d",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2320641_cup/completion.png",
+      "sha256": "e0041ea703ccaeaebde9857058937805b0f1e9b5c695d7f0743207d83a3185ff",
+      "expected_sha256": "e0041ea703ccaeaebde9857058937805b0f1e9b5c695d7f0743207d83a3185ff",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2320659_redcar/completion.png",
+      "sha256": "8cb150efe03107270f194c0095b0ba8c33f586278fe85652030b2dbfe312d078",
+      "expected_sha256": "8cb150efe03107270f194c0095b0ba8c33f586278fe85652030b2dbfe312d078",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2320693_dog/completion.png",
+      "sha256": "95b3685e9fb9c106abcf1955d593821ef4a8cf27dbdedd5d3013a4564483dca9",
+      "expected_sha256": "95b3685e9fb9c106abcf1955d593821ef4a8cf27dbdedd5d3013a4564483dca9",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2320715_mouse/completion.png",
+      "sha256": "9ba797c9bd8a8acfec92ec2f9c14a7b60f10866660696ce3debb18c0781dafb0",
+      "expected_sha256": "9ba797c9bd8a8acfec92ec2f9c14a7b60f10866660696ce3debb18c0781dafb0",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2320719_surfingboard/completion.png",
+      "sha256": "a9e37232699598a74881029ea997581704638909d52c6283ded8cd2fde327050",
+      "expected_sha256": "a9e37232699598a74881029ea997581704638909d52c6283ded8cd2fde327050",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2320565_cat/completion.png",
+      "sha256": "b6f21be08c67fe60e59f8c275f0c5e83983a3b8e83bfbcbbc3272cb11ed21741",
+      "expected_sha256": "b6f21be08c67fe60e59f8c275f0c5e83983a3b8e83bfbcbbc3272cb11ed21741",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2320723_laptop/completion.png",
+      "sha256": "019a96012e8aceecec3436d4c052c6ee4b25b612d4c33efda72a74825c86085a",
+      "expected_sha256": "019a96012e8aceecec3436d4c052c6ee4b25b612d4c33efda72a74825c86085a",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2320765_coffeecup/completion.png",
+      "sha256": "a677065019d47ab8a015b99108650b9a299425c7c86160a2e79a9a147aa49781",
+      "expected_sha256": "a677065019d47ab8a015b99108650b9a299425c7c86160a2e79a9a147aa49781",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2320715_cat/completion.png",
+      "sha256": "c2920966b3dac29d93ad269f66cf52506bae05ffa25d51d4095e2123dc644734",
+      "expected_sha256": "c2920966b3dac29d93ad269f66cf52506bae05ffa25d51d4095e2123dc644734",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2320763_sofa/completion.png",
+      "sha256": "7b39e9c83d06c13aecac2bb7b69312bfa80be192a7292829e70b0207c47a6f2f",
+      "expected_sha256": "7b39e9c83d06c13aecac2bb7b69312bfa80be192a7292829e70b0207c47a6f2f",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2320716_zebra/completion.png",
+      "sha256": "3b41f4b7665e3786e5d406bd135f072740801c7b381917f53ff5c578a097bf20",
+      "expected_sha256": "3b41f4b7665e3786e5d406bd135f072740801c7b381917f53ff5c578a097bf20",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2320804_skateboard/completion.png",
+      "sha256": "852e0530ebb996c371c5afd8c4fb395945e407e4419aca24f190a24c013e5f38",
+      "expected_sha256": "852e0530ebb996c371c5afd8c4fb395945e407e4419aca24f190a24c013e5f38",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2320820_keyboard/completion.png",
+      "sha256": "735d8990575251657c755b00a08955a00d1cfb1487252bc07d7b6da6d3cca629",
+      "expected_sha256": "735d8990575251657c755b00a08955a00d1cfb1487252bc07d7b6da6d3cca629",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2320803_cake/completion.png",
+      "sha256": "06b9b5a9891832437421349c3cee3f04b4ba1790675d0f55792cbf89c549781b",
+      "expected_sha256": "06b9b5a9891832437421349c3cee3f04b4ba1790675d0f55792cbf89c549781b",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2320833_sofa/completion.png",
+      "sha256": "5ed7e74fffe2bcb116e9fc19b543bd4254c4b1454703314ebb6accc62e3b0cfd",
+      "expected_sha256": "5ed7e74fffe2bcb116e9fc19b543bd4254c4b1454703314ebb6accc62e3b0cfd",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2320805_bird/completion.png",
+      "sha256": "8a50672cbbdc0d69ad96f610dd77a503744d22191de8e96562e2de45cdf73399",
+      "expected_sha256": "8a50672cbbdc0d69ad96f610dd77a503744d22191de8e96562e2de45cdf73399",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2320741_blackcar/completion.png",
+      "sha256": "3eb04bfb456b0dd002fb29f6da059e05606fa955db9db40b957325cbbe81eca4",
+      "expected_sha256": "3eb04bfb456b0dd002fb29f6da059e05606fa955db9db40b957325cbbe81eca4",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2320855_laptop/completion.png",
+      "sha256": "1f762acbafdc89a39083ef5f02636a3bb645e7ee038a34a474100d753bd459eb",
+      "expected_sha256": "1f762acbafdc89a39083ef5f02636a3bb645e7ee038a34a474100d753bd459eb",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2320806_sofa/completion.png",
+      "sha256": "df72ea088492d91f36dfc27dd5729c5b2696107654584ed4379edb120a06ac2e",
+      "expected_sha256": "df72ea088492d91f36dfc27dd5729c5b2696107654584ed4379edb120a06ac2e",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2321112_bench/completion.png",
+      "sha256": "15b4417ee9662cfc65289b787f0c5caf38c6528bbeb515f334e231e2dc18873b",
+      "expected_sha256": "15b4417ee9662cfc65289b787f0c5caf38c6528bbeb515f334e231e2dc18873b",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2321082_bus/completion.png",
+      "sha256": "3f1b6869daca7bca87561046e20dfebf60d1ac0f8005f204d34835fd7f707071",
+      "expected_sha256": "3f1b6869daca7bca87561046e20dfebf60d1ac0f8005f204d34835fd7f707071",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2320929_motorbike/completion.png",
+      "sha256": "a783c6bc705dc83fca5dda23fc9c4e838b4b0f6043683b4cac283f1328bcf809",
+      "expected_sha256": "a783c6bc705dc83fca5dda23fc9c4e838b4b0f6043683b4cac283f1328bcf809",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2321151_phone/completion.png",
+      "sha256": "83f4aba098a406ec94fc7134e155b5cc3d9bc68c9a78728a54343ac34ab4bd4e",
+      "expected_sha256": "83f4aba098a406ec94fc7134e155b5cc3d9bc68c9a78728a54343ac34ab4bd4e",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2321166_sofa/completion.png",
+      "sha256": "f854067fabd82513796c84d4b79b7fc31dea3eee894233908a8e2ac73ec9027d",
+      "expected_sha256": "f854067fabd82513796c84d4b79b7fc31dea3eee894233908a8e2ac73ec9027d",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2321128_bus/completion.png",
+      "sha256": "732bd4e9245f28ca20ca983cb8b321cfcf9d64531d76f97525be6a6b8d4bcc0e",
+      "expected_sha256": "732bd4e9245f28ca20ca983cb8b321cfcf9d64531d76f97525be6a6b8d4bcc0e",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2321182_zebra/completion.png",
+      "sha256": "3e93ab05b5022fb5b1f9a5c52472034896436324f5810f19b76c1b1e48da7a40",
+      "expected_sha256": "3e93ab05b5022fb5b1f9a5c52472034896436324f5810f19b76c1b1e48da7a40",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2321183_blueumbrella/completion.png",
+      "sha256": "852c7468254b36aeaff5aba42565712be501caac4640889e56633fb93e2411b6",
+      "expected_sha256": "852c7468254b36aeaff5aba42565712be501caac4640889e56633fb93e2411b6",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2321259_horse/completion.png",
+      "sha256": "edbdf8e726ea31ee8fdda68c6f83f9be8b51fec5eb35f6ee078ee13d2229d05e",
+      "expected_sha256": "edbdf8e726ea31ee8fdda68c6f83f9be8b51fec5eb35f6ee078ee13d2229d05e",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2320873_motorbike/completion.png",
+      "sha256": "a3a4b65fff49ada015654af7fdfa63edd27d8e2ece56c56a070e5b2b3e1ea907",
+      "expected_sha256": "a3a4b65fff49ada015654af7fdfa63edd27d8e2ece56c56a070e5b2b3e1ea907",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2321432_suitcase/completion.png",
+      "sha256": "b086359f9dde389fda1d50dd46b7b9848c13179bda50dfe7ca97deeb347d95d6",
+      "expected_sha256": "b086359f9dde389fda1d50dd46b7b9848c13179bda50dfe7ca97deeb347d95d6",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2321277_cat/completion.png",
+      "sha256": "740b4a99cb8d892edb8984470c5de45c331f81737ab13fc8b34e0d36b7901e40",
+      "expected_sha256": "740b4a99cb8d892edb8984470c5de45c331f81737ab13fc8b34e0d36b7901e40",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2321349_bed/completion.png",
+      "sha256": "cabb78c5185ee3600d6582278103d85005596891d545b79bd8bb612e8b6e2ce0",
+      "expected_sha256": "cabb78c5185ee3600d6582278103d85005596891d545b79bd8bb612e8b6e2ce0",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2321206_bench/completion.png",
+      "sha256": "63a11b00bec50b482d8336501f1ab3e1c83aa2665b8aa8362f5537b30a4bf212",
+      "expected_sha256": "63a11b00bec50b482d8336501f1ab3e1c83aa2665b8aa8362f5537b30a4bf212",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2321303_bed/completion.png",
+      "sha256": "d491609ea155ff735f6f8ecf510299b42a7800972350c3e1942285a878737ac8",
+      "expected_sha256": "d491609ea155ff735f6f8ecf510299b42a7800972350c3e1942285a878737ac8",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2321446_banana/completion.png",
+      "sha256": "a032f1a73fc35fb51c425043ddfe2505987cc15873feb0b9634fb3e3c46f270b",
+      "expected_sha256": "a032f1a73fc35fb51c425043ddfe2505987cc15873feb0b9634fb3e3c46f270b",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2321470_sofa/completion.png",
+      "sha256": "91744574aa4981d0f6399226aaa905b0682d5721b6b743ab07176ce3dee49f9c",
+      "expected_sha256": "91744574aa4981d0f6399226aaa905b0682d5721b6b743ab07176ce3dee49f9c",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2321515_horse/completion.png",
+      "sha256": "f558b37c0a6ab196b31ddec1ed1e97e701f776f15f311fa30aa4a9e20a0281ee",
+      "expected_sha256": "f558b37c0a6ab196b31ddec1ed1e97e701f776f15f311fa30aa4a9e20a0281ee",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2321554_phone/completion.png",
+      "sha256": "3ac8dbf8bc65464ff15b6dfa4d8df0fd4b5d719f37644ccfb5389d7e3d5801e5",
+      "expected_sha256": "3ac8dbf8bc65464ff15b6dfa4d8df0fd4b5d719f37644ccfb5389d7e3d5801e5",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2321481_motorbike/completion.png",
+      "sha256": "05aaefa95b41d160b5a08bf74c5aa063f67f6583cca689b4575d659877f4b4e8",
+      "expected_sha256": "05aaefa95b41d160b5a08bf74c5aa063f67f6583cca689b4575d659877f4b4e8",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2321501_bench/completion.png",
+      "sha256": "85a9db6a03e2d429665b1063bf1d657a5cf5042c0e8f8a53a4738100faf7ff6e",
+      "expected_sha256": "85a9db6a03e2d429665b1063bf1d657a5cf5042c0e8f8a53a4738100faf7ff6e",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2321647_umbrella/completion.png",
+      "sha256": "0524efac5c3ba88541742aa02a7a101142a95dfe8842225dd30cd9dcfce3d940",
+      "expected_sha256": "0524efac5c3ba88541742aa02a7a101142a95dfe8842225dd30cd9dcfce3d940",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2321580_whitecar/completion.png",
+      "sha256": "04fdadffcee535cd08df31ddeb4067c9d4c72285224cac5ef602dfceeec5b020",
+      "expected_sha256": "04fdadffcee535cd08df31ddeb4067c9d4c72285224cac5ef602dfceeec5b020",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2321584_elephant/completion.png",
+      "sha256": "91c764d871eddeef712b238e0d89e3e9bf4f304cd3be5331d8a9e7eb08cdbf7b",
+      "expected_sha256": "91c764d871eddeef712b238e0d89e3e9bf4f304cd3be5331d8a9e7eb08cdbf7b",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2321522_bench/completion.png",
+      "sha256": "b051c9b77d11a452e6126cd1458ad2c5b2636072e69f14d3dff245f5a12394d3",
+      "expected_sha256": "b051c9b77d11a452e6126cd1458ad2c5b2636072e69f14d3dff245f5a12394d3",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2321492_greenbus/completion.png",
+      "sha256": "444d31290c0682c880f2e292537700c7c6853a04c918d02df056f0fc8f5f4b39",
+      "expected_sha256": "444d31290c0682c880f2e292537700c7c6853a04c918d02df056f0fc8f5f4b39",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2321719_surfingboard/completion.png",
+      "sha256": "85b0c5c64a030d51818075d7b150df43150eef5a7e4b47807123997030444794",
+      "expected_sha256": "85b0c5c64a030d51818075d7b150df43150eef5a7e4b47807123997030444794",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2321658_redbus/completion.png",
+      "sha256": "6004eeb2b2eabd72d1536caa3149ac07933d435d17ba7a1783471af2ba6a795f",
+      "expected_sha256": "6004eeb2b2eabd72d1536caa3149ac07933d435d17ba7a1783471af2ba6a795f",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2321653_redbus/completion.png",
+      "sha256": "8f7b9c1801d43efcfe6642f8bea5ea4925bcab80eb5c7cd81b522c36bf5f5507",
+      "expected_sha256": "8f7b9c1801d43efcfe6642f8bea5ea4925bcab80eb5c7cd81b522c36bf5f5507",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2321706_keyboard/completion.png",
+      "sha256": "848e2e6e27c3e19904b74aab285aa5b01056015c52ebca60002fb1d681af9ad7",
+      "expected_sha256": "848e2e6e27c3e19904b74aab285aa5b01056015c52ebca60002fb1d681af9ad7",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2321754_laptop/completion.png",
+      "sha256": "223cc79b7f3890997cea491ddf953077f434a0fb01ef1744a9207ba4ac15437e",
+      "expected_sha256": "223cc79b7f3890997cea491ddf953077f434a0fb01ef1744a9207ba4ac15437e",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2321729_surfingboard/completion.png",
+      "sha256": "5d496308a74284b184247c0c54e682d59f1894aad481acd6af3383c888ba9a71",
+      "expected_sha256": "5d496308a74284b184247c0c54e682d59f1894aad481acd6af3383c888ba9a71",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2321776_banana/completion.png",
+      "sha256": "589925a9fdc5d6a110bfa5a48752c5c7d0ccebc23337f195dfeca961bed544ae",
+      "expected_sha256": "589925a9fdc5d6a110bfa5a48752c5c7d0ccebc23337f195dfeca961bed544ae",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2321781_bed/completion.png",
+      "sha256": "decc6d91ef0eb70c6e9feeddc567c23c43907383261db6e44c43797acb4e47b2",
+      "expected_sha256": "decc6d91ef0eb70c6e9feeddc567c23c43907383261db6e44c43797acb4e47b2",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2321865_surfingboard/completion.png",
+      "sha256": "842fccbbfcca551e2c30684fdbe6bcadf98722e509eddc4046c034fae2328b2e",
+      "expected_sha256": "842fccbbfcca551e2c30684fdbe6bcadf98722e509eddc4046c034fae2328b2e",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2321794_fork/completion.png",
+      "sha256": "a877ac54997b258aa38ed95510ebdb5dd701e3488ca45bb567824dbc0ffee1a9",
+      "expected_sha256": "a877ac54997b258aa38ed95510ebdb5dd701e3488ca45bb567824dbc0ffee1a9",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2321826_stopsign/completion.png",
+      "sha256": "4100925da7a93b88d35c18a75a3bc907bc2cd292ebac06ee94616318b6eb01e1",
+      "expected_sha256": "4100925da7a93b88d35c18a75a3bc907bc2cd292ebac06ee94616318b6eb01e1",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2321825_giraffe/completion.png",
+      "sha256": "caa6b7cc21c5133302b182879b417ae63df99a3eac0924da867e3db4336f9f44",
+      "expected_sha256": "caa6b7cc21c5133302b182879b417ae63df99a3eac0924da867e3db4336f9f44",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2321862_refrigerator/completion.png",
+      "sha256": "6b1ad5cf635a14ff30b4851f0480c7f81e14cc40f5997d37f1e265b7bb166fd5",
+      "expected_sha256": "6b1ad5cf635a14ff30b4851f0480c7f81e14cc40f5997d37f1e265b7bb166fd5",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2321909_umbrella/completion.png",
+      "sha256": "dbb5304f75eedd14d2732115116f184634e02c593a5d03557f7691f6f80c7c0a",
+      "expected_sha256": "dbb5304f75eedd14d2732115116f184634e02c593a5d03557f7691f6f80c7c0a",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2321904_motorbike/completion.png",
+      "sha256": "a794b53895f3bf4226b77a0f0b74935da4f7ddb86f2d177c336539cc51a27b3d",
+      "expected_sha256": "a794b53895f3bf4226b77a0f0b74935da4f7ddb86f2d177c336539cc51a27b3d",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2321919_cup/completion.png",
+      "sha256": "2a2b95918a42c4023ab54be0eeb09c2617c9dccf9df0c80d9452ab2e5b43f105",
+      "expected_sha256": "2a2b95918a42c4023ab54be0eeb09c2617c9dccf9df0c80d9452ab2e5b43f105",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2321894_motorbike/completion.png",
+      "sha256": "64495b14eb0dc1b4a30e569d0f78b9cd75372fa3e15c8d51406fc485b0ff712c",
+      "expected_sha256": "64495b14eb0dc1b4a30e569d0f78b9cd75372fa3e15c8d51406fc485b0ff712c",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2321918_surfingboard/completion.png",
+      "sha256": "03fe7b22c302757d350beba66398260f99f6e2ab492df2260d2f4b70d500b138",
+      "expected_sha256": "03fe7b22c302757d350beba66398260f99f6e2ab492df2260d2f4b70d500b138",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2322115_bus/completion.png",
+      "sha256": "bcf78726397f0281b9639df9c83fb7953912f686a669d88052fca2766fd8757d",
+      "expected_sha256": "bcf78726397f0281b9639df9c83fb7953912f686a669d88052fca2766fd8757d",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2322127_sink/completion.png",
+      "sha256": "0be9a4059fceb13c03d757bf2f015176b3b9455ab9e818438d8192150a446454",
+      "expected_sha256": "0be9a4059fceb13c03d757bf2f015176b3b9455ab9e818438d8192150a446454",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2322009_bed/completion.png",
+      "sha256": "dce6208fe9a4276d3a61f599cb7af5c9cc5874c44ab4f47b35220ef1f46c1409",
+      "expected_sha256": "dce6208fe9a4276d3a61f599cb7af5c9cc5874c44ab4f47b35220ef1f46c1409",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2322102_cat/completion.png",
+      "sha256": "00d4785872c0d2010c711482122e6599fc6f39f173222726a5d60860901647cc",
+      "expected_sha256": "00d4785872c0d2010c711482122e6599fc6f39f173222726a5d60860901647cc",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2322199_bus/completion.png",
+      "sha256": "25d597b757ab3a34056a35dfcae594afa7e72ebee99c1ac186cc855cc58d4233",
+      "expected_sha256": "25d597b757ab3a34056a35dfcae594afa7e72ebee99c1ac186cc855cc58d4233",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2322171_bed/completion.png",
+      "sha256": "8d2c55979162637540046ada06f3523e837518f05b0eb1ce098a16fc3545fb1f",
+      "expected_sha256": "8d2c55979162637540046ada06f3523e837518f05b0eb1ce098a16fc3545fb1f",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2322146_television/completion.png",
+      "sha256": "dc7f1264cdbaf62950138f65af7105dc5dd0c2cc75e06e2c5756d70d1ec592d4",
+      "expected_sha256": "dc7f1264cdbaf62950138f65af7105dc5dd0c2cc75e06e2c5756d70d1ec592d4",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2322145_zebra/completion.png",
+      "sha256": "1ad0a0aa2ccd48e2b899d85f5fb4750f7e109f9575d9283cc578a21f31787bfc",
+      "expected_sha256": "1ad0a0aa2ccd48e2b899d85f5fb4750f7e109f9575d9283cc578a21f31787bfc",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2322211_umbrella/completion.png",
+      "sha256": "ea05de55477a6d6cfb3ecc756b760887d0a2776da056825aa7d6e35070772e93",
+      "expected_sha256": "ea05de55477a6d6cfb3ecc756b760887d0a2776da056825aa7d6e35070772e93",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2322180_teddybear/completion.png",
+      "sha256": "23a5cda9ba6abd6451ef18a89da40f0dfafd31bd209f93bcf97ba7f245c1dd12",
+      "expected_sha256": "23a5cda9ba6abd6451ef18a89da40f0dfafd31bd209f93bcf97ba7f245c1dd12",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2322320_toilet/completion.png",
+      "sha256": "ec5bf6a1ab08c32f086d1bc16ca80db88bf2f8417b65620bf613924ddc079ac6",
+      "expected_sha256": "ec5bf6a1ab08c32f086d1bc16ca80db88bf2f8417b65620bf613924ddc079ac6",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2322198_motorbike/completion.png",
+      "sha256": "891314de104888976b4151fe74baaf280c27701df51907e442c460f73d52ea4e",
+      "expected_sha256": "891314de104888976b4151fe74baaf280c27701df51907e442c460f73d52ea4e",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2322237_giraffe/completion.png",
+      "sha256": "99d0af10a0a5f500acd88a31f2545bea4435ac72436ef58d165cb8e43e3ae5ce",
+      "expected_sha256": "99d0af10a0a5f500acd88a31f2545bea4435ac72436ef58d165cb8e43e3ae5ce",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2322272_teddybear/completion.png",
+      "sha256": "77f44e2e4652598de351258950d639f506d4d5a0c8356ac3788c2b65876b881f",
+      "expected_sha256": "77f44e2e4652598de351258950d639f506d4d5a0c8356ac3788c2b65876b881f",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2322251_dog/completion.png",
+      "sha256": "ffb96ab56fc27555e31b469f2b2c4c01bda596c6f65b69d2f0ed1fe094f10fba",
+      "expected_sha256": "ffb96ab56fc27555e31b469f2b2c4c01bda596c6f65b69d2f0ed1fe094f10fba",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2322311_motorbike/completion.png",
+      "sha256": "d66d1c24e44382d0c7a95fa087973dbfcba57462e29be0ac2c03b310b6cad073",
+      "expected_sha256": "d66d1c24e44382d0c7a95fa087973dbfcba57462e29be0ac2c03b310b6cad073",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2322403_glasscup/completion.png",
+      "sha256": "63a9de847ef92a8dbffb6504b2f00288ab642f997c0adb6eb7b5028a891514ff",
+      "expected_sha256": "63a9de847ef92a8dbffb6504b2f00288ab642f997c0adb6eb7b5028a891514ff",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2322420_cat/completion.png",
+      "sha256": "e9251bb9196343e67cbfb1a1c22faa201fcfe950c37e8cc37d5859d0167996f7",
+      "expected_sha256": "e9251bb9196343e67cbfb1a1c22faa201fcfe950c37e8cc37d5859d0167996f7",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2322390_cat/completion.png",
+      "sha256": "0a2f4283c9ccac8f47650fdbaf1c064c097389d8dba5c17e19e173ecfbf7e345",
+      "expected_sha256": "0a2f4283c9ccac8f47650fdbaf1c064c097389d8dba5c17e19e173ecfbf7e345",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2322420_laptop/completion.png",
+      "sha256": "db8f0be89909d7793b48fdf133b41fb8499616f254d47bcaa85fef4be9497c39",
+      "expected_sha256": "db8f0be89909d7793b48fdf133b41fb8499616f254d47bcaa85fef4be9497c39",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2322429_elephant/completion.png",
+      "sha256": "cfecb338108caef0751ca710f4cb3bb62ba56d6573d82ff4a1f3570a25a66e26",
+      "expected_sha256": "cfecb338108caef0751ca710f4cb3bb62ba56d6573d82ff4a1f3570a25a66e26",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2322337_plane/completion.png",
+      "sha256": "edcaf404ba3e46fe7301259d8119bb60c90125958cffdf412a7212d08cedc7f6",
+      "expected_sha256": "edcaf404ba3e46fe7301259d8119bb60c90125958cffdf412a7212d08cedc7f6",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2322393_sofa/completion.png",
+      "sha256": "4ab8a1d9dd7932a3519c45a4935b0a497ace8a23bc651033fbd7c42c8cf5a8bf",
+      "expected_sha256": "4ab8a1d9dd7932a3519c45a4935b0a497ace8a23bc651033fbd7c42c8cf5a8bf",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2322493_bus/completion.png",
+      "sha256": "cc5a25b2d1a387f87f8ec28d83f7bcf44085db7189904d3f242025e2998b466c",
+      "expected_sha256": "cc5a25b2d1a387f87f8ec28d83f7bcf44085db7189904d3f242025e2998b466c",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2322502_horse/completion.png",
+      "sha256": "566924ea5904d8671db69beb893dee7a73e2b07804d59251e483f1763ddc0b7b",
+      "expected_sha256": "566924ea5904d8671db69beb893dee7a73e2b07804d59251e483f1763ddc0b7b",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2322562_motorbike/completion.png",
+      "sha256": "692166039c264dea56d39d9c6325be2f836ee43e9b699a2eaeb36725e6800ef8",
+      "expected_sha256": "692166039c264dea56d39d9c6325be2f836ee43e9b699a2eaeb36725e6800ef8",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2322501_greenbus/completion.png",
+      "sha256": "ffb461900b6e207fb5ea18200812e25cb737f7c0b16945d5d4537601af29fa6a",
+      "expected_sha256": "ffb461900b6e207fb5ea18200812e25cb737f7c0b16945d5d4537601af29fa6a",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2322576_sofa/completion.png",
+      "sha256": "10ab609894159d7a9406d91e6ac45ec80ce6fdeb44fbde9c33976473a6672214",
+      "expected_sha256": "10ab609894159d7a9406d91e6ac45ec80ce6fdeb44fbde9c33976473a6672214",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2322673_horse/completion.png",
+      "sha256": "75d25c9d2c683667ec7912986f8308ab234aaafaa75e017b97e48d63f41feb54",
+      "expected_sha256": "75d25c9d2c683667ec7912986f8308ab234aaafaa75e017b97e48d63f41feb54",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2322542_greenboat/completion.png",
+      "sha256": "c4535c1c01864e0c801ca28161fe1f24784f784b6724e5447012f2a4223cd8d8",
+      "expected_sha256": "c4535c1c01864e0c801ca28161fe1f24784f784b6724e5447012f2a4223cd8d8",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2322572_motorbike/completion.png",
+      "sha256": "fb1ddb998c8b446c81058da35a76ad4990c85ca985b09d0f4414df460a63eb70",
+      "expected_sha256": "fb1ddb998c8b446c81058da35a76ad4990c85ca985b09d0f4414df460a63eb70",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2322557_sofa/completion.png",
+      "sha256": "e301aab7c56fe0b393d0696707ce5459b2adf1fb2afbc632106a5c4a9bbeb11d",
+      "expected_sha256": "e301aab7c56fe0b393d0696707ce5459b2adf1fb2afbc632106a5c4a9bbeb11d",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2322764_motorbike/completion.png",
+      "sha256": "2646e6bf8f2b72ab1eb877c2ab57c7aead38151ac0b5e8631565ba31a1f0e24d",
+      "expected_sha256": "2646e6bf8f2b72ab1eb877c2ab57c7aead38151ac0b5e8631565ba31a1f0e24d",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2322726_cat/completion.png",
+      "sha256": "dfd4f5c5d8261182663ba9ef4513540088a2bdb52c3703f5ab9efe79dd3b4505",
+      "expected_sha256": "dfd4f5c5d8261182663ba9ef4513540088a2bdb52c3703f5ab9efe79dd3b4505",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2322857_mouse/completion.png",
+      "sha256": "e5ae2eaf85d6f95ed0e2d3fbaf2a1fb3065c113a258bb6863cfb3ea7ead6c8d9",
+      "expected_sha256": "e5ae2eaf85d6f95ed0e2d3fbaf2a1fb3065c113a258bb6863cfb3ea7ead6c8d9",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2322857_bottle/completion.png",
+      "sha256": "0622b59ba353b8665e752505b275678274851d1235a8f64941bcb083c56fbef4",
+      "expected_sha256": "0622b59ba353b8665e752505b275678274851d1235a8f64941bcb083c56fbef4",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2322622_redbus/completion.png",
+      "sha256": "da26d6298e9b1c7e81ad92d0d47e05f82cbc6a0a6ac7d6672ecbba2daa0c3c70",
+      "expected_sha256": "da26d6298e9b1c7e81ad92d0d47e05f82cbc6a0a6ac7d6672ecbba2daa0c3c70",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2322830_bird/completion.png",
+      "sha256": "7d525393b6c3ba7095fa099a4ee67b7512390266c7ba53974141d61a81ac8640",
+      "expected_sha256": "7d525393b6c3ba7095fa099a4ee67b7512390266c7ba53974141d61a81ac8640",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2350083_umbrella/completion.png",
+      "sha256": "21bd8a80911546f4201ef4a062608c7efcd4cdcd142a4ab19ab87e25c24544f4",
+      "expected_sha256": "21bd8a80911546f4201ef4a062608c7efcd4cdcd142a4ab19ab87e25c24544f4",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2350092_bus/completion.png",
+      "sha256": "48bc0ae13a75ff0537929cf730fe603dc19b320afefdc5db8c291001f582cf24",
+      "expected_sha256": "48bc0ae13a75ff0537929cf730fe603dc19b320afefdc5db8c291001f582cf24",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2350033_cat/completion.png",
+      "sha256": "f8a595768110b8ecf2afab2c99880045d07d833a4d86aaf1c7bb836bfc885700",
+      "expected_sha256": "f8a595768110b8ecf2afab2c99880045d07d833a4d86aaf1c7bb836bfc885700",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2350188_clock/completion.png",
+      "sha256": "6dfd423f6879616d14338a22b85dc86f9e56ed158833a6fcf2f4ac088c5de7b0",
+      "expected_sha256": "6dfd423f6879616d14338a22b85dc86f9e56ed158833a6fcf2f4ac088c5de7b0",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2350143_bicycle/completion.png",
+      "sha256": "b900746da414c961ce561c7fd347af855f2a439ef0a9bedede3ef8b8129bcabf",
+      "expected_sha256": "b900746da414c961ce561c7fd347af855f2a439ef0a9bedede3ef8b8129bcabf",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2350192_laptop/completion.png",
+      "sha256": "01f0497eab0a4683a5a898346f4a94521a6298992030e6922c5ae7165834c4f3",
+      "expected_sha256": "01f0497eab0a4683a5a898346f4a94521a6298992030e6922c5ae7165834c4f3",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2350058_bluetruck/completion.png",
+      "sha256": "2d0daffc37ff5e010123fde8d4fb0d9bf2fd317c788dbaf5fe61c79bc2898c62",
+      "expected_sha256": "2d0daffc37ff5e010123fde8d4fb0d9bf2fd317c788dbaf5fe61c79bc2898c62",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2350193_airplane/completion.png",
+      "sha256": "a086c72f49b5b8e4bb8a827fdc6c72457ad0e8ba588c69faf0b84ed1912a1b8a",
+      "expected_sha256": "a086c72f49b5b8e4bb8a827fdc6c72457ad0e8ba588c69faf0b84ed1912a1b8a",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2350254_bus/completion.png",
+      "sha256": "ddf3d3e25e2557cf43c6b41b77db12cda1a35e08eba8ad3a6cf1d676d771a8b7",
+      "expected_sha256": "ddf3d3e25e2557cf43c6b41b77db12cda1a35e08eba8ad3a6cf1d676d771a8b7",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2350312_motorcycle/completion.png",
+      "sha256": "258a5cc345d5046141b902825bd8364cf09e8e92784a80ba8cfcd2aa1a33b6e0",
+      "expected_sha256": "258a5cc345d5046141b902825bd8364cf09e8e92784a80ba8cfcd2aa1a33b6e0",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2350216_bench/completion.png",
+      "sha256": "f79dd1011f1f6abd21c2d4d50e3c8ac9bd39ff91f18b91a4ba70cd068c89fbfe",
+      "expected_sha256": "f79dd1011f1f6abd21c2d4d50e3c8ac9bd39ff91f18b91a4ba70cd068c89fbfe",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2350340_baseballbat/completion.png",
+      "sha256": "7a0e01af4e9d6feb10787b3bc387c284118a94f5e44c575c599f1f423044b914",
+      "expected_sha256": "7a0e01af4e9d6feb10787b3bc387c284118a94f5e44c575c599f1f423044b914",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2350257_bus/completion.png",
+      "sha256": "2296eb069f653f26c38dd0c20de24a609a2eafd3ba5e358baf895c0f3fb2f51c",
+      "expected_sha256": "2296eb069f653f26c38dd0c20de24a609a2eafd3ba5e358baf895c0f3fb2f51c",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2350270_baseballbat/completion.png",
+      "sha256": "e3800339b1450e8777f0d09ef6c759a237d3eb5d5bfdb3b7dc764d579a66f541",
+      "expected_sha256": "e3800339b1450e8777f0d09ef6c759a237d3eb5d5bfdb3b7dc764d579a66f541",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2350416_bird/completion.png",
+      "sha256": "2c869dc5c40dbbea2f40de18570604ed01ef50cbfce46b6d4a1b30e2818cf1e1",
+      "expected_sha256": "2c869dc5c40dbbea2f40de18570604ed01ef50cbfce46b6d4a1b30e2818cf1e1",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2350329_knife/completion.png",
+      "sha256": "7a75f29c67add59add0ca4e5e388f80ac6b65864e85eab3a7b95a9ee853fd30d",
+      "expected_sha256": "7a75f29c67add59add0ca4e5e388f80ac6b65864e85eab3a7b95a9ee853fd30d",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2350405_coffeecup/completion.png",
+      "sha256": "226663377534a8dd165c23bfec6a18bc35df9198b19a15a331c914966f59c71e",
+      "expected_sha256": "226663377534a8dd165c23bfec6a18bc35df9198b19a15a331c914966f59c71e",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2350374_refrigerator/completion.png",
+      "sha256": "0a8aa668cc04f7b71059b8a524a9fce7afb5ecb7b820c73cf2eb54af0514166d",
+      "expected_sha256": "0a8aa668cc04f7b71059b8a524a9fce7afb5ecb7b820c73cf2eb54af0514166d",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2350324_pizza/completion.png",
+      "sha256": "dcb2ec5ec87175b6187e81bf964bd57281ea43ac68361bb93240156d7b1626fa",
+      "expected_sha256": "dcb2ec5ec87175b6187e81bf964bd57281ea43ac68361bb93240156d7b1626fa",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2350519_largescissors/completion.png",
+      "sha256": "910d59e889510b3d20e69ef9d0dd32f96608bf2dfe6670f30aed65ab7cc2105b",
+      "expected_sha256": "910d59e889510b3d20e69ef9d0dd32f96608bf2dfe6670f30aed65ab7cc2105b",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2350478_bench/completion.png",
+      "sha256": "dd1dd1368405e22761c4fd4aff9745cb0dc4fad042ef0e1837676a1b6ef163dd",
+      "expected_sha256": "dd1dd1368405e22761c4fd4aff9745cb0dc4fad042ef0e1837676a1b6ef163dd",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2350498_elephant/completion.png",
+      "sha256": "d6fe1ee62b37d0393c514b24eec4da4aa3c41fd88735b386bb5f2cdaf6cc4c3f",
+      "expected_sha256": "d6fe1ee62b37d0393c514b24eec4da4aa3c41fd88735b386bb5f2cdaf6cc4c3f",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2350463_cat/completion.png",
+      "sha256": "61e455b3aeedf0036f6b8b9e5c145c8831436a8d09fd38f0481c55a7ccae9f45",
+      "expected_sha256": "61e455b3aeedf0036f6b8b9e5c145c8831436a8d09fd38f0481c55a7ccae9f45",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2350521_umbrella/completion.png",
+      "sha256": "1c8b7f089b5c54904942e958d4636c74369aca209b73ece06dc8a04f129e6a0f",
+      "expected_sha256": "1c8b7f089b5c54904942e958d4636c74369aca209b73ece06dc8a04f129e6a0f",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2350569_elephant/completion.png",
+      "sha256": "7107894d9a693e3acf3d91355da77e9a489ce1d410014eb2e2dac0fdd60aaac8",
+      "expected_sha256": "7107894d9a693e3acf3d91355da77e9a489ce1d410014eb2e2dac0fdd60aaac8",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2350513_yellowcar/completion.png",
+      "sha256": "1594b4da55a9f7338ce007beae034cb27048050fa29d536acb6ffa05c057b257",
+      "expected_sha256": "1594b4da55a9f7338ce007beae034cb27048050fa29d536acb6ffa05c057b257",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2350541_airplane/completion.png",
+      "sha256": "23ccee944025e788a4db9515f0d4aaa9b16ee31abf2212fe1c2561d6707a3a63",
+      "expected_sha256": "23ccee944025e788a4db9515f0d4aaa9b16ee31abf2212fe1c2561d6707a3a63",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2350636_bicycle/completion.png",
+      "sha256": "bcc0469770768bfa5581042b6aed64bf420ad515062ff27d68ec3be4030cb9dd",
+      "expected_sha256": "bcc0469770768bfa5581042b6aed64bf420ad515062ff27d68ec3be4030cb9dd",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2350532_motorcycle/completion.png",
+      "sha256": "8455a2eadf73de5418012aa0edc58b6622c982c94fc006a19da999a5194320c5",
+      "expected_sha256": "8455a2eadf73de5418012aa0edc58b6622c982c94fc006a19da999a5194320c5",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2350601_stopsign/completion.png",
+      "sha256": "1ea17a10a88fd02b43e49d34f680a69ea1d9f7526e8a17f488bf45ec3788bfc0",
+      "expected_sha256": "1ea17a10a88fd02b43e49d34f680a69ea1d9f7526e8a17f488bf45ec3788bfc0",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2350727_sofa/completion.png",
+      "sha256": "32d22dda6182b94b67b45ae076f5f71389306cf89c44ba6916ff8cbfb4960218",
+      "expected_sha256": "32d22dda6182b94b67b45ae076f5f71389306cf89c44ba6916ff8cbfb4960218",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2350736_phone/completion.png",
+      "sha256": "18ca6e1f5ba4ada69b77c86953e0bf48a4f933b15a0a1c45e65df3471415a83f",
+      "expected_sha256": "18ca6e1f5ba4ada69b77c86953e0bf48a4f933b15a0a1c45e65df3471415a83f",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2350590_cat/completion.png",
+      "sha256": "6ccfdcbc84bff463ff4b4e0cb6d31660afe10d7dee2168d3732da670483c3336",
+      "expected_sha256": "6ccfdcbc84bff463ff4b4e0cb6d31660afe10d7dee2168d3732da670483c3336",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2350835_skateboard/completion.png",
+      "sha256": "c29571634d22c83c0c74430719819f17c50d170c2b7279ca3e4403719610691f",
+      "expected_sha256": "c29571634d22c83c0c74430719819f17c50d170c2b7279ca3e4403719610691f",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2350925_cat/completion.png",
+      "sha256": "538b131e3df3ed75a79be13166f6f8f0710c7284a50f0ea149c1ed90c4bc3601",
+      "expected_sha256": "538b131e3df3ed75a79be13166f6f8f0710c7284a50f0ea149c1ed90c4bc3601",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2350836_elephant/completion.png",
+      "sha256": "67974a9c23ac3b45a7fe5341bf773f4f079a8dda08da4f73860c0b62055c08ff",
+      "expected_sha256": "67974a9c23ac3b45a7fe5341bf773f4f079a8dda08da4f73860c0b62055c08ff",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2350854_horse/completion.png",
+      "sha256": "4cb9173ecb3a774206eb9397437b03bec695acdd70a6c96ed3c115d4e1f6a4c9",
+      "expected_sha256": "4cb9173ecb3a774206eb9397437b03bec695acdd70a6c96ed3c115d4e1f6a4c9",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2350993_bluemotorcycle/completion.png",
+      "sha256": "53b12b195b5d8fa44f64a481ca5b9a347110c0edb3bff6d3e65dc846139cee8f",
+      "expected_sha256": "53b12b195b5d8fa44f64a481ca5b9a347110c0edb3bff6d3e65dc846139cee8f",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2350999_bus/completion.png",
+      "sha256": "96555ff027847ec80893362acf4a372dc50e2bd472db237983c819381d4e0232",
+      "expected_sha256": "96555ff027847ec80893362acf4a372dc50e2bd472db237983c819381d4e0232",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2350871_birthdaycake/completion.png",
+      "sha256": "be7078af631a3ba9637d56fa697022a66ac9a2b908bcd7e4137366b57c3fe268",
+      "expected_sha256": "be7078af631a3ba9637d56fa697022a66ac9a2b908bcd7e4137366b57c3fe268",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2351033_fork/completion.png",
+      "sha256": "dafabb4e43d62053eafabf4912384e4563d8ae0d1865cec475bd81fd059c0e67",
+      "expected_sha256": "dafabb4e43d62053eafabf4912384e4563d8ae0d1865cec475bd81fd059c0e67",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2351026_toilet/completion.png",
+      "sha256": "04b234fd5d944405cbf12c0077b59c329a5ef7bb4c45e28db5a82eeaf5a0d2e7",
+      "expected_sha256": "04b234fd5d944405cbf12c0077b59c329a5ef7bb4c45e28db5a82eeaf5a0d2e7",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2351104_cat/completion.png",
+      "sha256": "2d189d7263bd3a0d6e505b96b372c4ba2f820795ea2582501bd165191d7eea4e",
+      "expected_sha256": "2d189d7263bd3a0d6e505b96b372c4ba2f820795ea2582501bd165191d7eea4e",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2350963_motorcycle/completion.png",
+      "sha256": "5bfdf717e01ee0f8e2258402716fc5ba45433eec576d72c351144dc444b2a3a5",
+      "expected_sha256": "5bfdf717e01ee0f8e2258402716fc5ba45433eec576d72c351144dc444b2a3a5",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2351123_motorcycle/completion.png",
+      "sha256": "3d46e00349980c144dcebe69b6cafb420d0fe60fce5f707b4d3f6592b78fc98b",
+      "expected_sha256": "3d46e00349980c144dcebe69b6cafb420d0fe60fce5f707b4d3f6592b78fc98b",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2351135_refrigerator/completion.png",
+      "sha256": "e718c4e495e8cd09e9b680cffad766193fb051350f03f61530a3d1bd8417224b",
+      "expected_sha256": "e718c4e495e8cd09e9b680cffad766193fb051350f03f61530a3d1bd8417224b",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2351102_airplane/completion.png",
+      "sha256": "a5dff0ba554a3c5ce51f2ea1e237837eb616e947db174875a7bd8cb890234e50",
+      "expected_sha256": "a5dff0ba554a3c5ce51f2ea1e237837eb616e947db174875a7bd8cb890234e50",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2351194_surfboard/completion.png",
+      "sha256": "0a63ac2f1f101cdd618088c8fdac9c728299501f7c8312df50047217b96508ec",
+      "expected_sha256": "0a63ac2f1f101cdd618088c8fdac9c728299501f7c8312df50047217b96508ec",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2351142_horse/completion.png",
+      "sha256": "e9c7f7c3d3a60dbf76f41bc2aaedc3b09ffcbbb8fd53c04ba7634e09eb8e78e1",
+      "expected_sha256": "e9c7f7c3d3a60dbf76f41bc2aaedc3b09ffcbbb8fd53c04ba7634e09eb8e78e1",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2351175_bluecup/completion.png",
+      "sha256": "6f2533edd42a30dbca780de943c2782a9cb73d117dfabca3f71be49df815dca8",
+      "expected_sha256": "6f2533edd42a30dbca780de943c2782a9cb73d117dfabca3f71be49df815dca8",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2351168_umbrella/completion.png",
+      "sha256": "28a2e3c7d1520e297a8ca71add1b6e6397db04369e50f80e64ac9325924467fa",
+      "expected_sha256": "28a2e3c7d1520e297a8ca71add1b6e6397db04369e50f80e64ac9325924467fa",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2351280_snowboard/completion.png",
+      "sha256": "95d99e08cd0285b049cfa537531f08cb681c692a211b9a0cad890009f596fbe4",
+      "expected_sha256": "95d99e08cd0285b049cfa537531f08cb681c692a211b9a0cad890009f596fbe4",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2351241_pizza/completion.png",
+      "sha256": "1cfe47e0efecc56ac88d33e1958b7747dfc627d7b6c6adce67aad1fa2f3377b0",
+      "expected_sha256": "1cfe47e0efecc56ac88d33e1958b7747dfc627d7b6c6adce67aad1fa2f3377b0",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2351375_keyboard/completion.png",
+      "sha256": "e7fef3238bde65323bf99fe42219b3fd8b74afad16a06d85aaf9144755ebf342",
+      "expected_sha256": "e7fef3238bde65323bf99fe42219b3fd8b74afad16a06d85aaf9144755ebf342",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2351300_bench/completion.png",
+      "sha256": "2f511e41a06e07e36136a681a511be361d6cc30852de2475d7202fb38387b44c",
+      "expected_sha256": "2f511e41a06e07e36136a681a511be361d6cc30852de2475d7202fb38387b44c",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2351260_horse/completion.png",
+      "sha256": "a70738a061dac31757da7cc8bf029f13d0328f75896cfc4aab9afd0b678b0c20",
+      "expected_sha256": "a70738a061dac31757da7cc8bf029f13d0328f75896cfc4aab9afd0b678b0c20",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2351377_stopsign/completion.png",
+      "sha256": "988b55d79249e4d484d0aa5aca83098534551cbbbd9c95b9a43a763522eb13c5",
+      "expected_sha256": "988b55d79249e4d484d0aa5aca83098534551cbbbd9c95b9a43a763522eb13c5",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2351427_bicycle/completion.png",
+      "sha256": "8da9687562d2f54e9f021070f6c5c405baf4a5ee037689ab1afdbbba30fe5ef4",
+      "expected_sha256": "8da9687562d2f54e9f021070f6c5c405baf4a5ee037689ab1afdbbba30fe5ef4",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2351613_phone/completion.png",
+      "sha256": "2c00424d4588108b82b40393bf20ff6ada3c761852bfa8a1e30919629e6ef2d2",
+      "expected_sha256": "2c00424d4588108b82b40393bf20ff6ada3c761852bfa8a1e30919629e6ef2d2",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2351487_sheep/completion.png",
+      "sha256": "285149911dfe690d3fe3b08bea7249483895da11c2f9db114bf12fde48266afc",
+      "expected_sha256": "285149911dfe690d3fe3b08bea7249483895da11c2f9db114bf12fde48266afc",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2351387_cat/completion.png",
+      "sha256": "3b2bce1e9d3b0c573fac5a929ac73b76a52d7743d448afc02358709a2a7c282a",
+      "expected_sha256": "3b2bce1e9d3b0c573fac5a929ac73b76a52d7743d448afc02358709a2a7c282a",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2351609_laptop/completion.png",
+      "sha256": "448c83674e2fc21fb9d7960829d28c5c6428e1efc0d4e91502f6040445c40adf",
+      "expected_sha256": "448c83674e2fc21fb9d7960829d28c5c6428e1efc0d4e91502f6040445c40adf",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2351620_refrigerator/completion.png",
+      "sha256": "8adc89b53cc61f6f570cc701744915789fef0831a79e75b72653112505181777",
+      "expected_sha256": "8adc89b53cc61f6f570cc701744915789fef0831a79e75b72653112505181777",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2351769_fork/completion.png",
+      "sha256": "04f88d7f83fe888fc7a7d7bd158d4f25b5bec20e373b6dd6fc9ae0379490570e",
+      "expected_sha256": "04f88d7f83fe888fc7a7d7bd158d4f25b5bec20e373b6dd6fc9ae0379490570e",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2351594_airplane/completion.png",
+      "sha256": "d97e3686aace20e003286b3000f7994305106f4d086eba80717ea75aa27e6493",
+      "expected_sha256": "d97e3686aace20e003286b3000f7994305106f4d086eba80717ea75aa27e6493",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2351866_banana/completion.png",
+      "sha256": "9c31ec7d1635a513054d72a3c1d93bba619a030e97c5641f1298d8003aece142",
+      "expected_sha256": "9c31ec7d1635a513054d72a3c1d93bba619a030e97c5641f1298d8003aece142",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2351653_horse/completion.png",
+      "sha256": "169dfa01197e1f6efd4f408d5a90b3c4665993c438eaaf52f7f06f949c31e1b3",
+      "expected_sha256": "169dfa01197e1f6efd4f408d5a90b3c4665993c438eaaf52f7f06f949c31e1b3",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2351718_elephant/completion.png",
+      "sha256": "958acb5306cbe9e30163cf0f9268e35fd65970612f087cbc8aa58f5530061cdd",
+      "expected_sha256": "958acb5306cbe9e30163cf0f9268e35fd65970612f087cbc8aa58f5530061cdd",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2351931_refrigerator/completion.png",
+      "sha256": "a023413e9968dd21eb3ba76588c38dde7beb6966f10f20919876fd2f08967b57",
+      "expected_sha256": "a023413e9968dd21eb3ba76588c38dde7beb6966f10f20919876fd2f08967b57",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2351791_boat/completion.png",
+      "sha256": "58902cf0c71cb1c66fd1ad22a508783eb17158b5877a3aa7e631ec81cf92d11b",
+      "expected_sha256": "58902cf0c71cb1c66fd1ad22a508783eb17158b5877a3aa7e631ec81cf92d11b",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2351962_umbrella/completion.png",
+      "sha256": "d5693a214467b3d36da77b2ee104cafb48babe72479669a0cf8e28002c0f2b41",
+      "expected_sha256": "d5693a214467b3d36da77b2ee104cafb48babe72479669a0cf8e28002c0f2b41",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2351903_bear/completion.png",
+      "sha256": "a6056144fe657e9eec12e1319683ed0459190b5e63a5b91d26865e3db1add664",
+      "expected_sha256": "a6056144fe657e9eec12e1319683ed0459190b5e63a5b91d26865e3db1add664",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2351968_handbag/completion.png",
+      "sha256": "4d9bdfb1ee7adda338003b8bcac16ecd0c418040faa007bff3245aef25cd2276",
+      "expected_sha256": "4d9bdfb1ee7adda338003b8bcac16ecd0c418040faa007bff3245aef25cd2276",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2351923_bus/completion.png",
+      "sha256": "38209bea2c6f87f47d8df56583fb597da6cb7606a4dba7eaa4c6b07d4791731b",
+      "expected_sha256": "38209bea2c6f87f47d8df56583fb597da6cb7606a4dba7eaa4c6b07d4791731b",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2351894_pizza/completion.png",
+      "sha256": "4c4a1ef04b1091f78b7695843df89aca44170fcb74cb28ab14317dc4da7c9dac",
+      "expected_sha256": "4c4a1ef04b1091f78b7695843df89aca44170fcb74cb28ab14317dc4da7c9dac",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2352009_bicycle/completion.png",
+      "sha256": "995818e19810cf4696a418947d7839a122c47abd60999ea19ddb477e99e513bd",
+      "expected_sha256": "995818e19810cf4696a418947d7839a122c47abd60999ea19ddb477e99e513bd",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2352108_baseballbat/completion.png",
+      "sha256": "8985dbabbffc78d689b009e37ea6fbcc0be6ccb15b6e1ff0c6380597c127b7b1",
+      "expected_sha256": "8985dbabbffc78d689b009e37ea6fbcc0be6ccb15b6e1ff0c6380597c127b7b1",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2352103_surfboard/completion.png",
+      "sha256": "c68d5421c0786ca56051b5aa96573741358e33a14f00c064cdd70bc1044874f9",
+      "expected_sha256": "c68d5421c0786ca56051b5aa96573741358e33a14f00c064cdd70bc1044874f9",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2352022_giraffe/completion.png",
+      "sha256": "e7179c89fc9dfe87b9662d44a49958548fde8f8b055cdc0c0ef4969e970c84d2",
+      "expected_sha256": "e7179c89fc9dfe87b9662d44a49958548fde8f8b055cdc0c0ef4969e970c84d2",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2352072_bench/completion.png",
+      "sha256": "3d6a6a2e7e19fbe02c94e00b497e72f8c08fc2db10e5b338edfdda6670d1f12d",
+      "expected_sha256": "3d6a6a2e7e19fbe02c94e00b497e72f8c08fc2db10e5b338edfdda6670d1f12d",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2352156_fork/completion.png",
+      "sha256": "599c1356ad6ee302d053d8036d51240b094dbe4ade7dd792eae15d37224dace9",
+      "expected_sha256": "599c1356ad6ee302d053d8036d51240b094dbe4ade7dd792eae15d37224dace9",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2352148_bench/completion.png",
+      "sha256": "c55055ccb1848b133f4a05cac4e9db0deff3326fb9f9b201061bb7e10db87eb5",
+      "expected_sha256": "c55055ccb1848b133f4a05cac4e9db0deff3326fb9f9b201061bb7e10db87eb5",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2352101_teddybeartoy/completion.png",
+      "sha256": "b5e6c7ec18e41cb8e88325433d1597242e92d27443b7bfbde206af0c42cf51fb",
+      "expected_sha256": "b5e6c7ec18e41cb8e88325433d1597242e92d27443b7bfbde206af0c42cf51fb",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2352388_hairdryer/completion.png",
+      "sha256": "92ff1d0892355ab3214f86934b7dc7f16077126871e9c6e36594dac1e10ff436",
+      "expected_sha256": "92ff1d0892355ab3214f86934b7dc7f16077126871e9c6e36594dac1e10ff436",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2352236_horse/completion.png",
+      "sha256": "4aa557efef4389e3c26e27e59a52d7f1349d8cb9e3d762e265e4406182062db8",
+      "expected_sha256": "4aa557efef4389e3c26e27e59a52d7f1349d8cb9e3d762e265e4406182062db8",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2352180_elephant/completion.png",
+      "sha256": "9c39ec734d32511d45c97563085d7795057372726952218fecf5e0099fccc7ab",
+      "expected_sha256": "9c39ec734d32511d45c97563085d7795057372726952218fecf5e0099fccc7ab",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2352457_mouse/completion.png",
+      "sha256": "86319d693acefb42afb9ae6ef3d2e41efd7cc5700bb5931b7cad03f4066960e0",
+      "expected_sha256": "86319d693acefb42afb9ae6ef3d2e41efd7cc5700bb5931b7cad03f4066960e0",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2352070_bed/completion.png",
+      "sha256": "2bb080b571bcccd4ec787abee5ad5767bac1d1fb36d79026a08eae9bca7b745c",
+      "expected_sha256": "2bb080b571bcccd4ec787abee5ad5767bac1d1fb36d79026a08eae9bca7b745c",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2352475_umbrella/completion.png",
+      "sha256": "26f749621792885bca1cd539c40af91e0ec2fd19795ef89d400ab2bda3fcf756",
+      "expected_sha256": "26f749621792885bca1cd539c40af91e0ec2fd19795ef89d400ab2bda3fcf756",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2352352_laptop/completion.png",
+      "sha256": "9007eae144171d5332662ee616af0182d7bc19c34a01dffef9a74fb60f85849b",
+      "expected_sha256": "9007eae144171d5332662ee616af0182d7bc19c34a01dffef9a74fb60f85849b",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2352476_airplane/completion.png",
+      "sha256": "771a08a2c4e6926ee79cf0114ed88620d48e8fc8ceec53118b76d251242a86ae",
+      "expected_sha256": "771a08a2c4e6926ee79cf0114ed88620d48e8fc8ceec53118b76d251242a86ae",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2352573_surfboard/completion.png",
+      "sha256": "ba418bd80bafe37afa2091fb7169cbe8bcdaeaaff07887f83077299f4b732e54",
+      "expected_sha256": "ba418bd80bafe37afa2091fb7169cbe8bcdaeaaff07887f83077299f4b732e54",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2352487_motorcycle/completion.png",
+      "sha256": "0b1c4648ebfdb97164619c14eebdf5b8b656664c30c2112627b0b8c6437d7444",
+      "expected_sha256": "0b1c4648ebfdb97164619c14eebdf5b8b656664c30c2112627b0b8c6437d7444",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2352550_elephant/completion.png",
+      "sha256": "4520f1a474882a1ababb05f9d4e3e46489996cff829c71af4925ed35446e0a43",
+      "expected_sha256": "4520f1a474882a1ababb05f9d4e3e46489996cff829c71af4925ed35446e0a43",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2352594_bench/completion.png",
+      "sha256": "4d681a359bcf9648ac001ef5c51cb4bdcb3c130c0100ea0bc25483739c0fc652",
+      "expected_sha256": "4d681a359bcf9648ac001ef5c51cb4bdcb3c130c0100ea0bc25483739c0fc652",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2352634_car/completion.png",
+      "sha256": "42fb073df8d14d262ecb4f3dabb8a627cd1657e523cc42c0b26c9f4410aff6c5",
+      "expected_sha256": "42fb073df8d14d262ecb4f3dabb8a627cd1657e523cc42c0b26c9f4410aff6c5",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2352710_chocolatedoughnut/completion.png",
+      "sha256": "f757a47aed03ebb31b5d556679ed17f2fd21c35f2b30c7495ef6a7a61d12b969",
+      "expected_sha256": "f757a47aed03ebb31b5d556679ed17f2fd21c35f2b30c7495ef6a7a61d12b969",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2352721_bus/completion.png",
+      "sha256": "59620ce88f8deff4997dac96830ab515d4aa62abe1d17dfa30ba9ffd957c98d7",
+      "expected_sha256": "59620ce88f8deff4997dac96830ab515d4aa62abe1d17dfa30ba9ffd957c98d7",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2352631_sink/completion.png",
+      "sha256": "d2d99d3f15f84a1afe5cfd78953f0a17865edcb448dd870685af47e6871cef07",
+      "expected_sha256": "d2d99d3f15f84a1afe5cfd78953f0a17865edcb448dd870685af47e6871cef07",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2352742_skateboard/completion.png",
+      "sha256": "3e72807a457b9a36895abfa631e8ab71aac7f0382df02ac387da2611579f9a2e",
+      "expected_sha256": "3e72807a457b9a36895abfa631e8ab71aac7f0382df02ac387da2611579f9a2e",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2352743_laptop/completion.png",
+      "sha256": "886f974913b6d4ba349e5041ca86b37010e8b476101c28b2a7365771e4281cea",
+      "expected_sha256": "886f974913b6d4ba349e5041ca86b37010e8b476101c28b2a7365771e4281cea",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2352731_cat/completion.png",
+      "sha256": "e1a559fa6642c3b948eeac833b13dfc3c2e4e9018674c718dca198a81220ac1f",
+      "expected_sha256": "e1a559fa6642c3b948eeac833b13dfc3c2e4e9018674c718dca198a81220ac1f",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2352807_car/completion.png",
+      "sha256": "ada9e23a0af6bc4e3b8fcf55cd444ecdd78f3d0577bb4981003ed4f2d607dd6a",
+      "expected_sha256": "ada9e23a0af6bc4e3b8fcf55cd444ecdd78f3d0577bb4981003ed4f2d607dd6a",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2352661_airplane/completion.png",
+      "sha256": "c4d06c5466d4790d40d88dda1461704ebc495a741f56fd570832ae8f7be6d532",
+      "expected_sha256": "c4d06c5466d4790d40d88dda1461704ebc495a741f56fd570832ae8f7be6d532",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2352777_elephant/completion.png",
+      "sha256": "93486c54a0525e3d6dac0090a00b6003644e7a26312093049760687e57a661d8",
+      "expected_sha256": "93486c54a0525e3d6dac0090a00b6003644e7a26312093049760687e57a661d8",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2352844_drinkcup/completion.png",
+      "sha256": "f2d2da198300e2c7fa716cc6e2fd1cabee1f43844a6365f019e9c161dfe2ff13",
+      "expected_sha256": "f2d2da198300e2c7fa716cc6e2fd1cabee1f43844a6365f019e9c161dfe2ff13",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2352782_dog/completion.png",
+      "sha256": "b6f5645fb60b703f48a21e06a1b2612592dcc16438cbb0eed0cdc1c4eb204e5b",
+      "expected_sha256": "b6f5645fb60b703f48a21e06a1b2612592dcc16438cbb0eed0cdc1c4eb204e5b",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2352757_surfboard/completion.png",
+      "sha256": "6866eae45fb0c3abfdf6ef29a8889dff0f04ab0743f00871f48a459f6c9242e5",
+      "expected_sha256": "6866eae45fb0c3abfdf6ef29a8889dff0f04ab0743f00871f48a459f6c9242e5",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2352854_toilet/completion.png",
+      "sha256": "97b93f7ce3a9d81ab50c93b7351800125a138f9df146240bf1b387182b266c1c",
+      "expected_sha256": "97b93f7ce3a9d81ab50c93b7351800125a138f9df146240bf1b387182b266c1c",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2352896_firehydrant/completion.png",
+      "sha256": "e840efc1dfc7c1a20c4fa5f6265a3a4ec8785ace7fe41a516898db1ae76108a4",
+      "expected_sha256": "e840efc1dfc7c1a20c4fa5f6265a3a4ec8785ace7fe41a516898db1ae76108a4",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2352914_elephant/completion.png",
+      "sha256": "650dedc7ce3760ba67d1302d7635dc7dbcc49666766bcc40f7d64c2f99a4b680",
+      "expected_sha256": "650dedc7ce3760ba67d1302d7635dc7dbcc49666766bcc40f7d64c2f99a4b680",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2352953_bicycle/completion.png",
+      "sha256": "0cf5f73aca6d9406e9c0f5811893c2d85582c7d44890125d183eaf24ab362eb2",
+      "expected_sha256": "0cf5f73aca6d9406e9c0f5811893c2d85582c7d44890125d183eaf24ab362eb2",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2352909_bicycle/completion.png",
+      "sha256": "c1c33dbcab2b397024f85d26cca9a3e0377768dc765bd23d07cd28e53bf787ef",
+      "expected_sha256": "c1c33dbcab2b397024f85d26cca9a3e0377768dc765bd23d07cd28e53bf787ef",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2353014_giraffe/completion.png",
+      "sha256": "a49a746cca9269cbb0cd810519a746f36dcf570c3c86e42e276764c09ab36f25",
+      "expected_sha256": "a49a746cca9269cbb0cd810519a746f36dcf570c3c86e42e276764c09ab36f25",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2353017_microwave/completion.png",
+      "sha256": "3ecd0a5eff036fb20fcc24207763fd08591ff918667658b83fe5b1aa173a256d",
+      "expected_sha256": "3ecd0a5eff036fb20fcc24207763fd08591ff918667658b83fe5b1aa173a256d",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2353043_TV/completion.png",
+      "sha256": "3ab83f98dc0ae9551b8fa82be96e5c8c3d97866bd7264045d4fc31f881bc33cf",
+      "expected_sha256": "3ab83f98dc0ae9551b8fa82be96e5c8c3d97866bd7264045d4fc31f881bc33cf",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2352992_toilet/completion.png",
+      "sha256": "8b2123176215565876d30a2f591eb855be6878eac78cec71b2300f91fff92b75",
+      "expected_sha256": "8b2123176215565876d30a2f591eb855be6878eac78cec71b2300f91fff92b75",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2353075_bluecar/completion.png",
+      "sha256": "e5421169f570cebc1248400d151ea655991dca7c3cb5372db6c0dbf2bbfb4aba",
+      "expected_sha256": "e5421169f570cebc1248400d151ea655991dca7c3cb5372db6c0dbf2bbfb4aba",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2352863_train/completion.png",
+      "sha256": "1d171e6fbf205f8e26aa451c596a3b137b999ba46eb6099a1271a2a49ccdc0b1",
+      "expected_sha256": "1d171e6fbf205f8e26aa451c596a3b137b999ba46eb6099a1271a2a49ccdc0b1",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2353081_toilet/completion.png",
+      "sha256": "9404e42f3bb6f2475fb3df3d6d8d345e0b8fc002e7ce58f61cb190443b1d2967",
+      "expected_sha256": "9404e42f3bb6f2475fb3df3d6d8d345e0b8fc002e7ce58f61cb190443b1d2967",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2352952_airplane/completion.png",
+      "sha256": "91e4dab907278264172584c4b1cac36740b03a5701ed3f4245e954259bbe89fd",
+      "expected_sha256": "91e4dab907278264172584c4b1cac36740b03a5701ed3f4245e954259bbe89fd",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2353169_giraffe/completion.png",
+      "sha256": "a8348422fd1a4f9ee595fe4f3c26f85c14dc87471679a4b58291b50b62645cda",
+      "expected_sha256": "a8348422fd1a4f9ee595fe4f3c26f85c14dc87471679a4b58291b50b62645cda",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2353125_cat/completion.png",
+      "sha256": "b2bf2abcf5c0908fa7a524757bf4bd887dfb2bc64e806073ae0221e2b6544075",
+      "expected_sha256": "b2bf2abcf5c0908fa7a524757bf4bd887dfb2bc64e806073ae0221e2b6544075",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2353224_elephant/completion.png",
+      "sha256": "24d25af0f3ca7dfffe91d4ceb3131536a6301d32279da965dd38b3f769d4d516",
+      "expected_sha256": "24d25af0f3ca7dfffe91d4ceb3131536a6301d32279da965dd38b3f769d4d516",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2353075_truck/completion.png",
+      "sha256": "0b2ca73cfaa79df5f40369e23c70d4b62f12f8a6e8dc70a8ea660443d8398744",
+      "expected_sha256": "0b2ca73cfaa79df5f40369e23c70d4b62f12f8a6e8dc70a8ea660443d8398744",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2353091_zebra/completion.png",
+      "sha256": "19ef54485b71993a8994882c9a699b451030d32ed711b6767fddce34b4da05a3",
+      "expected_sha256": "19ef54485b71993a8994882c9a699b451030d32ed711b6767fddce34b4da05a3",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2353230_fork/completion.png",
+      "sha256": "1d93cda020f637804b15ffa35ec1d77f70c2470ce0079ffecbc309fdb0f47c54",
+      "expected_sha256": "1d93cda020f637804b15ffa35ec1d77f70c2470ce0079ffecbc309fdb0f47c54",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2353235_refrigerator/completion.png",
+      "sha256": "f4979288ecddc199248d004adf49660ce82555f5a344eb600b5893d959ba634e",
+      "expected_sha256": "f4979288ecddc199248d004adf49660ce82555f5a344eb600b5893d959ba634e",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2353408_horse/completion.png",
+      "sha256": "546815b3092d07712a1624eb25582a0b6971e02256ca19dd864ce4bbe082a785",
+      "expected_sha256": "546815b3092d07712a1624eb25582a0b6971e02256ca19dd864ce4bbe082a785",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2353414_motorcycle/completion.png",
+      "sha256": "f155b00fe0b587b138a20020698e756d4a58faef438826a669f1399e822f3f19",
+      "expected_sha256": "f155b00fe0b587b138a20020698e756d4a58faef438826a669f1399e822f3f19",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2353302_giraffe/completion.png",
+      "sha256": "83fc387894ce39c7ac6039b5e5539196d35cfaa35a023e0ae7571c2218355145",
+      "expected_sha256": "83fc387894ce39c7ac6039b5e5539196d35cfaa35a023e0ae7571c2218355145",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2353226_airplane/completion.png",
+      "sha256": "5c52951736d2c63b7745a0cb55aeb5682cccd8f5bdbaa788afa2512b2be5b219",
+      "expected_sha256": "5c52951736d2c63b7745a0cb55aeb5682cccd8f5bdbaa788afa2512b2be5b219",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2353280_cat/completion.png",
+      "sha256": "420e9033c3a24e7874fd660810810f4b62b6161c49d8f6ed92e296fd77e6c6bf",
+      "expected_sha256": "420e9033c3a24e7874fd660810810f4b62b6161c49d8f6ed92e296fd77e6c6bf",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2353470_banana/completion.png",
+      "sha256": "7b0285d7414eb4a59507571203dc15a219a3f90781ef360fb8c02ec41d21e7e7",
+      "expected_sha256": "7b0285d7414eb4a59507571203dc15a219a3f90781ef360fb8c02ec41d21e7e7",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2353557_stopsign/completion.png",
+      "sha256": "cb770ef58a56e3e18003e3c5917f96da573eff7b9e225116e5c2c5f51c720830",
+      "expected_sha256": "cb770ef58a56e3e18003e3c5917f96da573eff7b9e225116e5c2c5f51c720830",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2353535_firehydrant/completion.png",
+      "sha256": "cf916269e234c27b5b06940d275d93e9a5c6d637d00ec57e540ec4b123dadb4a",
+      "expected_sha256": "cf916269e234c27b5b06940d275d93e9a5c6d637d00ec57e540ec4b123dadb4a",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2353680_umbrella/completion.png",
+      "sha256": "4871d4ac691d2d1915ffed0cbb5cd37ab22595ceb5f8f1865448bcdf6154e780",
+      "expected_sha256": "4871d4ac691d2d1915ffed0cbb5cd37ab22595ceb5f8f1865448bcdf6154e780",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2353722_cat/completion.png",
+      "sha256": "f4a6a97c4fc62f726ca3403cb178d5dd73abe009b8f1e6aa9978ed25903a1a73",
+      "expected_sha256": "f4a6a97c4fc62f726ca3403cb178d5dd73abe009b8f1e6aa9978ed25903a1a73",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2353562_stopsign/completion.png",
+      "sha256": "b4801ca586a887b9c291367cf4e3b87ef2232f6e4da7c7c3478eef95bf91fbe5",
+      "expected_sha256": "b4801ca586a887b9c291367cf4e3b87ef2232f6e4da7c7c3478eef95bf91fbe5",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2353654_sheep/completion.png",
+      "sha256": "05703b0e66d12971035f131af9a69f6cde3d951e643fe4d611ac1f8ba2e18b68",
+      "expected_sha256": "05703b0e66d12971035f131af9a69f6cde3d951e643fe4d611ac1f8ba2e18b68",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2353465_bench/completion.png",
+      "sha256": "5153fffb36aee63bd8a957f9bcfa0249afd65609fcd38efd309227679ea78a44",
+      "expected_sha256": "5153fffb36aee63bd8a957f9bcfa0249afd65609fcd38efd309227679ea78a44",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2353732_keyboard/completion.png",
+      "sha256": "03fd5983c89663877e12625becec83bc1591874887f1bb80f7f8b9a583bc6e88",
+      "expected_sha256": "03fd5983c89663877e12625becec83bc1591874887f1bb80f7f8b9a583bc6e88",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2353796_microwave/completion.png",
+      "sha256": "375b8e75c99cab55b8469c25a50c7e80f42f9cac653af43d71cea1e9284747ee",
+      "expected_sha256": "375b8e75c99cab55b8469c25a50c7e80f42f9cac653af43d71cea1e9284747ee",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2353756_car/completion.png",
+      "sha256": "d820ca1f5b54eafc5acaca2243422ab5e71e1f0c43300a370c5bddd2006b9757",
+      "expected_sha256": "d820ca1f5b54eafc5acaca2243422ab5e71e1f0c43300a370c5bddd2006b9757",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2353819_airplane/completion.png",
+      "sha256": "d0591ee895176bd09466ee44b1f8f2cd878656509f19d2d6816bb2b9dd4fcfaf",
+      "expected_sha256": "d0591ee895176bd09466ee44b1f8f2cd878656509f19d2d6816bb2b9dd4fcfaf",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2353859_horse/completion.png",
+      "sha256": "277a82b1ca364a94116985ce6996cb97532785455959da765fa05fbeec9edee9",
+      "expected_sha256": "277a82b1ca364a94116985ce6996cb97532785455959da765fa05fbeec9edee9",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2353901_scissors/completion.png",
+      "sha256": "4cce8f7ae5b7c407e203552de4e7318f73fbf69a38fbfdd72a41404d01986299",
+      "expected_sha256": "4cce8f7ae5b7c407e203552de4e7318f73fbf69a38fbfdd72a41404d01986299",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2353868_horse/completion.png",
+      "sha256": "7d24a33c94819c5029698e16b896301b7d01c123447e06d793bee4240301822e",
+      "expected_sha256": "7d24a33c94819c5029698e16b896301b7d01c123447e06d793bee4240301822e",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2353827_motorcycle/completion.png",
+      "sha256": "1ace628f0a5faf31f5d4f4c23281bd5da32536a26aaf3c07b7b9a4eb76c357cc",
+      "expected_sha256": "1ace628f0a5faf31f5d4f4c23281bd5da32536a26aaf3c07b7b9a4eb76c357cc",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2353879_laptop/completion.png",
+      "sha256": "5c9c958bff922ca6584d1d3a3d77631af58f59cd78ceb3d56de17f024443538e",
+      "expected_sha256": "5c9c958bff922ca6584d1d3a3d77631af58f59cd78ceb3d56de17f024443538e",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2353929_toilet/completion.png",
+      "sha256": "dcc61e8e87efcb4a768b91dd547c54951eb3dfc7e008c3d5699d6b2b001429fa",
+      "expected_sha256": "dcc61e8e87efcb4a768b91dd547c54951eb3dfc7e008c3d5699d6b2b001429fa",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2353988_laptop/completion.png",
+      "sha256": "ea97c8cb5bacc11a6ed892dc35eea65acb4664967018f1b2b477f3ee52885e00",
+      "expected_sha256": "ea97c8cb5bacc11a6ed892dc35eea65acb4664967018f1b2b477f3ee52885e00",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2354014_bus/completion.png",
+      "sha256": "8b7f90bfbcebccc8661642524ef6fd9842056c32fe52c1b9bdb50826aa9b8011",
+      "expected_sha256": "8b7f90bfbcebccc8661642524ef6fd9842056c32fe52c1b9bdb50826aa9b8011",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2353944_elephant/completion.png",
+      "sha256": "cd9aca75e192722853bbae58eea038afcd1a0cfc90d9198d23889cbb6961510c",
+      "expected_sha256": "cd9aca75e192722853bbae58eea038afcd1a0cfc90d9198d23889cbb6961510c",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2353963_airplane/completion.png",
+      "sha256": "305a909d1e50ec08529ea8d5bc0363b54e239df97e97e48eb52629314015a8fc",
+      "expected_sha256": "305a909d1e50ec08529ea8d5bc0363b54e239df97e97e48eb52629314015a8fc",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/2354044_baseballbat/completion.png",
+      "sha256": "53f39792264fd5898727e098c401b671e1b5b7eef875f1fcb0a9be2ae852af60",
+      "expected_sha256": "53f39792264fd5898727e098c401b671e1b5b7eef875f1fcb0a9be2ae852af60",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/285637_refrigerator/completion.png",
+      "sha256": "26cc5a1a1ae7598eec0214d02de552f198c8836adf488647f75f8fad583767e8",
+      "expected_sha256": "26cc5a1a1ae7598eec0214d02de552f198c8836adf488647f75f8fad583767e8",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/285638_scissors/completion.png",
+      "sha256": "569e4f05eaf57b167273f061b8e949357796729d0c04efdefd937bed191897d1",
+      "expected_sha256": "569e4f05eaf57b167273f061b8e949357796729d0c04efdefd937bed191897d1",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/285627_keyboard/completion.png",
+      "sha256": "1cd315530c06e3836bf1c8f8998e6a881c913e23734cf6c2cbd239e0fd95776f",
+      "expected_sha256": "1cd315530c06e3836bf1c8f8998e6a881c913e23734cf6c2cbd239e0fd95776f",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/285683_knife/completion.png",
+      "sha256": "52eb77fef455cd98c8f681f9c3c01a572f579844b765cdee80d87d8677bf60fc",
+      "expected_sha256": "52eb77fef455cd98c8f681f9c3c01a572f579844b765cdee80d87d8677bf60fc",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/285758_cat/completion.png",
+      "sha256": "9c42fe9e97cc7b284bdb96315a87ec34e9c12b9fb8fbe2cd4d9bcc572fa59fb7",
+      "expected_sha256": "9c42fe9e97cc7b284bdb96315a87ec34e9c12b9fb8fbe2cd4d9bcc572fa59fb7",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/285857_pinkbicycle/completion.png",
+      "sha256": "764cea8f163704a1ba859e5ce9d7cb0403f1798a58a98624e8aacfb5ea4ab7a6",
+      "expected_sha256": "764cea8f163704a1ba859e5ce9d7cb0403f1798a58a98624e8aacfb5ea4ab7a6",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/285863_whitecar/completion.png",
+      "sha256": "67441398ba3cc40dab1595bc9b0ee6ef521b4536890701d717cb97a28defa749",
+      "expected_sha256": "67441398ba3cc40dab1595bc9b0ee6ef521b4536890701d717cb97a28defa749",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/285735_laptop/completion.png",
+      "sha256": "0f7d91593f77c87b456f3120e8036e879df7a3bafd971d0fc28dc39f0111186f",
+      "expected_sha256": "0f7d91593f77c87b456f3120e8036e879df7a3bafd971d0fc28dc39f0111186f",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/286059_teddybear/completion.png",
+      "sha256": "22e1975f12ac90d01643a745fec382fa16fa71cbf6779b23797d100d19150383",
+      "expected_sha256": "22e1975f12ac90d01643a745fec382fa16fa71cbf6779b23797d100d19150383",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/498191_keyboard/completion.png",
+      "sha256": "fa3acf38062834d1a2b4e7a6d22cbd1cc45b4b020f67ff402a50dcf0dfb684c4",
+      "expected_sha256": "fa3acf38062834d1a2b4e7a6d22cbd1cc45b4b020f67ff402a50dcf0dfb684c4",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/285890_bus/completion.png",
+      "sha256": "107a00f7d5e94c765eba80b76972d4046b76734ac7ee6485b1071f2e2f7268fd",
+      "expected_sha256": "107a00f7d5e94c765eba80b76972d4046b76734ac7ee6485b1071f2e2f7268fd",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/285725_sink/completion.png",
+      "sha256": "b3b34f393e86e20a9001dfa6e7323ba2e12d3ff6f85e6d35c7ec1146e33ff093",
+      "expected_sha256": "b3b34f393e86e20a9001dfa6e7323ba2e12d3ff6f85e6d35c7ec1146e33ff093",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/498148_table/completion.png",
+      "sha256": "d447631fa17c585c9ec783d4db24c20fbcac802bffede8d5477f05f4b3c8ed2d",
+      "expected_sha256": "d447631fa17c585c9ec783d4db24c20fbcac802bffede8d5477f05f4b3c8ed2d",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/61560_surfboard/completion.png",
+      "sha256": "62862b2b76d88145fdbf80ee3be09265ce630cb9b14c902d68ac5b3fe843e04c",
+      "expected_sha256": "62862b2b76d88145fdbf80ee3be09265ce630cb9b14c902d68ac5b3fe843e04c",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/498409_horse/completion.png",
+      "sha256": "ae1b707c63ebe9242ec656a0a448e1b38c1aa641376c86b07c3b13acce58c49f",
+      "expected_sha256": "ae1b707c63ebe9242ec656a0a448e1b38c1aa641376c86b07c3b13acce58c49f",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/61578_blueumbrella/completion.png",
+      "sha256": "b78c4a310bbb1e00f99bebec0b7e866f90fd37e25c5c045f947bfb9ef251df20",
+      "expected_sha256": "b78c4a310bbb1e00f99bebec0b7e866f90fd37e25c5c045f947bfb9ef251df20",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/61563_whitecar/completion.png",
+      "sha256": "1b54c98ad3f82877a6778d12414d2e2d94da0bc64a162d7ecb9432ee708a908d",
+      "expected_sha256": "1b54c98ad3f82877a6778d12414d2e2d94da0bc64a162d7ecb9432ee708a908d",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/61562_book/completion.png",
+      "sha256": "987598f9a87e78a493b8519fda5ec5607bf85a72b6f4eeac867333f860504dda",
+      "expected_sha256": "987598f9a87e78a493b8519fda5ec5607bf85a72b6f4eeac867333f860504dda",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/713029_laptop/completion.png",
+      "sha256": "d2ceb80511de20288f074e2b52697411c53335435fdd5fffdf592235d3dedbe5",
+      "expected_sha256": "d2ceb80511de20288f074e2b52697411c53335435fdd5fffdf592235d3dedbe5",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/713259_redbus/completion.png",
+      "sha256": "5451c2a00c94cafddeb7ce256b2fdb87313d749b5b2a0cfc8f1def8274edeadf",
+      "expected_sha256": "5451c2a00c94cafddeb7ce256b2fdb87313d749b5b2a0cfc8f1def8274edeadf",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/713178_zebra/completion.png",
+      "sha256": "abfc4ae379d8988270d592635f6ef2beccc80f982ea89c8ff906f902013bb6e3",
+      "expected_sha256": "abfc4ae379d8988270d592635f6ef2beccc80f982ea89c8ff906f902013bb6e3",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/713015_chair/completion.png",
+      "sha256": "5c20150f3441f1c1b6d9b34b19617644e19ba99bad485976f8e9e89324cd5f3b",
+      "expected_sha256": "5c20150f3441f1c1b6d9b34b19617644e19ba99bad485976f8e9e89324cd5f3b",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/61549_elephant/completion.png",
+      "sha256": "5736b3eb2cb454c79a03d76d2989dc6da8eb6a19e1df71ff0cfced43a2974384",
+      "expected_sha256": "5736b3eb2cb454c79a03d76d2989dc6da8eb6a19e1df71ff0cfced43a2974384",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/713358_bluebus/completion.png",
+      "sha256": "433bd34db1c236584283c33b1a4438bd7a93063b1b362d5d70a9178c6bffb668",
+      "expected_sha256": "433bd34db1c236584283c33b1a4438bd7a93063b1b362d5d70a9178c6bffb668",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/713392_redbus/completion.png",
+      "sha256": "05ae47692fa86bead78af59998f72ac422ecf0c7d54ac84aa53384d53c8ce496",
+      "expected_sha256": "05ae47692fa86bead78af59998f72ac422ecf0c7d54ac84aa53384d53c8ce496",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/713101_whitecar/completion.png",
+      "sha256": "6219931c7d34c74718f4a2302b79df0bf6caa22a75356273d160e2ffee625481",
+      "expected_sha256": "6219931c7d34c74718f4a2302b79df0bf6caa22a75356273d160e2ffee625481",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/713431_sofa/completion.png",
+      "sha256": "dad3ce4fc10064725cfaa442a4d3040678a8e1a5931df2fe1761e14a9bf6879f",
+      "expected_sha256": "dad3ce4fc10064725cfaa442a4d3040678a8e1a5931df2fe1761e14a9bf6879f",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/713442_dog/completion.png",
+      "sha256": "b2ab539ca0390a2f1a78de809302740e4cad915a34a35e21f02aca413511b0ce",
+      "expected_sha256": "b2ab539ca0390a2f1a78de809302740e4cad915a34a35e21f02aca413511b0ce",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/713500_refrigerator/completion.png",
+      "sha256": "e3519e206dad88c6056a1e2057d72775f0a1c62e320fd9af4e6eccb7c2ed5bd1",
+      "expected_sha256": "e3519e206dad88c6056a1e2057d72775f0a1c62e320fd9af4e6eccb7c2ed5bd1",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/713329_refrigerator/completion.png",
+      "sha256": "d5b1e51a246b1b90a8416032860eaa2503b2a226d3dc859ac5d51d74b6a6f145",
+      "expected_sha256": "d5b1e51a246b1b90a8416032860eaa2503b2a226d3dc859ac5d51d74b6a6f145",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/713559_refrigerator/completion.png",
+      "sha256": "6aedfb0ba29cafd1b01ec426f0d7df1605e5178552c2faa824a4804ee7401320",
+      "expected_sha256": "6aedfb0ba29cafd1b01ec426f0d7df1605e5178552c2faa824a4804ee7401320",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/713433_keyboard/completion.png",
+      "sha256": "626d07c0635005c73f56306b5c9e611d470f433ac77c91dc4cba0a3db11c2a85",
+      "expected_sha256": "626d07c0635005c73f56306b5c9e611d470f433ac77c91dc4cba0a3db11c2a85",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/713573_laptop/completion.png",
+      "sha256": "e69ccecc012b881c8f8014b3d88b99ffacfefa06e3220ef4f95a5fed0d882a3a",
+      "expected_sha256": "e69ccecc012b881c8f8014b3d88b99ffacfefa06e3220ef4f95a5fed0d882a3a",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/713680_dog/completion.png",
+      "sha256": "7e218bd75a585731ed039571d457c627d0994357b54ee45c22bb4a235466e136",
+      "expected_sha256": "7e218bd75a585731ed039571d457c627d0994357b54ee45c22bb4a235466e136",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/713626_redbus/completion.png",
+      "sha256": "1a6c7e1ea48b54cf8c93bb929d766fc3b66970cf971fb7c096f18d50e1093a5a",
+      "expected_sha256": "1a6c7e1ea48b54cf8c93bb929d766fc3b66970cf971fb7c096f18d50e1093a5a",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/713923_yellowbus/completion.png",
+      "sha256": "7ead1d8cc6e1bbb54cc4072115c95fa35c9282554913480c2799d83b686e98b5",
+      "expected_sha256": "7ead1d8cc6e1bbb54cc4072115c95fa35c9282554913480c2799d83b686e98b5",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/713703_suitcase/completion.png",
+      "sha256": "2e2c6cd6708e7e09c1b100f3c450b4abcfc2d1d26de4199cd8578623c124ed84",
+      "expected_sha256": "2e2c6cd6708e7e09c1b100f3c450b4abcfc2d1d26de4199cd8578623c124ed84",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/713936_sofa/completion.png",
+      "sha256": "34356276284f7196dbe895ef34c8eaacc6f4128e3179c5261b437fa4c7e7cf88",
+      "expected_sha256": "34356276284f7196dbe895ef34c8eaacc6f4128e3179c5261b437fa4c7e7cf88",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/713868_whitebus/completion.png",
+      "sha256": "bd3af182e8e2e107f15794a56e0113ccd6261634d08892d35ef3120845bf8bb6",
+      "expected_sha256": "bd3af182e8e2e107f15794a56e0113ccd6261634d08892d35ef3120845bf8bb6",
+      "exact_match": true
+    },
+    {
+      "path": "output/pdmc-baseline-provenance-20261105/targets/VG/713646_bed/completion.png",
+      "sha256": "19bdd2e3f8a2d0b7b3d0c7a302b88735d18d1b8aaddb932f2a40e2e386bf3edd",
+      "expected_sha256": "19bdd2e3f8a2d0b7b3d0c7a302b88735d18d1b8aaddb932f2a40e2e386bf3edd",
+      "exact_match": true
+    }
+  ],
+  "method": "Restore recorded PNG encodings from hash-verified source RGB/JPEG and recorded masks; accept only exact independent remote hashes. No inference or metric evaluation."
+}

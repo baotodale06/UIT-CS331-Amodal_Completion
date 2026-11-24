@@ -1,0 +1,48 @@
+{
+  "experiment": "shape-proper-loss-kaggle-20261123",
+  "scope": "Isolated two-T4 shape-only training. No Surface, appearance loss, RGB correction or combined method.",
+  "seed": 20261125,
+  "training_platform": "Kaggle",
+  "initial_checkpoint_sha256": "f3caa75ac40f901a7595fffa2c199221b83e7fe5a57192f34e2b2317ffe937b7",
+  "validation_diagnostic_result_sha256": "72024ef3c9f171209a74ced8e649fff7806c64c72e7315f37431772b8863b21a",
+  "training": {
+    "architecture": "resnet34_unet_5channel",
+    "initialization": "Frozen v2 epoch47 stem/encoder/BatchNorm; train GroupNorm decoder only; verify encoder state hash each epoch",
+    "world_size": 2,
+    "batch_size": 64,
+    "workers_per_rank": 2,
+    "size": 256,
+    "epochs": 20,
+    "learning_rate": 1e-05,
+    "weight_decay": 0.0001,
+    "precision": "FP16 training with GradScaler and deterministic cuDNN; FP32 native validation with cudnn.deterministic=False and cudnn.benchmark=False to match frozen SAM diagnostic exactly. Restore training flag after validation.",
+    "selection": "Include replayed initial checkpoint as epoch zero. Require native validation full IoU >= initial; among eligible epochs maximize hidden IoU, full IoU tie-break, stable first. If none improves, retain epoch zero and do not promote.",
+    "input_mix": "75% SAM support, 25% annotated support. Empty training SAM uses annotated branch, counted explicitly.",
+    "augmentation": "50% horizontal flip, 25% extra half-plane occlusion, visible-derived crop padding 1.5-3.0",
+    "loss": "Mean per-object binary cross entropy over pixels outside input support, with true amodal labels. Input SAM or augmented annotated support defines only which predictions can change at inference. No class weights, full/hidden Dice or positive-hidden bonus. Observable support remains clamped to one.",
+    "distributed_sampling": "DistributedSampler padding recorded; rank-zero BatchNorm buffers broadcast before native validation and checkpointing",
+    "probability_loss_version": 1
+  },
+  "inference_geometry": {
+    "crop": "Square SAM-support box, padding 2.0",
+    "input": "RGB restricted to SAM support, SAM mask and its complement",
+    "native_probability": "Resize logits to native crop before sigmoid; zero outside crop; input SAM support set to one. Same geometry policy as frozen v2.",
+    "empty_mask": "Zero prediction",
+    "threshold": 0.5
+  },
+  "evaluation": {
+    "validation": "The existing 1264 objects / 217 images and recovered single-mask SAM diagnostic inputs",
+    "hidden_truth": "True amodal mask minus annotated visible mask, fixed across conditions",
+    "holdout_used": false,
+    "benchmark_used_for_training": false,
+    "status": "Exploratory validation-driven development; no untouched confirmation claim",
+    "success": "The active all-four full-benchmark >=3% goal remains unchanged and unachieved; validation gains alone cannot satisfy it",
+    "rationale": "The complete fixed-epoch7 error audit attributes the support-restored full-IoU regression to extra false positives outside SAM support. Test proper probability supervision instead of the non-proper Dice/hidden-positive objective. This hypothesis is not established by the arithmetic attribution.",
+    "benchmark_diagnostic_seen": "The completed nonrandom 193-target frozen-v2 VG prefix has been observed; this is iterative research. No image-quality score enters training, checkpoint selection, or its validation constraint.",
+    "engineering_repair": "Frozen diagnostic45676 measured changed thresholded geometry for one of79 objects with deterministic=True, zero with False. Pixelwise differences were not measured. Preserve exact initial replay and native arithmetic.",
+    "platform_change": "Separate two-T4 Kaggle loss ablation from constrained version2. Same initialization, data, seed, 20 epochs, learning rate, augmentation, DDP/global batch64, exact initial replay and full-IoU retention rule. Decoder uses GroupNorm. No benchmark or holdout access; no relaxed replay."
+  },
+  "parent_training_source_sha256": "028f27c52610a5dd436382c55d2ce408dc55bb49e6f6f13553b9c6bd586e2343",
+  "schema": 7,
+  "error_mode_result_sha256": "891c470d152d577970cc2c38a93af142a67c46df14e01d41ac6106824a12c42d"
+}
